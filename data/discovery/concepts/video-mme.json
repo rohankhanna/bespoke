@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "video-mme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate-context",
+      "text": "\u2728\u2728[CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate-context",
+      "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate",
+      "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "video-mme",
+  "concept_id": "video-mme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-mme",
+      "sense_id": "video-mme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

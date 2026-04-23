@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v5",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "lahma/test262-harness-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amerkoleci/Alimer.Bindings"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adams85/acornima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "adams85/acornima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sebastienros/jint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "sebastienros/jint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sebastienros/jint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/grammar-validator.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renumber-sections.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smart-quotes.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tools-tests.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-on-merge.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml",
+      "source_repo": "apache/opendal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli"
     }
   ]
 }

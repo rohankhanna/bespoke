@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/cnn-dailymail",
+      "target": "abisee/pointer-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/cnn-dailymail",
+      "target": "becxer/cnn-dailymail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abisee/cnn-dailymail",
+      "target": "jafferwilson/process-data-of-cnn-dailymail",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:26.372384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code to obtain the CNN / Daily Mail dataset (non-anonymized) for summarization",
+    "fork": false,
+    "full_name": "abisee/cnn-dailymail",
+    "html_url": "https://github.com/abisee/cnn-dailymail",
+    "language": "Python",
+    "pushed_at": "2022-06-16T22:22:02Z",
+    "stargazers_count": 663,
+    "topics": [],
+    "updated_at": "2026-04-15T16:28:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abisee/pointer-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "becxer/cnn-dailymail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jafferwilson/process-data-of-cnn-dailymail",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

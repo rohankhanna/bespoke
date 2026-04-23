@@ -1,0 +1,12 @@
+{
+  "component": "skx/github-action-tester@e29768ff4ff67be9d1fdbccd8836ab83233bebb1",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ]
+}

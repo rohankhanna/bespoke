@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "grpc-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "hashicorp-raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:08.653670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 669
+    },
+    {
+      "path": "go.mod",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make hashicorp/raft communicate over gRPC",
+    "fork": false,
+    "full_name": "Jille/raft-grpc-transport",
+    "html_url": "https://github.com/Jille/raft-grpc-transport",
+    "language": "Go",
+    "pushed_at": "2024-07-22T11:49:39Z",
+    "stargazers_count": 51,
+    "topics": [
+      "golang",
+      "grpc",
+      "grpc-go",
+      "hashicorp-raft",
+      "raft"
+    ],
+    "updated_at": "2025-12-13T13:51:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-go"
+    },
+    {
+      "context_snippet": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-raft"
+    },
+    {
+      "context_snippet": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    }
+  ]
+}

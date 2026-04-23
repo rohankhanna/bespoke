@@ -31,6 +31,18 @@
       "source_repo": "BrianPugh/belay",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Deep Hough Voting for 3D Object Detection in Point Clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "BrianPugh/belay",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BrianPugh/belay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/votenet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

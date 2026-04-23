@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "seata/seata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "seata/seata-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "seata/seata-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "License checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "Publish Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/incubator-seata-k8s",
+      "target": "saga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:11.860832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9780
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2161
+    },
+    {
+      "path": "go.mod",
+      "size": 3008
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/license-checker.yaml",
+      "size": 1907
+    },
+    {
+      "path": ".github/workflows/publish-docker.yml",
+      "size": 891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Seata Kubernetes Operations Tool",
+    "fork": false,
+    "full_name": "apache/incubator-seata-k8s",
+    "html_url": "https://github.com/apache/incubator-seata-k8s",
+    "language": "Go",
+    "pushed_at": "2026-02-25T16:02:38Z",
+    "stargazers_count": 49,
+    "topics": [
+      "at",
+      "saga",
+      "tcc",
+      "xa"
+    ],
+    "updated_at": "2026-04-14T07:02:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seata/seata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seata/seata-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seata/seata-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "term": "License checker"
+    },
+    {
+      "context_snippet": "Publish Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "term": "Publish Docker"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saga"
+    }
+  ]
+}

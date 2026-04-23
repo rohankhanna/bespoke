@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "generativeai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "henk717/KoboldAI",
+      "status": "candidate-context",
+      "text": "KoboldAI is generative AI software optimized for fictional use, but capable of much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henk717/KoboldAI",
+      "status": "candidate-context",
+      "text": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henk717/KoboldAI",
+      "status": "candidate",
+      "text": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "generativeai",
+  "concept_id": "generativeai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "henk717/KoboldAI"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generativeai",
+      "sense_id": "generativeai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

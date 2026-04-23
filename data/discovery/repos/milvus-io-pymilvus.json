@@ -1,0 +1,480 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milvus_proto.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milvus_proto.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "milvus-io/milvus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "milvus-io/milvus-proto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherrypick.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherrypick.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milvus_proto.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milvus_proto.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_milvus_proto.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Check proto on pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checker.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_checker.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_checker.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Code checker on pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Publish \ud83d\udc0d On Release to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Test on pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml",
+      "source_repo": "milvus-io/pymilvus",
+      "target": "Update PyMilvus in Milvus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "anns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "faiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "faiss-vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "milvus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "milvus-lite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "milvus-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "python-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:07:45.580605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4273
+    },
+    {
+      "path": "Dockerfile",
+      "size": 77
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6406
+    },
+    {
+      "path": ".github/workflows/auto-cherrypick.yml",
+      "size": 14798
+    },
+    {
+      "path": ".github/workflows/check_milvus_proto.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/code_checker.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/publish_dev_package.yml",
+      "size": 1069
+    },
+    {
+      "path": ".github/workflows/publish_on_release.yml",
+      "size": 1016
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/update-milvus-pymilvus-dev.yml",
+      "size": 6895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python SDK for Milvus Vector Database",
+    "fork": false,
+    "full_name": "milvus-io/pymilvus",
+    "html_url": "https://github.com/milvus-io/pymilvus",
+    "language": "Python",
+    "pushed_at": "2026-04-23T11:41:40Z",
+    "stargazers_count": 1368,
+    "topics": [
+      "anns",
+      "faiss",
+      "faiss-vector-database",
+      "milvus",
+      "milvus-lite",
+      "milvus-sdk",
+      "python",
+      "python-sdk",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-23T11:01:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-proto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherrypick.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "Check proto on pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_milvus_proto.yml",
+      "term": "Check proto on pull request"
+    },
+    {
+      "context_snippet": "Code checker on pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_checker.yml",
+      "term": "Code checker on pull request"
+    },
+    {
+      "context_snippet": "Publish \ud83d\udc0d On Release to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "term": "Publish \ud83d\udc0d On Release to PyPI"
+    },
+    {
+      "context_snippet": "Test on pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Test on pull request"
+    },
+    {
+      "context_snippet": "Update PyMilvus in Milvus",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-milvus-pymilvus-dev.yml",
+      "term": "Update PyMilvus in Milvus"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anns"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faiss"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faiss-vector-database"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "milvus"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "milvus-lite"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "milvus-sdk"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-sdk"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keithito/tacotron",
+      "target": "begeekmyfriend/tacotron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keithito/tacotron",
+      "target": "barronalex/tacotron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keithito/tacotron",
+      "target": "kyubyong/tacotron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keithito/tacotron",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keithito/tacotron",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keithito/tacotron",
+      "target": "tacotron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keithito/tacotron",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:06.328386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6960
+    },
+    {
+      "path": "requirements.txt",
+      "size": 300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)",
+    "fork": false,
+    "full_name": "keithito/tacotron",
+    "html_url": "https://github.com/keithito/tacotron",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:12:04Z",
+    "stargazers_count": 2986,
+    "topics": [
+      "machine-learning",
+      "python",
+      "speech-synthesis",
+      "tacotron",
+      "tensorflow",
+      "tts"
+    ],
+    "updated_at": "2026-04-09T23:00:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barronalex/tacotron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "begeekmyfriend/tacotron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyubyong/tacotron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An implementation of Tacotron speech synthesis in TensorFlow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "An implementation of Tacotron speech synthesis in TensorFlow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "An implementation of Tacotron speech synthesis in TensorFlow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron"
+    },
+    {
+      "context_snippet": "An implementation of Tacotron speech synthesis in TensorFlow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

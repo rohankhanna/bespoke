@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "codejamninja/sphinx-jekyll-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "rtfd/recommonmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "restructuredtext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "target": "sphinx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:06:23.455347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    },
+    {
+      "path": "requirements.txt",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "sphinx builder that outputs jekyll compatible markdown files with frontmatter",
+    "fork": false,
+    "full_name": "clayrisser/sphinx-jekyll-builder",
+    "html_url": "https://github.com/clayrisser/sphinx-jekyll-builder",
+    "language": "Python",
+    "pushed_at": "2023-07-13T06:20:17Z",
+    "stargazers_count": 21,
+    "topics": [
+      "builder",
+      "docs",
+      "documentation",
+      "jekyll",
+      "markdown",
+      "md",
+      "python",
+      "restructuredtext",
+      "rst",
+      "sphinx"
+    ],
+    "updated_at": "2025-07-30T17:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-jekyll-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtfd/recommonmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builder"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restructuredtext"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx"
+    }
+  ]
+}

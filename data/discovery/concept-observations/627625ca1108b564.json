@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Finformative top for finding fiery processes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-ui",
+      "sense_id": "text-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-ui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-ui",
+  "observation_id": "627625ca1108b564",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "text-ui",
+  "source_context_snippet": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)",
+  "source_file": null,
+  "source_repo": "walles/ftop",
+  "source_repo_description": "Finformative top for finding fiery processes"
+}

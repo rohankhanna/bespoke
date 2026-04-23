@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "knative/actions/setup-go@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@v0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-kind@36fe99ff72c697d33814bc35228637194f012c47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "knative/actions/setup-go@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml"
+    },
+    {
+      "component": "knative/actions/go/downstream-test@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-style.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-style.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-verify-codegen.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-verify.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "ko-build/setup-ko@v0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "chainguard-dev/actions/setup-kind@36fe99ff72c697d33814bc35228637194f012c47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "rtCamp/action-slack-notify@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing",
+      "target": "KinD e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml",
+      "source_repo": "knative/eventing",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-downstream.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/go/downstream-test@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-downstream.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Downstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Close stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-style.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Code Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/eventing",
+      "target": "knative/actions/.github/workflows/reusable-verify-codegen.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/eventing",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "cloudevents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "developer-productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "event-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "eventing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "knative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/eventing",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:44.688203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7044
+    },
+    {
+      "path": "go.mod",
+      "size": 7784
+    },
+    {
+      "path": ".github/workflows/kind-e2e.yaml",
+      "size": 4961
+    },
+    {
+      "path": ".github/workflows/knative-downstream.yaml",
+      "size": 2169
+    },
+    {
+      "path": ".github/workflows/knative-go-build.yaml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/knative-go-test.yaml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/knative-security.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/knative-stale.yaml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/knative-style.yaml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/knative-verify.yaml",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Event-driven application platform for Kubernetes",
+    "fork": false,
+    "full_name": "knative/eventing",
+    "html_url": "https://github.com/knative/eventing",
+    "language": "Go",
+    "pushed_at": "2026-04-23T11:01:15Z",
+    "stargazers_count": 1540,
+    "topics": [
+      "binding",
+      "cloudevents",
+      "developer-productivity",
+      "event-driven",
+      "eventing",
+      "events",
+      "knative",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-23T11:01:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "KinD e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "term": "KinD e2e tests"
+    },
+    {
+      "context_snippet": "Downstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-downstream.yaml",
+      "term": "Downstream"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "'Security'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "'Close stale'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "term": "Close stale"
+    },
+    {
+      "context_snippet": "Code Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "term": "Code Style"
+    },
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudevents"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-productivity"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-driven"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventing"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knative"
+    },
+    {
+      "context_snippet": "_Secure event processing and discovery with CloudEvents_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

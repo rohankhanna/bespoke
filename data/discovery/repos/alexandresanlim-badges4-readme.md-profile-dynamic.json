@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "readme-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "target": "social",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:32.589280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":octocat: Improve your README.md profile with these amazing and dynamic badges.",
+    "fork": false,
+    "full_name": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+    "html_url": "https://github.com/alexandresanlim/Badges4-README.md-Profile-Dynamic",
+    "language": "Markdown",
+    "pushed_at": "2023-12-08T11:38:03Z",
+    "stargazers_count": 116,
+    "topics": [
+      "badge",
+      "github",
+      "markdown",
+      "md",
+      "profile",
+      "readme",
+      "readme-profile",
+      "social"
+    ],
+    "updated_at": "2026-04-16T07:56:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-profile"
+    },
+    {
+      "context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social"
+    }
+  ]
+}

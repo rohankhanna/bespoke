@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "weiliu89/caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "jinfagang/kitti-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "chuanqi305/rscnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "mobilenet-ssd",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "chuanqi305/MobileNet-SSD"
+}

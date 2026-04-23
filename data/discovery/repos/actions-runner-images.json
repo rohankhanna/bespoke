@@ -93,27 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "aws/homebrew-tap",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "azure/homebrew-bicep",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "mongodb/homebrew-brew",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-pinned-versions.yml",
       "source_repo": "actions/runner-images",
@@ -289,7 +268,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T10:26:18.027923+00:00",
+  "fetched_at": "2026-04-23T21:44:21.254286+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -332,7 +311,6 @@
       "size": 513
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:24.147963+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -342,70 +320,63 @@
     "full_name": "actions/runner-images",
     "html_url": "https://github.com/actions/runner-images",
     "language": "PowerShell",
-    "pushed_at": "2026-04-19T12:54:06Z",
-    "stargazers_count": 12666,
+    "pushed_at": "2026-04-23T15:37:08Z",
+    "stargazers_count": 12670,
     "topics": [],
-    "updated_at": "2026-04-19T12:54:19Z"
+    "updated_at": "2026-04-23T14:58:38Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aws/homebrew-tap",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "azure/homebrew-bicep",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mongodb/homebrew-brew",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
+      "context_snippet": "Check Outdated Version Pinning",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check-pinned-versions.yml",
       "term": "Check Outdated Version Pinning"
     },
     {
+      "context_snippet": "\"CodeQL\"",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "term": "CodeQL"
     },
     {
+      "context_snippet": "Create GitHub release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/create_github_release.yml",
       "term": "Create GitHub release"
     },
     {
+      "context_snippet": "Create Pull Request",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/create_pull_request.yml",
       "term": "Create Pull Request"
     },
     {
+      "context_snippet": "Create SBOM for the release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/create_sbom_report.yml",
       "term": "Create SBOM for the release"
     },
     {
+      "context_snippet": "Test Docker Images",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-images.yml",
       "term": "Test Docker Images"
     },
     {
+      "context_snippet": "Linter",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/linter.yml",
       "term": "Linter"
     },
     {
+      "context_snippet": "Merge pull request",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/merge_pull_request.yml",
       "term": "Merge pull request"
     },
     {
+      "context_snippet": "PowerShell Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/powershell-tests.yml",
       "term": "PowerShell Tests"

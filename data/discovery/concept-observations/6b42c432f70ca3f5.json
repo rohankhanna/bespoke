@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999942,
+      "status": "candidate",
+      "text": "continuum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999927,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999881,
+      "status": "candidate",
+      "text": "sphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983190,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976304,
+      "status": "candidate",
+      "text": "radiofrequency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spectrum",
+      "sense_id": "spectrum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spectrum",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spectrum",
+  "observation_id": "6b42c432f70ca3f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "spectrum",
+  "source_context_snippet": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/).",
+  "source_file": null,
+  "source_repo": "adobe/spectrum-web-components",
+  "source_repo_description": "Spectrum Web Components"
+}

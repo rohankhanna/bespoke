@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973562,
+      "status": "candidate",
+      "text": "authority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958914,
+      "status": "candidate",
+      "text": "commissioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975757,
+      "status": "candidate",
+      "text": "authoriser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975756,
+      "status": "candidate",
+      "text": "empowerer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975755,
+      "status": "candidate",
+      "text": "okayer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "authorizer",
+      "sense_id": "authorizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "authorizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "authorizer",
+  "observation_id": "b19b51759545f869",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "authorizer",
+  "source_context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+  "source_file": null,
+  "source_repo": "authorizer-tech/access-controller",
+  "source_repo_description": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\""
+}

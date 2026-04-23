@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package for comparing Go values in tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966100,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894724,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966810,
+      "status": "candidate",
+      "text": "equally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966600,
+      "status": "candidate",
+      "text": "equivalency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966585,
+      "status": "candidate",
+      "text": "equal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "equality",
+      "sense_id": "equality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7040,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4073,
+      "status": "candidate",
+      "text": "par"
+    }
+  ],
+  "concept_id": "equality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "equality",
+  "observation_id": "cbc3831323d2be47",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "equality",
+  "source_context_snippet": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]",
+  "source_file": null,
+  "source_repo": "google/go-cmp",
+  "source_repo_description": "Package for comparing Go values in tests"
+}

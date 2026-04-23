@@ -223,6 +223,114 @@
       "source_repo": "shakacode/package_json",
       "status": "candidate-context",
       "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate-context",
+      "text": "Scalable toolkit for efficient model reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -337,6 +445,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "shakacode/package_json",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -520,11 +682,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "NVIDIA-NeMo/RL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "nearai/ironclaw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

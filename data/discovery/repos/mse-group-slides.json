@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:45:19.945865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u63d0\u4f9b MSE \u76f8\u5173\u7684\u5927\u4f1a\u3001\u76f4\u64ad\u548c Meetup \u7684 PPT \u4e0b\u8f7d\u3002",
+    "fork": false,
+    "full_name": "mse-group/Slides",
+    "html_url": "https://github.com/mse-group/Slides",
+    "language": null,
+    "pushed_at": "2024-09-25T03:35:28Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2025-09-30T15:15:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

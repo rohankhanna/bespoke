@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "bluebird",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "eslint-plugin-google-camelcase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "google-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-bump",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-clean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-coffee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "load-grunt-tasks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "superagent",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "GoogleChrome/accessibility-developer-tools"
+}

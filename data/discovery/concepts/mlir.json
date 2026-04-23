@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "mlir"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mlir",
+  "concept_id": "mlir",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlir",
+      "sense_id": "mlir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

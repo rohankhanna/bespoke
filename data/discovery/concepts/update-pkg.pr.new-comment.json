@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update pkg.pr.new comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Svelte using AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Update pkg.pr.new comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate",
+      "text": "Update pkg.pr.new comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11785,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11785,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11785,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11722,
+      "status": "candidate",
+      "text": "tweet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10760,
+      "status": "candidate",
+      "text": "amend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update pkg.pr.new comment",
+  "concept_id": "update-pkg.pr.new-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update pkg.pr.new comment",
+      "sense_id": "update-pkg.pr.new-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wezterm/wezterm",
-      "target": "wez/finl_unicode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wezterm/wezterm",
-      "target": "wezterm/xcb-imdkit-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fmt.yml",
       "source_repo": "wezterm/wezterm",
@@ -421,6 +407,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "wezterm/wezterm"
 }

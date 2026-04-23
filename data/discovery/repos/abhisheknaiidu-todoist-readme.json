@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "child_process",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "humanize-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "process",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zeit/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "gautamkrishnar/blog-post-workflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "child_process",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "humanize-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "process",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "@zeit/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "github-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "time-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "todoist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "todoist-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "target": "todoist-tasks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:42.595247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3914
+    },
+    {
+      "path": "package.json",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udea7 Updates README with Todoist Stats of a user",
+    "fork": false,
+    "full_name": "abhisheknaiidu/todoist-readme",
+    "html_url": "https://github.com/abhisheknaiidu/todoist-readme",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-18T14:58:26Z",
+    "stargazers_count": 163,
+    "topics": [
+      "github-actions",
+      "github-readme",
+      "time-tracker",
+      "todoist",
+      "todoist-api",
+      "todoist-tasks"
+    ],
+    "updated_at": "2026-04-19T18:45:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/blog-post-workflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-readme"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-tracker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todoist"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todoist-api"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todoist-tasks"
+    }
+  ]
+}

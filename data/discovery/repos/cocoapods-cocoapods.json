@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/cocoapods-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/claide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/molinillo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "Specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:43:17.666793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6266
+    },
+    {
+      "path": ".github/workflows/Lint.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/Specs.yml",
+      "size": 2197
+    },
+    {
+      "path": ".github/workflows/issue-opened.yml",
+      "size": 2528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Cocoa Dependency Manager.",
+    "fork": false,
+    "full_name": "CocoaPods/CocoaPods",
+    "html_url": "https://github.com/CocoaPods/CocoaPods",
+    "language": "Ruby",
+    "pushed_at": "2026-03-09T01:04:51Z",
+    "stargazers_count": 14810,
+    "topics": [
+      "cocoapods",
+      "dependency-manager",
+      "ios",
+      "mac",
+      "objective-c",
+      "package-manager",
+      "swift"
+    ],
+    "updated_at": "2026-04-21T08:52:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/claide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/cocoapods-downloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/molinillo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "term": "Specs"
+    },
+    {
+      "context_snippet": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software Development Kit for the Microsoft Performance ToolKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047571,
+      "status": "candidate",
+      "text": "toolset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046545,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045722,
+      "status": "candidate",
+      "text": "package"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045393,
+      "status": "candidate",
+      "text": "toolbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045387,
+      "status": "candidate",
+      "text": "folder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "toolkit",
+      "sense_id": "toolkit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "toolkit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "toolkit",
+  "observation_id": "08a7e7c1c836b51a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "toolkit",
+  "source_context_snippet": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)",
+  "source_file": null,
+  "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+  "source_repo_description": "Software Development Kit for the Microsoft Performance ToolKit"
+}

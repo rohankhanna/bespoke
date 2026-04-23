@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official repository for the Microsoft C/C++ extension for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "By Design Closer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "By Design Closer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11838,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11838,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11610,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11553,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11553,
+      "status": "candidate",
+      "text": "block"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "By Design Closer",
+      "sense_id": "by-design-closer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "by-design-closer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "by-design-closer",
+  "observation_id": "473178c5fa8ee59b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "By Design Closer",
+  "source_context_snippet": "By Design Closer",
+  "source_file": ".github/workflows/by-design-closer.yml",
+  "source_repo": "microsoft/vscode-cpptools",
+  "source_repo_description": "Official repository for the Microsoft C/C++ extension for VS Code."
+}

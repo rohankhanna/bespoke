@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nargs",
+      "target": "alexkohler/prealloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nargs",
+      "target": "alexkohler/nakedret",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nargs",
+      "target": "alexkohler/identypo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nargs",
+      "target": "alexkohler/unimport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alexkohler/nargs",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:41.821628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5105
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4250
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nargs is a Go static analysis tool to find unused arguments in function declarations.",
+    "fork": false,
+    "full_name": "alexkohler/nargs",
+    "html_url": "https://github.com/alexkohler/nargs",
+    "language": "Go",
+    "pushed_at": "2025-05-15T17:55:49Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2025-05-15T17:55:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/identypo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/nakedret",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/prealloc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/unimport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    }
+  ]
+}

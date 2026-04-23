@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037560,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037519,
+      "status": "candidate",
+      "text": "verbal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035962,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034288,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033103,
+      "status": "candidate",
+      "text": "editorial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "textual",
+      "sense_id": "textual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "textual",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "textual",
+  "observation_id": "b0067bf5fe3afb54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "textual",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "SWE-agent/mini-swe-agent",
+  "source_repo_description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
+}

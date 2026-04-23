@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples and guides for using the Gemini API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue metrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue metrics"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "measurement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "meter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "metering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "prosody"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue metrics",
+      "sense_id": "issue-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-metrics",
+  "observation_id": "2a01e5343cb3d60f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Issue metrics",
+  "source_context_snippet": "Issue metrics",
+  "source_file": ".github/workflows/issue-metrics.yml",
+  "source_repo": "google-gemini/cookbook",
+  "source_repo_description": "Examples and guides for using the Gemini API"
+}

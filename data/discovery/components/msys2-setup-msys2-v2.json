@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "powturbo/TurboBench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/python_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikelodder7/blstrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "karpathy/llama2.c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actboy168/bee.lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/clip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/libloading.yml",
+      "source_repo": "nagisa/rust_libloading"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aklomp/base64"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgeos/geos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl3webgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "celikin/llama2.c-android-wrapper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml",
+      "source_repo": "yquake2/ref_vk"
     }
   ]
 }

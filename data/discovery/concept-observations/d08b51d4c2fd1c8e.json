@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Review on Label (Catch-up)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Review on Label (Catch-up)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20474,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "monroe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19546,
+      "status": "candidate",
+      "text": "stendhal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Review on Label (Catch-up)",
+      "sense_id": "claude-review-on-label-catch-up#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-review-on-label-catch-up",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-review-on-label-catch-up",
+  "observation_id": "d08b51d4c2fd1c8e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Claude Review on Label (Catch-up)",
+  "source_context_snippet": "Claude Review on Label (Catch-up)",
+  "source_file": ".github/workflows/claude-review-on-label.yml",
+  "source_repo": "aiKrice/homebrew-badgetizr",
+  "source_repo_description": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+}

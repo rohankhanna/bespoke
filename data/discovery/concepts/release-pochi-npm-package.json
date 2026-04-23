@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Release Pochi NPM package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate-context",
+      "text": "Release Pochi NPM package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate",
+      "text": "Release Pochi NPM package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22678,
+      "status": "candidate",
+      "text": "button"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22678,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22678,
+      "status": "candidate",
+      "text": "reliever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22678,
+      "status": "candidate",
+      "text": "trigger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22678,
+      "status": "candidate",
+      "text": "triggered"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Pochi NPM package",
+  "concept_id": "release-pochi-npm-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-pochi-npm.yml",
+      "source_repo": "TabbyML/pochi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Pochi NPM package",
+      "sense_id": "release-pochi-npm-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

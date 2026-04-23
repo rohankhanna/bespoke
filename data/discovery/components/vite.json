@@ -1,7 +1,7 @@
 {
   "component": "vite",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -302,6 +302,66 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eigilnikolajsen/commit-mono"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mcous/testdouble-vitest"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronlamz/navpress"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "remix-run/react-router"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort"
     }
   ]
 }

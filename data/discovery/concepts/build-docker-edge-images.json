@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build docker edge images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate-context",
+      "text": "An email and SMTP testing tool with API for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate-context",
+      "text": "Build docker edge images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate",
+      "text": "Build docker edge images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17171,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17097,
+      "status": "candidate",
+      "text": "drawing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build docker edge images",
+  "concept_id": "build-docker-edge-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build docker edge images",
+      "sense_id": "build-docker-edge-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

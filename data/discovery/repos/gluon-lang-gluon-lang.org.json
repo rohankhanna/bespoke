@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "ajv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-closure-compiler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm-webpack-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-sass",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "popper.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "style-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "url-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "marwes/hubcaps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "marwes/gluon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "rust-lang-nursery/mdbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "gluon-lang/try_gluon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "elm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "elm-webpack-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "node-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "popper.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "sass-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "style-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "url-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "gluon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "playground",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:32.772170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 701
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2175
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2384
+    },
+    {
+      "path": "package.json",
+      "size": 1077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The gluon-lang.org website.",
+    "fork": false,
+    "full_name": "gluon-lang/gluon-lang.org",
+    "html_url": "https://github.com/gluon-lang/gluon-lang.org",
+    "language": "Rust",
+    "pushed_at": "2024-04-05T17:22:36Z",
+    "stargazers_count": 15,
+    "topics": [
+      "gluon",
+      "playground"
+    ],
+    "updated_at": "2025-12-22T10:30:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marwes/gluon",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marwes/hubcaps",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/mdbook",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gluon-lang/try_gluon",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gluon"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playground"
+    }
+  ]
+}

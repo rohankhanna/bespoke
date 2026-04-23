@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Contributor Map"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Contributor Map"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Contributor Map"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "pac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "partner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "fatcat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10992,
+      "status": "candidate",
+      "text": "aaa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Contributor Map",
+  "concept_id": "contributor-map",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/contributor_map.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contributor Map",
+      "sense_id": "contributor-map#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

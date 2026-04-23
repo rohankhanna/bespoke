@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootphon/phonemizer",
+      "target": "espeak-ng/espeak-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootphon/phonemizer",
+      "target": "cldf/segments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootphon/phonemizer",
+      "target": "numediart/mbrola-voices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "Doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "Publish to Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer",
+      "target": "Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:27.781530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6505
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1324
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/doc.yaml",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/linux.yaml",
+      "size": 2839
+    },
+    {
+      "path": ".github/workflows/macos.yaml",
+      "size": 1703
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yaml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/windows.yaml",
+      "size": 1865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple text to phones converter for multiple languages",
+    "fork": false,
+    "full_name": "bootphon/phonemizer",
+    "html_url": "https://github.com/bootphon/phonemizer",
+    "language": "Python",
+    "pushed_at": "2024-09-26T10:00:05Z",
+    "stargazers_count": 1537,
+    "topics": [],
+    "updated_at": "2026-04-22T01:50:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cldf/segments",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espeak-ng/espeak-ng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numediart/mbrola-voices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Doc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yaml",
+      "term": "Doc"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "Publish to Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "term": "Publish to Pypi"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "term": "Windows"
+    }
+  ]
+}

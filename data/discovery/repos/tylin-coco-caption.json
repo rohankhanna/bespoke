@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tylin/coco-caption",
+      "target": "mjdenkowski/meteor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:13.485820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tylin/coco-caption",
+    "html_url": "https://github.com/tylin/coco-caption",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-13T12:04:29Z",
+    "stargazers_count": 1219,
+    "topics": [],
+    "updated_at": "2026-04-16T08:13:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mjdenkowski/meteor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

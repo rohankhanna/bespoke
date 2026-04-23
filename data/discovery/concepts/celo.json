@@ -19,6 +19,18 @@
       "source_repo": "gakonst/ethers-rs",
       "status": "candidate-context",
       "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gakonst/ethers-rs",
       "status": "candidate",
       "text": "**A complete Ethereum and Celo Rust library**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "gakonst/ethers-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

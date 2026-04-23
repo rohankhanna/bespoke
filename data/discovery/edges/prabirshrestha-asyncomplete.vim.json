@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "andreypopp/asyncomplete-ale.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "clojure-vim/async-clj-omni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "high-moctane/asyncomplete-nextword.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "hauleth/asyncomplete-pivotaltracker.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_neovim.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_vim.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac_neovim.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "reviewdog/action-vint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_neovim.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_vim.yml",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "asyncomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "ultisnips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "target": "vim8",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "prabirshrestha/asyncomplete.vim"
+}

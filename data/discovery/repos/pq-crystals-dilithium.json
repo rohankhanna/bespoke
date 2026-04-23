@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "digital-signature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "dilithium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "lattice-based-crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "module-lattices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "post-quantum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium",
+      "target": "post-quantum-cryptography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:31.035421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pq-crystals/dilithium",
+    "html_url": "https://github.com/pq-crystals/dilithium",
+    "language": "C",
+    "pushed_at": "2025-10-08T16:09:44Z",
+    "stargazers_count": 585,
+    "topics": [
+      "avx",
+      "crypto",
+      "cryptography",
+      "digital-signature",
+      "dilithium",
+      "lattice-based-crypto",
+      "module-lattices",
+      "post-quantum",
+      "post-quantum-cryptography"
+    ],
+    "updated_at": "2026-04-20T18:23:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-signature"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dilithium"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lattice-based-crypto"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module-lattices"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum-cryptography"
+    }
+  ]
+}

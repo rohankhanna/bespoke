@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish Docker images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish Docker images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16928,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16928,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16928,
+      "status": "candidate",
+      "text": "prints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16867,
+      "status": "candidate",
+      "text": "graffiti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16867,
+      "status": "candidate",
+      "text": "imagine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish Docker images",
+      "sense_id": "build-and-publish-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-docker-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-docker-images",
+  "observation_id": "4431344b8b2a7aab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build and publish Docker images",
+  "source_context_snippet": "Build and publish Docker images",
+  "source_file": ".github/workflows/build-publish.yml",
+  "source_repo": "nginx-proxy/nginx-proxy",
+  "source_repo_description": "Automated nginx proxy for Docker containers using docker-gen"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodenv-plugin",
+      "sense_id": "nodenv-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodenv-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodenv-plugin",
+  "observation_id": "8bee9990fb24285f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nodenv-plugin",
+  "source_context_snippet": "Download, compile, and install Node on Unix-like systems.",
+  "source_file": null,
+  "source_repo": "nodenv/node-build",
+  "source_repo_description": "A tool to download, compile, and install Node on Unix-like systems."
+}

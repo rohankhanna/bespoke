@@ -1,0 +1,127 @@
+{
+  "aliases": [
+    "ARM Linux",
+    "arm-linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "ARM Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, HarmonyOS, WebAssembly, watchOS, tvOS, visionOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "ARM Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14717,
+      "status": "candidate",
+      "text": "gnome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14717,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14052,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10969,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10969,
+      "status": "candidate",
+      "text": "dos"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ARM Linux",
+  "concept_id": "arm-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testing-arm-linux.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM Linux",
+      "sense_id": "arm-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

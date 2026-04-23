@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Contributor Agreement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "'PR Contributor Agreement'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "'PR Contributor Agreement'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19888,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878,
+      "status": "candidate",
+      "text": "image"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Contributor Agreement",
+  "concept_id": "pr-contributor-agreement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-contributor-terms.yml",
+      "source_repo": "keras-team/keras"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Contributor Agreement",
+      "sense_id": "pr-contributor-agreement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

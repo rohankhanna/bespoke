@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Classic - AutoGPT CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "Classic - AutoGPT CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate",
+      "text": "Classic - AutoGPT CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "irene"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Classic - AutoGPT CI",
+  "concept_id": "classic---autogpt-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classic - AutoGPT CI",
+      "sense_id": "classic---autogpt-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

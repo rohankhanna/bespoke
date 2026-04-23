@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "ibiqlik/action-yamllint@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "engineerd/setup-kind@v0.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "mbround18/install-jq@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "sigstore/cosign-installer@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "aquasecurity/trivy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "jdcargile/ms-teams-notification@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "Release snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "sigstore/cosign-installer@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "docker/login-action@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "target": "Stale issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "aquasecurity/k8s-node-collector"
+}

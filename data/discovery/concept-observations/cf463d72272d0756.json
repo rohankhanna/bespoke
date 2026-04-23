@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Classic - Agent smoke tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Classic - Agent smoke tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27955,
+      "status": "candidate",
+      "text": "tester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27449,
+      "status": "candidate",
+      "text": "gas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27314,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17794,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17794,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classic - Agent smoke tests",
+      "sense_id": "classic---agent-smoke-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "classic---agent-smoke-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "classic---agent-smoke-tests",
+  "observation_id": "cf463d72272d0756",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Classic - Agent smoke tests",
+  "source_context_snippet": "Classic - Agent smoke tests",
+  "source_file": ".github/workflows/classic-autogpts-ci.yml",
+  "source_repo": "Significant-Gravitas/AutoGPT",
+  "source_repo_description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+}

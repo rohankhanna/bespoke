@@ -1,0 +1,32 @@
+{
+  "component": "upptime/uptime-monitor@v1.41.0",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    }
+  ]
+}

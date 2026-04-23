@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-reuse.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "Afnanksalal/co-op",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Afnanksalal/co-op",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Afnanksalal/co-op"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

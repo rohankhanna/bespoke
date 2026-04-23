@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Collect Build Metrics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate-context",
+      "text": "A composable and fully extensible C++ execution engine library for data management systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate-context",
+      "text": "Collect Build Metrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate",
+      "text": "Collect Build Metrics"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22484,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22445,
+      "status": "candidate",
+      "text": "obtain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22407,
+      "status": "candidate",
+      "text": "cumulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22407,
+      "status": "candidate",
+      "text": "levy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22407,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Collect Build Metrics",
+  "concept_id": "collect-build-metrics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Collect Build Metrics",
+      "sense_id": "collect-build-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

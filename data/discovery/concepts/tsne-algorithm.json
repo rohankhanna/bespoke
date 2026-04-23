@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tsne-algorithm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "GPU Accelerated t-SNE for CUDA with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tsne-algorithm",
+  "concept_id": "tsne-algorithm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CannyLab/tsne-cuda"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tsne-algorithm",
+      "sense_id": "tsne-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

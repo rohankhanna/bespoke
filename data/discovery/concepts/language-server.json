@@ -139,6 +139,54 @@
       "source_repo": "castwide/vscode-solargraph",
       "status": "candidate-context",
       "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation for Typescript via tsserver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate-context",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate-context",
+      "text": "Language Server for YAML Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Java Language Support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate-context",
+      "text": "Language server providing completion for gluon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate-context",
+      "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +255,30 @@
       "source_repo": "castwide/vscode-solargraph",
       "status": "candidate",
       "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate",
+      "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate",
+      "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate",
+      "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +358,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "castwide/vscode-solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/yaml-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon_language-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

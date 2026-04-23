@@ -98,20 +98,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "deepspeedai/DeepSpeed",
-      "target": "yandex/yalm-100b",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "deepspeedai/DeepSpeed",
-      "target": "ascend/ascend-ci",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "deepspeedai/DeepSpeed",
       "target": "rocm-developer-tools/hipcc",
       "target_type": "repository"
     },
@@ -361,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:18:57.819959+00:00",
+  "fetched_at": "2026-04-23T19:03:10.921300+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -413,8 +399,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-04-22T06:56:43Z",
-    "stargazers_count": 42178,
+    "pushed_at": "2026-04-23T15:47:56Z",
+    "stargazers_count": 42181,
     "topics": [
       "billion-parameters",
       "compression",
@@ -430,14 +416,9 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-04-23T01:17:40Z"
+    "updated_at": "2026-04-23T17:23:41Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ascend/ascend-ci",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rocm-developer-tools/hipcc",
@@ -446,11 +427,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/glm-130b",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yandex/yalm-100b",
       "source_file": "README.md"
     }
   ],

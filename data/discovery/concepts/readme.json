@@ -105,6 +105,90 @@
       "source_repo": "PeterDaveHello/docker-doctoc",
       "status": "candidate-context",
       "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 CLI that generates beautiful README.md files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate-context",
+      "text": "My GitHub profile-README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf6d Badge generator with color gradient support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +239,48 @@
       "source_repo": "PeterDaveHello/docker-doctoc",
       "status": "candidate",
       "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -258,11 +384,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PeterDaveHello/docker-doctoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

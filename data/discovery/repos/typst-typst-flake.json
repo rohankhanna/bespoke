@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typst/typst-flake",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:47.783247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nix flake for Typst",
+    "fork": false,
+    "full_name": "typst/typst-flake",
+    "html_url": "https://github.com/typst/typst-flake",
+    "language": "Nix",
+    "pushed_at": "2026-03-11T09:35:49Z",
+    "stargazers_count": 11,
+    "topics": [
+      "nix",
+      "typst"
+    ],
+    "updated_at": "2026-03-11T09:35:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a Nix Flake[^1] for Typst. It exports a Nix package that can build Typst's CLI using the Nix tool. It is compatible at least with the latest Typst release, and should also build the latest commits on Typst's `main` branch. Should any problems or incompat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    }
+  ]
+}

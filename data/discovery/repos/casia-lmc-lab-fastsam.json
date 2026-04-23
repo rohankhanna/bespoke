@@ -7,30 +7,9 @@
       "source_repo": "CASIA-LMC-Lab/FastSAM",
       "target": "casia-iva-lab/fastsam",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "ultralytics/ultralytics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "kbh00/semantic-fast-sam",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "churuanh0/fastsam_awsome_tensorrt",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T08:49:16.262086+00:00",
+  "fetched_at": "2026-04-23T21:14:41.677706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,29 +30,14 @@
     "html_url": "https://github.com/CASIA-LMC-Lab/FastSAM",
     "language": "Python",
     "pushed_at": "2024-07-30T13:35:06Z",
-    "stargazers_count": 8317,
+    "stargazers_count": 8316,
     "topics": [],
-    "updated_at": "2026-04-22T13:50:33Z"
+    "updated_at": "2026-04-23T15:12:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "casia-iva-lab/fastsam",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "churuanh0/fastsam_awsome_tensorrt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kbh00/semantic-fast-sam",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ultralytics/ultralytics",
       "source_file": "README.md"
     }
   ],

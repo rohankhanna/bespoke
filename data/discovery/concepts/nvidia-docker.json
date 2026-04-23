@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nvidia-docker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate-context",
+      "text": "Build and run Docker containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate-context",
+      "text": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate",
+      "text": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nvidia-docker",
+  "concept_id": "nvidia-docker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvidia-docker",
+      "sense_id": "nvidia-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,12 +19,30 @@
       "source_repo": "ScoopInstaller/Main",
       "status": "candidate-context",
       "text": "Excavator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The Extras bucket for Scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "Excavator"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ScoopInstaller/Main",
+      "status": "candidate",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
       "status": "candidate",
       "text": "Excavator"
     }
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/excavator.yml",
       "source_repo": "ScoopInstaller/Main"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Extras"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

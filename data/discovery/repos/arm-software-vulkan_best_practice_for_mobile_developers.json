@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "hwcpipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "moltenvk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:42.016644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vulkan best practice for mobile developers",
+    "fork": false,
+    "full_name": "ARM-software/vulkan_best_practice_for_mobile_developers",
+    "html_url": "https://github.com/ARM-software/vulkan_best_practice_for_mobile_developers",
+    "language": "C++",
+    "pushed_at": "2024-08-06T14:42:05Z",
+    "stargazers_count": 686,
+    "topics": [
+      "android",
+      "arm",
+      "graphics",
+      "hwcpipe",
+      "mobile",
+      "moltenvk",
+      "performance",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-21T22:48:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hwcpipe"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moltenvk"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

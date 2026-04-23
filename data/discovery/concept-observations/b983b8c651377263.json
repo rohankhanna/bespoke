@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "webgpu.h - C version of the JS API, for both native and Wasm. A multi-vendor standard between Dawn/Emdawnwebgpu and wgpu-native. Designed primarily for binding into higher-level languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gen-docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gen-docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gen-docs",
+      "sense_id": "gen-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gen-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gen-docs",
+  "observation_id": "b983b8c651377263",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "gen-docs",
+  "source_context_snippet": "gen-docs",
+  "source_file": ".github/workflows/gen-docs.yml",
+  "source_repo": "webgpu-native/webgpu-headers",
+  "source_repo_description": "webgpu.h - C version of the JS API, for both native and Wasm. A multi-vendor standard between Dawn/Emdawnwebgpu and wgpu-native. Designed primarily for binding into higher-level languages."
+}

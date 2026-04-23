@@ -1,0 +1,784 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@465a07811f14bebb1938fbed4728c6a1ff8901fc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/trigger-argo-workflow@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml"
+    },
+    {
+      "component": "grafana/helm-charts/.github/workflows/lint-test.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml"
+    },
+    {
+      "component": "grafana/helm-charts/.github/workflows/lint-test.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml"
+    },
+    {
+      "component": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-release.yml"
+    },
+    {
+      "component": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-release.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml"
+    },
+    {
+      "component": "grafana/writers-toolkit/publish-technical-documentation@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml"
+    },
+    {
+      "component": "grafana/writers-toolkit/publish-technical-documentation-release@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/explore-profiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "Backport PR Creator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/login-action@465a07811f14bebb1938fbed4728c6a1ff8901fc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/trigger-argo-workflow@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/helm-charts/.github/workflows/lint-test.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "helm-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "helm-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/writers-toolkit/publish-technical-documentation@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "publish-technical-documentation-next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/writers-toolkit/publish-technical-documentation-release@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "publish-technical-documentation-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "continuous-profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "find-bottlenecks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "pyroscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:58.255838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19969
+    },
+    {
+      "path": "go.mod",
+      "size": 18950
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 2132
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7848
+    },
+    {
+      "path": ".github/workflows/frontend.yml",
+      "size": 5093
+    },
+    {
+      "path": ".github/workflows/fuzzer.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/helm-ci.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/helm-release.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/publish-technical-documentation-next.yml",
+      "size": 636
+    },
+    {
+      "path": ".github/workflows/publish-technical-documentation-release.yml",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+    "fork": false,
+    "full_name": "grafana/pyroscope",
+    "html_url": "https://github.com/grafana/pyroscope",
+    "language": "Go",
+    "pushed_at": "2026-04-23T18:03:53Z",
+    "stargazers_count": 11382,
+    "topics": [
+      "continuous-profiling",
+      "developer-tools",
+      "devops",
+      "find-bottlenecks",
+      "golang",
+      "hacktoberfest",
+      "linux",
+      "monitoring",
+      "observability",
+      "performance",
+      "profiling",
+      "pyroscope",
+      "python",
+      "ruby"
+    ],
+    "updated_at": "2026-04-23T18:03:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grafana/explore-profiles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR Creator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR Creator"
+    },
+    {
+      "context_snippet": "frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "term": "frontend"
+    },
+    {
+      "context_snippet": "helm-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "term": "helm-ci"
+    },
+    {
+      "context_snippet": "helm-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-release.yml",
+      "term": "helm-release"
+    },
+    {
+      "context_snippet": "publish-technical-documentation-next",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "term": "publish-technical-documentation-next"
+    },
+    {
+      "context_snippet": "publish-technical-documentation-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "term": "publish-technical-documentation-release"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-profiling"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "find-bottlenecks"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyroscope"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

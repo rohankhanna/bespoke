@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "bazel-contrib/rules_go",
-      "target": "bazelbuild/rules_proto",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_go",
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:37:31.700355+00:00",
+  "fetched_at": "2026-04-23T21:45:02.493169+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -84,11 +77,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bazelbuild/rules_go",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bazelbuild/rules_proto",
       "source_file": "README.rst"
     }
   ],

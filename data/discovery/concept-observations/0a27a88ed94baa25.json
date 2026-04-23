@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Incremental computation through constrained memoization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39666928,
+      "status": "candidate",
+      "text": "half-track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39234057,
+      "status": "candidate",
+      "text": "caterpillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29668219,
+      "status": "candidate",
+      "text": "caterpillar-tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29668219,
+      "status": "candidate",
+      "text": "half-tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29668218,
+      "status": "candidate",
+      "text": "transported"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tracked",
+      "sense_id": "tracked#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46,
+      "status": "candidate",
+      "text": "caterpillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "half-track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "half-tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "caterpillar-tracked"
+    }
+  ],
+  "concept_id": "tracked",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tracked",
+  "observation_id": "0a27a88ed94baa25",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "tracked",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+  "source_file": null,
+  "source_repo": "typst/comemo",
+  "source_repo_description": "Incremental computation through constrained memoization."
+}

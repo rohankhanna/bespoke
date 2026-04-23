@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/cc_net",
+      "target": "kpu/kenlm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:32.245009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6645
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tools to download and cleanup Common Crawl data",
+    "fork": false,
+    "full_name": "facebookresearch/cc_net",
+    "html_url": "https://github.com/facebookresearch/cc_net",
+    "language": "Python",
+    "pushed_at": "2023-04-25T08:02:37Z",
+    "stargazers_count": 1042,
+    "topics": [],
+    "updated_at": "2026-04-17T04:46:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kpu/kenlm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

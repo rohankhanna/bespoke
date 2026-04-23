@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "POSIX Compliance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "Elixir is a dynamic, functional language for building scalable and maintainable applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "POSIX Compliance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate",
+      "text": "POSIX Compliance"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "axial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "big"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "POSIX Compliance",
+  "concept_id": "posix-compliance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/posix_compliance.yml",
+      "source_repo": "elixir-lang/elixir"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "POSIX Compliance",
+      "sense_id": "posix-compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

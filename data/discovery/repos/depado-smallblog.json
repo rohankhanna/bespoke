@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "depado/github-actions/.github/workflows/golang.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "depado/github-actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "depado/github-actions/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "depado/smallblog",
+      "target": "depado/bfadmonition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "depado/smallblog",
+      "target": "gitalk/gitalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "depado/smallblog",
+      "target": "depado/github-actions/.github/workflows/golang.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "depado/smallblog",
+      "target": "depado/github-actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "depado/smallblog",
+      "target": "depado/github-actions/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "depado/smallblog",
+      "target": "GoReleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/smallblog",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/smallblog",
+      "target": "blog-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/smallblog",
+      "target": "blogging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/smallblog",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:41:49.162233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10599
+    },
+    {
+      "path": "Dockerfile",
+      "size": 644
+    },
+    {
+      "path": "go.mod",
+      "size": 2676
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flat file markdown blogging system with filesystem watch and extended markdown support",
+    "fork": false,
+    "full_name": "depado/smallblog",
+    "html_url": "https://github.com/depado/smallblog",
+    "language": "Go",
+    "pushed_at": "2026-04-17T00:13:47Z",
+    "stargazers_count": 42,
+    "topics": [
+      "blog",
+      "blog-engine",
+      "blogging",
+      "markdown"
+    ],
+    "updated_at": "2026-04-17T00:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "depado/bfadmonition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gitalk/gitalk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GoReleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "GoReleaser"
+    },
+    {
+      "context_snippet": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog-engine"
+    },
+    {
+      "context_snippet": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blogging"
+    },
+    {
+      "context_snippet": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

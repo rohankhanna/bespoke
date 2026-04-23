@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python"
     }
   ],
   "term": "multi-agents"

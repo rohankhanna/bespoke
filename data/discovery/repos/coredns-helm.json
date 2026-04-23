@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coredns/helm",
+      "target": "helm-unittest/helm-unittest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coredns/helm",
+      "target": "kubernetes-incubator/cluster-proportional-autoscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "azure/setup-helm@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "helm/chart-testing-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "mikepenz/action-junit-report@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coredns/helm",
+      "target": "sigstore/cosign-installer@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coredns/helm",
+      "target": "docker/login-action@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coredns/helm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coredns/helm",
+      "target": "helm/chart-releaser-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "coredns/helm",
+      "target": "Release Charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:59:45.628634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35152
+    },
+    {
+      "path": ".github/workflows/lint-test.yaml",
+      "size": 2614
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helm Charts for CoreDNS",
+    "fork": false,
+    "full_name": "coredns/helm",
+    "html_url": "https://github.com/coredns/helm",
+    "language": "Mustache",
+    "pushed_at": "2026-04-06T07:35:12Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-04-17T12:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helm-unittest/helm-unittest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-incubator/cluster-proportional-autoscaler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release Charts"
+    }
+  ]
+}

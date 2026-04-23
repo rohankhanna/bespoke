@@ -19,6 +19,18 @@
       "source_repo": "Agent-RL/ReCall",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Agent-RL/ReCall",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ppc64le"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ppc64le",
+  "concept_id": "ppc64le",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ppc64le",
+      "sense_id": "ppc64le#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

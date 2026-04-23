@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "64327069/LVAgent",
+      "target": "subhadarship/kmeans_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:30:53.970132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3532
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code of LVAgent: Long Video Understanding by Multi-Round Dynamical Collaboration of MLLM Agents",
+    "fork": false,
+    "full_name": "64327069/LVAgent",
+    "html_url": "https://github.com/64327069/LVAgent",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-11-24T04:57:06Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-06T09:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subhadarship/kmeans_pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

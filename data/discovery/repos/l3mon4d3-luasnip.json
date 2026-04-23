@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "nixbuild/nix-quick-install-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell.yaml"
+    },
+    {
+      "component": "nixbuild/nix-quick-install-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "nixbuild/nix-quick-install-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "saadparwaiz1/cmp_luasnip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "rafamadriz/friendly-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "molleweide/luasnip-snippets.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "nixbuild/nix-quick-install-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "JohnnyMorganz/stylua-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "Generate docs and format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "nixbuild/nix-quick-install-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "Check spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "nixbuild/nix-quick-install-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "snippet-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L3MON4D3/LuaSnip",
+      "target": "snippets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:44:06.934246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13006
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/push.yaml",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/spell.yaml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Snippet Engine for Neovim written in Lua.",
+    "fork": false,
+    "full_name": "L3MON4D3/LuaSnip",
+    "html_url": "https://github.com/L3MON4D3/LuaSnip",
+    "language": "Lua",
+    "pushed_at": "2026-04-05T21:46:45Z",
+    "stargazers_count": 4328,
+    "topics": [
+      "lua",
+      "neovim",
+      "snippet-engine",
+      "snippets"
+    ],
+    "updated_at": "2026-04-23T07:24:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "molleweide/luasnip-snippets.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rafamadriz/friendly-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saadparwaiz1/cmp_luasnip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"luarocks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "luarocks"
+    },
+    {
+      "context_snippet": "Generate docs and format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "term": "Generate docs and format"
+    },
+    {
+      "context_snippet": "Check spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell.yaml",
+      "term": "Check spelling"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippet-engine"
+    },
+    {
+      "context_snippet": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    }
+  ]
+}

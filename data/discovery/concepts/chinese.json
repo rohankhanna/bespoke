@@ -55,6 +55,42 @@
       "source_repo": "QwenLM/Qwen",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "QwenLM/Qwen",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +217,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

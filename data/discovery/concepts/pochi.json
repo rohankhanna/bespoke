@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "pochi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate-context",
+      "text": "pochi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate",
+      "text": "pochi"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "strauss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pochi",
+  "concept_id": "pochi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pochi.yml",
+      "source_repo": "TabbyML/pochi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pochi",
+      "sense_id": "pochi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

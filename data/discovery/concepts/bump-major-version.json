@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump major version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Bump major version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "Bump major version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18775,
+      "status": "candidate",
+      "text": "bunion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18775,
+      "status": "candidate",
+      "text": "kick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18748,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18748,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18721,
+      "status": "candidate",
+      "text": "bang"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump major version",
+  "concept_id": "bump-major-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-major-version.yaml",
+      "source_repo": "argoproj/argo-cd"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump major version",
+      "sense_id": "bump-major-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

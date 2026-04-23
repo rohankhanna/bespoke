@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Take Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Take Issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 74054,
+      "status": "candidate",
+      "text": "differ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 74054,
+      "status": "candidate",
+      "text": "disagree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 74052,
+      "status": "candidate",
+      "text": "take exception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 74051,
+      "status": "candidate",
+      "text": "disagreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 74050,
+      "status": "candidate",
+      "text": "at issue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Take Issue",
+      "sense_id": "take-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "take-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "take-issue",
+  "observation_id": "9f2c2c389be79ee1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Take Issue",
+  "source_context_snippet": "Take Issue",
+  "source_file": ".github/workflows/assign_issue.yml",
+  "source_repo": "openvinotoolkit/openvino.genai",
+  "source_repo_description": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+}

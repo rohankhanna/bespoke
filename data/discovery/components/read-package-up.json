@@ -1,7 +1,7 @@
 {
   "component": "read-package-up",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -17,6 +17,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "netlify/cli"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mightyiam/eslint-config-love"
     }
   ]
 }

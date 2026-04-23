@@ -1,0 +1,485 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "Dependency Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "Stale bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-go",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "dogs-over-cats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "giant-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "not-nanoservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go",
+      "target": "proto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:02.342228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3989
+    },
+    {
+      "path": "go.mod",
+      "size": 1734
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/deps.yml",
+      "size": 1658
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/pr-validation.yml",
+      "size": 2053
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1625
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1028
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 3867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+    "fork": false,
+    "full_name": "grpc/grpc-go",
+    "html_url": "https://github.com/grpc/grpc-go",
+    "language": "Go",
+    "pushed_at": "2026-04-23T19:37:44Z",
+    "stargazers_count": 22915,
+    "topics": [
+      "dogs-over-cats",
+      "giant-robots",
+      "go",
+      "golang",
+      "grpc",
+      "hacktoberfest",
+      "microservices",
+      "not-nanoservices",
+      "proto",
+      "rpc"
+    ],
+    "updated_at": "2026-04-23T20:40:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "codecov"
+    },
+    {
+      "context_snippet": "Dependency Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yml",
+      "term": "Dependency Changes"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "term": "PR Validation"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Stale bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale bot"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dogs-over-cats"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "giant-robots"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "not-nanoservices"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proto"
+    }
+  ]
+}

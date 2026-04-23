@@ -31,6 +31,18 @@
       "source_repo": "OpenAPITools/openapi-generator-cli",
       "status": "candidate-context",
       "text": "[![Join the Slack chat room](https://img.shields.io/badge/Slack-Join%20the%20chat%20room-orange)](https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "OpenAPITools/openapi-generator-cli",
       "status": "candidate",
       "text": "[![Join the Slack chat room](https://img.shields.io/badge/Slack-Join%20the%20chat%20room-orange)](https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "OpenAPITools/openapi-generator-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

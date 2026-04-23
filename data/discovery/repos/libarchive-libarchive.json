@@ -1,0 +1,406 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "github/codeql-action/init@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "github/codeql-action/autobuild@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "github/codeql-action/analyze@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "archiving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "cpio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "iso9660",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "libarchive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "lzma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:37.855997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11351
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5334
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multi-format archive and compression library",
+    "fork": false,
+    "full_name": "libarchive/libarchive",
+    "html_url": "https://github.com/libarchive/libarchive",
+    "language": "C",
+    "pushed_at": "2026-04-22T01:09:17Z",
+    "stargazers_count": 3473,
+    "topics": [
+      "7zip",
+      "archiving",
+      "backup",
+      "bz2",
+      "cab",
+      "cpio",
+      "gz",
+      "iso9660",
+      "libarchive",
+      "lzma",
+      "posix",
+      "rar",
+      "tar",
+      "xar",
+      "xz",
+      "zip",
+      "zstd"
+    ],
+    "updated_at": "2026-04-23T20:12:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7zip"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archiving"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpio"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso9660"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libarchive"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "The libarchive project develops a portable, efficient C library that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

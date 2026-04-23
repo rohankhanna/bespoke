@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "comment-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "pretty-quick",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConsenSys-archive/ganache-plugin-filecoin",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ConsenSys-archive/ganache-plugin-filecoin"
+}

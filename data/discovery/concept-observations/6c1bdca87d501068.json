@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2026]\ud83d\ude80ReVisual-R1 is a 7B open-source multimodal language model that follows a three-stage curriculum\u2014cold-start pre-training, multimodal reinforcement learning, and text-only reinforcement learning\u2014to achieve faithful, concise, and self-reflective state-of-the-art performance in visual and textual reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficient-length-reward",
+      "sense_id": "efficient-length-reward#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "efficient-length-reward",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "efficient-length-reward",
+  "observation_id": "6c1bdca87d501068",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "efficient-length-reward",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "CSfufu/Revisual-R1",
+  "source_repo_description": "[ICLR 2026]\ud83d\ude80ReVisual-R1 is a 7B open-source multimodal language model that follows a three-stage curriculum\u2014cold-start pre-training, multimodal reinforcement learning, and text-only reinforcement learning\u2014to achieve faithful, concise, and self-reflective state-of-the-art performance in visual and textual reasoning."
+}

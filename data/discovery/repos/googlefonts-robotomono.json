@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml"
+    },
+    {
+      "component": "f-actions/opentype-sanitizer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml"
+    },
+    {
+      "component": "f-actions/opentype-sanitizer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml",
+      "source_repo": "googlefonts/RobotoMono",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml",
+      "source_repo": "googlefonts/RobotoMono",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ots.yml",
+      "source_repo": "googlefonts/RobotoMono",
+      "target": "f-actions/opentype-sanitizer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ots.yml",
+      "source_repo": "googlefonts/RobotoMono",
+      "target": "OpenType Sanitizer tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:45.192844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1288
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2283
+    },
+    {
+      "path": ".github/workflows/ots.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "googlefonts/RobotoMono",
+    "html_url": "https://github.com/googlefonts/RobotoMono",
+    "language": null,
+    "pushed_at": "2026-04-21T22:34:01Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-04-20T00:30:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "OpenType Sanitizer tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ots.yml",
+      "term": "OpenType Sanitizer tests"
+    }
+  ]
+}

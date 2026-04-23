@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "taoruijie/talknet-asd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "darkpgmr/darklabel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "liutaocode/diarizationvisualization",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "X-LANCE/MSDWILD"
+}

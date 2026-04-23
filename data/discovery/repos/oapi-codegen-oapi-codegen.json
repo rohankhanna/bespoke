@@ -1,0 +1,430 @@
+{
+  "components": [
+    {
+      "component": "oapi-codegen/actions/.github/workflows/ci.yml@6cf35d4f044f2663dae54547ff6d426e565beb48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "dessant/label-actions@9e5fd757ffe1e065abf55e9f74d899dbe012922a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-actions.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "go-chi/chi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "gofiber/fiber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "gin-gonic/gin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "getkin/kin-openapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "oapi-codegen/actions/.github/workflows/ci.yml@6cf35d4f044f2663dae54547ff6d426e565beb48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "Determine known CVEs through `govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-actions.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "dessant/label-actions@9e5fd757ffe1e065abf55e9f74d899dbe012922a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-actions.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "Label Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "openapi-codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "openapi-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "rest-api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:37:21.773889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 121599
+    },
+    {
+      "path": "go.mod",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 1503
+    },
+    {
+      "path": ".github/workflows/label-actions.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 285
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate Go client and server boilerplate from OpenAPI 3 specifications",
+    "fork": false,
+    "full_name": "oapi-codegen/oapi-codegen",
+    "html_url": "https://github.com/oapi-codegen/oapi-codegen",
+    "language": "Go",
+    "pushed_at": "2026-04-23T17:42:39Z",
+    "stargazers_count": 8248,
+    "topics": [
+      "go",
+      "golang",
+      "openapi",
+      "openapi-codegen",
+      "openapi-generator",
+      "openapi3",
+      "rest-api",
+      "rest-api-client",
+      "swagger"
+    ],
+    "updated_at": "2026-04-23T17:42:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getkin/kin-openapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gin-gonic/gin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-chi/chi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gofiber/fiber",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Determine known CVEs through `govulncheck`",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "Determine known CVEs through `govulncheck"
+    },
+    {
+      "context_snippet": "'Label Actions'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-actions.yml",
+      "term": "Label Actions"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-codegen"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-generator"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api-client"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

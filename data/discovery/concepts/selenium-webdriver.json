@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "selenium-webdriver"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "selenium-webdriver",
+  "concept_id": "selenium-webdriver",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "selenium-webdriver",
+      "sense_id": "selenium-webdriver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

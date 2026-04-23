@@ -79,6 +79,258 @@
       "source_repo": "ayulockin/SwAV-TF",
       "status": "candidate-context",
       "text": "By: [Ayush Thakur](https://twitter.com/ayushthakur0) and [Sayak Paul](https://twitter.com/RisingSayak)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "A unified evaluation library for multiple machine learning libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "Build Graph Nets in Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/examples",
+      "status": "candidate-context",
+      "text": "TensorFlow examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/examples",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "Samples for Intel\u00ae oneAPI Toolkits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate-context",
+      "text": "TF-Agents: A reliable, scalable and easy to use TensorFlow library for Contextual Bandits and Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate-context",
+      "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate-context",
+      "text": "* NumPy >= 1.11.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "an open-source implementation of sequence-to-sequence based speech processing engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +369,132 @@
       "source_repo": "ayulockin/SwAV-TF",
       "status": "candidate",
       "text": "By: [Ayush Thakur](https://twitter.com/ayushthakur0) and [Sayak Paul](https://twitter.com/RisingSayak)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/examples",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate",
+      "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate",
+      "text": "* NumPy >= 1.11.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +574,137 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ayulockin/SwAV-TF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keithito/tacotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/tacotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athena-team/athena"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

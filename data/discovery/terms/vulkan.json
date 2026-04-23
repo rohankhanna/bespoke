@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -71,6 +71,61 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan"
     }
   ],
   "term": "vulkan"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build website"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100108604,
+      "status": "candidate",
+      "text": "web design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100107604,
+      "status": "candidate",
+      "text": "web development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100008604,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100007481,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100007481,
+      "status": "candidate",
+      "text": "author"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build website",
+      "sense_id": "build-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-website",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-website",
+  "observation_id": "cf5439ef996788b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build website",
+  "source_context_snippet": "Build website",
+  "source_file": ".github/workflows/build-website.yml",
+  "source_repo": "zloirock/core-js",
+  "source_repo_description": "Standard Library"
+}

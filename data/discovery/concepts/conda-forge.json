@@ -19,6 +19,18 @@
       "source_repo": "conda-forge/conda-forge.github.io",
       "status": "candidate-context",
       "text": "[![deploy](https://github.com/conda-forge/conda-forge.github.io/workflows/deploy/badge.svg)](https://github.com/conda-forge/conda-forge.github.io/actions?query=workflow%3Adeploy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "A place to submit conda recipes before they become fully fledged conda-forge feedstocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "This repo is a holding area for recipes destined for a conda-forge feedstock repo."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "conda-forge/conda-forge.github.io",
       "status": "candidate",
       "text": "[![deploy](https://github.com/conda-forge/conda-forge.github.io/workflows/deploy/badge.svg)](https://github.com/conda-forge/conda-forge.github.io/actions?query=workflow%3Adeploy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate",
+      "text": "This repo is a holding area for recipes destined for a conda-forge feedstock repo."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "conda-forge/conda-forge.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conda-forge/staged-recipes"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ARM CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ARM CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "non"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM CI",
+      "sense_id": "arm-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arm-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arm-ci",
+  "observation_id": "40e41af30ddaa0cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ARM CI",
+  "source_context_snippet": "ARM CI",
+  "source_file": ".github/workflows/arm-ci.yml",
+  "source_repo": "tensorflow/tensorflow",
+  "source_repo_description": "An Open Source Machine Learning Framework for Everyone"
+}

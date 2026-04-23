@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:45.970935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PP-PicoDet-Android-Demo",
+    "fork": false,
+    "full_name": "JiweiMaster/PP-PicoDet-Android-Demo",
+    "html_url": "https://github.com/JiweiMaster/PP-PicoDet-Android-Demo",
+    "language": "C++",
+    "pushed_at": "2021-12-02T11:31:26Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-11-28T16:55:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

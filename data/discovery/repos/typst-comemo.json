@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e814c742d4444ce2f3f6abddea7faf00161ed941",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e814c742d4444ce2f3f6abddea7faf00161ed941",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/comemo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/comemo",
+      "target": "dtolnay/rust-toolchain@e814c742d4444ce2f3f6abddea7faf00161ed941",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/comemo",
+      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/comemo",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typst/comemo",
+      "target": "constraints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typst/comemo",
+      "target": "incremental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typst/comemo",
+      "target": "memoization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typst/comemo",
+      "target": "tracked",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:40.755808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2802
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1577
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Incremental computation through constrained memoization.",
+    "fork": false,
+    "full_name": "typst/comemo",
+    "html_url": "https://github.com/typst/comemo",
+    "language": "Rust",
+    "pushed_at": "2026-03-13T10:29:41Z",
+    "stargazers_count": 595,
+    "topics": [
+      "constraints",
+      "incremental",
+      "memoization",
+      "tracked"
+    ],
+    "updated_at": "2026-04-23T02:19:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "constraints"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "incremental"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memoization"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracked"
+    }
+  ]
+}

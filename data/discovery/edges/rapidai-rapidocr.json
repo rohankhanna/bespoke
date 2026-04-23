@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "breezedeus/cnocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "arkmowers/arknights-mower",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "arkohut/pensieve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "aigc-apps/pai-rag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Yikun/hub-mirror-action@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "SyncToGitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Push rapidocr to pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Ilshidur/action-discord@0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "discord message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "chineseocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "dbnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "easyocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "onnxocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "paddleocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "rapidocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "RapidAI/RapidOCR"
+}

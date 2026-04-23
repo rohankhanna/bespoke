@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nvs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nvs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "cis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "are"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "causative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "digraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "digraphs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nvs",
+      "sense_id": "nvs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvs",
+  "observation_id": "172041867a4bcf04",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nvs",
+  "source_context_snippet": "nvs",
+  "source_file": ".github/workflows/test.yaml",
+  "source_repo": "jasongin/nvs",
+  "source_repo_description": "Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js"
+}

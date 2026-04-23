@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "sigstore/rekor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "sigstore/cosign-installer@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "Release on tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "dorny/test-reporter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "Pull Request Go Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "clouddns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "dns-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "dns-providers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "dns-record",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "external-dns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "ionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "ionos-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "target": "webhook-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:06.603516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6746
+    },
+    {
+      "path": "Dockerfile",
+      "size": 231
+    },
+    {
+      "path": "go.mod",
+      "size": 12788
+    },
+    {
+      "path": ".github/workflows/on_tag.yml",
+      "size": 1203
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 1308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "External-DNS Webhook to manage IONOS DNS Records",
+    "fork": false,
+    "full_name": "ionos-cloud/external-dns-ionos-webhook",
+    "html_url": "https://github.com/ionos-cloud/external-dns-ionos-webhook",
+    "language": "Go",
+    "pushed_at": "2026-04-07T12:15:18Z",
+    "stargazers_count": 22,
+    "topics": [
+      "clouddns",
+      "dns",
+      "dns-controller",
+      "dns-providers",
+      "dns-record",
+      "external-dns",
+      "ionos",
+      "ionos-cloud",
+      "kubernetes",
+      "webhook",
+      "webhook-server"
+    ],
+    "updated_at": "2026-04-07T12:13:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigstore/rekor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release on tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_tag.yml",
+      "term": "Release on tag"
+    },
+    {
+      "context_snippet": "Pull Request Go Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Request Go Releaser"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clouddns"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-controller"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-providers"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-record"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "external-dns"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ionos"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ionos-cloud"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webhook"
+    },
+    {
+      "context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webhook-server"
+    }
+  ]
+}

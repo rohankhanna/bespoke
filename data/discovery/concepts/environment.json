@@ -43,6 +43,18 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate-context",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate-context",
+      "text": "Sokoban environment for OpenAI Gym "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate-context",
+      "text": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate",
+      "text": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game."
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mpSchrader/gym-sokoban"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

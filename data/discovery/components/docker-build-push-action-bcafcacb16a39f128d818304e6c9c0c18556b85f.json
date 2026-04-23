@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-reuse.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet"
     }
   ]
 }

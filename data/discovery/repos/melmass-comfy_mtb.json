@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/restore@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache/restore@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Building wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83e\uddea Test Comfy Portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "faceswap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:11.505132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1029
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4567
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    },
+    {
+      "path": ".github/workflows/package_wheels.yml",
+      "size": 2635
+    },
+    {
+      "path": ".github/workflows/publish_action.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3492
+    },
+    {
+      "path": ".github/workflows/test_embedded.yml",
+      "size": 2618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Animation oriented nodes pack for ComfyUI",
+    "fork": false,
+    "full_name": "melMass/comfy_mtb",
+    "html_url": "https://github.com/melMass/comfy_mtb",
+    "language": "Python",
+    "pushed_at": "2026-03-19T07:39:38Z",
+    "stargazers_count": 700,
+    "topics": [
+      "animation",
+      "comfyui",
+      "faceswap",
+      "interpolation",
+      "nodes",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-20T10:48:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udce6 Building wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "term": "\ud83d\udce6 Building wheels"
+    },
+    {
+      "context_snippet": "\ud83d\udce6 Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "term": "\ud83d\udce6 Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "\ud83d\udce6 Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "\ud83d\udce6 Release"
+    },
+    {
+      "context_snippet": "\ud83e\uddea Test Comfy Portable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "term": "\ud83e\uddea Test Comfy Portable"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faceswap"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpolation"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodes"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

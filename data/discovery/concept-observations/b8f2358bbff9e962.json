@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly test Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly test Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23284,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23284,
+      "status": "candidate",
+      "text": "pass"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly test Workflow",
+      "sense_id": "nightly-test-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-test-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-test-workflow",
+  "observation_id": "b8f2358bbff9e962",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Nightly test Workflow",
+  "source_context_snippet": "Nightly test Workflow",
+  "source_file": ".github/workflows/nightly.yml",
+  "source_repo": "ethpandaops/ethereum-package",
+  "source_repo_description": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+}

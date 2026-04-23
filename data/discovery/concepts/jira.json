@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jira"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "axosoft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "trello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "trac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "redmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "apache bloodhound"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jira",
+  "concept_id": "jira",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jira",
+      "sense_id": "jira#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

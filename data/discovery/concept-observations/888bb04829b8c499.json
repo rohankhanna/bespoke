@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The buffer module from node.js, for the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029409,
+      "status": "candidate",
+      "text": "polisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021912,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998778,
+      "status": "candidate",
+      "text": "fender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986382,
+      "status": "candidate",
+      "text": "cowcatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969396,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buffer",
+      "sense_id": "buffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12059,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8054,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7047,
+      "status": "candidate",
+      "text": "fender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6038,
+      "status": "candidate",
+      "text": "soften"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "polisher"
+    }
+  ],
+  "concept_id": "buffer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "buffer",
+  "observation_id": "888bb04829b8c499",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "buffer",
+  "source_context_snippet": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master",
+  "source_file": null,
+  "source_repo": "feross/buffer",
+  "source_repo_description": "The buffer module from node.js, for the browser."
+}

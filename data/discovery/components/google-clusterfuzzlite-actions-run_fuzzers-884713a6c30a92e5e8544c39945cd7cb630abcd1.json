@@ -1,7 +1,7 @@
 {
   "component": "google/clusterfuzzlite/actions/run_fuzzers@884713a6c30a92e5e8544c39945cd7cb630abcd1",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fuzz-pr.yml",
       "source_repo": "alex/rust-asn1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cflite_scheduled.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
     }
   ]
 }

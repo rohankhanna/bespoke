@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/markdownfmt",
+      "target": "shurcool/atom-markdown-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/markdownfmt",
+      "target": "moorereason/vim-markdownfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/markdownfmt",
+      "target": "moorereason/mdfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/markdownfmt",
+      "target": "slang800/markdown-styleguide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:46.355722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Like gofmt, but for Markdown.",
+    "fork": true,
+    "full_name": "nlamirault/markdownfmt",
+    "html_url": "https://github.com/nlamirault/markdownfmt",
+    "language": "Go",
+    "pushed_at": "2022-01-14T14:39:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2018-07-12T03:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moorereason/mdfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moorereason/vim-markdownfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shurcool/atom-markdown-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slang800/markdown-styleguide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

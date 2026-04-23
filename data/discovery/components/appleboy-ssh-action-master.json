@@ -1,0 +1,17 @@
+{
+  "component": "appleboy/ssh-action@master",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center"
+    }
+  ]
+}

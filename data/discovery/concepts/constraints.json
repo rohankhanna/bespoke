@@ -19,6 +19,18 @@
       "source_repo": "bufbuild/protoc-gen-validate",
       "status": "candidate-context",
       "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/comemo",
+      "status": "candidate-context",
+      "text": "Incremental computation through constrained memoization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/comemo",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bufbuild/protoc-gen-validate",
       "status": "candidate",
       "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/comemo",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protoc-gen-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "typst/comemo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

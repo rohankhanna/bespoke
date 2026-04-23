@@ -91,6 +91,78 @@
       "source_repo": "react-native-netinfo/react-native-netinfo",
       "status": "candidate-context",
       "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "*[TokioConf 2026 program and tickets are now available!](https://tokioconf.com)*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/mio",
+      "status": "candidate-context",
+      "text": "Metal I/O library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/mio",
+      "status": "candidate-context",
+      "text": "Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "Redis compatible server framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "Your high performance web application C framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +207,42 @@
       "source_repo": "react-native-netinfo/react-native-netinfo",
       "status": "candidate",
       "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate",
+      "text": "*[TokioConf 2026 program and tickets are now available!](https://tokioconf.com)*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/mio",
+      "status": "candidate",
+      "text": "Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +328,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "react-native-netinfo/react-native-netinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/redcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

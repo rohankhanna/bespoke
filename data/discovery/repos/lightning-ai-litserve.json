@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-typing.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-schema.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-package.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-docs.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "lightning-ai/litgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-typing.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-schema.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-package.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-docs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "General checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Minimal dependency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Run parity tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "CI testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "PyPI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "serving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:32:27.774801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22866
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4820
+    },
+    {
+      "path": ".github/workflows/ci-checks.yml",
+      "size": 1091
+    },
+    {
+      "path": ".github/workflows/ci-minimal-dependency-check.yml",
+      "size": 673
+    },
+    {
+      "path": ".github/workflows/ci-parity.yml",
+      "size": 891
+    },
+    {
+      "path": ".github/workflows/ci-testing.yml",
+      "size": 2606
+    },
+    {
+      "path": ".github/workflows/release-pypi.yml",
+      "size": 1605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling.",
+    "fork": false,
+    "full_name": "Lightning-AI/LitServe",
+    "html_url": "https://github.com/Lightning-AI/LitServe",
+    "language": "Python",
+    "pushed_at": "2026-04-13T21:48:06Z",
+    "stargazers_count": 3873,
+    "topics": [
+      "ai",
+      "api",
+      "artificial-intelligence",
+      "deep-learning",
+      "developer-tools",
+      "fastapi",
+      "rest-api",
+      "serving",
+      "web"
+    ],
+    "updated_at": "2026-04-22T22:19:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/litgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "General checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "term": "General checks"
+    },
+    {
+      "context_snippet": "Minimal dependency check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "term": "Minimal dependency check"
+    },
+    {
+      "context_snippet": "Run parity tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "term": "Run parity tests"
+    },
+    {
+      "context_snippet": "CI testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "term": "CI testing"
+    },
+    {
+      "context_snippet": "PyPI Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "term": "PyPI Release"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serving"
+    }
+  ]
+}

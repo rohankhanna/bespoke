@@ -19,6 +19,78 @@
       "source_repo": "open-mmlab/mmdeploy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Jupyter notebook tutorials for OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "Pre-trained Deep Learning models and demos (high quality and extremely fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/RapidOCR",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePaddle, TensorRT and PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOCR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +99,42 @@
       "source_repo": "open-mmlab/mmdeploy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOCR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +184,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmdeploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

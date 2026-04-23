@@ -1,0 +1,12 @@
+{
+  "component": "losisin/helm-docs-github-action@2ccf3e77eb70dc80d62f8cc26f15d0a96b75fef4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    }
+  ]
+}

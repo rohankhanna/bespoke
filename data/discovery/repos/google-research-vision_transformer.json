@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/vision_transformer",
+      "target": "google-research/big_vision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/vision_transformer",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/vision_transformer",
+      "target": "google/flaxformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/vision_transformer",
+      "target": "google-research/big_transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-research/vision_transformer",
+      "target": "styfle/cancel-workflow-action@0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-research/vision_transformer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-research/vision_transformer",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-research/vision_transformer",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:10.742816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34497
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/vision_transformer",
+    "html_url": "https://github.com/google-research/vision_transformer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T08:31:08Z",
+    "stargazers_count": 12480,
+    "topics": [],
+    "updated_at": "2026-04-23T11:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/big_transfer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/big_vision",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/flaxformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

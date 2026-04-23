@@ -1,0 +1,541 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "launchbadge/sqlx",
+      "target": "async-rs/async-std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actix/actix-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "launchbadge/sqlx",
+      "target": "allan2/dotenvy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "launchbadge/sqlx",
+      "target": "dotenv-rs/dotenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "SQLx CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "launchbadge/sqlx",
+      "target": "SQLx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "await",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "mariadb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx",
+      "target": "sqlite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:39.575490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18775
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 13825
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 14282
+    },
+    {
+      "path": ".github/workflows/sqlx-cli.yml",
+      "size": 9533
+    },
+    {
+      "path": ".github/workflows/sqlx.yml",
+      "size": 25574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+    "fork": false,
+    "full_name": "launchbadge/sqlx",
+    "html_url": "https://github.com/launchbadge/sqlx",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T11:23:56Z",
+    "stargazers_count": 16918,
+    "topics": [
+      "async",
+      "await",
+      "mariadb",
+      "mysql",
+      "postgres",
+      "postgresql",
+      "rust",
+      "sql",
+      "sqlite"
+    ],
+    "updated_at": "2026-04-23T20:17:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actix/actix-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allan2/dotenvy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "async-rs/async-std",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotenv-rs/dotenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "Examples"
+    },
+    {
+      "context_snippet": "SQLx CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "term": "SQLx CLI"
+    },
+    {
+      "context_snippet": "SQLx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sqlx.yml",
+      "term": "SQLx"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "await"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mariadb"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">SQLx</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    }
+  ]
+}

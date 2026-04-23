@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "Test C implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_ephemeral.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c_ephemeral.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "Test C implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_ephemeral.yml",
+      "source_repo": "microsoft/PQCrypto-LWEKE",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/PQCrypto-LWEKE"
+}

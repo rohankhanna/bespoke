@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "adobe-type-tools/afdko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "cff2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "source-han",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "variable-fonts",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "adobe-fonts/source-han-serif"
+}

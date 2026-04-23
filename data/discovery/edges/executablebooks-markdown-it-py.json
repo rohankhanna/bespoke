@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "chrisjsewell/markdown-it-pyrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "aiidateam/github-action-benchmark@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "markdown-it",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/markdown-it-py",
+      "target": "markdown-parser",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "executablebooks/markdown-it-py"
+}

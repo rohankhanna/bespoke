@@ -19,12 +19,48 @@
       "source_repo": "ChainSafe/lodestar",
       "status": "candidate-context",
       "text": "Build and publish Docker images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Build and publish Docker images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Generate files from docker container meta-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Build and publish Docker images"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "Build and publish Docker images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate",
+      "text": "Build and publish Docker images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
       "status": "candidate",
       "text": "Build and publish Docker images"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/docker-gen"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

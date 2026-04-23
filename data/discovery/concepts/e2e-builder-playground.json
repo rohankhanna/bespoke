@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "e2e-builder-playground"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "e2e-builder-playground"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "e2e-builder-playground"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "e2e-builder-playground",
+  "concept_id": "e2e-builder-playground",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "e2e-builder-playground",
+      "sense_id": "e2e-builder-playground#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

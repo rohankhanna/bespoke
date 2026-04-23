@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "@swc/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/helpers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pkg-jq",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pkg-up",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "regenerator-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tstest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "type-fest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chatie/git-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chatie/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/json5",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-box",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-my-json-valid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json5",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@swc/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@swc/helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "pkg-jq",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "pkg-up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "regenerator-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "tstest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "type-fest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@chatie/git-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@chatie/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "@types/json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "file-box",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "is-my-json-valid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Chatie/tsconfig",
+      "target": "json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "Chatie/tsconfig",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "Chatie/tsconfig",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "Chatie/tsconfig",
+      "target": "NPM",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:38.767941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4220
+    },
+    {
+      "path": "package.json",
+      "size": 1878
+    },
+    {
+      "path": ".github/workflows/npm.yml",
+      "size": 2093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "tsconfig.json inheritance via Node.js packages",
+    "fork": false,
+    "full_name": "Chatie/tsconfig",
+    "html_url": "https://github.com/Chatie/tsconfig",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-07T02:32:43Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-10-07T02:14:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "term": "NPM"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "mholt/archiver",
       "status": "candidate-context",
       "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mholt/archiver",
       "status": "candidate",
       "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archives"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

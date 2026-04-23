@@ -1,0 +1,559 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "paulirish/awesome-chrome-devtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "paulirish/devtools-timeline-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@stylistic/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/codemirror",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/emscripten",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/estree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/filesystem",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/karma-chai-sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/webidl2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@types/yargs-unparser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@typescript-eslint/rule-tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@typescript-eslint/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "@web/rollup-plugin-import-meta-assets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "cssnano",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "cssnano-preset-lite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint-plugin-eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint-plugin-lit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "eslint-plugin-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-coverage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-mocha-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-sourcemap-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "karma-spec-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "license-checker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "lit-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "ora",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "puppeteer-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "rollup-plugin-sourcemaps2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "source-map-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "stylelint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "svgo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "ts-lit-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "webidl2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "js-rouge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "Auto-close PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-component-docs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-component-docs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-component-docs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "DevTools Component Documentation release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "publish-on-tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "Tag commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "target": "instrumentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ChromeDevTools/devtools-frontend"
+}

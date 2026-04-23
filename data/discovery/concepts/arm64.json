@@ -33,6 +33,42 @@
       "source_repo": "ariya/FastLZ",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate-context",
+      "text": "Pre-built ARM/Linux C cross-compilers for MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate-context",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +83,24 @@
       "source_repo": "ariya/FastLZ",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_related_terms": [],
@@ -78,11 +132,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

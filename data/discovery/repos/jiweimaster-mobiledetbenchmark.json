@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiweiMaster/MobileDetBenchmark",
+      "target": "megvii-basedetection/yolox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiweiMaster/MobileDetBenchmark",
+      "target": "paddlepaddle/paddle-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiweiMaster/MobileDetBenchmark",
+      "target": "jiweimaster/pp-picodet-android-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiweiMaster/MobileDetBenchmark",
+      "target": "jiweimaster/lfs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:07:16.155222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mobile Detection Benchmark",
+    "fork": false,
+    "full_name": "JiweiMaster/MobileDetBenchmark",
+    "html_url": "https://github.com/JiweiMaster/MobileDetBenchmark",
+    "language": "C++",
+    "pushed_at": "2021-12-10T11:03:47Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-11-06T04:35:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiweimaster/lfs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiweimaster/pp-picodet-android-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-basedetection/yolox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddle-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

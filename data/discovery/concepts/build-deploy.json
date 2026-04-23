@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build + Deploy"
+    "Build + Deploy",
+    "Build-deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "harfbuzz/uharfbuzz",
       "status": "candidate-context",
       "text": "Build + Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate-context",
+      "text": "A library to manipulate font files from Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate-context",
+      "text": "Build + Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "status": "candidate-context",
+      "text": "[WIP] Center of plugins for Mirai Console and Mirai community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "status": "candidate-context",
+      "text": "Build-deploy"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "harfbuzz/uharfbuzz",
       "status": "candidate",
       "text": "Build + Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate",
+      "text": "Build + Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "status": "candidate",
+      "text": "Build-deploy"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "harfbuzz/uharfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "fonttools/fonttools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

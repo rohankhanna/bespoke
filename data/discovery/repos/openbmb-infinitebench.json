@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/InfiniteBench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/InfiniteBench",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/InfiniteBench",
+      "target": "long-context",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:45.097738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11722
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codes for the paper \"\u221eBench: Extending Long Context Evaluation Beyond 100K Tokens\": https://arxiv.org/abs/2402.13718",
+    "fork": false,
+    "full_name": "OpenBMB/InfiniteBench",
+    "html_url": "https://github.com/OpenBMB/InfiniteBench",
+    "language": "Python",
+    "pushed_at": "2024-09-25T20:06:30Z",
+    "stargazers_count": 382,
+    "topics": [
+      "benchmark",
+      "large-language-models",
+      "long-context"
+    ],
+    "updated_at": "2026-04-22T08:24:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    }
+  ]
+}

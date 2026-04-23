@@ -1,0 +1,286 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after-release.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "gofiber/.github/.github/workflows/after-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/after-release.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "After Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "gofiber/.github/.github/workflows/auto-labeler.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "auto-labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "kenchan0130/actions-system-info@59699597e84e80085a750998045983daa49274c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-release-draft.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "gofiber/.github/.github/actions/cleanup-release-draft@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-release-draft.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "Cleanup Release Draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-on-demand.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "gofiber/.github/.github/workflows/dependabot-on-demand.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-on-demand.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "Dependabot On-Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "poseidon/wait-for-status-checks@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "dependabot/fetch-metadata@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "gofiber/.github/.github/workflows/go-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-dependabot.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-dependabot.yml",
+      "source_repo": "gofiber/fiber",
+      "target": "ManualDependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "express",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "expressjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "fiber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "flexible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofiber/fiber",
+      "target": "rest-api",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "gofiber/fiber"
+}

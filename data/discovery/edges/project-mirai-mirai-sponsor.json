@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "actions/setup-java@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "update",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "project-mirai/mirai-sponsor"
+}

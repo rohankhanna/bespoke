@@ -31,6 +31,18 @@
       "source_repo": "sass/dart-sass",
       "status": "candidate-context",
       "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate-context",
+      "text": "Airbnb-\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10eb\u10e6\u10d5\u10d0\u10dc\u10d4\u10da\u10dd\u10e1 \u2014 \u201eCSS / Sass Style Guide\u201c \u2014 \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d7\u10d0\u10e0\u10d2\u10db\u10d0\u10dc\u10d8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate-context",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "sass/dart-sass",
       "status": "candidate",
       "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "sass/dart-sass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

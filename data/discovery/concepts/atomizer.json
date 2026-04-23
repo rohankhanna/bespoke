@@ -1,0 +1,146 @@
+{
+  "aliases": [
+    "atomizer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "A library to create small, reusable CSS that scales as your website grows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate-context",
+      "text": "Compile atomic css for boot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate-context",
+      "text": "Compile atomic css for boot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate",
+      "text": "Compile atomic css for boot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984898,
+      "status": "candidate",
+      "text": "atomiser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978482,
+      "status": "candidate",
+      "text": "spray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972367,
+      "status": "candidate",
+      "text": "sprayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973163,
+      "status": "candidate",
+      "text": "electrothermal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008975,
+      "status": "candidate",
+      "text": "vaporizer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "spray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "sprayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "atomiser"
+    }
+  ],
+  "canonical_name": "atomizer",
+  "concept_id": "atomizer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atomizer",
+      "sense_id": "atomizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

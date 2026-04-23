@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TransferTTS (Zero-Shot learning of VITS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755005,
+      "status": "candidate",
+      "text": "lives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755004,
+      "status": "candidate",
+      "text": "wickedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9747449,
+      "status": "candidate",
+      "text": "immorality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9744344,
+      "status": "candidate",
+      "text": "vice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vits",
+      "sense_id": "vits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vits",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vits",
+  "observation_id": "1e4b76d82494c945",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "vits",
+  "source_context_snippet": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0.",
+  "source_file": null,
+  "source_repo": "hcy71o/TransferTTS",
+  "source_repo_description": "TransferTTS (Zero-Shot learning of VITS)"
+}

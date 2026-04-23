@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrot2/elasticsearch-carrot2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/prepare-git-clone@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/prepare-gradle-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "Build, test and validate (reusable workflow)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "Build and test (nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/prepare-git-clone@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/prepare-gradle-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/create-and-tag-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "Prepare release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "carrotsearch/infra-public/.github/actions/download-release-artifacts@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "carrot2/carrot2",
+      "target": "Publish release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "carrot2/carrot2"
+}

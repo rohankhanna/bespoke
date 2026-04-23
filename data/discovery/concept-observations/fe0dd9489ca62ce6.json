@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Azure Quickstart Templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate ARM Deployments via ADX"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate ARM Deployments via ADX"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36338,
+      "status": "candidate",
+      "text": "know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36338,
+      "status": "candidate",
+      "text": "refraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36338,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36184,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36184,
+      "status": "candidate",
+      "text": "stops"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate ARM Deployments via ADX",
+      "sense_id": "validate-arm-deployments-via-adx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-arm-deployments-via-adx",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-arm-deployments-via-adx",
+  "observation_id": "fe0dd9489ca62ce6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Validate ARM Deployments via ADX",
+  "source_context_snippet": "Validate ARM Deployments via ADX",
+  "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+  "source_repo": "Azure/azure-quickstart-templates",
+  "source_repo_description": "Azure Quickstart Templates"
+}

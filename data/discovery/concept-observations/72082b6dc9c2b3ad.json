@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build website for branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build website for branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "faq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "filter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "php"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19702,
+      "status": "candidate",
+      "text": "web"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build website for branch",
+      "sense_id": "build-website-for-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-website-for-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-website-for-branch",
+  "observation_id": "72082b6dc9c2b3ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build website for branch",
+  "source_context_snippet": "Build website for branch",
+  "source_file": ".github/workflows/build-website-for-branch.yml",
+  "source_repo": "zloirock/core-js",
+  "source_repo_description": "Standard Library"
+}

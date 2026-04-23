@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbdchd/neoformat",
+      "target": "affenwiesel/matlab-formatter-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbdchd/neoformat",
+      "target": "arnetheduck/nph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbdchd/neoformat",
+      "target": "andialbrecht/sqlparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbdchd/neoformat",
+      "target": "astrale-sharp/typstfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:33.208618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":sparkles: A (Neo)vim plugin for formatting code.",
+    "fork": false,
+    "full_name": "sbdchd/neoformat",
+    "html_url": "https://github.com/sbdchd/neoformat",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-13T16:45:43Z",
+    "stargazers_count": 2054,
+    "topics": [
+      "formatter",
+      "neovim",
+      "plugin",
+      "vim"
+    ],
+    "updated_at": "2026-04-19T23:26:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "affenwiesel/matlab-formatter-vscode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andialbrecht/sqlparse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arnetheduck/nph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astrale-sharp/typstfmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A (Neo)vim plugin for formatting code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "A (Neo)vim plugin for formatting code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A (Neo)vim plugin for formatting code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

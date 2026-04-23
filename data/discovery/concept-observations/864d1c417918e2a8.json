@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":sparkles: A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A (Neo)vim plugin for formatting code."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A (Neo)vim plugin for formatting code."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947937,
+      "status": "candidate",
+      "text": "plug-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934082,
+      "status": "candidate",
+      "text": "component"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932866,
+      "status": "candidate",
+      "text": "connect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915202,
+      "status": "candidate",
+      "text": "add-on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913236,
+      "status": "candidate",
+      "text": "addition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugin",
+      "sense_id": "plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plugin",
+  "observation_id": "864d1c417918e2a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "plugin",
+  "source_context_snippet": "A (Neo)vim plugin for formatting code.",
+  "source_file": null,
+  "source_repo": "sbdchd/neoformat",
+  "source_repo_description": ":sparkles: A (Neo)vim plugin for formatting code."
+}

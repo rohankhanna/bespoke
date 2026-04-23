@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u8d85\u8f7b\u91cf\u7ea7\u4e2d\u6587ocr\uff0c\u652f\u6301\u7ad6\u6392\u6587\u5b57\u8bc6\u522b, \u652f\u6301ncnn\u3001mnn\u3001tnn\u63a8\u7406 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) \u603b\u6a21\u578b\u4ec54.7M "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- python3.6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- python3.6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pytorch lightning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tensorflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "apache mxnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "keras"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gensim"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pytorch",
+      "sense_id": "pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytorch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytorch",
+  "observation_id": "6e9c76f2e22162eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "pytorch",
+  "source_context_snippet": "- python3.6",
+  "source_file": null,
+  "source_repo": "DayBreak-u/chineseocr_lite",
+  "source_repo_description": "\u8d85\u8f7b\u91cf\u7ea7\u4e2d\u6587ocr\uff0c\u652f\u6301\u7ad6\u6392\u6587\u5b57\u8bc6\u522b, \u652f\u6301ncnn\u3001mnn\u3001tnn\u63a8\u7406 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) \u603b\u6a21\u578b\u4ec54.7M "
+}

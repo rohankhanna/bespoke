@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "jille/raftadmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "jille/raft-grpc-transport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "jille/raft-grpc-leader-rpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "grpc-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "hashicorp-raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:48.586712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2739
+    },
+    {
+      "path": "go.mod",
+      "size": 1393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example code for how to get hashicorp/raft running with gRPC",
+    "fork": false,
+    "full_name": "Jille/raft-grpc-example",
+    "html_url": "https://github.com/Jille/raft-grpc-example",
+    "language": "Go",
+    "pushed_at": "2024-07-22T11:29:31Z",
+    "stargazers_count": 231,
+    "topics": [
+      "golang",
+      "grpc",
+      "grpc-go",
+      "hashicorp-raft",
+      "raft"
+    ],
+    "updated_at": "2026-03-24T11:04:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jille/raft-grpc-leader-rpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jille/raft-grpc-transport",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jille/raftadmin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-go"
+    },
+    {
+      "context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-raft"
+    },
+    {
+      "context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    }
+  ]
+}

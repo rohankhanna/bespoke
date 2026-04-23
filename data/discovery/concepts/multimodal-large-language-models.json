@@ -43,6 +43,42 @@
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate-context",
+      "text": "\u2728\u2728[CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate-context",
+      "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "A novel Multimodal Large Language Model (MLLM) architecture, designed to structurally align visual and textual embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIDC-AI/Parrot",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 The code repository for \"Parrot: Multilingual Visual Instruction Tuning\" in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Parrot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "status": "candidate",
+      "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Parrot",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Parrot"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

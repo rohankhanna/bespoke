@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "testing-practices"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "testing-practices",
+  "concept_id": "testing-practices",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "absolute-version/absolute-version-js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "testing-practices",
+      "sense_id": "testing-practices#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

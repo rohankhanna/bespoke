@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/wb_srgb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/wb_color_augmenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/interactive_wb_correction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "auto-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "auto-white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-constancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "deep-white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "multitask-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "whitebalance",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "mahmoudnafifi/Deep_White_Balance"
+}

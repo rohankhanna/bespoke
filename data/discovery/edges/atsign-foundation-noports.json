@@ -1,0 +1,342 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobug.yaml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "leonsteinhaeuser/project-beta-automations@939000fb1900c9fc4f7b5058a09d9f833ebc6859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "jwlawson/actions-setup-cmake@0d6a7d60b009d01c9e7523be22153ff8f19460d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "sbomify/github-action@baefdffa92817fc019bf94ecdb5a2c2e17ea8041",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_unit_tests.yaml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c_unit_tests.yaml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "jwlawson/actions-setup-cmake@0d6a7d60b009d01c9e7523be22153ff8f19460d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c_unit_tests.yaml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "C Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_riscv_image.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_riscv_image.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_riscv_image.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "Check RISC-V Image in Docker Manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "jwlawson/actions-setup-cmake@0d6a7d60b009d01c9e7523be22153ff8f19460d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "Cppcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsign-foundation/noports",
+      "target": "atsign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsign-foundation/noports",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsign-foundation/noports",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "atsign-foundation/noports"
+}

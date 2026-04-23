@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "eliemichel/learnwebgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "eliemichel/webgpu-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "eliemichel/sdl2webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "eliemichel/sdl3webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:22.964392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3976
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 3051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension for the GLFW library for using WebGPU native.",
+    "fork": false,
+    "full_name": "eliemichel/glfw3webgpu",
+    "html_url": "https://github.com/eliemichel/glfw3webgpu",
+    "language": "C",
+    "pushed_at": "2025-05-24T09:53:06Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-04-13T08:24:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/learnwebgpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/sdl2webgpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/sdl3webgpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/webgpu-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    }
+  ]
+}

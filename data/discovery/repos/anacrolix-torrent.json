@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/torrent",
+      "target": "anacrolix/go-libutp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/torrent",
+      "target": "anacrolix/dht",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/torrent",
+      "target": "anacrolix/confluence",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anacrolix/torrent",
+      "target": "anatasluo/ant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "anacrolix/torrent",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent",
+      "target": "magnet-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent",
+      "target": "torrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent",
+      "target": "tracker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:00.243027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8278
+    },
+    {
+      "path": "Dockerfile",
+      "size": 864
+    },
+    {
+      "path": "go.mod",
+      "size": 7826
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1939
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 468
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Full-featured BitTorrent client package and utilities",
+    "fork": false,
+    "full_name": "anacrolix/torrent",
+    "html_url": "https://github.com/anacrolix/torrent",
+    "language": "Go",
+    "pushed_at": "2026-04-23T05:30:21Z",
+    "stargazers_count": 6012,
+    "topics": [
+      "bittorrent",
+      "go",
+      "magnet-link",
+      "p2p",
+      "streaming",
+      "torrent",
+      "tracker"
+    ],
+    "updated_at": "2026-04-23T15:59:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anacrolix/confluence",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anacrolix/dht",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anacrolix/go-libutp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anatasluo/ant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magnet-link"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracker"
+    }
+  ]
+}

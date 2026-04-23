@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "PyTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "decision-making",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "language-grounding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "rl-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "shopping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "sim-to-real",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop",
+      "target": "web-based",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:08.648678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7650
+    },
+    {
+      "path": "requirements.txt",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+    "fork": false,
+    "full_name": "princeton-nlp/WebShop",
+    "html_url": "https://github.com/princeton-nlp/WebShop",
+    "language": "Python",
+    "pushed_at": "2024-09-06T04:00:38Z",
+    "stargazers_count": 523,
+    "topics": [
+      "decision-making",
+      "language",
+      "language-grounding",
+      "ml",
+      "nlp",
+      "rl",
+      "rl-environment",
+      "shopping",
+      "sim-to-real",
+      "web-based"
+    ],
+    "updated_at": "2026-04-23T16:48:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PyTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "PyTest"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-making"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-grounding"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rl-environment"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shopping"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sim-to-real"
+    },
+    {
+      "context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-based"
+    }
+  ]
+}

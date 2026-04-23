@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Curated list of resources for Embedded and Low-level development in the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome-list",
+      "sense_id": "awesome-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "awesome-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "awesome-list",
+  "observation_id": "c89c0f551655357a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "awesome-list",
+  "source_context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+  "source_file": null,
+  "source_repo": "rust-embedded/awesome-embedded-rust",
+  "source_repo_description": "Curated list of resources for Embedded and Low-level development in the Rust programming language"
+}

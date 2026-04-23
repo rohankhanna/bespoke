@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenMMLab Pose Estimation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964894,
+      "status": "candidate",
+      "text": "sandglass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954398,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965028,
+      "status": "candidate",
+      "text": "hour glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965027,
+      "status": "candidate",
+      "text": "sand clock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965026,
+      "status": "candidate",
+      "text": "water glass"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hourglass",
+      "sense_id": "hourglass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "sandglass"
+    }
+  ],
+  "concept_id": "hourglass",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hourglass",
+  "observation_id": "16e3fcabd7dd2c7b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hourglass",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "open-mmlab/mmpose",
+  "source_repo_description": "OpenMMLab Pose Estimation Toolbox and Benchmark."
+}

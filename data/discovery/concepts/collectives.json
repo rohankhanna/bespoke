@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "collectives"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Collective communications library with various primitives for multi-machine training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024737,
+      "status": "candidate",
+      "text": "aggregative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024661,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024390,
+      "status": "candidate",
+      "text": "clustered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023971,
+      "status": "candidate",
+      "text": "agglomerative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023606,
+      "status": "candidate",
+      "text": "agglomerate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "collectives",
+  "concept_id": "collectives",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collectives",
+      "sense_id": "collectives#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

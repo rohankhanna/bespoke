@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "scipr-lab/poly-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/crypto-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/crypto-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/r1cs-std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "Linkify Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "marlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "pairings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "polynomial-commitments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "sonic",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "arkworks-rs/poly-commit"
+}

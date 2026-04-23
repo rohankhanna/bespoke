@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-debugger.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/by-design-closer-debugger .yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/by-design-closer.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-closer.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enhancement-closer-no-milestone.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-debugger.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-debugger.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "Bug - debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/by-design-closer-debugger .yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/by-design-closer-debugger .yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "By Design closer - debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/by-design-closer.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/by-design-closer.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "By Design Closer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "CI (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_mac.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "CI (Mac)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "CI (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-closer.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-closer.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "Duplicate Closer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enhancement-closer-no-milestone.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enhancement-closer-no-milestone.yml",
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "Enhancement Closer (no milestone)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-cpptools",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:53.008359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5236
+    },
+    {
+      "path": ".github/workflows/bug-debugger.yml",
+      "size": 1292
+    },
+    {
+      "path": ".github/workflows/by-design-closer-debugger .yml",
+      "size": 965
+    },
+    {
+      "path": ".github/workflows/by-design-closer.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/ci_linux.yml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/ci_mac.yml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/ci_windows.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4479
+    },
+    {
+      "path": ".github/workflows/duplicate-closer.yml",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/enhancement-closer-no-milestone.yml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for the Microsoft C/C++ extension for VS Code.",
+    "fork": false,
+    "full_name": "microsoft/vscode-cpptools",
+    "html_url": "https://github.com/microsoft/vscode-cpptools",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T17:32:05Z",
+    "stargazers_count": 6080,
+    "topics": [
+      "microsoft",
+      "typescript",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-23T17:32:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bug - debugger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-debugger.yml",
+      "term": "Bug - debugger"
+    },
+    {
+      "context_snippet": "By Design closer - debugger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/by-design-closer-debugger .yml",
+      "term": "By Design closer - debugger"
+    },
+    {
+      "context_snippet": "By Design Closer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/by-design-closer.yml",
+      "term": "By Design Closer"
+    },
+    {
+      "context_snippet": "CI (Linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux.yml",
+      "term": "CI (Linux)"
+    },
+    {
+      "context_snippet": "CI (Mac)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_mac.yml",
+      "term": "CI (Mac)"
+    },
+    {
+      "context_snippet": "CI (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "term": "CI (Windows)"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Duplicate Closer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-closer.yml",
+      "term": "Duplicate Closer"
+    },
+    {
+      "context_snippet": "Enhancement Closer (no milestone)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enhancement-closer-no-milestone.yml",
+      "term": "Enhancement Closer (no milestone)"
+    },
+    {
+      "context_snippet": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

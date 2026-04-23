@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "process-engine",
+      "sense_id": "process-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "process-engine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process-engine",
+  "observation_id": "babc11487f319dfa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "process-engine",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "alibaba/compileflow",
+  "source_repo_description": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+}

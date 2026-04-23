@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dupekit - Build Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dupekit - Build Wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "locks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11539,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11539,
+      "status": "candidate",
+      "text": "bridged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dupekit - Build Wheels",
+      "sense_id": "dupekit---build-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dupekit---build-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dupekit---build-wheels",
+  "observation_id": "f47ec695a97b2644",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Dupekit - Build Wheels",
+  "source_context_snippet": "Dupekit - Build Wheels",
+  "source_file": ".github/workflows/dupekit-wheels.yaml",
+  "source_repo": "marin-community/marin",
+  "source_repo_description": "Open-source framework for the research and development of foundation models."
+}

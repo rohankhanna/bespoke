@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "@nodenv/nodenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shellcheck",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/release.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "nodenv/homebrew-nodenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "@nodenv/nodenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "bats-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "bats-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "shellcheck",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "nodenv/.github/.github/workflows/release.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "Sync Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "doctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "health-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer",
+      "target": "nodenv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:53:07.763770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2832
+    },
+    {
+      "path": "package.json",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/sync-default-branch.yml",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Installer and doctor scripts for nodenv",
+    "fork": true,
+    "full_name": "nodenv/nodenv-installer",
+    "html_url": "https://github.com/nodenv/nodenv-installer",
+    "language": "Shell",
+    "pushed_at": "2026-01-13T03:36:23Z",
+    "stargazers_count": 33,
+    "topics": [
+      "doctor",
+      "health-check",
+      "installer",
+      "nodenv"
+    ],
+    "updated_at": "2026-01-13T03:36:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/homebrew-nodenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "term": "Sync Default Branch"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doctor"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "health-check"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv"
+    }
+  ]
+}

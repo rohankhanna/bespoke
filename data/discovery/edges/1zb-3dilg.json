@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zb/3DILG",
+      "target": "google-research/vision_transformer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "1zb/3DILG"
+}

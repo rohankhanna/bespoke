@@ -19,6 +19,30 @@
       "source_repo": "1set/cronrange",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate-context",
+      "text": "Range library for C++14/17/20, basis for C++20's std::ranges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate-context",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "1set/cronrange",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "1set/cronrange"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/fill-range"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

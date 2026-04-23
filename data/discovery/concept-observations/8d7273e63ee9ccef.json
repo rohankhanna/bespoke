@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label PR for CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label PR for CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15312,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14312,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14312,
+      "status": "candidate",
+      "text": "millicurie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label PR for CI",
+      "sense_id": "label-pr-for-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-pr-for-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-pr-for-ci",
+  "observation_id": "8d7273e63ee9ccef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Label PR for CI",
+  "source_context_snippet": "Label PR for CI",
+  "source_file": ".github/workflows/label-pr.yml",
+  "source_repo": "LDLINGLINGLING/sglang",
+  "source_repo_description": "SGLang is a fast serving framework for large language models and vision language models."
+}

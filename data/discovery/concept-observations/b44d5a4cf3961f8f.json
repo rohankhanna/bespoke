@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Server Releaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Server Releaser"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12482,
+      "status": "candidate",
+      "text": "disney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "illuminant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6181,
+      "status": "candidate",
+      "text": "alga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6181,
+      "status": "candidate",
+      "text": "anther"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6181,
+      "status": "candidate",
+      "text": "fear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Server Releaser",
+      "sense_id": "server-releaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "server-releaser",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "server-releaser",
+  "observation_id": "b44d5a4cf3961f8f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Server Releaser",
+  "source_context_snippet": "Server Releaser",
+  "source_file": ".github/workflows/server-releaser.yml",
+  "source_repo": "ddworken/hishtory",
+  "source_repo_description": "Your shell history: synced, queryable, and in context"
+}

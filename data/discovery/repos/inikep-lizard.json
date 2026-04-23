@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inikep/lizard",
+      "target": "lz4/lz4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inikep/lizard",
+      "target": "datacompression/corpus-collection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "compressor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "decompression-speed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "zlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lizard",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:03:07.260073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "lizard",
+    "description": "Lizard is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at fast decompression speed",
+    "fork": false,
+    "full_name": "inikep/lizard",
+    "html_url": "https://github.com/inikep/lizard",
+    "language": "C",
+    "pushed_at": "2025-10-09T17:41:20Z",
+    "stargazers_count": 702,
+    "topics": [
+      "brotli",
+      "compression",
+      "compressor",
+      "decompression-speed",
+      "efficient",
+      "fast",
+      "lz4",
+      "zlib",
+      "zstd"
+    ],
+    "updated_at": "2026-04-18T13:48:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datacompression/corpus-collection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lz4/lz4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressor"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression-speed"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib"
+    },
+    {
+      "context_snippet": "Lizard - efficient compression with very fast decompression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

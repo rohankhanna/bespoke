@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/LongBench",
+      "target": "thudm/glm-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/LongBench",
+      "target": "thudm/longcite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongBench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongBench",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongBench",
+      "target": "longtext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:47.176757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7740
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LongBench v2 and LongBench (ACL 25'&24')",
+    "fork": false,
+    "full_name": "THUDM/LongBench",
+    "html_url": "https://github.com/THUDM/LongBench",
+    "language": "Python",
+    "pushed_at": "2025-01-15T02:04:04Z",
+    "stargazers_count": 1160,
+    "topics": [
+      "benchmark",
+      "llm",
+      "long-context",
+      "longtext"
+    ],
+    "updated_at": "2026-04-23T16:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm-4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/longcite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](LongBench/misc/logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![](LongBench/misc/logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "![](LongBench/misc/logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "longtext"
+    }
+  ]
+}

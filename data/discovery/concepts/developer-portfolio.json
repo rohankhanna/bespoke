@@ -19,6 +19,18 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate-context",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

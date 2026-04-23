@@ -19,6 +19,42 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate-context",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "status": "candidate-context",
+      "text": "ChatGLM2-6B: An Open Bilingual Chat LLM | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate",
+      "text": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

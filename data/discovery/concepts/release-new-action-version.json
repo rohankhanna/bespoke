@@ -25,6 +25,12 @@
       "source_repo": "actions/upload-artifact",
       "status": "candidate-context",
       "text": "Release new action version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate-context",
+      "text": "Release new action version"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +43,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/upload-artifact",
+      "status": "candidate",
+      "text": "Release new action version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
       "status": "candidate",
       "text": "Release new action version"
     }
@@ -94,11 +106,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-new-action-version.yml",
       "source_repo": "actions/upload-artifact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-new-action-version.yml",
+      "source_repo": "actions/download-artifact"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

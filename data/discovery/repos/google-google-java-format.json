@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oracle-actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v0.1.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/google-java-format",
+      "target": "diffplug/spotless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/google-java-format",
+      "target": "cosium/maven-git-code-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/google-java-format",
+      "target": "sbt/sbt-java-formatter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/google-java-format",
+      "target": "axel-op/googlejavaformat-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format",
+      "target": "styfle/cancel-workflow-action@0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format",
+      "target": "oracle-actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format",
+      "target": "softprops/action-gh-release@v0.1.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format",
+      "target": "Release google-java-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/google-java-format",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/google-java-format",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:30.603624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8364
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4588
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reformats Java source code to comply with Google Java Style.",
+    "fork": false,
+    "full_name": "google/google-java-format",
+    "html_url": "https://github.com/google/google-java-format",
+    "language": "Java",
+    "pushed_at": "2026-04-23T21:56:44Z",
+    "stargazers_count": 6117,
+    "topics": [
+      "formatter",
+      "java"
+    ],
+    "updated_at": "2026-04-23T21:56:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axel-op/googlejavaformat-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosium/maven-git-code-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffplug/spotless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbt/sbt-java-formatter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release google-java-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release google-java-format"
+    },
+    {
+      "context_snippet": "`google-java-format` is a program that reformats Java source code to comply with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "`google-java-format` is a program that reformats Java source code to comply with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

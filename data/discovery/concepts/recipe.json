@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "recipe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes for different datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880403,
+      "status": "candidate",
+      "text": "formula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051347,
+      "status": "candidate",
+      "text": "over-the-counter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051149,
+      "status": "candidate",
+      "text": "prescription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050899,
+      "status": "candidate",
+      "text": "dose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042147,
+      "status": "candidate",
+      "text": "potion"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6058,
+      "status": "candidate",
+      "text": "formula"
+    }
+  ],
+  "canonical_name": "recipe",
+  "concept_id": "recipe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recipe",
+      "sense_id": "recipe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

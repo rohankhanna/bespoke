@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "inducer/cgen",
+      "target": "inducer/pymbolic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/cgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/cgen",
+      "target": "Gitlab mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/cgen",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/cgen",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/cgen",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/cgen",
+      "target": "abstract-syntax-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/cgen",
+      "target": "code-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:09.679416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1365
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2429
+    },
+    {
+      "path": ".github/workflows/autopush.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C/C++ source generation from an AST",
+    "fork": false,
+    "full_name": "inducer/cgen",
+    "html_url": "https://github.com/inducer/cgen",
+    "language": "Python",
+    "pushed_at": "2026-02-21T05:21:03Z",
+    "stargazers_count": 176,
+    "topics": [
+      "abstract-syntax-tree",
+      "ast",
+      "c",
+      "code-generation",
+      "python"
+    ],
+    "updated_at": "2026-04-21T09:52:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/pymbolic",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gitlab mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "term": "Gitlab mirror"
+    },
+    {
+      "context_snippet": "cgen: An Abstract Syntax Tree for C, in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstract-syntax-tree"
+    },
+    {
+      "context_snippet": "cgen: An Abstract Syntax Tree for C, in Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "vmactions/openbsd-vm@v1",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-openbsd.yml",
+      "source_repo": "aristocratos/btop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi"
     }
   ]
 }

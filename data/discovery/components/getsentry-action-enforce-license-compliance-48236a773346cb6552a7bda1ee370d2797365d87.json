@@ -1,0 +1,12 @@
+{
+  "component": "getsentry/action-enforce-license-compliance@48236a773346cb6552a7bda1ee370d2797365d87",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/enforce-license-compliance.yml",
+      "source_repo": "getsentry/sentry-docs"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang/vscode-go",
+      "target": "worlpaker/go-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "Daily Build Status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "Long Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "Smoke Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "golang/vscode-go",
+      "target": "Wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/vscode-go",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/vscode-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/vscode-go",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/vscode-go",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/vscode-go",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:35.556094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11419
+    },
+    {
+      "path": "go.mod",
+      "size": 227
+    },
+    {
+      "path": ".github/workflows/test-long-all.yml",
+      "size": 2072
+    },
+    {
+      "path": ".github/workflows/test-long.yml",
+      "size": 2182
+    },
+    {
+      "path": ".github/workflows/test-smoke.yml",
+      "size": 2008
+    },
+    {
+      "path": ".github/workflows/wiki.yml",
+      "size": 1640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go extension for Visual Studio Code",
+    "fork": false,
+    "full_name": "golang/vscode-go",
+    "html_url": "https://github.com/golang/vscode-go",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-02T13:50:07Z",
+    "stargazers_count": 4241,
+    "topics": [
+      "debugger",
+      "golang",
+      "visual-studio-code",
+      "vscode",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-20T18:50:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "worlpaker/go-syntax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Daily Build Status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "term": "Daily Build Status"
+    },
+    {
+      "context_snippet": "Long Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-long.yml",
+      "term": "Long Tests"
+    },
+    {
+      "context_snippet": "Smoke Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "term": "Smoke Tests"
+    },
+    {
+      "context_snippet": "Wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "term": "Wiki"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

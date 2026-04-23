@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main branch tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "Main branch tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate",
+      "text": "Main branch tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36051,
+      "status": "candidate",
+      "text": "dropper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27649,
+      "status": "candidate",
+      "text": "bough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27575,
+      "status": "candidate",
+      "text": "distributary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27249,
+      "status": "candidate",
+      "text": "offshoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26849,
+      "status": "candidate",
+      "text": "feeder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main branch tests",
+  "concept_id": "main-branch-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/commit-to-main.yml",
+      "source_repo": "open-quantum-safe/liboqs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main branch tests",
+      "sense_id": "main-branch-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

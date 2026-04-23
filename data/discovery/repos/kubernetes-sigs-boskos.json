@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/boskos",
+      "target": "k8s-sig-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:06:48.185215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12250
+    },
+    {
+      "path": "go.mod",
+      "size": 10344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Boskos is a resource management service that provides reservation and lifecycle management of a variety of different kinds of resources.",
+    "fork": false,
+    "full_name": "kubernetes-sigs/boskos",
+    "html_url": "https://github.com/kubernetes-sigs/boskos",
+    "language": "Go",
+    "pushed_at": "2026-04-18T00:05:02Z",
+    "stargazers_count": 146,
+    "topics": [
+      "k8s-sig-testing"
+    ],
+    "updated_at": "2026-04-18T00:05:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u03b2\u03bf\u03c3\u03ba\u03cc\u03c2](https://en.wiktionary.org/wiki/%CE%B2%CE%BF%CF%83%CE%BA%CF%8C%CF%82) - shepherd in greek!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-testing"
+    }
+  ]
+}

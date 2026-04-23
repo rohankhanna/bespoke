@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "plexpt/chatgpt-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "plexpt/chatgpt-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "f/awesome-chatgpt-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chat-gpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:05:51.738984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatGPT \u4e2d\u6587\u8c03\u6559\u6307\u5357\u3002\u5404\u79cd\u573a\u666f\u4f7f\u7528\u6307\u5357\u3002\u5b66\u4e60\u600e\u4e48\u8ba9\u5b83\u542c\u4f60\u7684\u8bdd\u3002",
+    "fork": false,
+    "full_name": "PlexPt/awesome-chatgpt-prompts-zh",
+    "html_url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
+    "language": null,
+    "pushed_at": "2025-01-01T08:34:33Z",
+    "stargazers_count": 59258,
+    "topics": [
+      "chat-gpt",
+      "chatgpt",
+      "chatgpt3",
+      "chatgpt4",
+      "gpt"
+    ],
+    "updated_at": "2026-04-23T17:10:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f/awesome-chatgpt-prompts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plexpt/chatgpt-corpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plexpt/chatgpt-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat-gpt"
+    },
+    {
+      "context_snippet": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt3"
+    },
+    {
+      "context_snippet": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt4"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Azure Workload Identity CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure Workload Identity CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "Azure Workload Identity CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22260,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22239,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18239,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "linesman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "supercharge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Azure Workload Identity CI",
+  "concept_id": "azure-workload-identity-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure Workload Identity CI",
+      "sense_id": "azure-workload-identity-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

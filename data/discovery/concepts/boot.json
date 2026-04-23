@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "boot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate-context",
+      "text": "Compile atomic css for boot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate-context",
+      "text": "Compile atomic css for boot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azizzaeny/boot-atomizer",
+      "status": "candidate",
+      "text": "Compile atomic css for boot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004637,
+      "status": "candidate",
+      "text": "kick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957553,
+      "status": "candidate",
+      "text": "bring up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930789,
+      "status": "candidate",
+      "text": "trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915876,
+      "status": "candidate",
+      "text": "kicking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39833262,
+      "status": "candidate",
+      "text": "reboot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "kick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8057,
+      "status": "candidate",
+      "text": "trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "bring up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "kicking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "luggage compartment"
+    }
+  ],
+  "canonical_name": "boot",
+  "concept_id": "boot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boot",
+      "sense_id": "boot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

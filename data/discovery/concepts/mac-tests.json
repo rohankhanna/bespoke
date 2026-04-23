@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mac tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate-context",
+      "text": "Fork of the python-language-server project, maintained by the Spyder IDE team and the community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate-context",
+      "text": "Mac tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate",
+      "text": "Mac tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "coat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "listen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "pal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mac tests",
+  "concept_id": "mac-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac tests",
+      "sense_id": "mac-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unified-font-repository/Unified-Font-Repository",
+      "target": "raphaelbastide/unified-font-repository",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:23.324799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(DEMO) Repository architecture example for a typeface design project",
+    "fork": false,
+    "full_name": "unified-font-repository/Unified-Font-Repository",
+    "html_url": "https://github.com/unified-font-repository/Unified-Font-Repository",
+    "language": null,
+    "pushed_at": "2024-08-24T08:32:09Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-19T12:02:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raphaelbastide/unified-font-repository",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

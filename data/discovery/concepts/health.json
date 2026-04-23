@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Health"
+    "Health",
+    "health"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,18 @@
       "source_repo": "dart-lang/test",
       "status": "candidate-context",
       "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "The operational tool for Seata-Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +150,12 @@
       "source_repo": "dart-lang/test",
       "status": "candidate",
       "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +241,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/health.yaml",
       "source_repo": "dart-lang/test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-seata-ctl"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ashvardanian",
+      "target": "ashvardanian/forkunion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ashvardanian",
+      "target": "ashvardanian/less_slow.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ashvardanian",
+      "target": "ashvardanian/less_slow.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ashvardanian",
+      "target": "ashvardanian/hashevals",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:03:38.153282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My GitHub page :)",
+    "fork": false,
+    "full_name": "ashvardanian/ashvardanian",
+    "html_url": "https://github.com/ashvardanian/ashvardanian",
+    "language": "Python",
+    "pushed_at": "2026-04-11T09:26:22Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-11T09:26:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/forkunion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/hashevals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/less_slow.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/less_slow.py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nvidia/libnvidia-container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Cherry-Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "NVIDIA/holodeck@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "mikefarah/yq@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "slackapi/slack-github-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "End-to-end Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Stale issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "NVIDIA/nvidia-container-toolkit"
+}

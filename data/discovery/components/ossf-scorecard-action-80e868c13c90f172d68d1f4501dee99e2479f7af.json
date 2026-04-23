@@ -1,0 +1,12 @@
+{
+  "component": "ossf/scorecard-action@80e868c13c90f172d68d1f4501dee99e2479f7af",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/goada"
+    }
+  ]
+}

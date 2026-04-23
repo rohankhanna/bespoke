@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger CI for modelexpress"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Trigger CI for modelexpress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate",
+      "text": "Trigger CI for modelexpress"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "affirmative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "leed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger CI for modelexpress",
+  "concept_id": "trigger-ci-for-modelexpress",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/trigger_ci.yml",
+      "source_repo": "ai-dynamo/modelexpress"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger CI for modelexpress",
+      "sense_id": "trigger-ci-for-modelexpress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

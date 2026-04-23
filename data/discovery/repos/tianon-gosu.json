@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "tianon/gosu",
+      "target": "tianon/fake-git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tianon/gosu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tianon/gosu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tianon/gosu",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:59:43.497070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4850
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3806
+    },
+    {
+      "path": "go.mod",
+      "size": 110
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2243
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple Go-based setuid+setgid+setgroups+exec",
+    "fork": false,
+    "full_name": "tianon/gosu",
+    "html_url": "https://github.com/tianon/gosu",
+    "language": "Shell",
+    "pushed_at": "2026-03-04T18:27:37Z",
+    "stargazers_count": 4960,
+    "topics": [],
+    "updated_at": "2026-04-23T15:13:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianon/fake-git",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

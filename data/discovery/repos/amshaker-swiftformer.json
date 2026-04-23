@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/SwiftFormer",
+      "target": "escorciav/swiftformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/SwiftFormer",
+      "target": "facebookresearch/levit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/SwiftFormer",
+      "target": "snap-research/efficientformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/SwiftFormer",
+      "target": "mmaaz60/edgenext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:01.717870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV - 2023] Official repository of paper SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+    "fork": false,
+    "full_name": "Amshaker/SwiftFormer",
+    "html_url": "https://github.com/Amshaker/SwiftFormer",
+    "language": "Python",
+    "pushed_at": "2025-07-18T12:04:30Z",
+    "stargazers_count": 317,
+    "topics": [],
+    "updated_at": "2026-04-16T12:37:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "escorciav/swiftformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/levit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmaaz60/edgenext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snap-research/efficientformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

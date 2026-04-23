@@ -1,0 +1,375 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "thorstenmueller/deep-learning-german-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tensorflow/addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "kan-bayashi/parallelwavegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "chinese-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "fastspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "fastspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "german-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "japanese-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "korea-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "mobile-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "multi-speaker-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "multiband-melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "parallel-wavegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tensorflow2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tflite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "zh-tts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:25.508345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22321
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":stuck_out_tongue_closed_eyes: TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 (supported including English, French, Korean, Chinese, German and Easy to adapt for other languages)",
+    "fork": false,
+    "full_name": "TensorSpeech/TensorFlowTTS",
+    "html_url": "https://github.com/TensorSpeech/TensorFlowTTS",
+    "language": "Python",
+    "pushed_at": "2024-07-05T07:24:49Z",
+    "stargazers_count": 3991,
+    "topics": [
+      "chinese-tts",
+      "fastspeech",
+      "fastspeech2",
+      "german-tts",
+      "japanese-tts",
+      "korea-tts",
+      "melgan",
+      "mobile-tts",
+      "multi-speaker-tts",
+      "multiband-melgan",
+      "parallel-wavegan",
+      "real-time",
+      "speech-synthesis",
+      "tacotron2",
+      "tensorflow2",
+      "text-to-speech",
+      "tflite",
+      "tts",
+      "vocoder",
+      "zh-tts"
+    ],
+    "updated_at": "2026-04-21T16:46:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kan-bayashi/parallelwavegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/addons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thorstenmueller/deep-learning-german-tts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech2"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "german-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "korea-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melgan"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-speaker-tts"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiband-melgan"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-wavegan"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron2"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zh-tts"
+    }
+  ]
+}

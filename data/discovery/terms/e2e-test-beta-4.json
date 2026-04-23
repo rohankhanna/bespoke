@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-beta4-dev.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    }
+  ],
+  "term": "E2E Test Beta-4"
+}

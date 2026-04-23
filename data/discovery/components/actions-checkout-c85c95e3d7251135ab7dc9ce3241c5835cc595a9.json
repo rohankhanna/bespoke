@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/messages_shrinker.yml",
       "source_repo": "dart-lang/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "redhat-developer/yaml-language-server"
     }
   ]
 }

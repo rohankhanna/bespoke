@@ -19,12 +19,30 @@
       "source_repo": "bufbuild/protoc-gen-validate",
       "status": "candidate-context",
       "text": "Bypass review in case of emergency"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Bypass review in case of emergency"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "Bypass review in case of emergency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
       "status": "candidate",
       "text": "Bypass review in case of emergency"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/emergency-review-bypass.yaml",
       "source_repo": "bufbuild/protoc-gen-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-es"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

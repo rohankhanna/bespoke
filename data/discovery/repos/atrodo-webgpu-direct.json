@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "webgpu-native/webgpu-headers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "compute-shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "perl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct",
+      "target": "wgpu-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:53.918225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Direct access to WebGPU native APIs from perl",
+    "fork": false,
+    "full_name": "atrodo/WebGPU-Direct",
+    "html_url": "https://github.com/atrodo/WebGPU-Direct",
+    "language": "Perl",
+    "pushed_at": "2025-11-26T05:19:53Z",
+    "stargazers_count": 3,
+    "topics": [
+      "3d",
+      "compute-shaders",
+      "graphics",
+      "perl",
+      "webgpu",
+      "wgpu-native"
+    ],
+    "updated_at": "2025-11-26T05:19:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webgpu-native/webgpu-headers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compute-shaders"
+    },
+    {
+      "context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl"
+    },
+    {
+      "context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    },
+    {
+      "context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wgpu-native"
+    }
+  ]
+}

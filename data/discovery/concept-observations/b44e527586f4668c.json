@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Learn how to code with abap2UI5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "ext js"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "juce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "polymer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "react"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "nativescript"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openui5",
+      "sense_id": "openui5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openui5",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openui5",
+  "observation_id": "b44e527586f4668c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "openui5",
+  "source_context_snippet": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)",
+  "source_file": null,
+  "source_repo": "abap2UI5/samples",
+  "source_repo_description": "Learn how to code with abap2UI5"
+}

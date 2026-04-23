@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Documentation on Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "Update Documentation on Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate",
+      "text": "Update Documentation on Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "emend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "recap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Documentation on Release",
+  "concept_id": "update-documentation-on-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Documentation on Release",
+      "sense_id": "update-documentation-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

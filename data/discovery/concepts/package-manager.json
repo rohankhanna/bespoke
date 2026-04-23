@@ -271,6 +271,102 @@
       "source_repo": "BrianPugh/belay",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate-context",
+      "text": "A simple, decentralized dependency manager for Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate-context",
+      "text": "![](Logo/PNG/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Python packaging and dependency management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "The Cocoa Dependency Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0f A developer friendly package manager for Swift; 100% compatible with Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "A package manager that installs and runs executable Swift packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1a  Neovim package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "> ## \u2139\ufe0f Important note"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +501,54 @@
       "source_repo": "BrianPugh/belay",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate",
+      "text": "![](Logo/PNG/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate",
+      "text": "> ## \u2139\ufe0f Important note"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +700,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BrianPugh/belay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jakeheis/Ice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yarnpkg/yarn"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

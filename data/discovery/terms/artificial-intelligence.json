@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -116,6 +116,46 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "camel-ai/owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
     }
   ],
   "term": "artificial-intelligence"

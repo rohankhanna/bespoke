@@ -1,0 +1,356 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyter/notebook-team-compass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyter/nbclassic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/notebook",
+      "target": "chungjooho/jupyter_kor_doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "@jupyter/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "@jupyterlab/buildutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "html-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter/notebook",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_author_assign.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "toshimaru/auto-author-assign@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_author_assign.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Auto Author Assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binder.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/binder-link@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binder.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Binder Badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/upload-coverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/report-coverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/check-links@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@f5d710df1483f19b666dd96aeabbe949a53642c2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildutils.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildutils.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildutils.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildutils.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Build Utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/check-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Check Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "jupyterlab/maintainer-tools/.github/actions/enforce-label@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Enforce PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "dessant/lock-threads@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "jupyter/notebook",
+      "target": "Lock Closed Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/notebook",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/notebook",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/notebook",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/notebook",
+      "target": "notebook",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "jupyter/notebook"
+}

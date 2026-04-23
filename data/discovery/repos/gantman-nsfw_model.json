@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "heinrichreimer/github-changelog-generator-action@v2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.6.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.6.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "infinitered/nsfwjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "alexkimxyz/nsfw_data_scrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "ebazarov/nsfw_data_source_urls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "kentcdodds/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "heinrichreimer/github-changelog-generator-action@v2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "pypa/gh-action-pypi-publish@v1.6.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model",
+      "target": "Build and release packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "inception-v3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "inceptionv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "machinelearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model",
+      "target": "nsfw-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:03.948770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7330
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Keras model of NSFW detector",
+    "fork": false,
+    "full_name": "GantMan/nsfw_model",
+    "html_url": "https://github.com/GantMan/nsfw_model",
+    "language": "Python",
+    "pushed_at": "2024-02-26T07:28:05Z",
+    "stargazers_count": 2052,
+    "topics": [
+      "inception-v3",
+      "inceptionv3",
+      "keras",
+      "machine-learning",
+      "machinelearning",
+      "nsfw-data"
+    ],
+    "updated_at": "2026-04-23T06:13:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkimxyz/nsfw_data_scrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebazarov/nsfw_data_source_urls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "infinitered/nsfwjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kentcdodds/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and release packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Build and release packages"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception-v3"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inceptionv3"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machinelearning"
+    },
+    {
+      "context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw-data"
+    }
+  ]
+}

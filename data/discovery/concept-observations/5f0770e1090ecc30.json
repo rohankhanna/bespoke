@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "publish-docker-inner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "publish-docker-inner"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish-docker-inner",
+      "sense_id": "publish-docker-inner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-docker-inner",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-docker-inner",
+  "observation_id": "5f0770e1090ecc30",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "publish-docker-inner",
+  "source_context_snippet": "publish-docker-inner",
+  "source_file": ".github/workflows/docker-inner.yml",
+  "source_repo": "InternLM/xtuner",
+  "source_repo_description": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+}

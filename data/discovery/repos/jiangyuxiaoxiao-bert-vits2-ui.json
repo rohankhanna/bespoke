@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "@ant-design/icons-vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@highlightjs/vue-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@surely-vue/table",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ant-design-vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unplugin-vue-markdown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-timer-hook",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@ant-design/icons-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@highlightjs/vue-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@surely-vue/table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "ant-design-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "unplugin-vue-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vue-timer-hook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:51.866538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1771
+    },
+    {
+      "path": "package.json",
+      "size": 568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BertVITS2\u524d\u7aef\u754c\u9762",
+    "fork": false,
+    "full_name": "jiangyuxiaoxiao/Bert-VITS2-UI",
+    "html_url": "https://github.com/jiangyuxiaoxiao/Bert-VITS2-UI",
+    "language": "Vue",
+    "pushed_at": "2024-01-01T09:06:39Z",
+    "stargazers_count": 305,
+    "topics": [],
+    "updated_at": "2026-04-18T05:18:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

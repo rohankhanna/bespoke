@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check consensus spec values"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check consensus spec values"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31576,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31302,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31172,
+      "status": "candidate",
+      "text": "accuracy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046,
+      "status": "candidate",
+      "text": "controlling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check consensus spec values",
+      "sense_id": "check-consensus-spec-values#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-consensus-spec-values",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-consensus-spec-values",
+  "observation_id": "27b9707220b04c7c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check consensus spec values",
+  "source_context_snippet": "Check consensus spec values",
+  "source_file": ".github/workflows/check-consensus-spec-values.yml",
+  "source_repo": "ethpandaops/ethereum-package",
+  "source_repo_description": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+}

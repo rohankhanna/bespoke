@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "a5f9e6782c999600",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">",
+  "source_file": null,
+  "source_repo": "milvus-io/milvus",
+  "source_repo_description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+}

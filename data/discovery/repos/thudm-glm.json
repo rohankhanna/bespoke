@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/GLM",
+      "target": "abisee/cnn-dailymail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/GLM",
+      "target": "edinburghnlp/xsum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/GLM",
+      "target": "artmatsak/cnn-dailymail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/GLM",
+      "target": "cybertronai/bflm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:04.699204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21976
+    },
+    {
+      "path": "requirements.txt",
+      "size": 207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLM (General Language Model)",
+    "fork": false,
+    "full_name": "THUDM/GLM",
+    "html_url": "https://github.com/THUDM/GLM",
+    "language": "Python",
+    "pushed_at": "2023-11-03T08:26:49Z",
+    "stargazers_count": 3488,
+    "topics": [],
+    "updated_at": "2026-04-23T00:40:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abisee/cnn-dailymail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artmatsak/cnn-dailymail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cybertronai/bflm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edinburghnlp/xsum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

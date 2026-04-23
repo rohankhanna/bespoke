@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "klauspost/compress",
+      "target": "klauspost/pgzip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "klauspost/compress",
+      "target": "klauspost/crc32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "klauspost/compress",
+      "target": "cosnicolaou/pbzip2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "klauspost/compress",
+      "target": "dsnet/compress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/compress",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/compress",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/compress",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/compress",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klauspost/compress",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "klauspost/compress",
+      "target": "actions/setup-go@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "klauspost/compress",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "deflate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "gzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "snappy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "zstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "klauspost/compress",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:17.901690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 54450
+    },
+    {
+      "path": "go.mod",
+      "size": 201
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2934
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 5926
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optimized Go Compression Packages",
+    "fork": false,
+    "full_name": "klauspost/compress",
+    "html_url": "https://github.com/klauspost/compress",
+    "language": "Go",
+    "pushed_at": "2026-04-07T10:03:42Z",
+    "stargazers_count": 5478,
+    "topics": [
+      "compression",
+      "decompression",
+      "deflate",
+      "go",
+      "golang",
+      "gzip",
+      "snappy",
+      "zip",
+      "zstandard",
+      "zstd"
+    ],
+    "updated_at": "2026-04-23T19:56:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosnicolaou/pbzip2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dsnet/compress",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klauspost/crc32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klauspost/pgzip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deflate"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snappy"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    },
+    {
+      "context_snippet": "This package provides various compression algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

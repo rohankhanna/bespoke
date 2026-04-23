@@ -19,6 +19,30 @@
       "source_repo": "rapidsai/rmm",
       "status": "candidate-context",
       "text": "**NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Easy to integrate Vulkan memory allocation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Easy to integrate Vulkan memory allocation library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "rapidsai/rmm",
       "status": "candidate",
       "text": "**NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate",
+      "text": "Easy to integrate Vulkan memory allocation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rapidsai/rmm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

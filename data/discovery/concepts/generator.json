@@ -55,6 +55,66 @@
       "source_repo": "RichardLitt/generator-standard-readme",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 CLI that generates beautiful README.md files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb \ud83d\ude04 Add icons to your GitHub profile using this generator  \ud83d\ude04 \ud83d\udccb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "RichardLitt/generator-standard-readme",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +253,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "RichardLitt/generator-standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

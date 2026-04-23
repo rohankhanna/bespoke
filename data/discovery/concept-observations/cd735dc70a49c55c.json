@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Databricks\u2019 Dolly, a large language model trained on the Databricks Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043608,
+      "status": "candidate",
+      "text": "doll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039663,
+      "status": "candidate",
+      "text": "babe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035655,
+      "status": "candidate",
+      "text": "baby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20031191,
+      "status": "candidate",
+      "text": "dearie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030224,
+      "status": "candidate",
+      "text": "sweetheart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dolly",
+      "sense_id": "dolly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "doll"
+    }
+  ],
+  "concept_id": "dolly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dolly",
+  "observation_id": "cd735dc70a49c55c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "dolly",
+  "source_context_snippet": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform",
+  "source_file": null,
+  "source_repo": "databrickslabs/dolly",
+  "source_repo_description": "Databricks\u2019 Dolly, a large language model trained on the Databricks Machine Learning Platform"
+}

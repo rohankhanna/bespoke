@@ -43,6 +43,186 @@
       "source_repo": "deepspeedai/DeepSpeed",
       "status": "candidate-context",
       "text": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Jupyter notebook tutorials for OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "LightSeq: A High Performance Library for Sequence Processing and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "Pre-trained Deep Learning models and demos (high quality and extremely fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +243,96 @@
       "source_repo": "deepspeedai/DeepSpeed",
       "status": "candidate",
       "text": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate",
+      "text": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate",
+      "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +438,113 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed-MII"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

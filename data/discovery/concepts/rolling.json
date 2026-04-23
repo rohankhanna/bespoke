@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rolling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "A Rust port of FlameGraph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "rolling"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate",
+      "text": "rolling"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864735,
+      "status": "candidate",
+      "text": "billowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39798812,
+      "status": "candidate",
+      "text": "tumbling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39797667,
+      "status": "candidate",
+      "text": "reverberant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39793220,
+      "status": "candidate",
+      "text": "wheeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39769707,
+      "status": "candidate",
+      "text": "peal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22037,
+      "status": "candidate",
+      "text": "resonant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21042,
+      "status": "candidate",
+      "text": "peal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21024,
+      "status": "candidate",
+      "text": "reverberant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17042,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "canonical_name": "rolling",
+  "concept_id": "rolling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "jonhoo/inferno"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rolling",
+      "sense_id": "rolling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

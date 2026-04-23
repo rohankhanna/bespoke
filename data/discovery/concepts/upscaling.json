@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003710,
+      "status": "candidate",
+      "text": "upmarket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003768,
+      "status": "candidate",
+      "text": "enlargement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003628,
+      "status": "candidate",
+      "text": "magnification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002310,
+      "status": "candidate",
+      "text": "extension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002282,
+      "status": "candidate",
+      "text": "broadening"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "upscaling",
   "concept_id": "upscaling",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

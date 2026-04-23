@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/vblang",
+      "target": "visual-basic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:11.777646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The home for design of the Visual Basic .NET programming language and runtime library.",
+    "fork": false,
+    "full_name": "dotnet/vblang",
+    "html_url": "https://github.com/dotnet/vblang",
+    "language": null,
+    "pushed_at": "2024-12-18T01:53:31Z",
+    "stargazers_count": 323,
+    "topics": [
+      "visual-basic"
+    ],
+    "updated_at": "2026-04-21T09:39:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the official repo for Visual Basic .NET language design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-basic"
+    }
+  ]
+}

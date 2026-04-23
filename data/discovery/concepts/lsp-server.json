@@ -79,6 +79,30 @@
       "source_repo": "LuaLS/lua-language-server",
       "status": "candidate-context",
       "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate-context",
+      "text": "C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate-context",
+      "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "LuaLS/lua-language-server",
       "status": "candidate",
       "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate",
+      "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MaskRay/ccls"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

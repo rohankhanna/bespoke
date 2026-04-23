@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Louhi Release Tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Google OAuth Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Louhi Release Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate",
+      "text": "Louhi Release Tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "pohjola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9520,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "licence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Louhi Release Tag",
+  "concept_id": "louhi-release-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/louhi-tag-release.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Louhi Release Tag",
+      "sense_id": "louhi-release-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

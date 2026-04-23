@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "test-runner"
+    "test-runner",
+    "Test Runner"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate-context",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Test Runner"
     }
   ],
   "candidate_glosses": [
@@ -63,9 +78,51 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "Test Runner"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "train"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-runner",
   "concept_id": "test-runner",
@@ -88,11 +145,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

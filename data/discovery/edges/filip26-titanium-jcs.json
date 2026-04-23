@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "filip26/tree-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "cyberphone/json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "filip26/titanium-rdf-canon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Codacy Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Java 21 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Publish to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonicalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonicalize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "equality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "jackson-databind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "jakarta-json-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "filip26/titanium-jcs"
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build without committed Cargo.lock"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build without committed Cargo.lock"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35227,
+      "status": "candidate",
+      "text": "pitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27007,
+      "status": "candidate",
+      "text": "pitched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21160,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21160,
+      "status": "candidate",
+      "text": "trusted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19721,
+      "status": "candidate",
+      "text": "floating"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build without committed Cargo.lock",
+      "sense_id": "build-without-committed-cargo.lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-without-committed-cargo.lock",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-without-committed-cargo.lock",
+  "observation_id": "fa450dce5a1ba672",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build without committed Cargo.lock",
+  "source_context_snippet": "Build without committed Cargo.lock",
+  "source_file": ".github/workflows/build-without-lockfile.yml",
+  "source_repo": "EspressoSystems/HotShot",
+  "source_repo_description": null
+}

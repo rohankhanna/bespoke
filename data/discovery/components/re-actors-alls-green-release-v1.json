@@ -1,7 +1,7 @@
 {
   "component": "re-actors/alls-green@release/v1",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alloy-rs/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paradigmxyz/mev-share-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core"
     }
   ]
 }

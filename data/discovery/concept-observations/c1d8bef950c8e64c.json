@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Image CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Image CI",
+      "sense_id": "docker-image-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-image-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-image-ci",
+  "observation_id": "c1d8bef950c8e64c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker Image CI",
+  "source_context_snippet": "Docker Image CI",
+  "source_file": ".github/workflows/docker-image.yml",
+  "source_repo": "NVIDIA/TensorRT",
+  "source_repo_description": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+}

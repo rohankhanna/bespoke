@@ -1,0 +1,17 @@
+{
+  "component": "codacy/codacy-coverage-reporter-action@v1.3.0",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs"
+    }
+  ]
+}

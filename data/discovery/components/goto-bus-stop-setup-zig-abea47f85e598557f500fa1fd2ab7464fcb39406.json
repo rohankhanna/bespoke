@@ -1,0 +1,12 @@
+{
+  "component": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-tests.yml",
+      "source_repo": "rollup/rollup"
+    }
+  ]
+}

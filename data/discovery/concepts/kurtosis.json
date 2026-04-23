@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kurtosis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024982,
+      "status": "candidate",
+      "text": "homokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024981,
+      "status": "candidate",
+      "text": "excess kurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024980,
+      "status": "candidate",
+      "text": "mesokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024979,
+      "status": "candidate",
+      "text": "heterokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024978,
+      "status": "candidate",
+      "text": "fat tail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kurtosis",
+  "concept_id": "kurtosis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kurtosis",
+      "sense_id": "kurtosis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

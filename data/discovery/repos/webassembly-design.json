@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/design",
+      "target": "webassembly/meetings",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:27.023680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly Design Documents",
+    "fork": false,
+    "full_name": "WebAssembly/design",
+    "html_url": "https://github.com/WebAssembly/design",
+    "language": null,
+    "pushed_at": "2025-10-22T02:46:22Z",
+    "stargazers_count": 11572,
+    "topics": [],
+    "updated_at": "2026-04-21T21:21:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/meetings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

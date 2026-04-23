@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/milksnake",
+      "target": "tag-production",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:42.723037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A setuptools/wheel/cffi extension to embed a binary data in wheels",
+    "fork": false,
+    "full_name": "getsentry/milksnake",
+    "html_url": "https://github.com/getsentry/milksnake",
+    "language": "Python",
+    "pushed_at": "2023-04-11T18:41:15Z",
+    "stargazers_count": 801,
+    "topics": [
+      "tag-production"
+    ],
+    "updated_at": "2026-04-08T16:42:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://pypi.python.org/pypi/milksnake\"><img src=\"https://img.shields.io/pypi/v/milksnake.svg\" alt=\"\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag-production"
+    }
+  ]
+}

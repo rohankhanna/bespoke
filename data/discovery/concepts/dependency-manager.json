@@ -43,6 +43,54 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Python packaging and dependency management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "The Cocoa Dependency Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "A package manager that installs and runs executable Swift packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +160,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "badgen/badgen-icons",
+      "target": "badgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "badgen/badgen-icons",
+      "target": "icon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:54.383753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 194
+    },
+    {
+      "path": "package.json",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Icons for badgen service.",
+    "fork": false,
+    "full_name": "badgen/badgen-icons",
+    "html_url": "https://github.com/badgen/badgen-icons",
+    "language": "HTML",
+    "pushed_at": "2024-08-06T12:58:01Z",
+    "stargazers_count": 24,
+    "topics": [
+      "badgen",
+      "icon",
+      "svg"
+    ],
+    "updated_at": "2026-03-15T22:42:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Icons for badgen.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badgen"
+    },
+    {
+      "context_snippet": "Icons for badgen.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon"
+    }
+  ]
+}

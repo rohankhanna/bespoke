@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "collaboration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998955,
+      "status": "candidate",
+      "text": "quislingism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972294,
+      "status": "candidate",
+      "text": "coaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010725,
+      "status": "candidate",
+      "text": "cooperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010708,
+      "status": "candidate",
+      "text": "cooperate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010706,
+      "status": "candidate",
+      "text": "cooperative"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11025,
+      "status": "candidate",
+      "text": "coaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7012,
+      "status": "candidate",
+      "text": "quislingism"
+    }
+  ],
+  "canonical_name": "collaboration",
+  "concept_id": "collaboration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akshaykmr/teletype"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collaboration",
+      "sense_id": "collaboration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

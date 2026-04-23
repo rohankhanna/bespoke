@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specifications of cryptographic algorithms in Cryptol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12514,
+      "status": "candidate",
+      "text": "embargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "bootleg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copyright check",
+      "sense_id": "copyright-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "copyright-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "copyright-check",
+  "observation_id": "9d0dd706f9dbd069",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Copyright check",
+  "source_context_snippet": "Copyright check",
+  "source_file": ".github/workflows/copyright_check.yml",
+  "source_repo": "GaloisInc/cryptol-specs",
+  "source_repo_description": "Specifications of cryptographic algorithms in Cryptol"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "openshift"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "\u2388\u274f Terminal and Web console for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "apache cloudstack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "red hat cluster suite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "red hat enterprise linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "fuse esb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "openshift",
+  "concept_id": "openshift",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openshift",
+      "sense_id": "openshift#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

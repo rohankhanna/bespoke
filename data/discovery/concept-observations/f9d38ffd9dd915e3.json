@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991586,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050901,
+      "status": "candidate",
+      "text": "trying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049556,
+      "status": "candidate",
+      "text": "hardship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043807,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037268,
+      "status": "candidate",
+      "text": "outreach"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "testing",
+      "sense_id": "testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15051,
+      "status": "candidate",
+      "text": "examination"
+    }
+  ],
+  "concept_id": "testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "testing",
+  "observation_id": "f9d38ffd9dd915e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "testing",
+  "source_context_snippet": "<a id=\"top\"></a>",
+  "source_file": null,
+  "source_repo": "catchorg/Catch2",
+  "source_repo_description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}

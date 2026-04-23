@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Review"
+    "Review",
+    "review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "safe-global/safe-deployments",
       "status": "candidate-context",
       "text": "Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authorizer-tech/access-controller",
+      "status": "candidate-context",
+      "text": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authorizer-tech/access-controller",
+      "status": "candidate-context",
+      "text": "review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "A cryptographically verifiable code review system for the cargo (Rust) package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "safe-global/safe-deployments",
       "status": "candidate",
       "text": "Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authorizer-tech/access-controller",
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +151,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/review.yml",
       "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "authorizer-tech/access-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/cargo-crev"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

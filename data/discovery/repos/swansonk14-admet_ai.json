@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "swansonk14/admet_ai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "swansonk14/admet_ai",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "swansonk14/admet_ai",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:37.951884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5550
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1698
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1642
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training and prediction scripts for Chemprop models trained on ADMET datasets",
+    "fork": false,
+    "full_name": "swansonk14/admet_ai",
+    "html_url": "https://github.com/swansonk14/admet_ai",
+    "language": "HTML",
+    "pushed_at": "2026-02-22T01:11:44Z",
+    "stargazers_count": 297,
+    "topics": [],
+    "updated_at": "2026-04-21T03:23:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

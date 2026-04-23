@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Weblate Pull Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Weblate Pull Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "Weblate Pull Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28088,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "rise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Weblate Pull Branch",
+  "concept_id": "weblate-pull-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/weblate-pull.yml",
+      "source_repo": "0xJacky/nginx-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weblate Pull Branch",
+      "sense_id": "weblate-pull-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

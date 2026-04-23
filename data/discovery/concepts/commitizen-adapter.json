@@ -19,6 +19,18 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate-context",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "A Commitizen adapter for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "![Banner][icon-banner]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate",
+      "text": "![Banner][icon-banner]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EndemolShineGroup/cz-github"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

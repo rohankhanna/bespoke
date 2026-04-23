@@ -1,0 +1,457 @@
+{
+  "components": [
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_upload_index.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_upload_index.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "dangoslen/changelog-enforcer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_testing.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Build macOS Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Build Windows Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_upload_index.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_upload_index.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_upload_index.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Upload Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "hmarr/auto-approve-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Auto-merge Bot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "dangoslen/changelog-enforcer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Changelog Enforcer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_testing.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_testing.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_testing.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "C++ Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "geometric-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "graph-convolutional-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:09.943650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2810
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/_build_linux.yml",
+      "size": 4219
+    },
+    {
+      "path": ".github/workflows/_build_macos.yml",
+      "size": 3288
+    },
+    {
+      "path": ".github/workflows/_build_windows.yml",
+      "size": 3648
+    },
+    {
+      "path": ".github/workflows/_upload_index.yml",
+      "size": 1217
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/cpp_testing.yml",
+      "size": 2433
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Low-Level Graph Neural Network Operators for PyG",
+    "fork": false,
+    "full_name": "pyg-team/pyg-lib",
+    "html_url": "https://github.com/pyg-team/pyg-lib",
+    "language": "C++",
+    "pushed_at": "2026-04-21T18:44:42Z",
+    "stargazers_count": 227,
+    "topics": [
+      "deep-learning",
+      "geometric-deep-learning",
+      "graph-convolutional-networks",
+      "graph-neural-networks",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T07:04:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Build macOS Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "term": "Build macOS Wheels"
+    },
+    {
+      "context_snippet": "Build Windows Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_windows.yml",
+      "term": "Build Windows Wheels"
+    },
+    {
+      "context_snippet": "Upload Index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_upload_index.yml",
+      "term": "Upload Index"
+    },
+    {
+      "context_snippet": "Auto-merge Bot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "Auto-merge Bot PRs"
+    },
+    {
+      "context_snippet": "Changelog Enforcer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog Enforcer"
+    },
+    {
+      "context_snippet": "C++ Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_testing.yml",
+      "term": "C++ Testing"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometric-deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-convolutional-networks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

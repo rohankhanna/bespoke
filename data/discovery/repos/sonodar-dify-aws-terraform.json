@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:08:40.622780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Terraform template for Dify on AWS",
+    "fork": false,
+    "full_name": "sonodar/dify-aws-terraform",
+    "html_url": "https://github.com/sonodar/dify-aws-terraform",
+    "language": "HCL",
+    "pushed_at": "2024-09-05T02:26:51Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-01-11T05:51:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

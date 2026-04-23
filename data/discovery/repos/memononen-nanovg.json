@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memononen/nanovg",
+      "target": "cmaughan/nanovg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memononen/nanovg",
+      "target": "ollix/metalnanovg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memononen/nanovg",
+      "target": "bkaradzic/bgfx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memononen/nanovg",
+      "target": "island-org/island",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "memononen/nanovg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:56.626743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5937
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.",
+    "fork": false,
+    "full_name": "memononen/nanovg",
+    "html_url": "https://github.com/memononen/nanovg",
+    "language": "C",
+    "pushed_at": "2026-02-19T13:29:32Z",
+    "stargazers_count": 5615,
+    "topics": [],
+    "updated_at": "2026-04-22T12:58:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bkaradzic/bgfx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmaughan/nanovg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "island-org/island",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ollix/metalnanovg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

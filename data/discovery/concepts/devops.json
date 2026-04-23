@@ -175,6 +175,66 @@
       "source_repo": "mattn/goreman",
       "status": "candidate-context",
       "text": "Clone of foreman written in golang."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "An unofficial Local GitHub Actions and Azure Pipelines Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "mattn/goreman",
       "status": "candidate",
       "text": "Clone of foreman written in golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate",
+      "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -381,11 +471,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mattn/goreman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "grain-lang/grain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault"
     }
   ]
 }

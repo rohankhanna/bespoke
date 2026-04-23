@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "cover",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-uglify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "matcha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "opener",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "promises-aplus-tests",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriskowal/q",
+      "target": "kriskowal/q-connection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriskowal/q",
+      "target": "component/component",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriskowal/q",
+      "target": "montagejs/mr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "cover",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "grunt-contrib-uglify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "jasmine-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "matcha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "opener",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriskowal/q",
+      "target": "promises-aplus-tests",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:13:47.420764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26399
+    },
+    {
+      "path": "package.json",
+      "size": 1842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A promise library for JavaScript",
+    "fork": false,
+    "full_name": "kriskowal/q",
+    "html_url": "https://github.com/kriskowal/q",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-08T10:50:34Z",
+    "stargazers_count": 15071,
+    "topics": [],
+    "updated_at": "2026-04-23T01:15:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "component/component",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kriskowal/q-connection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "montagejs/mr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

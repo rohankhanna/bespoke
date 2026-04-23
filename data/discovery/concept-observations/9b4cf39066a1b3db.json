@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The gluon-lang.org website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961944,
+      "status": "candidate",
+      "text": "resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980107,
+      "status": "candidate",
+      "text": "holiday resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980107,
+      "status": "candidate",
+      "text": "vacation spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980106,
+      "status": "candidate",
+      "text": "stake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978758,
+      "status": "candidate",
+      "text": "court"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playground",
+      "sense_id": "playground#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "holiday resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "vacation spot"
+    }
+  ],
+  "concept_id": "playground",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "playground",
+  "observation_id": "9b4cf39066a1b3db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "playground",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026",
+  "source_file": null,
+  "source_repo": "gluon-lang/gluon-lang.org",
+  "source_repo_description": "The gluon-lang.org website."
+}

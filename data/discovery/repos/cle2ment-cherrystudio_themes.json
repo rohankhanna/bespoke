@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Cle2ment/CherryStudio_themes",
-      "target": "pal3love/dream-han-cjk",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-theme-to-readme.yml",
       "source_repo": "Cle2ment/CherryStudio_themes",
@@ -57,7 +50,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:42:51.351778+00:00",
+  "fetched_at": "2026-04-23T22:06:42.090830+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,11 +83,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "boningtonchen/cherrystudio_themes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pal3love/dream-han-cjk",
       "source_file": "README.md"
     }
   ],

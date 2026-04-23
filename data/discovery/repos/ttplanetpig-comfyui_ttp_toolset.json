@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TTPlanetPig/Comfyui_TTP_Toolset",
+      "target": "ali-vilab/teacache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TTPlanetPig/Comfyui_TTP_Toolset",
+      "target": "facok/comfyui-teacachehunyuanvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TTPlanetPig/Comfyui_TTP_Toolset",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TTPlanetPig/Comfyui_TTP_Toolset",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TTPlanetPig/Comfyui_TTP_Toolset",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:35:02.422212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6493
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 675
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "for tile the image for advanced control or modification ",
+    "fork": false,
+    "full_name": "TTPlanetPig/Comfyui_TTP_Toolset",
+    "html_url": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
+    "language": "Python",
+    "pushed_at": "2026-01-08T23:22:02Z",
+    "stargazers_count": 974,
+    "topics": [],
+    "updated_at": "2026-04-22T16:16:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/teacache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facok/comfyui-teacachehunyuanvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

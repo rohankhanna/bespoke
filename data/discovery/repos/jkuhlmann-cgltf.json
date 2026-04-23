@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "bkaradzic/bgfx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "google/filament",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "google/draco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "binomialllc/basis_universal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "gltf-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "gltf2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "gltf2-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "single-header-lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf",
+      "target": "stb-style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:05.485308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6149
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":diamond_shape_with_a_dot_inside: Single-file glTF 2.0 loader and writer written in C99",
+    "fork": false,
+    "full_name": "jkuhlmann/cgltf",
+    "html_url": "https://github.com/jkuhlmann/cgltf",
+    "language": "C",
+    "pushed_at": "2026-02-02T20:32:49Z",
+    "stargazers_count": 1872,
+    "topics": [
+      "3d",
+      "c",
+      "c99",
+      "glb",
+      "gltf",
+      "gltf-loader",
+      "gltf2",
+      "gltf2-loader",
+      "single-header-lib",
+      "stb-style"
+    ],
+    "updated_at": "2026-04-23T09:28:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binomialllc/basis_universal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bkaradzic/bgfx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/draco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/filament",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf-loader"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf2"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf2-loader"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header-lib"
+    },
+    {
+      "context_snippet": "**Single-file/stb-style C glTF loader and writer**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stb-style"
+    }
+  ]
+}

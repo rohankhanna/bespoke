@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build On Demand"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate-context",
+      "text": "A Datacenter Scale Distributed Inference Serving Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate-context",
+      "text": "Build On Demand"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate",
+      "text": "Build On Demand"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28022,
+      "status": "candidate",
+      "text": "overbuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "outreach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build On Demand",
+  "concept_id": "build-on-demand",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "source_repo": "ai-dynamo/dynamo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build On Demand",
+      "sense_id": "build-on-demand#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

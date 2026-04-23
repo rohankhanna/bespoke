@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "language-design"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate-context",
+      "text": "The official repo for the design of the C# programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs and docs related to the F# language design process, see https://github.com/fsharp/fslang-suggestions to submit ideas "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "language-design",
+  "concept_id": "language-design",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/csharplang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-design",
+      "sense_id": "language-design#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

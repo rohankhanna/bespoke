@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v6",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "virtuald/pyhcl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-branches.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core"
     }
   ]
 }

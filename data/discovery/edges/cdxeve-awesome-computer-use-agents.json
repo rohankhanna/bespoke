@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "andelf/axcli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "microsoft/ufo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "microsoft/omniparser",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "cdxeve/awesome-computer-use-agents"
+}

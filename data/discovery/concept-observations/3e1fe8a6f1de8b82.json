@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Noto fonts support tools and scripts plus web site generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Test + Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Test + Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24429,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24395,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24395,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24163,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24163,
+      "status": "candidate",
+      "text": "pulling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Test + Deploy",
+      "sense_id": "continuous-test-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-test-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-test-deploy",
+  "observation_id": "3e1fe8a6f1de8b82",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Continuous Test + Deploy",
+  "source_context_snippet": "Continuous Test + Deploy",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "notofonts/nototools",
+  "source_repo_description": "Noto fonts support tools and scripts plus web site generation"
+}

@@ -32,6 +32,18 @@
       "source_repo": "rom1504/clip-retrieval",
       "status": "candidate-context",
       "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "npm-publish"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
       "status": "candidate",
       "text": "npm-publish"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/front-publish.yml",
       "source_repo": "rom1504/clip-retrieval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mockingbot/react-native-zip-archive"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

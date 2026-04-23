@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Our library for RL environments + evals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync Docs to Public Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync Docs to Public Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32474,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "francois marie charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "closure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Docs to Public Docs",
+      "sense_id": "sync-docs-to-public-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-docs-to-public-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-docs-to-public-docs",
+  "observation_id": "ccffd431b28a1cc7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sync Docs to Public Docs",
+  "source_context_snippet": "Sync Docs to Public Docs",
+  "source_file": ".github/workflows/sync-docs.yml",
+  "source_repo": "PrimeIntellect-ai/verifiers",
+  "source_repo_description": "Our library for RL environments + evals"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"nix build check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"nix build check\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24603,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24547,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22546,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22532,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22531,
+      "status": "candidate",
+      "text": "withhold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nix build check",
+      "sense_id": "nix-build-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nix-build-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nix-build-check",
+  "observation_id": "23c940d9d2059e51",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nix build check",
+  "source_context_snippet": "\"nix build check\"",
+  "source_file": ".github/workflows/nix-check.yml",
+  "source_repo": "cjpais/Handy",
+  "source_repo_description": "A free, open source, and extensible speech-to-text application that works completely offline."
+}

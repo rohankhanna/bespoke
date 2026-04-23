@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint and Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "Fast badge service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "Lint and Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate",
+      "text": "Lint and Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11516,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11474,
+      "status": "candidate",
+      "text": "flue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11474,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11474,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11474,
+      "status": "candidate",
+      "text": "stripped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint and Build",
+  "concept_id": "lint-and-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "badgen/badgen.net"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Build",
+      "sense_id": "lint-and-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

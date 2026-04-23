@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Swift database - fast, simple and lightweight (iOS, macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022626,
+      "status": "candidate",
+      "text": "nonleaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022625,
+      "status": "candidate",
+      "text": "non-science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022624,
+      "status": "candidate",
+      "text": "nonstandart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022623,
+      "status": "candidate",
+      "text": "nonbinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022622,
+      "status": "candidate",
+      "text": "nonlocal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nosql",
+      "sense_id": "nosql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nosql",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nosql",
+  "observation_id": "835cc9fd504a75e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nosql",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "objectbox/objectbox-swift",
+  "source_repo_description": "Swift database - fast, simple and lightweight (iOS, macOS)"
+}

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pybind/cmake_example",
+      "target": "pybind/scikit_build_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pybind/cmake_example",
+      "target": "pybind/python_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pybind/cmake_example",
+      "target": "scikit-build/scikit-build-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "conda-incubator/setup-miniconda@v3.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "Conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "Pip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "pypa/cibuildwheel@v2.17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example",
+      "target": "Wheels",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "pybind/cmake_example"
+}

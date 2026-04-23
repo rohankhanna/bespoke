@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:07:24.282486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleSports",
+    "html_url": "https://github.com/PaddlePaddle/PaddleSports",
+    "language": "Python",
+    "pushed_at": "2023-03-08T08:28:52Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-03-10T02:18:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

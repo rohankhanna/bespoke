@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "cykooz/libheif-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "awalsh128/cache-apt-pkgs-action@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys",
+      "target": "Check and Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Cykooz/libheif-sys"
+}

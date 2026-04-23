@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conference-presentations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "Publications from Trail of Bits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "- [Publications from Trail of Bits](#publications-from-trail-of-bits)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate",
+      "text": "- [Publications from Trail of Bits](#publications-from-trail-of-bits)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conference-presentations",
+  "concept_id": "conference-presentations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "trailofbits/publications"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conference-presentations",
+      "sense_id": "conference-presentations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

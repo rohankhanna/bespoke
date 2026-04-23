@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "metaglm/zhipuai-sdk-python-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "metaglm/zhipuai-sdk-java-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "metaglm/zhipuai-sdk-csharp-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "metaglm/zhipuai-sdk-nodejs-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "glm4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "zhipu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "zhipu-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaGLM/glm-cookbook",
+      "target": "zhipuai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:23.796853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1980
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples and guides for using the GLM APIs",
+    "fork": false,
+    "full_name": "MetaGLM/glm-cookbook",
+    "html_url": "https://github.com/MetaGLM/glm-cookbook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-05T09:48:50Z",
+    "stargazers_count": 875,
+    "topics": [
+      "glm4",
+      "zhipu",
+      "zhipu-api",
+      "zhipuai"
+    ],
+    "updated_at": "2026-04-14T09:14:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metaglm/zhipuai-sdk-csharp-v4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metaglm/zhipuai-sdk-java-v4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metaglm/zhipuai-sdk-nodejs-v4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metaglm/zhipuai-sdk-python-v4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glm4"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zhipu"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zhipu-api"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zhipuai"
+    }
+  ]
+}

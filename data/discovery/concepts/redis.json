@@ -55,6 +55,78 @@
       "source_repo": "redis/go-redis",
       "status": "candidate-context",
       "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "Simplified distributed locking implementation using Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-redis/cache",
+      "status": "candidate-context",
+      "text": "Cache library with Redis backend for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/cache",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-redis/redis_rate",
+      "status": "candidate-context",
+      "text": "Rate limiting for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/redis_rate",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "Redis compatible server framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +153,42 @@
       "source_repo": "redis/go-redis",
       "status": "candidate",
       "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/cache",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/redis_rate",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +256,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bsm/redislock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-redis/cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-redis/redis_rate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/redcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/opendal"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

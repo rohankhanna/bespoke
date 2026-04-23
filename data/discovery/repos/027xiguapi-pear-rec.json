@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@umijs/fabric",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commitizen",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cz-conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wait-on",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Yikun/hub-mirror-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncToGitee.yml"
+    },
+    {
+      "component": "yanglbme/gitee-pages-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncToGitee.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "nashaofu/screenshots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "hughfenghen/webav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "jnordberg/gif.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "yejimeiming/electron-screenshort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "@umijs/fabric",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "commitizen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "cz-conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "wait-on",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "pnpm/action-setup@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncToGitee.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "Yikun/hub-mirror-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncToGitee.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "yanglbme/gitee-pages-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/syncToGitee.yml",
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "syncToGitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "nestjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "webcodecs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:03:53.710267+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5355
+    },
+    {
+      "path": "package.json",
+      "size": 2951
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/syncToGitee.yml",
+      "size": 923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots",
+    "fork": false,
+    "full_name": "027xiguapi/pear-rec",
+    "html_url": "https://github.com/027xiguapi/pear-rec",
+    "language": "TypeScript",
+    "pushed_at": "2025-04-11T01:47:49Z",
+    "stargazers_count": 1436,
+    "topics": [
+      "electron",
+      "nestjs",
+      "nodejs",
+      "react",
+      "typescript",
+      "vite",
+      "webcodecs",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-23T16:25:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hughfenghen/webav",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jnordberg/gif.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nashaofu/screenshots",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yejimeiming/electron-screenshort",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "syncToGitee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/syncToGitee.yml",
+      "term": "syncToGitee"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nestjs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcodecs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "l15y/wenda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "codelibs/fess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "saharnooby/rwkv.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "alanlee1996/wenda-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "wenda-LLM/wenda",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wenda-LLM/wenda",
+      "target": "chatglm-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wenda-LLM/wenda",
+      "target": "chatrwkv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wenda-LLM/wenda",
+      "target": "rwkv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:12.418769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12014
+    },
+    {
+      "path": ".github/workflows/toc.yml",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u95fb\u8fbe\uff1a\u4e00\u4e2aLLM\u8c03\u7528\u5e73\u53f0\u3002\u76ee\u6807\u4e3a\u9488\u5bf9\u7279\u5b9a\u73af\u5883\u7684\u9ad8\u6548\u5185\u5bb9\u751f\u6210\uff0c\u540c\u65f6\u8003\u8651\u4e2a\u4eba\u548c\u4e2d\u5c0f\u4f01\u4e1a\u7684\u8ba1\u7b97\u8d44\u6e90\u5c40\u9650\u6027\uff0c\u4ee5\u53ca\u77e5\u8bc6\u5b89\u5168\u548c\u79c1\u5bc6\u6027\u95ee\u9898",
+    "fork": false,
+    "full_name": "wenda-LLM/wenda",
+    "html_url": "https://github.com/wenda-LLM/wenda",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-23T12:55:35Z",
+    "stargazers_count": 6198,
+    "topics": [
+      "chatglm-6b",
+      "chatrwkv",
+      "rwkv"
+    ],
+    "updated_at": "2026-04-23T11:52:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alanlee1996/wenda-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codelibs/fess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l15y/wenda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saharnooby/rwkv.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u8bbe\u8ba1\u76ee\u6807\u4e3a\u5b9e\u73b0\u9488\u5bf9\u7279\u5b9a\u73af\u5883\u7684\u9ad8\u6548\u5185\u5bb9\u751f\u6210\uff0c\u540c\u65f6\u8003\u8651\u4e2a\u4eba\u548c\u4e2d\u5c0f\u4f01\u4e1a\u7684\u8ba1\u7b97\u8d44\u6e90\u5c40\u9650\u6027\uff0c\u4ee5\u53ca\u77e5\u8bc6\u5b89\u5168\u548c\u79c1\u5bc6\u6027\u95ee\u9898\u3002\u4e3a\u8fbe\u76ee\u6807\uff0c\u5e73\u53f0\u5316\u96c6\u6210\u4e86\u4ee5\u4e0b\u80fd\u529b\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm-6b"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u8bbe\u8ba1\u76ee\u6807\u4e3a\u5b9e\u73b0\u9488\u5bf9\u7279\u5b9a\u73af\u5883\u7684\u9ad8\u6548\u5185\u5bb9\u751f\u6210\uff0c\u540c\u65f6\u8003\u8651\u4e2a\u4eba\u548c\u4e2d\u5c0f\u4f01\u4e1a\u7684\u8ba1\u7b97\u8d44\u6e90\u5c40\u9650\u6027\uff0c\u4ee5\u53ca\u77e5\u8bc6\u5b89\u5168\u548c\u79c1\u5bc6\u6027\u95ee\u9898\u3002\u4e3a\u8fbe\u76ee\u6807\uff0c\u5e73\u53f0\u5316\u96c6\u6210\u4e86\u4ee5\u4e0b\u80fd\u529b\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatrwkv"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u8bbe\u8ba1\u76ee\u6807\u4e3a\u5b9e\u73b0\u9488\u5bf9\u7279\u5b9a\u73af\u5883\u7684\u9ad8\u6548\u5185\u5bb9\u751f\u6210\uff0c\u540c\u65f6\u8003\u8651\u4e2a\u4eba\u548c\u4e2d\u5c0f\u4f01\u4e1a\u7684\u8ba1\u7b97\u8d44\u6e90\u5c40\u9650\u6027\uff0c\u4ee5\u53ca\u77e5\u8bc6\u5b89\u5168\u548c\u79c1\u5bc6\u6027\u95ee\u9898\u3002\u4e3a\u8fbe\u76ee\u6807\uff0c\u5e73\u53f0\u5316\u96c6\u6210\u4e86\u4ee5\u4e0b\u80fd\u529b\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    }
+  ]
+}

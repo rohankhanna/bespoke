@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "joshmedeski/sesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "tmux-plugins/tpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "joshmedeski/tmux-list",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:25.144189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "t - the smart tmux session manager",
+    "fork": false,
+    "full_name": "joshmedeski/t-smart-tmux-session-manager",
+    "html_url": "https://github.com/joshmedeski/t-smart-tmux-session-manager",
+    "language": "Shell",
+    "pushed_at": "2024-01-18T21:13:44Z",
+    "stargazers_count": 352,
+    "topics": [],
+    "updated_at": "2026-04-04T22:52:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshmedeski/sesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshmedeski/tmux-list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tpm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

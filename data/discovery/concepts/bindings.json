@@ -94,6 +94,42 @@
       "source_repo": "pybind/pybind11",
       "status": "candidate-context",
       "text": ".. figure:: https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for the simdjson project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "nanobind: tiny and efficient C++/Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +174,24 @@
       "source_repo": "pybind/pybind11",
       "status": "candidate",
       "text": ".. figure:: https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +289,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "pybind/pybind11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/codespell-problem-matcher@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "codespell-project/codespell-problem-matcher@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl",
+      "target": "Build and Publish Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camel-ai/owl",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camel-ai/owl",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camel-ai/owl",
+      "target": "task-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camel-ai/owl",
+      "target": "web-interaction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:49:45.067812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29091
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1809
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 507
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd89 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+    "fork": false,
+    "full_name": "camel-ai/owl",
+    "html_url": "https://github.com/camel-ai/owl",
+    "language": "Python",
+    "pushed_at": "2026-04-17T06:56:12Z",
+    "stargazers_count": 19681,
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "multi-agent-systems",
+      "task-automation",
+      "web-interaction"
+    ],
+    "updated_at": "2026-04-23T20:34:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Build and Publish Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Build and Publish Docker Image"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-automation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-interaction"
+    }
+  ]
+}

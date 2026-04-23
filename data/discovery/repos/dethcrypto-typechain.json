@@ -168,14 +168,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dethcrypto/TypeChain",
-      "target": "matter-labs/zksync",
+      "target": "uniswap/uniswap-v3-core",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dethcrypto/TypeChain",
-      "target": "kybernetwork/dao_sc",
+      "target": "offchainlabs/arbitrum",
       "target_type": "repository"
     },
     {
@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:29:42.574260+00:00",
+  "fetched_at": "2026-04-23T20:40:35.181952+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -465,12 +465,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kybernetwork/dao_sc",
+      "full_name": "offchainlabs/arbitrum",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "matter-labs/zksync",
+      "full_name": "uniswap/uniswap-v3-core",
       "source_file": "README.md"
     }
   ],

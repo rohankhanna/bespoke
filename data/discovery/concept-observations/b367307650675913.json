@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Layer Deployment (GovCloud)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Layer Deployment (GovCloud)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12407,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12407,
+      "status": "candidate",
+      "text": "spreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "placement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Layer Deployment (GovCloud)",
+      "sense_id": "layer-deployment-govcloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "layer-deployment-govcloud",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "layer-deployment-govcloud",
+  "observation_id": "b367307650675913",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Layer Deployment (GovCloud)",
+  "source_context_snippet": "Layer Deployment (GovCloud)",
+  "source_file": ".github/workflows/layer_govcloud.yml",
+  "source_repo": "aws-powertools/powertools-lambda-python",
+  "source_repo_description": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+}

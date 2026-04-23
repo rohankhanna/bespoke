@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:51:56.843039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3404
+    },
+    {
+      "path": "go.mod",
+      "size": 5474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Add a classic retro hit counter to your modern Caddy site",
+    "fork": false,
+    "full_name": "mholt/caddy-hitcounter",
+    "html_url": "https://github.com/mholt/caddy-hitcounter",
+    "language": "Go",
+    "pushed_at": "2023-11-28T01:32:31Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-03-26T19:27:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

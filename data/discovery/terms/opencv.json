@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "opencv/opencv_contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV"
     }
   ],
   "term": "opencv"

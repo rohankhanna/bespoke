@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Run benchmarks",
-    "run benchmarks"
+    "run benchmarks",
+    "Run Benchmarks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "binaryoung/jieba-php",
       "status": "candidate-context",
       "text": "run benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Run Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "binaryoung/jieba-php",
       "status": "candidate",
       "text": "run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate",
+      "text": "Run Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/run-benchmarks.yml",
       "source_repo": "binaryoung/jieba-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "Azure/bicep"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "cluebenchmark/clue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "idea-ccnl/stable-diffusion-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:13.920898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fengshenbang-LM(\u5c01\u795e\u699c\u5927\u6a21\u578b)\u662fIDEA\u7814\u7a76\u9662\u8ba4\u77e5\u8ba1\u7b97\u4e0e\u81ea\u7136\u8bed\u8a00\u7814\u7a76\u4e2d\u5fc3\u4e3b\u5bfc\u7684\u5927\u6a21\u578b\u5f00\u6e90\u4f53\u7cfb\uff0c\u6210\u4e3a\u4e2d\u6587AIGC\u548c\u8ba4\u77e5\u667a\u80fd\u7684\u57fa\u7840\u8bbe\u65bd\u3002",
+    "fork": false,
+    "full_name": "IDEA-CCNL/Fengshenbang-LM",
+    "html_url": "https://github.com/IDEA-CCNL/Fengshenbang-LM",
+    "language": "Python",
+    "pushed_at": "2024-08-13T11:06:04Z",
+    "stargazers_count": 4141,
+    "topics": [
+      "aigc",
+      "chinese-nlp",
+      "distributed-training",
+      "multimodal",
+      "pretrained-models",
+      "pytorch",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T15:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cluebenchmark/clue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-ccnl/stable-diffusion-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

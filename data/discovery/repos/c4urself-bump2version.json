@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c4urself/bump2version",
+      "target": "callowayproject/bump-my-version",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "c4urself/bump2version",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "c4urself/bump2version",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:34.592836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20172
+    },
+    {
+      "path": "Dockerfile",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Version-bump your software with a single command",
+    "fork": false,
+    "full_name": "c4urself/bump2version",
+    "html_url": "https://github.com/c4urself/bump2version",
+    "language": "Python",
+    "pushed_at": "2025-02-20T09:07:16Z",
+    "stargazers_count": 1118,
+    "topics": [],
+    "updated_at": "2026-04-17T05:43:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "callowayproject/bump-my-version",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

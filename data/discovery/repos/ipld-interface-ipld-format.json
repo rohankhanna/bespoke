@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "cids",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multicodec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multihashes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "ipld/js-ipld-dag-pb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "ipld/js-ipld-dag-cbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "ipld/js-ipld-ethereum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "ipld/js-ipld-bitcoin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "cids",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "multicodec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/interface-ipld-format",
+      "target": "multihashes",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:52.021538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7749
+    },
+    {
+      "path": "package.json",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A interface you can follow to implement a valid IPLD format, resolvable through the IPLD Resolver (available in IPFS)",
+    "fork": false,
+    "full_name": "ipld/interface-ipld-format",
+    "html_url": "https://github.com/ipld/interface-ipld-format",
+    "language": null,
+    "pushed_at": "2021-08-11T15:57:49Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2023-07-30T13:07:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-ipld-bitcoin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-ipld-dag-cbor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-ipld-dag-pb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-ipld-ethereum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

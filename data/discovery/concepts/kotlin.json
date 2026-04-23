@@ -169,6 +169,30 @@
       "source_repo": "peggyrayzis/react-native-create-bridge",
       "status": "candidate-context",
       "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Thin multiplatform wrappers for graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +273,18 @@
       "source_repo": "peggyrayzis/react-native-create-bridge",
       "status": "candidate",
       "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +412,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "peggyrayzis/react-native-create-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

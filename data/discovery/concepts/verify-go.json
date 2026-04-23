@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verify Go"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Autoscaling components for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Verify Go"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate",
+      "text": "Verify Go"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15546,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15546,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15546,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15546,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15546,
+      "status": "candidate",
+      "text": "good"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify Go",
+  "concept_id": "verify-go",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify Go",
+      "sense_id": "verify-go#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

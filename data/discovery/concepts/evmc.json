@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "evmc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "Fast Ethereum Virtual Machine implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "[![ethereum badge]][ethereum]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate",
+      "text": "[![ethereum badge]][ethereum]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "evmc",
+  "concept_id": "evmc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evmc",
+      "sense_id": "evmc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

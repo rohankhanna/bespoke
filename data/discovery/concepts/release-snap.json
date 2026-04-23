@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release-snap"
+    "release-snap",
+    "Release Snap"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "oras-project/oras",
       "status": "candidate-context",
       "text": "release-snap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "Release Snap"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "oras-project/oras",
       "status": "candidate",
       "text": "release-snap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "Release Snap"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "pop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "quit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "smap"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-snap",
   "concept_id": "release-snap",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release-snap.yml",
       "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/snap-release.yml",
+      "source_repo": "mikefarah/yq"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

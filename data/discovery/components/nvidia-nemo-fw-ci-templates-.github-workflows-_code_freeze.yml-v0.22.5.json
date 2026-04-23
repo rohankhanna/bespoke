@@ -1,0 +1,12 @@
+{
+  "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_code_freeze.yml@v0.22.5",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner"
+    }
+  ]
+}

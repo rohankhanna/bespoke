@@ -1,0 +1,12 @@
+{
+  "component": "kategengler/ci-cron@181db7e5bac13d0b55b6f5c4a8567fd20154576b",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "emberjs/ember.js"
+    }
+  ]
+}

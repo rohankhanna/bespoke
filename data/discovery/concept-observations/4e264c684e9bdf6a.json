@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "high-dimensional-inference",
+      "sense_id": "high-dimensional-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "high-dimensional-inference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "high-dimensional-inference",
+  "observation_id": "4e264c684e9bdf6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "high-dimensional-inference",
+  "source_context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+  "source_file": null,
+  "source_repo": "NVIDIA/MinkowskiEngine",
+  "source_repo_description": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+}

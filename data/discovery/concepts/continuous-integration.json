@@ -545,6 +545,258 @@
       "source_repo": "alex/rust-asn1",
       "status": "candidate-context",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "Message Passing Neural Networks for Molecule Property Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate-context",
+      "text": "Compositional vector graphics in Scala / Scala.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate-context",
+      "text": "Support for Miniscript and Output Descriptors for rust-bitcoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karpathy/llama2.c",
+      "status": "candidate-context",
+      "text": "Inference Llama 2 in one file of pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karpathy/llama2.c",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/embedding-reader",
+      "status": "candidate-context",
+      "text": "Efficiently read embedding in streaming from any filesystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/embedding-reader",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate-context",
+      "text": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/comemo",
+      "status": "candidate-context",
+      "text": "Incremental computation through constrained memoization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/comemo",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurenzV/krilla",
+      "status": "candidate-context",
+      "text": "A high-level, ergonomic Rust library for creating PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurenzV/krilla",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Serve your /nix/store directory over the internet :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate-context",
+      "text": "ConnectBot's SSH library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "ConnectBot's terminal emulator Android Compose component using libvterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": ":cake: Cake (C# Make) is a cross platform build automation system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf JSON library for Arduino and embedded C++. Simple and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate-context",
+      "text": "A vault for securely storing and accessing AWS credentials in development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "The Ethereum Improvement Proposal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-bitcoincore-rpc",
+      "status": "candidate-context",
+      "text": "Rust RPC client library for the Bitcoin Core JSON-RPC API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoincore-rpc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celikin/llama2.c-android-wrapper",
+      "status": "candidate-context",
+      "text": "Android wrapper for Inference Llama 2 in one file of pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celikin/llama2.c-android-wrapper",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefanha/git-publish",
+      "status": "candidate-context",
+      "text": "Prepare and store patch revisions as git tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanha/git-publish",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -811,6 +1063,132 @@
       "source_repo": "alex/rust-asn1",
       "status": "candidate",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karpathy/llama2.c",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/embedding-reader",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/comemo",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurenzV/krilla",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoincore-rpc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celikin/llama2.c-android-wrapper",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanha/git-publish",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -1172,11 +1550,161 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alex/rust-asn1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "karpathy/llama2.c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/embedding-reader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/comemo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LaurenzV/krilla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtpolice/eris"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "99designs/aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoincore-rpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "celikin/llama2.c-android-wrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanha/git-publish"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

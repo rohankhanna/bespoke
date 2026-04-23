@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "License"
+    "License",
+    "license"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "NVIDIA/TransformerEngine",
       "status": "candidate-context",
       "text": "'License'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate-context",
+      "text": "GoLic, injects license into source code files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate-context",
+      "text": "A declarative tool injecting licenses into source code"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "NVIDIA/TransformerEngine",
       "status": "candidate",
       "text": "'License'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate",
+      "text": "A declarative tool injecting licenses into source code"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +150,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/license.yml",
       "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AbsaOSS/golic"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

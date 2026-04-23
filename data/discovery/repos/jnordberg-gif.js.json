@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coffeeify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "exorcist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jnordberg/gif.js",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jnordberg/gif.js",
+      "target": "coffeeify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jnordberg/gif.js",
+      "target": "exorcist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jnordberg/gif.js",
+      "target": "uglify-js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:09.047921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4286
+    },
+    {
+      "path": "package.json",
+      "size": 568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript GIF encoding library",
+    "fork": false,
+    "full_name": "jnordberg/gif.js",
+    "html_url": "https://github.com/jnordberg/gif.js",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-06T08:25:46Z",
+    "stargazers_count": 4963,
+    "topics": [],
+    "updated_at": "2026-04-20T13:17:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

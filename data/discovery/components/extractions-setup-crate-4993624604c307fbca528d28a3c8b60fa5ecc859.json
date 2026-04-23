@@ -1,0 +1,12 @@
+{
+  "component": "extractions/setup-crate@4993624604c307fbca528d28a3c8b60fa5ecc859",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    }
+  ]
+}

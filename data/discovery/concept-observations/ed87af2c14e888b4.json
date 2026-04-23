@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Entra ID extension for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark Performance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark Performance"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14618,
+      "status": "candidate",
+      "text": "citation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Performance",
+      "sense_id": "benchmark-performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-performance",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-performance",
+  "observation_id": "ed87af2c14e888b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Benchmark Performance",
+  "source_context_snippet": "Benchmark Performance",
+  "source_file": ".github/workflows/bench.yml",
+  "source_repo": "redis/go-redis-entraid",
+  "source_repo_description": "Entra ID extension for go-redis"
+}

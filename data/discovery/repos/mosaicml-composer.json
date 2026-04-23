@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/composer",
+      "target": "mosaicml/streaming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/composer",
+      "target": "mosaicml/llm-foundry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/composer",
+      "target": "mosaicml/diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "ml-efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "ml-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "ml-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/composer",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:32:10.241501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19577
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 37643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Supercharge Your Model Training",
+    "fork": false,
+    "full_name": "mosaicml/composer",
+    "html_url": "https://github.com/mosaicml/composer",
+    "language": "Python",
+    "pushed_at": "2026-03-25T17:20:40Z",
+    "stargazers_count": 5480,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "ml-efficiency",
+      "ml-systems",
+      "ml-training",
+      "neural-network",
+      "neural-networks",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T02:12:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/llm-foundry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/streaming",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-efficiency"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-systems"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-training"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "digitalmoksha/motion-markdown-it-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "markdown-it/linkify-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "markdown-it/markdown-it-abbr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "jgm/commonmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "markdown-it",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "target": "rubymotion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:12:13.238558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12110
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)",
+    "fork": false,
+    "full_name": "digitalmoksha/motion-markdown-it",
+    "html_url": "https://github.com/digitalmoksha/motion-markdown-it",
+    "language": "Ruby",
+    "pushed_at": "2024-05-23T19:32:55Z",
+    "stargazers_count": 51,
+    "topics": [
+      "commonmark",
+      "markdown",
+      "markdown-it",
+      "ruby",
+      "rubymotion"
+    ],
+    "updated_at": "2026-04-02T05:11:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digitalmoksha/motion-markdown-it-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/commonmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/linkify-it",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/markdown-it-abbr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-it"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubymotion"
+    }
+  ]
+}

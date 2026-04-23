@@ -1,0 +1,27 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/loopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/cgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/codepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/genpy"
+    }
+  ],
+  "term": "Gitlab mirror"
+}

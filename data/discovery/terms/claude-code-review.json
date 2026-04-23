@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -141,6 +141,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "NVIDIA-NeMo/RL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "nearai/ironclaw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus"
     }
   ],
   "term": "Claude Code Review"

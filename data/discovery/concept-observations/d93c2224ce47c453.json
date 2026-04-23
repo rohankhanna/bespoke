@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FCT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FCT"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000655,
+      "status": "candidate",
+      "text": "cts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998700,
+      "status": "candidate",
+      "text": "tbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966710,
+      "status": "candidate",
+      "text": "tcf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932889,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19881926,
+      "status": "candidate",
+      "text": "sct"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FCT",
+      "sense_id": "fct#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fct",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fct",
+  "observation_id": "d93c2224ce47c453",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "FCT",
+  "source_context_snippet": "FCT",
+  "source_file": ".github/workflows/tquic-fct.yml",
+  "source_repo": "Tencent/tquic",
+  "source_repo_description": "A high-performance, lightweight, and cross-platform QUIC library"
+}

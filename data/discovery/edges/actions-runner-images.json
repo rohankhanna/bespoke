@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "aws/homebrew-tap",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "azure/homebrew-bicep",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "actions/runner-images",
-      "target": "mongodb/homebrew-brew",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-pinned-versions.yml",
       "source_repo": "actions/runner-images",
@@ -197,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T10:25:53.609022+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "actions/runner-images"
 }

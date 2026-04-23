@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "api-testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "api-testing",
+  "concept_id": "api-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "api-testing",
+      "sense_id": "api-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto Release"
+    "Auto Release",
+    "auto-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,42 @@
       "source_repo": "apple/swift-log",
       "status": "candidate-context",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "Google HTTP Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate-context",
+      "text": "Google APIs Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate-context",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Google OAuth Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "auto-release"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +118,24 @@
       "source_repo": "apple/swift-log",
       "status": "candidate",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate",
+      "text": "auto-release"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +203,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/auto-release.yml",
       "source_repo": "apple/swift-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

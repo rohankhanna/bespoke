@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/jericho",
+      "target": "princeton-nlp/calm-textgame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/jericho",
+      "target": "rajammanabrolu/q-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/jericho",
+      "target": "rajammanabrolu/kg-a2c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/jericho",
+      "target": "microsoft/tdqn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/jericho",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/jericho",
+      "target": "interactive-fiction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/jericho",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/jericho",
+      "target": "text-based-adventure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:01.323931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3085
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 2118
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A learning environment for man-made Interactive Fiction games.",
+    "fork": false,
+    "full_name": "microsoft/jericho",
+    "html_url": "https://github.com/microsoft/jericho",
+    "language": "C",
+    "pushed_at": "2026-03-27T18:34:56Z",
+    "stargazers_count": 323,
+    "topics": [
+      "interactive-fiction",
+      "reinforcement-learning",
+      "text-based-adventure"
+    ],
+    "updated_at": "2026-04-15T06:53:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/tdqn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/calm-textgame",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rajammanabrolu/kg-a2c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rajammanabrolu/q-bert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "\"Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-fiction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-based-adventure"
+    }
+  ]
+}

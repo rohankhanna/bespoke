@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A100-perf-nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A100-perf-nightly"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "A100-perf-nightly",
+      "sense_id": "a100-perf-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "a100-perf-nightly",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "a100-perf-nightly",
+  "observation_id": "a46d83c771a2ff04",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "A100-perf-nightly",
+  "source_context_snippet": "A100-perf-nightly",
+  "source_file": ".github/workflows/dashboard_perf_test.yml",
+  "source_repo": "pytorch/ao",
+  "source_repo_description": "PyTorch native quantization and sparsity for training and inference"
+}

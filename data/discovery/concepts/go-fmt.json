@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Go Fmt",
+    "Go-fmt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "Go Fmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Go-fmt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate",
+      "text": "Go Fmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate",
+      "text": "Go-fmt"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "accede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "concord"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go Fmt",
+  "concept_id": "go-fmt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/go-fmt.yaml",
+      "source_repo": "google/adk-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "bnb-chain/tss-lib"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Fmt",
+      "sense_id": "go-fmt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

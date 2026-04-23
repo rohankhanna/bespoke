@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ignore-files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d node-ignore is the manager and filter for .gitignore rules, the one used by eslint, prettier and many others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "| Linux / MacOS / Windows | Coverage | Downloads |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate",
+      "text": "| Linux / MacOS / Windows | Coverage | Downloads |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ignore-files",
+  "concept_id": "ignore-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ignore-files",
+      "sense_id": "ignore-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

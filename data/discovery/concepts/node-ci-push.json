@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node CI (push)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "A tool for creating technical documents and web standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "Node CI (push)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate",
+      "text": "Node CI (push)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11117,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node CI (push)",
+  "concept_id": "node-ci-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "speced/respec"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node CI (push)",
+      "sense_id": "node-ci-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

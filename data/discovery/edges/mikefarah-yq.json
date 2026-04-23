@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikefarah/yq",
+      "target": "stedolan/jq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikefarah/yq",
+      "target": "webinstall/webi-installers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikefarah/yq",
+      "target": "marverix/gah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Release Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "docker://pandoc/core:2.14.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Release YQ",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "snapcore/action-build@3bdaa03e1ba6bf59a65f84a751d943d549a54e79",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "snapcore/action-publish@214b86e5ca036ead1668c79afb81e550e6c54d40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-release.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Release Snap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-yq.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-yq.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "mikefarah/yq@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-yq.yml",
+      "source_repo": "mikefarah/yq",
+      "target": "Test Yq Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "devops-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "splat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikefarah/yq",
+      "target": "yaml-processor",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "mikefarah/yq"
+}

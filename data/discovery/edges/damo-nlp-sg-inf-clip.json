@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "damo-nlp-sg/vcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "rom1504/img2dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "haoliuhl/ringattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "zhuzilin/ring-flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "flash-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "infinite-batch-size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "memory-efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "target": "ring-attention",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "DAMO-NLP-SG/Inf-CLIP"
+}

@@ -1,0 +1,1010 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@7410117eef9b9bd416593a4ae34d1bda0b4a2766",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@7410117eef9b9bd416593a4ae34d1bda0b4a2766",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyO3/maturin",
+      "target": "apache/arrow-ballista-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyO3/maturin",
+      "target": "apache/arrow-datafusion-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyO3/maturin",
+      "target": "apache/incubator-opendal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyO3/maturin",
+      "target": "0x676e67/rnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Clear Actions Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Docker Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Test Downstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "mozilla-actions/sccache-action@7d986dd989559c6ecdb630a3fd2557667be217ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "taiki-e/install-action@7410117eef9b9bd416593a4ae34d1bda0b4a2766",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "dtolnay/rust-toolchain@efa25f7f19611383d5b0ccf2d1c8914531636bf9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "cffi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "cpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "cross-compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "manylinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "pyo3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "pypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "uniffi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyO3/maturin",
+      "target": "wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:45:06.214466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15329
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 6201
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2441
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1678
+    },
+    {
+      "path": ".github/workflows/clear-cache.yml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1615
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2350
+    },
+    {
+      "path": ".github/workflows/downstream.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 13531
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 21362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
+    "fork": false,
+    "full_name": "PyO3/maturin",
+    "html_url": "https://github.com/PyO3/maturin",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T11:18:39Z",
+    "stargazers_count": 5564,
+    "topics": [
+      "cffi",
+      "cpython",
+      "cross-compile",
+      "hacktoberfest",
+      "manylinux",
+      "packaging",
+      "pyo3",
+      "pypi",
+      "pypy",
+      "python",
+      "uniffi",
+      "wheels"
+    ],
+    "updated_at": "2026-04-23T07:21:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x676e67/rnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-ballista-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-datafusion-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-opendal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clear Actions Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "term": "Clear Actions Cache"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Docker Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Publish"
+    },
+    {
+      "context_snippet": "Test Downstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "term": "Test Downstream"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cffi"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compile"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manylinux"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyo3"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypy"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uniffi"
+    },
+    {
+      "context_snippet": "_formerly pyo3-pack_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wheels"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rdf-canonicalization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rdf-canonicalization",
+  "concept_id": "rdf-canonicalization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rdf-canonicalization",
+      "sense_id": "rdf-canonicalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

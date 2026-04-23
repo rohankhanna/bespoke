@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mailersend",
+      "sense_id": "mailersend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mailersend",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mailersend",
+  "observation_id": "d82c5e0850027f90",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "mailersend",
+  "source_context_snippet": "Anymail: Django email integration for transactional ESPs",
+  "source_file": null,
+  "source_repo": "anymail/django-anymail",
+  "source_repo_description": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+}

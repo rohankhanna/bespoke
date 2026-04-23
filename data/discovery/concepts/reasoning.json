@@ -31,6 +31,30 @@
       "source_repo": "bigai-nlco/RuleReasoner",
       "status": "candidate-context",
       "text": "<div id=\"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3e OAT: A research-friendly framework for LLM online alignment, including reinforcement learning, preference learning, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "bigai-nlco/RuleReasoner",
       "status": "candidate",
       "text": "<div id=\"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -135,11 +171,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bigai-nlco/RuleReasoner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/oat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CJReinforce/PURE"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

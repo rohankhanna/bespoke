@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_request_review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "stevearc/nvim-typecheck-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rickstaa/action-create-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "stevearc/conform.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "stevearc/stickybuf.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "Remove Question Label on Issue Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "Request Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "stevearc/nvim-typecheck-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "rickstaa/action-create-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim",
+      "target": "outline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:48.619082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26976
+    },
+    {
+      "path": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/automation_request_review.yml",
+      "size": 776
+    },
+    {
+      "path": ".github/workflows/install_nvim.sh",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 3434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neovim plugin for a code outline window",
+    "fork": false,
+    "full_name": "stevearc/aerial.nvim",
+    "html_url": "https://github.com/stevearc/aerial.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-02-25T17:22:33Z",
+    "stargazers_count": 2269,
+    "topics": [
+      "lsp",
+      "navigation",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin",
+      "outline"
+    ],
+    "updated_at": "2026-04-20T07:48:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevearc/conform.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevearc/stickybuf.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Remove Question Label on Issue Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "term": "Remove Question Label on Issue Comment"
+    },
+    {
+      "context_snippet": "Request Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "term": "Request Review"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navigation"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "A code outline window for skimming and quick navigation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outline"
+    }
+  ]
+}

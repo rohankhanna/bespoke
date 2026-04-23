@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reinforcement-learning",
+      "sense_id": "reinforcement-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reinforcement-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reinforcement-learning",
+  "observation_id": "4902345c5576e0fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "reinforcement-learning",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "CJReinforce/PURE",
+  "source_repo_description": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+}

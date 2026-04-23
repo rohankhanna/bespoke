@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim-compe",
+      "sense_id": "nvim-compe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim-compe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim-compe",
+  "observation_id": "bb8dc35c6ccd1f35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nvim-compe",
+  "source_context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+  "source_file": null,
+  "source_repo": "andersevenrud/cmp-tmux",
+  "source_repo_description": "Tmux completion source for nvim-cmp and nvim-compe"
+}

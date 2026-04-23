@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Classic - AutoGPT Docker Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Classic - AutoGPT Docker Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23102,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22131,
+      "status": "candidate",
+      "text": "unload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22102,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22102,
+      "status": "candidate",
+      "text": "firelock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22102,
+      "status": "candidate",
+      "text": "load"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classic - AutoGPT Docker Release",
+      "sense_id": "classic---autogpt-docker-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "classic---autogpt-docker-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "classic---autogpt-docker-release",
+  "observation_id": "a0b392811e909b31",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Classic - AutoGPT Docker Release",
+  "source_context_snippet": "Classic - AutoGPT Docker Release",
+  "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+  "source_repo": "Significant-Gravitas/AutoGPT",
+  "source_repo_description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+}

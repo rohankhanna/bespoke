@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Build Systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "CMake Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Compiler Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-tests.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Core Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Cross Platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "OSS-Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-environment.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-environment.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Release & Environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4",
+      "target": "compression",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "lz4/lz4"
+}

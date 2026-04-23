@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "finefuture/sentinel-apollo-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "finefuture/sentinel-nacos-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "multi-datasource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "nacos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "sentinel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:17.207266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sentinel Dashboard \u96c6\u6210\u591a\u6570\u636e\u6e90\u7248\u672c",
+    "fork": false,
+    "full_name": "finefuture/sentinel-dashboard-X",
+    "html_url": "https://github.com/finefuture/sentinel-dashboard-X",
+    "language": "Java",
+    "pushed_at": "2022-12-06T15:20:22Z",
+    "stargazers_count": 7,
+    "topics": [
+      "apollo",
+      "multi-datasource",
+      "nacos",
+      "sentinel"
+    ],
+    "updated_at": "2025-09-30T15:14:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "finefuture/sentinel-apollo-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "finefuture/sentinel-nacos-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-datasource"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nacos"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentinel"
+    }
+  ]
+}

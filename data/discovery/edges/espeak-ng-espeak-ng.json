@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "gozaltech/espeak-ng-sapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "firebuild/apt-eatmydata-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "Dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzing-needswork.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "fuzzing-needswork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzing.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msbuild.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msbuild.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msbuild.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-msbuild.yml",
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "windows-msbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "espeak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "espeak-ng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "espeak-ng/espeak-ng"
+}

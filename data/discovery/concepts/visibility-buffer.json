@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "visibility-buffer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "visibility-buffer",
+  "concept_id": "visibility-buffer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visibility-buffer",
+      "sense_id": "visibility-buffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

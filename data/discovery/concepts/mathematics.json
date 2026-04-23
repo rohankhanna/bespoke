@@ -19,6 +19,30 @@
       "source_repo": "AlphaPav/mem-kk-logic",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "status": "candidate-context",
+      "text": "A series of math-specific large language models of our Qwen2 series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "AlphaPav/mem-kk-logic",
       "status": "candidate",
       "text": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +127,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "AlphaPav/mem-kk-logic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CJReinforce/PURE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

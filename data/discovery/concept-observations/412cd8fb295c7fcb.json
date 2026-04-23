@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python SDK for Milvus Vector Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish \ud83d\udc0d On Release to PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish \ud83d\udc0d On Release to PyPI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28317,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "disclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11917,
+      "status": "candidate",
+      "text": "edit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish \ud83d\udc0d On Release to PyPI",
+      "sense_id": "publish-on-release-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-on-release-to-pypi",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-on-release-to-pypi",
+  "observation_id": "412cd8fb295c7fcb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Publish \ud83d\udc0d On Release to PyPI",
+  "source_context_snippet": "Publish \ud83d\udc0d On Release to PyPI",
+  "source_file": ".github/workflows/publish_on_release.yml",
+  "source_repo": "milvus-io/pymilvus",
+  "source_repo_description": "Python SDK for Milvus Vector Database"
+}

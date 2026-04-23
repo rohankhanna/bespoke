@@ -19,6 +19,18 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

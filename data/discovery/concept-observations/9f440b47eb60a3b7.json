@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatgpt",
+      "sense_id": "chatgpt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatgpt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatgpt",
+  "observation_id": "9f440b47eb60a3b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "chatgpt",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "binary-husky/gpt_academic",
+  "source_repo_description": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002"
+}

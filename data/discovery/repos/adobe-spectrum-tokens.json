@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "adobe/spectrum-design-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:21.439780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2857
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Redirects from old repo name to new repo name. Use https://github.com/adobe/spectrum-design-data",
+    "fork": false,
+    "full_name": "adobe/spectrum-tokens",
+    "html_url": "https://github.com/adobe/spectrum-tokens",
+    "language": "HTML",
+    "pushed_at": "2026-03-01T19:52:13Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-02T06:18:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe/spectrum-design-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs"
+    }
+  ]
+}

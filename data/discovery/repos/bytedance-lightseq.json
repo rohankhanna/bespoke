@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_check.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_check.yml",
+      "source_repo": "bytedance/lightseq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_check.yml",
+      "source_repo": "bytedance/lightseq",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_check.yml",
+      "source_repo": "bytedance/lightseq",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "accelerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "bart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "beam-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "diverse-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "multilingual-nmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:05.565614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14570
+    },
+    {
+      "path": ".github/workflows/build_check.yml",
+      "size": 1453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "LightSeq: A High Performance Library for Sequence Processing and Generation",
+    "fork": false,
+    "full_name": "bytedance/lightseq",
+    "html_url": "https://github.com/bytedance/lightseq",
+    "language": "C++",
+    "pushed_at": "2023-05-16T10:47:48Z",
+    "stargazers_count": 3300,
+    "topics": [
+      "accelerate",
+      "bart",
+      "beam-search",
+      "bert",
+      "cuda",
+      "diverse-decoding",
+      "gpt",
+      "inference",
+      "multilingual-nmt",
+      "sampling",
+      "training",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T11:53:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_check.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accelerate"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bart"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beam-search"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diverse-decoding"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-nmt"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sampling"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    },
+    {
+      "context_snippet": "![logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

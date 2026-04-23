@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-LM",
+      "target": "language-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-LM",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-LM",
+      "target": "text-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:25.143331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Domain-Specific Text Generation for Machine Translation (with LLMs) - scripts and config files for the paper",
+    "fork": false,
+    "full_name": "ymoslem/MT-LM",
+    "html_url": "https://github.com/ymoslem/MT-LM",
+    "language": "Python",
+    "pushed_at": "2023-08-19T22:47:14Z",
+    "stargazers_count": 18,
+    "topics": [
+      "language-modeling",
+      "machine-translation",
+      "nmt",
+      "text-generation"
+    ],
+    "updated_at": "2025-11-27T16:51:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-modeling"
+    },
+    {
+      "context_snippet": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    }
+  ]
+}

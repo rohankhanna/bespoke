@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "princeton-nlp/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "Generate and Deploy GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "evaluation-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logic-star-ai/swt-bench",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:14.683957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14435
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 876
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "size": 1689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2024] Evaluation harness for SWT-Bench, a benchmark for evaluating LLM repository-level test-generation",
+    "fork": false,
+    "full_name": "logic-star-ai/swt-bench",
+    "html_url": "https://github.com/logic-star-ai/swt-bench",
+    "language": "Python",
+    "pushed_at": "2026-03-23T10:01:52Z",
+    "stargazers_count": 76,
+    "topics": [
+      "benchmark",
+      "evaluation-framework",
+      "llm",
+      "unit-testing"
+    ],
+    "updated_at": "2026-04-04T05:57:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/swe-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build & Test"
+    },
+    {
+      "context_snippet": "Generate and Deploy GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "term": "Generate and Deploy GitHub Pages"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-framework"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/multiarch.yml",
       "source_repo": "google/highway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/do-not-merge-label-check.yml",
+      "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports"
     }
   ]
 }

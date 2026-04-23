@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "webdataset/webdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "reddit-archive/reddit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "gantman/nsfw_model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "redcaps-dataset/pytorch-retinaface",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "redcaps-dataset/redcaps-downloader"
+}

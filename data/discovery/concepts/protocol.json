@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "protocol"
+    "protocol",
+    "Protocol"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +82,102 @@
       "source_repo": "streadway/amqp",
       "status": "candidate-context",
       "text": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "OneBot\uff1a\u7edf\u4e00\u7684\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate-context",
+      "text": "qq\u534f\u8bae\u7684golang\u5b9e\u73b0, \u79fb\u690d\u4e8emirai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate-context",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "Redis compatible server framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Protocol"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate-context",
+      "text": "A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate-context",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +216,54 @@
       "source_repo": "streadway/amqp",
       "status": "candidate",
       "text": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate",
+      "text": "Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +369,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "streadway/amqp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/redcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-ws"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

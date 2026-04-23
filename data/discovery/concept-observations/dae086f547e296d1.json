@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "low-light-image",
+      "sense_id": "low-light-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "low-light-image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "low-light-image",
+  "observation_id": "dae086f547e296d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "low-light-image",
+  "source_context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+  "source_file": null,
+  "source_repo": "mahmoudnafifi/Exposure_Correction",
+  "source_repo_description": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). "
+}

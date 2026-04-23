@@ -19,6 +19,30 @@
       "source_repo": "ScoopInstaller/Main",
       "status": "candidate-context",
       "text": "Core manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "A command-line installer for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The Extras bucket for Scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ScoopInstaller/Main",
       "status": "candidate",
       "text": "Core manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate",
+      "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Extras"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Conversational-Search",
+      "target": "microsoft/msmarco-question-answering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Conversational-Search",
+      "target": "microsoft/msmarco-openkp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Conversational-Search",
+      "target": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Conversational-Search",
+      "target": "hanxiao/bert-as-service",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/MSMARCO-Conversational-Search"
+}

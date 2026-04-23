@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "deepmind/graph_nets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "deepmind/jraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "dmlc/dgl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "graph-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "sonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:02.664814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build Graph Nets in Tensorflow",
+    "fork": false,
+    "full_name": "google-deepmind/graph_nets",
+    "html_url": "https://github.com/google-deepmind/graph_nets",
+    "language": "Python",
+    "pushed_at": "2022-12-12T11:28:07Z",
+    "stargazers_count": 5398,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "graph-networks",
+      "graphs",
+      "neural-networks",
+      "sonnet",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-21T16:38:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/graph_nets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/jraph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/dgl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-networks"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphs"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonnet"
+    },
+    {
+      "context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

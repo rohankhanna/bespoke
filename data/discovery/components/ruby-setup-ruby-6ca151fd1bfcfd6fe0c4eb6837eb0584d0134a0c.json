@@ -1,0 +1,27 @@
+{
+  "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "source_repo": "dependabot/dependabot-core"
+    }
+  ]
+}

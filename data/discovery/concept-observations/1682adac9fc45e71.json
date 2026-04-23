@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Task Absolute Paths"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Task Absolute Paths"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33472,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33472,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28745,
+      "status": "candidate",
+      "text": "guided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28452,
+      "status": "candidate",
+      "text": "monopoly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28447,
+      "status": "candidate",
+      "text": "ownership"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Task Absolute Paths",
+      "sense_id": "check-task-absolute-paths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-task-absolute-paths",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-task-absolute-paths",
+  "observation_id": "1682adac9fc45e71",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check Task Absolute Paths",
+  "source_context_snippet": "Check Task Absolute Paths",
+  "source_file": ".github/workflows/check-task-absolute-path.yml",
+  "source_repo": "harbor-framework/terminal-bench",
+  "source_repo_description": "A benchmark for LLMs on complicated tasks in the terminal"
+}

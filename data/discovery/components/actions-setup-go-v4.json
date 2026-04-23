@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v4",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,156 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "aws/amazon-vpc-cni-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alexkohler/nargs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "redis/go-redis-entraid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "deneonet/benc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bradfitz/gomemcache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen-check.yml",
+      "source_repo": "webgpu-native/webgpu-headers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jm33-m0/arc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mmcdole/gofeed"
     }
   ]
 }

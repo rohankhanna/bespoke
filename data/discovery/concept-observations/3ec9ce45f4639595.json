@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922971,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922409,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922329,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919632,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39772796,
+      "status": "candidate",
+      "text": "loader"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docker",
+      "sense_id": "docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "dock-walloper"
+    }
+  ],
+  "concept_id": "docker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker",
+  "observation_id": "3ec9ce45f4639595",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "docker",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)",
+  "source_file": null,
+  "source_repo": "DeterminateSystems/nix-installer",
+  "source_repo_description": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+}

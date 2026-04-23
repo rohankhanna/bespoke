@@ -84,7 +84,7 @@
   "normalized_form": "scorecard-analysis-workflow",
   "observation_id": "6489bee15eb9752d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Scorecard analysis workflow",
   "source_context_snippet": "Scorecard analysis workflow",
   "source_file": ".github/workflows/scorecard-analysis.yml",

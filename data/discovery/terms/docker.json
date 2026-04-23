@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -471,6 +471,136 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/binfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "estesp/mquery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alisen39/TrWebOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid"
     }
   ],
   "term": "docker"

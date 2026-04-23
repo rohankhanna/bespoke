@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "android-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "compose-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "vt100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "xterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/termlib",
+      "target": "xterm-256color",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:16.050276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ConnectBot's terminal emulator Android Compose component using libvterm",
+    "fork": false,
+    "full_name": "connectbot/termlib",
+    "html_url": "https://github.com/connectbot/termlib",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-23T16:31:09Z",
+    "stargazers_count": 10,
+    "topics": [
+      "android",
+      "android-compose",
+      "compose-ui",
+      "terminal-emulator",
+      "vt100",
+      "xterm",
+      "xterm-256color"
+    ],
+    "updated_at": "2026-04-23T16:31:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-compose"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose-ui"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vt100"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xterm"
+    },
+    {
+      "context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xterm-256color"
+    }
+  ]
+}

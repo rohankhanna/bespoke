@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-redis/redis_rate",
+      "target": "rwz/redis-gcra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/redis_rate",
+      "target": "gcra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/redis_rate",
+      "target": "leaky-bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/redis_rate",
+      "target": "rate-limiting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/redis_rate",
+      "target": "redis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:56:12.598496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1700
+    },
+    {
+      "path": "go.mod",
+      "size": 414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v10",
+    "description": "Rate limiting for go-redis",
+    "fork": false,
+    "full_name": "go-redis/redis_rate",
+    "html_url": "https://github.com/go-redis/redis_rate",
+    "language": "Go",
+    "pushed_at": "2026-03-22T02:05:55Z",
+    "stargazers_count": 1014,
+    "topics": [
+      "gcra",
+      "leaky-bucket",
+      "rate-limiting",
+      "redis"
+    ],
+    "updated_at": "2026-04-22T09:32:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwz/redis-gcra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcra"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leaky-bucket"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rate-limiting"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/redis_rate.svg?branch=master)](https://travis-ci.org/go-redis/redis_rate)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    }
+  ]
+}

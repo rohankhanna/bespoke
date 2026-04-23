@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yonaskolb/Mint",
+      "target": "apple/swift-evolution",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yonaskolb/Mint",
+      "target": "artemnovichkov/carting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yonaskolb/Mint",
+      "target": "chargepoint/xcparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yonaskolb/Mint",
+      "target": "arthurpalves/coherent-swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "yonaskolb/Mint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "yonaskolb/Mint",
+      "target": "Swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:43:59.153784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9867
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A package manager that installs and runs executable Swift packages",
+    "fork": false,
+    "full_name": "yonaskolb/Mint",
+    "html_url": "https://github.com/yonaskolb/Mint",
+    "language": "Swift",
+    "pushed_at": "2026-01-03T07:18:29Z",
+    "stargazers_count": 2497,
+    "topics": [
+      "command-line-tool",
+      "dependency-manager",
+      "installer",
+      "package-manager",
+      "spm",
+      "swift"
+    ],
+    "updated_at": "2026-04-22T20:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-evolution",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artemnovichkov/carting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthurpalves/coherent-swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chargepoint/xcparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Swift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Swift"
+    },
+    {
+      "context_snippet": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

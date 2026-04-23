@@ -1,0 +1,271 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/highwayhash",
+      "target": "google/highwayhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/highwayhash",
+      "target": "fwessels/hashcompare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/highwayhash",
+      "target": "intel/intel-ipsec-mb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/highwayhash",
+      "target": "minio/sha256-simd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/highwayhash",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "hash-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "highway-hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/highwayhash",
+      "target": "plan9",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:22.730417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4929
+    },
+    {
+      "path": "go.mod",
+      "size": 79
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1460
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Native Go version of HighwayHash with optimized assembly implementations on Intel and ARM. Able to process over 10 GB/sec on a single core on Intel CPUs - https://en.wikipedia.org/wiki/HighwayHash",
+    "fork": false,
+    "full_name": "minio/highwayhash",
+    "html_url": "https://github.com/minio/highwayhash",
+    "language": "Go",
+    "pushed_at": "2026-03-21T05:38:40Z",
+    "stargazers_count": 949,
+    "topics": [
+      "assembly",
+      "avx2",
+      "hash-functions",
+      "highway-hash",
+      "neon",
+      "plan9"
+    ],
+    "updated_at": "2026-03-31T05:34:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fwessels/hashcompare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/highwayhash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/intel-ipsec-mb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minio/sha256-simd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-functions"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highway-hash"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plan9"
+    }
+  ]
+}

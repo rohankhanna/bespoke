@@ -1,0 +1,598 @@
+{
+  "components": [
+    {
+      "component": "bplist-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cordova-common",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elementtree",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nopt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "plist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simctl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "which",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xcode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@cordova/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cordova-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rewire",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "apache/tooling-actions/upload-to-atr@b7e972c11790ee16eca101900af1b3c7fd1b106e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml"
+    },
+    {
+      "component": "erisu/apache-rat-action@46fb01ce7d8f76bdcd7ab10e7af46e1ea95ca01c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml"
+    },
+    {
+      "component": "erisu/license-checker-action@99cffa11264fe545fd0baa6c13bca5a00ae608f2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "bplist-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "cordova-common",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "elementtree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "nopt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "plist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "simctl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "xcode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "@cordova/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "cordova-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "rewire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "Node CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "apache/tooling-actions/upload-to-atr@b7e972c11790ee16eca101900af1b3c7fd1b106e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "Draft Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "erisu/apache-rat-action@46fb01ce7d8f76bdcd7ab10e7af46e1ea95ca01c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "erisu/license-checker-action@99cffa11264fe545fd0baa6c13bca5a00ae608f2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios",
+      "target": "Release Auditing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "cordova",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "cordova-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios",
+      "target": "objective-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:08:58.668581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3519
+    },
+    {
+      "path": "package.json",
+      "size": 1669
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3804
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2057
+    },
+    {
+      "path": ".github/workflows/draft-release.yml",
+      "size": 5360
+    },
+    {
+      "path": ".github/workflows/release-audit.yml",
+      "size": 1627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Cordova iOS",
+    "fork": false,
+    "full_name": "apache/cordova-ios",
+    "html_url": "https://github.com/apache/cordova-ios",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T05:13:16Z",
+    "stargazers_count": 2215,
+    "topics": [
+      "cordova",
+      "cordova-platform",
+      "hacktoberfest",
+      "ios",
+      "javascript",
+      "mobile",
+      "nodejs",
+      "objective-c"
+    ],
+    "updated_at": "2026-04-23T05:13:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Node CI"
+    },
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Publish Docs"
+    },
+    {
+      "context_snippet": "Draft Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "term": "Draft Release"
+    },
+    {
+      "context_snippet": "Release Auditing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-audit.yml",
+      "term": "Release Auditing"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cordova"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cordova-platform"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    }
+  ]
+}

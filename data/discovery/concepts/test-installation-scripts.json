@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Installation Scripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "NodeSource Node.js Binary Distributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "\"Test Installation Scripts\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate",
+      "text": "\"Test Installation Scripts\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22718,
+      "status": "candidate",
+      "text": "critically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22718,
+      "status": "candidate",
+      "text": "decapitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22718,
+      "status": "candidate",
+      "text": "dominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22718,
+      "status": "candidate",
+      "text": "essentiality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22718,
+      "status": "candidate",
+      "text": "note"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Installation Scripts",
+  "concept_id": "test-installation-scripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nodesource/distributions"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Installation Scripts",
+      "sense_id": "test-installation-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

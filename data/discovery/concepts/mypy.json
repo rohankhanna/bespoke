@@ -106,6 +106,30 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate-context",
       "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Apply black reformatting to Python files only in regions changed since a given commit. For a practical usage example, see the blog post at https://dev.to/akaihola/improving-python-code-incrementally-3f7a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "mypy"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +178,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
       "status": "candidate",
       "text": "mypy"
     }
@@ -223,11 +259,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/mypy.yaml",
       "source_repo": "bazel-contrib/rules_python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

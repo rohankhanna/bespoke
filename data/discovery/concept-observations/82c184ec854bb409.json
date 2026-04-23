@@ -84,7 +84,7 @@
   "normalized_form": "releaser",
   "observation_id": "82c184ec854bb409",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Releaser",
   "source_context_snippet": "Releaser",
   "source_file": ".github/workflows/cli-release.yaml",

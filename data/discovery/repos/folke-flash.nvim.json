@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "folke/github/.github/workflows/ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/labeler.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/update.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/flash.nvim",
+      "target": "echasnovski/mini.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/flash.nvim",
+      "target": "ggandor/leap.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/flash.nvim",
+      "target": "ggandor/lightspeed.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/flash.nvim",
+      "target": "ggandor/flit.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "folke/github/.github/workflows/ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "folke/github/.github/workflows/labeler.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "folke/github/.github/workflows/pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "folke/github/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "Stale Issues & PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "folke/github/.github/workflows/update.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/flash.nvim",
+      "target": "Update Repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/flash.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/flash.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:59.859653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24353
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 144
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
+    "fork": false,
+    "full_name": "folke/flash.nvim",
+    "html_url": "https://github.com/folke/flash.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-10-28T16:07:30Z",
+    "stargazers_count": 4017,
+    "topics": [
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-23T15:08:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggandor/flit.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggandor/leap.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggandor/lightspeed.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Title"
+    },
+    {
+      "context_snippet": "Stale Issues & PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Issues & PRs"
+    },
+    {
+      "context_snippet": "Update Repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Repo"
+    },
+    {
+      "context_snippet": "`flash.nvim` lets you navigate your code with search labels,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "`flash.nvim` lets you navigate your code with search labels,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

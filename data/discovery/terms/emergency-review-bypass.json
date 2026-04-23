@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/emergency-review-bypass.yaml",
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
     }
   ],
   "term": "Emergency review bypass"

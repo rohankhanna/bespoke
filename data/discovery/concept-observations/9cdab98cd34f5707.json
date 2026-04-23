@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "ovhcloud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "alcatel-lucent enterprise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "gandi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "interoute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "netsuite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scaleway",
+      "sense_id": "scaleway#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scaleway",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scaleway",
+  "observation_id": "9cdab98cd34f5707",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "scaleway",
+  "source_context_snippet": "Anymail: Django email integration for transactional ESPs",
+  "source_file": null,
+  "source_repo": "anymail/django-anymail",
+  "source_repo_description": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+}

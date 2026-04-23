@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "dart-lang/setup-dart@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "workflow/nix-shell-action@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    },
+    {
+      "component": "ludvighz/vint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "liuchengxu/vista.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "hrsh7th/deoplete-vim-lsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "dart-lang/setup-dart@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "cachix/install-nix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "workflow/nix-shell-action@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "ludvighz/vint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "natebosch/vim-lsc",
+      "target": "vint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc",
+      "target": "linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc",
+      "target": "quickfix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:08.132293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7715
+    },
+    {
+      "path": ".github/workflows/integration_tests.yml",
+      "size": 742
+    },
+    {
+      "path": ".github/workflows/vint.yml",
+      "size": 325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A vim plugin for communicating with a language server",
+    "fork": false,
+    "full_name": "natebosch/vim-lsc",
+    "html_url": "https://github.com/natebosch/vim-lsc",
+    "language": "Vim Script",
+    "pushed_at": "2024-05-23T15:50:31Z",
+    "stargazers_count": 696,
+    "topics": [
+      "autocomplete",
+      "language-server-protocol",
+      "linting",
+      "neovim",
+      "quickfix",
+      "vim"
+    ],
+    "updated_at": "2026-04-22T06:10:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/deoplete-vim-lsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/vista.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "term": "integration tests"
+    },
+    {
+      "context_snippet": "vint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "term": "vint"
+    },
+    {
+      "context_snippet": "Adds language-aware tooling to vim by communicating with a language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "Adds language-aware tooling to vim by communicating with a language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "Adds language-aware tooling to vim by communicating with a language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linting"
+    },
+    {
+      "context_snippet": "Adds language-aware tooling to vim by communicating with a language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Adds language-aware tooling to vim by communicating with a language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickfix"
+    }
+  ]
+}

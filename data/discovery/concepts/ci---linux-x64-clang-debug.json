@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Linux x64 clang debug"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "CI - Linux x64 clang debug"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "CI - Linux x64 clang debug"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "nurse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Linux x64 clang debug",
+  "concept_id": "ci---linux-x64-clang-debug",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",
+      "source_repo": "iree-org/iree"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Linux x64 clang debug",
+      "sense_id": "ci---linux-x64-clang-debug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

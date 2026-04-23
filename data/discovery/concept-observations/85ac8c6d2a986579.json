@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "New Relic Node.js agent code base. Developers are welcome to create pull requests here, please see our contributing guidelines. For New Relic technical support, please go to http://support.newrelic.com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate Compatibility Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate Compatibility Report"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19327,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19327,
+      "status": "candidate",
+      "text": "harmonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19278,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19118,
+      "status": "candidate",
+      "text": "inbreeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19070,
+      "status": "candidate",
+      "text": "breed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Compatibility Report",
+      "sense_id": "generate-compatibility-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-compatibility-report",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-compatibility-report",
+  "observation_id": "85ac8c6d2a986579",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Generate Compatibility Report",
+  "source_context_snippet": "Generate Compatibility Report",
+  "source_file": ".github/workflows/compatibility-report.yml",
+  "source_repo": "newrelic/node-newrelic",
+  "source_repo_description": "New Relic Node.js agent code base. Developers are welcome to create pull requests here, please see our contributing guidelines. For New Relic technical support, please go to http://support.newrelic.com."
+}

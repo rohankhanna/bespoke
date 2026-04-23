@@ -1,7 +1,7 @@
 {
   "component": "@babel/plugin-transform-object-rest-spread",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -17,6 +17,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "zloirock/core-js"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Version bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Version bump"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "abridgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "adaptation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "capsule"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version bump",
+      "sense_id": "version-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "version-bump",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "version-bump",
+  "observation_id": "a6172adfbd495921",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Version bump",
+  "source_context_snippet": "Version bump",
+  "source_file": ".github/workflows/version-bump.yml",
+  "source_repo": "gautamkrishnar/blog-post-workflow",
+  "source_repo_description": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+}

@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/downward",
+      "target": "aibasel/downward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/downward",
+      "target": "microsoft/textworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "macOS - Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "MarcCote/downward",
+      "target": "Ubuntu - Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:58.398661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3870
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 108
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/mac.yml",
+      "size": 967
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "api_for_textworld",
+    "description": "The Fast Downward domain-independent classical planning system",
+    "fork": true,
+    "full_name": "MarcCote/downward",
+    "html_url": "https://github.com/MarcCote/downward",
+    "language": "Python",
+    "pushed_at": "2025-11-11T14:34:25Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-12T13:45:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aibasel/downward",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/textworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "macOS - Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "term": "macOS - Tests"
+    },
+    {
+      "context_snippet": "Ubuntu - Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu - Tests"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:00:54.154781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lbdb completion source for nvim-compe",
+    "fork": false,
+    "full_name": "codybuell/compe-lbdb",
+    "html_url": "https://github.com/codybuell/compe-lbdb",
+    "language": "Lua",
+    "pushed_at": "2021-08-07T21:07:25Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-07-01T06:09:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

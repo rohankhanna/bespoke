@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "Vertical Pod Autoscaler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Autoscaling components for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Vertical Pod Autoscaler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate",
+      "text": "Vertical Pod Autoscaler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11602,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11602,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11540,
+      "status": "candidate",
+      "text": "pylon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10710,
+      "status": "candidate",
+      "text": "backboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10710,
+      "status": "candidate",
+      "text": "camber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Vertical Pod Autoscaler",
+  "concept_id": "vertical-pod-autoscaler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vertical Pod Autoscaler",
+      "sense_id": "vertical-pod-autoscaler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

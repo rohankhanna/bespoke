@@ -1,12 +1,22 @@
 {
   "component": "dawidd6/action-download-artifact@bf251b5aa9c2f7eeb574a96ee720e24f801b7c11",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/after-ci.yml",
       "source_repo": "pydantic/pydantic-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/failed_code_quality_check_comment.yml",
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CVEProject/cvelistV5"
     }
   ]
 }

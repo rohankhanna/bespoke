@@ -31,6 +31,18 @@
       "source_repo": "rust-windowing/winit",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "Global hotkeys for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "global_hotkey lets you register Global HotKeys for Desktop Applications."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rust-windowing/winit",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate",
+      "text": "global_hotkey lets you register Global HotKeys for Desktop Applications."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/global-hotkey"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "foundry-rs/forge-std",
+      "target": "Sync Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "cheatcodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "forge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "foundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "solc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foundry-rs/forge-std",
+      "target": "solidity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "foundry-rs/forge-std"
+}

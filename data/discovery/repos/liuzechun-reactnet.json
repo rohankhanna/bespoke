@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzechun/ReActNet",
+      "target": "liuzechun0216/images",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:46.301216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ReActNet: Towards Precise Binary NeuralNetwork with Generalized Activation Functions. In ECCV 2020.",
+    "fork": false,
+    "full_name": "liuzechun/ReActNet",
+    "html_url": "https://github.com/liuzechun/ReActNet",
+    "language": "Python",
+    "pushed_at": "2021-11-11T16:31:36Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-04-15T03:02:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuzechun0216/images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft Azure Linux Guest Agent "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Unit tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Unit tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23310,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15963,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15376,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Unit tests",
+      "sense_id": "ci-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-unit-tests",
+  "observation_id": "c365b793abc27169",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI Unit tests",
+  "source_context_snippet": "CI Unit tests",
+  "source_file": ".github/workflows/ci_pr.yml",
+  "source_repo": "Azure/WALinuxAgent",
+  "source_repo_description": "Microsoft Azure Linux Guest Agent "
+}

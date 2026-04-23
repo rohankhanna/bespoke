@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@f26937343756480a8cb3ae1f623b9c8d89ed6984",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ]
+}

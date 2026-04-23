@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/spelling2.yml",
       "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "bbatsov/clojure-style-guide"
     }
   ],
   "term": "Spell Checking"

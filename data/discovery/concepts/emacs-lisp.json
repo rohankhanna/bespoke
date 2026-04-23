@@ -43,6 +43,18 @@
       "source_repo": "bbatsov/crux",
       "status": "candidate-context",
       "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "Project Interaction Library for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "bbatsov/crux",
       "status": "candidate",
       "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "bbatsov/crux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

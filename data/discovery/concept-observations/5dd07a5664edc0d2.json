@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Tags"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12375,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12375,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12079,
+      "status": "candidate",
+      "text": "snip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Tags",
+      "sense_id": "release-tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-tags",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-tags",
+  "observation_id": "5dd07a5664edc0d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release Tags",
+  "source_context_snippet": "Release Tags",
+  "source_file": ".github/workflows/release-tags.yml",
+  "source_repo": "DeterminateSystems/nix-installer",
+  "source_repo_description": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+}

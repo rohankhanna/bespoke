@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cusplibrary/cusplibrary",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cusplibrary/cusplibrary",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cusplibrary/cusplibrary",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cusplibrary/cusplibrary",
+      "target": "cusp test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:19.047477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3809
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2763
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CUSP : A C++ Templated Sparse Matrix Library",
+    "fork": false,
+    "full_name": "cusplibrary/cusplibrary",
+    "html_url": "https://github.com/cusplibrary/cusplibrary",
+    "language": "C++",
+    "pushed_at": "2026-04-18T02:33:33Z",
+    "stargazers_count": 422,
+    "topics": [],
+    "updated_at": "2026-04-17T03:10:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cusp test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "cusp test"
+    }
+  ]
+}

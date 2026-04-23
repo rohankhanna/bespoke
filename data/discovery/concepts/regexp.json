@@ -19,6 +19,30 @@
       "source_repo": "micromatch/picomatch",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Picomatch</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate-context",
+      "text": "regular expression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate-context",
+      "text": "Oniguruma"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "micromatch/picomatch",
       "status": "candidate",
       "text": "<h1 align=\"center\">Picomatch</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate",
+      "text": "Oniguruma"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "micromatch/picomatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kkos/oniguruma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

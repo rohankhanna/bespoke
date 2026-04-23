@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042744,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034876,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019500,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007833,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007326,
+      "status": "candidate",
+      "text": "go after"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tags",
+      "sense_id": "tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tags",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tags",
+  "observation_id": "5bfb4302a7367c9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "tags",
+  "source_context_snippet": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)",
+  "source_file": null,
+  "source_repo": "absolute-version/absolute-version-js",
+  "source_repo_description": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+}

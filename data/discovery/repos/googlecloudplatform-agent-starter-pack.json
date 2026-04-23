@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "google/agents-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "google/adk-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "google/adk-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "Deploy Docs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "Windows Compatibility Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "genai-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "target": "observability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:40.558709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11940
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3226
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1271
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5982
+    },
+    {
+      "path": ".github/workflows/test-windows.yml",
+      "size": 1691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/agent-starter-pack",
+    "html_url": "https://github.com/GoogleCloudPlatform/agent-starter-pack",
+    "language": "Python",
+    "pushed_at": "2026-04-23T06:50:35Z",
+    "stargazers_count": 6321,
+    "topics": [
+      "agents",
+      "gcp",
+      "gemini",
+      "genai-agents",
+      "generative-ai",
+      "llmops",
+      "mlops",
+      "observability"
+    ],
+    "updated_at": "2026-04-23T18:30:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/agents-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Windows Compatibility Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows.yml",
+      "term": "Windows Compatibility Test"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai-agents"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    }
+  ]
+}

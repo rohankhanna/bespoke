@@ -31,6 +31,18 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate-context",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JetBrains/JetBrainsMono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

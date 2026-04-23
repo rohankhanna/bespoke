@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "checkin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "logging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "protection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "protective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "checkin",
+  "concept_id": "checkin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "qd-today/qd"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "checkin",
+      "sense_id": "checkin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

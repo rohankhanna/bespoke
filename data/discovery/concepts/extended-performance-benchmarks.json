@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Extended Performance Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Declare your digital independence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Extended Performance Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate",
+      "text": "Extended Performance Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26002,
+      "status": "candidate",
+      "text": "slumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25988,
+      "status": "candidate",
+      "text": "intermezzo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25281,
+      "status": "candidate",
+      "text": "requirements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24188,
+      "status": "candidate",
+      "text": "indicators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24130,
+      "status": "candidate",
+      "text": "targets"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Extended Performance Benchmarks",
+  "concept_id": "extended-performance-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmarks-extended.yml",
+      "source_repo": "freenet/freenet-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extended Performance Benchmarks",
+      "sense_id": "extended-performance-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

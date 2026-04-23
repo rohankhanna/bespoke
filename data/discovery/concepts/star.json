@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "star"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883614,
+      "status": "candidate",
+      "text": "stellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868217,
+      "status": "candidate",
+      "text": "asterisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805382,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39732532,
+      "status": "candidate",
+      "text": "leading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39722532,
+      "status": "candidate",
+      "text": "maven"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70043,
+      "status": "candidate",
+      "text": "adept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "stellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39031,
+      "status": "candidate",
+      "text": "maven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37041,
+      "status": "candidate",
+      "text": "virtuoso"
+    }
+  ],
+  "canonical_name": "star",
+  "concept_id": "star",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "star",
+      "sense_id": "star#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

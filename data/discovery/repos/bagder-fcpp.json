@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/fcpp",
+      "target": "c-preprocessor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/fcpp",
+      "target": "preprocessor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:56.626034+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Frexx C preprocessor",
+    "fork": false,
+    "full_name": "bagder/fcpp",
+    "html_url": "https://github.com/bagder/fcpp",
+    "language": "C",
+    "pushed_at": "2025-11-03T15:58:28Z",
+    "stargazers_count": 142,
+    "topics": [
+      "c",
+      "c-preprocessor",
+      "preprocessor"
+    ],
+    "updated_at": "2026-01-04T14:00:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Frexx C preprocessor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-preprocessor"
+    },
+    {
+      "context_snippet": "Frexx C preprocessor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preprocessor"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:39:55.661367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8131
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 706
+    },
+    {
+      "path": "requirements.txt",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2025] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+    "fork": false,
+    "full_name": "Alibaba-NLP/ViDoRAG",
+    "html_url": "https://github.com/Alibaba-NLP/ViDoRAG",
+    "language": "Python",
+    "pushed_at": "2026-01-11T06:47:51Z",
+    "stargazers_count": 657,
+    "topics": [],
+    "updated_at": "2026-04-21T05:55:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

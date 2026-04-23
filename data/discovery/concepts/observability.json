@@ -139,6 +139,30 @@
       "source_repo": "thanos-io/thanos",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "thanos-io/thanos",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +358,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "thanos-io/thanos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

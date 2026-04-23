@@ -45,6 +45,54 @@
       "source_repo": "ko-build/ko",
       "status": "candidate-context",
       "text": "image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "Image processing and computer vision library in pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Go package for fast high-level image processing powered by libvips C library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Build and run containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +113,30 @@
       "source_repo": "ko-build/ko",
       "status": "candidate",
       "text": "image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -162,11 +234,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/image.yaml",
       "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "h2non/bimg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

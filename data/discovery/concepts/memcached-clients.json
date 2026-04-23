@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "memcached-clients"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "Go Memcached client library #golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "memcached-clients",
+  "concept_id": "memcached-clients",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bradfitz/gomemcache"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memcached-clients",
+      "sense_id": "memcached-clients#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

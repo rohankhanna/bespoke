@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaskRay/ccls",
+      "target": "cquery-project/cquery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaskRay/ccls",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaskRay/ccls",
+      "target": "lsp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:53:29.851048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting",
+    "fork": false,
+    "full_name": "MaskRay/ccls",
+    "html_url": "https://github.com/MaskRay/ccls",
+    "language": "C++",
+    "pushed_at": "2025-11-30T05:53:43Z",
+    "stargazers_count": 4051,
+    "topics": [
+      "cpp",
+      "ide",
+      "language-server-protocol",
+      "lsp-server"
+    ],
+    "updated_at": "2026-04-22T12:09:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cquery-project/cquery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-server"
+    }
+  ]
+}

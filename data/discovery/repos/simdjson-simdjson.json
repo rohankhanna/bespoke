@@ -1,0 +1,759 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "apache/doris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "adamritter/fastgron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "anilmaurya/fast_jsonparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "asmod4n/mruby-fast-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Ubuntu aarch64 (GCC 13)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Alpine Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yaml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yaml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Doxygen GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Detect trailing whitespace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "Fuzz and run valgrind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "source_repo": "simdjson/simdjson",
+      "target": "LoongArch64-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "clang-cl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "gcc-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "json-pointer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "loongarch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "loongarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "risc-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "sse42",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson",
+      "target": "vs2019",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:00:26.942491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14080
+    },
+    {
+      "path": ".github/workflows/aarch64.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/debian.yaml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1155
+    },
+    {
+      "path": ".github/workflows/emscripten.yml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/fix-trailing-whitespace.yml",
+      "size": 1120
+    },
+    {
+      "path": ".github/workflows/fuzzers.yml",
+      "size": 6112
+    },
+    {
+      "path": ".github/workflows/loongarch64.yml",
+      "size": 1768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
+    "fork": false,
+    "full_name": "simdjson/simdjson",
+    "html_url": "https://github.com/simdjson/simdjson",
+    "language": "C++",
+    "pushed_at": "2026-04-22T17:54:16Z",
+    "stargazers_count": 23681,
+    "topics": [
+      "aarch64",
+      "arm64",
+      "avx2",
+      "avx512",
+      "c-plus-plus",
+      "clang",
+      "clang-cl",
+      "cpp11",
+      "gcc-compiler",
+      "json",
+      "json-parser",
+      "json-pointer",
+      "loongarch",
+      "loongarch64",
+      "neon",
+      "risc-v",
+      "simd",
+      "sse42",
+      "vs2019",
+      "x64"
+    ],
+    "updated_at": "2026-04-23T18:46:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamritter/fastgron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anilmaurya/fast_jsonparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/doris",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asmod4n/mruby-fast-json",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu aarch64 (GCC 13)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "term": "Ubuntu aarch64 (GCC 13)"
+    },
+    {
+      "context_snippet": "Alpine Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "Alpine Linux"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Debian",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yaml",
+      "term": "Debian"
+    },
+    {
+      "context_snippet": "Doxygen GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Doxygen GitHub Pages"
+    },
+    {
+      "context_snippet": "Detect trailing whitespace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-trailing-whitespace.yml",
+      "term": "Detect trailing whitespace"
+    },
+    {
+      "context_snippet": "Fuzz and run valgrind",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "term": "Fuzz and run valgrind"
+    },
+    {
+      "context_snippet": "LoongArch64-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loongarch64.yml",
+      "term": "LoongArch64-CI"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aarch64"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang-cl"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcc-compiler"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-pointer"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loongarch"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loongarch64"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "risc-v"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse42"
+    },
+    {
+      "context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vs2019"
+    }
+  ]
+}

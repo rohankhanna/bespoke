@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Tests-others"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Tests-others"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "Tests-others"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Tests-others",
+  "concept_id": "tests-others",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests-others.yml",
+      "source_repo": "arl/statsviz"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests-others",
+      "sense_id": "tests-others#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

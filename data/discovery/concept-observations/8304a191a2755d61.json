@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adobe Font Development Kit for OpenType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test with ASAN"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test with ASAN"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "abocclusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "cauchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "champ"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with ASAN",
+      "sense_id": "test-with-asan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-with-asan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-with-asan",
+  "observation_id": "8304a191a2755d61",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Test with ASAN",
+  "source_context_snippet": "Test with ASAN",
+  "source_file": ".github/workflows/asan.yml",
+  "source_repo": "adobe-type-tools/afdko",
+  "source_repo_description": "Adobe Font Development Kit for OpenType"
+}

@@ -1,0 +1,554 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml"
+    },
+    {
+      "component": "dawidd6/action-get-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "openai/multiagent-particle-envs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "sisl/madrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "farama-foundation/supersuit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "Build Documentation website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "build-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "Manual Docs Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "Documentation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "dawidd6/action-get-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "Docs Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tutorials-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tutorials-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "Tutorial tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "MacOS tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "gymnasium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "multi-agent-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "multiagent-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:12.378619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6057
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2974
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/build-publish.yml",
+      "size": 1806
+    },
+    {
+      "path": ".github/workflows/docs-manual-versioning.yml",
+      "size": 2227
+    },
+    {
+      "path": ".github/workflows/docs-test.yml",
+      "size": 1243
+    },
+    {
+      "path": ".github/workflows/docs-versioning.yml",
+      "size": 1832
+    },
+    {
+      "path": ".github/workflows/linux-test.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/linux-tutorials-test.yml",
+      "size": 2742
+    },
+    {
+      "path": ".github/workflows/macos-test.yml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities",
+    "fork": false,
+    "full_name": "Farama-Foundation/PettingZoo",
+    "html_url": "https://github.com/Farama-Foundation/PettingZoo",
+    "language": "Python",
+    "pushed_at": "2026-04-22T23:22:48Z",
+    "stargazers_count": 3387,
+    "topics": [
+      "api",
+      "gym",
+      "gymnasium",
+      "multi-agent-reinforcement-learning",
+      "multiagent-reinforcement-learning",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-23T10:44:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/supersuit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/multiagent-particle-envs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sisl/madrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Documentation website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Documentation website"
+    },
+    {
+      "context_snippet": "build-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-publish.yml",
+      "term": "build-publish"
+    },
+    {
+      "context_snippet": "Manual Docs Versioning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "term": "Manual Docs Versioning"
+    },
+    {
+      "context_snippet": "Documentation tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-test.yml",
+      "term": "Documentation tests"
+    },
+    {
+      "context_snippet": "Docs Versioning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "term": "Docs Versioning"
+    },
+    {
+      "context_snippet": "Tutorial tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tutorials-test.yml",
+      "term": "Tutorial tests"
+    },
+    {
+      "context_snippet": "MacOS tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-test.yml",
+      "term": "MacOS tests"
+    },
+    {
+      "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gymnasium"
+    },
+    {
+      "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

@@ -44,6 +44,18 @@
       "source_repo": "flycheck/flycheck",
       "status": "candidate-context",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "GitHub Actions runner images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "Create GitHub release"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "flycheck/flycheck",
       "status": "candidate",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate",
+      "text": "Create GitHub release"
     }
   ],
   "candidate_related_terms": [
@@ -131,11 +149,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/github-release.yml",
       "source_repo": "flycheck/flycheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "source_repo": "actions/runner-images"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,66 @@
       "source_repo": "cncf/tag-env-sustainability",
       "status": "candidate-context",
       "text": "Quality Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "One stop solution for all Vulkan samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "Quality Checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cncf/tag-env-sustainability",
+      "status": "candidate",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
       "status": "candidate",
       "text": "Quality Checks"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "cncf/tag-env-sustainability"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

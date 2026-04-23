@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pytorch-geometric"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate-context",
+      "text": "Implementation of MolCLR: \"Molecular Contrastive Learning of Representations via Graph Neural Networks\" in PyG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate-context",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pytorch-geometric",
+  "concept_id": "pytorch-geometric",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yuyangw/MolCLR"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pytorch-geometric",
+      "sense_id": "pytorch-geometric#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

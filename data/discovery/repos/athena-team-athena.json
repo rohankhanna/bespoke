@@ -1,0 +1,212 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athena-team/athena",
+      "target": "athena-team/athena-transform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athena-team/athena",
+      "target": "lianjiatech/athena-model-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athena-team/athena",
+      "target": "horovod/horovod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athena-team/athena",
+      "target": "jianweisun007/athena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "sequence-to-sequence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athena-team/athena",
+      "target": "wfst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:06.043477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19522
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an open-source implementation of sequence-to-sequence based speech processing engine",
+    "fork": false,
+    "full_name": "athena-team/athena",
+    "html_url": "https://github.com/athena-team/athena",
+    "language": "C++",
+    "pushed_at": "2022-12-02T02:43:19Z",
+    "stargazers_count": 969,
+    "topics": [
+      "asr",
+      "ctc",
+      "deployment",
+      "sequence-to-sequence",
+      "speaker-recognition",
+      "speech-recognition",
+      "speech-synthesis",
+      "tensorflow",
+      "transformer",
+      "tts",
+      "unsupervised-learning",
+      "wfst"
+    ],
+    "updated_at": "2026-04-09T07:51:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "athena-team/athena-transform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horovod/horovod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jianweisun007/athena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lianjiatech/athena-model-zoo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-to-sequence"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    },
+    {
+      "context_snippet": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wfst"
+    }
+  ]
+}

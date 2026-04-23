@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "razor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044100,
+      "status": "candidate",
+      "text": "strop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043166,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042992,
+      "status": "candidate",
+      "text": "cutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042756,
+      "status": "candidate",
+      "text": "knife"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041495,
+      "status": "candidate",
+      "text": "tack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "razor",
+  "concept_id": "razor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "razor",
+      "sense_id": "razor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

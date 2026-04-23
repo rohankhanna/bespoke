@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "kbenzie/vim-spirv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "kbenzie/vim-spirv",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "kbenzie/vim-spirv",
+      "target": "Update syntax if upstream changed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:42.079721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3760
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A vim plugin for the Khronos Group's SPIR-V standard.",
+    "fork": false,
+    "full_name": "kbenzie/vim-spirv",
+    "html_url": "https://github.com/kbenzie/vim-spirv",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-11T00:27:50Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-11T00:27:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update syntax if upstream changed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Update syntax if upstream changed"
+    }
+  ]
+}

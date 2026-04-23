@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Snap Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Snap Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "chill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "choo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "chopped"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snap Publish",
+      "sense_id": "snap-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snap-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snap-publish",
+  "observation_id": "cf76962d58d26453",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Snap Publish",
+  "source_context_snippet": "Snap Publish",
+  "source_file": ".github/workflows/snap-publish.yml",
+  "source_repo": "filip26/ld-cli",
+  "source_repo_description": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+}

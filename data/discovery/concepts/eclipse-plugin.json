@@ -31,6 +31,30 @@
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

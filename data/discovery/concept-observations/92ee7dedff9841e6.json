@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ComfyUI nodes collection: better TAESD previews (including batch previews), improved HyperTile and Deep Shrink nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comfyui",
+      "sense_id": "comfyui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comfyui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comfyui",
+  "observation_id": "92ee7dedff9841e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "comfyui",
+  "source_context_snippet": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation.",
+  "source_file": null,
+  "source_repo": "blepping/ComfyUI-bleh",
+  "source_repo_description": "ComfyUI nodes collection: better TAESD previews (including batch previews), improved HyperTile and Deep Shrink nodes"
+}

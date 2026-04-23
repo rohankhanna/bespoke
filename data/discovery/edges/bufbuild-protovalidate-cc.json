@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/protovalidate-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/protovalidate-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/protovalidate-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/protovalidate-es",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "CMake CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Emergency review bypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Approval bypass notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "morrisoncole/pr-lint-action@v1.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "PR Hygiene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "common-expression-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-cc",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bufbuild/protovalidate-cc"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "base16-builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A base16 builder written in go, focused on convenience for template maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A simple builder for base16 templates and schemes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate",
+      "text": "A simple builder for base16 templates and schemes."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "base16-builder",
+  "concept_id": "base16-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-builder-go"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "base16-builder",
+      "sense_id": "base16-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "ssri",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -12,6 +12,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/yarn"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raylib-extras/rlImGui",
+      "target": "raysan5/raylib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:54:06.036876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Raylib integration with DearImGui",
+    "fork": false,
+    "full_name": "raylib-extras/rlImGui",
+    "html_url": "https://github.com/raylib-extras/rlImGui",
+    "language": "C",
+    "pushed_at": "2026-04-22T15:23:29Z",
+    "stargazers_count": 536,
+    "topics": [],
+    "updated_at": "2026-04-23T04:45:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raysan5/raylib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

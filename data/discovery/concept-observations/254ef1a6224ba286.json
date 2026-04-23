@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An email and SMTP testing tool with API for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build docker edge images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build docker edge images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17171,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17097,
+      "status": "candidate",
+      "text": "drawing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build docker edge images",
+      "sense_id": "build-docker-edge-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-docker-edge-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-docker-edge-images",
+  "observation_id": "254ef1a6224ba286",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build docker edge images",
+  "source_context_snippet": "Build docker edge images",
+  "source_file": ".github/workflows/build-docker-edge.yml",
+  "source_repo": "axllent/mailpit",
+  "source_repo_description": "An email and SMTP testing tool with API for developers"
+}

@@ -19,6 +19,18 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate-context",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "nanobind: tiny and efficient C++/Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "aarnphm/whispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

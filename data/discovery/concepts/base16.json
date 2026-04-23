@@ -31,6 +31,30 @@
       "source_repo": "FabioAntunes/base16-fish-shell",
       "status": "candidate-context",
       "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A base16 builder written in go, focused on convenience for template maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "A Framework for building Themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "FabioAntunes/base16-fish-shell",
       "status": "candidate",
       "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate",
+      "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "FabioAntunes/base16-fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-builder-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chriskempson/base16"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

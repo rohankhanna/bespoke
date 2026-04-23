@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "adaptive-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "fine-tuning-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "target": "mistral",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:19.978256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7664
+    },
+    {
+      "path": "requirements.txt",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fine-tuning Open-Source LLMs for Adaptive Machine Translation",
+    "fork": false,
+    "full_name": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+    "html_url": "https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-10T13:02:02Z",
+    "stargazers_count": 91,
+    "topics": [
+      "adaptive-machine-translation",
+      "domain-adaptation",
+      "fine-tuning-llm",
+      "large-language-models",
+      "machine-translation",
+      "mistral"
+    ],
+    "updated_at": "2026-04-08T19:30:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-machine-translation"
+    },
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning-llm"
+    },
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "ada-actions/toolchain@ce2021",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "ada-actions/toolchain@ce2020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "ada-actions/toolchain@ce2021",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "ada-actions/toolchain@ce2020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "AdaCore/gnatcoll-core",
+      "target": "BuildAndTest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:24.877765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5247
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 4807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GNAT Components Collection \u2013 Core packages",
+    "fork": false,
+    "full_name": "AdaCore/gnatcoll-core",
+    "html_url": "https://github.com/AdaCore/gnatcoll-core",
+    "language": "Ada",
+    "pushed_at": "2026-04-17T16:34:50Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-17T16:34:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BuildAndTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "BuildAndTest"
+    }
+  ]
+}

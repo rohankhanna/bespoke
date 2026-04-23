@@ -1,0 +1,22 @@
+{
+  "component": "tj-actions/changed-files@v42",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong"
+    }
+  ]
+}

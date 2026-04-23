@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "cqhttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "onebot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "qqbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot",
+      "target": "standard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:09:11.255156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 669
+    },
+    {
+      "path": "requirements.txt",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OneBot\uff1a\u7edf\u4e00\u7684\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6",
+    "fork": false,
+    "full_name": "botuniverse/onebot",
+    "html_url": "https://github.com/botuniverse/onebot",
+    "language": "CSS",
+    "pushed_at": "2023-07-06T08:42:00Z",
+    "stargazers_count": 2003,
+    "topics": [
+      "api",
+      "bot",
+      "chatbot",
+      "cqhttp",
+      "onebot",
+      "protocol",
+      "qqbot",
+      "standard"
+    ],
+    "updated_at": "2026-04-20T15:18:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqhttp"
+    },
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onebot"
+    },
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    },
+    {
+      "context_snippet": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    }
+  ]
+}

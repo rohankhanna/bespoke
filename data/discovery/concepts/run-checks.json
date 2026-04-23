@@ -19,12 +19,30 @@
       "source_repo": "labstack/echo",
       "status": "candidate-context",
       "text": "Run checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate-context",
+      "text": "A Cookiecutter template for pytest plugins \ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate-context",
+      "text": "Run checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "labstack/echo",
+      "status": "candidate",
+      "text": "Run checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
       "status": "candidate",
       "text": "Run checks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "labstack/echo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

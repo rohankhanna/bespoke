@@ -43,6 +43,18 @@
       "source_repo": "NVIDIA/MatX",
       "status": "candidate-context",
       "text": "[![GitHub Releases](https://img.shields.io/github/v/release/NVIDIA/MatX)](https://github.com/NVIDIA/MatX/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate-context",
+      "text": "ArrayFire: a general purpose GPU library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "NVIDIA/MatX",
       "status": "candidate",
       "text": "[![GitHub Releases](https://img.shields.io/github/v/release/NVIDIA/MatX)](https://github.com/NVIDIA/MatX/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MatX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

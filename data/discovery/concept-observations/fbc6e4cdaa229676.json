@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spotbugs",
+      "sense_id": "spotbugs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spotbugs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spotbugs",
+  "observation_id": "fbc6e4cdaa229676",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "spotbugs",
+  "source_context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+  "source_file": null,
+  "source_repo": "m2e-code-quality/m2e-code-quality",
+  "source_repo_description": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+}

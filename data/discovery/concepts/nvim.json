@@ -199,6 +199,90 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate-context",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "A snazzy bufferline for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1a  Neovim package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "Find, Filter, Preview, Pick. All lua, all the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "Neovim's answer to the mouse \ud83e\udd98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +381,48 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +532,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/leap.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

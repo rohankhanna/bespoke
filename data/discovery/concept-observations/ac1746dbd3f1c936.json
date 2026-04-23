@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Generation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36554,
+      "status": "candidate",
+      "text": "computer code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36553,
+      "status": "candidate",
+      "text": "programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36552,
+      "status": "candidate",
+      "text": "generating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36551,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36550,
+      "status": "candidate",
+      "text": "machine code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Generation",
+      "sense_id": "code-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-generation",
+  "observation_id": "ac1746dbd3f1c936",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Code Generation",
+  "source_context_snippet": "Code Generation",
+  "source_file": ".github/workflows/code-generation.yml",
+  "source_repo": "doctest/doctest",
+  "source_repo_description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+}

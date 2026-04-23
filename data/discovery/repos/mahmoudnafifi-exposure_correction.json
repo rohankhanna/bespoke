@@ -1,0 +1,267 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "mahmoudnafifi/deep_white_balance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "coarse-to-fine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "exposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "low-light-enhance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "low-light-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "multi-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "overexposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "underexposure-correction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:49:43.314765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). ",
+    "fork": false,
+    "full_name": "mahmoudnafifi/Exposure_Correction",
+    "html_url": "https://github.com/mahmoudnafifi/Exposure_Correction",
+    "language": "MATLAB",
+    "pushed_at": "2023-12-24T01:15:11Z",
+    "stargazers_count": 583,
+    "topics": [
+      "coarse-to-fine",
+      "color-correction",
+      "computational-photography",
+      "cvpr",
+      "cvpr2021",
+      "dataset",
+      "datasets",
+      "deep-learning",
+      "deeplearning",
+      "exposure-correction",
+      "image-enhancement",
+      "low-light-enhance",
+      "low-light-image",
+      "multi-scale",
+      "overexposure-correction",
+      "underexposure-correction"
+    ],
+    "updated_at": "2026-04-20T08:49:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/deep_white_balance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coarse-to-fine"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-photography"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exposure-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enhancement"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-enhance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-scale"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "overexposure-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "underexposure-correction"
+    }
+  ]
+}

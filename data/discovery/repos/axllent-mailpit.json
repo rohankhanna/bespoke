@@ -1,0 +1,903 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap5-tags",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color-hash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dayjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dompurify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ical.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mitt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "modern-screenshot",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rapidoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "timezones-list",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-css-donut-chart",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/compat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@popperjs/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bootstrap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tinycon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/compiler-sfc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild-plugin-vue-next",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild-sass-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-get-previous-tag@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "benjlevesque/short-sha@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "booxmedialtd/ws-action-parse-semver@v1.4.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "wangyoucao577/go-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/stale@v10.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-rqlite.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-rqlite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axllent/mailpit",
+      "target": "mailhog/mailhog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "bootstrap-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "bootstrap5-tags",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "color-hash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "dayjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "dompurify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "ical.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "mitt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "modern-screenshot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "rapidoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "timezones-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "vue-css-donut-chart",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@eslint/compat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@popperjs/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@types/bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@types/tinycon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "@vue/compiler-sfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "esbuild-plugin-vue-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "esbuild-sass-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axllent/mailpit",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "WyriHaximus/github-action-get-previous-tag@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "benjlevesque/short-sha@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "Build docker edge images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "booxmedialtd/ws-action-parse-semver@v1.4.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "Build docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "wangyoucao577/go-release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "Build & release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-rqlite.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-rqlite.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-rqlite.yml",
+      "source_repo": "axllent/mailpit",
+      "target": "Tests (rqlite)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "email-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "mailpit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "pop3-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "smtp-relay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "smtp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axllent/mailpit",
+      "target": "smtp-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:51.518090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7469
+    },
+    {
+      "path": "Dockerfile",
+      "size": 935
+    },
+    {
+      "path": "go.mod",
+      "size": 3381
+    },
+    {
+      "path": "package.json",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/build-docker-edge.yml",
+      "size": 1385
+    },
+    {
+      "path": ".github/workflows/build-docker.yml",
+      "size": 1604
+    },
+    {
+      "path": ".github/workflows/build-release.yml",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2737
+    },
+    {
+      "path": ".github/workflows/tests-rqlite.yml",
+      "size": 877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An email and SMTP testing tool with API for developers",
+    "fork": false,
+    "full_name": "axllent/mailpit",
+    "html_url": "https://github.com/axllent/mailpit",
+    "language": "Go",
+    "pushed_at": "2026-04-16T05:56:20Z",
+    "stargazers_count": 9225,
+    "topics": [
+      "email-testing",
+      "go",
+      "golang",
+      "mailpit",
+      "pop3-server",
+      "smtp-relay",
+      "smtp-server",
+      "smtp-testing"
+    ],
+    "updated_at": "2026-04-23T19:06:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mailhog/mailhog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build docker edge images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "term": "Build docker edge images"
+    },
+    {
+      "context_snippet": "Build docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "term": "Build docker images"
+    },
+    {
+      "context_snippet": "Build & release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "term": "Build & release"
+    },
+    {
+      "context_snippet": "Close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Tests (rqlite)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-rqlite.yml",
+      "term": "Tests (rqlite)"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email-testing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailpit"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pop3-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smtp-relay"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smtp-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smtp-testing"
+    }
+  ]
+}

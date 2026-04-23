@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "gradient"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf6d Badge generator with color gradient support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036768,
+      "status": "candidate",
+      "text": "slope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036983,
+      "status": "candidate",
+      "text": "sloping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036943,
+      "status": "candidate",
+      "text": "slant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036919,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036871,
+      "status": "candidate",
+      "text": "incline"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "slope"
+    }
+  ],
+  "canonical_name": "gradient",
+  "concept_id": "gradient",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gradient",
+      "sense_id": "gradient#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of helpful contracts and libraries for use with Forge and Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044132,
+      "status": "candidate",
+      "text": "smithy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041917,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040931,
+      "status": "candidate",
+      "text": "mould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034605,
+      "status": "candidate",
+      "text": "hammer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982646,
+      "status": "candidate",
+      "text": "spurt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forge",
+      "sense_id": "forge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40035,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31039,
+      "status": "candidate",
+      "text": "spurt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24051,
+      "status": "candidate",
+      "text": "devise"
+    }
+  ],
+  "concept_id": "forge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forge",
+  "observation_id": "5bee886ea32b8d0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "forge",
+  "source_context_snippet": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes.",
+  "source_file": null,
+  "source_repo": "foundry-rs/forge-std",
+  "source_repo_description": "A collection of helpful contracts and libraries for use with Forge and Foundry"
+}

@@ -889,6 +889,654 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate-context",
+      "text": "Code and documentation to train Stanford's Alpaca models, and generate the data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate-context",
+      "text": "Supercharge Your Model Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate-context",
+      "text": "Implementation of MolCLR: \"Molecular Contrastive Learning of Representations via Graph Neural Networks\" in PyG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate-context",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReBias (Learning De-biased Representations with Biased Representations), ICML 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Deep Hough Voting for 3D Object Detection in Point Clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "Easiest and laziest way for  building multi-agent LLMs applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "Automatically find issues in image datasets and practice data-centric computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jittor/jittor",
+      "status": "candidate-context",
+      "text": "Jittor is a high-performance deep learning framework based on JIT compiling and meta-operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/jittor",
+      "status": "candidate-context",
+      "text": "![Jittor Logo](https://cg.cs.tsinghua.edu.cn/jittor/favicon_package_v0/JittorLogo_Final1220.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Jupyter notebook tutorials for OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate-context",
+      "text": "A CV toolkit for my papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate-context",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate-context",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": ":robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate-context",
+      "text": "VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate-context",
+      "text": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Liuhong99/Sophia",
+      "status": "candidate-context",
+      "text": "The official implementation of \u201cSophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Liuhong99/Sophia",
+      "status": "candidate-context",
+      "text": "This is an official implementation of the **Sophia-G** optimizer in the paper [https://arxiv.org/abs/2305.14342](https://arxiv.org/abs/2305.14342) and GPT-2 training scripts. The code is based on [nanoGPT](https://github.com/karpathy/nanoGPT/) and [levanter](https://github.com/s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "Build Graph Nets in Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate-context",
+      "text": "Low-Level Graph Neural Network Operators for PyG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/llm-foundry",
+      "status": "candidate-context",
+      "text": "LLM training code for Databricks foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/llm-foundry",
+      "status": "candidate-context",
+      "text": "<!-- SETUPTOOLS_LONG_DESCRIPTION_HIDE_BEGIN -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "CnSTD: \u57fa\u4e8e PyTorch/MXNet \u7684 \u4e2d\u6587/\u82f1\u6587 \u573a\u666f\u6587\u5b57\u68c0\u6d4b\uff08Scene Text Detection\uff09\u3001\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\uff08Mathematical Formula Detection, MFD\uff09\u3001\u7bc7\u7ae0\u5206\u6790\uff08Layout Analysis\uff09\u7684Python3 \u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate-context",
+      "text": "A high-performance Python-based I/O system for large (and small) deep learning problems, with strong support for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes for different datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "How to use our public wav2vec2 dimensional emotion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "An introduction to our model for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "stable diffusion webui colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_glosses": [
@@ -1329,6 +1977,330 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyangw/MolCLR",
+      "status": "candidate",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/jittor",
+      "status": "candidate",
+      "text": "![Jittor Logo](https://cg.cs.tsinghua.edu.cn/jittor/favicon_package_v0/JittorLogo_Final1220.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate",
+      "text": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Liuhong99/Sophia",
+      "status": "candidate",
+      "text": "This is an official implementation of the **Sophia-G** optimizer in the paper [https://arxiv.org/abs/2305.14342](https://arxiv.org/abs/2305.14342) and GPT-2 training scripts. The code is based on [nanoGPT](https://github.com/karpathy/nanoGPT/) and [levanter](https://github.com/s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/llm-foundry",
+      "status": "candidate",
+      "text": "<!-- SETUPTOOLS_LONG_DESCRIPTION_HIDE_BEGIN -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate",
+      "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate",
+      "text": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate",
+      "text": "An introduction to our model for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_related_terms": [],
@@ -1804,11 +2776,371 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/stanford_alpaca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yuyangw/MolCLR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rebias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/votenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BVLC/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jittor/jittor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zhanghang1989/PyTorch-Encoding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Liuhong99/Sophia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/llm-foundry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed-MII"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "breezedeus/CnSTD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "pypa/cibuildwheel",
       "status": "candidate-context",
       "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pypa/cibuildwheel",
       "status": "candidate",
       "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

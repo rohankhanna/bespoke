@@ -19,12 +19,84 @@
       "source_repo": "arkworks-rs/snark",
       "status": "candidate-context",
       "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Libraries for finite field, elliptic curve, and polynomial arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate-context",
+      "text": "A Rust implementation of the Groth16 zkSNARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "A Rust library for the Marlin preprocessing zkSNARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "A Rust library for polynomial commitments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "arkworks-rs/snark",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
       "status": "candidate",
       "text": "Linkify Changelog"
     }
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/linkify_changelog.yml",
       "source_repo": "arkworks-rs/snark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/groth16"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/marlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

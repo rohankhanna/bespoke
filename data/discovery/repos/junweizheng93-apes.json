@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunweiZheng93/APES",
+      "target": "attention-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunweiZheng93/APES",
+      "target": "downsampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunweiZheng93/APES",
+      "target": "edge-points",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunweiZheng93/APES",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:31.352060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7010
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for paper \"Attention-based Point Cloud Edge Sampling\" (APES), Highlight@CVPR 2023",
+    "fork": false,
+    "full_name": "JunweiZheng93/APES",
+    "html_url": "https://github.com/JunweiZheng93/APES",
+    "language": "Python",
+    "pushed_at": "2025-03-26T22:44:00Z",
+    "stargazers_count": 133,
+    "topics": [
+      "attention-based",
+      "downsampling",
+      "edge-points",
+      "point-cloud"
+    ],
+    "updated_at": "2026-04-20T06:48:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-based"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "downsampling"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-points"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

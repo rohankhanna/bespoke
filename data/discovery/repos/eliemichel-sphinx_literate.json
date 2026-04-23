@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "Deploy Sphinx with GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "literate-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/sphinx_literate",
+      "target": "sphinx-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:46.077794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1456
+    },
+    {
+      "path": "requirements.txt",
+      "size": 103
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An advanced literate programming tool for writing incremental programming courses.",
+    "fork": false,
+    "full_name": "eliemichel/sphinx_literate",
+    "html_url": "https://github.com/eliemichel/sphinx_literate",
+    "language": "Python",
+    "pushed_at": "2025-06-29T08:45:31Z",
+    "stargazers_count": 8,
+    "topics": [
+      "documentation",
+      "literate-programming",
+      "sphinx-extension"
+    ],
+    "updated_at": "2026-04-06T11:59:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Sphinx with GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy Sphinx with GitHub Pages"
+    },
+    {
+      "context_snippet": "Sphinx Literate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Sphinx Literate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "literate-programming"
+    },
+    {
+      "context_snippet": "Sphinx Literate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx-extension"
+    }
+  ]
+}

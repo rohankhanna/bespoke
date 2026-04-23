@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Pytest",
-    "pytest"
+    "pytest",
+    "PyTest"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -118,6 +119,102 @@
       "source_repo": "moskomule/anatome",
       "status": "candidate-context",
       "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Natyren/WebShop",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Natyren/WebShop",
+      "status": "candidate-context",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "Benchmarking Goal-Oriented Software Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate-context",
+      "text": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate-context",
+      "text": "A Cookiecutter template for pytest plugins \ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate-context",
+      "text": "[![Documentation Status][docs_badge]][documentation]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "SWE-bench: Can Language Models Resolve Real-world Github Issues?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate-context",
+      "text": "Pytest"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +271,54 @@
       "source_repo": "moskomule/anatome",
       "status": "candidate",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Natyren/WebShop",
+      "status": "candidate",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate",
+      "text": "[![Documentation Status][docs_badge]][documentation]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate",
+      "text": "PyTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate",
+      "text": "Pytest"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +416,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/action.yml",
       "source_repo": "moskomule/anatome"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Natyren/WebShop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "CodeClash-ai/CodeClash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "princeton-nlp/WebShop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

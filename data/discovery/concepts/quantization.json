@@ -55,6 +55,114 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate-context",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IST-DASLab/marlin",
+      "status": "candidate-context",
+      "text": "FP16xINT4 LLM inference kernel that can achieve near-ideal ~4x speedups up to medium batchsizes of 16-32 tokens."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IST-DASLab/marlin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "<p align=center>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +189,60 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IST-DASLab/marlin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate",
+      "text": "<p align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +318,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IST-DASLab/marlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "localization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049700,
+      "status": "candidate",
+      "text": "localisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045612,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958369,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049735,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046170,
+      "status": "candidate",
+      "text": "locality"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "localisation"
+    }
+  ],
+  "canonical_name": "localization",
+  "concept_id": "localization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "localization",
+      "sense_id": "localization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

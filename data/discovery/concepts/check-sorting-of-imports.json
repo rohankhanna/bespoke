@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check sorting of imports"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-python",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python",
+      "status": "candidate-context",
+      "text": "Check sorting of imports"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python",
+      "status": "candidate",
+      "text": "Check sorting of imports"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19659,
+      "status": "candidate",
+      "text": "folkmote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19659,
+      "status": "candidate",
+      "text": "stocktaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19574,
+      "status": "candidate",
+      "text": "protection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19142,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19142,
+      "status": "candidate",
+      "text": "checkout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check sorting of imports",
+  "concept_id": "check-sorting-of-imports",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "google/adk-python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check sorting of imports",
+      "sense_id": "check-sorting-of-imports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

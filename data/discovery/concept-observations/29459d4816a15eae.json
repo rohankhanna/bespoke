@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unit Tests Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unit Tests Reusable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15305,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15305,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "shuttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "space shuttle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit Tests Reusable",
+      "sense_id": "unit-tests-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-tests-reusable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-tests-reusable",
+  "observation_id": "29459d4816a15eae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Unit Tests Reusable",
+  "source_context_snippet": "Unit Tests Reusable",
+  "source_file": ".github/workflows/unit_tests_reusable.yml",
+  "source_repo": "ModelCloud/GPTQModel",
+  "source_repo_description": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+}

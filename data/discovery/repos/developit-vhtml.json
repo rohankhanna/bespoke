@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-object-rest-spread",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-react-jsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-stage-0",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gzip-size-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pretty-bytes-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-es3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "developit/vhtml",
+      "target": "developit/preact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-plugin-transform-object-rest-spread",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-plugin-transform-react-jsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-preset-stage-0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "babel-register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "gzip-size-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "pretty-bytes-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "rollup-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "rollup-plugin-es3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/vhtml",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/vhtml",
+      "target": "html-string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/vhtml",
+      "target": "hyperscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/vhtml",
+      "target": "preact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/vhtml",
+      "target": "vdom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/vhtml",
+      "target": "virtual-dom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:45:10.892910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2552
+    },
+    {
+      "path": "package.json",
+      "size": 2161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Render JSX/Hyperscript to HTML strings, without VDOM \ud83c\udf08",
+    "fork": false,
+    "full_name": "developit/vhtml",
+    "html_url": "https://github.com/developit/vhtml",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-15T08:46:22Z",
+    "stargazers_count": 813,
+    "topics": [
+      "html-string",
+      "hyperscript",
+      "jsx",
+      "preact",
+      "vdom",
+      "virtual-dom"
+    ],
+    "updated_at": "2026-03-05T15:37:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "developit/preact",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-string"
+    },
+    {
+      "context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperscript"
+    },
+    {
+      "context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    },
+    {
+      "context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vdom"
+    },
+    {
+      "context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-dom"
+    }
+  ]
+}

@@ -31,6 +31,24 @@
       "source_repo": "mdn/browser-compat-data",
       "status": "candidate-context",
       "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "changesets/action",
+      "status": "candidate-context",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Release PR"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +61,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/browser-compat-data",
+      "status": "candidate",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "changesets/action",
+      "status": "candidate",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
       "status": "candidate",
       "text": "Release PR"
     }
@@ -106,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-pr.yml",
       "source_repo": "mdn/browser-compat-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "changesets/action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

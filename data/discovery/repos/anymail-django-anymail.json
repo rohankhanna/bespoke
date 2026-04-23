@@ -1,0 +1,504 @@
+{
+  "components": [
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@f75f66ce1886f00957d99748a42c724f4330bdcf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "fkirc/skip-duplicate-actions@f75f66ce1886f00957d99748a42c724f4330bdcf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "integration-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "anymail/django-anymail",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "amazon-ses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "brevo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "mailersend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "mailgun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "mailjet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "mailtrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "mandrill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "postal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "postmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "resend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "resend-email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "scaleway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "sendgrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "sendinblue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "sparkpost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "unisender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail",
+      "target": "unisender-go",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:38.102162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8321
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3931
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 6346
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3809
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more",
+    "fork": false,
+    "full_name": "anymail/django-anymail",
+    "html_url": "https://github.com/anymail/django-anymail",
+    "language": "Python",
+    "pushed_at": "2026-04-18T20:43:10Z",
+    "stargazers_count": 1870,
+    "topics": [
+      "amazon-ses",
+      "brevo",
+      "django",
+      "email",
+      "mailersend",
+      "mailgun",
+      "mailjet",
+      "mailtrap",
+      "mandrill",
+      "postal",
+      "postmark",
+      "resend",
+      "resend-email",
+      "scaleway",
+      "sendgrid",
+      "sendinblue",
+      "sparkpost",
+      "unisender",
+      "unisender-go"
+    ],
+    "updated_at": "2026-04-19T06:31:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "integration-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "integration-test"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-ses"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brevo"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailersend"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailgun"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailjet"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailtrap"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mandrill"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postal"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postmark"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resend"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resend-email"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaleway"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sendgrid"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sendinblue"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparkpost"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unisender"
+    },
+    {
+      "context_snippet": "Anymail: Django email integration for transactional ESPs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unisender-go"
+    }
+  ]
+}

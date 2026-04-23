@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Code Coverage Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate-context",
+      "text": "Code Coverage Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate",
+      "text": "Code Coverage Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22738,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22619,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "casing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "contextualization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Coverage Workflow",
+  "concept_id": "code-coverage-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Coverage Workflow",
+      "sense_id": "code-coverage-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check ASCII"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "A better compressed bitset in Java: used by Apache Spark, Netflix Atlas, Apache Pinot, Tablesaw, and many others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "Check ASCII"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate",
+      "text": "Check ASCII"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17184,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17184,
+      "status": "candidate",
+      "text": "tabbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "ascii character set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "ascii control character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "control character"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check ASCII",
+  "concept_id": "check-ascii",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/checkascii.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check ASCII",
+      "sense_id": "check-ascii#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

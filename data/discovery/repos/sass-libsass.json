@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "egor-tensin/setup-mingw@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v1.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "egor-tensin/setup-mingw@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "KyleMayes/install-llvm-action@v1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass",
+      "target": "GitHub CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:43:47.359173+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 8866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A C/C++ implementation of a Sass compiler",
+    "fork": false,
+    "full_name": "sass/libsass",
+    "html_url": "https://github.com/sass/libsass",
+    "language": "C++",
+    "pushed_at": "2025-10-24T22:58:42Z",
+    "stargazers_count": 4331,
+    "topics": [],
+    "updated_at": "2026-04-20T23:35:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "GitHub CI"
+    }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "components": [
+    {
+      "component": "karma-sauce-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-filesize",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@8e46fac3b7212793291822f5cc99feeaec6f7e9e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml"
+    },
+    {
+      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "aspnet/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "dotnet/efcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "dotnet/razor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "dotnet/dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "karma-sauce-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "rollup-plugin-filesize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@8e46fac3b7212793291822f5cc99feeaec6f7e9e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "Update Browser-Testing Dependencies (Selenium & Playwright)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "Community PR Issue Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore",
+      "target": "Update CsWin32 Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore",
+      "target": "help-wanted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:56:55.954999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6797
+    },
+    {
+      "path": "package.json",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/ReportDiff.ps1",
+      "size": 1693
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "size": 71564
+    },
+    {
+      "path": ".github/workflows/browsertesting-deps-update.md",
+      "size": 3351
+    },
+    {
+      "path": ".github/workflows/community-pr-issue-check.lock.yml",
+      "size": 64395
+    },
+    {
+      "path": ".github/workflows/community-pr-issue-check.md",
+      "size": 2692
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1306
+    },
+    {
+      "path": ".github/workflows/cswin32-update.lock.yml",
+      "size": 70726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+    "fork": false,
+    "full_name": "dotnet/aspnetcore",
+    "html_url": "https://github.com/dotnet/aspnetcore",
+    "language": "C#",
+    "pushed_at": "2026-04-23T18:48:45Z",
+    "stargazers_count": 37858,
+    "topics": [
+      "aspnetcore",
+      "dotnet",
+      "hacktoberfest",
+      "help-wanted"
+    ],
+    "updated_at": "2026-04-23T18:40:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/efcore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/razor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "term": "Update Browser-Testing Dependencies (Selenium & Playwright)"
+    },
+    {
+      "context_snippet": "\"Community PR Issue Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "term": "Community PR Issue Check"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "\"Update CsWin32 Package\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "term": "Update CsWin32 Package"
+    },
+    {
+      "context_snippet": "ASP.NET Core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "ASP.NET Core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "ASP.NET Core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "ASP.NET Core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "help-wanted"
+    }
+  ]
+}

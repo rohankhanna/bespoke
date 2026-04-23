@@ -19,12 +19,30 @@
       "source_repo": "huggingface/peft",
       "status": "candidate-context",
       "text": "Self-hosted runner with slow tests (scheduled)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "Self-hosted runner with slow tests (scheduled)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/peft",
+      "status": "candidate",
+      "text": "Self-hosted runner with slow tests (scheduled)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
       "status": "candidate",
       "text": "Self-hosted runner with slow tests (scheduled)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "huggingface/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "PanQiWei/peft"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

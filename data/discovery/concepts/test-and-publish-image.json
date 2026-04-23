@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and publish image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emk/rust-musl-builder",
+      "status": "candidate-context",
+      "text": "Docker images for compiling static Rust binaries using musl-libc and musl-gcc, with static versions of useful C libraries. Supports openssl and diesel crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emk/rust-musl-builder",
+      "status": "candidate-context",
+      "text": "Test and publish image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emk/rust-musl-builder",
+      "status": "candidate",
+      "text": "Test and publish image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34176,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26055,
+      "status": "candidate",
+      "text": "inkblot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26033,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19548,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18472,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and publish image",
+  "concept_id": "test-and-publish-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and publish image",
+      "sense_id": "test-and-publish-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

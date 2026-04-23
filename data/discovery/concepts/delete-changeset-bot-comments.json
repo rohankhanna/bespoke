@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "Declarative routing for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate",
+      "text": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26137,
+      "status": "candidate",
+      "text": "bitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16967,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16953,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16939,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16939,
+      "status": "candidate",
+      "text": "eye"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments",
+  "concept_id": "delete-changeset-bot-comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/delete-changeset-bot-comments.yml",
+      "source_repo": "remix-run/react-router"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\uddd1\ufe0f Delete Changeset Bot Comments",
+      "sense_id": "delete-changeset-bot-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

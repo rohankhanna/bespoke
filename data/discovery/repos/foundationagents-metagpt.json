@@ -1,0 +1,311 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "geekan/metagpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "volcengine/volcengine-python-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "Full Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "Pre-commit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "metagpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationAgents/MetaGPT",
+      "target": "multi-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:53.589595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8144
+    },
+    {
+      "path": "Dockerfile",
+      "size": 982
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2194
+    },
+    {
+      "path": ".github/workflows/build-package.yaml",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/fulltest.yaml",
+      "size": 3072
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 791
+    },
+    {
+      "path": ".github/workflows/unittest.yaml",
+      "size": 1702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+    "fork": false,
+    "full_name": "FoundationAgents/MetaGPT",
+    "html_url": "https://github.com/FoundationAgents/MetaGPT",
+    "language": "Python",
+    "pushed_at": "2026-01-21T10:12:33Z",
+    "stargazers_count": 67369,
+    "topics": [
+      "agent",
+      "gpt",
+      "llm",
+      "metagpt",
+      "multi-agent"
+    ],
+    "updated_at": "2026-04-23T19:24:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekan/metagpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/volcengine-python-sdk",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Full Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "term": "Full Tests"
+    },
+    {
+      "context_snippet": "Pre-commit checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "Pre-commit checks"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metagpt"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NeMo E2E Speech Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "NeMo E2E Speech Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate",
+      "text": "NeMo E2E Speech Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22430,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22430,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22430,
+      "status": "candidate",
+      "text": "talk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22408,
+      "status": "candidate",
+      "text": "ella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22408,
+      "status": "candidate",
+      "text": "kill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NeMo E2E Speech Tests",
+  "concept_id": "nemo-e2e-speech-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NeMo E2E Speech Tests",
+      "sense_id": "nemo-e2e-speech-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

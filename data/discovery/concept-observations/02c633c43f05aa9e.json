@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A repository of models, textual inversions, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15182,
+      "status": "candidate",
+      "text": "deploying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14302,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14302,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14302,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14302,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Deploy",
+      "sense_id": "release-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-deploy",
+  "observation_id": "02c633c43f05aa9e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release Deploy",
+  "source_context_snippet": "Release Deploy",
+  "source_file": ".github/workflows/deploy-release.yml",
+  "source_repo": "civitai/civitai",
+  "source_repo_description": "A repository of models, textual inversions, and more"
+}

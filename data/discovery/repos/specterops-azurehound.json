@@ -1,0 +1,470 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@f2e9fc6c2b355c1890b65e6f6f0e2ac3e6e22f78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "atlassian/gajira-login@45fd029b9f1d6d8926c6f04175aa80c0e42c9026",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issue-transfer.yml"
+    },
+    {
+      "component": "atlassian/gajira-create@59e177c4f6451399df5b4911c2211104f171e669",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issue-transfer.yml"
+    },
+    {
+      "component": "atlassian/gajira-create@59e177c4f6451399df5b4911c2211104f171e669",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issue-transfer.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "digicert/ssm-code-signing@1d820463733701cf1484c7eb5d7d24a15ca2c454",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "bloodhoundad/azurehound",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "aws-actions/amazon-ecr-login@f2e9fc6c2b355c1890b65e6f6f0e2ac3e6e22f78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issue-transfer.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "atlassian/gajira-login@45fd029b9f1d6d8926c6f04175aa80c0e42c9026",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issue-transfer.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "atlassian/gajira-create@59e177c4f6451399df5b4911c2211104f171e669",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira-issue-transfer.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "Jira Issue Transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "digicert/ssm-code-signing@1d820463733701cf1484c7eb5d7d24a15ca2c454",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpecterOps/AzureHound",
+      "target": "azure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:22.296348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3615
+    },
+    {
+      "path": "Dockerfile",
+      "size": 434
+    },
+    {
+      "path": "go.mod",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6069
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2000
+    },
+    {
+      "path": ".github/workflows/jira-issue-transfer.yml",
+      "size": 2180
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 7581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Azure Data Exporter for BloodHound",
+    "fork": false,
+    "full_name": "SpecterOps/AzureHound",
+    "html_url": "https://github.com/SpecterOps/AzureHound",
+    "language": "Go",
+    "pushed_at": "2026-04-17T17:09:18Z",
+    "stargazers_count": 895,
+    "topics": [
+      "azure",
+      "go"
+    ],
+    "updated_at": "2026-04-23T07:51:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bloodhoundad/azurehound",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "Jira Issue Transfer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira-issue-transfer.yml",
+      "term": "Jira Issue Transfer"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "The BloodHound data collector for Microsoft Azure",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    }
+  ]
+}

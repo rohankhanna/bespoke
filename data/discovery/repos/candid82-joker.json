@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "candid82/joker",
+      "target": "candid82/flycheck-joker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "candid82/joker",
+      "target": "aclaimant/syntastic-joker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "candid82/joker",
+      "target": "candid82/cljf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "candid82/joker",
+      "target": "candid82/sublime-pretty-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "candid82/joker",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "candid82/joker",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "candid82/joker",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "candid82/joker",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:47.264414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25840
+    },
+    {
+      "path": "go.mod",
+      "size": 1503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small Clojure interpreter, linter and formatter.",
+    "fork": false,
+    "full_name": "candid82/joker",
+    "html_url": "https://github.com/candid82/joker",
+    "language": "Go",
+    "pushed_at": "2026-04-17T22:36:01Z",
+    "stargazers_count": 1732,
+    "topics": [
+      "clojure",
+      "golang",
+      "interpreter",
+      "linter"
+    ],
+    "updated_at": "2026-04-23T12:27:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aclaimant/syntastic-joker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "candid82/cljf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "candid82/flycheck-joker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "candid82/sublime-pretty-clojure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    }
+  ]
+}

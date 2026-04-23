@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/software-agent-sdk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/openhands-cli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/benchmarks",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/openhands-chrome-extension",
+      "target": "openhands/tom-swe",
       "target_type": "repository"
     },
     {
@@ -267,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "OpenHands/OpenHands"
 }

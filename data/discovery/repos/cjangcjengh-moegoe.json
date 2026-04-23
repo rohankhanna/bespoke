@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjangCjengh/MoeGoe",
+      "target": "cjangcjengh/moegoe_gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjangCjengh/MoeGoe",
+      "target": "cjangcjengh/ttsmodels",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:40.080776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1299
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Executable file for VITS inference",
+    "fork": false,
+    "full_name": "CjangCjengh/MoeGoe",
+    "html_url": "https://github.com/CjangCjengh/MoeGoe",
+    "language": "Python",
+    "pushed_at": "2023-08-22T07:17:37Z",
+    "stargazers_count": 2419,
+    "topics": [],
+    "updated_at": "2026-04-16T07:59:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjangcjengh/moegoe_gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjangcjengh/ttsmodels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

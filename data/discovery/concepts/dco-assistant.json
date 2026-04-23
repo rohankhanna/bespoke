@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/OpenShell",
       "status": "candidate-context",
       "text": "\"DCO Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "\"DCO Assistant\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate",
+      "text": "\"DCO Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
       "status": "candidate",
       "text": "\"DCO Assistant\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "NVIDIA/DeepLearningExamples"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

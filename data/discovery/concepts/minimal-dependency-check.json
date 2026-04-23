@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Minimal dependency check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "Minimal dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate",
+      "text": "Minimal dependency check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19978,
+      "status": "candidate",
+      "text": "wean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19703,
+      "status": "candidate",
+      "text": "stub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19703,
+      "status": "candidate",
+      "text": "stubbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19703,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19680,
+      "status": "candidate",
+      "text": "lexeme"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Minimal dependency check",
+  "concept_id": "minimal-dependency-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Minimal dependency check",
+      "sense_id": "minimal-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:34:02.128908+00:00",
+  "fetched_at": "2026-04-23T20:48:33.144264+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 50397
+      "size": 55139
     },
     {
       "path": "package.json",
@@ -84,14 +84,14 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-21T11:06:00Z",
-    "stargazers_count": 378,
+    "pushed_at": "2026-04-23T14:40:41Z",
+    "stargazers_count": 381,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-22T22:55:56Z"
+    "updated_at": "2026-04-23T19:21:46Z"
   },
   "repo_links": [
     {

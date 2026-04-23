@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:43:41.575836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 308
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "LoongServe/LoongServe",
+    "html_url": "https://github.com/LoongServe/LoongServe",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-11T11:15:20Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-04-02T06:23:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

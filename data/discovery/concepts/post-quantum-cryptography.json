@@ -31,6 +31,42 @@
       "source_repo": "pq-code-package/mlkem-native",
       "status": "candidate-context",
       "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "liboqs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,30 @@
       "source_repo": "pq-code-package/mlkem-native",
       "status": "candidate",
       "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate",
+      "text": "liboqs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate",
+      "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +124,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "pq-code-package/mlkem-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

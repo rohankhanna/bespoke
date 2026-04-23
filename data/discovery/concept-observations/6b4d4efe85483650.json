@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation for ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"quest import\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"quest import\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11547,
+      "status": "candidate",
+      "text": "sharp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11547,
+      "status": "candidate",
+      "text": "value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11525,
+      "status": "candidate",
+      "text": "secret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "mediation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "quest import",
+      "sense_id": "quest-import#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "quest-import",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quest-import",
+  "observation_id": "6b4d4efe85483650",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "quest import",
+  "source_context_snippet": "\"quest import\"",
+  "source_file": ".github/workflows/quest.yml",
+  "source_repo": "dotnet/AspNetCore.Docs",
+  "source_repo_description": "Documentation for ASP.NET Core"
+}

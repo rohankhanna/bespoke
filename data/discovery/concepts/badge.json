@@ -19,6 +19,66 @@
       "source_repo": "badges/shields",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "Fast badge service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf6d Badge generator with color gradient support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate-context",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "badges/shields",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-badge",
+      "status": "candidate",
+      "text": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +166,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "React Native Releases Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Respond on New Pick Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Respond on New Pick Request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46676,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45413,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43637,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43504,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35237,
+      "status": "candidate",
+      "text": "reorder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Respond on New Pick Request",
+      "sense_id": "respond-on-new-pick-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "respond-on-new-pick-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "respond-on-new-pick-request",
+  "observation_id": "8a976ad63acdfe2d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Respond on New Pick Request",
+  "source_context_snippet": "Respond on New Pick Request",
+  "source_file": ".github/workflows/respond-on-new-pick-request.yml",
+  "source_repo": "reactwg/react-native-releases",
+  "source_repo_description": "React Native Releases Working Group"
+}

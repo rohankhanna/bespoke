@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:49:33.914867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Steps to build the Linux kernel using Clang",
+    "fork": false,
+    "full_name": "ramosian-glider/clang-kernel-build",
+    "html_url": "https://github.com/ramosian-glider/clang-kernel-build",
+    "language": "Python",
+    "pushed_at": "2022-02-08T14:37:51Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-02-12T05:26:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

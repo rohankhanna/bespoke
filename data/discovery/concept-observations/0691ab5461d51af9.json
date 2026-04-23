@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect trailing whitespace"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect trailing whitespace"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22365,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18457,
+      "status": "candidate",
+      "text": "stops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14342,
+      "status": "candidate",
+      "text": "blanking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14342,
+      "status": "candidate",
+      "text": "counter check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14342,
+      "status": "candidate",
+      "text": "lacuna"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect trailing whitespace",
+      "sense_id": "detect-trailing-whitespace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-trailing-whitespace",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-trailing-whitespace",
+  "observation_id": "0691ab5461d51af9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Detect trailing whitespace",
+  "source_context_snippet": "Detect trailing whitespace",
+  "source_file": ".github/workflows/fix-trailing-whitespace.yml",
+  "source_repo": "simdjson/simdjson",
+  "source_repo_description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+}

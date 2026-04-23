@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "rojopolis/spellcheck-github-actions@0.33.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/hiredis",
+      "target": "antirez/resp3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/hiredis",
+      "target": "pietern/hiredis-rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "vmactions/freebsd-vm@v1.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "cygwin/cygwin-install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/hiredis",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/hiredis",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/hiredis",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/hiredis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/hiredis",
+      "target": "rojopolis/spellcheck-github-actions@0.33.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/hiredis",
+      "target": "spellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "redis/hiredis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "redis/hiredis",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:12.075619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36333
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4814
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 341
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimalistic C client for Redis >= 1.2",
+    "fork": false,
+    "full_name": "redis/hiredis",
+    "html_url": "https://github.com/redis/hiredis",
+    "language": "C",
+    "pushed_at": "2026-03-22T22:29:49Z",
+    "stargazers_count": 6651,
+    "topics": [],
+    "updated_at": "2026-04-23T09:17:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antirez/resp3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pietern/hiredis-rb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "spellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "spellcheck"
+    }
+  ]
+}

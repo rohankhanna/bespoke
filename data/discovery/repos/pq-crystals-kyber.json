@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "key-exchange-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "lattice-based-crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "module-lattices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "post-quantum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber",
+      "target": "post-quantum-cryptography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:35:58.142880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "pq-crystals/kyber",
+    "html_url": "https://github.com/pq-crystals/kyber",
+    "language": "C",
+    "pushed_at": "2025-02-16T09:16:56Z",
+    "stargazers_count": 1185,
+    "topics": [
+      "crypto",
+      "cryptography",
+      "key-exchange-algorithms",
+      "lattice-based-crypto",
+      "module-lattices",
+      "post-quantum",
+      "post-quantum-cryptography"
+    ],
+    "updated_at": "2026-04-21T02:43:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-exchange-algorithms"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lattice-based-crypto"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module-lattices"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum-cryptography"
+    }
+  ]
+}

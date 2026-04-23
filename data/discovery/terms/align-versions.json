@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    }
+  ],
+  "term": "align versions"
+}

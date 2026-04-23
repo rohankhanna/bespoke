@@ -1,0 +1,17 @@
+{
+  "component": "diem/actions/changes@faadd16607b77dfa2231a8f366883e01717b3225",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem"
+    }
+  ]
+}

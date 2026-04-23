@@ -57,7 +57,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:46:40.731888+00:00",
+  "fetched_at": "2026-04-23T20:05:31.661397+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -77,7 +77,7 @@
     "full_name": "aurutils/aurutils",
     "html_url": "https://github.com/aurutils/aurutils",
     "language": "Shell",
-    "pushed_at": "2026-04-22T12:20:45Z",
+    "pushed_at": "2026-04-23T13:21:14Z",
     "stargazers_count": 1039,
     "topics": [
       "archlinux",
@@ -88,7 +88,7 @@
       "pacman",
       "repository-utilities"
     ],
-    "updated_at": "2026-04-22T23:26:53Z"
+    "updated_at": "2026-04-23T13:22:17Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/csharplang",
+      "target": "dotnet/csharpstandard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/csharplang",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/csharplang",
+      "target": "language-design",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:10.069531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for the design of the C# programming language",
+    "fork": false,
+    "full_name": "dotnet/csharplang",
+    "html_url": "https://github.com/dotnet/csharplang",
+    "language": "C#",
+    "pushed_at": "2026-04-23T06:43:24Z",
+    "stargazers_count": 12577,
+    "topics": [
+      "csharp",
+      "language-design"
+    ],
+    "updated_at": "2026-04-23T06:43:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/csharpstandard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-design"
+    }
+  ]
+}

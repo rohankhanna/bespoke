@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "convert-videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "gif-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "gifski",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "macos-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "swiftui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:41.506764+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+    "fork": false,
+    "full_name": "sindresorhus/Gifski",
+    "html_url": "https://github.com/sindresorhus/Gifski",
+    "language": "Swift",
+    "pushed_at": "2026-01-07T16:59:26Z",
+    "stargazers_count": 8365,
+    "topics": [
+      "app",
+      "convert-videos",
+      "converter",
+      "gif",
+      "gif-animation",
+      "gifski",
+      "macos",
+      "macos-app",
+      "swift",
+      "swiftui",
+      "video"
+    ],
+    "updated_at": "2026-04-23T11:51:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convert-videos"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gif-animation"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gifski"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-app"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftui"
+    },
+    {
+      "context_snippet": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

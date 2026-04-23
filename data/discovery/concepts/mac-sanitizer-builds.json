@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mac Sanitizer Builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "Mac Sanitizer Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate",
+      "text": "Mac Sanitizer Builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19288,
+      "status": "candidate",
+      "text": "germ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11210,
+      "status": "candidate",
+      "text": "ozone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9599,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "bud"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mac Sanitizer Builds",
+  "concept_id": "mac-sanitizer-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "source_repo": "catchorg/Catch2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac Sanitizer Builds",
+      "sense_id": "mac-sanitizer-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

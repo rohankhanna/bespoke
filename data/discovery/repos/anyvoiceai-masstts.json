@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:32:46.553084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a TTS demo for training new characters.",
+    "fork": false,
+    "full_name": "anyvoiceai/MassTTS",
+    "html_url": "https://github.com/anyvoiceai/MassTTS",
+    "language": "Python",
+    "pushed_at": "2024-01-05T11:06:08Z",
+    "stargazers_count": 471,
+    "topics": [],
+    "updated_at": "2026-03-23T18:08:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

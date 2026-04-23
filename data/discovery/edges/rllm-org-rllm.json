@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rllm-org/rllm",
-      "target": "alibaba-nlp/deepresearch",
+      "target": "pettingllms-ai/pettingllms",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rllm-org/rllm",
-      "target": "danau5tin/terminal-bench-rl",
+      "target": "osilly/vision-deepresearch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "rllm-org/rllm",
-      "target": "camel-ai/seta",
+      "target": "volcengine/verl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "rllm-org/rllm",
-      "target": "llm-in-sandbox/llm-in-sandbox",
+      "target": "thinking-machines-lab/tinker-cookbook",
       "target_type": "repository"
     },
     {
@@ -253,6 +253,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "rllm-org/rllm"
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Tests Full"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/evalscope",
+      "status": "candidate-context",
+      "text": "A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/evalscope",
+      "status": "candidate-context",
+      "text": "CI Tests Full"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/evalscope",
+      "status": "candidate",
+      "text": "CI Tests Full"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23353,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22482,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22482,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22482,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19153,
+      "status": "candidate",
+      "text": "curve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Tests Full",
+  "concept_id": "ci-tests-full",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci_test_full.yaml",
+      "source_repo": "modelscope/evalscope"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Tests Full",
+      "sense_id": "ci-tests-full#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

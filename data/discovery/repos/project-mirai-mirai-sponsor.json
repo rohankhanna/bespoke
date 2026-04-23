@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "actions/setup-java@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "target": "update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:07.145437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mirai\u9879\u76ee\u7684\u8d5e\u52a9\u900f\u660e\u5316\uff0c\u91d1\u989d\u6d41\u5411\u516c\u793a",
+    "fork": false,
+    "full_name": "project-mirai/mirai-sponsor",
+    "html_url": "https://github.com/project-mirai/mirai-sponsor",
+    "language": "Kotlin",
+    "pushed_at": "2023-08-11T03:07:19Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2024-11-04T08:46:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "update"
+    }
+  ]
+}

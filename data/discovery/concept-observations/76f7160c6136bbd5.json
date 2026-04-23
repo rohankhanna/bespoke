@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Yq Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Yq Action"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "trial balloon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18639,
+      "status": "candidate",
+      "text": "ping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Yq Action",
+      "sense_id": "test-yq-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-yq-action",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-yq-action",
+  "observation_id": "76f7160c6136bbd5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Test Yq Action",
+  "source_context_snippet": "Test Yq Action",
+  "source_file": ".github/workflows/test-yq.yml",
+  "source_repo": "mikefarah/yq",
+  "source_repo_description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+}

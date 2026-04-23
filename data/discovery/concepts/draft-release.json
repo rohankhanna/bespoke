@@ -56,6 +56,30 @@
       "source_repo": "Commit-Boost/commit-boost-client",
       "status": "candidate-context",
       "text": "Draft Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Draft Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +104,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate",
+      "text": "Draft Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "Draft Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
       "status": "candidate",
       "text": "Draft Release"
     }
@@ -149,11 +185,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Commit-Boost/commit-boost-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "apache/cordova-ios"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

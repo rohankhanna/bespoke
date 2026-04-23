@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Posttest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Posttest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991401,
+      "status": "candidate",
+      "text": "pretest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006679,
+      "status": "candidate",
+      "text": "postperformance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006678,
+      "status": "candidate",
+      "text": "postobservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006677,
+      "status": "candidate",
+      "text": "posttesting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006676,
+      "status": "candidate",
+      "text": "postmeasurement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Posttest",
+      "sense_id": "posttest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "posttest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "posttest",
+  "observation_id": "7d16a3d6f53ff135",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Posttest",
+  "source_context_snippet": "Posttest",
+  "source_file": ".github/workflows/posttest.yml",
+  "source_repo": "graphile/crystal",
+  "source_repo_description": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+}

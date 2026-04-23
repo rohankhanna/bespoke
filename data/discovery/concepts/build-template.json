@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build Template",
-    "Build template"
+    "Build template",
+    "build-template"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "callstack/react-native-builder-bob",
       "status": "candidate-context",
       "text": "Build template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate-context",
+      "text": "Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate-context",
+      "text": "build-template"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "callstack/react-native-builder-bob",
       "status": "candidate",
       "text": "Build template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate",
+      "text": "build-template"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +126,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build-templates.yml",
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

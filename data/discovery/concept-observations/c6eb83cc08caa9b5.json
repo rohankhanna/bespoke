@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042040,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041964,
+      "status": "candidate",
+      "text": "clangour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041811,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041641,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041636,
+      "status": "candidate",
+      "text": "jangle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clang",
+      "sense_id": "clang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14071,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "jangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10033,
+      "status": "candidate",
+      "text": "clank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9021,
+      "status": "candidate",
+      "text": "clangour"
+    }
+  ],
+  "concept_id": "clang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang",
+  "observation_id": "c6eb83cc08caa9b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "clang",
+  "source_context_snippet": "[![][license img]][license] [![][licensemit img]][licensemit]",
+  "source_file": null,
+  "source_repo": "simdjson/simdjson",
+  "source_repo_description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+}

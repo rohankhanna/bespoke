@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "joelanford/go-apidiff@60c4206be8f84348ebda2a3e0c3ac9cb54b8f685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@9606dbc5ac5cf888a0e9ef901515c3cd516a2790",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-plugin.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-webhook-path.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-webhook-path.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "kubernetes-sigs/controller-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "operator-framework/operator-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "joelanford/go-apidiff@60c4206be8f84348ebda2a3e0c3ac9cb54b8f685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "APIDiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "shogo82148/actions-goveralls@9606dbc5ac5cf888a0e9ef901515c3cd516a2790",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-tests.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-tests.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-tests.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "Cross-Platform Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-plugin.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-plugin.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-plugin.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "External Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "Legacy Webhook Path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "Lint GitHub Actions Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "Lint Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:26.184765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9972
+    },
+    {
+      "path": "go.mod",
+      "size": 1885
+    },
+    {
+      "path": ".github/workflows/apidiff.yml",
+      "size": 985
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1907
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/cross-platform-tests.yml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/external-plugin.yml",
+      "size": 1008
+    },
+    {
+      "path": ".github/workflows/legacy-webhook-path.yml",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/lint-gha-workflows.yml",
+      "size": 1527
+    },
+    {
+      "path": ".github/workflows/lint-sample.yml",
+      "size": 1767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubebuilder - SDK for building Kubernetes APIs using CRDs",
+    "fork": false,
+    "full_name": "kubernetes-sigs/kubebuilder",
+    "html_url": "https://github.com/kubernetes-sigs/kubebuilder",
+    "language": "Go",
+    "pushed_at": "2026-04-22T23:52:49Z",
+    "stargazers_count": 9107,
+    "topics": [
+      "k8s-sig-api-machinery"
+    ],
+    "updated_at": "2026-04-23T15:17:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/controller-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "operator-framework/operator-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "APIDiff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yml",
+      "term": "APIDiff"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Cross-Platform Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-tests.yml",
+      "term": "Cross-Platform Tests"
+    },
+    {
+      "context_snippet": "External Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-plugin.yml",
+      "term": "External Plugin"
+    },
+    {
+      "context_snippet": "Legacy Webhook Path",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "term": "Legacy Webhook Path"
+    },
+    {
+      "context_snippet": "Lint GitHub Actions Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "term": "Lint GitHub Actions Workflows"
+    },
+    {
+      "context_snippet": "Lint Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "term": "Lint Samples"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "overshiki/kmeans_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "ebetica/jekyllbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "jekylbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "kmeans-clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "subhadarship/kmeans_pytorch"
+}

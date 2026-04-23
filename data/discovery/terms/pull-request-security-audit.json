@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "tokio-rs/tokio"
+    }
+  ],
+  "term": "Pull Request Security Audit"
+}

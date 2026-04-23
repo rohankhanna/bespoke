@@ -19,6 +19,18 @@
       "source_repo": "IDEA-Research/Grounded-Segment-Anything",
       "status": "candidate-context",
       "text": "![](./assets/Grounded-SAM_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IDEA-Research/Grounded-Segment-Anything",
       "status": "candidate",
       "text": "![](./assets/Grounded-SAM_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/Grounded-Segment-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

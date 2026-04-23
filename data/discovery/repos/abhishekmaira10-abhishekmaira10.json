@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "abhishekmaira10/covid-19-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "abhishekmaira10/deldrone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "github-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "readme-md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:35.764134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My GitHub profile-README",
+    "fork": false,
+    "full_name": "AbhishekMaira10/AbhishekMaira10",
+    "html_url": "https://github.com/AbhishekMaira10/AbhishekMaira10",
+    "language": null,
+    "pushed_at": "2021-10-13T06:28:08Z",
+    "stargazers_count": 107,
+    "topics": [
+      "github-io",
+      "hacktoberfest",
+      "hacktoberfest2020",
+      "profile-readme",
+      "readme",
+      "readme-md"
+    ],
+    "updated_at": "2026-04-15T15:15:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhishekmaira10/covid-19-tracker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhishekmaira10/deldrone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-io"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-md"
+    }
+  ]
+}

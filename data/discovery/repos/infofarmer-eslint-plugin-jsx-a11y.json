@@ -233,20 +233,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "infofarmer/eslint-plugin-jsx-a11y",
-      "target": "dequelabs/axe-core-npm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "infofarmer/eslint-plugin-jsx-a11y",
-      "target": "w3c/aria",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "infofarmer/eslint-plugin-jsx-a11y",
@@ -569,7 +555,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T08:42:51.745830+00:00",
+  "fetched_at": "2026-04-23T21:04:29.760187+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -594,17 +580,6 @@
     "topics": [],
     "updated_at": "2026-03-10T07:53:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dequelabs/axe-core-npm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "w3c/aria",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

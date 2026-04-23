@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Azure Workload Identity E2E"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure Workload Identity E2E"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "Azure Workload Identity E2E"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19158,
+      "status": "candidate",
+      "text": "linesman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19158,
+      "status": "candidate",
+      "text": "supercharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18786,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18459,
+      "status": "candidate",
+      "text": "devil"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Azure Workload Identity E2E",
+  "concept_id": "azure-workload-identity-e2e",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure Workload Identity E2E",
+      "sense_id": "azure-workload-identity-e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

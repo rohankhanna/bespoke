@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Incremental computation through constrained memoization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966971,
+      "status": "candidate",
+      "text": "progressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037854,
+      "status": "candidate",
+      "text": "gradualist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037815,
+      "status": "candidate",
+      "text": "gradual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037781,
+      "status": "candidate",
+      "text": "stepwise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037635,
+      "status": "candidate",
+      "text": "increasing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "incremental",
+      "sense_id": "incremental#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "progressive"
+    }
+  ],
+  "concept_id": "incremental",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "incremental",
+  "observation_id": "21fa8b6803d47c47",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "incremental",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/comemo.svg)](https://crates.io/crates/comemo)",
+  "source_file": null,
+  "source_repo": "typst/comemo",
+  "source_repo_description": "Incremental computation through constrained memoization."
+}

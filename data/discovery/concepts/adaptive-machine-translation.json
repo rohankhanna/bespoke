@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "adaptive-machine-translation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate-context",
+      "text": "Adaptive Machine Translation with Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate-context",
+      "text": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate-context",
+      "text": "Fine-tuning Open-Source LLMs for Adaptive Machine Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate-context",
+      "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate",
+      "text": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate",
+      "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "adaptive-machine-translation",
+  "concept_id": "adaptive-machine-translation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adaptive-machine-translation",
+      "sense_id": "adaptive-machine-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Add CBMC formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/git-user-config@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/git-try-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "brew pr-pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "brew test-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:36:03.765448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1727
+    },
+    {
+      "path": ".github/workflows/add-formula.yml",
+      "size": 3400
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1087
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "brew tap for CBMC",
+    "fork": false,
+    "full_name": "diffblue/homebrew-cbmc",
+    "html_url": "https://github.com/diffblue/homebrew-cbmc",
+    "language": "Ruby",
+    "pushed_at": "2026-04-15T10:25:41Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-15T10:25:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add CBMC formula",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-formula.yml",
+      "term": "Add CBMC formula"
+    },
+    {
+      "context_snippet": "brew pr-pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "brew pr-pull"
+    },
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "brew test-bot"
+    }
+  ]
+}

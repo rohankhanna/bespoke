@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Jupyter Interactive Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Lock Closed Threads'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Lock Closed Threads'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34541,
+      "status": "candidate",
+      "text": "locker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17895,
+      "status": "candidate",
+      "text": "clinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17895,
+      "status": "candidate",
+      "text": "tailpiece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17849,
+      "status": "candidate",
+      "text": "gate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Closed Threads",
+      "sense_id": "lock-closed-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lock-closed-threads",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lock-closed-threads",
+  "observation_id": "b8018f4b25813c30",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Lock Closed Threads",
+  "source_context_snippet": "'Lock Closed Threads'",
+  "source_file": ".github/workflows/lock.yml",
+  "source_repo": "jupyter/notebook",
+  "source_repo_description": "Jupyter Interactive Notebook"
+}

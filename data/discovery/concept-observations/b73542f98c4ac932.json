@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lower-latency OpenMP-style minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in Rust and C++, avoiding memory allocations, mutexes, CAS-primitives, and false-sharing on the hot path \ud83c\udf74"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "opencl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "common language infrastructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "cuda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "integrated performance primitives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "symmetric multiprocessing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openmp",
+      "sense_id": "openmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openmp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openmp",
+  "observation_id": "b73542f98c4ac932",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "openmp",
+  "source_context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+  "source_file": null,
+  "source_repo": "ashvardanian/ForkUnion",
+  "source_repo_description": "Lower-latency OpenMP-style minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in Rust and C++, avoiding memory allocations, mutexes, CAS-primitives, and false-sharing on the hot path \ud83c\udf74"
+}

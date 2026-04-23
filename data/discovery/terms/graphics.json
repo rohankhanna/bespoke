@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
     }
   ],
   "term": "graphics"

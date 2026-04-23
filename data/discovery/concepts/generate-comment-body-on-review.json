@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate comment body on review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "'Generate comment body on review'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "'Generate comment body on review'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44349,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35883,
+      "status": "candidate",
+      "text": "consultation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35883,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35128,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33915,
+      "status": "candidate",
+      "text": "feedback"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate comment body on review",
+  "concept_id": "generate-comment-body-on-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate comment body on review",
+      "sense_id": "generate-comment-body-on-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

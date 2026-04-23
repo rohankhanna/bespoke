@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:45:48.064384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-agent synthetic data generation pipeline capable of generating and validating long horizon terminal/coding tasks for RL training",
+    "fork": false,
+    "full_name": "Danau5tin/tbench-agentic-data-pipeline",
+    "html_url": "https://github.com/Danau5tin/tbench-agentic-data-pipeline",
+    "language": "Python",
+    "pushed_at": "2025-07-28T15:30:55Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-04-15T08:16:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

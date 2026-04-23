@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Message Passing Neural Networks for Molecule Property Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-networks",
+      "sense_id": "neural-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-networks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-networks",
+  "observation_id": "0d3b2c0187bd682d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "neural-networks",
+  "source_context_snippet": "<picture>",
+  "source_file": null,
+  "source_repo": "chemprop/chemprop",
+  "source_repo_description": "Message Passing Neural Networks for Molecule Property Prediction"
+}

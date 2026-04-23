@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cryptographic-algorithm-validations",
+      "sense_id": "cryptographic-algorithm-validations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cryptographic-algorithm-validations",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cryptographic-algorithm-validations",
+  "observation_id": "33f7f717de2402d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cryptographic-algorithm-validations",
+  "source_context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+  "source_file": null,
+  "source_repo": "usnistgov/ACVP-Server",
+  "source_repo_description": "A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol."
+}

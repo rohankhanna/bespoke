@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Renovate Bot Config Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "Google HTTP Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate-context",
+      "text": "Google APIs Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Google OAuth Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-java-client",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31499,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31499,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Renovate Bot Config Validation",
+  "concept_id": "renovate-bot-config-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-api-java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Renovate Bot Config Validation",
+      "sense_id": "renovate-bot-config-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

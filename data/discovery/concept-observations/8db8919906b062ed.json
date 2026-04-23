@@ -1,0 +1,72 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "raymond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "was"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "panet",
+      "sense_id": "panet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "panet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "panet",
+  "observation_id": "8db8919906b062ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "panet",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "open-mmlab/mmocr",
+  "source_repo_description": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+}

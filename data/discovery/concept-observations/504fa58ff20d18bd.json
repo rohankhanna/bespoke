@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Keras model of NSFW detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nsfw-data",
+      "sense_id": "nsfw-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nsfw-data",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nsfw-data",
+  "observation_id": "504fa58ff20d18bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nsfw-data",
+  "source_context_snippet": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)",
+  "source_file": null,
+  "source_repo": "GantMan/nsfw_model",
+  "source_repo_description": "Keras model of NSFW detector"
+}

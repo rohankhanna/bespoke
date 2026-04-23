@@ -115,6 +115,150 @@
       "source_repo": "DolbyUUU/Logic-RL-Lite",
       "status": "candidate-context",
       "text": "**Logic-RL-Lite** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for reas\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate-context",
+      "text": "verl-agent is an extension of veRL, designed for training LLM/VLM agents via RL. verl-agent is also the official code for paper \"Group-in-Group Policy Optimization for LLM Agent Training\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/EasyR1)](https://github.com/hiyouga/EasyR1/stargazers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "A learning environment for man-made Interactive Fiction games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate-context",
+      "text": "Sokoban environment for OpenAI Gym "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate-context",
+      "text": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate-context",
+      "text": "[ICLR 2026]\ud83d\ude80ReVisual-R1 is a 7B open-source multimodal language model that follows a three-stage curriculum\u2014cold-start pre-training, multimodal reinforcement learning, and text-only reinforcement learning\u2014to achieve faithful, concise, and self-reflective state-of-the-art performance in visual and textual reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "status": "candidate-context",
+      "text": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium.svg)](https://badge.fury.io/py/gymnasium)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate-context",
+      "text": "TF-Agents: A reliable, scalable and easy to use TensorFlow library for Contextual Bandits and Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate-context",
+      "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +315,78 @@
       "source_repo": "DolbyUUU/Logic-RL-Lite",
       "status": "candidate",
       "text": "**Logic-RL-Lite** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for reas\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/EasyR1)](https://github.com/hiyouga/EasyR1/stargazers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "status": "candidate",
+      "text": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium.svg)](https://badge.fury.io/py/gymnasium)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate",
+      "text": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/agents",
+      "status": "candidate",
+      "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +466,95 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "DolbyUUU/Logic-RL-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "langfengQ/verl-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/EasyR1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-thought/reasoning-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CJReinforce/PURE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/jericho"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mpSchrader/gym-sokoban"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/agents"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

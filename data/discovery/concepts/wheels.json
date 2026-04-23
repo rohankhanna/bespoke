@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +34,54 @@
       "source_repo": "absadiki/pywhispercpp",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Example pybind11 module built with a CMake-based build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/python_example",
+      "status": "candidate-context",
+      "text": "Example pybind11 module built with a Python-based build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/python_example",
+      "status": "candidate-context",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/scikit_build_example",
+      "status": "candidate-context",
+      "text": "An example combining scikit-build and pybind11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/scikit_build_example",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +94,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/python_example",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/scikit_build_example",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -113,11 +187,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/python_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

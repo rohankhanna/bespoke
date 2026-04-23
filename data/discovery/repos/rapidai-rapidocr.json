@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml"
+    },
+    {
+      "component": "Yikun/hub-mirror-action@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml"
+    },
+    {
+      "component": "Yikun/hub-mirror-action@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "breezedeus/cnocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "arkmowers/arknights-mower",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "arkohut/pensieve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "aigc-apps/pai-rag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Yikun/hub-mirror-action@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "SyncToGitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Push rapidocr to pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "Ilshidur/action-discord@0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_discord.yml",
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "discord message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "chineseocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "dbnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "easyocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "onnxocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "paddleocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "rapidocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidOCR",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:45.472751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10870
+    },
+    {
+      "path": ".github/workflows/SyncToGitee.yml",
+      "size": 1019
+    },
+    {
+      "path": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "size": 2167
+    },
+    {
+      "path": ".github/workflows/push_discord.yml",
+      "size": 1258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcc4 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePaddle, TensorRT and PyTorch.",
+    "fork": false,
+    "full_name": "RapidAI/RapidOCR",
+    "html_url": "https://github.com/RapidAI/RapidOCR",
+    "language": "Python",
+    "pushed_at": "2026-04-11T07:08:03Z",
+    "stargazers_count": 6414,
+    "topics": [
+      "chineseocr",
+      "crnn",
+      "dbnet",
+      "easyocr",
+      "mnn",
+      "ocr",
+      "onnxocr",
+      "onnxruntime",
+      "openvino",
+      "paddleocr",
+      "rapidocr",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-23T18:58:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc-apps/pai-rag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkmowers/arknights-mower",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkohut/pensieve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/cnocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SyncToGitee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "term": "SyncToGitee"
+    },
+    {
+      "context_snippet": "Push rapidocr to pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
+      "term": "Push rapidocr to pypi"
+    },
+    {
+      "context_snippet": "discord message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_discord.yml",
+      "term": "discord message"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chineseocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbnet"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easyocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddleocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rapidocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

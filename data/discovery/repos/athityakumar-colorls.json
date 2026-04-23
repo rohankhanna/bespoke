@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athityakumar/colorls",
+      "target": "sickill/rainbow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "athityakumar/colorls",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "athityakumar/colorls",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "athityakumar/colorls",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "athityakumar/colorls",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "athityakumar/colorls",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls",
+      "target": "eye-candy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:29.658162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10061
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 1214
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 1892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:",
+    "fork": false,
+    "full_name": "athityakumar/colorls",
+    "html_url": "https://github.com/athityakumar/colorls",
+    "language": "Ruby",
+    "pushed_at": "2026-03-20T06:59:36Z",
+    "stargazers_count": 5112,
+    "topics": [
+      "cli",
+      "color",
+      "eye-candy",
+      "gem",
+      "icons",
+      "ls",
+      "ruby",
+      "terminal"
+    ],
+    "updated_at": "2026-04-18T04:51:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sickill/rainbow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eye-candy"
+    },
+    {
+      "context_snippet": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

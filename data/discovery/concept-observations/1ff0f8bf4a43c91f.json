@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051253,
+      "status": "candidate",
+      "text": "halogen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051317,
+      "status": "candidate",
+      "text": "chalcohalide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051316,
+      "status": "candidate",
+      "text": "hydrohalide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051315,
+      "status": "candidate",
+      "text": "halogenide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051314,
+      "status": "candidate",
+      "text": "monohalide"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "halide",
+      "sense_id": "halide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "halide",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "halide",
+  "observation_id": "1ff0f8bf4a43c91f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "halide",
+  "source_context_snippet": "Halide is a programming language designed to make it easier to write",
+  "source_file": null,
+  "source_repo": "halide/Halide",
+  "source_repo_description": "a language for fast, portable data-parallel computation"
+}

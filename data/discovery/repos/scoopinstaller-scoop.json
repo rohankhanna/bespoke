@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "aria2/aria2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "calinou/scoop-games",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "matthewjberger/scoop-nerd-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "niheaven/scoop-sysinternals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "potatoqualitee/psmodulecache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "Scoop Core CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:43:28.183637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7756
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command-line installer for Windows.",
+    "fork": false,
+    "full_name": "ScoopInstaller/Scoop",
+    "html_url": "https://github.com/ScoopInstaller/Scoop",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-20T08:07:38Z",
+    "stargazers_count": 23987,
+    "topics": [
+      "installer",
+      "powershell",
+      "scoop",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T18:49:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aria2/aria2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calinou/scoop-games",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matthewjberger/scoop-nerd-fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niheaven/scoop-sysinternals",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Scoop Core CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Scoop Core CI Tests"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Scoop</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Scoop</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Scoop</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Scoop</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

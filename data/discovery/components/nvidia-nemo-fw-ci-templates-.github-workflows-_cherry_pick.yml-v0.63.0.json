@@ -1,7 +1,7 @@
 {
   "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cherry-pick-release-commit.yml",
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/RL"
     }
   ]
 }

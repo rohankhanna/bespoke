@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Static checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Static checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "dynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "electricity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "fluid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "force"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static checks",
+      "sense_id": "static-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-checks",
+  "observation_id": "b048843fd63217be",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Static checks",
+  "source_context_snippet": "Static checks",
+  "source_file": ".github/workflows/static-checks.yaml",
+  "source_repo": "mihaimaruseac/hindent",
+  "source_repo_description": "Haskell pretty printer"
+}

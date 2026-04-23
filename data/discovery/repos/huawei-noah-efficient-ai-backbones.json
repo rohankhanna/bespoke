@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "ghostnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:39.988265+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+    "fork": false,
+    "full_name": "huawei-noah/Efficient-AI-Backbones",
+    "html_url": "https://github.com/huawei-noah/Efficient-AI-Backbones",
+    "language": "Python",
+    "pushed_at": "2025-03-15T12:48:07Z",
+    "stargazers_count": 4412,
+    "topics": [
+      "convolutional-neural-networks",
+      "efficient-inference",
+      "ghostnet",
+      "imagenet",
+      "model-compression",
+      "pretrained-models",
+      "pytorch",
+      "tensorflow",
+      "transformer",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-23T15:21:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-inference"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostnet"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

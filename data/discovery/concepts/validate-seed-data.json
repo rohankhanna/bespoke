@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Seed Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "Validate Seed Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate",
+      "text": "Validate Seed Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24475,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24475,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24475,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24475,
+      "status": "candidate",
+      "text": "okay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24475,
+      "status": "candidate",
+      "text": "prove"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Seed Data",
+  "concept_id": "validate-seed-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Seed Data",
+      "sense_id": "validate-seed-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

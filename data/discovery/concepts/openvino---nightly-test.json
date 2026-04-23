@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "OpenVINO - Nightly Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "OpenVINO - Nightly Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "OpenVINO - Nightly Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "newscast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "sunset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "snore"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "OpenVINO - Nightly Test",
+  "concept_id": "openvino---nightly-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test_openvino_nightly.yml",
+      "source_repo": "huggingface/optimum-intel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OpenVINO - Nightly Test",
+      "sense_id": "openvino---nightly-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

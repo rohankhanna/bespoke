@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Browser Performance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Browser Performance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate",
+      "text": "Browser Performance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26208,
+      "status": "candidate",
+      "text": "shakedown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20168,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19612,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19612,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19589,
+      "status": "candidate",
+      "text": "blood"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Browser Performance Tests",
+  "concept_id": "browser-performance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Browser Performance Tests",
+      "sense_id": "browser-performance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

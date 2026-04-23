@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952572,
+      "status": "candidate",
+      "text": "text editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952571,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952570,
+      "status": "candidate",
+      "text": "script editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952569,
+      "status": "candidate",
+      "text": "wysiwyg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952568,
+      "status": "candidate",
+      "text": "input method editor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs",
+      "sense_id": "emacs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs",
+  "observation_id": "f512977b7dd2ce28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "emacs",
+  "source_context_snippet": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el).",
+  "source_file": null,
+  "source_repo": "vyorkin/ormolu.el",
+  "source_repo_description": "A formatter for Haskell source code"
+}

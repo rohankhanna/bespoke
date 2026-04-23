@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump version number"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Bump version number"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate",
+      "text": "Bump version number"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35157,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35146,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21773,
+      "status": "candidate",
+      "text": "bunion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21773,
+      "status": "candidate",
+      "text": "gall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21773,
+      "status": "candidate",
+      "text": "galled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump version number",
+  "concept_id": "bump-version-number",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump version number",
+      "sense_id": "bump-version-number#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Super-powered JavaScript project management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933243,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39760211,
+      "status": "candidate",
+      "text": "story"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39757078,
+      "status": "candidate",
+      "text": "tale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755754,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755470,
+      "status": "candidate",
+      "text": "narrative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yarn",
+      "sense_id": "yarn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30039,
+      "status": "candidate",
+      "text": "narrative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17071,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "tale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "story"
+    }
+  ],
+  "concept_id": "yarn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yarn",
+  "observation_id": "2626cfda30f13664",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "yarn",
+  "source_context_snippet": "> Super-powered JavaScript project management",
+  "source_file": null,
+  "source_repo": "boltpkg/bolt",
+  "source_repo_description": "\u26a1\ufe0f Super-powered JavaScript project management"
+}

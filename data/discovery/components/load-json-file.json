@@ -1,12 +1,17 @@
 {
   "component": "load-json-file",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator"
     }
   ]
 }

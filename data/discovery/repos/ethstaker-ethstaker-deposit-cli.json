@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@ee69d230fe19748b7abf22df32acaa93833fad08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "ethereum/staking-launchpad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "gnosischain/gbc-deposit-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "ci-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "ci-comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "peaceiris/actions-mdbook@ee69d230fe19748b7abf22df32acaa93833fad08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "target": "ci-runner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:06.906765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3050
+    },
+    {
+      "path": "Dockerfile",
+      "size": 342
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1783
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53036
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 18048
+    },
+    {
+      "path": ".github/workflows/comment.yml",
+      "size": 2872
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/runner.yml",
+      "size": 3972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Secure key generation for deposits",
+    "fork": true,
+    "full_name": "ethstaker/ethstaker-deposit-cli",
+    "html_url": "https://github.com/ethstaker/ethstaker-deposit-cli",
+    "language": "Python",
+    "pushed_at": "2026-04-20T14:02:03Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-20T13:54:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/staking-launchpad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnosischain/gbc-deposit-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "ci-build"
+    },
+    {
+      "context_snippet": "ci-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "term": "ci-comment"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "ci-runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner.yml",
+      "term": "ci-runner"
+    }
+  ]
+}

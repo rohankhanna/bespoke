@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Features"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "Features"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "Features"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046497,
+      "status": "candidate",
+      "text": "characteristic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028244,
+      "status": "candidate",
+      "text": "lineament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024192,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013154,
+      "status": "candidate",
+      "text": "feature film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005762,
+      "status": "candidate",
+      "text": "boast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Features",
+  "concept_id": "features",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tquic-features.yml",
+      "source_repo": "Tencent/tquic"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Features",
+      "sense_id": "features#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

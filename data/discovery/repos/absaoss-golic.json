@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inspect.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inspect.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inspect.yaml",
+      "source_repo": "AbsaOSS/golic",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inspect.yaml",
+      "source_repo": "AbsaOSS/golic",
+      "target": "golangci/golangci-lint-action@v2.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/golic",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/golic",
+      "target": "inject-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/golic",
+      "target": "license",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:40:58.690566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5065
+    },
+    {
+      "path": "go.mod",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/inspect.yaml",
+      "size": 1236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GoLic, injects license into source code files",
+    "fork": false,
+    "full_name": "AbsaOSS/golic",
+    "html_url": "https://github.com/AbsaOSS/golic",
+    "language": "Go",
+    "pushed_at": "2021-12-20T12:39:50Z",
+    "stargazers_count": 106,
+    "topics": [
+      "go",
+      "golang",
+      "inject-license",
+      "license"
+    ],
+    "updated_at": "2025-11-05T23:06:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A declarative tool injecting licenses into source code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "A declarative tool injecting licenses into source code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inject-license"
+    },
+    {
+      "context_snippet": "A declarative tool injecting licenses into source code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "license"
+    }
+  ]
+}

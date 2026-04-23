@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aseprite/get-ninja@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aseprite/observable",
+      "target": "dacap/observable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/observable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/observable",
+      "target": "aseprite/get-ninja@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/observable",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/observable",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:53:41.367678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2176
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Observer pattern and signals/slots for C++11 projects",
+    "fork": true,
+    "full_name": "aseprite/observable",
+    "html_url": "https://github.com/aseprite/observable",
+    "language": "C++",
+    "pushed_at": "2026-03-10T12:21:36Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-10T12:21:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dacap/observable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

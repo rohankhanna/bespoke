@@ -48,7 +48,7 @@
   "normalized_form": "test-pr",
   "observation_id": "aa6426d7b83966ee",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "test-pr",
   "source_context_snippet": "test-pr",
   "source_file": ".github/workflows/test-pr.yml",

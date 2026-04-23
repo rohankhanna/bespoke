@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "configurable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971334,
+      "status": "candidate",
+      "text": "customizable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970115,
+      "status": "candidate",
+      "text": "configure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968187,
+      "status": "candidate",
+      "text": "configuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953907,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934470,
+      "status": "candidate",
+      "text": "setup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "configurable",
+  "concept_id": "configurable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "configurable",
+      "sense_id": "configurable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

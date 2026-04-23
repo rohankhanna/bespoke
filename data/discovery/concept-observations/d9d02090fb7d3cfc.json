@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dark magic delights in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-extensions",
+      "sense_id": "language-extensions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-extensions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-extensions",
+  "observation_id": "d9d02090fb7d3cfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "language-extensions",
+  "source_context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+  "source_file": null,
+  "source_repo": "alexmojaki/sorcery",
+  "source_repo_description": "Dark magic delights in Python"
+}

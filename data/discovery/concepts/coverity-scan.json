@@ -56,6 +56,18 @@
       "source_repo": "uxlfoundation/oneDNN",
       "status": "candidate-context",
       "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
       "status": "candidate",
       "text": "Coverity Scan"
     }
@@ -149,11 +167,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

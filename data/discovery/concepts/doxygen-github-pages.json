@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Doxygen GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "Doxygen GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Doxygen GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Doxygen GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "Doxygen GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "Doxygen GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "Doxygen GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "duodecimo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "paragraphs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "sides"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "top"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Doxygen GitHub Pages",
+  "concept_id": "doxygen-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "simdjson/simdjson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doxygen GitHub Pages",
+      "sense_id": "doxygen-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

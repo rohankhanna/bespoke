@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/3d_parallelism_unit_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml"
+    },
+    {
+      "component": "djdefi/cloc-action@d4a7e15e4ff5219692f79ba71685af08955dcfc0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fa2_unit_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@853e1e8d249fd1e29d0fcc7280d29b03df3d643d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "huggingface/nanotron",
+      "target": "huggingface/datatrove",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/3d_parallelism_unit_tests.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/3d_parallelism_unit_tests.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "Run non-FA2-related unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "djdefi/cloc-action@d4a7e15e4ff5219692f79ba71685af08955dcfc0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fa2_unit_tests.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fa2_unit_tests.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "Run FA2-related unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-rules.yaml",
+      "source_repo": "huggingface/nanotron",
+      "target": "Check PR Source Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/nanotron",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/nanotron",
+      "target": "trufflesecurity/trufflehog@853e1e8d249fd1e29d0fcc7280d29b03df3d643d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/nanotron",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:32:04.262926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7378
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/3d_parallelism_unit_tests.yaml",
+      "size": 2130
+    },
+    {
+      "path": ".github/workflows/code_quality.yaml",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/fa2_unit_tests.yaml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/pr-rules.yaml",
+      "size": 334
+    },
+    {
+      "path": ".github/workflows/python-release.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimalistic large language model 3D-parallelism training",
+    "fork": false,
+    "full_name": "huggingface/nanotron",
+    "html_url": "https://github.com/huggingface/nanotron",
+    "language": "Python",
+    "pushed_at": "2026-04-07T13:25:10Z",
+    "stargazers_count": 2662,
+    "topics": [],
+    "updated_at": "2026-04-23T12:02:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/datatrove",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run non-FA2-related unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/3d_parallelism_unit_tests.yaml",
+      "term": "Run non-FA2-related unit tests"
+    },
+    {
+      "context_snippet": "Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "term": "Code Quality"
+    },
+    {
+      "context_snippet": "Run FA2-related unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fa2_unit_tests.yaml",
+      "term": "Run FA2-related unit tests"
+    },
+    {
+      "context_snippet": "Check PR Source Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-rules.yaml",
+      "term": "Check PR Source Branch"
+    },
+    {
+      "context_snippet": "Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Secret Leaks"
+    }
+  ]
+}

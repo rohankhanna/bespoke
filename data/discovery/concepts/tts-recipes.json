@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tts-recipes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes for different datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tts-recipes",
+  "concept_id": "tts-recipes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tts-recipes",
+      "sense_id": "tts-recipes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

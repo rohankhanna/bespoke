@@ -105,6 +105,30 @@
       "source_repo": "Atheos/Atheos",
       "status": "candidate-context",
       "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\u26a1 A Git hook manager written in Rust, designed as a drop-in alternative to pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\"Build Docker image\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "01-ai/Yi",
+      "status": "candidate-context",
+      "text": "A series of large language models trained from scratch by developers @01-ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01-ai/Yi",
+      "status": "candidate-context",
+      "text": "Build Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Atheos/Atheos",
+      "status": "candidate",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate",
+      "text": "\"Build Docker image\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01-ai/Yi",
       "status": "candidate",
       "text": "Build Docker Image"
     }
@@ -246,11 +282,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "Atheos/Atheos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_docker_image.yml",
+      "source_repo": "01-ai/Yi"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

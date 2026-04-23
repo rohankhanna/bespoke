@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "golangci/golangci-lint-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "golang ci lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "apache/incubator-seata-go-samples"
+}

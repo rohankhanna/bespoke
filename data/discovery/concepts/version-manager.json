@@ -127,6 +127,18 @@
       "source_repo": "alloy-rs/svm-rs",
       "status": "candidate-context",
       "text": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/svm-rs.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/svm-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Download, compile, and install Node on Unix-like systems."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "alloy-rs/svm-rs",
       "status": "candidate",
       "text": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/svm-rs.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/svm-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Download, compile, and install Node on Unix-like systems."
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "s3krit/matrix-message-action@70ad3fb812ee0e45ff8999d6af11cafad11a6ecf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "Publish release to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "s3krit/matrix-message-action@70ad3fb812ee0e45ff8999d6af11cafad11a6ecf",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:49.221260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8413
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7509
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 768
+    },
+    {
+      "path": ".github/workflows/release-bot.yml",
+      "size": 745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight, efficient, binary serialization and deserialization codec",
+    "fork": false,
+    "full_name": "paritytech/parity-scale-codec",
+    "html_url": "https://github.com/paritytech/parity-scale-codec",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T21:18:37Z",
+    "stargazers_count": 285,
+    "topics": [],
+    "updated_at": "2026-04-20T18:46:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish release to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish release to crates.io"
+    }
+  ]
+}

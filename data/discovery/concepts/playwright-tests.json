@@ -44,6 +44,18 @@
       "source_repo": "xyflow/xyflow",
       "status": "candidate-context",
       "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Run Helia NodeJS in a Docker Container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xyflow/xyflow",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
       "status": "candidate",
       "text": "Playwright Tests"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/playwright.yml",
       "source_repo": "xyflow/xyflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "ipfs/helia-http-gateway"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

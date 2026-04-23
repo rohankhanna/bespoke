@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Datacenter Scale Distributed Inference Serving Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Framework Matrix Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Framework Matrix Pipeline"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18427,
+      "status": "candidate",
+      "text": "stretcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18311,
+      "status": "candidate",
+      "text": "gate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18300,
+      "status": "candidate",
+      "text": "cartridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18300,
+      "status": "candidate",
+      "text": "chest"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Framework Matrix Pipeline",
+      "sense_id": "framework-matrix-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "framework-matrix-pipeline",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "framework-matrix-pipeline",
+  "observation_id": "0644f1b6841eac0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Framework Matrix Pipeline",
+  "source_context_snippet": "Framework Matrix Pipeline",
+  "source_file": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+  "source_repo": "ai-dynamo/dynamo",
+  "source_repo_description": "A Datacenter Scale Distributed Inference Serving Framework"
+}

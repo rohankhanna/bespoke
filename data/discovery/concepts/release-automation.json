@@ -43,6 +43,18 @@
       "source_repo": "axodotdev/cargo-dist",
       "status": "candidate-context",
       "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate-context",
+      "text": "Manage the release notes for your project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate-context",
+      "text": "Hear ye, hear ye, says the ``towncrier``"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "axodotdev/cargo-dist",
       "status": "candidate",
       "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate",
+      "text": "Hear ye, hear ye, says the ``towncrier``"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "twisted/towncrier"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

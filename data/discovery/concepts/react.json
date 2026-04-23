@@ -417,6 +417,138 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate-context",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate-context",
+      "text": "A frontend for an IPFS Kubo and IPFS Desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate-context",
+      "text": "> A web interface to [IPFS](https://ipfs.tech), shipped with [Kubo](https://github.com/ipfs/kubo), and [ipfs-desktop](https://github.com/ipfs/ipfs-desktop/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "The React Native website and docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "This repo contains the website configuration and documentation powering the [React Native website](https://reactnative.dev/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "An extremely fast bundler for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "Whitelabel wallet framework for the Tezos blockchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate-context",
+      "text": "Modern Dark-Themed Portfolio Template for Developers & Designers | Built with React | Dynamic JSON-based content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate-context",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_glosses": [
@@ -623,6 +755,72 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate",
+      "text": "> A web interface to [IPFS](https://ipfs.tech), shipped with [Kubo](https://github.com/ipfs/kubo), and [ipfs-desktop](https://github.com/ipfs/ipfs-desktop/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate",
+      "text": "This repo contains the website configuration and documentation powering the [React Native website](https://reactnative.dev/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate",
+      "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_related_terms": [
@@ -939,11 +1137,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react-native-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gitalk/gitalk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

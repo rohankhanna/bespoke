@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Google Fonts QA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Google Fonts QA"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12004,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12004,
+      "status": "candidate",
+      "text": "lowercase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12004,
+      "status": "candidate",
+      "text": "outputs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11425,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11305,
+      "status": "candidate",
+      "text": "feed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Google Fonts QA",
+      "sense_id": "google-fonts-qa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-fonts-qa",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-fonts-qa",
+  "observation_id": "f4ec9f3932955e31",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Google Fonts QA",
+  "source_context_snippet": "Google Fonts QA",
+  "source_file": ".github/workflows/test.yaml",
+  "source_repo": "google/fonts",
+  "source_repo_description": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+}

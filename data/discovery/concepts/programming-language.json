@@ -79,6 +79,66 @@
       "source_repo": "JuliaLang/julia",
       "status": "candidate-context",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs and docs related to the F# language design process, see https://github.com/fsharp/fslang-suggestions to submit ideas "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "The core software distribution for the Inform 7 programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "JuliaLang/julia",
       "status": "candidate",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +262,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JuliaLang/julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ganelson/inform"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

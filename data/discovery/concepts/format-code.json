@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Format code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Format code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate",
+      "text": "Format code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28166,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "encode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "protocol"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Format code",
+  "concept_id": "format-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatter_update.md",
+      "source_repo": "Azure/bicep"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Format code",
+      "sense_id": "format-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "size"
+    "size",
+    "Size"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "typescript-language-server/typescript-language-server",
       "status": "candidate-context",
       "text": "size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\"Size\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "typescript-language-server/typescript-language-server",
       "status": "candidate",
       "text": "size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate",
+      "text": "\"Size\""
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +117,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "terkelg/prompts"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

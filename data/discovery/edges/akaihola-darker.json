@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "akaihola/darker",
+      "target": "carreau/darken",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "akaihola/darker",
+      "target": "asottile/blacken-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "akaihola/darker",
+      "target": "carreau/velin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "akaihola/darker",
+      "target": "akaihola/graylint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/darker",
+      "target": "brunohaf/action-bandit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/darker",
+      "target": "Security check - Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/darker",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/darker",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/darker-black-isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "darker-black-isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/darker",
+      "target": "TrueBrain/actions-flake8@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/darker",
+      "target": "Flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/darker",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/darker",
+      "target": "help-in-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "wearerequired/lint-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "akaihola/lint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "akaihola/darker",
+      "target": "isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker",
+      "target": "wearerequired/lint-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akaihola/darker",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "akaihola/darker"
+}

@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/etcd",
-      "target": "youtube/doorman",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
       "target": "coreos/locksmith",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
-      "target": "vulcand/vulcand",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
-      "target": "mattn/goreman",
       "target_type": "repository"
     },
     {
@@ -211,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "etcd-io/etcd"
 }

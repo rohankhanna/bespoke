@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ispc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "A code generator for array-based code on CPUs and GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ispc",
+  "concept_id": "ispc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "inducer/loopy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ispc",
+      "sense_id": "ispc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

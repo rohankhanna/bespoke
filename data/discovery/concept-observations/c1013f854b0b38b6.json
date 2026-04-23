@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go Implementation For Seata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'issue translator'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'issue translator'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12895,
+      "status": "candidate",
+      "text": "translate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12525,
+      "status": "candidate",
+      "text": "caxton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12525,
+      "status": "candidate",
+      "text": "grammar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12525,
+      "status": "candidate",
+      "text": "idiom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12525,
+      "status": "candidate",
+      "text": "macpherson"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "issue translator",
+      "sense_id": "issue-translator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-translator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-translator",
+  "observation_id": "c1013f854b0b38b6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "issue translator",
+  "source_context_snippet": "'issue translator'",
+  "source_file": ".github/workflows/issue-robot.yml",
+  "source_repo": "apache/incubator-seata-go",
+  "source_repo_description": "Go Implementation For Seata"
+}

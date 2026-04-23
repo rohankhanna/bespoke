@@ -142,6 +142,42 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate-context",
       "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate-context",
+      "text": "esbuild-loader examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate-context",
+      "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
     }
   ],
   "candidate_glosses": [
@@ -210,6 +246,24 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate",
       "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate",
+      "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +379,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

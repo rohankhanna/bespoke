@@ -1,7 +1,7 @@
 {
   "component": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "microsoft/DefinitelyTyped-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir"
     }
   ]
 }

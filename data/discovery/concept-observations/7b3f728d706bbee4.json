@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lizard is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at fast decompression speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lizard - efficient compression with very fast decompression"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lizard - efficient compression with very fast decompression"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929459,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919079,
+      "status": "candidate",
+      "text": "clamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29875131,
+      "status": "candidate",
+      "text": "compression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865066,
+      "status": "candidate",
+      "text": "compressional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29864389,
+      "status": "candidate",
+      "text": "compressive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compressor",
+      "sense_id": "compressor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compressor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compressor",
+  "observation_id": "7b3f728d706bbee4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compressor",
+  "source_context_snippet": "Lizard - efficient compression with very fast decompression",
+  "source_file": null,
+  "source_repo": "inikep/lizard",
+  "source_repo_description": "Lizard is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at fast decompression speed"
+}

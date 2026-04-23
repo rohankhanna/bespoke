@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wiki"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wiki"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005333,
+      "status": "candidate",
+      "text": "wikipedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28436470,
+      "status": "candidate",
+      "text": "vicky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "ueki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "wikis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005374,
+      "status": "candidate",
+      "text": "mediawiki"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wiki",
+      "sense_id": "wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wiki",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wiki",
+  "observation_id": "df4ab6bd715fcb11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Wiki",
+  "source_context_snippet": "Wiki",
+  "source_file": ".github/workflows/wiki.yml",
+  "source_repo": "golang/vscode-go",
+  "source_repo_description": "Go extension for Visual Studio Code"
+}

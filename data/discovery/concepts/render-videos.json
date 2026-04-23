@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Render videos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "manim-kindergarten's communal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "Render videos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate",
+      "text": "Render videos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13821,
+      "status": "candidate",
+      "text": "youtube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13581,
+      "status": "candidate",
+      "text": "caption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13581,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13319,
+      "status": "candidate",
+      "text": "pirate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13078,
+      "status": "candidate",
+      "text": "cute"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Render videos",
+  "concept_id": "render-videos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Render videos",
+      "sense_id": "render-videos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

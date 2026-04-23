@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Framework Matrix Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate-context",
+      "text": "A Datacenter Scale Distributed Inference Serving Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate-context",
+      "text": "Framework Matrix Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/dynamo",
+      "status": "candidate",
+      "text": "Framework Matrix Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18427,
+      "status": "candidate",
+      "text": "stretcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18311,
+      "status": "candidate",
+      "text": "gate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18300,
+      "status": "candidate",
+      "text": "cartridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18300,
+      "status": "candidate",
+      "text": "chest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Framework Matrix Pipeline",
+  "concept_id": "framework-matrix-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+      "source_repo": "ai-dynamo/dynamo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Framework Matrix Pipeline",
+      "sense_id": "framework-matrix-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAI-examples",
+      "target": "go-skynet/go-ggml-transformers.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAI-examples",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAI-examples",
+      "target": "flowiseai/flowise",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:10:57.756399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LocalAI examples",
+    "fork": false,
+    "full_name": "mudler/LocalAI-examples",
+    "html_url": "https://github.com/mudler/LocalAI-examples",
+    "language": "Bru",
+    "pushed_at": "2025-10-11T15:08:10Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2026-04-11T08:36:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flowiseai/flowise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-skynet/go-ggml-transformers.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaccess-ai-collective/axolotl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

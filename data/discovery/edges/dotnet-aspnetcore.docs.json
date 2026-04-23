@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/aspnetdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "microsoftdocs/feedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Issue processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Issue processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-actions/actions/status-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Status checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-live.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-live.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Merge to Live",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/actions/sequester@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "bulk quest import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/actions/sequester@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "quest import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dotnet/AspNetCore.Docs"
+}

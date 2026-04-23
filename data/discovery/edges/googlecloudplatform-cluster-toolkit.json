@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/dependency-review-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-pr.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive-pr.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Inactive PR Processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-external.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-external.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Label External PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multi-approvers.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "abcxyz/pkg/.github/workflows/multi-approvers.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multi-approvers.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "multi-approvers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Check PR Description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-validation.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "mheap/github-action-required-labels@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-validation.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Ensure PR label exists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "terraform-linters/setup-tflint@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "target": "Use pre-commit to validate Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "GoogleCloudPlatform/cluster-toolkit"
+}

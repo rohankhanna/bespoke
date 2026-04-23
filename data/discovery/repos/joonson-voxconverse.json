@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:18:03.888258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spot the conversation: speaker diarisation in the wild",
+    "fork": false,
+    "full_name": "joonson/voxconverse",
+    "html_url": "https://github.com/joonson/voxconverse",
+    "language": null,
+    "pushed_at": "2022-07-26T18:48:44Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-04-16T17:36:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

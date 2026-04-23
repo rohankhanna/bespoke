@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IST-DASLab/gptq",
+      "target": "qwopqwop200/gptq-for-llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:58.134831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the ICLR 2023 paper \"GPTQ: Accurate Post-training Quantization of Generative Pretrained Transformers\".",
+    "fork": false,
+    "full_name": "IST-DASLab/gptq",
+    "html_url": "https://github.com/IST-DASLab/gptq",
+    "language": "Python",
+    "pushed_at": "2024-03-27T01:46:02Z",
+    "stargazers_count": 2293,
+    "topics": [],
+    "updated_at": "2026-04-22T09:55:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwopqwop200/gptq-for-llama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "microsoft/react-native-windows",
       "status": "candidate-context",
       "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/react-native-windows",
       "status": "candidate",
       "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "microsoft/react-native-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

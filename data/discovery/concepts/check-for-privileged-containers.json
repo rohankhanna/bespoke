@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check for Privileged Containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "Check for Privileged Containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate",
+      "text": "Check for Privileged Containers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19761,
+      "status": "candidate",
+      "text": "nox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19422,
+      "status": "candidate",
+      "text": "pennant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18865,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18865,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18865,
+      "status": "candidate",
+      "text": "monitor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check for Privileged Containers",
+  "concept_id": "check-for-privileged-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/privileged-check.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check for Privileged Containers",
+      "sense_id": "check-for-privileged-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

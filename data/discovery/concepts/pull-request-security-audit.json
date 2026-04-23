@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Security Audit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "Pull Request Security Audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate",
+      "text": "Pull Request Security Audit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27893,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27893,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27893,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27881,
+      "status": "candidate",
+      "text": "string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27816,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Security Audit",
+  "concept_id": "pull-request-security-audit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "tokio-rs/tokio"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Security Audit",
+      "sense_id": "pull-request-security-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

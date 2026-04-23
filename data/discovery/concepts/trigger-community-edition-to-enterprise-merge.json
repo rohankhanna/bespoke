@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger Community Edition to Enterprise Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Trigger Community Edition to Enterprise Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate",
+      "text": "Trigger Community Edition to Enterprise Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40066,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672,
+      "status": "candidate",
+      "text": "rallying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39603,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39525,
+      "status": "candidate",
+      "text": "enter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger Community Edition to Enterprise Merge",
+  "concept_id": "trigger-community-edition-to-enterprise-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ce-merge-trigger.yml",
+      "source_repo": "hashicorp/consul"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Community Edition to Enterprise Merge",
+      "sense_id": "trigger-community-edition-to-enterprise-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

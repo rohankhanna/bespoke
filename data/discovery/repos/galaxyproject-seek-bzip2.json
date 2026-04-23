@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:41:35.731276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "galaxyproject/seek-bzip2",
+    "html_url": "https://github.com/galaxyproject/seek-bzip2",
+    "language": "C",
+    "pushed_at": "2024-11-26T08:54:44Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2024-11-26T03:53:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

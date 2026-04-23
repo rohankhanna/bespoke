@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "slice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate",
+      "text": "defaults"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864880,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864840,
+      "status": "candidate",
+      "text": "slit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864837,
+      "status": "candidate",
+      "text": "gash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861856,
+      "status": "candidate",
+      "text": "slash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39784422,
+      "status": "candidate",
+      "text": "piece"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18041,
+      "status": "candidate",
+      "text": "gash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10056,
+      "status": "candidate",
+      "text": "fade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10044,
+      "status": "candidate",
+      "text": "slash"
+    }
+  ],
+  "canonical_name": "slice",
+  "concept_id": "slice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "creasty/defaults"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slice",
+      "sense_id": "slice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

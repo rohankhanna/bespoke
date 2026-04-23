@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GPU tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GPU tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "available"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "backup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPU tests",
+      "sense_id": "gpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gpu-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gpu-tests",
+  "observation_id": "1828004f29fa6d96",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "GPU tests",
+  "source_context_snippet": "GPU tests",
+  "source_file": ".github/workflows/gpu_tests.yml",
+  "source_repo": "NVIDIA/Model-Optimizer",
+  "source_repo_description": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+}

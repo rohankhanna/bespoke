@@ -19,6 +19,54 @@
       "source_repo": "google/highway",
       "status": "candidate-context",
       "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate-context",
+      "text": "Native Go version of HighwayHash with optimized assembly implementations on Intel and ARM. Able to process over 10 GB/sec on a single core on Intel CPUs - https://en.wikipedia.org/wiki/HighwayHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate-context",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "google/highway",
       "status": "candidate",
       "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "google/highway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "minio/highwayhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

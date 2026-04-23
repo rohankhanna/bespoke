@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:07:45.325729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The CLI & python API for the well-known project gpt-academic.",
+    "fork": false,
+    "full_name": "binary-husky/void-terminal",
+    "html_url": "https://github.com/binary-husky/void-terminal",
+    "language": "Python",
+    "pushed_at": "2024-09-22T13:06:56Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-11-19T11:36:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

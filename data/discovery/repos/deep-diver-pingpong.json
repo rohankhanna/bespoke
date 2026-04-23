@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:53.838037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "manage histories of LLM applied applications",
+    "fork": false,
+    "full_name": "deep-diver/PingPong",
+    "html_url": "https://github.com/deep-diver/PingPong",
+    "language": "Python",
+    "pushed_at": "2023-11-17T05:35:14Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2025-11-19T11:33:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

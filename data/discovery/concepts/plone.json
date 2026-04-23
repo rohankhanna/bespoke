@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "plone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "React-based frontend for the Plone Content Management System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "plone",
+  "concept_id": "plone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "plone/volto"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plone",
+      "sense_id": "plone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

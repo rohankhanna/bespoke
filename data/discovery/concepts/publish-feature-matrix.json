@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Feature Matrix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "Publish Feature Matrix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate",
+      "text": "Publish Feature Matrix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19658,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19658,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "print"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Feature Matrix",
+  "concept_id": "publish-feature-matrix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "source_repo": "google/adk-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Feature Matrix",
+      "sense_id": "publish-feature-matrix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

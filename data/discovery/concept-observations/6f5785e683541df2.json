@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Community PR Issue Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Community PR Issue Check\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32883,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32856,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30940,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30881,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30881,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Community PR Issue Check",
+      "sense_id": "community-pr-issue-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "community-pr-issue-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "community-pr-issue-check",
+  "observation_id": "6f5785e683541df2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Community PR Issue Check",
+  "source_context_snippet": "\"Community PR Issue Check\"",
+  "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+  "source_repo": "dotnet/aspnetcore",
+  "source_repo_description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+}

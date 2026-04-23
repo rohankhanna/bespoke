@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jupyter-kernels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "R kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jupyter-kernels",
+  "concept_id": "jupyter-kernels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IRkernel/IRkernel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jupyter-kernels",
+      "sense_id": "jupyter-kernels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Base Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Open language modeling toolkit based on PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Build Base Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate",
+      "text": "Build Base Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33457,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33457,
+      "status": "candidate",
+      "text": "pyramids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32888,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27912,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26821,
+      "status": "candidate",
+      "text": "pyramid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Base Docker Image",
+  "concept_id": "build-base-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_base.yml",
+      "source_repo": "eole-nlp/eole"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Base Docker Image",
+      "sense_id": "build-base-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

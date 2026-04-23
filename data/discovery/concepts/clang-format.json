@@ -1,0 +1,150 @@
+{
+  "aliases": [
+    "Clang-Format",
+    "clang-format",
+    "clang format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "Clang-Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "clang format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "Clang-Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "clang format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11219,
+      "status": "candidate",
+      "text": "clam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11219,
+      "status": "candidate",
+      "text": "clams"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11047,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11047,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10919,
+      "status": "candidate",
+      "text": "kamikaze"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clang-Format",
+  "concept_id": "clang-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clangformat.yml",
+      "source_repo": "simdutf/simdutf"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clang-Format",
+      "sense_id": "clang-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

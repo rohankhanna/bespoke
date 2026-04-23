@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/stardoc",
+      "target": "bazelbuild/bazel-central-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/stardoc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/stardoc",
+      "target": "bazel-contrib/setup-bazel@0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/stardoc",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/stardoc",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:06.626514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2012
+    },
+    {
+      "path": ".github/workflows/create_archive_and_notes.sh",
+      "size": 3127
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stardoc: Starlark Documentation Generator",
+    "fork": false,
+    "full_name": "bazelbuild/stardoc",
+    "html_url": "https://github.com/bazelbuild/stardoc",
+    "language": "Java",
+    "pushed_at": "2026-01-28T21:05:44Z",
+    "stargazers_count": 117,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-central-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

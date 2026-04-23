@@ -406,6 +406,228 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate-context",
+      "text": "Retrieval and Retrieval-augmented LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Self-describing sparse tensor data format for atomistic machine learning and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Bindings to wgpu-native for the Crystal programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate-context",
+      "text": "MLX: An array framework for Apple silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate-context",
+      "text": "Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Helpers for generating Starlark documentation using Stardoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate-context",
+      "text": "Low-Level Graph Neural Network Operators for PyG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "Ultralytics Docs https://docs.ultralytics.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate-context",
+      "text": "Documentation generator for Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/deno_doc.svg)](https://crates.io/crates/deno_doc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "Master the command line, in one page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "An advanced literate programming tool for writing incremental programming courses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "Sphinx Literate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "sphinx builder that outputs jekyll compatible markdown files with frontmatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "React-based frontend for the Plone Content Management System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 (and Swagger v2) implementation for Go (parsing, converting, validation, and more)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
     }
   ],
   "candidate_glosses": [
@@ -612,6 +834,120 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pyg-lib",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/deno_doc.svg)](https://crates.io/crates/deno_doc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate",
+      "text": "Sphinx Literate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -912,11 +1248,137 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "denoland/deno_doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/sphinx_literate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plone/volto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getkin/kin-openapi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

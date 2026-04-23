@@ -1,0 +1,12 @@
+{
+  "component": "docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts.yml",
+      "source_repo": "hashicorp/consul"
+    }
+  ]
+}

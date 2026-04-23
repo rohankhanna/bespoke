@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:58:55.526844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Common tests for the Ethereum proof-of-stake consensus layer",
+    "fork": false,
+    "full_name": "ethereum/consensus-spec-tests",
+    "html_url": "https://github.com/ethereum/consensus-spec-tests",
+    "language": null,
+    "pushed_at": "2025-10-21T01:16:57Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-04-21T14:51:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "Add project application to project board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-support-requests-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dotnet-foundation/projects"
+}

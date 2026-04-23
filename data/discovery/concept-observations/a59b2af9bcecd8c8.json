@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI-Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI-Rust"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-Rust",
+      "sense_id": "ci-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-rust",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-rust",
+  "observation_id": "a59b2af9bcecd8c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI-Rust",
+  "source_context_snippet": "CI-Rust",
+  "source_file": ".github/workflows/ci-rust.yaml",
+  "source_repo": "web-infra-dev/rspack",
+  "source_repo_description": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+}

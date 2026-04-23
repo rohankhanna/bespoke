@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "thudm/slime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "nvidia-nemo/rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "ISEEKYAN/mbridge",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:27.152587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5226
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bridge Megatron-Core to Hugging Face/Reinforcement Learning",
+    "fork": false,
+    "full_name": "ISEEKYAN/mbridge",
+    "html_url": "https://github.com/ISEEKYAN/mbridge",
+    "language": "Python",
+    "pushed_at": "2026-04-23T02:40:36Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-23T02:40:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-nemo/rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/slime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

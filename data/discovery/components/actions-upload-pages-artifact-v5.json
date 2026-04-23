@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "sass/sync-message-port"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sass/sync-child-process"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-pages.yml",
+      "source_repo": "zloirock/core-js"
     }
   ]
 }

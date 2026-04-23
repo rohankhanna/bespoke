@@ -1,0 +1,12 @@
+{
+  "component": "dotnet/arcade/.github/workflows/backport-base.yml@8e46fac3b7212793291822f5cc99feeaec6f7e9e",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/aspnetcore"
+    }
+  ]
+}

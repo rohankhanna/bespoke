@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-operator",
+      "sense_id": "kubernetes-operator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernetes-operator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernetes-operator",
+  "observation_id": "b88923bfcf4f1ca3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "kubernetes-operator",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "defilantech/LLMKube",
+  "source_repo_description": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+}

@@ -55,6 +55,30 @@
       "source_repo": "davidkarlsen/flyway-operator",
       "status": "candidate-context",
       "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "davidkarlsen/flyway-operator",
       "status": "candidate",
       "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
     }
   ],
   "candidate_related_terms": [
@@ -170,11 +206,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "davidkarlsen/flyway-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

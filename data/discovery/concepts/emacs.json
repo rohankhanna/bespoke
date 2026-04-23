@@ -151,6 +151,78 @@
       "source_repo": "federicotdn/flymake-shellcheck",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "Project Interaction Library for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/helm-lsp",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/helm-lsp",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "Julia support in Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +297,42 @@
       "source_repo": "federicotdn/flymake-shellcheck",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/helm-lsp",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +448,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "federicotdn/flymake-shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/helm-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

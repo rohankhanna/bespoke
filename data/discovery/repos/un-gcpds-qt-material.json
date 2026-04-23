@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside6",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:24.018541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11150
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Material inspired stylesheet for PySide2, PySide6, PyQt5 and PyQt6",
+    "fork": false,
+    "full_name": "UN-GCPDS/qt-material",
+    "html_url": "https://github.com/UN-GCPDS/qt-material",
+    "language": "Python",
+    "pushed_at": "2024-05-16T21:26:30Z",
+    "stargazers_count": 2837,
+    "topics": [
+      "pyqt",
+      "pyqt5",
+      "pyqt6",
+      "pyside",
+      "pyside2",
+      "pyside6"
+    ],
+    "updated_at": "2026-04-23T18:42:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt"
+    },
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt6"
+    },
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside"
+    },
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside2"
+    },
+    {
+      "context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside6"
+    }
+  ]
+}

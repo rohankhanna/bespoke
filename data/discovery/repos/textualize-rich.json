@@ -1,0 +1,540 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readmechanged.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Textualize/rich",
+      "target": "textualize/rich-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Textualize/rich",
+      "target": "textualize/textual",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Textualize/rich",
+      "target": "batrachianai/toad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/rich",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/rich",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/rich",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/rich",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Textualize/rich",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "Textualize/rich",
+      "target": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "Textualize/rich",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml",
+      "source_repo": "Textualize/rich",
+      "target": "juliangruber/read-file-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newissue.yml",
+      "source_repo": "Textualize/rich",
+      "target": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/newissue.yml",
+      "source_repo": "Textualize/rich",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich",
+      "target": "snok/install-poetry@v1.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich",
+      "target": "Test Rich module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readmechanged.yml",
+      "source_repo": "Textualize/rich",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readmechanged.yml",
+      "source_repo": "Textualize/rich",
+      "target": "README.md Changed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "ansi-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "progress-bar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "progress-bar-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "rich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "tables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "terminal-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "traceback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich",
+      "target": "tracebacks-rich",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:23.235579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16992
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1776
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2504
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/comment.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/newissue.yml",
+      "size": 800
+    },
+    {
+      "path": ".github/workflows/pythonpackage.yml",
+      "size": 1639
+    },
+    {
+      "path": ".github/workflows/readmechanged.yml",
+      "size": 893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
+    "fork": false,
+    "full_name": "Textualize/rich",
+    "html_url": "https://github.com/Textualize/rich",
+    "language": "Python",
+    "pushed_at": "2026-04-12T09:40:10Z",
+    "stargazers_count": 56186,
+    "topics": [
+      "ansi-colors",
+      "emoji",
+      "markdown",
+      "progress-bar",
+      "progress-bar-python",
+      "python",
+      "python-library",
+      "python3",
+      "rich",
+      "syntax-highlighting",
+      "tables",
+      "terminal",
+      "terminal-color",
+      "traceback",
+      "tracebacks-rich",
+      "tui"
+    ],
+    "updated_at": "2026-04-23T18:57:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "batrachianai/toad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textualize/rich-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textualize/textual",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "term": "issues"
+    },
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/newissue.yml",
+      "term": "issues"
+    },
+    {
+      "context_snippet": "Test Rich module",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "term": "Test Rich module"
+    },
+    {
+      "context_snippet": "README.md Changed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readmechanged.yml",
+      "term": "README.md Changed"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-colors"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "progress-bar"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "progress-bar-python"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rich"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tables"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-color"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traceback"
+    },
+    {
+      "context_snippet": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracebacks-rich"
+    }
+  ]
+}

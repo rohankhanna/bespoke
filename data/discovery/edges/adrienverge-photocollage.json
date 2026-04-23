@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "adrienverge/PhotoCollage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "adrienverge/PhotoCollage",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "adrienverge/PhotoCollage",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "adrienverge/PhotoCollage"
+}

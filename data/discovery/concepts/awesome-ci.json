@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Awesome CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h4cc/awesome-elixir",
+      "status": "candidate-context",
+      "text": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4cc/awesome-elixir",
+      "status": "candidate-context",
+      "text": "Awesome CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h4cc/awesome-elixir",
+      "status": "candidate",
+      "text": "Awesome CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13700,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13700,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10910,
+      "status": "candidate",
+      "text": "curie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10910,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10910,
+      "status": "candidate",
+      "text": "fig"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Awesome CI",
+  "concept_id": "awesome-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h4cc/awesome-elixir"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Awesome CI",
+      "sense_id": "awesome-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

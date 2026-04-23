@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Runner"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "skid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "skidding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11685,
+      "status": "candidate",
+      "text": "retire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Runner",
+      "sense_id": "check-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-runner",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-runner",
+  "observation_id": "379ffa494e1daf3c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check Runner",
+  "source_context_snippet": "Check Runner",
+  "source_file": ".github/workflows/check-runner.yml",
+  "source_repo": "esp-rs/esp-hal",
+  "source_repo_description": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+}

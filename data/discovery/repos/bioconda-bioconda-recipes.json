@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bulk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bulk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bulk.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CommentResponder.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CommentResponder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "fulcrumgenomics/fetch-through-merge-base@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "fulcrumgenomics/fetch-through-merge-base@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "fulcrumgenomics/fetch-through-merge-base@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml"
+    },
+    {
+      "component": "docker://decathlon/wiki-page-creator-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bulk.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Bulk.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "Bulk branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CommentResponder.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CommentResponder.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "webfactory/ssh-agent@v0.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CommentResponder.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "CommentResponder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "fulcrumgenomics/fetch-through-merge-base@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "docker://decathlon/wiki-page-creator-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-failures.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "Update build failure list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "Nightly Uploader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes",
+      "target": "package-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:04:49.269940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/Bulk.yml",
+      "size": 6895
+    },
+    {
+      "path": ".github/workflows/CommentResponder.yml",
+      "size": 4290
+    },
+    {
+      "path": ".github/workflows/PR.yml",
+      "size": 13251
+    },
+    {
+      "path": ".github/workflows/build-failures.yml",
+      "size": 3498
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 5953
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 1539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Conda recipes for the bioconda channel.",
+    "fork": false,
+    "full_name": "bioconda/bioconda-recipes",
+    "html_url": "https://github.com/bioconda/bioconda-recipes",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T19:19:52Z",
+    "stargazers_count": 1805,
+    "topics": [
+      "bioinformatics",
+      "conda",
+      "hacktoberfest",
+      "package-management"
+    ],
+    "updated_at": "2026-04-23T17:25:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bulk branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Bulk.yml",
+      "term": "Bulk branch"
+    },
+    {
+      "context_snippet": "CommentResponder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CommentResponder.yml",
+      "term": "CommentResponder"
+    },
+    {
+      "context_snippet": "PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR.yml",
+      "term": "PR Check"
+    },
+    {
+      "context_snippet": "Update build failure list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-failures.yml",
+      "term": "Update build failure list"
+    },
+    {
+      "context_snippet": "Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "Upload"
+    },
+    {
+      "context_snippet": "Nightly Uploader",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Uploader"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    }
+  ]
+}

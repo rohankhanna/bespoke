@@ -1,7 +1,7 @@
 {
   "component": "maxim-lobanov/setup-xcode@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-ios.yml",
       "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlineDev/BartyCrouch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "source_repo": "aristocratos/btop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-cmake-build.yml",
+      "source_repo": "microsoft/snmalloc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "assignUser/delocate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/dawn"
     }
   ]
 }

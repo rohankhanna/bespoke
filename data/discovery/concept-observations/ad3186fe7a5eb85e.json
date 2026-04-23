@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":wrench: terminal client for GoTTY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003708,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003350,
+      "status": "candidate",
+      "text": "cut up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973517,
+      "status": "candidate",
+      "text": "whoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964888,
+      "status": "candidate",
+      "text": "nag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949388,
+      "status": "candidate",
+      "text": "drudge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hack",
+      "sense_id": "hack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23053,
+      "status": "candidate",
+      "text": "jade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17078,
+      "status": "candidate",
+      "text": "plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "drudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10042,
+      "status": "candidate",
+      "text": "whoop"
+    }
+  ],
+  "concept_id": "hack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hack",
+  "observation_id": "ad3186fe7a5eb85e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hack",
+  "source_context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+  "source_file": null,
+  "source_repo": "moul/gotty-client",
+  "source_repo_description": ":wrench: terminal client for GoTTY"
+}

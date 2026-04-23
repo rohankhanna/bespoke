@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "xray"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000666,
+      "status": "candidate",
+      "text": "easy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000665,
+      "status": "candidate",
+      "text": "king"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000664,
+      "status": "candidate",
+      "text": "queen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000663,
+      "status": "candidate",
+      "text": "able"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000662,
+      "status": "candidate",
+      "text": "uncle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "xray",
+  "concept_id": "xray",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xray",
+      "sense_id": "xray#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

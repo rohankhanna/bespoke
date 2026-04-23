@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Checks (Transformers)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Test Checks (Transformers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "Test Checks (Transformers)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11984,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11984,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11984,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11984,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11984,
+      "status": "candidate",
+      "text": "inspection"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Checks (Transformers)",
+  "concept_id": "test-checks-transformers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Checks (Transformers)",
+      "sense_id": "test-checks-transformers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

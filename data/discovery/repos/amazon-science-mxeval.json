@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:54:33.389859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6798
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "amazon-science/mxeval",
+    "html_url": "https://github.com/amazon-science/mxeval",
+    "language": "Python",
+    "pushed_at": "2024-07-17T21:36:22Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-04-16T23:58:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

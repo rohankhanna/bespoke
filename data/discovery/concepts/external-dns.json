@@ -43,6 +43,30 @@
       "source_repo": "amoniacou/external-dns-digitalocean-webhook",
       "status": "candidate-context",
       "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "External-DNS Webhook to manage IONOS DNS Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "amoniacou/external-dns-digitalocean-webhook",
       "status": "candidate",
       "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "amoniacou/external-dns-digitalocean-webhook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "muhlba91/external-dns-provider-adguard"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005412,
+      "status": "candidate",
+      "text": "emoticon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005411,
+      "status": "candidate",
+      "text": "emoji sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005410,
+      "status": "candidate",
+      "text": "emote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005409,
+      "status": "candidate",
+      "text": "emojification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005408,
+      "status": "candidate",
+      "text": "emoji flag sequence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emoji",
+      "sense_id": "emoji#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emoji",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emoji",
+  "observation_id": "4246082e81817b18",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "emoji",
+  "source_context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+  "source_file": null,
+  "source_repo": "adelarsq/vim-emoji-icon-theme",
+  "source_repo_description": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+}

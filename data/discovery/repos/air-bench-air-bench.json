@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIR-Bench/AIR-Bench",
+      "target": "project-miracl/miracl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIR-Bench/AIR-Bench",
+      "target": "actions/checkout@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIR-Bench/AIR-Bench",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AIR-Bench/AIR-Bench",
+      "target": "technote-space/workflow-conclusion-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:07.812685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9596
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2025] AIR-Bench: Automated Heterogeneous Information Retrieval Benchmark",
+    "fork": false,
+    "full_name": "AIR-Bench/AIR-Bench",
+    "html_url": "https://github.com/AIR-Bench/AIR-Bench",
+    "language": "Python",
+    "pushed_at": "2026-03-29T12:47:06Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-03-15T13:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-miracl/miracl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

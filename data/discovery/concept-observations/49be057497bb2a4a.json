@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "User tools for RAPIDS GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "prs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "prs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39600114,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012352,
+      "status": "candidate",
+      "text": "atomic number 59"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012351,
+      "status": "candidate",
+      "text": "prt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012203,
+      "status": "candidate",
+      "text": "gsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012192,
+      "status": "candidate",
+      "text": "lte"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "prs",
+      "sense_id": "prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prs",
+  "observation_id": "49be057497bb2a4a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "prs",
+  "source_context_snippet": "prs",
+  "source_file": ".github/workflows/prs.yaml",
+  "source_repo": "rapidsai/gha-tools",
+  "source_repo_description": "User tools for RAPIDS GitHub Actions"
+}

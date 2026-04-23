@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39776913,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050978,
+      "status": "candidate",
+      "text": "cathead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046674,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051322,
+      "status": "candidate",
+      "text": "dexter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051320,
+      "status": "candidate",
+      "text": "rightward"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starboard",
+      "sense_id": "starboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30071,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "concept_id": "starboard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "starboard",
+  "observation_id": "56affd92964ef307",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "starboard",
+  "source_context_snippet": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy).",
+  "source_file": null,
+  "source_repo": "aquasecurity/starboard",
+  "source_repo_description": "Superseded by https://github.com/aquasecurity/trivy-operator"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Prepare release"
+    "Prepare release",
+    "Prepare Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,48 @@
       "source_repo": "letta-ai/letta-code",
       "status": "candidate-context",
       "text": "Prepare release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Ruby applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Carrot2: Text Clustering Algorithms and Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Prepare release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "letta-ai/letta-code",
+      "status": "candidate",
+      "text": "Prepare release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
       "status": "candidate",
       "text": "Prepare release"
     }
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "carrot2/carrot2"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:59:04.918720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of CMake upstream repository",
+    "fork": false,
+    "full_name": "Kitware/CMake",
+    "html_url": "https://github.com/Kitware/CMake",
+    "language": "C",
+    "pushed_at": "2026-04-23T13:33:08Z",
+    "stargazers_count": 7877,
+    "topics": [],
+    "updated_at": "2026-04-23T15:52:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

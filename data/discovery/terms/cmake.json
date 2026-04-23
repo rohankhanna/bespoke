@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/glfw3webgpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheshirekow/cmake_format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliabieri/blnscpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl3webgpu"
     }
   ],
   "term": "cmake"

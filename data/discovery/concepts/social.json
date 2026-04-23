@@ -19,6 +19,30 @@
       "source_repo": "Level/community",
       "status": "candidate-context",
       "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Level/community",
       "status": "candidate",
       "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Level/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

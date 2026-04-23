@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "builder"
+    "builder",
+    "Builder"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,54 @@
       "source_repo": "liran-funaro/sphinx-markdown-builder",
       "status": "candidate-context",
       "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "rapidocr onnx cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "Builder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "sphinx builder that outputs jekyll compatible markdown files with frontmatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +114,30 @@
       "source_repo": "liran-funaro/sphinx-markdown-builder",
       "status": "candidate",
       "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate",
+      "text": "Builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +221,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "liran-funaro/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

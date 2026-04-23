@@ -1,0 +1,12 @@
+{
+  "component": "jidicula/clang-format-action@3a18028048f01a66653b4e3bf8d968d2e7e2cb8b",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_format_check.yml",
+      "source_repo": "fastfloat/fast_float"
+    }
+  ]
+}

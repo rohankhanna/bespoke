@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "pug-php/ci-pug-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitshifter/glam-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "arl/statsviz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "systemd/systemd"
     }
   ],
   "term": "coverage"

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high performance caching library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bearer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bearer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047568,
+      "status": "candidate",
+      "text": "toter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021282,
+      "status": "candidate",
+      "text": "carrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001684,
+      "status": "candidate",
+      "text": "pallbearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049244,
+      "status": "candidate",
+      "text": "bearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045003,
+      "status": "candidate",
+      "text": "sitter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bearer",
+      "sense_id": "bearer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11071,
+      "status": "candidate",
+      "text": "carrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "pallbearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "toter"
+    }
+  ],
+  "concept_id": "bearer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bearer",
+  "observation_id": "0ba3b4173dadac58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bearer",
+  "source_context_snippet": "Bearer",
+  "source_file": ".github/workflows/bearer.yml",
+  "source_repo": "ben-manes/caffeine",
+  "source_repo_description": "A high performance caching library for Java"
+}

@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "open-mmlab/mmclassification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "open-mmlab/mmflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "open-mmlab/mmgeneration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "codecov/codecov-action@v1.0.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "test-mim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "openmmlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmfewshot",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:27.279773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8275
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 9512
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 911
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 563
+    },
+    {
+      "path": ".github/workflows/test_mim.yml",
+      "size": 1151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenMMLab FewShot Learning Toolbox and Benchmark",
+    "fork": false,
+    "full_name": "open-mmlab/mmfewshot",
+    "html_url": "https://github.com/open-mmlab/mmfewshot",
+    "language": "Python",
+    "pushed_at": "2023-09-05T13:13:14Z",
+    "stargazers_count": 753,
+    "topics": [
+      "few-shot-learning",
+      "openmmlab",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T06:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmclassification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmgeneration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "test-mim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_mim.yml",
+      "term": "test-mim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmmlab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "pypa/cibuildwheel@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "browser-actions/setup-chrome@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "mamba-org/setup-micromamba@v2.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "Linux and MacOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_win.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "mamba-org/setup-micromamba@v2.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_win.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggered.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "browser-actions/setup-chrome@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triggered.yml",
+      "source_repo": "airspeed-velocity/asv",
+      "target": "Triggered",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airspeed-velocity/asv",
+      "target": "airspeed-velocity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airspeed-velocity/asv",
+      "target": "benchmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:48:24.644919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1049
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4127
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 2815
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2741
+    },
+    {
+      "path": ".github/workflows/ci_win.yml",
+      "size": 1706
+    },
+    {
+      "path": ".github/workflows/triggered.yml",
+      "size": 1678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting",
+    "fork": false,
+    "full_name": "airspeed-velocity/asv",
+    "html_url": "https://github.com/airspeed-velocity/asv",
+    "language": "Python",
+    "pushed_at": "2026-04-20T01:49:37Z",
+    "stargazers_count": 998,
+    "topics": [
+      "airspeed-velocity",
+      "benchmark",
+      "python"
+    ],
+    "updated_at": "2026-04-23T01:09:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Linux and MacOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Linux and MacOS CI"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_win.yml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "Triggered",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triggered.yml",
+      "term": "Triggered"
+    },
+    {
+      "context_snippet": "airspeed velocity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airspeed-velocity"
+    },
+    {
+      "context_snippet": "airspeed velocity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    }
+  ]
+}

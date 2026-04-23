@@ -1,0 +1,17 @@
+{
+  "component": "helm/kind-action@94729529f85113b88f4f819c17ce61382e6d8478",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-chart.yaml",
+      "source_repo": "aquasecurity/starboard"
+    }
+  ]
+}

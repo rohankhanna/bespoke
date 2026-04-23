@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "thorstenmueller/deep-learning-german-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tensorflow/addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "kan-bayashi/parallelwavegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "chinese-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "fastspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "fastspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "german-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "japanese-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "korea-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "mobile-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "multi-speaker-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "multiband-melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "parallel-wavegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tensorflow2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "tflite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "target": "zh-tts",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "TensorSpeech/TensorFlowTTS"
+}

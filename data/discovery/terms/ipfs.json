@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -41,6 +41,46 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ATProtoKit/MultiformatsKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/helia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/helia-remote-pinning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/js-kubo-rpc-client"
     }
   ],
   "term": "ipfs"

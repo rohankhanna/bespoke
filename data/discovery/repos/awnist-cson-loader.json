@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "cson-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "awnist/cson-loader",
+      "target": "cson-parser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:58:23.475559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 592
+    },
+    {
+      "path": "package.json",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CSON loader module for webpack",
+    "fork": false,
+    "full_name": "awnist/cson-loader",
+    "html_url": "https://github.com/awnist/cson-loader",
+    "language": "CoffeeScript",
+    "pushed_at": "2026-04-13T01:56:40Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-13T01:56:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

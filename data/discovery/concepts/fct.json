@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "FCT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "FCT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "FCT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000655,
+      "status": "candidate",
+      "text": "cts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998700,
+      "status": "candidate",
+      "text": "tbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966710,
+      "status": "candidate",
+      "text": "tcf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932889,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19881926,
+      "status": "candidate",
+      "text": "sct"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "FCT",
+  "concept_id": "fct",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tquic-fct.yml",
+      "source_repo": "Tencent/tquic"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FCT",
+      "sense_id": "fct#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

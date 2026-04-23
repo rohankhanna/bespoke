@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker certificate smoke tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker certificate smoke tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21355,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21355,
+      "status": "candidate",
+      "text": "scooping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16597,
+      "status": "candidate",
+      "text": "bioscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16563,
+      "status": "candidate",
+      "text": "exhale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16546,
+      "status": "candidate",
+      "text": "deal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker certificate smoke tests",
+      "sense_id": "docker-certificate-smoke-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-certificate-smoke-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-certificate-smoke-tests",
+  "observation_id": "9899277f25398dbe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker certificate smoke tests",
+  "source_context_snippet": "Docker certificate smoke tests",
+  "source_file": ".github/workflows/docker-ca.yml",
+  "source_repo": "elsa-workflows/elsa-core",
+  "source_repo_description": "The Workflow Engine for .NET"
+}

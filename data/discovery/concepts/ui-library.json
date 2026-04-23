@@ -19,6 +19,18 @@
       "source_repo": "serafimcloud/21st",
       "status": "candidate-context",
       "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "serafimcloud/21st",
       "status": "candidate",
       "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "serafimcloud/21st"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aseprite/laf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

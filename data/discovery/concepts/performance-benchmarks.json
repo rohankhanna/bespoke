@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Declare your digital independence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Performance Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate",
+      "text": "Performance Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "goals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "indicators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "objectives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16526,
+      "status": "candidate",
+      "text": "targets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16285,
+      "status": "candidate",
+      "text": "benchmark"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Performance Benchmarks",
   "concept_id": "performance-benchmarks",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "freenet/freenet-core"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

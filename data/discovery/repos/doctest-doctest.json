@@ -1,0 +1,586 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-generation.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doctest/doctest",
+      "target": "unittest-cpp/unittest-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doctest/doctest",
+      "target": "cpputest/cpputest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doctest/doctest",
+      "target": "martinmoene/catch-lest-other-comparison",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "doctest/doctest",
+      "target": "martinmoene/lest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "doctest/doctest",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Clang-Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Clang-Tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-generation.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-generation.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Code Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "doctest/doctest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "doctest/doctest",
+      "target": "Bazel Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "cpp23",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "doctest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "testing-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doctest/doctest",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:49:10.170456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9315
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 2251
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/code-generation.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2458
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 10122
+    },
+    {
+      "path": ".github/workflows/mac.yml",
+      "size": 2448
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
+    "fork": false,
+    "full_name": "doctest/doctest",
+    "html_url": "https://github.com/doctest/doctest",
+    "language": "C++",
+    "pushed_at": "2026-04-22T08:31:15Z",
+    "stargazers_count": 6695,
+    "topics": [
+      "c-plus-plus",
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "cpp23",
+      "doctest",
+      "header-only",
+      "single-file",
+      "tdd",
+      "testing",
+      "testing-framework",
+      "unit-testing"
+    ],
+    "updated_at": "2026-04-23T09:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpputest/cpputest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinmoene/catch-lest-other-comparison",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinmoene/lest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unittest-cpp/unittest-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "Clang-Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "Clang-Format"
+    },
+    {
+      "context_snippet": "Clang-Tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "Clang-Tidy"
+    },
+    {
+      "context_snippet": "Code Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-generation.yml",
+      "term": "Code Generation"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "Bazel Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Bazel Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp23"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doctest"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

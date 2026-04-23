@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "beautifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993712,
+      "status": "candidate",
+      "text": "aesthetician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993711,
+      "status": "candidate",
+      "text": "embellisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993710,
+      "status": "candidate",
+      "text": "prettifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993709,
+      "status": "candidate",
+      "text": "beautician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993708,
+      "status": "candidate",
+      "text": "cosmetologist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "beautifier",
+  "concept_id": "beautifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beautifier",
+      "sense_id": "beautifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

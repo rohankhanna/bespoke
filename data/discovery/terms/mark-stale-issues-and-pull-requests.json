@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "google-gemini/cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "facebook/react-native-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/winmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/xlang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "webtorrent/webtorrent-cli"
     }
   ],
   "term": "Mark stale issues and pull requests"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Failure Doctor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "\"CI Failure Doctor\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate",
+      "text": "\"CI Failure Doctor\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15320,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14270,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14270,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14270,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14270,
+      "status": "candidate",
+      "text": "nobel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Failure Doctor",
+  "concept_id": "ci-failure-doctor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Failure Doctor",
+      "sense_id": "ci-failure-doctor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

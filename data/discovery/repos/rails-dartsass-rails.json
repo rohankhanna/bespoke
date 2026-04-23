@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/dartsass-rails",
+      "target": "rails/propshaft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/dartsass-rails",
+      "target": "rails/sass-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/dartsass-rails",
+      "target": "sass/sassc-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/dartsass-rails",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/dartsass-rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:47:43.634322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6528
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Integrate Dart Sass with the asset pipeline in Rails",
+    "fork": false,
+    "full_name": "rails/dartsass-rails",
+    "html_url": "https://github.com/rails/dartsass-rails",
+    "language": "Ruby",
+    "pushed_at": "2025-07-18T17:33:38Z",
+    "stargazers_count": 251,
+    "topics": [],
+    "updated_at": "2026-04-04T03:57:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/propshaft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/sass-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sass/sassc-rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanQiWei/peft",
+      "target": "lvwerra/trl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanQiWei/peft",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Build Docker images (scheduled)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Delete dev documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Self-hosted runner with slow tests (scheduled)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "Stale Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PanQiWei/peft",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:38.256372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19212
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/build_docker_images.yml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/delete_doc_comment.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 2673
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "adaption_prompt_support_more_models",
+    "description": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+    "fork": true,
+    "full_name": "PanQiWei/peft",
+    "html_url": "https://github.com/PanQiWei/peft",
+    "language": "Python",
+    "pushed_at": "2023-08-18T01:48:51Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2023-12-31T03:19:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lvwerra/trl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker images (scheduled)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "term": "Build Docker images (scheduled)"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Delete dev documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "term": "Delete dev documentation"
+    },
+    {
+      "context_snippet": "Self-hosted runner with slow tests (scheduled)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Self-hosted runner with slow tests (scheduled)"
+    },
+    {
+      "context_snippet": "Stale Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Bot"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "custom-resource-definition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "custom-resource-definition",
+  "concept_id": "custom-resource-definition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/starboard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "custom-resource-definition",
+      "sense_id": "custom-resource-definition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

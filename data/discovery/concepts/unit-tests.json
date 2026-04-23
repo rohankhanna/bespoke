@@ -1,7 +1,9 @@
 {
   "aliases": [
     "Unit Tests",
-    "Unit tests"
+    "Unit tests",
+    "unit-tests",
+    "\ud83e\uddea Unit Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -140,6 +142,90 @@
       "source_repo": "developit/htm",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "\ud83d\uded1 This library is DEPRECATED!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "\"Unit Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate-context",
+      "text": "MSIX packager for Electron Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "unit-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Python bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +294,48 @@
       "source_repo": "developit/htm",
       "status": "candidate",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate",
+      "text": "\"Unit Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "unit-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "\ud83e\uddea Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate",
+      "text": "Unit Tests"
     }
   ],
   "candidate_related_terms": [
@@ -245,6 +373,41 @@
       "score": 10022520,
       "status": "candidate",
       "text": "regression testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13757,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "inkblot"
     }
   ],
   "candidate_synonyms": [],
@@ -329,11 +492,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "developit/htm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit_tests.yaml",
+      "source_repo": "InternLM/InternEvo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "ada-url/ada-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/GPTQModel"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "notomo/vusted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "dcampos/cmp-snippy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy",
+      "target": "snippets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:44:02.843414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6097
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Snippet plugin for Neovim written in Lua",
+    "fork": false,
+    "full_name": "dcampos/nvim-snippy",
+    "html_url": "https://github.com/dcampos/nvim-snippy",
+    "language": "Lua",
+    "pushed_at": "2026-04-09T00:38:00Z",
+    "stargazers_count": 339,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "snippets"
+    ],
+    "updated_at": "2026-04-20T06:52:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcampos/cmp-snippy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notomo/vusted",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A minimalist snippets plugin for Neovim **0.10+** written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A minimalist snippets plugin for Neovim **0.10+** written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A minimalist snippets plugin for Neovim **0.10+** written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    }
+  ]
+}

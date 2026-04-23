@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16355,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15074,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request CI",
+      "sense_id": "pull-request-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-ci",
+  "observation_id": "a83058109002b3db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Pull Request CI",
+  "source_context_snippet": "Pull Request CI",
+  "source_file": ".github/workflows/pr.yaml",
+  "source_repo": "oshi/oshi",
+  "source_repo_description": "Native Operating System and Hardware Information"
+}

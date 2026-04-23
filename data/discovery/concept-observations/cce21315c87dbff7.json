@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021383,
+      "status": "candidate",
+      "text": "optical pyrometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021381,
+      "status": "candidate",
+      "text": "pyrometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021380,
+      "status": "candidate",
+      "text": "pyrometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021379,
+      "status": "candidate",
+      "text": "pyroprobe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021378,
+      "status": "candidate",
+      "text": "pyrogeometer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyroscope",
+      "sense_id": "pyroscope#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "optical pyrometer"
+    }
+  ],
+  "concept_id": "pyroscope",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyroscope",
+  "observation_id": "cce21315c87dbff7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "pyroscope",
+  "source_context_snippet": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>",
+  "source_file": null,
+  "source_repo": "grafana/pyroscope",
+  "source_repo_description": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+}

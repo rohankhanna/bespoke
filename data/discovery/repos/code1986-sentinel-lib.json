@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:45:15.711020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "annotation for using sentinel easy",
+    "fork": false,
+    "full_name": "code1986/sentinel-lib",
+    "html_url": "https://github.com/code1986/sentinel-lib",
+    "language": "Java",
+    "pushed_at": "2023-04-17T19:08:01Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2023-03-16T10:41:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

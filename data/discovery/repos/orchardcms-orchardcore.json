@@ -1,0 +1,577 @@
+{
+  "components": [
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-flow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@orchardcore/assets-manager",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "child_process",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "es6-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graceful-fs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path-posix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-tsc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml"
+    },
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@a08169b890573cfd7f949ea9062c86a4db1aab1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_prs_issues.yml"
+    },
+    {
+      "component": "github/issue-metrics@7bee6e691468e996f6701b0638a5238b1490014e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml"
+    },
+    {
+      "component": "github/issue-metrics@7bee6e691468e996f6701b0638a5238b1490014e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml"
+    },
+    {
+      "component": "github/issue-metrics@7bee6e691468e996f6701b0638a5238b1490014e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml"
+    },
+    {
+      "component": "tunaitis/contributor-map@bf97d201f9b59abe463fa4ef3b5c4478d22f606d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor_map.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "@babel/preset-flow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "@orchardcore/assets-manager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "child_process",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "es6-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "graceful-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "path-posix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "source-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "vue-tsc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Validating the Building of Public Assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@a08169b890573cfd7f949ea9062c86a4db1aab1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_prs_issues.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_prs_issues.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Close Stale PRs and Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_issue_on_triage.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Comment Issue on Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "github/issue-metrics@7bee6e691468e996f6701b0638a5238b1490014e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community_metrics.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community_metrics.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Community Metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor_map.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "tunaitis/contributor-map@bf97d201f9b59abe463fa4ef3b5c4478d22f606d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor_map.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Contributor Map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "asp-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "modular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "orchard-cms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore",
+      "target": "orchardcore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:06.051264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5774
+    },
+    {
+      "path": "Dockerfile",
+      "size": 873
+    },
+    {
+      "path": "package.json",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/assets_validation.yml",
+      "size": 4623
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/close_stale_prs_issues.yml",
+      "size": 2143
+    },
+    {
+      "path": ".github/workflows/comment_issue_on_triage.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/community_metrics.yml",
+      "size": 3986
+    },
+    {
+      "path": ".github/workflows/contributor_map.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework.",
+    "fork": false,
+    "full_name": "OrchardCMS/OrchardCore",
+    "html_url": "https://github.com/OrchardCMS/OrchardCore",
+    "language": "C#",
+    "pushed_at": "2026-04-23T21:44:31Z",
+    "stargazers_count": 8066,
+    "topics": [
+      "asp-net",
+      "c-sharp",
+      "cms",
+      "dotnet-core",
+      "modular",
+      "orchard-cms",
+      "orchardcore"
+    ],
+    "updated_at": "2026-04-23T20:13:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validating the Building of Public Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "term": "Validating the Building of Public Assets"
+    },
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "Close Stale PRs and Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_prs_issues.yml",
+      "term": "Close Stale PRs and Issues"
+    },
+    {
+      "context_snippet": "Comment Issue on Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_issue_on_triage.yml",
+      "term": "Comment Issue on Triage"
+    },
+    {
+      "context_snippet": "Community Metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community_metrics.yml",
+      "term": "Community Metrics"
+    },
+    {
+      "context_snippet": "Contributor Map",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor_map.yml",
+      "term": "Contributor Map"
+    },
+    {
+      "context_snippet": "Copilot Setup Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modular"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchard-cms"
+    },
+    {
+      "context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchardcore"
+    }
+  ]
+}

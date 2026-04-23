@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compile Samples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compile Samples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10741,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10690,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10574,
+      "status": "candidate",
+      "text": "mohole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10574,
+      "status": "candidate",
+      "text": "reel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10574,
+      "status": "candidate",
+      "text": "sampler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile Samples",
+      "sense_id": "compile-samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compile-samples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compile-samples",
+  "observation_id": "c0b3c5f5d2a5cf82",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Compile Samples",
+  "source_context_snippet": "Compile Samples",
+  "source_file": ".github/workflows/run-compile-samples.yml",
+  "source_repo": "Azure/bicep",
+  "source_repo_description": "Bicep is a declarative language for describing and deploying Azure resources"
+}

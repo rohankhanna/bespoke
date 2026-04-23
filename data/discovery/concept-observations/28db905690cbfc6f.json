@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "clang format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "clang format"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11219,
+      "status": "candidate",
+      "text": "clam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11219,
+      "status": "candidate",
+      "text": "clams"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11047,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11047,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10919,
+      "status": "candidate",
+      "text": "kamikaze"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clang format",
+      "sense_id": "clang-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clang-format",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang-format",
+  "observation_id": "28db905690cbfc6f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "clang format",
+  "source_context_snippet": "clang format",
+  "source_file": ".github/workflows/clangformat.yml",
+  "source_repo": "simdutf/simdutf",
+  "source_repo_description": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+}

@@ -784,6 +784,174 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "Publications from Trail of Bits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Declare your digital independence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "Post-training with Tinker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Boulaouaney/timmx",
+      "status": "candidate-context",
+      "text": "A tool to export pre-trained/finetuned timm models to various deployment-ready frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boulaouaney/timmx",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate-context",
+      "text": "A high-performance Python-based I/O system for large (and small) deep learning problems, with strong support for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -1162,6 +1330,90 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nats-io/nats-server",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boulaouaney/timmx",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdataset/webdataset",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -1963,11 +2215,143 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "trailofbits/publications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-general.yml",
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "mmcdole/gofeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

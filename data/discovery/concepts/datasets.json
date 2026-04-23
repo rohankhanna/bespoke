@@ -67,6 +67,54 @@
       "source_repo": "RUC-NLPIR/FlashRAG",
       "status": "candidate-context",
       "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "RUC-NLPIR/FlashRAG",
       "status": "candidate",
       "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +244,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "RUC-NLPIR/FlashRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

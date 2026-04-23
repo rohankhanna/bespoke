@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "anchor-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "connect-livereload",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-banner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-clean",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-connect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-uglify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-exec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-open",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "matchdep",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "popper.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "open-mmlab/pytorch_sphinx_theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "anchor-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "connect-livereload",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-banner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-clean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-connect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-uglify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-contrib-watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-open",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "grunt-postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "matchdep",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mzr1996/pytorch_sphinx_theme",
+      "target": "popper.js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:07.695942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8448
+    },
+    {
+      "path": "package.json",
+      "size": 703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Sphinx Theme",
+    "fork": true,
+    "full_name": "mzr1996/pytorch_sphinx_theme",
+    "html_url": "https://github.com/mzr1996/pytorch_sphinx_theme",
+    "language": "CSS",
+    "pushed_at": "2023-04-07T06:48:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-11-24T08:52:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/pytorch_sphinx_theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

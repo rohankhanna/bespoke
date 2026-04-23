@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-react-jsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-stage-0",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/jsxobj",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/jsxobj",
+      "target": "babel-plugin-transform-react-jsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/jsxobj",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "developit/jsxobj",
+      "target": "babel-preset-stage-0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/jsxobj",
+      "target": "blood-magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "developit/jsxobj",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:45:08.290637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1230
+    },
+    {
+      "path": "package.json",
+      "size": 981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build JSON using JSX \ud83c\udf08 (may contain blood magic)",
+    "fork": false,
+    "full_name": "developit/jsxobj",
+    "html_url": "https://github.com/developit/jsxobj",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-25T01:37:57Z",
+    "stargazers_count": 219,
+    "topics": [
+      "blood-magic",
+      "json",
+      "jsx"
+    ],
+    "updated_at": "2026-03-05T15:01:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Converts JSX to Objects (JSON) <sub>using blood magic</sub>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blood-magic"
+    },
+    {
+      "context_snippet": "Converts JSX to Objects (JSON) <sub>using blood magic</sub>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

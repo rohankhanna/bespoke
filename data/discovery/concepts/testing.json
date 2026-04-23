@@ -394,6 +394,102 @@
       "source_repo": "Macoron/whisper.unity",
       "status": "candidate-context",
       "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate-context",
+      "text": "A small test framework to write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate-context",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-cmp",
+      "status": "candidate-context",
+      "text": "Package for comparing Go values in tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-cmp",
+      "status": "candidate-context",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "Testing"
     }
   ],
   "candidate_glosses": [
@@ -586,6 +682,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Macoron/whisper.unity",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-cmp",
+      "status": "candidate",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
       "status": "candidate",
       "text": "Testing"
     }
@@ -843,11 +987,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Macoron/whisper.unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LukasKalbertodt/libtest-mimic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/go-cmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-go"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

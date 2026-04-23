@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-pipeline.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/gchat-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@39c06395cbac76e79afc4ad4e5c5c6db6ecfdd2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clossing-issues.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/comment-created.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comments.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/item-closed.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/move-closed-issues.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/pr-review-comment.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-hack.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/pr-review-requested-sync.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews-requested.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/item-labeled.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reasign.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/vulndb",
+      "target": "cveproject/cvelistv5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/vulndb",
+      "target": "libgeos/geos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/gchat-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "hmarr/auto-approve-action@f0939ea97e9205ef24d872e76833fa908a770363",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "pozil/auto-assign-issue@39c06395cbac76e79afc4ad4e5c5c6db6ecfdd2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clossing-issues.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comments.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/comment-created.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/move-closed-issues.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/item-closed.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-hack.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/pr-review-comment.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews-requested.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/pr-review-requested-sync.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reasign.yml",
+      "source_repo": "bitnami/vulndb",
+      "target": "bitnami/support/.github/workflows/item-labeled.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:07.093945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10023
+    },
+    {
+      "path": ".github/workflows/cd-pipeline.yml",
+      "size": 2156
+    },
+    {
+      "path": ".github/workflows/ci-pipeline.yml",
+      "size": 4992
+    },
+    {
+      "path": ".github/workflows/clossing-issues.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/comments.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/move-closed-issues.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/pr-review-hack.yml",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/pr-reviews-requested.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/pr-reviews.yml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/reasign.yml",
+      "size": 749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Bitnami Vulnerability Database",
+    "fork": false,
+    "full_name": "bitnami/vulndb",
+    "html_url": "https://github.com/bitnami/vulndb",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T18:12:49Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-23T18:12:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cveproject/cvelistv5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libgeos/geos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

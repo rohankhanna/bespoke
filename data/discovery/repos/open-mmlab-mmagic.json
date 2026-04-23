@@ -148,21 +148,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmengine",
+      "target": "open-mmlab/mmgeneration",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmdetection",
+      "target": "open-mmlab/mmhuman3d",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmdetection3d",
+      "target": "open-mmlab/mmflow",
       "target_type": "repository"
     },
     {
@@ -411,7 +411,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:31:53.722436+00:00",
+  "fetched_at": "2026-04-23T21:45:17.083482+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -479,22 +479,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmdetection",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmdetection3d",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "open-mmlab/mmediting",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmengine",
+      "full_name": "open-mmlab/mmflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmgeneration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmhuman3d",
       "source_file": "README.md"
     }
   ],

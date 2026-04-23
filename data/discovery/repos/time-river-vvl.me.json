@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "hexo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-excerpt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-generator-archive",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-generator-category",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-generator-index",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-generator-tag",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-next-utteranc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-renderer-ejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-renderer-marked",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-renderer-stylus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hexo-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pangu",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "quicklink",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-excerpt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-generator-archive",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-generator-category",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-generator-index",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-generator-tag",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-next-utteranc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-renderer-ejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-renderer-marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-renderer-stylus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "hexo-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "pangu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "time-river/vvl.me",
+      "target": "quicklink",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "time-river/vvl.me",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "time-river/vvl.me",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "time-river/vvl.me",
+      "target": "vvl.me",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:11.946608+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "https://vvl.me",
+    "fork": false,
+    "full_name": "time-river/vvl.me",
+    "html_url": "https://github.com/time-river/vvl.me",
+    "language": "HTML",
+    "pushed_at": "2023-07-12T19:43:46Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-04-02T03:00:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "vvl.me",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "vvl.me"
+    }
+  ]
+}

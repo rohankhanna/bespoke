@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "@voxpelli/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap-playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "faucet",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hallmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "memory-level",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "abstract-level",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker://antonyurchenko/git-release:v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "@voxpelli/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "airtap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "airtap-playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "faucet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "hallmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "memory-level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "ts-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/web-stream",
+      "target": "abstract-level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/web-stream",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/web-stream",
+      "target": "docker://antonyurchenko/git-release:v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/web-stream",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/web-stream",
+      "target": "abstract-level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/web-stream",
+      "target": "browsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/web-stream",
+      "target": "level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/web-stream",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/web-stream",
+      "target": "web-streams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:09:26.876551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6360
+    },
+    {
+      "path": "package.json",
+      "size": 1564
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read from an abstract-level database using Web Streams.",
+    "fork": false,
+    "full_name": "Level/web-stream",
+    "html_url": "https://github.com/Level/web-stream",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-01T22:14:31Z",
+    "stargazers_count": 12,
+    "topics": [
+      "abstract-level",
+      "browsers",
+      "javascript",
+      "level",
+      "nodejs",
+      "web-streams"
+    ],
+    "updated_at": "2024-03-17T06:47:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstract-level"
+    },
+    {
+      "context_snippet": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browsers"
+    },
+    {
+      "context_snippet": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level"
+    },
+    {
+      "context_snippet": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-streams"
+    }
+  ]
+}

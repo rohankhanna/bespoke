@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fork of the python-language-server project, maintained by the Spyder IDE team and the community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "barred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "eavesdrop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "menu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows tests",
+      "sense_id": "windows-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-tests",
+  "observation_id": "f868c7693538bd12",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Windows tests",
+  "source_context_snippet": "Windows tests",
+  "source_file": ".github/workflows/test-win.yml",
+  "source_repo": "python-lsp/python-lsp-server",
+  "source_repo_description": "Fork of the python-language-server project, maintained by the Spyder IDE team and the community"
+}

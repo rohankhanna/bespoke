@@ -19,6 +19,18 @@
       "source_repo": "VSCodeVim/Vim",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "Speed up your Git workflow. :tropical_fish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "VSCodeVim/Vim",
       "status": "candidate",
       "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "VSCodeVim/Vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,30 @@
       "source_repo": "run-llama/llama_index",
       "status": "candidate-context",
       "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "Easiest and laziest way for  building multi-agent LLMs applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "run-llama/llama_index",
       "status": "candidate",
       "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +288,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "newrelic/node-newrelic/.github/workflows/release-creation.yml@main",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic"
+    }
+  ]
+}

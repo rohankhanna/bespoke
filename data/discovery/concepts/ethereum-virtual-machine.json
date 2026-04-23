@@ -19,6 +19,18 @@
       "source_repo": "ethereum/py-evm",
       "status": "candidate-context",
       "text": "> [!caution]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "Fast Ethereum Virtual Machine implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "[![ethereum badge]][ethereum]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ethereum/py-evm",
       "status": "candidate",
       "text": "> [!caution]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate",
+      "text": "[![ethereum badge]][ethereum]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ethereum/py-evm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

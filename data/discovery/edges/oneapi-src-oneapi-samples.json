@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "habanaai/gaudi-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "intel/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneapi-community/awesome-oneapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "opea-project/genaiexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "github-samples-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "fortran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onedal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onednn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onedpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onemkl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onetbb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "sycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "oneapi-src/oneAPI-samples"
+}

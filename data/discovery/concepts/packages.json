@@ -64,6 +64,18 @@
       "source_repo": "artifacthub/hub",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/artifacthub/hub)](https://goreportcard.com/report/github.com/artifacthub/hub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "Packages"
     }
   ],
   "candidate_glosses": [
@@ -96,6 +108,12 @@
       "source_repo": "artifacthub/hub",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/artifacthub/hub)](https://goreportcard.com/report/github.com/artifacthub/hub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "Packages"
     }
   ],
   "candidate_related_terms": [
@@ -169,11 +187,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "artifacthub/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "elsa-workflows/elsa-core"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@91a071959513ca103b54280ac0bef5b825791d4d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "zimbatm/mdsh",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "zimbatm/mdsh",
+      "target": "cachix/install-nix-action@91a071959513ca103b54280ac0bef5b825791d4d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh",
+      "target": "buildbot-numtide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh",
+      "target": "pre-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:03.934385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8929
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "`$ mdsh` # a markdown shell pre-processor",
+    "fork": false,
+    "full_name": "zimbatm/mdsh",
+    "html_url": "https://github.com/zimbatm/mdsh",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T09:49:03Z",
+    "stargazers_count": 171,
+    "topics": [
+      "buildbot-numtide",
+      "markdown",
+      "pre-processing",
+      "shell"
+    ],
+    "updated_at": "2026-03-30T16:16:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildbot-numtide"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-processing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

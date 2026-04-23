@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude PR Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude PR Assistant"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "beret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "skier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10277,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10277,
+      "status": "candidate",
+      "text": "pasteurization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude PR Assistant",
+      "sense_id": "claude-pr-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-pr-assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-pr-assistant",
+  "observation_id": "8583efb3d91a4cef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Claude PR Assistant",
+  "source_context_snippet": "Claude PR Assistant",
+  "source_file": ".github/workflows/claude.yml",
+  "source_repo": "apache/superset",
+  "source_repo_description": "Apache Superset is a Data Visualization and Data Exploration Platform"
+}

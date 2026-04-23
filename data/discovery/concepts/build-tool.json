@@ -67,6 +67,54 @@
       "source_repo": "felixrieseberg/windows-build-tools",
       "status": "candidate-context",
       "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "A bazel BUILD file formatter and editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": ":cake: Cake (C# Make) is a cross platform build automation system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "felixrieseberg/windows-build-tools",
       "status": "candidate",
       "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +208,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "felixrieseberg/windows-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rails releaser tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rails releaser tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22126,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18207,
+      "status": "candidate",
+      "text": "cue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "pope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "yoga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10185,
+      "status": "candidate",
+      "text": "defect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rails releaser tests",
+      "sense_id": "rails-releaser-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rails-releaser-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rails-releaser-tests",
+  "observation_id": "848f24d18b121d98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Rails releaser tests",
+  "source_context_snippet": "Rails releaser tests",
+  "source_file": ".github/workflows/rails_releaser_tests.yml",
+  "source_repo": "rails/rails",
+  "source_repo_description": "Ruby on Rails"
+}

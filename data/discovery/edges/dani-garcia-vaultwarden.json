@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "dani-garcia/bw_web_builds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-templates.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-templates.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Check templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Hadolint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releasecache-cleanup.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/delete-package-versions@e5bc658cc4c965c472efe991f8beea3981499c55",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releasecache-cleanup.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Trivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "Code Spell Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "bitwarden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "bitwarden-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "rocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden",
+      "target": "vaultwarden",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dani-garcia/vaultwarden"
+}

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml"
+    },
+    {
+      "component": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-support-requests-to-board.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "Add project application to project board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-support-requests-to-board.yml",
+      "source_repo": "dotnet-foundation/projects",
+      "target": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:49.245586+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/add-new-projects-to-board.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/add-support-requests-to-board.yml",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is used for onboarding new projects",
+    "fork": false,
+    "full_name": "dotnet-foundation/projects",
+    "html_url": "https://github.com/dotnet-foundation/projects",
+    "language": null,
+    "pushed_at": "2026-04-15T19:24:11Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-04-21T09:40:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add project application to project board",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "term": "Add project application to project board"
+    }
+  ]
+}

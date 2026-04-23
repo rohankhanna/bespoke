@@ -1,0 +1,22 @@
+{
+  "component": "jwlawson/actions-setup-cmake@0d6a7d60b009d01c9e7523be22153ff8f19460d3",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c_unit_tests.yaml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports"
+    }
+  ]
+}

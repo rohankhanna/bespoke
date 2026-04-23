@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bindings Lua CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bindings Lua CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "any"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "burgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "burgeoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "butt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings Lua CI",
+      "sense_id": "bindings-lua-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings-lua-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings-lua-ci",
+  "observation_id": "952cae047c02cabb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bindings Lua CI",
+  "source_context_snippet": "Bindings Lua CI",
+  "source_file": ".github/workflows/ci_bindings_lua.yml",
+  "source_repo": "apache/opendal",
+  "source_repo_description": "Apache OpenDAL: One Layer, All Storage."
+}

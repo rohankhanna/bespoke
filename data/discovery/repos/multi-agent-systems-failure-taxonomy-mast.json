@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:50:04.449168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "multi-agent-systems-failure-taxonomy/MAST",
+    "html_url": "https://github.com/multi-agent-systems-failure-taxonomy/MAST",
+    "language": "Python",
+    "pushed_at": "2025-07-23T07:37:41Z",
+    "stargazers_count": 359,
+    "topics": [],
+    "updated_at": "2026-04-09T08:27:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

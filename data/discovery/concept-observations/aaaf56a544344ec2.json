@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028241,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025736,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018497,
+      "status": "candidate",
+      "text": "conveyance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014314,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001563,
+      "status": "candidate",
+      "text": "transmit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transport",
+      "sense_id": "transport#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48053,
+      "status": "candidate",
+      "text": "ecstasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46040,
+      "status": "candidate",
+      "text": "delight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36035,
+      "status": "candidate",
+      "text": "exaltation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27077,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    }
+  ],
+  "concept_id": "transport",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transport",
+  "observation_id": "aaaf56a544344ec2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "transport",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "enisdenjo/graphql-sse",
+  "source_repo_description": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+}

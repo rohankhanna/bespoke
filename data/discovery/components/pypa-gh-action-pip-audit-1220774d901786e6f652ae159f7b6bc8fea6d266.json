@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pip-audit@1220774d901786e6f652ae159f7b6bc8fea6d266",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

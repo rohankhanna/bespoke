@@ -1,7 +1,7 @@
 {
   "component": "codespell-project/actions-codespell@master",
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "container-storage-interface/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/darker"
     }
   ]
 }

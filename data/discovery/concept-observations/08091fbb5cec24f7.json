@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Assignee inactivity reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Assignee inactivity reminder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "assign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "assigned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18134,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "rested"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assignee inactivity reminder",
+      "sense_id": "assignee-inactivity-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "assignee-inactivity-reminder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assignee-inactivity-reminder",
+  "observation_id": "08091fbb5cec24f7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Assignee inactivity reminder",
+  "source_context_snippet": "Assignee inactivity reminder",
+  "source_file": ".github/workflows/assignee-reminder.yml",
+  "source_repo": "esp-rs/esp-hal",
+  "source_repo_description": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+}

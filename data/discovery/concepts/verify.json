@@ -58,6 +58,66 @@
       "source_repo": "anexia/k8s-external-dns-webhook",
       "status": "candidate-context",
       "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "status": "candidate-context",
+      "text": "Verify testdouble stubs with QUnit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "Verify"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +142,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anexia/k8s-external-dns-webhook",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
       "status": "candidate",
       "text": "Verify"
     }
@@ -159,11 +249,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "anexia/k8s-external-dns-webhook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexlafroscia/testdouble-qunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

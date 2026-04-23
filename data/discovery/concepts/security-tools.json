@@ -151,6 +151,18 @@
       "source_repo": "slsa-framework/slsa-github-generator",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "slsa-framework/slsa-github-generator",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "slsa-framework/slsa-github-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/syzkaller"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

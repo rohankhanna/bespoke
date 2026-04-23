@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Deploy Rust docs to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "status": "candidate-context",
+      "text": "Deploy Rust docs to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "status": "candidate",
+      "text": "Deploy Rust docs to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029,
+      "status": "candidate",
+      "text": "lectern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029,
+      "status": "candidate",
+      "text": "right to know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19978,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18879,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Rust docs to Pages",
+  "concept_id": "deploy-rust-docs-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Rust docs to Pages",
+      "sense_id": "deploy-rust-docs-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

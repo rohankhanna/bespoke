@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39820004,
+      "status": "candidate",
+      "text": "write"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39818267,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39790391,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39776943,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39722760,
+      "status": "candidate",
+      "text": "release"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "publish",
+      "sense_id": "publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11020,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10032,
+      "status": "candidate",
+      "text": "put out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "print"
+    }
+  ],
+  "concept_id": "publish",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish",
+  "observation_id": "8b8e81c788ad6ead",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "publish",
+  "source_context_snippet": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a",
+  "source_file": null,
+  "source_repo": "semantic-release/github",
+  "source_repo_description": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+}

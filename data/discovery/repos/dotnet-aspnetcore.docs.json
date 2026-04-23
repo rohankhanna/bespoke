@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-issue-processing.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "dotnet/docs-actions/actions/status-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-live.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/sequester@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/sequester@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/sequester@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/aspnetdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "microsoftdocs/feedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Issue processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Issue processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-actions/actions/status-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Status checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-live.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-live.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "Merge to Live",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/actions/sequester@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "bulk quest import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "dotnet/docs-tools/actions/sequester@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest.yml",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "quest import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:03.602747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "size": 1896
+    },
+    {
+      "path": ".github/workflows/blazor-issue-processing.yml",
+      "size": 2766
+    },
+    {
+      "path": ".github/workflows/check-for-build-warnings.yml",
+      "size": 509
+    },
+    {
+      "path": ".github/workflows/merge-live.yml",
+      "size": 936
+    },
+    {
+      "path": ".github/workflows/quest-bulk.yml",
+      "size": 2088
+    },
+    {
+      "path": ".github/workflows/quest.yml",
+      "size": 2990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for ASP.NET Core",
+    "fork": false,
+    "full_name": "dotnet/AspNetCore.Docs",
+    "html_url": "https://github.com/dotnet/AspNetCore.Docs",
+    "language": "C#",
+    "pushed_at": "2026-04-23T19:45:04Z",
+    "stargazers_count": 13082,
+    "topics": [
+      "asp",
+      "aspnet",
+      "aspnet-core",
+      "aspnetcore",
+      "docs"
+    ],
+    "updated_at": "2026-04-23T19:45:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspnetdocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftdocs/feedback",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue processing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "term": "Issue processing"
+    },
+    {
+      "context_snippet": "Issue processing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "term": "Issue processing"
+    },
+    {
+      "context_snippet": "'Status checker'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "term": "Status checker"
+    },
+    {
+      "context_snippet": "Merge to Live",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-live.yml",
+      "term": "Merge to Live"
+    },
+    {
+      "context_snippet": "\"bulk quest import\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "term": "bulk quest import"
+    },
+    {
+      "context_snippet": "\"quest import\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest.yml",
+      "term": "quest import"
+    },
+    {
+      "context_snippet": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet-core"
+    },
+    {
+      "context_snippet": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    }
+  ]
+}

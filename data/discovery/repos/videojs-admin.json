@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "doctoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "videojs/admin",
+      "target": "doctoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "videojs/admin",
+      "target": "husky",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:46:58.046623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 772
+    },
+    {
+      "path": "package.json",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video.js organizational documentation",
+    "fork": false,
+    "full_name": "videojs/admin",
+    "html_url": "https://github.com/videojs/admin",
+    "language": "Shell",
+    "pushed_at": "2025-04-28T21:14:58Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-08-17T20:16:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "google-deepmind/code_contests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "amazon-science/mxeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "facebookresearch/cruxeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "deepseek-ai/deepseek-coder",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bytedance/SandboxFusion"
+}

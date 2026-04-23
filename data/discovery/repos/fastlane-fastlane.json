@@ -1,0 +1,505 @@
+{
+  "components": [
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce_release.yml"
+    },
+    {
+      "component": "fastlane/github-actions/communicate-on-pull-request-released@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "fastlane/github-actions/fastlane-env-reminder@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "fastlane/github-actions/lock@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_test.yml"
+    },
+    {
+      "component": "fastlane/github-actions/communicate-on-pull-request-merged@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_1_create_version_bump.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_1_create_version_bump.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml"
+    },
+    {
+      "component": "rubygems/configure-rubygems-credentials@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "fastlane/github-actions/communicate-on-pull-request-released@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/announce_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Process release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "fastlane/github-actions/fastlane-env-reminder@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Process issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "fastlane/github-actions/lock@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Lock issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_test.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_test.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_test.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Module Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "fastlane/github-actions/communicate-on-pull-request-merged@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Processing pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_labeler.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_labeler.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_1_create_version_bump.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_1_create_version_bump.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "rubygems/configure-rubygems-credentials@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml",
+      "source_repo": "fastlane/fastlane",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "fastlane",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane",
+      "target": "screenshots",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:43:24.089199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9846
+    },
+    {
+      "path": ".github/workflows/announce_release.yml",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2636
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/module_test.yml",
+      "size": 2224
+    },
+    {
+      "path": ".github/workflows/pull-requests.yml",
+      "size": 1332
+    },
+    {
+      "path": ".github/workflows/pull_request_labeler.yml",
+      "size": 353
+    },
+    {
+      "path": ".github/workflows/release_step_1_create_version_bump.yml",
+      "size": 1359
+    },
+    {
+      "path": ".github/workflows/release_step_2_create_github_release.yml",
+      "size": 1557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
+    "fork": false,
+    "full_name": "fastlane/fastlane",
+    "html_url": "https://github.com/fastlane/fastlane",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T10:30:17Z",
+    "stargazers_count": 41424,
+    "topics": [
+      "android",
+      "apps",
+      "automation",
+      "deployment",
+      "fastlane",
+      "hacktoberfest",
+      "ios",
+      "mobile",
+      "ruby",
+      "screenshots"
+    ],
+    "updated_at": "2026-04-23T18:58:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Process release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/announce_release.yml",
+      "term": "Process release"
+    },
+    {
+      "context_snippet": "Process issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Process issues"
+    },
+    {
+      "context_snippet": "Lock issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock issues and pull requests"
+    },
+    {
+      "context_snippet": "Module Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_test.yml",
+      "term": "Module Test"
+    },
+    {
+      "context_snippet": "Processing pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "term": "Processing pull requests"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apps"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastlane"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshots"
+    }
+  ]
+}

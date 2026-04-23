@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue metrics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the Gemini API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "Issue metrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate",
+      "text": "Issue metrics"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "measurement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "meter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "metering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "prosody"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue metrics",
+  "concept_id": "issue-metrics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "google-gemini/cookbook"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue metrics",
+      "sense_id": "issue-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

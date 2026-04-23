@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/ImageBind",
+      "target": "facebookresearch/pytorchvideo",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "facebookresearch/ImageBind"
+}

@@ -67,6 +67,30 @@
       "source_repo": "sublimelsp/LSP",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "The code linting framework for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "SublimeLinter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate-context",
+      "text": "Julia syntax highlighting for Sublime Text "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate-context",
+      "text": "Julia language support for Sublime Text 4 or above"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "sublimelsp/LSP",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate",
+      "text": "SublimeLinter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate",
+      "text": "Julia language support for Sublime Text 4 or above"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

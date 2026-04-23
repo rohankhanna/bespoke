@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "target": "github-enterprise",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:27.626059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3176
+    },
+    {
+      "path": "go.mod",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 879
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP Round Tripper for GitHub Apps - Authenticate as an Installation Workflow",
+    "fork": false,
+    "full_name": "bradleyfalzon/ghinstallation",
+    "html_url": "https://github.com/bradleyfalzon/ghinstallation",
+    "language": "Go",
+    "pushed_at": "2026-03-30T18:26:39Z",
+    "stargazers_count": 368,
+    "topics": [
+      "github",
+      "github-enterprise",
+      "go"
+    ],
+    "updated_at": "2026-04-23T11:50:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradleyfalzon/ghinstallation/v2.svg)](https://pkg.go.dev/github.com/bradleyfalzon/ghinstallation/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradleyfalzon/ghinstallation/v2.svg)](https://pkg.go.dev/github.com/bradleyfalzon/ghinstallation/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-enterprise"
+    }
+  ]
+}

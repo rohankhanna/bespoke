@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and release packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "Keras model of NSFW detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "Build and release packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate",
+      "text": "Build and release packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19381,
+      "status": "candidate",
+      "text": "parcel post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and release packages",
+  "concept_id": "build-and-release-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and release packages",
+      "sense_id": "build-and-release-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "autodrive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "caddn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "centerpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "hrnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "kitti-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "pointpillars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "squeezeseg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "three-dimension-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "target": "waymo-open-dataset",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "PaddlePaddle/Paddle3D"
+}

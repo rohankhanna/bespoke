@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "overshiki/kmeans_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "ebetica/jekyllbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "jekylbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "kmeans-clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:15.180726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "kmeans using PyTorch",
+    "fork": false,
+    "full_name": "subhadarship/kmeans_pytorch",
+    "html_url": "https://github.com/subhadarship/kmeans_pytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-09T08:44:31Z",
+    "stargazers_count": 534,
+    "topics": [
+      "docs",
+      "github-pages",
+      "gpu",
+      "jekylbook",
+      "jekyll",
+      "kmeans-clustering",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-01T04:03:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebetica/jekyllbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "overshiki/kmeans_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekylbook"
+    },
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kmeans-clustering"
+    },
+    {
+      "context_snippet": "PyTorch implementation of kmeans for utilizing GPU",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

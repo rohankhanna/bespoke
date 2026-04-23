@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "crate-ci/typos@v1.23.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "criterion-rs/criterion.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "crate-ci/typos@v1.23.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs",
+      "target": "criterion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs",
+      "target": "gnuplot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:38:24.351795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 541
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3480
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistics-driven benchmarking library for Rust",
+    "fork": false,
+    "full_name": "bheisler/criterion.rs",
+    "html_url": "https://github.com/bheisler/criterion.rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T01:57:38Z",
+    "stargazers_count": 5461,
+    "topics": [
+      "benchmark",
+      "criterion",
+      "gnuplot",
+      "rust",
+      "statistics"
+    ],
+    "updated_at": "2026-04-23T20:31:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "criterion-rs/criterion.rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "criterion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnuplot"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    }
+  ]
+}

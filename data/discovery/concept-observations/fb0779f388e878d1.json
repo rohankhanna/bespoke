@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947937,
+      "status": "candidate",
+      "text": "plug-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934082,
+      "status": "candidate",
+      "text": "component"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932866,
+      "status": "candidate",
+      "text": "connect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915202,
+      "status": "candidate",
+      "text": "add-on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913236,
+      "status": "candidate",
+      "text": "addition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugin",
+      "sense_id": "plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plugin",
+  "observation_id": "fb0779f388e878d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "plugin",
+  "source_context_snippet": "gitalk \u2014 A comment plugin base on GitHub issues",
+  "source_file": null,
+  "source_repo": "gitalk/gitalk",
+  "source_repo_description": "Gitalk is a modern comment component based on Github Issue and Preact."
+}

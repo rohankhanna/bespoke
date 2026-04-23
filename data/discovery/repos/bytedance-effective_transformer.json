@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:50.598608+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Running BERT without Padding",
+    "fork": false,
+    "full_name": "bytedance/effective_transformer",
+    "html_url": "https://github.com/bytedance/effective_transformer",
+    "language": "C++",
+    "pushed_at": "2022-03-18T23:07:30Z",
+    "stargazers_count": 479,
+    "topics": [
+      "bert",
+      "inference",
+      "machine-learning",
+      "tensorflow",
+      "transformer"
+    ],
+    "updated_at": "2026-03-20T20:52:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Running BERT without Padding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "Running BERT without Padding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "Running BERT without Padding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Running BERT without Padding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Running BERT without Padding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

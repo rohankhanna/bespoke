@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deep Hough Voting for 3D Object Detection in Point Clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939432,
+      "status": "candidate",
+      "text": "balloting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938936,
+      "status": "candidate",
+      "text": "ballot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949286,
+      "status": "candidate",
+      "text": "franchise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944888,
+      "status": "candidate",
+      "text": "polls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944856,
+      "status": "candidate",
+      "text": "polling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voting",
+      "sense_id": "voting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "balloting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2043,
+      "status": "candidate",
+      "text": "ballot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "vote"
+    }
+  ],
+  "concept_id": "voting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "voting",
+  "observation_id": "dfb20ec952933abc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "voting",
+  "source_context_snippet": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026",
+  "source_file": null,
+  "source_repo": "facebookresearch/votenet",
+  "source_repo_description": "Deep Hough Voting for 3D Object Detection in Point Clouds"
+}

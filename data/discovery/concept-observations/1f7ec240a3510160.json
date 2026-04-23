@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Material inspired stylesheet for PySide2, PySide6, PyQt5 and PyQt6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pyqt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "qt creator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "pygtk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "qt quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "qt jambi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyside",
+      "sense_id": "pyside#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyside",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyside",
+  "observation_id": "1f7ec240a3510160",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "pyside",
+  "source_context_snippet": "This is another stylesheet for **PySide6**, **PySide2**, **PyQt5** and **PyQt6**, which looks like Material Design (close enough).",
+  "source_file": null,
+  "source_repo": "UN-GCPDS/qt-material",
+  "source_repo_description": "Material inspired stylesheet for PySide2, PySide6, PyQt5 and PyQt6"
+}

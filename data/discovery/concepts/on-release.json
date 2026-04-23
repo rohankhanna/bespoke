@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "On Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "On Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "On Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51424,
+      "status": "candidate",
+      "text": "released"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51423,
+      "status": "candidate",
+      "text": "releases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51422,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51421,
+      "status": "candidate",
+      "text": "releasee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51420,
+      "status": "candidate",
+      "text": "rerelease"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "On Release",
+  "concept_id": "on-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/on-release.yml",
+      "source_repo": "fastfloat/fast_float"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "On Release",
+      "sense_id": "on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

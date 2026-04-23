@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-ostai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-suf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spawn-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "eslint-config-ostai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "pre-suf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "spawn-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "gitignore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "ignore-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "ignore-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "ignore-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:12:02.121874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13107
+    },
+    {
+      "path": "package.json",
+      "size": 3036
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd0d node-ignore is the manager and filter for .gitignore rules, the one used by eslint, prettier and many others.",
+    "fork": false,
+    "full_name": "kaelzhang/node-ignore",
+    "html_url": "https://github.com/kaelzhang/node-ignore",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-31T02:19:00Z",
+    "stargazers_count": 495,
+    "topics": [
+      "gitignore",
+      "ignore-files",
+      "ignore-patterns",
+      "ignore-rules",
+      "javascript",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-13T12:44:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "| Linux / MacOS / Windows | Coverage | Downloads |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitignore"
+    },
+    {
+      "context_snippet": "| Linux / MacOS / Windows | Coverage | Downloads |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignore-files"
+    },
+    {
+      "context_snippet": "| Linux / MacOS / Windows | Coverage | Downloads |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignore-patterns"
+    },
+    {
+      "context_snippet": "| Linux / MacOS / Windows | Coverage | Downloads |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignore-rules"
+    },
+    {
+      "context_snippet": "| Linux / MacOS / Windows | Coverage | Downloads |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

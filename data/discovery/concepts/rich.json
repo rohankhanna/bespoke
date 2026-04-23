@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rich"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "Rich is a Python library for rich text and beautiful formatting in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018849,
+      "status": "candidate",
+      "text": "wealthy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018836,
+      "status": "candidate",
+      "text": "well-heeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018821,
+      "status": "candidate",
+      "text": "affluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018821,
+      "status": "candidate",
+      "text": "well-to-do"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018694,
+      "status": "candidate",
+      "text": "moneyed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 103057,
+      "status": "candidate",
+      "text": "robust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56039,
+      "status": "candidate",
+      "text": "ample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55037,
+      "status": "candidate",
+      "text": "lush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48027,
+      "status": "candidate",
+      "text": "gilded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "flush"
+    }
+  ],
+  "canonical_name": "rich",
+  "concept_id": "rich",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rich",
+      "sense_id": "rich#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

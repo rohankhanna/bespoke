@@ -1,0 +1,17 @@
+{
+  "component": "gaurav-nelson/github-action-markdown-link-check@d53a906aa6b22b8979d33bc86170567e619495ec",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    }
+  ]
+}

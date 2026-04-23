@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "multithreading"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate-context",
+      "text": "Lower-latency OpenMP-style minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in Rust and C++, avoiding memory allocations, mutexes, CAS-primitives, and false-sharing on the hot path \ud83c\udf74"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate-context",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "GPU Accelerated t-SNE for CUDA with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906768,
+      "status": "candidate",
+      "text": "sophisticated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19881930,
+      "status": "candidate",
+      "text": "threaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024573,
+      "status": "candidate",
+      "text": "hyper-threading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024573,
+      "status": "candidate",
+      "text": "multi-processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024572,
+      "status": "candidate",
+      "text": "multitasking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multithreading",
+  "concept_id": "multithreading",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CannyLab/tsne-cuda"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multithreading",
+      "sense_id": "multithreading#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

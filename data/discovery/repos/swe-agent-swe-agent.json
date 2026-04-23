@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-periodic.yaml"
+    },
+    {
+      "component": "tcort/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-periodic.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-pr.yaml"
+    },
+    {
+      "component": "tcort/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "sjvrijn/pytest-last-failed@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "codecov/test-results-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "swe-bench/swe-smith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "swe-bench/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "swe-bench/sb-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "build-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-periodic.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-periodic.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "tcort/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-pr.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links-pr.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "tcort/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "sjvrijn/pytest-last-failed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "codecov/codecov-action@v5.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "codecov/test-results-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "agent-based-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "cybersecurity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-agent",
+      "target": "developer-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:21.799448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8195
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6467
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/check-links-periodic.yaml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/check-links-pr.yaml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 2009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+    "fork": false,
+    "full_name": "SWE-agent/SWE-agent",
+    "html_url": "https://github.com/SWE-agent/SWE-agent",
+    "language": "Python",
+    "pushed_at": "2026-04-20T21:22:07Z",
+    "stargazers_count": 19045,
+    "topics": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "llm",
+      "lms"
+    ],
+    "updated_at": "2026-04-23T17:55:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/sb-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-smith",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "build-docs"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-based-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cybersecurity"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    }
+  ]
+}

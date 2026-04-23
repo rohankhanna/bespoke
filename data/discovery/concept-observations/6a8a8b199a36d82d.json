@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043916,
+      "status": "candidate",
+      "text": "typewriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043892,
+      "status": "candidate",
+      "text": "typewritten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043439,
+      "status": "candidate",
+      "text": "typist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042397,
+      "status": "candidate",
+      "text": "typographical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041339,
+      "status": "candidate",
+      "text": "typewriter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typing",
+      "sense_id": "typing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "typewriting"
+    }
+  ],
+  "concept_id": "typing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typing",
+  "observation_id": "6a8a8b199a36d82d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "typing",
+  "source_context_snippet": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs.",
+  "source_file": null,
+  "source_repo": "ruby/gem_rbs_collection",
+  "source_repo_description": "A collection of RBS for gems."
+}

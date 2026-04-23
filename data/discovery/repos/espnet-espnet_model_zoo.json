@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "mpariente/asteroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_test.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "Model test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "espnet/espnet_model_zoo",
+      "target": "Unitest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:12.312294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10634
+    },
+    {
+      "path": ".github/workflows/model_test.yaml",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/unittest.yaml",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ESPnet Model Zoo",
+    "fork": false,
+    "full_name": "espnet/espnet_model_zoo",
+    "html_url": "https://github.com/espnet/espnet_model_zoo",
+    "language": "Python",
+    "pushed_at": "2023-07-09T01:53:09Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-04-20T03:30:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpariente/asteroid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Model test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_test.yaml",
+      "term": "Model test"
+    },
+    {
+      "context_snippet": "Unitest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "term": "Unitest"
+    }
+  ]
+}

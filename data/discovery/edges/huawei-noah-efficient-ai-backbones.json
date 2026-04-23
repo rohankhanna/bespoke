@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "ghostnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "huawei-noah/Efficient-AI-Backbones"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Publications from Trail of Bits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependabot auto-merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot auto-merge",
+      "sense_id": "dependabot-auto-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependabot-auto-merge",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependabot-auto-merge",
+  "observation_id": "456d61a81424c74c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Dependabot auto-merge",
+  "source_context_snippet": "Dependabot auto-merge",
+  "source_file": ".github/workflows/dependabot-automerge.yml",
+  "source_repo": "trailofbits/publications",
+  "source_repo_description": "Publications from Trail of Bits"
+}

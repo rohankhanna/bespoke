@@ -31,6 +31,18 @@
       "source_repo": "atlassian/cz-lerna-changelog",
       "status": "candidate-context",
       "text": "Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "A Commitizen adapter for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "![Banner][icon-banner]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "atlassian/cz-lerna-changelog",
       "status": "candidate",
       "text": "Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate",
+      "text": "![Banner][icon-banner]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "atlassian/cz-lerna-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EndemolShineGroup/cz-github"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

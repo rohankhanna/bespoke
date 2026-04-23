@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "rokroskar/workflow-run-cleanup-action@v0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "norio-nomura/action-swiftlint@3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "yonaskolb/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "swiftgen/swiftgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "apple/swift-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "rokroskar/workflow-run-cleanup-action@v0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "norio-nomura/action-swiftlint@3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "incremental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "storyboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:43:40.175345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25339
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files.",
+    "fork": false,
+    "full_name": "FlineDev/BartyCrouch",
+    "html_url": "https://github.com/FlineDev/BartyCrouch",
+    "language": "Swift",
+    "pushed_at": "2024-04-05T11:31:19Z",
+    "stargazers_count": 1411,
+    "topics": [
+      "code",
+      "incremental",
+      "language",
+      "localization",
+      "machine-translation",
+      "storyboard",
+      "swift",
+      "translation",
+      "xcode",
+      "xib"
+    ],
+    "updated_at": "2026-04-19T09:49:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-syntax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swiftgen/swiftgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yonaskolb/mint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "incremental"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storyboard"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

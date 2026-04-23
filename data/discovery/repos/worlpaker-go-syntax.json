@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worlpaker/go-syntax",
+      "target": "jeff-hykin/better-go-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worlpaker/go-syntax",
+      "target": "panaeon/vscode-tmgrammar-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "syntax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "textmate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "textmate-grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "vscode-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax",
+      "target": "vscode-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:46.088474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1509
+    },
+    {
+      "path": "package.json",
+      "size": 1040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rich Syntax Highlighting for Go language",
+    "fork": false,
+    "full_name": "worlpaker/go-syntax",
+    "html_url": "https://github.com/worlpaker/go-syntax",
+    "language": "Go",
+    "pushed_at": "2026-02-04T13:10:47Z",
+    "stargazers_count": 31,
+    "topics": [
+      "color",
+      "go",
+      "golang",
+      "grammar",
+      "highlighting",
+      "syntax",
+      "syntax-highlighting",
+      "textmate",
+      "textmate-grammar",
+      "vscode",
+      "vscode-extension",
+      "vscode-language"
+    ],
+    "updated_at": "2026-04-03T00:23:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeff-hykin/better-go-syntax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panaeon/vscode-tmgrammar-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textmate"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textmate-grammar"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    },
+    {
+      "context_snippet": "Rich Syntax Highlighting for [Go](https://go.dev/) language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-language"
+    }
+  ]
+}

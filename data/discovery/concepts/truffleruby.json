@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "TruffleRuby"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "TruffleRuby"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate",
+      "text": "TruffleRuby"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "TruffleRuby",
+  "concept_id": "truffleruby",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "source_repo": "ruby/debug"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TruffleRuby",
+      "sense_id": "truffleruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

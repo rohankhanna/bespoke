@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "reflection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004493,
+      "status": "candidate",
+      "text": "reflectivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004463,
+      "status": "candidate",
+      "text": "reflexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004233,
+      "status": "candidate",
+      "text": "mirror image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925775,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919324,
+      "status": "candidate",
+      "text": "manifestation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39026,
+      "status": "candidate",
+      "text": "musing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38032,
+      "status": "candidate",
+      "text": "rumination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34041,
+      "status": "candidate",
+      "text": "manifestation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "contemplation"
+    }
+  ],
+  "canonical_name": "reflection",
+  "concept_id": "reflection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reflection",
+      "sense_id": "reflection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "allennlp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/allennlp-models",
+      "status": "candidate-context",
+      "text": "Officially supported AllenNLP models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp-models",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/allennlp-semparse",
+      "status": "candidate-context",
+      "text": "A framework for building semantic parsers (including neural module networks) with AllenNLP, built by the authors of AllenNLP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp-semparse",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/allenai/allennlp-semparse/workflows/CI/badge.svg)](https://github.com/allenai/allennlp-semparse/actions?workflow=CI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp-models",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp-semparse",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/allenai/allennlp-semparse/workflows/CI/badge.svg)](https://github.com/allenai/allennlp-semparse/actions?workflow=CI)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "allennlp",
+  "concept_id": "allennlp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "allenai/allennlp-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "allenai/allennlp-semparse"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "allennlp",
+      "sense_id": "allennlp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

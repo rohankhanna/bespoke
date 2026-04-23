@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodules-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "mlfoundations/skyrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "Nightly Submodule Update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:53.052202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27767
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6314
+    },
+    {
+      "path": ".github/workflows/submodules-nightly.yml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data recipes and robust infrastructure for training AI agents",
+    "fork": false,
+    "full_name": "open-thoughts/OpenThoughts-Agent",
+    "html_url": "https://github.com/open-thoughts/OpenThoughts-Agent",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:14:17Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-04-23T21:50:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/harbor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/harbor",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlfoundations/skyrl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nightly Submodule Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "term": "Nightly Submodule Update"
+    }
+  ]
+}

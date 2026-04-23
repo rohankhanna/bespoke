@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/infllmv2_cuda_impl",
+      "target": "mit-han-lab/block-sparse-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:05.428113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenBMB/infllmv2_cuda_impl",
+    "html_url": "https://github.com/OpenBMB/infllmv2_cuda_impl",
+    "language": "Python",
+    "pushed_at": "2026-02-11T10:59:17Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-04-19T12:22:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/block-sparse-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

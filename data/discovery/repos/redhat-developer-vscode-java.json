@@ -1,0 +1,996 @@
+{
+  "components": [
+    {
+      "component": "@redhat-developer/vscode-extension-proposals",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@redhat-developer/vscode-redhat-telemetry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/codicons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/webview-ui-toolkit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chokidar",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expand-home-dir",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fmtr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "htmlparser2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jdk-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageclient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-variables",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "winreg-utf8",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "winston",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "winston-daily-rotate-file",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/lodash.findindex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode-webview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/winreg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/winston",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/test-electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.findindex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mini-css-extract-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-jdk.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-jdk.yml"
+    },
+    {
+      "component": "mschilde/auto-label-merge-conflicts@8c6faa8a252e35ba5e15703b3d747bf726cdb95c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflictDetector.yaml"
+    },
+    {
+      "component": "wow-actions/potential-duplicates@4d4ea0352e0383859279938e255179dd1dbb67b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml"
+    },
+    {
+      "component": "lee-dohm/no-response@9bb0a4b5e6a45046f00353d5de7d90fb8bd773bb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@919008cf3f741b179569b7a6fb4d8860689ab7f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@e46cfb9575865f907c2beb2e4170b5f4c7d77c52",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "eclipse/eclipse.jdt.ls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "eclipse/buildship",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "dgileadi/vscode-java-decompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@redhat-developer/vscode-extension-proposals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@redhat-developer/vscode-redhat-telemetry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@vscode/codicons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@vscode/webview-ui-toolkit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "chokidar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "expand-home-dir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "fmtr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "htmlparser2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "jdk-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "vscode-languageclient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "vscode-variables",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "winreg-utf8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "winston",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "winston-daily-rotate-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/lodash.findindex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/vscode-webview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/winreg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@types/winston",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "@vscode/test-electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "eslint-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "lodash.findindex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "mini-css-extract-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "tar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-jdk.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-jdk.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-jdk.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "Update JDK Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflictDetector.yaml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "mschilde/auto-label-merge-conflicts@8c6faa8a252e35ba5e15703b3d747bf726cdb95c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "wow-actions/potential-duplicates@4d4ea0352e0383859279938e255179dd1dbb67b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "Potential Duplicate Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "lee-dohm/no-response@9bb0a4b5e6a45046f00353d5de7d90fb8bd773bb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "No Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "pr-verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "marvinpinto/action-automatic-releases@919008cf3f741b179569b7a6fb4d8860689ab7f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "geekyeggo/delete-artifact@e46cfb9575865f907c2beb2e4170b5f4c7d77c52",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:53.675839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31816
+    },
+    {
+      "path": "package.json",
+      "size": 79560
+    },
+    {
+      "path": ".github/workflows/bump-jdk.yml",
+      "size": 2090
+    },
+    {
+      "path": ".github/workflows/conflictDetector.yaml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/duplicate-issues-detector.yaml",
+      "size": 1681
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/pr-verify.yml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 7816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java Language Support for Visual Studio Code",
+    "fork": false,
+    "full_name": "redhat-developer/vscode-java",
+    "html_url": "https://github.com/redhat-developer/vscode-java",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T18:03:21Z",
+    "stargazers_count": 2288,
+    "topics": [
+      "java",
+      "language-server",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-23T08:07:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgileadi/vscode-java-decompiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/buildship",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/eclipse.jdt.ls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update JDK Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-jdk.yml",
+      "term": "Update JDK Version"
+    },
+    {
+      "context_snippet": "Potential Duplicate Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "term": "Potential Duplicate Issues"
+    },
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    },
+    {
+      "context_snippet": "pr-verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "term": "pr-verify"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Language support for Java &trade; for Visual Studio Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Language support for Java &trade; for Visual Studio Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "Language support for Java &trade; for Visual Studio Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

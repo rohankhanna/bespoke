@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "target": "bored-engineer/httpcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:25.308587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12951
+    },
+    {
+      "path": "go.mod",
+      "size": 78
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 3421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Golang http.RoundTripper optimized for caching responses from GitHub's REST API via conditional requests (ETag)",
+    "fork": false,
+    "full_name": "bored-engineer/github-conditional-http-transport",
+    "html_url": "https://github.com/bored-engineer/github-conditional-http-transport",
+    "language": "Go",
+    "pushed_at": "2026-02-14T21:54:17Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-22T19:28:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bored-engineer/httpcache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

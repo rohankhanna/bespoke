@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004493,
+      "status": "candidate",
+      "text": "reflectivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004463,
+      "status": "candidate",
+      "text": "reflexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004233,
+      "status": "candidate",
+      "text": "mirror image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925775,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919324,
+      "status": "candidate",
+      "text": "manifestation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reflection",
+      "sense_id": "reflection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39026,
+      "status": "candidate",
+      "text": "musing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38032,
+      "status": "candidate",
+      "text": "rumination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34041,
+      "status": "candidate",
+      "text": "manifestation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "contemplation"
+    }
+  ],
+  "concept_id": "reflection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reflection",
+  "observation_id": "3802612b4c525872",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "reflection",
+  "source_context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+  "source_file": null,
+  "source_repo": "jhump/protoreflect",
+  "source_repo_description": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+}

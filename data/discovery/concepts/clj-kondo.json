@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clj-kondo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-kondo/configs",
+      "status": "candidate-context",
+      "text": "Library configurations as dependencies for clj-kondo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/configs",
+      "status": "candidate-context",
+      "text": "Clj-kondo configurations for libraries, as dependencies."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/configs",
+      "status": "candidate",
+      "text": "Clj-kondo configurations for libraries, as dependencies."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clj-kondo",
+  "concept_id": "clj-kondo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clj-kondo",
+      "sense_id": "clj-kondo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

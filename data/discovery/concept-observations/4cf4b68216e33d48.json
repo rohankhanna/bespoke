@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "macOS - Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "macOS - Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "active placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "alpha test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "macOS - Tests",
+      "sense_id": "macos---tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos---tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos---tests",
+  "observation_id": "4cf4b68216e33d48",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "macOS - Tests",
+  "source_context_snippet": "macOS - Tests",
+  "source_file": ".github/workflows/mac.yml",
+  "source_repo": "MarcCote/downward",
+  "source_repo_description": "The Fast Downward domain-independent classical planning system"
+}

@@ -1,7 +1,7 @@
 {
   "component": "dsherret/rust-toolchain-file@v1",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.ts",
       "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "denoland/deno_doc"
     }
   ]
 }

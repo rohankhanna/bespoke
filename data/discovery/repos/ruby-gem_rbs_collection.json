@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_on_review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_on_comment.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_on_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome_comment.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome_comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "Comment on review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "Generate comment body on review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_on_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_on_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_on_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "Merge a PR on a comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "RuboCop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "Test PR comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection",
+      "target": "typing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:06:32.476297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/comment_on_review.yml",
+      "size": 930
+    },
+    {
+      "path": ".github/workflows/generate_comment_body_on_review.yml",
+      "size": 2129
+    },
+    {
+      "path": ".github/workflows/merge_on_comment.yml",
+      "size": 2787
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2061
+    },
+    {
+      "path": ".github/workflows/welcome_comment.yml",
+      "size": 1504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of RBS for gems.",
+    "fork": false,
+    "full_name": "ruby/gem_rbs_collection",
+    "html_url": "https://github.com/ruby/gem_rbs_collection",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T06:02:06Z",
+    "stargazers_count": 301,
+    "topics": [
+      "hacktoberfest",
+      "rbs",
+      "ruby",
+      "typing"
+    ],
+    "updated_at": "2026-04-23T06:02:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Comment on review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_on_review.yml",
+      "term": "Comment on review"
+    },
+    {
+      "context_snippet": "'Generate comment body on review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "term": "Generate comment body on review"
+    },
+    {
+      "context_snippet": "'Merge a PR on a comment'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_on_comment.yml",
+      "term": "Merge a PR on a comment"
+    },
+    {
+      "context_snippet": "RuboCop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "RuboCop"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "'Test PR comment'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome_comment.yml",
+      "term": "Test PR comment"
+    },
+    {
+      "context_snippet": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typing"
+    }
+  ]
+}

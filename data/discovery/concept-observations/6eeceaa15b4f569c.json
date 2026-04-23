@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Slow Tests Issue Body"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Slow Tests Issue Body"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33843,
+      "status": "candidate",
+      "text": "precession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33600,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33600,
+      "status": "candidate",
+      "text": "creeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33587,
+      "status": "candidate",
+      "text": "crawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33587,
+      "status": "candidate",
+      "text": "crawling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slow Tests Issue Body",
+      "sense_id": "slow-tests-issue-body#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slow-tests-issue-body",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slow-tests-issue-body",
+  "observation_id": "6eeceaa15b4f569c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Slow Tests Issue Body",
+  "source_context_snippet": "Slow Tests Issue Body",
+  "source_file": ".github/workflows/slow-tests-issue.yml",
+  "source_repo": "pymc-devs/pytensor",
+  "source_repo_description": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+}

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "0xc0000054/libheif-sharp-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "avif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "heic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "heif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "hevc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp",
+      "target": "libheif",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:45.136065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provides .NET bindings for libheif.",
+    "fork": false,
+    "full_name": "0xC0000054/libheif-sharp",
+    "html_url": "https://github.com/0xC0000054/libheif-sharp",
+    "language": "C#",
+    "pushed_at": "2023-11-20T00:28:30Z",
+    "stargazers_count": 70,
+    "topics": [
+      "av1",
+      "avif",
+      "csharp",
+      "heic",
+      "heif",
+      "hevc",
+      "libheif"
+    ],
+    "updated_at": "2025-11-28T00:47:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xc0000054/libheif-sharp-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avif"
+    },
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heic"
+    },
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heif"
+    },
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hevc"
+    },
+    {
+      "context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libheif"
+    }
+  ]
+}

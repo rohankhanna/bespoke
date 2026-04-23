@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Orama Symbols Reindex"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "Orama Symbols Reindex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate",
+      "text": "Orama Symbols Reindex"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "barges"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "barge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "bins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "boat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Orama Symbols Reindex",
+  "concept_id": "orama-symbols-reindex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml",
+      "source_repo": "jsr-io/jsr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Orama Symbols Reindex",
+      "sense_id": "orama-symbols-reindex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

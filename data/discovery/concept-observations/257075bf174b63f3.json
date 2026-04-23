@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cross Platform"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cross Platform"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20072505,
+      "status": "candidate",
+      "text": "multiplatform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20072410,
+      "status": "candidate",
+      "text": "multi-platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002569,
+      "status": "candidate",
+      "text": "platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10072840,
+      "status": "candidate",
+      "text": "crosspatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10072839,
+      "status": "candidate",
+      "text": "interoperability"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cross Platform",
+      "sense_id": "cross-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-platform",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-platform",
+  "observation_id": "257075bf174b63f3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Cross Platform",
+  "source_context_snippet": "Cross Platform",
+  "source_file": ".github/workflows/cross-platform.yml",
+  "source_repo": "lz4/lz4",
+  "source_repo_description": "Extremely Fast Compression algorithm"
+}

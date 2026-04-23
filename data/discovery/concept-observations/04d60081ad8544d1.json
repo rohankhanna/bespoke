@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Small Clojure interpreter, linter and formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038554,
+      "status": "candidate",
+      "text": "voice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038010,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031072,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011286,
+      "status": "candidate",
+      "text": "spokesperson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043101,
+      "status": "candidate",
+      "text": "interpretive program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interpreter",
+      "sense_id": "interpreter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "spokesperson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "interpretive program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "voice"
+    }
+  ],
+  "concept_id": "interpreter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interpreter",
+  "observation_id": "04d60081ad8544d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "interpreter",
+  "source_context_snippet": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>",
+  "source_file": null,
+  "source_repo": "candid82/joker",
+  "source_repo_description": "Small Clojure interpreter, linter and formatter."
+}

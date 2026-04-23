@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "glsl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "A testing framework for automatically finding and simplifying bugs in graphics shader compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "C++ examples for the Vulkan graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "glsl",
+  "concept_id": "glsl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glsl",
+      "sense_id": "glsl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

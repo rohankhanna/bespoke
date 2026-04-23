@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A code generator for array-based code on CPUs and GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027163,
+      "status": "candidate",
+      "text": "reducing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022534,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022444,
+      "status": "candidate",
+      "text": "diminution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022365,
+      "status": "candidate",
+      "text": "step-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012329,
+      "status": "candidate",
+      "text": "simplification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reduction",
+      "sense_id": "reduction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25033,
+      "status": "candidate",
+      "text": "diminution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "simplification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "step-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "reducing"
+    }
+  ],
+  "concept_id": "reduction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reduction",
+  "observation_id": "a7870fe18c3961be",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "reduction",
+  "source_context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+  "source_file": null,
+  "source_repo": "inducer/loopy",
+  "source_repo_description": "A code generator for array-based code on CPUs and GPUs"
+}

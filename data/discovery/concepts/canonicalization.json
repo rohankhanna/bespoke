@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "canonicalization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022105,
+      "status": "candidate",
+      "text": "unicodification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022104,
+      "status": "candidate",
+      "text": "denormalizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022103,
+      "status": "candidate",
+      "text": "computerization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022102,
+      "status": "candidate",
+      "text": "computerisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022101,
+      "status": "candidate",
+      "text": "sequentialization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "canonicalization",
+  "concept_id": "canonicalization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canonicalization",
+      "sense_id": "canonicalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

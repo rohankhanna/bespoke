@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958261,
+      "status": "candidate",
+      "text": "encyclopedist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035932,
+      "status": "candidate",
+      "text": "compiling program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035931,
+      "status": "candidate",
+      "text": "collator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035443,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032099,
+      "status": "candidate",
+      "text": "editorial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compiler",
+      "sense_id": "compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "encyclopedist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "compiling program"
+    }
+  ],
+  "concept_id": "compiler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compiler",
+  "observation_id": "ebd4a655a2ee7867",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compiler",
+  "source_context_snippet": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026",
+  "source_file": null,
+  "source_repo": "gluon-lang/gluon",
+  "source_repo_description": "A static, type inferred and embeddable language written in Rust."
+}

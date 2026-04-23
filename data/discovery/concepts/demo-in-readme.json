@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "demo-in-readme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "demo-in-readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "demo-in-readme"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "demo-in-readme",
+  "concept_id": "demo-in-readme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/demo_in_readme.yaml",
+      "source_repo": "InternLM/InternEvo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "demo-in-readme",
+      "sense_id": "demo-in-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

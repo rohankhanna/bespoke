@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boheumd/MA-LMM",
+      "target": "chaoyuaw/lvu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boheumd/MA-LMM",
+      "target": "xudejing/video-question-answering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boheumd/MA-LMM",
+      "target": "milvlg/activitynet-qa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boheumd/MA-LMM",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:30:56.085129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7262
+    },
+    {
+      "path": "requirements.txt",
+      "size": 326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(2024CVPR) MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding",
+    "fork": false,
+    "full_name": "boheumd/MA-LMM",
+    "html_url": "https://github.com/boheumd/MA-LMM",
+    "language": "Python",
+    "pushed_at": "2024-07-19T01:36:19Z",
+    "stargazers_count": 350,
+    "topics": [
+      "llm",
+      "video-understanding"
+    ],
+    "updated_at": "2026-04-10T03:48:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoyuaw/lvu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvlg/activitynet-qa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xudejing/video-question-answering",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The official repository of our paper \"**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

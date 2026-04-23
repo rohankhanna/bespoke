@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/optax",
+      "target": "google-research/tuning_playbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/optax",
+      "target": "patrick-kidger/optimistix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/optax",
+      "target": "pnkraemer/matfree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "gaurav-nelson/github-action-markdown-link-check@d53a906aa6b22b8979d33bc86170567e619495ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "google-deepmind/optax"
+}

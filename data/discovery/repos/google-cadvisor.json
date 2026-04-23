@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/cadvisor",
+      "target": "docker/docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/cadvisor",
+      "target": "google/lmctfy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor",
+      "target": "Publish Container Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor",
+      "target": "Release Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google/cadvisor",
+      "target": "Stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/cadvisor",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/cadvisor",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:32.485555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4888
+    },
+    {
+      "path": "go.mod",
+      "size": 3561
+    },
+    {
+      "path": ".github/workflows/publish-container.yml",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/release-binaries.yml",
+      "size": 3574
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 1291
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Analyzes resource usage and performance characteristics of running containers.",
+    "fork": false,
+    "full_name": "google/cadvisor",
+    "html_url": "https://github.com/google/cadvisor",
+    "language": "Go",
+    "pushed_at": "2026-04-16T11:11:08Z",
+    "stargazers_count": 19079,
+    "topics": [],
+    "updated_at": "2026-04-23T19:46:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/lmctfy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Container Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-container.yml",
+      "term": "Publish Container Image"
+    },
+    {
+      "context_snippet": "Release Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "term": "Release Binaries"
+    },
+    {
+      "context_snippet": "Stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

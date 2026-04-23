@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/kind-e2e.yaml",
       "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing"
     }
   ],
   "term": "KinD e2e tests"

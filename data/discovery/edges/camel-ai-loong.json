@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Execution Result Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Data Schema Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Dataset Size Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Upload to Hugging Face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Validate Seed Data",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "camel-ai/loong"
+}

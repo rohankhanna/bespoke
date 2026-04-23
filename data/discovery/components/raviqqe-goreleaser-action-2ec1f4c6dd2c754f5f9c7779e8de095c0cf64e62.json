@@ -1,0 +1,12 @@
+{
+  "component": "raviqqe/goreleaser-action@2ec1f4c6dd2c754f5f9c7779e8de095c0cf64e62",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet"
+    }
+  ]
+}

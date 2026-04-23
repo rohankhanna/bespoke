@@ -175,6 +175,42 @@
       "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
       "status": "candidate-context",
       "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "Compute Node of Dria Knowledge Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
       "status": "candidate",
       "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +466,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

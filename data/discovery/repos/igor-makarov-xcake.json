@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "igor-makarov/xcake",
-      "target": "fastlane/fastlane",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "igor-makarov/xcake",
       "target": "jcampbell05/xcake",
       "target_type": "repository"
     },
@@ -133,7 +126,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:38:40.112272+00:00",
+  "fetched_at": "2026-04-23T19:43:33.731118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,7 +151,7 @@
     "html_url": "https://github.com/igor-makarov/xcake",
     "language": "Ruby",
     "pushed_at": "2025-12-11T11:59:29Z",
-    "stargazers_count": 645,
+    "stargazers_count": 646,
     "topics": [
       "cocoapods",
       "ios",
@@ -170,14 +163,9 @@
       "watchos",
       "xcode"
     ],
-    "updated_at": "2026-01-11T10:55:25Z"
+    "updated_at": "2026-04-23T15:16:09Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fastlane/fastlane",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jcampbell05/xcake",

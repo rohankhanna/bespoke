@@ -115,6 +115,42 @@
       "source_repo": "decaporg/one-click-hugo-cms",
       "status": "candidate-context",
       "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "decaporg/one-click-hugo-cms",
       "status": "candidate",
       "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate",
+      "text": "A template for MiraiGo"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +343,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "decaporg/one-click-hugo-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

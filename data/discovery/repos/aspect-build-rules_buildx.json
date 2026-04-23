@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/bazel.yaml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    },
+    {
+      "component": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "arrdem/bazel-multipy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "aspect-build/tools_telemetry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "aspect-build/rules_buildx",
+      "target": "Tag a Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:00.299916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2729
+    },
+    {
+      "path": ".github/workflows/BUILD.bazel",
+      "size": 181
+    },
+    {
+      "path": ".github/workflows/buildifier.yaml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2030
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1141
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 899
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1403
+    },
+    {
+      "path": ".github/workflows/tag.yaml",
+      "size": 2537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BuildX rules for Bazel",
+    "fork": false,
+    "full_name": "aspect-build/rules_buildx",
+    "html_url": "https://github.com/aspect-build/rules_buildx",
+    "language": "Starlark",
+    "pushed_at": "2025-09-25T03:35:41Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-01T11:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrdem/bazel-multipy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/tools_telemetry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tag a Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "term": "Tag a Release"
+    }
+  ]
+}

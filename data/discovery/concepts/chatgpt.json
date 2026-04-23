@@ -445,6 +445,90 @@
       "source_repo": "Ai00-X/ai00_server",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binary-husky/gpt_academic",
+      "status": "candidate-context",
+      "text": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binary-husky/gpt_academic",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "status": "candidate-context",
+      "text": "ChatGPT \u4e2d\u6587\u8c03\u6559\u6307\u5357\u3002\u5404\u79cd\u573a\u666f\u4f7f\u7528\u6307\u5357\u3002\u5b66\u4e60\u600e\u4e48\u8ba9\u5b83\u542c\u4f60\u7684\u8bdd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "status": "candidate-context",
+      "text": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "Reverse engineered API of Microsoft's Bing Chat AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "ChatGPT Java SDK\u3002\u652f\u6301 GPT-4o\u3001 GPT-5 API\u3002\u5f00\u7bb1\u5373\u7528\u3002An unofficial Java SDK for seamless integration with ChatGPT's GPT-5 and GPT-4 APIs. Ready-to-use, simple setup, and efficient for building AI-powered applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
     }
   ],
   "candidate_glosses": [
@@ -663,6 +747,48 @@
       "source_repo": "Ai00-X/ai00_server",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binary-husky/gpt_academic",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "status": "candidate",
+      "text": "[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPlexPt%2Fawesome-chatgpt-prompts-zh&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1102,11 +1228,107 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-java"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

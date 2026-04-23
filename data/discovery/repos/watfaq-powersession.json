@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-dotnet@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Watfaq/PowerSession",
+      "target": "ibigbug/powersession",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Watfaq/PowerSession",
+      "target": "actions/setup-dotnet@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Watfaq/PowerSession",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Watfaq/PowerSession",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Watfaq/PowerSession",
+      "target": "Publish CSharp Release Asset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession",
+      "target": "asciinema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession",
+      "target": "conpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession",
+      "target": "powersession",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession",
+      "target": "powershell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:54.703828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1570
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Record a Session in PowerShell",
+    "fork": false,
+    "full_name": "Watfaq/PowerSession",
+    "html_url": "https://github.com/Watfaq/PowerSession",
+    "language": "C#",
+    "pushed_at": "2023-03-08T09:04:02Z",
+    "stargazers_count": 161,
+    "topics": [
+      "asciinema",
+      "conpty",
+      "powersession",
+      "powershell"
+    ],
+    "updated_at": "2026-03-22T19:59:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibigbug/powersession",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish CSharp Release Asset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish CSharp Release Asset"
+    },
+    {
+      "context_snippet": "> Record a Session in PowerShell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asciinema"
+    },
+    {
+      "context_snippet": "> Record a Session in PowerShell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conpty"
+    },
+    {
+      "context_snippet": "> Record a Session in PowerShell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powersession"
+    },
+    {
+      "context_snippet": "> Record a Session in PowerShell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    }
+  ]
+}

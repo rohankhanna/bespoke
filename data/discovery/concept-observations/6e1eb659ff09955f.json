@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unittests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unittests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unittests",
+      "sense_id": "unittests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unittests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unittests",
+  "observation_id": "6e1eb659ff09955f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Unittests",
+  "source_context_snippet": "Unittests",
+  "source_file": ".github/workflows/pytest.yml",
+  "source_repo": "tensorflow/datasets",
+  "source_repo_description": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+}

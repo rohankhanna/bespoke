@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022263,
+      "status": "candidate",
+      "text": "ikon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970436,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9956977,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "figurines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "idols"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icons",
+      "sense_id": "icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "icons",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "icons",
+  "observation_id": "6f5b12e485188e43",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "icons",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "simple-icons/simple-icons",
+  "source_repo_description": "SVG icons for popular brands"
+}

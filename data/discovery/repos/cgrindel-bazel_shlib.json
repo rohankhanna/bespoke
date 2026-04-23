@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel_shlib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel_shlib",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:11.689054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3038
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 1379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Bazel project that contains shared/common shell functions and binaries.",
+    "fork": false,
+    "full_name": "cgrindel/bazel_shlib",
+    "html_url": "https://github.com/cgrindel/bazel_shlib",
+    "language": "Shell",
+    "pushed_at": "2022-01-03T22:57:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-22T22:08:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Build"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lets-encrypt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/acmez",
+      "status": "candidate-context",
+      "text": "Premier ACME client library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/acmez",
+      "status": "candidate-context",
+      "text": "acmez - ACME client library for Go"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/acmez",
+      "status": "candidate",
+      "text": "acmez - ACME client library for Go"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lets-encrypt",
+  "concept_id": "lets-encrypt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mholt/acmez"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lets-encrypt",
+      "sense_id": "lets-encrypt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

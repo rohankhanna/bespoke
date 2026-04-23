@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tests"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphics-library",
+      "sense_id": "graphics-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphics-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphics-library",
+  "observation_id": "727f0a1b497f85ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "graphics-library",
+  "source_context_snippet": "Tests",
+  "source_file": null,
+  "source_repo": "a-e-k/canvas_ity",
+  "source_repo_description": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+}

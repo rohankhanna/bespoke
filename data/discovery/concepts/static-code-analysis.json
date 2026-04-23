@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "static-code-analysis"
+    "static-code-analysis",
+    "Static code analysis"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -211,6 +214,30 @@
       "source_repo": "standard/standard-packages",
       "status": "candidate-context",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Easy to integrate Vulkan memory allocation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Static code analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate-context",
+      "text": "Fork of the python-language-server project, maintained by the Spyder IDE team and the community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate-context",
+      "text": "Static code analysis"
     }
   ],
   "candidate_glosses": [
@@ -315,9 +342,57 @@
       "source_repo": "standard/standard-packages",
       "status": "candidate",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate",
+      "text": "Static code analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate",
+      "text": "Static code analysis"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25680,
+      "status": "candidate",
+      "text": "cryptanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18769,
+      "status": "candidate",
+      "text": "squelch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18523,
+      "status": "candidate",
+      "text": "friction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18497,
+      "status": "candidate",
+      "text": "biometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18448,
+      "status": "candidate",
+      "text": "brokerage"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "static-code-analysis",
   "concept_id": "static-code-analysis",
@@ -448,11 +523,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "standard/standard-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "sjvrijn/pytest-last-failed@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "swe-gym/swe-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "swe-bench/swe-smith-envs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "build-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "sjvrijn/pytest-last-failed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "codecov/codecov-action@v5.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "software-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-smith",
+      "target": "training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:33.555118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5189
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3013
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/check-links.yaml",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 1403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents",
+    "fork": false,
+    "full_name": "SWE-bench/SWE-smith",
+    "html_url": "https://github.com/SWE-bench/SWE-smith",
+    "language": "Python",
+    "pushed_at": "2026-04-20T19:21:45Z",
+    "stargazers_count": 628,
+    "topics": [
+      "agents",
+      "language-model",
+      "software-engineering",
+      "training"
+    ],
+    "updated_at": "2026-04-22T07:32:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-smith-envs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-gym/swe-gym",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "build-docs"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    }
+  ]
+}

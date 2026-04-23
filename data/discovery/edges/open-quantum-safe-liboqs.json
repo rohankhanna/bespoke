@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "awslabs/bike-kem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "microsoft/pqcrypto-lweke",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "cross-signature/cross-lib-oqs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "cisco/hash-sigs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "android build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apple.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "apple build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "DeterminateSystems/nix-installer-action@90bb610b90bf290cad97484ba341453bd1cbefea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Basic checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Code coverage tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-to-main.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Main branch tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-basic.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Trigger basic downstream CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-release.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-release.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Downstream release tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extended.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extended.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extended.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "Extended tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem-bench.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem-bench.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/upload-artifact@6027e3dd177782cd8ab9af838c04fd81a07f1d47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem-bench.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem-bench.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "benchmark-action/github-action-benchmark@d48d326b4ca9ba73ca0cd0d59f108f9e02a381c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kem-bench.yml",
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "kem benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "key-exchange-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "lattice-based-crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs",
+      "target": "post-quantum-cryptography",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "open-quantum-safe/liboqs"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Docker image (nightly)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "Publish Docker image (nightly)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate",
+      "text": "Publish Docker image (nightly)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15129,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10629,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10629,
+      "status": "candidate",
+      "text": "blacksmith"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Docker image (nightly)",
+  "concept_id": "publish-docker-image-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Docker image (nightly)",
+      "sense_id": "publish-docker-image-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

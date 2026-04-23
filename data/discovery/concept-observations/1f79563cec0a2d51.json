@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Custom RTTs and JS interop for Wasm GC structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI for spectec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI for spectec"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "thousand"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI for spectec",
+      "sense_id": "ci-for-spectec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-for-spectec",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-for-spectec",
+  "observation_id": "1f79563cec0a2d51",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI for spectec",
+  "source_context_snippet": "CI for spectec",
+  "source_file": ".github/workflows/ci-spectec.yml",
+  "source_repo": "WebAssembly/custom-descriptors",
+  "source_repo_description": "Custom RTTs and JS interop for Wasm GC structs"
+}

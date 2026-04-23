@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "wader/bump/action/go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wader/fq",
+      "target": "binspector/binspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wader/fq",
+      "target": "ergochat/readline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wader/fq",
+      "target": "burntsushi/toml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wader/fq",
+      "target": "creasty/defaults",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "wader/fq",
+      "target": "wader/bump/action/go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "wader/fq",
+      "target": "Automatic version updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wader/fq",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wader/fq",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wader/fq",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wader/fq",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "decode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "hexdump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "pcap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wader/fq",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:35:58.088862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10951
+    },
+    {
+      "path": "Dockerfile",
+      "size": 631
+    },
+    {
+      "path": "go.mod",
+      "size": 4801
+    },
+    {
+      "path": ".github/workflows/bump.yml",
+      "size": 490
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1501
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "jq for binary formats - tool, language and decoders for working with binary and text formats",
+    "fork": false,
+    "full_name": "wader/fq",
+    "html_url": "https://github.com/wader/fq",
+    "language": "Go",
+    "pushed_at": "2026-04-18T08:37:08Z",
+    "stargazers_count": 10481,
+    "topics": [
+      "binary",
+      "cli",
+      "decode",
+      "go",
+      "golang",
+      "hexdump",
+      "jq",
+      "json",
+      "pcap",
+      "query",
+      "repl",
+      "tls",
+      "xml"
+    ],
+    "updated_at": "2026-04-23T12:42:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binspector/binspector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/toml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creasty/defaults",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ergochat/readline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Automatic version updates\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "term": "Automatic version updates"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decode"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hexdump"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcap"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query"
+    },
+    {
+      "context_snippet": "Tool, language and decoders for working with binary data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

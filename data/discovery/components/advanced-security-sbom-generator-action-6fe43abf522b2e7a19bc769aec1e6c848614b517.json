@@ -1,0 +1,12 @@
+{
+  "component": "advanced-security/sbom-generator-action@6fe43abf522b2e7a19bc769aec1e6c848614b517",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "source_repo": "shirou/gopsutil"
+    }
+  ]
+}

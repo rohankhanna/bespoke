@@ -1,0 +1,619 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "nobrayner/discord-webhook@1766a33bf571acdcc0678f00da4fb83aad01ebc7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@5c625bfb5d1ff62eadeeb3772007f7f66fdcf071",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml"
+    },
+    {
+      "component": "medyagh/setup-minikube@e9e035a86bbc3caea26a450bd4dbf9d0c453682e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml"
+    },
+    {
+      "component": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "dapplion/beacon-metrics-gazer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethdreamer/json_rpc_snoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "blockscout/blockscout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "eth-act/zkboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check consensus spec values",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "nobrayner/discord-webhook@1766a33bf571acdcc0678f00da4fb83aad01ebc7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Nightly test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "googleapis/release-please-action@5c625bfb5d1ff62eadeeb3772007f7f66fdcf071",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "medyagh/setup-minikube@e9e035a86bbc3caea26a450bd4dbf9d0c453682e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Run k8s test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "flashbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "geth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kurtosis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kurtosis-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "lighthouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "mev-boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "mev-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "reth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "starlark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:05.291896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 87705
+    },
+    {
+      "path": ".github/workflows/check-consensus-spec-values.yml",
+      "size": 1566
+    },
+    {
+      "path": ".github/workflows/check-typos.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/conventional-pr-title-checker.yml",
+      "size": 508
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 3120
+    },
+    {
+      "path": ".github/workflows/per-pr.yml",
+      "size": 5262
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 464
+    },
+    {
+      "path": ".github/workflows/run-k8s.yml",
+      "size": 2539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet",
+    "fork": false,
+    "full_name": "ethpandaops/ethereum-package",
+    "html_url": "https://github.com/ethpandaops/ethereum-package",
+    "language": "Starlark",
+    "pushed_at": "2026-04-22T14:38:23Z",
+    "stargazers_count": 460,
+    "topics": [
+      "blockchain",
+      "docker",
+      "ethereum",
+      "flashbots",
+      "geth",
+      "kubernetes",
+      "kurtosis",
+      "kurtosis-package",
+      "lighthouse",
+      "mev",
+      "mev-boost",
+      "mev-bot",
+      "reth",
+      "simulation",
+      "starlark",
+      "testing"
+    ],
+    "updated_at": "2026-04-21T15:28:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blockscout/blockscout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dapplion/beacon-metrics-gazer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eth-act/zkboost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethdreamer/json_rpc_snoop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check consensus spec values",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml",
+      "term": "Check consensus spec values"
+    },
+    {
+      "context_snippet": "Check typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-typos.yml",
+      "term": "Check typos"
+    },
+    {
+      "context_snippet": "Check PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "term": "Check PR title"
+    },
+    {
+      "context_snippet": "Nightly test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly test Workflow"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "Run k8s test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "term": "Run k8s test"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flashbots"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geth"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurtosis"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurtosis-package"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lighthouse"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mev-boost"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mev-bot"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reth"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    },
+    {
+      "context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

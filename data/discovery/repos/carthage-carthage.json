@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Carthage/Carthage",
+      "target": "cocoapods/cocoapods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage",
+      "target": "carthage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage",
+      "target": "cocoa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:01.027653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple, decentralized dependency manager for Cocoa",
+    "fork": false,
+    "full_name": "Carthage/Carthage",
+    "html_url": "https://github.com/Carthage/Carthage",
+    "language": "Swift",
+    "pushed_at": "2025-09-10T15:36:04Z",
+    "stargazers_count": 15209,
+    "topics": [
+      "carthage",
+      "cocoa",
+      "package-manager",
+      "swift"
+    ],
+    "updated_at": "2026-04-23T01:15:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/cocoapods",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](Logo/PNG/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carthage"
+    },
+    {
+      "context_snippet": "![](Logo/PNG/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoa"
+    },
+    {
+      "context_snippet": "![](Logo/PNG/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "![](Logo/PNG/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

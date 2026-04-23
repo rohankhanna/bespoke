@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "data-mining"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022921,
+      "status": "candidate",
+      "text": "datamining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022920,
+      "status": "candidate",
+      "text": "data mining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022919,
+      "status": "candidate",
+      "text": "data scraping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022918,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022917,
+      "status": "candidate",
+      "text": "data processing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "data-mining",
+  "concept_id": "data-mining",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-mining",
+      "sense_id": "data-mining#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "test-cli-tool-on-gpu-runners",
   "observation_id": "f6b6f46e68afd9d8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Test CLI Tool on GPU runners",
   "source_context_snippet": "\"Test CLI Tool on GPU runners\"",
   "source_file": ".github/workflows/run-on-gpu.yml",

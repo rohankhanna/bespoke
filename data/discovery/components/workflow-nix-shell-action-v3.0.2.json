@@ -1,0 +1,12 @@
+{
+  "component": "workflow/nix-shell-action@v3.0.2",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc"
+    }
+  ]
+}

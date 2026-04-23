@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Data Schema Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Data Schema Validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "afterthought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "scalogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22952,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Data Schema Validation",
+      "sense_id": "data-schema-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-schema-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-schema-validation",
+  "observation_id": "fa8b45cd73a0d907",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Data Schema Validation",
+  "source_context_snippet": "Data Schema Validation",
+  "source_file": ".github/workflows/schema_check.yml",
+  "source_repo": "camel-ai/loong",
+  "source_repo_description": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+}

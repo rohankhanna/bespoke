@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050778,
+      "status": "candidate",
+      "text": "central processing unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050704,
+      "status": "candidate",
+      "text": "mainframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047318,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050881,
+      "status": "candidate",
+      "text": "central processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043531,
+      "status": "candidate",
+      "text": "dsp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "processor",
+      "sense_id": "processor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1042,
+      "status": "candidate",
+      "text": "mainframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "central processing unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "central processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "cpu"
+    }
+  ],
+  "concept_id": "processor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "processor",
+  "observation_id": "86ea83d43033d37e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "processor",
+  "source_context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+  "source_file": null,
+  "source_repo": "oshi/oshi",
+  "source_repo_description": "Native Operating System and Hardware Information"
+}

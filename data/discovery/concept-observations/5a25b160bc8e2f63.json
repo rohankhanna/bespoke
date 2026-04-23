@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Gymnasium Tutorials"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Gymnasium Tutorials"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "cataloged procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "checkout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "crib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "pony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Gymnasium Tutorials",
+      "sense_id": "test-gymnasium-tutorials#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-gymnasium-tutorials",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-gymnasium-tutorials",
+  "observation_id": "5a25b160bc8e2f63",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Test Gymnasium Tutorials",
+  "source_context_snippet": "Test Gymnasium Tutorials",
+  "source_file": ".github/workflows/run-tutorial.yml",
+  "source_repo": "Farama-Foundation/Gymnasium",
+  "source_repo_description": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+}

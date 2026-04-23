@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "browser-side require() the node.js way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "browserify \u2014 browser-side require() the node way"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "browserify \u2014 browser-side require() the node way"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012357,
+      "status": "candidate",
+      "text": "faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "mental faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "bays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "blades"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modules",
+      "sense_id": "modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "modules",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "modules",
+  "observation_id": "b950242b830a9b09",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "modules",
+  "source_context_snippet": "browserify \u2014 browser-side require() the node way",
+  "source_file": null,
+  "source_repo": "browserify/browserify",
+  "source_repo_description": "browser-side require() the node.js way"
+}

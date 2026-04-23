@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:50:02.433694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cuilimeng/CoAID",
+    "html_url": "https://github.com/cuilimeng/CoAID",
+    "language": null,
+    "pushed_at": "2022-04-04T02:41:24Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-04-19T19:11:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

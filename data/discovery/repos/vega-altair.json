@@ -126,28 +126,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vega/altair",
-      "target": "vega/vega-lite",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vega/altair",
       "target": "altair-viz/altair_notebooks",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vega/altair",
-      "target": "pytest-dev/pytest",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "vega/altair",
-      "target": "vega/vega-datasets",
+      "target": "vega/vega-embed",
       "target_type": "repository"
     },
     {
@@ -333,7 +319,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-20T03:17:06.743187+00:00",
+  "fetched_at": "2026-04-23T19:58:23.513856+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -341,7 +327,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 11492
+      "size": 11496
     },
     {
       "path": ".github/workflows/build-free-threaded.yml",
@@ -377,10 +363,10 @@
     "full_name": "vega/altair",
     "html_url": "https://github.com/vega/altair",
     "language": "Python",
-    "pushed_at": "2026-04-19T16:43:35Z",
-    "stargazers_count": 10333,
+    "pushed_at": "2026-04-21T14:01:47Z",
+    "stargazers_count": 10335,
     "topics": [],
-    "updated_at": "2026-04-20T00:33:53Z"
+    "updated_at": "2026-04-23T11:22:22Z"
   },
   "repo_links": [
     {
@@ -390,17 +376,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pytest-dev/pytest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vega/vega-lite",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vega/vega-datasets",
+      "full_name": "vega/vega-embed",
       "source_file": "pyproject.toml"
     }
   ],

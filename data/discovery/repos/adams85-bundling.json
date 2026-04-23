@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adams85/bundling",
+      "target": "dotless/dotless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adams85/bundling",
+      "target": "taritsyn/libsasshost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adams85/bundling",
+      "target": "madskristensen/bundlerminifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adams85/bundling",
+      "target": "dotnet/sdk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:04:33.877061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library for optimizing and bundling web assets of ASP.NET Core applications.",
+    "fork": false,
+    "full_name": "adams85/bundling",
+    "html_url": "https://github.com/adams85/bundling",
+    "language": "C#",
+    "pushed_at": "2025-01-01T14:32:51Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2025-03-07T12:06:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotless/dotless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madskristensen/bundlerminifier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taritsyn/libsasshost",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

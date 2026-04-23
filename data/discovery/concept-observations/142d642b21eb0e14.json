@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Transifex sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Transifex sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "attuned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "jibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "agrees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "align"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Transifex sync",
+      "sense_id": "transifex-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "transifex-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transifex-sync",
+  "observation_id": "142d642b21eb0e14",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Transifex sync",
+  "source_context_snippet": "Transifex sync",
+  "source_file": ".github/workflows/tx-pull.yml",
+  "source_repo": "ipfs/ipfs-desktop",
+  "source_repo_description": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+}

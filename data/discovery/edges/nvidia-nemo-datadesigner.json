@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "berriai/litellm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentic-ci-daily.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentic-ci-daily.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentic-ci-daily.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Agentic CI: Daily Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentic-ci-health-probe.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Agentic CI: Health Probe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentic-ci-issue-triage.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentic-ci-issue-triage.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Agentic CI: Repository Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentic-ci-pr-review.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentic-ci-pr-review.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Agentic CI: PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Build notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-colab-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-colab-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-colab-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "Check Colab notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "data-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "nemo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "synthetic-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "target": "tool-use",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "NVIDIA-NeMo/DataDesigner"
+}

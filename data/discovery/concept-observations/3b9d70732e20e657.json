@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Super-powered JavaScript project management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "spaces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "workplaces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "workstations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "worksite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "work station"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "workspaces",
+      "sense_id": "workspaces#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "workspaces",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "workspaces",
+  "observation_id": "3b9d70732e20e657",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "workspaces",
+  "source_context_snippet": "> Super-powered JavaScript project management",
+  "source_file": null,
+  "source_repo": "boltpkg/bolt",
+  "source_repo_description": "\u26a1\ufe0f Super-powered JavaScript project management"
+}

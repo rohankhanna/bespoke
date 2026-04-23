@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FP16xINT4 LLM inference kernel that can achieve near-ideal ~4x speedups up to medium batchsizes of 16-32 tokens."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017370,
+      "status": "candidate",
+      "text": "center"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002535,
+      "status": "candidate",
+      "text": "sum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977374,
+      "status": "candidate",
+      "text": "gist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972701,
+      "status": "candidate",
+      "text": "nitty-gritty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960456,
+      "status": "candidate",
+      "text": "substance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kernel",
+      "sense_id": "kernel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47054,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41088,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23047,
+      "status": "candidate",
+      "text": "marrow"
+    }
+  ],
+  "concept_id": "kernel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kernel",
+  "observation_id": "abe239705cf1747a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "kernel",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "IST-DASLab/marlin",
+  "source_repo_description": "FP16xINT4 LLM inference kernel that can achieve near-ideal ~4x speedups up to medium batchsizes of 16-32 tokens."
+}

@@ -31,6 +31,18 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate-context",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate-context",
+      "text": "OTFeatureFreezer GUI app and pyftfeatfreeze commandline tool in Python to permanently \"apply\" OpenType features to fonts, by remapping their Unicode assignments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate-context",
+      "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate",
+      "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "adobe-fonts/source-code-pro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

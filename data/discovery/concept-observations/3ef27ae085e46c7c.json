@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync SPDX License Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync SPDX License Data"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23380,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22716,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "benching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "seasoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22587,
+      "status": "candidate",
+      "text": "forward"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync SPDX License Data",
+      "sense_id": "sync-spdx-license-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-spdx-license-data",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-spdx-license-data",
+  "observation_id": "3ef27ae085e46c7c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sync SPDX License Data",
+  "source_context_snippet": "Sync SPDX License Data",
+  "source_file": ".github/workflows/sync-license-data.yml",
+  "source_repo": "jsr-io/jsr",
+  "source_repo_description": "The open-source package registry for modern JavaScript and TypeScript"
+}

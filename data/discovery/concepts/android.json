@@ -436,6 +436,186 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate-context",
       "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, HarmonyOS, WebAssembly, watchOS, tvOS, visionOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "- [Features](#features)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "Flutter App benchmarking the performance of ObjectBox against others (e.g. sqflite, Hive)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "ConnectBot's terminal emulator Android Compose component using libvterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "Vulkan best practice for mobile developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_glosses": [
@@ -654,6 +834,102 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate",
       "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "- [Features](#features)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_related_terms": [
@@ -934,11 +1210,113 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectbot/termlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

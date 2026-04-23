@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "ksonnet/kubecfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "bitnami-labs/kube-libsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "ksonnet/ksonnet-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "kustomize",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:14.862178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A jsonnet library that implements most of the kustomize operations",
+    "fork": false,
+    "full_name": "anguslees/kustomize-libsonnet",
+    "html_url": "https://github.com/anguslees/kustomize-libsonnet",
+    "language": "Jsonnet",
+    "pushed_at": "2021-08-31T14:51:29Z",
+    "stargazers_count": 51,
+    "topics": [
+      "jsonnet",
+      "kubernetes",
+      "kustomize"
+    ],
+    "updated_at": "2026-03-01T12:48:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitnami-labs/kube-libsonnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksonnet/ksonnet-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksonnet/kubecfg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains [`kustomize.libsonnet`](https://github.com/anguslees/kustomize-libsonnet/blob/master/kustomize.libsonnet) - a jsonnet library that re-implements the core transformation operations of the Kubernetes [kustomize](https://kustomize.io/) tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonnet"
+    },
+    {
+      "context_snippet": "This repo contains [`kustomize.libsonnet`](https://github.com/anguslees/kustomize-libsonnet/blob/master/kustomize.libsonnet) - a jsonnet library that re-implements the core transformation operations of the Kubernetes [kustomize](https://kustomize.io/) tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "This repo contains [`kustomize.libsonnet`](https://github.com/anguslees/kustomize-libsonnet/blob/master/kustomize.libsonnet) - a jsonnet library that re-implements the core transformation operations of the Kubernetes [kustomize](https://kustomize.io/) tool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kustomize"
+    }
+  ]
+}

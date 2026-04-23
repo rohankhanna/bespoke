@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "lexicon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987311,
+      "status": "candidate",
+      "text": "vocabulary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983840,
+      "status": "candidate",
+      "text": "dictionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988927,
+      "status": "candidate",
+      "text": "mental lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988926,
+      "status": "candidate",
+      "text": "glossary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988473,
+      "status": "candidate",
+      "text": "creole"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "vocabulary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6010,
+      "status": "candidate",
+      "text": "mental lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "dictionary"
+    }
+  ],
+  "canonical_name": "lexicon",
+  "concept_id": "lexicon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lexicon",
+      "sense_id": "lexicon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

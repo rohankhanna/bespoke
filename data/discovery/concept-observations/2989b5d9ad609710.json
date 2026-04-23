@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961561,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953466,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934229,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915497,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967901,
+      "status": "candidate",
+      "text": "grade insignia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stripe",
+      "sense_id": "stripe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9047,
+      "status": "candidate",
+      "text": "streak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2047,
+      "status": "candidate",
+      "text": "chevron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1042,
+      "status": "candidate",
+      "text": "banding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27,
+      "status": "candidate",
+      "text": "stripes"
+    }
+  ],
+  "concept_id": "stripe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stripe",
+  "observation_id": "2989b5d9ad609710",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "stripe",
+  "source_context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+  "source_file": null,
+  "source_repo": "14nrv/buefy-shop",
+  "source_repo_description": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+}

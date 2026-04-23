@@ -1,0 +1,12 @@
+{
+  "component": "suzuki-shunsuke/pinact-action@cf51507d80d4d6522a07348e3d58790290eaf0b6",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine"
+    }
+  ]
+}

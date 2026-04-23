@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975275,
+      "status": "candidate",
+      "text": "weighing machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965271,
+      "status": "candidate",
+      "text": "descale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948594,
+      "status": "candidate",
+      "text": "plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903906,
+      "status": "candidate",
+      "text": "surmount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801849,
+      "status": "candidate",
+      "text": "scale leaf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scale",
+      "sense_id": "scale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "surmount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7067,
+      "status": "candidate",
+      "text": "plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "scurf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "weighing machine"
+    }
+  ],
+  "concept_id": "scale",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scale",
+  "observation_id": "b8bbecf5dd031b3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "scale",
+  "source_context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+  "source_file": null,
+  "source_repo": "knative/serving",
+  "source_repo_description": "Kubernetes-based, scale-to-zero, request-driven compute"
+}

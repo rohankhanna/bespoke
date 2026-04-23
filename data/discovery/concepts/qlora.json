@@ -19,6 +19,18 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate-context",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

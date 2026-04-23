@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Playwright\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Playwright\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048585,
+      "status": "candidate",
+      "text": "dramatist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048890,
+      "status": "candidate",
+      "text": "drama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047494,
+      "status": "candidate",
+      "text": "theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043793,
+      "status": "candidate",
+      "text": "tragedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038943,
+      "status": "candidate",
+      "text": "screenwriter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Playwright",
+      "sense_id": "playwright#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "dramatist"
+    }
+  ],
+  "concept_id": "playwright",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "playwright",
+  "observation_id": "2c91eda8ddba8175",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Playwright",
+  "source_context_snippet": "\"Playwright\"",
+  "source_file": ".github/workflows/playwright.yml",
+  "source_repo": "cjpais/Handy",
+  "source_repo_description": "A free, open source, and extensible speech-to-text application that works completely offline."
+}

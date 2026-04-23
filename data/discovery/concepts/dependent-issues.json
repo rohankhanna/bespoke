@@ -19,12 +19,30 @@
       "source_repo": "berty/berty",
       "status": "candidate-context",
       "text": "Dependent Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "A community-maintained Python framework for creating mathematical animations. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "Dependent Issues"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "berty/berty",
+      "status": "candidate",
+      "text": "Dependent Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
       "status": "candidate",
       "text": "Dependent Issues"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/dependent-issues.yml",
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependent-issues.yml",
+      "source_repo": "ManimCommunity/manim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

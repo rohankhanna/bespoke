@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Shellcheck",
-    "shellcheck"
+    "shellcheck",
+    "ShellCheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,42 @@
       "source_repo": "federicotdn/flymake-shellcheck",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate-context",
+      "text": "Support for Miniscript and Output Descriptors for rust-bitcoin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate-context",
+      "text": "Shellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "psutil for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "Shellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 (and Swagger v2) implementation for Go (parsing, converting, validation, and more)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "ShellCheck"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +121,24 @@
       "source_repo": "federicotdn/flymake-shellcheck",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "status": "candidate",
+      "text": "Shellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate",
+      "text": "Shellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate",
+      "text": "ShellCheck"
     }
   ],
   "candidate_related_terms": [],
@@ -115,11 +170,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "federicotdn/flymake-shellcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "shirou/gopsutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "getkin/kin-openapi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

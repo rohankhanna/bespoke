@@ -34,6 +34,30 @@
       "source_repo": "microsoft/torchscale",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "microsoft/torchscale",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +175,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "microsoft/torchscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configure AWS credential environment variables for use in other GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Closed Issue Message"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Closed Issue Message"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "regards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17909,
+      "status": "candidate",
+      "text": "blinds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Closed Issue Message",
+      "sense_id": "closed-issue-message#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "closed-issue-message",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "closed-issue-message",
+  "observation_id": "6583622ea998a81d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Closed Issue Message",
+  "source_context_snippet": "Closed Issue Message",
+  "source_file": ".github/workflows/closed-issue-message.yml",
+  "source_repo": "aws-actions/configure-aws-credentials",
+  "source_repo_description": "Configure AWS credential environment variables for use in other GitHub Actions."
+}

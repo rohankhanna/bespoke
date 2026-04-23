@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "mirai\u9879\u76ee\u7684\u8d5e\u52a9\u900f\u660e\u5316\uff0c\u91d1\u989d\u6d41\u5411\u516c\u793a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989216,
+      "status": "candidate",
+      "text": "amended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989030,
+      "status": "candidate",
+      "text": "modernize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988219,
+      "status": "candidate",
+      "text": "modify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988052,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987843,
+      "status": "candidate",
+      "text": "modified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update",
+      "sense_id": "update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update",
+  "observation_id": "d6ca3e8f13e43344",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "update",
+  "source_context_snippet": "update",
+  "source_file": ".github/workflows/update.yml",
+  "source_repo": "project-mirai/mirai-sponsor",
+  "source_repo_description": "mirai\u9879\u76ee\u7684\u8d5e\u52a9\u900f\u660e\u5316\uff0c\u91d1\u989d\u6d41\u5411\u516c\u793a"
+}

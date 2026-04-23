@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +45,18 @@
       "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
       "status": "candidate-context",
       "text": "This repository contains sample applications used in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "Google OAuth Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate-context",
+      "text": "samples"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +77,12 @@
       "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
       "status": "candidate",
       "text": "This repository contains sample applications used in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate",
+      "text": "samples"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +144,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

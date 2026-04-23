@@ -19,6 +19,18 @@
       "source_repo": "redis/go-redis",
       "status": "candidate-context",
       "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "Your high performance web application C framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "redis/go-redis",
       "status": "candidate",
       "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

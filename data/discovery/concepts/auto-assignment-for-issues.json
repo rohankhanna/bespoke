@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto assignment for issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A base16 builder written in go, focused on convenience for template maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "\"Auto assignment for issues\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate",
+      "text": "\"Auto assignment for issues\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "garage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "gears"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "horsepower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "low"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto assignment for issues",
+  "concept_id": "auto-assignment-for-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-builder-go"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto assignment for issues",
+      "sense_id": "auto-assignment-for-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsharp/fslang-design",
+      "target": "fsharp/fslang-suggestions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsharp/fslang-design",
+      "target": "dotnet/fsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsharp/fslang-design",
+      "target": "fsprojects/fantomas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design",
+      "target": "language-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:14.759745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs and docs related to the F# language design process, see https://github.com/fsharp/fslang-suggestions to submit ideas ",
+    "fork": false,
+    "full_name": "fsharp/fslang-design",
+    "html_url": "https://github.com/fsharp/fslang-design",
+    "language": "F#",
+    "pushed_at": "2026-03-10T10:35:51Z",
+    "stargazers_count": 548,
+    "topics": [
+      "fsharp",
+      "language-design",
+      "programming-language",
+      "rfc"
+    ],
+    "updated_at": "2026-04-15T08:43:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/fsharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsharp/fslang-suggestions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsprojects/fantomas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-design"
+    },
+    {
+      "context_snippet": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

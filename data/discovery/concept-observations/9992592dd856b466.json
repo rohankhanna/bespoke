@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++/WinRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Line Endings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Line Endings"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26592,
+      "status": "candidate",
+      "text": "snub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26192,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26192,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26192,
+      "status": "candidate",
+      "text": "payee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25792,
+      "status": "candidate",
+      "text": "mates"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Line Endings",
+      "sense_id": "check-line-endings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-line-endings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-line-endings",
+  "observation_id": "9992592dd856b466",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check Line Endings",
+  "source_context_snippet": "Check Line Endings",
+  "source_file": ".github/workflows/check-line-endings.yml",
+  "source_repo": "microsoft/cppwinrt",
+  "source_repo_description": "C++/WinRT"
+}

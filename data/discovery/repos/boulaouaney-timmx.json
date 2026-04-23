@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "inisis/onnxslim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "pnnx/pnnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "Claude Auto Review with Tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:05.991892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13443
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1968
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1275
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1886
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to export pre-trained/finetuned timm models to various deployment-ready frameworks",
+    "fork": false,
+    "full_name": "Boulaouaney/timmx",
+    "html_url": "https://github.com/Boulaouaney/timmx",
+    "language": "Python",
+    "pushed_at": "2026-03-24T14:28:03Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-24T06:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inisis/onnxslim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pnnx/pnnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Auto Review with Tracking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Auto Review with Tracking"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    }
+  ]
+}

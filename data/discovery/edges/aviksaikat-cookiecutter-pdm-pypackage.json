@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "cruft/cruft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "cookicutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "virtualenv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage"
+}

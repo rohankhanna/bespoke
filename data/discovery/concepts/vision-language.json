@@ -43,6 +43,18 @@
       "source_repo": "IDEA-Research/GroundingDINO",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "IDEA-Research/GroundingDINO",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/GroundingDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

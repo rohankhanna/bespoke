@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sequence"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968515,
+      "status": "candidate",
+      "text": "successiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966825,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947087,
+      "status": "candidate",
+      "text": "episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974748,
+      "status": "candidate",
+      "text": "chronological sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974748,
+      "status": "candidate",
+      "text": "chronological succession"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8053,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3043,
+      "status": "candidate",
+      "text": "episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "successiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "chronological succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "chronological sequence"
+    }
+  ],
+  "canonical_name": "sequence",
+  "concept_id": "sequence",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/fill-range"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequence",
+      "sense_id": "sequence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

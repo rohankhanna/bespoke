@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "theimpossibleastronaut/rmw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "Make Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "andreafrancia/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "trashcan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "andreafrancia/trash-cli"
+}

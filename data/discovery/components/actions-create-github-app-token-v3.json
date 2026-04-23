@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@v3",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sync-main-to-nix-next.yml",
       "source_repo": "nix-community/harmonia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-push-fixes.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/request-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-api-schema-sha.yml",
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml",
+      "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit"
     }
   ]
 }

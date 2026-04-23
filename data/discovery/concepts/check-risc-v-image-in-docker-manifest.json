@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check RISC-V Image in Docker Manifest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Connect to any device with no external listening ports open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Check RISC-V Image in Docker Manifest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate",
+      "text": "Check RISC-V Image in Docker Manifest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21467,
+      "status": "candidate",
+      "text": "lumo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21467,
+      "status": "candidate",
+      "text": "lumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17475,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17401,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17401,
+      "status": "candidate",
+      "text": "inform"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check RISC-V Image in Docker Manifest",
+  "concept_id": "check-risc-v-image-in-docker-manifest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check_riscv_image.yml",
+      "source_repo": "atsign-foundation/noports"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check RISC-V Image in Docker Manifest",
+      "sense_id": "check-risc-v-image-in-docker-manifest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -126,7 +126,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "julialang/julia",
+      "target": "juliapluto/plutoui.jl",
       "target_type": "repository"
     },
     {
@@ -140,14 +140,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "juliaio/msgpack.jl",
+      "target": "juliaweb/http.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "developit/htm",
+      "target": "kawanet/msgpack-lite",
       "target_type": "repository"
     },
     {
@@ -431,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:35:17.019530+00:00",
+  "fetched_at": "2026-04-23T20:45:27.488330+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -484,7 +484,7 @@
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
     "pushed_at": "2026-04-20T09:49:58Z",
-    "stargazers_count": 5316,
+    "stargazers_count": 5317,
     "topics": [
       "designed-for-teachers",
       "education",
@@ -496,7 +496,7 @@
       "reactive",
       "visualization"
     ],
-    "updated_at": "2026-04-21T20:42:29Z"
+    "updated_at": "2026-04-23T11:57:15Z"
   },
   "repo_links": [
     {
@@ -506,17 +506,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "developit/htm",
+      "full_name": "juliapluto/plutoui.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliaio/msgpack.jl",
+      "full_name": "juliaweb/http.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "julialang/julia",
+      "full_name": "kawanet/msgpack-lite",
       "source_file": "README.md"
     }
   ],

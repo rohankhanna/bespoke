@@ -1,0 +1,461 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_healthcheck_vm.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_comment.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.88.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml"
+    },
+    {
+      "component": "nv-gha-runners/get-pr-info@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "step-security/changed-files@v45.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.80.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.57.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_container.yml@v0.78.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "nv-gha-runners/get-pr-info@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_claude_review.yml@v0.79.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "nvidia/nemo-aligner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "deepseek-ai/deepep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "dao-ailab/causal-conv1d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_healthcheck_vm.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_healthcheck_vm.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "~monitor a single VM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_comment.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_pr_comment.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "PR Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "Submodule Fast-Forward Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automodel-submodule-checks.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "Automodel Integration and Submodule Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.88.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "step-security/changed-files@v45.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.80.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.57.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_container.yml@v0.78.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "CICD NeMo RL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_claude_review.yml@v0.79.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:57.607354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34970
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 22317
+    },
+    {
+      "path": ".github/workflows/_healthcheck_vm.yml",
+      "size": 4656
+    },
+    {
+      "path": ".github/workflows/_pr_comment.yml",
+      "size": 7289
+    },
+    {
+      "path": ".github/workflows/_submodule_check.yml",
+      "size": 12437
+    },
+    {
+      "path": ".github/workflows/automodel-submodule-checks.yml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/build-test-publish-wheel.yml",
+      "size": 1285
+    },
+    {
+      "path": ".github/workflows/cherry-pick-release-commit.yml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/cicd-main.yml",
+      "size": 25281
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 1460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable toolkit for efficient model reinforcement",
+    "fork": false,
+    "full_name": "NVIDIA-NeMo/RL",
+    "html_url": "https://github.com/NVIDIA-NeMo/RL",
+    "language": "Python",
+    "pushed_at": "2026-04-23T17:23:58Z",
+    "stargazers_count": 1563,
+    "topics": [],
+    "updated_at": "2026-04-23T13:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo-aligner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/causal-conv1d",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepseek-ai/deepep",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~monitor a single VM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_healthcheck_vm.yml",
+      "term": "~monitor a single VM"
+    },
+    {
+      "context_snippet": "\"PR Comment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_pr_comment.yml",
+      "term": "PR Comment"
+    },
+    {
+      "context_snippet": "\"Submodule Fast-Forward Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "term": "Submodule Fast-Forward Check"
+    },
+    {
+      "context_snippet": "\"Automodel Integration and Submodule Checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automodel-submodule-checks.yml",
+      "term": "Automodel Integration and Submodule Checks"
+    },
+    {
+      "context_snippet": "\"CICD NeMo RL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "term": "CICD NeMo RL"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude Code Review"
+    }
+  ]
+}

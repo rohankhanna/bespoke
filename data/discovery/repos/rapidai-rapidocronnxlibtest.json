@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:12:52.037766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "rapidocr onnx cpp lib test",
+    "fork": false,
+    "full_name": "RapidAI/RapidOcrOnnxLibTest",
+    "html_url": "https://github.com/RapidAI/RapidOcrOnnxLibTest",
+    "language": "CMake",
+    "pushed_at": "2022-10-20T02:10:28Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-21T17:08:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

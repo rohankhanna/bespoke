@@ -19,6 +19,30 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate-context",
       "text": "Validate PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "'Validate PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "'Validate PR title'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate",
       "text": "Validate PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate",
+      "text": "'Validate PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate",
+      "text": "'Validate PR title'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

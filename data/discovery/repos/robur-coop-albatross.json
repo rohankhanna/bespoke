@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robur-coop/albatross",
+      "target": "solo5/solo5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross",
+      "target": "cachix/install-nix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross",
+      "target": "Albatross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "mirageos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "provisioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "unikernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross",
+      "target": "virtual-machine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:49.419757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11004
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Albatross: orchestrate and manage MirageOS unikernels with Solo5",
+    "fork": false,
+    "full_name": "robur-coop/albatross",
+    "html_url": "https://github.com/robur-coop/albatross",
+    "language": "OCaml",
+    "pushed_at": "2026-04-15T14:16:34Z",
+    "stargazers_count": 162,
+    "topics": [
+      "deployment",
+      "mirageos",
+      "ocaml",
+      "orchestration",
+      "provisioning",
+      "security",
+      "unikernel",
+      "virtual-machine"
+    ],
+    "updated_at": "2026-04-20T19:43:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "solo5/solo5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Albatross",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Albatross"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirageos"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "provisioning"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unikernel"
+    },
+    {
+      "context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    }
+  ]
+}

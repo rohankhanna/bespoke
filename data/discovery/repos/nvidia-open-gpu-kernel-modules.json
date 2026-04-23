@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:06:40.057466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA Linux open GPU kernel module source",
+    "fork": false,
+    "full_name": "NVIDIA/open-gpu-kernel-modules",
+    "html_url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+    "language": "C",
+    "pushed_at": "2026-04-03T00:04:57Z",
+    "stargazers_count": 16925,
+    "topics": [],
+    "updated_at": "2026-04-23T20:37:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "snmalloc-rs CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/snmalloc",
+      "status": "candidate-context",
+      "text": "Message passing based allocator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/snmalloc",
+      "status": "candidate-context",
+      "text": "snmalloc-rs CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/snmalloc",
+      "status": "candidate",
+      "text": "snmalloc-rs CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "thousand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "snmalloc-rs CI",
+  "concept_id": "snmalloc-rs-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/snmalloc"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "snmalloc-rs CI",
+      "sense_id": "snmalloc-rs-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

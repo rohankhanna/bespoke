@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/vault-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/hello-vault-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/docker-vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "DataDog/vault",
+      "target": "Lint GitHub Actions Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-hashicorp-contributed-label.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-hashicorp-contributed-label.yml",
+      "source_repo": "DataDog/vault",
+      "target": "Add HashiCorp contributed label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-ce.yml",
+      "source_repo": "DataDog/vault",
+      "target": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-prevent-performance-degradations.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-prevent-performance-degradations.yml",
+      "source_repo": "DataDog/vault",
+      "target": "Bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts-ce.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/actions-set-product-version@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/vault-action@d1720f055e0635fd932a1d2a48f87a666a57906c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/vault-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "slackapi/slack-github-action@37ebaef184d7626c5f204ab8d3baff4262dd30f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "hashicorp/actions-generate-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "DataDog/vault",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "DataDog/vault",
+      "target": "Check Changelog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "DataDog/vault"
+}

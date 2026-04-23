@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Regressions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "A tool for creating technical documents and web standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "Regressions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate",
+      "text": "Regressions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016967,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016836,
+      "status": "candidate",
+      "text": "reversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016742,
+      "status": "candidate",
+      "text": "retroversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016696,
+      "status": "candidate",
+      "text": "retrogression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005017,
+      "status": "candidate",
+      "text": "fixation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Regressions",
+  "concept_id": "regressions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/regressions.yml",
+      "source_repo": "speced/respec"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regressions",
+      "sense_id": "regressions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

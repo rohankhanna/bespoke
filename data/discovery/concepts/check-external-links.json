@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check external links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "Check external links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate",
+      "text": "Check external links"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18089,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "interconnection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18057,
+      "status": "candidate",
+      "text": "relation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check external links",
+  "concept_id": "check-external-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "source_repo": "google/adk-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check external links",
+      "sense_id": "check-external-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

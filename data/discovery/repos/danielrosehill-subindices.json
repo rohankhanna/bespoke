@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/arch-and-interiors-index",
+      "target": "danielrosehill/ai-presentation-builders-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/architectural-plans-index",
+      "target": "danielrosehill/claude-israel",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/backup-projects-index",
+      "target": "danielrosehill/context-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/bug-reports-and-fixes",
+      "target": "danielrosehill/data-projects-index",
       "target_type": "repository"
     },
     {
@@ -44,11 +44,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:23:05.878003+00:00",
+  "fetched_at": "2026-04-23T20:49:07.925527+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13561
+      "size": 13923
     }
   ],
   "related_repositories": [],
@@ -60,33 +60,33 @@
     "full_name": "danielrosehill/Subindices",
     "html_url": "https://github.com/danielrosehill/Subindices",
     "language": null,
-    "pushed_at": "2026-04-20T10:58:42Z",
+    "pushed_at": "2026-04-23T13:06:17Z",
     "stargazers_count": 1,
     "topics": [
       "repositories",
       "repository-index"
     ],
-    "updated_at": "2026-04-20T10:58:46Z"
+    "updated_at": "2026-04-23T13:06:21Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/arch-and-interiors-index",
+      "full_name": "danielrosehill/ai-presentation-builders-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/architectural-plans-index",
+      "full_name": "danielrosehill/claude-israel",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/backup-projects-index",
+      "full_name": "danielrosehill/context-projects-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/bug-reports-and-fixes",
+      "full_name": "danielrosehill/data-projects-index",
       "source_file": "README.md"
     }
   ],

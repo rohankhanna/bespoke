@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github-linguist/linguist",
+      "target": "github/linguist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github-linguist/linguist",
+      "target": "brianmario/charlock_holmes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github-linguist/linguist",
+      "target": "libgit2/rugged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github-linguist/linguist",
+      "target": "jekyll/jekyll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist",
+      "target": "language-grammars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist",
+      "target": "language-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist",
+      "target": "linguistic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:27.016179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10380
+    },
+    {
+      "path": "Dockerfile",
+      "size": 263
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1769
+    },
+    {
+      "path": ".github/workflows/publish_docker_image.yml",
+      "size": 1475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+    "fork": false,
+    "full_name": "github-linguist/linguist",
+    "html_url": "https://github.com/github-linguist/linguist",
+    "language": "Ruby",
+    "pushed_at": "2026-03-18T15:06:01Z",
+    "stargazers_count": 13431,
+    "topics": [
+      "language-grammars",
+      "language-statistics",
+      "linguistic",
+      "syntax-highlighting"
+    ],
+    "updated_at": "2026-04-23T14:59:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brianmario/charlock_holmes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/linguist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jekyll/jekyll",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libgit2/rugged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-grammars"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-statistics"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linguistic"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    }
+  ]
+}

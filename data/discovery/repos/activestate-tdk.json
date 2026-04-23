@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:36:37.319065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tcl Dev Kit (TDK)",
+    "fork": false,
+    "full_name": "ActiveState/tdk",
+    "html_url": "https://github.com/ActiveState/tdk",
+    "language": "Tcl",
+    "pushed_at": "2024-05-17T21:05:06Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-04-12T01:59:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

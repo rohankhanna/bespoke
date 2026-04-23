@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "keeeeenw/microllama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "huggingface/smollm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "bsc-ltc/salamandra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "jzhang38/tinyllama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "Check hyperlinks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "CPU tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-deploy.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-deploy.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mkdocs-deploy.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "Deploy MkDocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "Publish LitGPT to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Lightning-AI/litgpt"
+}

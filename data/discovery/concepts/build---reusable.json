@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build - Reusable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "Build - Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate",
+      "text": "Build - Reusable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31586,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14693,
+      "status": "candidate",
+      "text": "expendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14693,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14066,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13825,
+      "status": "candidate",
+      "text": "shuttle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build - Reusable",
+  "concept_id": "build---reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build - Reusable",
+      "sense_id": "build---reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

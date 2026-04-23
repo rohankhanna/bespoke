@@ -1,0 +1,12 @@
+{
+  "component": "tunaitis/contributor-map@bf97d201f9b59abe463fa4ef3b5c4478d22f606d",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributor_map.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    }
+  ]
+}

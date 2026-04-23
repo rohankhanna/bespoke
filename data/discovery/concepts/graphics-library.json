@@ -19,6 +19,42 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate-context",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Bindings to wgpu-native for the Crystal programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollix/MetalNanoVG",
+      "status": "candidate-context",
+      "text": "The Metal port of NanoVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollix/MetalNanoVG",
+      "status": "candidate-context",
+      "text": "MetalNanoVG"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollix/MetalNanoVG",
+      "status": "candidate",
+      "text": "MetalNanoVG"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "hpjansson/chafa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

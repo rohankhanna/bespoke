@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/neurst",
+      "target": "bytedance/byteps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/neurst",
+      "target": "horovod/horovod",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:10.383480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4761
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Neural end-to-end Speech Translation Toolkit",
+    "fork": false,
+    "full_name": "bytedance/neurst",
+    "html_url": "https://github.com/bytedance/neurst",
+    "language": "Python",
+    "pushed_at": "2022-06-28T06:13:42Z",
+    "stargazers_count": 306,
+    "topics": [],
+    "updated_at": "2026-04-14T14:25:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/byteps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horovod/horovod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

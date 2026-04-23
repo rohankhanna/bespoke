@@ -163,6 +163,90 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Deep Hough Voting for 3D Object Detection in Point Clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "All-in-One Development Tool based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianzhi0549/FCOS",
+      "status": "candidate-context",
+      "text": "FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianzhi0549/FCOS",
+      "status": "candidate-context",
+      "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "CnSTD: \u57fa\u4e8e PyTorch/MXNet \u7684 \u4e2d\u6587/\u82f1\u6587 \u573a\u666f\u6587\u5b57\u68c0\u6d4b\uff08Scene Text Detection\uff09\u3001\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\uff08Mathematical Formula Detection, MFD\uff09\u3001\u7bc7\u7ae0\u5206\u6790\uff08Layout Analysis\uff09\u7684Python3 \u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +327,48 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/votenet",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"https://orlitany.github.io/\" target=\"_blank\">Or Litany</a>, <a href=\"http://kaiminghe.com/\" target=\"_blank\">Kaiming He</a> and <a href=\"https://geometry.stanford.edu/member/guibas/\" target=\"_b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianzhi0549/FCOS",
+      "status": "candidate",
+      "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +460,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/votenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "breezedeus/CnSTD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

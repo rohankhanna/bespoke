@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "qq\u534f\u8bae\u7684golang\u5b9e\u73b0, \u79fb\u690d\u4e8emirai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qq-bot",
+      "sense_id": "qq-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qq-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qq-bot",
+  "observation_id": "d359af1e4d19c16b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "qq-bot",
+  "source_context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+  "source_file": null,
+  "source_repo": "Mrs4s/MiraiGo",
+  "source_repo_description": "qq\u534f\u8bae\u7684golang\u5b9e\u73b0, \u79fb\u690d\u4e8emirai"
+}

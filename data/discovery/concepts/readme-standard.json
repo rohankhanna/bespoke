@@ -19,6 +19,18 @@
       "source_repo": "RichardLitt/standard-readme",
       "status": "candidate-context",
       "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "RichardLitt/standard-readme",
       "status": "candidate",
       "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "RichardLitt/standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

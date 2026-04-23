@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@af28703814cf26522cf5e44d219efece91293123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "smlx/ccv@7318e2f25a52dcd550e75384b84983973251a1f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yaml",
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "Tag a Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_d",
+      "target": "dlang",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bazel-contrib/rules_d"
+}

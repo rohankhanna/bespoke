@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "nebelgrau77/airsniffer-esp32c6",
+      "target": "esp-rs/esp-hal",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "nebelgrau77/airsniffer-esp32c6"
+}

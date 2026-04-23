@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-decorators",
+      "target": "tc39/proposal-class-fields",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:04:35.660698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41518
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Decorators for ES6 classes",
+    "fork": false,
+    "full_name": "tc39/proposal-decorators",
+    "html_url": "https://github.com/tc39/proposal-decorators",
+    "language": null,
+    "pushed_at": "2024-09-05T13:52:52Z",
+    "stargazers_count": 2945,
+    "topics": [],
+    "updated_at": "2026-04-19T16:25:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-class-fields",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

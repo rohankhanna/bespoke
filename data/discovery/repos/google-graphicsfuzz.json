@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gfauto.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gfauto.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/graphicsfuzz",
+      "target": "google/gfbuild-spirv-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gfauto.yml",
+      "source_repo": "google/graphicsfuzz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gfauto.yml",
+      "source_repo": "google/graphicsfuzz",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml",
+      "source_repo": "google/graphicsfuzz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml",
+      "source_repo": "google/graphicsfuzz",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml",
+      "source_repo": "google/graphicsfuzz",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:38.950619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5909
+    },
+    {
+      "path": ".github/workflows/gfauto.sh",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/gfauto.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/graphicsfuzz.sh",
+      "size": 1003
+    },
+    {
+      "path": ".github/workflows/graphicsfuzz.yml",
+      "size": 1987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A testing framework for automatically finding and simplifying bugs in graphics shader compilers.",
+    "fork": false,
+    "full_name": "google/graphicsfuzz",
+    "html_url": "https://github.com/google/graphicsfuzz",
+    "language": "Java",
+    "pushed_at": "2024-10-03T17:01:12Z",
+    "stargazers_count": 598,
+    "topics": [
+      "fuzzing",
+      "glsl",
+      "opengl",
+      "spirv",
+      "vulkan"
+    ],
+    "updated_at": "2026-02-25T18:27:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gfbuild-spirv-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

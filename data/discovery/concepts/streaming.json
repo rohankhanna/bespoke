@@ -31,6 +31,54 @@
       "source_repo": "mholt/archiver",
       "status": "candidate-context",
       "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "WebTorrent, the streaming torrent client. For the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "Full-featured BitTorrent client package and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "mholt/archiver",
       "status": "candidate",
       "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +194,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/webtorrent-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

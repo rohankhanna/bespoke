@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-canary.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/privileged-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "laude-institute/terminal-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Check Canary String",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/privileged-check.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/privileged-check.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Check for Privileged Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "tj-actions/changed-files@v41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Build and Push Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "astral-sh/setup-uv@v5.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Test Tasks with Multiple Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "target": "Upload Tasks to Supabase",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:00.633542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4270
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/check-canary.yml",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/privileged-check.yaml",
+      "size": 1554
+    },
+    {
+      "path": ".github/workflows/push-base-images.yaml",
+      "size": 2476
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/ruff.yaml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/test-tasks.yaml",
+      "size": 7774
+    },
+    {
+      "path": ".github/workflows/upload-tasks-to-supabase.yml",
+      "size": 599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A benchmark for LLMs on complicated tasks in the terminal",
+    "fork": true,
+    "full_name": "Danau5tin/terminal-bench-fork",
+    "html_url": "https://github.com/Danau5tin/terminal-bench-fork",
+    "language": "Shell",
+    "pushed_at": "2025-09-16T18:04:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-02T17:52:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/terminal-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Canary String",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-canary.yml",
+      "term": "Check Canary String"
+    },
+    {
+      "context_snippet": "Check for Privileged Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/privileged-check.yaml",
+      "term": "Check for Privileged Containers"
+    },
+    {
+      "context_snippet": "Build and Push Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-base-images.yaml",
+      "term": "Build and Push Docker Images"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yaml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "Test Tasks with Multiple Agents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "term": "Test Tasks with Multiple Agents"
+    },
+    {
+      "context_snippet": "Upload Tasks to Supabase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml",
+      "term": "Upload Tasks to Supabase"
+    }
+  ]
+}

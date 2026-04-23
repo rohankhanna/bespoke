@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_clang_tidy.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_clang_tidy.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_clang_tidy.yml",
+      "source_repo": "iree-org/iree",
+      "target": "Build clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "dwenegar/upload-release-assets@fe47e06814723c7b1bea3a7e46cf93d5f020d0c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree",
+      "target": "Build Release Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iree-org/iree",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iree-org/iree",
+      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_arm64_clang.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_arm64_clang.yml",
+      "source_repo": "iree-org/iree",
+      "target": "sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_arm64_clang.yml",
+      "source_repo": "iree-org/iree",
+      "target": "CI - Linux arm64 clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_bazel.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_x64_bazel.yml",
+      "source_repo": "iree-org/iree",
+      "target": "CI - Linux x64 bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_x64_clang.yml",
+      "source_repo": "iree-org/iree",
+      "target": "CI - Linux x64 clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang_asan.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_x64_clang_asan.yml",
+      "source_repo": "iree-org/iree",
+      "target": "CI - Linux x64 clang ASan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang_byollvm.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang_byollvm.yml",
+      "source_repo": "iree-org/iree",
+      "target": "sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",
+      "source_repo": "iree-org/iree",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",
+      "source_repo": "iree-org/iree",
+      "target": "sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",
+      "source_repo": "iree-org/iree",
+      "target": "CI - Linux x64 clang debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "mlir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "iree-org/iree"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ChangeRelease"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "ChangeRelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate",
+      "text": "ChangeRelease"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ChangeRelease",
+  "concept_id": "changerelease",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ChangeRelease.yml",
+      "source_repo": "qd-today/qd"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ChangeRelease",
+      "sense_id": "changerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

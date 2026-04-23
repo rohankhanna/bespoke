@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "colours"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "alwan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "colorants"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "colorful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "colour"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colors",
+      "sense_id": "colors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "colours"
+    }
+  ],
+  "concept_id": "colors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "colors",
+  "observation_id": "6efeff8803941b23",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "colors",
+  "source_context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+  "source_file": null,
+  "source_repo": "nordtheme/dircolors",
+  "source_repo_description": "An arctic, north-bluish clean and elegant dircolors theme."
+}

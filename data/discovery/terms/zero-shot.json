@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "caoyunkang/Segment-Any-Anomaly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/TransferTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS"
     }
   ],
   "term": "zero-shot"

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@eb055d739abdc2e8de2e5f4ba1a8b246daa779aa",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

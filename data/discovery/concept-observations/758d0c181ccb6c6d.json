@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "prompt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "command-line",
+      "sense_id": "command-line#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "command-line",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "command-line",
+  "observation_id": "758d0c181ccb6c6d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "command-line",
+  "source_context_snippet": "prompts \u2014 Lightweight, beautiful and user-friendly prompts",
+  "source_file": null,
+  "source_repo": "terkelg/prompts",
+  "source_repo_description": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+}

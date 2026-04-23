@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,66 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/documentation.yaml",
       "source_repo": "mlc-ai/mlc-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs"
     }
   ],
   "term": "Build docs"

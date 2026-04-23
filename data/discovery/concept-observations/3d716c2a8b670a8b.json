@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Swift Package on Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Swift Package on Windows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26823,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26823,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26748,
+      "status": "candidate",
+      "text": "times"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26683,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17320,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Swift Package on Windows",
+      "sense_id": "build-swift-package-on-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-swift-package-on-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-swift-package-on-windows",
+  "observation_id": "3d716c2a8b670a8b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build Swift Package on Windows",
+  "source_context_snippet": "Build Swift Package on Windows",
+  "source_file": ".github/workflows/swift_windows.yml",
+  "source_repo": "MasterJ93/ATProtoKit",
+  "source_repo_description": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+}

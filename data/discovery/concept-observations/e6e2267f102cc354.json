@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchard-cms",
+      "sense_id": "orchard-cms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "orchard-cms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orchard-cms",
+  "observation_id": "e6e2267f102cc354",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "orchard-cms",
+  "source_context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+  "source_file": null,
+  "source_repo": "OrchardCMS/OrchardCore",
+  "source_repo_description": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+}

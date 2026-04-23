@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "Upload PyPI And Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-repos.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "Yikun/hub-mirror-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-repos.yml",
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "Mirror Repos to Gitee & GitCode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "documentation-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "finetuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "knowlege-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "lazyllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "llamaindex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "LazyAGI/LazyLLM"
+}

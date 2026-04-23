@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KenLM: Faster and Smaller Language Model Queries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mac"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mac"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792453,
+      "status": "candidate",
+      "text": "mackintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792443,
+      "status": "candidate",
+      "text": "macintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39651063,
+      "status": "candidate",
+      "text": "mack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739821,
+      "status": "candidate",
+      "text": "cam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739186,
+      "status": "candidate",
+      "text": "clarence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac",
+      "sense_id": "mac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8028,
+      "status": "candidate",
+      "text": "mack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "mackintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "macintosh"
+    }
+  ],
+  "concept_id": "mac",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac",
+  "observation_id": "dac6c630a3e4489d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Mac",
+  "source_context_snippet": "Mac",
+  "source_file": ".github/workflows/mac.yml",
+  "source_repo": "kpu/kenlm",
+  "source_repo_description": "KenLM: Faster and Smaller Language Model Queries"
+}

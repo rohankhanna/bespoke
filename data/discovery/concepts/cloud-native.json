@@ -175,6 +175,54 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "Consul integration for service discovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +309,30 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +436,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

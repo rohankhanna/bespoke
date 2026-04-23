@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mono/sdb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mono/sdb",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:29.851244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9941
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A command line client for the Mono soft debugger.",
+    "fork": false,
+    "full_name": "mono/sdb",
+    "html_url": "https://github.com/mono/sdb",
+    "language": "C#",
+    "pushed_at": "2021-09-02T09:48:25Z",
+    "stargazers_count": 117,
+    "topics": [],
+    "updated_at": "2025-11-15T06:55:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    }
+  ]
+}

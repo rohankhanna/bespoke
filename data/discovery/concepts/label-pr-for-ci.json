@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label PR for CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "Label PR for CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate",
+      "text": "Label PR for CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15312,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14312,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14312,
+      "status": "candidate",
+      "text": "millicurie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label PR for CI",
+  "concept_id": "label-pr-for-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label PR for CI",
+      "sense_id": "label-pr-for-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,17 @@
+{
+  "component": "mamba-org/setup-micromamba@06375d89d211a1232ef63355742e9e2e564bc7f7",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter_issue_comment.yml",
+      "source_repo": "conda-forge/staged-recipes"
+    }
+  ]
+}

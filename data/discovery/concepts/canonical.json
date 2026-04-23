@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "canonical"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011263,
+      "status": "candidate",
+      "text": "canonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010916,
+      "status": "candidate",
+      "text": "orthodox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963897,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950555,
+      "status": "candidate",
+      "text": "basic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011274,
+      "status": "candidate",
+      "text": "sanctioned"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21062,
+      "status": "candidate",
+      "text": "basic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12020,
+      "status": "candidate",
+      "text": "sanctioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7020,
+      "status": "candidate",
+      "text": "canonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "orthodox"
+    }
+  ],
+  "canonical_name": "canonical",
+  "concept_id": "canonical",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canonical",
+      "sense_id": "canonical#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

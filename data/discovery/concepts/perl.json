@@ -7,9 +7,83 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "Direct access to WebGPU native APIs from perl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Serve your /nix/store directory over the internet :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29465387,
+      "status": "candidate",
+      "text": "pearl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029985,
+      "status": "candidate",
+      "text": "pearle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029985,
+      "status": "candidate",
+      "text": "perle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029983,
+      "status": "candidate",
+      "text": "parser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029982,
+      "status": "candidate",
+      "text": "pascal"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "perl",
   "concept_id": "perl",
@@ -20,12 +94,26 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "beyondgrep/ack3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thoughtpolice/eris"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

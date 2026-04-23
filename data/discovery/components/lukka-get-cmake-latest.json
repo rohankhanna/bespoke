@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-boost-test.yml",
       "source_repo": "apple/foundationdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/SPIRV-Headers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind"
     }
   ]
 }

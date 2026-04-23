@@ -1,0 +1,12 @@
+{
+  "component": "stefanprodan/helm-gh-pages@0ad2bb377311d61ac04ad9eb6f252fb68e207260",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

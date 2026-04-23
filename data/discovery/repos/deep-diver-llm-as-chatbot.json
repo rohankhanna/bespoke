@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:57.755996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17092
+    },
+    {
+      "path": "requirements.txt",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLM as a Chatbot Service",
+    "fork": false,
+    "full_name": "deep-diver/LLM-As-Chatbot",
+    "html_url": "https://github.com/deep-diver/LLM-As-Chatbot",
+    "language": "Python",
+    "pushed_at": "2023-11-20T14:33:58Z",
+    "stargazers_count": 3325,
+    "topics": [],
+    "updated_at": "2026-04-23T13:13:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

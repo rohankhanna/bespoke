@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "weiliu89/caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "jinfagang/kitti-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "chuanqi305/rscnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "target": "mobilenet-ssd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:19.188467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Caffe implementation of Google MobileNet SSD detection network, with pretrained weights on VOC0712 and mAP=0.727.",
+    "fork": false,
+    "full_name": "chuanqi305/MobileNet-SSD",
+    "html_url": "https://github.com/chuanqi305/MobileNet-SSD",
+    "language": "Python",
+    "pushed_at": "2025-07-13T06:43:16Z",
+    "stargazers_count": 2123,
+    "topics": [
+      "caffe",
+      "detection",
+      "mobilenet",
+      "mobilenet-ssd",
+      "ssd"
+    ],
+    "updated_at": "2026-04-10T16:05:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuanqi305/rscnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jinfagang/kitti-ssd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiliu89/caffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet"
+    },
+    {
+      "context_snippet": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet-ssd"
+    }
+  ]
+}

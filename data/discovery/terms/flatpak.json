@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/flatpak.yml",
       "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn"
     }
   ],
   "term": "Flatpak"

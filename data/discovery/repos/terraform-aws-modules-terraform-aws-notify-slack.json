@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/directories@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-actions.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "Validate PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "clowdhaus/terraform-composite-actions/directories@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "clowdhaus/terraform-min-max@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "Pre-Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "cycjimmy/semantic-release-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-actions.yaml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "aws-cloudwatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "slack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target": "terraform-module",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:05:25.553160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17591
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 2306
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 6199
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/stale-actions.yaml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6",
+    "fork": false,
+    "full_name": "terraform-aws-modules/terraform-aws-notify-slack",
+    "html_url": "https://github.com/terraform-aws-modules/terraform-aws-notify-slack",
+    "language": "Python",
+    "pushed_at": "2026-03-11T14:12:21Z",
+    "stargazers_count": 493,
+    "topics": [
+      "aws",
+      "aws-cloudwatch",
+      "aws-lambda",
+      "slack",
+      "terraform-module"
+    ],
+    "updated_at": "2026-03-19T13:18:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "'Validate PR title'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "Validate PR title"
+    },
+    {
+      "context_snippet": "Pre-Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-Commit"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudwatch"
+    },
+    {
+      "context_snippet": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slack"
+    },
+    {
+      "context_snippet": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-module"
+    }
+  ]
+}

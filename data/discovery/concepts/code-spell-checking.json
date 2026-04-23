@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Spell Checking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Code Spell Checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "Code Spell Checking"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18820,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "table"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "tables"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "reviewing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Spell Checking",
+  "concept_id": "code-spell-checking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "dani-garcia/vaultwarden"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Spell Checking",
+      "sense_id": "code-spell-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

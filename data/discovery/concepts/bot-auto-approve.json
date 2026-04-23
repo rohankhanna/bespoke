@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bot Auto Approve"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Bot Auto Approve"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate",
+      "text": "Bot Auto Approve"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "alternating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "cleared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18010,
+      "status": "candidate",
+      "text": "ferry"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bot Auto Approve",
+  "concept_id": "bot-auto-approve",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bot-auto-approve.yaml",
+      "source_repo": "hashicorp/consul"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bot Auto Approve",
+      "sense_id": "bot-auto-approve#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

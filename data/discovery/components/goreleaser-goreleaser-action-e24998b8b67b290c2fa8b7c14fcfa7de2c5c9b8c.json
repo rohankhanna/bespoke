@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
     }
   ]
 }

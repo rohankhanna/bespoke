@@ -1,0 +1,419 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "cleanlab/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bleeding-edge.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bleeding-edge.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "snok/latest-python-versions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bleeding-edge.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bleeding-edge.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "Bleeding Edge Dependencies Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "pypa/gh-action-pip-audit@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "cleanlab/nblint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "jacobtomlinson/gha-find-replace@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "anishathalye/proof-html@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "anishathalye/proof-html@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "SebRollen/toml-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "pypa/gh-action-pypi-publish@e53eb8b103ffcb59469888563dc324e3c8ba6f06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "Manual TestPyPI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "SebRollen/toml-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "pypa/gh-action-pypi-publish@e53eb8b103ffcb59469888563dc324e3c8ba6f06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab",
+      "target": "Release Build Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "active-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-centric-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-cleaning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-curation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "data-validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "exploratory-data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "noisy-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "out-of-distribution-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab",
+      "target": "weak-supervision",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "cleanlab/cleanlab"
+}

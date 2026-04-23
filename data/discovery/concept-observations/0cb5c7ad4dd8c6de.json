@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check typos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check typos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54824,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53824,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17424,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "faults"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "items"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check typos",
+      "sense_id": "check-typos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-typos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-typos",
+  "observation_id": "0cb5c7ad4dd8c6de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check typos",
+  "source_context_snippet": "Check typos",
+  "source_file": ".github/workflows/check-typos.yml",
+  "source_repo": "ethpandaops/ethereum-package",
+  "source_repo_description": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build release documentation website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "Build release documentation website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Build release documentation website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28441,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "encyclopedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "intercom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28100,
+      "status": "candidate",
+      "text": "locate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build release documentation website",
+  "concept_id": "build-release-documentation-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs-build-release.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build release documentation website",
+      "sense_id": "build-release-documentation-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

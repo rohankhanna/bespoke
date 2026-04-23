@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "crowd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977640,
+      "status": "candidate",
+      "text": "crowd together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973815,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966952,
+      "status": "candidate",
+      "text": "gang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953155,
+      "status": "candidate",
+      "text": "crew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945939,
+      "status": "candidate",
+      "text": "bunch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25066,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17049,
+      "status": "candidate",
+      "text": "bunch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9047,
+      "status": "candidate",
+      "text": "gang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6052,
+      "status": "candidate",
+      "text": "crew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "crowd together"
+    }
+  ],
+  "canonical_name": "crowd",
+  "concept_id": "crowd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crowd",
+      "sense_id": "crowd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

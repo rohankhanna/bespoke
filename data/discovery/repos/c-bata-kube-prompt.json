@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "cloudnativelabs/kube-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "prompt-toolkit/python-prompt-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "c-bata/kube-prompt",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt",
+      "target": "prompt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:02:24.954767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5450
+    },
+    {
+      "path": "go.mod",
+      "size": 2319
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An interactive kubernetes client featuring auto-complete.",
+    "fork": false,
+    "full_name": "c-bata/kube-prompt",
+    "html_url": "https://github.com/c-bata/kube-prompt",
+    "language": "Go",
+    "pushed_at": "2025-08-12T11:32:18Z",
+    "stargazers_count": 1819,
+    "topics": [
+      "command-line-tool",
+      "golang",
+      "kubectl",
+      "kubernetes",
+      "prompt"
+    ],
+    "updated_at": "2026-04-07T14:01:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudnativelabs/kube-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prompt-toolkit/python-prompt-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    }
+  ]
+}

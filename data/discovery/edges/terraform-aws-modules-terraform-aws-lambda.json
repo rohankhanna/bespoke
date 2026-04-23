@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "vshymanskyy/standwithukraine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "mthenw/awesome-layers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "1mill/serverless-tf-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "Validate PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "clowdhaus/terraform-composite-actions/directories@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "clowdhaus/terraform-min-max@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "Pre-Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "cycjimmy/semantic-release-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-actions.yaml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "actions/setup-python@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "terraform-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "target": "terraform-serverless",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+}

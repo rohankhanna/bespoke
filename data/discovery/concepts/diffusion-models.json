@@ -91,6 +91,54 @@
       "source_repo": "yang-song/score_sde_pytorch",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-through-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-through-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "Implementation of WaveGrad high-fidelity vocoder from Google Brain in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/audio-diffusion",
+      "status": "candidate-context",
+      "text": "Apply diffusion models using the new Hugging Face diffusers package to synthesize music instead of images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/audio-diffusion",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "MMGeneration is a powerful toolkit for generative models, based on PyTorch and MMCV. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate-context",
+      "text": "Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate-context",
+      "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "yang-song/score_sde_pytorch",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-through-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-through-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/audio-diffusion",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate",
+      "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "yang-song/score_sde_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "teticio/audio-diffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

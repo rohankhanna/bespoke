@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol Buffer Validation for C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Emergency review bypass"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Emergency review bypass"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19453,
+      "status": "candidate",
+      "text": "miss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19453,
+      "status": "candidate",
+      "text": "shunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19453,
+      "status": "candidate",
+      "text": "shunted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19280,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "around"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Emergency review bypass",
+      "sense_id": "emergency-review-bypass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emergency-review-bypass",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emergency-review-bypass",
+  "observation_id": "ad783f1675508359",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Emergency review bypass",
+  "source_context_snippet": "Emergency review bypass",
+  "source_file": ".github/workflows/emergency-review-bypass.yaml",
+  "source_repo": "bufbuild/protovalidate-cc",
+  "source_repo_description": "Protocol Buffer Validation for C++."
+}

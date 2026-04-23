@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-issues",
+      "sense_id": "github-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-issues",
+  "observation_id": "5c33a312c9829468",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "github-issues",
+  "source_context_snippet": "gitalk \u2014 A comment plugin base on GitHub issues",
+  "source_file": null,
+  "source_repo": "gitalk/gitalk",
+  "source_repo_description": "Gitalk is a modern comment component based on Github Issue and Preact."
+}

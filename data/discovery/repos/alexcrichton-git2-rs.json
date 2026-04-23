@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexcrichton/git2-rs",
+      "target": "sfackler/rust-openssl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:58:56.145794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2284
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libgit2 bindings for Rust",
+    "fork": true,
+    "full_name": "alexcrichton/git2-rs",
+    "html_url": "https://github.com/alexcrichton/git2-rs",
+    "language": null,
+    "pushed_at": "2022-03-10T17:03:48Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-02-25T11:52:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfackler/rust-openssl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

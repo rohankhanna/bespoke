@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Wiki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "Official Python client library for kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "Deploy Wiki"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate",
+      "text": "Deploy Wiki"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "buck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10433,
+      "status": "candidate",
+      "text": "cookbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "above"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Wiki",
+  "concept_id": "deploy-wiki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-wiki.yaml",
+      "source_repo": "kubernetes-client/python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Wiki",
+      "sense_id": "deploy-wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

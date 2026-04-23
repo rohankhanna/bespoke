@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocluster",
+      "target": "ocurrent/ocurrent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocluster",
+      "target": "ocurrent/obuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ocurrent/ocluster",
+      "target": "mirage/ocaml-conduit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/ocluster",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/ocluster",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/ocluster",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/ocluster",
+      "target": "Main workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:49:00.221855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16034
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/extract.sh",
+      "size": 609
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distribute CI builds to worker nodes over Cap'n Proto",
+    "fork": false,
+    "full_name": "ocurrent/ocluster",
+    "html_url": "https://github.com/ocurrent/ocluster",
+    "language": "OCaml",
+    "pushed_at": "2026-04-09T21:02:30Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-09T21:02:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/obuilder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocurrent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/ocaml-conduit",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main workflow"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AFDKO Test Suite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-type-tools/afdko",
+      "status": "candidate-context",
+      "text": "Adobe Font Development Kit for OpenType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/afdko",
+      "status": "candidate-context",
+      "text": "AFDKO Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/afdko",
+      "status": "candidate",
+      "text": "AFDKO Test Suite"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11985,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "tent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AFDKO Test Suite",
+  "concept_id": "afdko-test-suite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "source_repo": "adobe-type-tools/afdko"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AFDKO Test Suite",
+      "sense_id": "afdko-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

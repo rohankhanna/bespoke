@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release",
+      "target": "github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release",
+      "target": "zgenom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:57.176143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use zgenom and gh to download releases.",
+    "fork": false,
+    "full_name": "jandamm/zgenom-ext-release",
+    "html_url": "https://github.com/jandamm/zgenom-ext-release",
+    "language": "Shell",
+    "pushed_at": "2023-05-04T21:13:29Z",
+    "stargazers_count": 2,
+    "topics": [
+      "github",
+      "github-release",
+      "shell",
+      "zgenom",
+      "zsh"
+    ],
+    "updated_at": "2023-10-09T05:43:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "You need to install [gh](https://cli.github.com) and use it with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "You need to install [gh](https://cli.github.com) and use it with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-release"
+    },
+    {
+      "context_snippet": "You need to install [gh](https://cli.github.com) and use it with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "You need to install [gh](https://cli.github.com) and use it with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    }
+  ]
+}

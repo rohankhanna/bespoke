@@ -1,12 +1,14 @@
 {
   "aliases": [
-    "cargo-deny"
+    "cargo-deny",
+    "Cargo Deny"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "tool-component",
-    "capability"
+    "capability",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -20,6 +22,42 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "A simple and fast linear algebra library for games and graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "cargo-deny"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "Cargo Deny"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Cargo Deny"
     }
   ],
   "candidate_glosses": [
@@ -28,9 +66,63 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate",
+      "text": "cargo-deny"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "Cargo Deny"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate",
+      "text": "Cargo Deny"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11703,
+      "status": "candidate",
+      "text": "refuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "abandonment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharging"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "cargo-deny",
   "concept_id": "cargo-deny",
@@ -47,11 +139,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bitshifter/glam-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "model-checking/kani"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

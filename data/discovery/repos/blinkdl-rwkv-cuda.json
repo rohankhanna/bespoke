@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:29.340243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The CUDA version of the RWKV language model ( https://github.com/BlinkDL/RWKV-LM )",
+    "fork": false,
+    "full_name": "BlinkDL/RWKV-CUDA",
+    "html_url": "https://github.com/BlinkDL/RWKV-CUDA",
+    "language": "Cuda",
+    "pushed_at": "2025-12-10T09:40:28Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-04-23T11:51:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

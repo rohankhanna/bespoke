@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023953,
+      "status": "candidate",
+      "text": "event-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023952,
+      "status": "candidate",
+      "text": "programmatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023951,
+      "status": "candidate",
+      "text": "dynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023950,
+      "status": "candidate",
+      "text": "concurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023949,
+      "status": "candidate",
+      "text": "sequential"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "event-driven",
   "concept_id": "event-driven",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/eventing"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "blessed",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bresenham",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-highlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clipboardy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gl-matrix",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonpath-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.debounce",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment-duration-format",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "urijs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "x256",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xterm-headless",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "exorcist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copy-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nexe",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string-replace-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "null-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xterm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xterm-addon-fit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xterm-addon-webgl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "blessed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "bresenham",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "cli-highlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "clipboardy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "gl-matrix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "jsonpath-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "lodash.debounce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "moment-duration-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "urijs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "x256",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "xterm-headless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "exorcist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "copy-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "nexe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "string-replace-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "null-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "xterm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "xterm-addon-fit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox",
+      "target": "xterm-addon-webgl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:37:48.497561+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 940
+    },
+    {
+      "path": "package.json",
+      "size": 2988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2388\u274f Terminal and Web console for Kubernetes",
+    "fork": false,
+    "full_name": "astefanutti/kubebox",
+    "html_url": "https://github.com/astefanutti/kubebox",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-17T13:05:26Z",
+    "stargazers_count": 2229,
+    "topics": [
+      "console",
+      "cui",
+      "dashboard",
+      "gui",
+      "kubernetes",
+      "monitoring",
+      "openshift",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-22T14:31:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dashboard"
+    },
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

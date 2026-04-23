@@ -43,6 +43,30 @@
       "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate-context",
       "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Autoscaling components for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate-context",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/helm",
+      "status": "candidate-context",
+      "text": "Helm Charts for CoreDNS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/helm",
+      "status": "candidate-context",
+      "text": "Lint and Test Charts"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/autoscaler",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/helm",
       "status": "candidate",
       "text": "Lint and Test Charts"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/lint-test.yml",
       "source_repo": "BorisPolonsky/dify-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,449 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "inducer/loopy",
+      "target": "infleqtion/client-superstaq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "inducer/loopy",
+      "target": "inducer/cgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "inducer/loopy",
+      "target": "inducer/genpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "inducer/loopy",
+      "target": "inducer/codepy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/loopy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/loopy",
+      "target": "Gitlab mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/loopy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/loopy",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/loopy",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/loopy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "code-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "code-transformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "ispc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "loop-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "multidimensional-arrays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "performance-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "prefix-sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/loopy",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:38:48.192336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2553
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5514
+    },
+    {
+      "path": "requirements.txt",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/autopush.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A code generator for array-based code on CPUs and GPUs",
+    "fork": false,
+    "full_name": "inducer/loopy",
+    "html_url": "https://github.com/inducer/loopy",
+    "language": "Python",
+    "pushed_at": "2026-04-20T18:24:49Z",
+    "stargazers_count": 630,
+    "topics": [
+      "array",
+      "code-generation",
+      "code-generator",
+      "code-optimization",
+      "code-transformation",
+      "cuda",
+      "ispc",
+      "loop-optimization",
+      "multidimensional-arrays",
+      "opencl",
+      "performance",
+      "performance-analysis",
+      "prefix-sum",
+      "python",
+      "reduction",
+      "scan",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-20T17:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "infleqtion/client-superstaq",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/cgen",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/codepy",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/genpy",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gitlab mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "term": "Gitlab mirror"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-optimization"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-transformation"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ispc"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-optimization"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multidimensional-arrays"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-analysis"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prefix-sum"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reduction"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scan"
+    },
+    {
+      "context_snippet": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

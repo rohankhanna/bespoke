@@ -1,0 +1,12 @@
+{
+  "component": "chainguard-dev/actions/setup-kind@36fe99ff72c697d33814bc35228637194f012c47",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/eventing"
+    }
+  ]
+}

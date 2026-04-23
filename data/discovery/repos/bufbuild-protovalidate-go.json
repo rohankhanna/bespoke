@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml"
+    },
+    {
+      "component": "bufbuild/buf-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml"
+    },
+    {
+      "component": "morrisoncole/pr-lint-action@v1.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/protovalidate-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/protovalidate-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/buf-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "Buf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "Emergency review bypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "Approval bypass notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "morrisoncole/pr-lint-action@v1.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "PR Hygiene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "common-expression-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:57:51.629544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5300
+    },
+    {
+      "path": "go.mod",
+      "size": 1118
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/buf.yaml",
+      "size": 809
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/conformance.yaml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/emergency-review-bypass.yaml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/notify-approval-bypass.yaml",
+      "size": 278
+    },
+    {
+      "path": ".github/workflows/pr-hygiene.yaml",
+      "size": 1206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol Buffer Validation for Go",
+    "fork": false,
+    "full_name": "bufbuild/protovalidate-go",
+    "html_url": "https://github.com/bufbuild/protovalidate-go",
+    "language": "Go",
+    "pushed_at": "2026-04-23T19:40:48Z",
+    "stargazers_count": 464,
+    "topics": [
+      "cel",
+      "common-expression-language",
+      "go",
+      "golang",
+      "protobuf",
+      "protocol-buffers"
+    ],
+    "updated_at": "2026-04-23T09:34:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bufbuild/protovalidate-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bufbuild/protovalidate-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "Buf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf.yaml",
+      "term": "Buf"
+    },
+    {
+      "context_snippet": "Conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "term": "Conformance"
+    },
+    {
+      "context_snippet": "Emergency review bypass",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "term": "Emergency review bypass"
+    },
+    {
+      "context_snippet": "Approval bypass notifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "term": "Approval bypass notifier"
+    },
+    {
+      "context_snippet": "PR Hygiene",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "term": "PR Hygiene"
+    },
+    {
+      "context_snippet": "[![The Buf logo](.github/buf-logo.svg)][buf]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "common-expression-language"
+    },
+    {
+      "context_snippet": "[![The Buf logo](.github/buf-logo.svg)][buf]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![The Buf logo](.github/buf-logo.svg)][buf]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "[![The Buf logo](.github/buf-logo.svg)][buf]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

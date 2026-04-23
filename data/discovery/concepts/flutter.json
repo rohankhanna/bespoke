@@ -55,6 +55,30 @@
       "source_repo": "objectbox/objectbox-dart",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "Flutter App benchmarking the performance of ObjectBox against others (e.g. sqflite, Hive)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "objectbox/objectbox-dart",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate",
+      "text": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

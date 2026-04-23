@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2697,6 +2697,491 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-long-all.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-smoke.yml",
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare-results.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "webtorrent/bittorrent-dht"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "chalk/chalk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "istanbuljs/istanbuljs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-extension-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audits.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "civitai/civitai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/navpress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-asan.yml",
+      "source_repo": "uNetworking/uWebSockets.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/checkout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actions/checkout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/download-artifact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actions/download-artifact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/content-security-policy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/custom-descriptors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "cztomsik/ava"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ogx-ai/llama-stack-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ogx-ai/llama-stack-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ceramicnetwork/js-dag-jose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-api-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc-site.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.js.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "plone/volto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-base.yml",
+      "source_repo": "graphile/crystal"
     }
   ]
 }

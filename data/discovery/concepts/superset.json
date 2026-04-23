@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "superset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030886,
+      "status": "candidate",
+      "text": "subset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030885,
+      "status": "candidate",
+      "text": "sumset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030884,
+      "status": "candidate",
+      "text": "upper set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030883,
+      "status": "candidate",
+      "text": "proper subset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030882,
+      "status": "candidate",
+      "text": "multiset"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "superset",
+  "concept_id": "superset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/superset"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "superset",
+      "sense_id": "superset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

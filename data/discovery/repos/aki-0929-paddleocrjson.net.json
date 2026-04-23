@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:08:04.421068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PaddleOCR-json .net \u7684\u5c01\u88c5",
+    "fork": false,
+    "full_name": "aki-0929/PaddleOCRJson.NET",
+    "html_url": "https://github.com/aki-0929/PaddleOCRJson.NET",
+    "language": "C#",
+    "pushed_at": "2025-11-17T15:07:29Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-03-25T05:43:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

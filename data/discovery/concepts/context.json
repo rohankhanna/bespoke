@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/Agentic-Context-Development-Interview-Demo",
       "status": "candidate-context",
       "text": "[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B.svg)](https://www.streamlit.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/Agentic-Context-Development-Interview-Demo",
       "status": "candidate",
       "text": "[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B.svg)](https://www.streamlit.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_related_terms": [
@@ -104,11 +122,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Agentic-Context-Development-Interview-Demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Native Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "Native Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "Native Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12007,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12007,
+      "status": "candidate",
+      "text": "bottoms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11618,
+      "status": "candidate",
+      "text": "chunky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11618,
+      "status": "candidate",
+      "text": "mediterranean"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Native Build",
+  "concept_id": "native-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "filip26/ld-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Native Build",
+      "sense_id": "native-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

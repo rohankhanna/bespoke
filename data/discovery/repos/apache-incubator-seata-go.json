@@ -1,0 +1,487 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-robot.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@985866ce7e324454f61e22eb2db2e998db09d6f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "apache/incubator-seata-go-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "apache/incubator-seata.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "apache/incubator-seata-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "apache/incubator-seata-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "build and codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "golangci/golangci-lint-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "golang ci lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "integrate-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-robot.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-robot.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "issue translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "pull request labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "apache/skywalking-eyes@985866ce7e324454f61e22eb2db2e998db09d6f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "License checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "apache/incubator-seata-go",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/incubator-seata-go",
+      "target": "saga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:00.016952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10378
+    },
+    {
+      "path": "go.mod",
+      "size": 5360
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2332
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2429
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 2034
+    },
+    {
+      "path": ".github/workflows/integrate-test.yml",
+      "size": 2661
+    },
+    {
+      "path": ".github/workflows/issue-robot.yml",
+      "size": 5520
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 2303
+    },
+    {
+      "path": ".github/workflows/license.yml",
+      "size": 3463
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Implementation For Seata",
+    "fork": false,
+    "full_name": "apache/incubator-seata-go",
+    "html_url": "https://github.com/apache/incubator-seata-go",
+    "language": "Go",
+    "pushed_at": "2026-04-22T11:23:33Z",
+    "stargazers_count": 1705,
+    "topics": [
+      "at",
+      "saga",
+      "tcc",
+      "xa"
+    ],
+    "updated_at": "2026-04-23T09:01:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-seata-go-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-seata-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-seata-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-seata.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"build and codecov\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build and codecov"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"golang ci lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golang ci lint"
+    },
+    {
+      "context_snippet": "\"integrate-test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "term": "integrate-test"
+    },
+    {
+      "context_snippet": "'issue translator'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-robot.yml",
+      "term": "issue translator"
+    },
+    {
+      "context_snippet": "\"pull request labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "pull request labeler"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license.yml",
+      "term": "License checker"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saga"
+    }
+  ]
+}

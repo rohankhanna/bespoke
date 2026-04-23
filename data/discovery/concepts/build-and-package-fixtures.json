@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Package Fixtures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "Build and Package Fixtures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate",
+      "text": "Build and Package Fixtures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19234,
+      "status": "candidate",
+      "text": "hardware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19234,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18926,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18866,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18866,
+      "status": "candidate",
+      "text": "compiling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Package Fixtures",
+  "concept_id": "build-and-package-fixtures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/fixtures.yaml",
+      "source_repo": "ethereum/execution-spec-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Package Fixtures",
+      "sense_id": "build-and-package-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

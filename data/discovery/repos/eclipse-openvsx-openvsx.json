@@ -234,31 +234,6 @@
       "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard-analysis.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml"
-    },
-    {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml"
-    },
-    {
-      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml"
-    },
-    {
-      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml"
-    },
-    {
-      "component": "SonarSource/sonarqube-scan-action@299e4b793aaa83bf2aba7c9c14bedbb485688ec4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml"
     }
   ],
   "edges": [
@@ -267,13 +242,6 @@
       "source_file": "README.md",
       "source_repo": "eclipse-openvsx/openvsx",
       "target": "eclipse/openvsx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "eclipsefdn/open-vsx.org",
       "target_type": "repository"
     },
     {
@@ -550,48 +518,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "SonarSource/sonarqube-scan-action@299e4b793aaa83bf2aba7c9c14bedbb485688ec4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/sonar.yml",
-      "source_repo": "eclipse-openvsx/openvsx",
-      "target": "Sonar",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx",
@@ -627,11 +553,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:34:38.903956+00:00",
+  "fetched_at": "2026-04-23T20:50:39.200833+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 14319
+    },
+    {
+      "path": "package.json",
+      "size": 38
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -664,10 +594,6 @@
     {
       "path": ".github/workflows/scorecard-analysis.yml",
       "size": 823
-    },
-    {
-      "path": ".github/workflows/sonar.yml",
-      "size": 1402
     }
   ],
   "related_repositories": [],
@@ -679,7 +605,7 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-04-22T18:56:36Z",
+    "pushed_at": "2026-04-23T19:50:49Z",
     "stargazers_count": 1908,
     "topics": [
       "extension",
@@ -688,17 +614,12 @@
       "theia",
       "vscode"
     ],
-    "updated_at": "2026-04-22T18:56:39Z"
+    "updated_at": "2026-04-23T19:50:54Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "eclipse/openvsx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eclipsefdn/open-vsx.org",
       "source_file": "README.md"
     }
   ],
@@ -744,12 +665,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/scorecard-analysis.yml",
       "term": "Scorecard analysis workflow"
-    },
-    {
-      "context_snippet": "Sonar",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/sonar.yml",
-      "term": "Sonar"
     },
     {
       "context_snippet": "<h1 align=\"center\">",

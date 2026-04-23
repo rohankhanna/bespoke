@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "jittor/jittorllms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "imclumsypanda/langchain-chatglm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "l15y/wenda",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "zai-org/ChatGLM-6B"
+}

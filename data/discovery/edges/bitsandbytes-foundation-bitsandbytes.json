@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Jimver/cuda-toolkit@3d45d157f327c09c04b50ee6ccdea2d9d017ec76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "softprops/action-gh-release@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml.disabled",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml.disabled",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml.disabled",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Stale Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Jimver/cuda-toolkit@3d45d157f327c09c04b50ee6ccdea2d9d017ec76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Test Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "Nightly Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-pr.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "PR Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "qlora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bitsandbytes-foundation/bitsandbytes"
+}

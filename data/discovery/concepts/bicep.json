@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "bicep"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "Azure Quickstart Templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/Azure/bicep/actions/workflows/build.yml/badge.svg)](https://github.com/Azure/bicep/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/Azure/bicep/actions/workflows/build.yml/badge.svg)](https://github.com/Azure/bicep/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011053,
+      "status": "candidate",
+      "text": "brachii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011053,
+      "status": "candidate",
+      "text": "cruris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011053,
+      "status": "candidate",
+      "text": "femoris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011052,
+      "status": "candidate",
+      "text": "biceps brachii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011051,
+      "status": "candidate",
+      "text": "biceps femoris"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bicep",
+  "concept_id": "bicep",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/bicep"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bicep",
+      "sense_id": "bicep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

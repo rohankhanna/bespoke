@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041886,
+      "status": "candidate",
+      "text": "sexagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041885,
+      "status": "candidate",
+      "text": "heptagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041884,
+      "status": "candidate",
+      "text": "octagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041883,
+      "status": "candidate",
+      "text": "dihectagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041882,
+      "status": "candidate",
+      "text": "quadrangle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hexagon",
+      "sense_id": "hexagon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hexagon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hexagon",
+  "observation_id": "5c3a553f3b550f6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hexagon",
+  "source_context_snippet": "Halide is a programming language designed to make it easier to write",
+  "source_file": null,
+  "source_repo": "halide/Halide",
+  "source_repo_description": "a language for fast, portable data-parallel computation"
+}

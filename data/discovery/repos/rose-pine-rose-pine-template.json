@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-template",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:21.144788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Soho vibes for App",
+    "fork": false,
+    "full_name": "rose-pine/rose-pine-template",
+    "html_url": "https://github.com/rose-pine/rose-pine-template",
+    "language": null,
+    "pushed_at": "2025-11-27T22:12:08Z",
+    "stargazers_count": 49,
+    "topics": [
+      "theme"
+    ],
+    "updated_at": "2026-04-02T03:05:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

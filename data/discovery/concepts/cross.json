@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cross"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "cross"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate",
+      "text": "cross"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996516,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963666,
+      "status": "candidate",
+      "text": "crisscross"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952764,
+      "status": "candidate",
+      "text": "intersect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949599,
+      "status": "candidate",
+      "text": "transverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943697,
+      "status": "candidate",
+      "text": "transversal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37040,
+      "status": "candidate",
+      "text": "thwart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28040,
+      "status": "candidate",
+      "text": "queer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "sweep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "canonical_name": "cross",
+  "concept_id": "cross",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "microsoft/windows-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cross",
+      "sense_id": "cross#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

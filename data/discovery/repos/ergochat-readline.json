@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ergochat/readline",
+      "target": "chzyer/readline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ergochat/readline",
+      "target": "gopasspw/gopass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ergochat/readline",
+      "target": "ergochat/ircdog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/readline",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/readline",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/readline",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:44:48.787905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1521
+    },
+    {
+      "path": "go.mod",
+      "size": 110
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A readline implementation in pure Go",
+    "fork": false,
+    "full_name": "ergochat/readline",
+    "html_url": "https://github.com/ergochat/readline",
+    "language": "Go",
+    "pushed_at": "2025-01-21T02:52:12Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-02-17T15:40:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chzyer/readline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ergochat/ircdog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gopasspw/gopass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

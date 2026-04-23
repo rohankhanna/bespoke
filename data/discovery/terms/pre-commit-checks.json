@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "OpenHands/OpenHands-CLI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/OpenManus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive"
     }
   ],
   "term": "Pre-commit checks"

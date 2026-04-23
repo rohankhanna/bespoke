@@ -98,6 +98,72 @@
       "source_repo": "actions/upload-artifact",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/debugpy",
+      "status": "candidate-context",
+      "text": "An implementation of the Debug Adapter Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/debugpy",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate-context",
+      "text": "Native Go version of HighwayHash with optimized assembly implementations on Intel and ARM. Able to process over 10 GB/sec on a single core on Intel CPUs - https://en.wikipedia.org/wiki/HighwayHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate-context",
+      "text": "Azure SDK for Node.js - Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "An unofficial Local GitHub Actions and Azure Pipelines Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -148,6 +214,42 @@
       "source_repo": "actions/upload-artifact",
       "status": "candidate",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/debugpy",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/highwayhash",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_related_terms": [
@@ -257,11 +359,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "actions/upload-artifact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "minio/highwayhash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/download-artifact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/azure-sdk-for-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

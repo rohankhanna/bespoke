@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "target": "Pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:00.022636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6275
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'26] Stronger-MAS: A RL Framework for multi LLM agent system",
+    "fork": false,
+    "full_name": "pettingllms-ai/PettingLLMs",
+    "html_url": "https://github.com/pettingllms-ai/PettingLLMs",
+    "language": "Python",
+    "pushed_at": "2026-04-23T00:36:10Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-22T17:49:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-commit"
+    }
+  ]
+}

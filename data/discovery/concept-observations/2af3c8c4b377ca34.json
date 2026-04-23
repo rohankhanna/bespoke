@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create Fixture Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create Fixture Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "discover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "discovered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "etch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Fixture Release",
+      "sense_id": "create-fixture-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-fixture-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-fixture-release",
+  "observation_id": "2af3c8c4b377ca34",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Create Fixture Release",
+  "source_context_snippet": "Create Fixture Release",
+  "source_file": ".github/workflows/release_fixture_feature.yaml",
+  "source_repo": "ethereum/execution-specs",
+  "source_repo_description": "Specification for the Execution Layer. Tracking network upgrades."
+}

@@ -31,6 +31,66 @@
       "source_repo": "aratz-lasa/ex_multiaddr",
       "status": "candidate-context",
       "text": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": ":droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate-context",
+      "text": "Vim integration for the Elixir formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate-context",
+      "text": "Elixir 1.6 introduced the formatter: `mix format`. This plugin makes it easy to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe2 auth_plug lets you seamlessly add authentication to your Phoenix App with ONE Environment Variable\u2122  in less than 2 minutes! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "aratz-lasa/ex_multiaddr",
       "status": "candidate",
       "text": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate",
+      "text": "Elixir 1.6 introduced the formatter: `mix format`. This plugin makes it easy to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +190,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "aratz-lasa/ex_multiaddr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-mix-format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth_plug"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "JuliaLang/julia",
       "status": "candidate-context",
       "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Labels"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLang/julia",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
       "status": "candidate",
       "text": "Labels"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/LabelCheck.yml",
       "source_repo": "JuliaLang/julia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

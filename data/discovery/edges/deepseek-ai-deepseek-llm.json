@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "dogewbx/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "turboderp/exllamav2",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "deepseek-ai/DeepSeek-LLM"
+}

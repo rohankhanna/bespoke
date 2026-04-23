@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bleeding Edge Dependencies Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bleeding Edge Dependencies Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32728,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32715,
+      "status": "candidate",
+      "text": "bloods"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32715,
+      "status": "candidate",
+      "text": "cbc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32704,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32667,
+      "status": "candidate",
+      "text": "pint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bleeding Edge Dependencies Test",
+      "sense_id": "bleeding-edge-dependencies-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bleeding-edge-dependencies-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bleeding-edge-dependencies-test",
+  "observation_id": "3496d333916c41ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bleeding Edge Dependencies Test",
+  "source_context_snippet": "Bleeding Edge Dependencies Test",
+  "source_file": ".github/workflows/bleeding-edge.yml",
+  "source_repo": "cleanlab/cleanlab",
+  "source_repo_description": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+}

@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ema2159/centaur-tabs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "tiagovla/scope.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ap/vim-buftabline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "JohnnyMorganz/stylua-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributing.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "amannn/action-semantic-pull-request@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributing.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "Semantic Pull Request Subject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "bufferline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "akinsho/bufferline.nvim"
+}

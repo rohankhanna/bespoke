@@ -43,6 +43,31 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-android.yml"
     },
     {
@@ -159,16 +184,6 @@
       "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cache.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cann.yml"
-    },
-    {
-      "component": "ggml-org/free-disk-space@v1.3.1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cann.yml"
     }
   ],
   "edges": [
@@ -279,6 +294,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "CI (snapdragon)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/llama.cpp",
       "target": "actions/checkout@v6",
@@ -376,27 +426,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cann.yml",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cann.yml",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "ggml-org/free-disk-space@v1.3.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cann.yml",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "CI (cann)",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ggml-org/llama.cpp",
@@ -404,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:46:40.661471+00:00",
+  "fetched_at": "2026-04-23T21:10:14.383588+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -431,8 +460,12 @@
       "size": 1201
     },
     {
+      "path": ".github/workflows/build-and-test-snapdragon.yml",
+      "size": 3495
+    },
+    {
       "path": ".github/workflows/build-android.yml",
-      "size": 2734
+      "size": 2210
     },
     {
       "path": ".github/workflows/build-apple.yml",
@@ -441,10 +474,6 @@
     {
       "path": ".github/workflows/build-cache.yml",
       "size": 3349
-    },
-    {
-      "path": ".github/workflows/build-cann.yml",
-      "size": 3029
     }
   ],
   "related_repositories": [],
@@ -456,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-23T07:34:55Z",
-    "stargazers_count": 105892,
+    "pushed_at": "2026-04-23T20:08:11Z",
+    "stargazers_count": 105992,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-23T08:43:59Z"
+    "updated_at": "2026-04-23T20:46:44Z"
   },
   "repo_links": [
     {
@@ -505,6 +534,12 @@
       "term": "CI (3rd-party)"
     },
     {
+      "context_snippet": "CI (snapdragon)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "term": "CI (snapdragon)"
+    },
+    {
       "context_snippet": "CI (android)",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-android.yml",
@@ -521,12 +556,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-cache.yml",
       "term": "Build Actions Cache"
-    },
-    {
-      "context_snippet": "CI (cann)",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cann.yml",
-      "term": "CI (cann)"
     },
     {
       "context_snippet": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)",

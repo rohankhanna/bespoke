@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910705,
+      "status": "candidate",
+      "text": "picket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899133,
+      "status": "candidate",
+      "text": "ticker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898211,
+      "status": "candidate",
+      "text": "sentry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895315,
+      "status": "candidate",
+      "text": "lookout man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893709,
+      "status": "candidate",
+      "text": "lookout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "watch",
+      "sense_id": "watch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 108039,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "sentry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "view"
+    }
+  ],
+  "concept_id": "watch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "watch",
+  "observation_id": "320ff2774d43f820",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "watch",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "privatenumber/tsx",
+  "source_repo_description": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+}

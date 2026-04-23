@@ -1,0 +1,393 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-fmt.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-fmt.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "Publish Feature Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-fmt.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-fmt.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-fmt.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "Go Fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-snippets-pr-check.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "Check external links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yaml",
+      "source_repo": "google/adk-docs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:45.861377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3649
+    },
+    {
+      "path": "requirements.txt",
+      "size": 134
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 1101
+    },
+    {
+      "path": ".github/workflows/feature-matrix-updater.yaml",
+      "size": 1022
+    },
+    {
+      "path": ".github/workflows/go-fmt.yaml",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/go-snippets-pr-check.yaml",
+      "size": 2957
+    },
+    {
+      "path": ".github/workflows/link-checker.yaml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/publish-docs.yaml",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/python-lint.yaml",
+      "size": 2331
+    },
+    {
+      "path": ".github/workflows/python-tests.yaml",
+      "size": 3316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "fork": false,
+    "full_name": "google/adk-docs",
+    "html_url": "https://github.com/google/adk-docs",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T22:26:27Z",
+    "stargazers_count": 1311,
+    "topics": [],
+    "updated_at": "2026-04-23T18:41:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Publish Feature Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feature-matrix-updater.yaml",
+      "term": "Publish Feature Matrix"
+    },
+    {
+      "context_snippet": "Go Fmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-fmt.yaml",
+      "term": "Go Fmt"
+    },
+    {
+      "context_snippet": "Check external links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "term": "Check external links"
+    },
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "term": "Publish Docs"
+    }
+  ]
+}

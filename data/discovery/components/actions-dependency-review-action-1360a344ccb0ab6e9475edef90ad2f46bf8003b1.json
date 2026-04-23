@@ -1,0 +1,12 @@
+{
+  "component": "actions/dependency-review-action@1360a344ccb0ab6e9475edef90ad2f46bf8003b1",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller"
+    }
+  ]
+}

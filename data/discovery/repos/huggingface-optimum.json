@@ -1,0 +1,539 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_bot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_common.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_common.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/optimum",
+      "target": "huggingface/optimum-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/optimum",
+      "target": "huggingface/optimum-quanto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "Build main documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "Build PR documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_bot.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_bot.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "Style Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_common.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_common.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml",
+      "source_repo": "huggingface/optimum",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "graphcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "habana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "tflite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:36.677678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9364
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1269
+    },
+    {
+      "path": ".github/workflows/build_main_documentation.yml",
+      "size": 2091
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 2084
+    },
+    {
+      "path": ".github/workflows/quality.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/style_bot.yml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/test_cli.yml",
+      "size": 1789
+    },
+    {
+      "path": ".github/workflows/test_common.yml",
+      "size": 1181
+    },
+    {
+      "path": ".github/workflows/test_exporters_common.yml",
+      "size": 1810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools",
+    "fork": false,
+    "full_name": "huggingface/optimum",
+    "html_url": "https://github.com/huggingface/optimum",
+    "language": "Python",
+    "pushed_at": "2026-04-15T13:28:18Z",
+    "stargazers_count": 3361,
+    "topics": [
+      "graphcore",
+      "habana",
+      "inference",
+      "intel",
+      "onnx",
+      "onnxruntime",
+      "optimization",
+      "pytorch",
+      "quantization",
+      "tflite",
+      "training",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T16:26:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/optimum-onnx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/optimum-quanto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build main documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_main_documentation.yml",
+      "term": "Build main documentation"
+    },
+    {
+      "context_snippet": "Build PR documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR documentation"
+    },
+    {
+      "context_snippet": "Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "term": "Code Quality"
+    },
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Style Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_bot.yml",
+      "term": "Style Bot"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphcore"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "habana"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

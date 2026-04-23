@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate Helm Chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate Helm Chart"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "acoustic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Helm Chart",
+      "sense_id": "validate-helm-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-helm-chart",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-helm-chart",
+  "observation_id": "da2836f92cc30886",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Validate Helm Chart",
+  "source_context_snippet": "Validate Helm Chart",
+  "source_file": ".github/workflows/arc-validate-chart.yaml",
+  "source_repo": "actions/actions-runner-controller",
+  "source_repo_description": "Kubernetes controller for GitHub Actions self-hosted runners"
+}

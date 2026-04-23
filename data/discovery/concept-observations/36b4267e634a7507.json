@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023725,
+      "status": "candidate",
+      "text": "webtool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023724,
+      "status": "candidate",
+      "text": "webchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023723,
+      "status": "candidate",
+      "text": "weblication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023722,
+      "status": "candidate",
+      "text": "web bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023721,
+      "status": "candidate",
+      "text": "webcasting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webhook",
+      "sense_id": "webhook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webhook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webhook",
+  "observation_id": "36b4267e634a7507",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "webhook",
+  "source_context_snippet": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />",
+  "source_file": null,
+  "source_repo": "cbrgm/githubevents",
+  "source_repo_description": "GitHub webhook events toolset for Go :rocket:"
+}

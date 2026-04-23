@@ -1,0 +1,12 @@
+{
+  "component": "AlejandroSuero/selene-linter-action@v1.0.0",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim"
+    }
+  ]
+}

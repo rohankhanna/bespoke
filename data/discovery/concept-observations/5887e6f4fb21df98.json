@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check font tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check font tags"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20488,
+      "status": "candidate",
+      "text": "homo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20488,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20488,
+      "status": "candidate",
+      "text": "mastering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19664,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19664,
+      "status": "candidate",
+      "text": "mark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check font tags",
+      "sense_id": "check-font-tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-font-tags",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-font-tags",
+  "observation_id": "5887e6f4fb21df98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check font tags",
+  "source_context_snippet": "Check font tags",
+  "source_file": ".github/workflows/font_tags.yaml",
+  "source_repo": "google/fonts",
+  "source_repo_description": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+}

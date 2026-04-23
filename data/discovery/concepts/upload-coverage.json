@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "upload-coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "upload-coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "upload-coverage"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "upload-coverage",
+  "concept_id": "upload-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "source_repo": "google/syzkaller"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "upload-coverage",
+      "sense_id": "upload-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

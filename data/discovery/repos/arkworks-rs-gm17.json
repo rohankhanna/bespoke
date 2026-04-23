@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/gm17",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/gm17",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/gm17",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/gm17",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/gm17",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17",
+      "target": "r1cs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17",
+      "target": "snark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17",
+      "target": "zksnark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:38:08.787777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2646
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust library for the preprocessing zkSNARK of Groth and Maller",
+    "fork": false,
+    "full_name": "arkworks-rs/gm17",
+    "html_url": "https://github.com/arkworks-rs/gm17",
+    "language": "Rust",
+    "pushed_at": "2024-10-29T05:09:55Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cryptography",
+      "r1cs",
+      "rust",
+      "snark",
+      "zksnark"
+    ],
+    "updated_at": "2025-11-01T22:52:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">ark-gm17</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-gm17</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r1cs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-gm17</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-gm17</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-gm17</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zksnark"
+    }
+  ]
+}

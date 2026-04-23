@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "frankenphp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "frankenphp",
+  "concept_id": "frankenphp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "php/frankenphp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frankenphp",
+      "sense_id": "frankenphp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

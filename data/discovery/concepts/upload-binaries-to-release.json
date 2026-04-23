@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload binaries to release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Upload binaries to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate",
+      "text": "Upload binaries to release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "bin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload binaries to release",
+  "concept_id": "upload-binaries-to-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload binaries to release",
+      "sense_id": "upload-binaries-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

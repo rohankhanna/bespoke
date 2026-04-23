@@ -1,12 +1,17 @@
 {
   "component": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "pre-commit/pre-commit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "asottile/pyupgrade"
     }
   ]
 }

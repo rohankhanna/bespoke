@@ -1,16 +1,71 @@
 {
   "ambiguity_status": "unresolved",
   "candidate_buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitHub Actions runner images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create Pull Request"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26222,
+      "status": "candidate",
+      "text": "suck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18901,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18901,
+      "status": "candidate",
+      "text": "sit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18738,
+      "status": "candidate",
+      "text": "execute"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
-        "workflow-process"
+        "workflow-process",
+        "data-document-artifact"
       ],
       "label": "Create Pull Request",
       "sense_id": "create-pull-request#sense-1",
@@ -22,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "create-pull-request",
   "observation_id": "47ef92f17255262a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Create Pull Request",
-  "source_context_snippet": null,
+  "source_context_snippet": "Create Pull Request",
   "source_file": ".github/workflows/create_pull_request.yml",
   "source_repo": "actions/runner-images",
-  "source_repo_description": null
+  "source_repo_description": "GitHub Actions runner images"
 }

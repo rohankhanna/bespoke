@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml"
+    },
+    {
+      "component": "r-hub/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-r@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "neoclide/coc-r-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "jonclayden/r-nova",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-lib/lintr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-lib/styler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "R-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "REditorSupport/languageserver",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "REditorSupport/languageserver",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:06:25.904956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12925
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 2206
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/rcmdcheck.yml",
+      "size": 2827
+    },
+    {
+      "path": ".github/workflows/rhub.yaml",
+      "size": 2942
+    },
+    {
+      "path": ".github/workflows/tagbot.yml",
+      "size": 435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of the Language Server Protocol for R",
+    "fork": false,
+    "full_name": "REditorSupport/languageserver",
+    "html_url": "https://github.com/REditorSupport/languageserver",
+    "language": "R",
+    "pushed_at": "2026-04-18T22:37:04Z",
+    "stargazers_count": 655,
+    "topics": [
+      "language-server-protocol",
+      "r"
+    ],
+    "updated_at": "2026-04-20T21:02:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonclayden/r-nova",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neoclide/coc-r-lsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lib/lintr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lib/styler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "R-hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "term": "R-hub"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![R-CMD-check](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml/badge.svg)](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    }
+  ]
+}

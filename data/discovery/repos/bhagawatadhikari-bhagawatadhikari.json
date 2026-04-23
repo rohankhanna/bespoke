@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profile.yml"
+    },
+    {
+      "component": "lowlighter/metrics@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profile.yml",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profile.yml",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "target": "lowlighter/metrics@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profile.yml",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "target": "Collect Activity Data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:48.599468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7630
+    },
+    {
+      "path": ".github/workflows/profile.yml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains the my profile. I'm always open to feedback and suggestions.",
+    "fork": false,
+    "full_name": "BhagawatAdhikari/bhagawatadhikari",
+    "html_url": "https://github.com/BhagawatAdhikari/bhagawatadhikari",
+    "language": null,
+    "pushed_at": "2023-04-07T12:39:54Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-05-11T07:32:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Collect Activity Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profile.yml",
+      "term": "Collect Activity Data"
+    }
+  ]
+}

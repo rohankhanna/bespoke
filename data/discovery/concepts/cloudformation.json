@@ -31,6 +31,30 @@
       "source_repo": "aws-cloudformation/cfn-lint",
       "status": "candidate-context",
       "text": "<img alt=\"[cfn-lint logo]\" src=\"https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true\" width=\"150\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "aws-cloudformation/cfn-lint",
       "status": "candidate",
       "text": "<img alt=\"[cfn-lint logo]\" src=\"https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true\" width=\"150\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +112,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

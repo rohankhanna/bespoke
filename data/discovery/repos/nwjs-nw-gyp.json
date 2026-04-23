@@ -88,20 +88,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nwjs/nw-gyp",
-      "target": "felixrieseberg/windows-build-tools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nwjs/nw-gyp",
-      "target": "microsoft/nodejs-guidelines",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nwjs/nw-gyp",
@@ -221,7 +207,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T08:44:48.398419+00:00",
+  "fetched_at": "2026-04-23T21:08:10.621989+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -246,17 +232,6 @@
     "topics": [],
     "updated_at": "2026-03-28T18:28:42Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "felixrieseberg/windows-build-tools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/nodejs-guidelines",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

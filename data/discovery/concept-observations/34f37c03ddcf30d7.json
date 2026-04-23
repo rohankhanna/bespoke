@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example code for how to get hashicorp/raft running with gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012170,
+      "status": "candidate",
+      "text": "spate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991202,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981428,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968801,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968051,
+      "status": "candidate",
+      "text": "hatful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raft",
+      "sense_id": "raft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41039,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "spate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20075,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18062,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18054,
+      "status": "candidate",
+      "text": "deal"
+    }
+  ],
+  "concept_id": "raft",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raft",
+  "observation_id": "34f37c03ddcf30d7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "raft",
+  "source_context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+  "source_file": null,
+  "source_repo": "Jille/raft-grpc-example",
+  "source_repo_description": "Example code for how to get hashicorp/raft running with gRPC"
+}

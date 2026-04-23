@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides .NET bindings for libheif."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "csharp",
+      "sense_id": "csharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "csharp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "csharp",
+  "observation_id": "60fa6a61a8131d74",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "csharp",
+  "source_context_snippet": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)",
+  "source_file": null,
+  "source_repo": "0xC0000054/libheif-sharp",
+  "source_repo_description": "Provides .NET bindings for libheif."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Long Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Long Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate",
+      "text": "Long Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14540,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14540,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14540,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14479,
+      "status": "candidate",
+      "text": "experiences"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14299,
+      "status": "candidate",
+      "text": "experience"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Long Tests",
+  "concept_id": "long-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-long.yml",
+      "source_repo": "golang/vscode-go"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Long Tests",
+      "sense_id": "long-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

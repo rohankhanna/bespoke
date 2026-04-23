@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sthalles/SimCLR",
+      "target": "sthalles/pytorch-byol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "contrastive-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "simclr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "torchvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:41.367749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3172
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations",
+    "fork": false,
+    "full_name": "sthalles/SimCLR",
+    "html_url": "https://github.com/sthalles/SimCLR",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-04T10:45:52Z",
+    "stargazers_count": 2492,
+    "topics": [
+      "contrastive-loss",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "pytorch-implementation",
+      "representation-learning",
+      "simclr",
+      "torchvision",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-04-23T07:55:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sthalles/pytorch-byol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-loss"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simclr"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchvision"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/withdraw-repos.yaml",
       "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-arm.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ea.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-major-version.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-single.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-reuse.yaml",
+      "source_repo": "argoproj/argo-cd"
     }
   ]
 }

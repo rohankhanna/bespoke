@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Update Ada"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate-context",
+      "text": "Kotlin bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate-context",
+      "text": "Update Ada"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Update Ada"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate",
+      "text": "Update Ada"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate",
+      "text": "Update Ada"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10581,
+      "status": "candidate",
+      "text": "accretion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10581,
+      "status": "candidate",
+      "text": "acker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10581,
+      "status": "candidate",
+      "text": "aquaculture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10581,
+      "status": "candidate",
+      "text": "backwater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10581,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Ada",
+  "concept_id": "update-ada",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Ada",
+      "sense_id": "update-ada#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

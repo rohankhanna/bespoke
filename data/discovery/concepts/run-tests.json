@@ -249,6 +249,78 @@
       "source_repo": "butlerx/wetty",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ISEEKYAN/mbridge",
+      "status": "candidate-context",
+      "text": "Bridge Megatron-Core to Hugging Face/Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ISEEKYAN/mbridge",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vinlyx/mgzip",
+      "status": "candidate-context",
+      "text": "A multi-threading implement of Python gzip module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vinlyx/mgzip",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "Snippet Engine for Neovim written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -371,6 +443,42 @@
       "source_repo": "butlerx/wetty",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ISEEKYAN/mbridge",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vinlyx/mgzip",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -558,11 +666,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pull-requests.yml",
       "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "ISEEKYAN/mbridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/aerial.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "vinlyx/mgzip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "L3MON4D3/LuaSnip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

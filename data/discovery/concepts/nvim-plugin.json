@@ -67,6 +67,54 @@
       "source_repo": "stevearc/resession.nvim",
       "status": "candidate-context",
       "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "Neovim's answer to the mouse \ud83e\udd98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "stevearc/resession.nvim",
       "status": "candidate",
       "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +208,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "stevearc/resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/leap.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

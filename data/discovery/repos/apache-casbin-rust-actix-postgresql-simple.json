@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-postgresql-simple",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-postgresql-simple",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-postgresql-simple",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-postgresql-simple",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:55:26.043812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 436
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "apache/casbin-rust-actix-postgresql-simple",
+    "html_url": "https://github.com/apache/casbin-rust-actix-postgresql-simple",
+    "language": "Rust",
+    "pushed_at": "2022-08-27T01:53:34Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-12T12:15:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -101,6 +101,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-no-response.yml",
       "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/OpenManus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macvim-issues.yaml",
+      "source_repo": "macvim-dev/macvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "source_repo": "girishji/vimcomplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
     }
   ],
   "term": "Close inactive issues"

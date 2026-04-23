@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple wrapper for hiroi-sora/PaddleOCR-json implemented in Go language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39696673,
+      "status": "candidate",
+      "text": "spank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39685140,
+      "status": "candidate",
+      "text": "dabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672274,
+      "status": "candidate",
+      "text": "larrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39612986,
+      "status": "candidate",
+      "text": "waddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39608556,
+      "status": "candidate",
+      "text": "toddle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paddle",
+      "sense_id": "paddle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "totter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "toddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "coggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "dodder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7024,
+      "status": "candidate",
+      "text": "larrup"
+    }
+  ],
+  "concept_id": "paddle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paddle",
+  "observation_id": "287a250a367ce844",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "paddle",
+  "source_context_snippet": "English|[\u4e2d\u6587](/README-ZH.md)",
+  "source_file": null,
+  "source_repo": "doraemonkeys/paddleocr",
+  "source_repo_description": "A simple wrapper for hiroi-sora/PaddleOCR-json implemented in Go language."
+}

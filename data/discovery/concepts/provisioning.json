@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "provisioning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049168,
+      "status": "candidate",
+      "text": "providing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049004,
+      "status": "candidate",
+      "text": "supply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043554,
+      "status": "candidate",
+      "text": "purvey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041376,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039197,
+      "status": "candidate",
+      "text": "planning"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "provisioning",
+  "concept_id": "provisioning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "provisioning",
+      "sense_id": "provisioning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

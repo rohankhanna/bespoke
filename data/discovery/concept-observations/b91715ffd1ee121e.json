@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CUSP : A C++ Templated Sparse Matrix Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cusp test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cusp test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14136,
+      "status": "candidate",
+      "text": "descendant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14136,
+      "status": "candidate",
+      "text": "horn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14136,
+      "status": "candidate",
+      "text": "verge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14096,
+      "status": "candidate",
+      "text": "heel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14096,
+      "status": "candidate",
+      "text": "heeled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cusp test",
+      "sense_id": "cusp-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cusp-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cusp-test",
+  "observation_id": "b91715ffd1ee121e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cusp test",
+  "source_context_snippet": "cusp test",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "cusplibrary/cusplibrary",
+  "source_repo_description": "CUSP : A C++ Templated Sparse Matrix Library"
+}

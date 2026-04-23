@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A place to submit conda recipes before they become fully fledged conda-forge feedstocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rerun staged-recipes linter on issue comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rerun staged-recipes linter on issue comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24603,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22580,
+      "status": "candidate",
+      "text": "circulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22580,
+      "status": "candidate",
+      "text": "oil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "anadiplosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "antanaclasis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rerun staged-recipes linter on issue comments",
+      "sense_id": "rerun-staged-recipes-linter-on-issue-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rerun-staged-recipes-linter-on-issue-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rerun-staged-recipes-linter-on-issue-comments",
+  "observation_id": "74f59528d4357317",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rerun staged-recipes linter on issue comments",
+  "source_context_snippet": "rerun staged-recipes linter on issue comments",
+  "source_file": ".github/workflows/linter_issue_comment.yml",
+  "source_repo": "conda-forge/staged-recipes",
+  "source_repo_description": "A place to submit conda recipes before they become fully fledged conda-forge feedstocks"
+}

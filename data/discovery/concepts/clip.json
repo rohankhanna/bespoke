@@ -55,6 +55,42 @@
       "source_repo": "autodistill/autodistill-clip",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight] The official CLIP training codebase of Inf-CL: \"Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss\". A super memory-efficiency CLIP training scheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "autodistill/autodistill-clip",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +244,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "autodistill/autodistill-clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

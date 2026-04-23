@@ -1,0 +1,987 @@
+{
+  "components": [
+    {
+      "component": "@atproto/dev-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pino-pretty",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/atproto",
+      "target": "bluesky-social/pds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/atproto",
+      "target": "bluesky-social/social-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluesky-social/atproto",
+      "target": "bluesky-social/indigo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@atproto/dev-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@swc/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@swc/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint-import-resolver-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "pino-pretty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "prettier-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bluesky-social/atproto",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-bsky-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-bsky-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-bsync-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-bsync-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-ozone-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-ozone-ghcr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-pds-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto",
+      "target": "build-and-push-pds-ghcr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:22.097936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8882
+    },
+    {
+      "path": "package.json",
+      "size": 2860
+    },
+    {
+      "path": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "size": 1551
+    },
+    {
+      "path": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "size": 1573
+    },
+    {
+      "path": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "size": 1526
+    },
+    {
+      "path": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "size": 1573
+    },
+    {
+      "path": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "size": 1526
+    },
+    {
+      "path": ".github/workflows/build-and-push-pds-aws.yaml",
+      "size": 1594
+    },
+    {
+      "path": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "size": 1547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Social networking technology created by Bluesky",
+    "fork": false,
+    "full_name": "bluesky-social/atproto",
+    "html_url": "https://github.com/bluesky-social/atproto",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T19:27:50Z",
+    "stargazers_count": 9332,
+    "topics": [],
+    "updated_at": "2026-04-23T17:07:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/indigo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/pds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/social-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-and-push-bsky-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "term": "build-and-push-bsky-aws"
+    },
+    {
+      "context_snippet": "build-and-push-bsky-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "term": "build-and-push-bsky-ghcr"
+    },
+    {
+      "context_snippet": "build-and-push-bsync-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "term": "build-and-push-bsync-aws"
+    },
+    {
+      "context_snippet": "build-and-push-bsync-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "term": "build-and-push-bsync-ghcr"
+    },
+    {
+      "context_snippet": "build-and-push-ozone-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "term": "build-and-push-ozone-aws"
+    },
+    {
+      "context_snippet": "build-and-push-ozone-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "term": "build-and-push-ozone-ghcr"
+    },
+    {
+      "context_snippet": "build-and-push-pds-aws",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "term": "build-and-push-pds-aws"
+    },
+    {
+      "context_snippet": "build-and-push-pds-ghcr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "term": "build-and-push-pds-ghcr"
+    }
+  ]
+}

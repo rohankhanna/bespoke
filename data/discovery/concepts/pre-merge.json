@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Pre-merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "The React Native website and docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "Pre-merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate",
+      "text": "Pre-merge"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Pre-merge",
+  "concept_id": "pre-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-merge.yml",
+      "source_repo": "facebook/react-native-website"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pre-merge",
+      "sense_id": "pre-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

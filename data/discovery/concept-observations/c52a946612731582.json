@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Installer and doctor scripts for nodenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974889,
+      "status": "candidate",
+      "text": "medico"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974860,
+      "status": "candidate",
+      "text": "doc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974839,
+      "status": "candidate",
+      "text": "physician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901659,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867740,
+      "status": "candidate",
+      "text": "touch on"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "doctor",
+      "sense_id": "doctor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14054,
+      "status": "candidate",
+      "text": "repair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13043,
+      "status": "candidate",
+      "text": "restore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "sophisticate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    }
+  ],
+  "concept_id": "doctor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "doctor",
+  "observation_id": "c52a946612731582",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "doctor",
+  "source_context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "nodenv/nodenv-installer",
+  "source_repo_description": "Installer and doctor scripts for nodenv"
+}

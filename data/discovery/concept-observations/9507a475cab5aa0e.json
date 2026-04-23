@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985862,
+      "status": "candidate",
+      "text": "processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29822197,
+      "status": "candidate",
+      "text": "scrubber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023837,
+      "status": "candidate",
+      "text": "debuggee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023836,
+      "status": "candidate",
+      "text": "debug mode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023834,
+      "status": "candidate",
+      "text": "debugee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "debugger",
+      "sense_id": "debugger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "debugger",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "debugger",
+  "observation_id": "9507a475cab5aa0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "debugger",
+  "source_context_snippet": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026",
+  "source_file": null,
+  "source_repo": "ruby/debug",
+  "source_repo_description": "Debugging functionality for Ruby"
+}

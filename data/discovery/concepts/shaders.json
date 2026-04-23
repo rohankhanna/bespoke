@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Shaders"
+    "Shaders",
+    "shaders"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "gfx-rs/wgpu",
       "status": "candidate-context",
       "text": "Shaders"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "gfx-rs/wgpu",
       "status": "candidate",
       "text": "Shaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/shaders.yml",
       "source_repo": "gfx-rs/wgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

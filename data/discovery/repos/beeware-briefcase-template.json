@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "beeware/.github/.github/workflows/pre-commit-run.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "beeware/.github/.github/workflows/app-create-verify.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "beeware/.github/.github/workflows/app-build-verify.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "beeware/.github/.github/workflows/pre-commit-update.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "beeware/briefcase-template",
+      "target": "beeware/briefcase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "beeware/.github/.github/workflows/pre-commit-run.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "beeware/.github/.github/workflows/app-create-verify.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "beeware/.github/.github/workflows/app-build-verify.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "beeware/.github/.github/workflows/pre-commit-update.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "beeware/briefcase-template",
+      "target": "Update pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:32.497672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/pre-commit-update.yml",
+      "size": 573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cookiecutter template for a starter Briefcase project.",
+    "fork": false,
+    "full_name": "beeware/briefcase-template",
+    "html_url": "https://github.com/beeware/briefcase-template",
+    "language": "Python",
+    "pushed_at": "2026-04-06T03:55:34Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-04-06T03:55:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beeware/briefcase",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "term": "Update pre-commit"
+    }
+  ]
+}

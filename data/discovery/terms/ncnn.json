@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
     }
   ],
   "term": "ncnn"

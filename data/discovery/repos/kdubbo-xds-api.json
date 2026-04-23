@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:45:31.665795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 331
+    },
+    {
+      "path": "go.mod",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "XDS protocol for the Dubbo control-plane.",
+    "fork": false,
+    "full_name": "kdubbo/xds-api",
+    "html_url": "https://github.com/kdubbo/xds-api",
+    "language": "Go",
+    "pushed_at": "2026-04-23T10:50:00Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T10:50:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "bundle-analyzer",
   "observation_id": "0b48a0be2734b89e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Bundle Analyzer",
   "source_context_snippet": "Bundle Analyzer",
   "source_file": ".github/workflows/bundle-analyzer.yml",

@@ -19,6 +19,18 @@
       "source_repo": "mvdan/sh",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "Small Clojure interpreter, linter and formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mvdan/sh",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/sh/v3.svg)](https://pkg.go.dev/mvdan.cc/sh/v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "mvdan/sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "candid82/joker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

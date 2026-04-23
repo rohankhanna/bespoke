@@ -1,0 +1,165 @@
+{
+  "aliases": [
+    "Alpine Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Alpine Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "Alpine Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36097,
+      "status": "candidate",
+      "text": "pureos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36096,
+      "status": "candidate",
+      "text": "absolute linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36094,
+      "status": "candidate",
+      "text": "tiny core linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36093,
+      "status": "candidate",
+      "text": "qubes os"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Alpine Linux",
+  "concept_id": "alpine-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Alpine Linux",
+      "sense_id": "alpine-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

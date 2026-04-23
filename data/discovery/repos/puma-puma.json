@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-status.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rack_conform.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rack_conform.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml"
+    },
+    {
+      "component": "ruby/setup-ruby-pkgs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checks.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_duplicate_workflow_runs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby-pkgs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby-pkgs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/turbo-rails.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/turbo-rails.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puma/puma",
+      "target": "kigster/puma-daemon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puma/puma",
+      "target": "harmjanblok/puma-metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puma/puma",
+      "target": "babbel/puma-plugin-telemetry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puma/puma",
+      "target": "anchordotdev/puma-acme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-status.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-status.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-status.yml",
+      "source_repo": "puma/puma",
+      "target": "PR Label Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rack_conform.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rack_conform.yml",
+      "source_repo": "puma/puma",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rack_conform.yml",
+      "source_repo": "puma/puma",
+      "target": "rack-conform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml",
+      "source_repo": "puma/puma",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ragel.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ragel.yml",
+      "source_repo": "puma/puma",
+      "target": "ragel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checks.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-checks.yml",
+      "source_repo": "puma/puma",
+      "target": "Release Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_duplicate_workflow_runs.yml",
+      "source_repo": "puma/puma",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip_duplicate_workflow_runs.yml",
+      "source_repo": "puma/puma",
+      "target": "Skip Duplicate Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/turbo-rails.yml",
+      "source_repo": "puma/puma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/turbo-rails.yml",
+      "source_repo": "puma/puma",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/turbo-rails.yml",
+      "source_repo": "puma/puma",
+      "target": "turbo-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "puma/puma",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "puma/puma",
+      "target": "rack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "puma/puma",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "puma/puma",
+      "target": "server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:47:36.251806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19715
+    },
+    {
+      "path": ".github/workflows/github_actions_info.rb",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/pr-label-status.yml",
+      "size": 4541
+    },
+    {
+      "path": ".github/workflows/rack_conform.yml",
+      "size": 2111
+    },
+    {
+      "path": ".github/workflows/ragel.yml",
+      "size": 2969
+    },
+    {
+      "path": ".github/workflows/release-checks.yml",
+      "size": 5617
+    },
+    {
+      "path": ".github/workflows/skip_duplicate_workflow_runs.yml",
+      "size": 850
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 7223
+    },
+    {
+      "path": ".github/workflows/turbo-rails.yml",
+      "size": 3248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby/Rack web server built for parallelism",
+    "fork": false,
+    "full_name": "puma/puma",
+    "html_url": "https://github.com/puma/puma",
+    "language": "Ruby",
+    "pushed_at": "2026-04-19T22:54:18Z",
+    "stargazers_count": 7883,
+    "topics": [
+      "multithreading",
+      "rack",
+      "ruby",
+      "server"
+    ],
+    "updated_at": "2026-04-22T14:46:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anchordotdev/puma-acme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babbel/puma-plugin-telemetry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harmjanblok/puma-metrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kigster/puma-daemon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Label Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-status.yml",
+      "term": "PR Label Manager"
+    },
+    {
+      "context_snippet": "rack-conform",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rack_conform.yml",
+      "term": "rack-conform"
+    },
+    {
+      "context_snippet": "ragel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ragel.yml",
+      "term": "ragel"
+    },
+    {
+      "context_snippet": "Release Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-checks.yml",
+      "term": "Release Checks"
+    },
+    {
+      "context_snippet": "Skip Duplicate Workflow Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip_duplicate_workflow_runs.yml",
+      "term": "Skip Duplicate Workflow Runs"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "turbo-rails",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/turbo-rails.yml",
+      "term": "turbo-rails"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rack"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    }
+  ]
+}

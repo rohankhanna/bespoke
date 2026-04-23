@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:00:13.036832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcdda place to store ideas, thoughts and interesting links",
+    "fork": false,
+    "full_name": "nelsonic/nelsonic.github.io",
+    "html_url": "https://github.com/nelsonic/nelsonic.github.io",
+    "language": "HTML",
+    "pushed_at": "2022-09-26T05:59:42Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-09-24T20:52:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

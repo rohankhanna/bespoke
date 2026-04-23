@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backport merged PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "Backport merged PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate",
+      "text": "Backport merged PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9242,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9193,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9149,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9149,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9149,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backport merged PR",
+  "concept_id": "backport-merged-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "esp-rs/esp-hal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport merged PR",
+      "sense_id": "backport-merged-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

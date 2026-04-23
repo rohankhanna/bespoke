@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "marwes/hubcaps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "marwes/gluon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "rust-lang-nursery/mdbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "gluon-lang/try_gluon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "elm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "elm-webpack-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "node-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "popper.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "sass-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "style-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "url-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "gluon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "target": "playground",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "gluon-lang/gluon-lang.org"
+}

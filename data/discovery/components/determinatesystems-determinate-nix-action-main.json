@@ -1,0 +1,27 @@
+{
+  "component": "DeterminateSystems/determinate-nix-action@main",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    }
+  ]
+}

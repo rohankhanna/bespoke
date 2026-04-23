@@ -1,0 +1,568 @@
+{
+  "components": [
+    {
+      "component": "@arethetypeswrong/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bufbuild/license-header",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bufbuild/protobuf-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "@arethetypeswrong/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "@bufbuild/license-header",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "Bypass review in case of emergency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "PR Approval Bypass Notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "Lint PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "protoc-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es",
+      "target": "typescipt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:49.942345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13349
+    },
+    {
+      "path": "package.json",
+      "size": 1579
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/bun.yaml",
+      "size": 1142
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4094
+    },
+    {
+      "path": ".github/workflows/deno.yaml",
+      "size": 1296
+    },
+    {
+      "path": ".github/workflows/emergency-review-bypass.yaml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/notify-approval-bypass.yaml",
+      "size": 264
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests.",
+    "fork": false,
+    "full_name": "bufbuild/protobuf-es",
+    "html_url": "https://github.com/bufbuild/protobuf-es",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T16:12:26Z",
+    "stargazers_count": 1571,
+    "topics": [
+      "javascript",
+      "protobuf",
+      "protoc-plugin",
+      "protocol-buffers",
+      "schema",
+      "typescipt"
+    ],
+    "updated_at": "2026-04-23T16:08:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bufbuild/protobuf-conformance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "bun",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bun.yaml",
+      "term": "bun"
+    },
+    {
+      "context_snippet": "deno",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yaml",
+      "term": "deno"
+    },
+    {
+      "context_snippet": "Bypass review in case of emergency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "term": "Bypass review in case of emergency"
+    },
+    {
+      "context_snippet": "PR Approval Bypass Notifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "term": "PR Approval Bypass Notifier"
+    },
+    {
+      "context_snippet": "Lint PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "Lint PR Title"
+    },
+    {
+      "context_snippet": "![The Buf logo](./.github/buf-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "![The Buf logo](./.github/buf-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc-plugin"
+    },
+    {
+      "context_snippet": "![The Buf logo](./.github/buf-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    },
+    {
+      "context_snippet": "![The Buf logo](./.github/buf-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "![The Buf logo](./.github/buf-logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescipt"
+    }
+  ]
+}

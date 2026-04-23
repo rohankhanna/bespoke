@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Halide Presubmit Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "Halide Presubmit Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "Halide Presubmit Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "bromine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "chlorine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "cyanogen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "fluorine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "iodine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Halide Presubmit Checks",
+  "concept_id": "halide-presubmit-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "halide/Halide"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Halide Presubmit Checks",
+      "sense_id": "halide-presubmit-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

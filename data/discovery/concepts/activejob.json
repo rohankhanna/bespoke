@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "activejob"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rails is a web application framework that includes everything needed to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rails is a web application framework that includes everything needed to"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "activejob",
+  "concept_id": "activejob",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rails/rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "activejob",
+      "sense_id": "activejob#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

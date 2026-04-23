@@ -19,6 +19,18 @@
       "source_repo": "igor-makarov/xcake",
       "status": "candidate-context",
       "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "The Cocoa Dependency Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "igor-makarov/xcake",
       "status": "candidate",
       "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate",
+      "text": "Cocoapods is not receiving active development. Refer to [the blog](https://blog.cocoapods.org/) for the latest status of the project."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

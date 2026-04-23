@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[OSHW] Yuzuki Chameleon is a Raspberry Pi A Shaped SBC based on Allwinner H616"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync To Gitee"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync To Gitee"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "attuned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "jibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "agrees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "align"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync To Gitee",
+      "sense_id": "sync-to-gitee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-to-gitee",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-to-gitee",
+  "observation_id": "1509903f2d34cc43",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sync To Gitee",
+  "source_context_snippet": "Sync To Gitee",
+  "source_file": ".github/workflows/sync.yml",
+  "source_repo": "YuzukiHD/YuzukiChameleon",
+  "source_repo_description": "[OSHW] Yuzuki Chameleon is a Raspberry Pi A Shaped SBC based on Allwinner H616"
+}

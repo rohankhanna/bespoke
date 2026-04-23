@@ -1,0 +1,161 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "ljspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "probabilistic-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "tts-engines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad",
+      "target": "wavegrad",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:13:12.187918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8723
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of WaveGrad high-fidelity vocoder from Google Brain in PyTorch.",
+    "fork": false,
+    "full_name": "ivanvovk/WaveGrad",
+    "html_url": "https://github.com/ivanvovk/WaveGrad",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-07-07T12:12:27Z",
+    "stargazers_count": 409,
+    "topics": [
+      "diffusion-models",
+      "ljspeech",
+      "probabilistic-models",
+      "speech",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "tts-engines",
+      "vocoder",
+      "wavegrad"
+    ],
+    "updated_at": "2026-04-02T14:56:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ljspeech"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-models"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-engines"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "![alt-text-1](generated_samples/denoising.gif \"denoising\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavegrad"
+    }
+  ]
+}

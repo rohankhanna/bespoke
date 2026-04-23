@@ -7,10 +7,95 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034084,
+      "status": "candidate",
+      "text": "stimulus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007424,
+      "status": "candidate",
+      "text": "stimulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29735732,
+      "status": "candidate",
+      "text": "stimulant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048664,
+      "status": "candidate",
+      "text": "input signal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048663,
+      "status": "candidate",
+      "text": "production"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9046,
+      "status": "candidate",
+      "text": "stimulus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8043,
+      "status": "candidate",
+      "text": "stimulant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7031,
+      "status": "candidate",
+      "text": "stimulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "input signal"
+    }
+  ],
   "canonical_name": "input",
   "concept_id": "input",
   "definition_status": "unresolved",
@@ -20,12 +105,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "crossterm-rs/crossterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enigo-rs/enigo"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

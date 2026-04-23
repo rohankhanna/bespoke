@@ -1,0 +1,367 @@
+{
+  "components": [
+    {
+      "component": "@ajv-validator/config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv-formats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv-keywords",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dot",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-schema-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "epoberezkin/ajv-i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "@ajv-validator/config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "ajv-formats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "ajv-keywords",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "dot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "json-schema-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "internationalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n",
+      "target": "validator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:45.540265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9036
+    },
+    {
+      "path": "package.json",
+      "size": 2059
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 623
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Internationalised error messages for Ajv JSON schema validator",
+    "fork": false,
+    "full_name": "ajv-validator/ajv-i18n",
+    "html_url": "https://github.com/ajv-validator/ajv-i18n",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-19T17:37:50Z",
+    "stargazers_count": 179,
+    "topics": [
+      "ajv",
+      "i18n",
+      "internationalization",
+      "json-schema",
+      "validator"
+    ],
+    "updated_at": "2025-12-15T10:19:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "epoberezkin/ajv-i18n",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internationalization"
+    },
+    {
+      "context_snippet": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    },
+    {
+      "context_snippet": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validator"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmarking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmarking"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962553,
+      "status": "candidate",
+      "text": "bench mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958096,
+      "status": "candidate",
+      "text": "baseline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955083,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954145,
+      "status": "candidate",
+      "text": "footnote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950964,
+      "status": "candidate",
+      "text": "referencing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmarking",
+      "sense_id": "benchmarking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmarking",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmarking",
+  "observation_id": "c17649836eb15895",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Benchmarking",
+  "source_context_snippet": "Benchmarking",
+  "source_file": ".github/workflows/benchmark.yaml",
+  "source_repo": "ethereum/execution-specs",
+  "source_repo_description": "Specification for the Execution Layer. Tracking network upgrades."
+}

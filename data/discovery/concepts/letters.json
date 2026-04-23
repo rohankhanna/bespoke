@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "letters"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate-context",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/fill-range",
+      "status": "candidate",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017793,
+      "status": "candidate",
+      "text": "missive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011725,
+      "status": "candidate",
+      "text": "varsity letter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038522,
+      "status": "candidate",
+      "text": "alphabetic character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038522,
+      "status": "candidate",
+      "text": "letter of the alphabet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038521,
+      "status": "candidate",
+      "text": "literature"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "letters",
+  "concept_id": "letters",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/fill-range"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "letters",
+      "sense_id": "letters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

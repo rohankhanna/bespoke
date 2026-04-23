@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check sorting of imports"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check sorting of imports"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19659,
+      "status": "candidate",
+      "text": "folkmote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19659,
+      "status": "candidate",
+      "text": "stocktaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19574,
+      "status": "candidate",
+      "text": "protection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19142,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19142,
+      "status": "candidate",
+      "text": "checkout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check sorting of imports",
+      "sense_id": "check-sorting-of-imports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-sorting-of-imports",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-sorting-of-imports",
+  "observation_id": "f081b5c8a9b70f63",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check sorting of imports",
+  "source_context_snippet": "Check sorting of imports",
+  "source_file": ".github/workflows/isort.yml",
+  "source_repo": "google/adk-python",
+  "source_repo_description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+}

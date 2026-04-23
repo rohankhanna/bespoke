@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close issues on release cut"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "Close issues on release cut"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate",
+      "text": "Close issues on release cut"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44556,
+      "status": "candidate",
+      "text": "crop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34761,
+      "status": "candidate",
+      "text": "shave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34361,
+      "status": "candidate",
+      "text": "chisel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33660,
+      "status": "candidate",
+      "text": "divorce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33606,
+      "status": "candidate",
+      "text": "chiselled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close issues on release cut",
+  "concept_id": "close-issues-on-release-cut",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/close-issue-on-release.yml",
+      "source_repo": "aws/aws-sam-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close issues on release cut",
+      "sense_id": "close-issues-on-release-cut#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

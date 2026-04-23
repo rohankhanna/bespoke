@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "open-thought/reasoning-gym-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "willccbb/verifiers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "facebookresearch/ram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "Pre-commit Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-thought/reasoning-gym",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:40:59.977436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8963
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards",
+    "fork": false,
+    "full_name": "open-thought/reasoning-gym",
+    "html_url": "https://github.com/open-thought/reasoning-gym",
+    "language": "Python",
+    "pushed_at": "2026-04-17T19:39:15Z",
+    "stargazers_count": 1403,
+    "topics": [
+      "gym",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-22T14:22:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/ram",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-thought/reasoning-gym-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "willccbb/verifiers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-commit Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-commit Checks"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

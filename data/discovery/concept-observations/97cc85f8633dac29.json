@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728672,
+      "status": "candidate",
+      "text": "melody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727492,
+      "status": "candidate",
+      "text": "tune up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39589024,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39570855,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39471187,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tuning",
+      "sense_id": "tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tuning",
+  "observation_id": "97cc85f8633dac29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "tuning",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "orhun/tuitar",
+  "source_repo_description": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+}

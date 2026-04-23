@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "containers/skopeo",
-      "target": "containers/storage",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml",
       "source_repo": "containers/skopeo",
@@ -36,6 +29,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "containers/skopeo"
 }

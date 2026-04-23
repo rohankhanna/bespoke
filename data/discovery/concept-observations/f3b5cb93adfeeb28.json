@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007916,
+      "status": "candidate",
+      "text": "imbeddable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007915,
+      "status": "candidate",
+      "text": "embodiable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007914,
+      "status": "candidate",
+      "text": "encodable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007913,
+      "status": "candidate",
+      "text": "submergeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007912,
+      "status": "candidate",
+      "text": "encapsulatable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embeddable",
+      "sense_id": "embeddable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embeddable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embeddable",
+  "observation_id": "f3b5cb93adfeeb28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "embeddable",
+  "source_context_snippet": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026",
+  "source_file": null,
+  "source_repo": "gluon-lang/gluon",
+  "source_repo_description": "A static, type inferred and embeddable language written in Rust."
+}

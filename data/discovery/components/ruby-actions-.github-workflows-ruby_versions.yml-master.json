@@ -1,0 +1,27 @@
+{
+  "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug"
+    }
+  ]
+}

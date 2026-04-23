@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Main Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Action for checking out a repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Update Main Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate",
+      "text": "Update Main Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20500,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19526,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19526,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19526,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19474,
+      "status": "candidate",
+      "text": "revise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Main Version",
+  "concept_id": "update-main-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-main-version.yml",
+      "source_repo": "actions/checkout"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Main Version",
+      "sense_id": "update-main-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:12:30.962063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2648
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dzryk/clip-grams",
+    "html_url": "https://github.com/dzryk/clip-grams",
+    "language": "Python",
+    "pushed_at": "2021-11-25T17:41:27Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2024-02-09T17:01:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

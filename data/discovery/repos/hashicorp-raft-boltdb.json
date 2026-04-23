@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/two-step-pr-approval.yml"
+    },
+    {
+      "component": "hashicorp/two-stage-pr-approval@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/two-step-pr-approval.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "boltdb/bolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "Build and Test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/two-step-pr-approval.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/two-step-pr-approval.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "hashicorp/two-stage-pr-approval@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/two-step-pr-approval.yml",
+      "source_repo": "hashicorp/raft-boltdb",
+      "target": "Two-Stage PR Review Process",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:45.306817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6662
+    },
+    {
+      "path": "go.mod",
+      "size": 207
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/two-step-pr-approval.yml",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Raft backend implementation using BoltDB",
+    "fork": false,
+    "full_name": "hashicorp/raft-boltdb",
+    "html_url": "https://github.com/hashicorp/raft-boltdb",
+    "language": "Go",
+    "pushed_at": "2026-03-13T08:40:26Z",
+    "stargazers_count": 705,
+    "topics": [],
+    "updated_at": "2026-03-29T17:34:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boltdb/bolt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "Build and Test Workflow"
+    },
+    {
+      "context_snippet": "Two-Stage PR Review Process",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/two-step-pr-approval.yml",
+      "term": "Two-Stage PR Review Process"
+    }
+  ]
+}

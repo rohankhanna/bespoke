@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "microsoft/security-devops-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Validate ARM Deployments via ADX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/setup-dotnet@v1.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Auto Fix Sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "microsoft/security-devops-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Summarize PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Validate Sample Contributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "arm-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "bicep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "bicep-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:17.575182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/ValidateSampleDeployments.yml",
+      "size": 35114
+    },
+    {
+      "path": ".github/workflows/auto-fix.yml",
+      "size": 5313
+    },
+    {
+      "path": ".github/workflows/summarize-pr.yml",
+      "size": 38307
+    },
+    {
+      "path": ".github/workflows/validate-samples.yml",
+      "size": 31436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Azure Quickstart Templates",
+    "fork": false,
+    "full_name": "Azure/azure-quickstart-templates",
+    "html_url": "https://github.com/Azure/azure-quickstart-templates",
+    "language": "Bicep",
+    "pushed_at": "2026-04-22T22:13:03Z",
+    "stargazers_count": 14776,
+    "topics": [
+      "arm",
+      "arm-templates",
+      "azure",
+      "bicep",
+      "bicep-templates",
+      "templates"
+    ],
+    "updated_at": "2026-04-23T11:48:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate ARM Deployments via ADX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "term": "Validate ARM Deployments via ADX"
+    },
+    {
+      "context_snippet": "Auto Fix Sample",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "term": "Auto Fix Sample"
+    },
+    {
+      "context_snippet": "Summarize PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "term": "Summarize PR"
+    },
+    {
+      "context_snippet": "Validate Sample Contributions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "term": "Validate Sample Contributions"
+    },
+    {
+      "context_snippet": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm-templates"
+    },
+    {
+      "context_snippet": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bicep"
+    },
+    {
+      "context_snippet": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bicep-templates"
+    },
+    {
+      "context_snippet": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

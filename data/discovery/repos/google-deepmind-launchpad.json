@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/launchpad",
+      "target": "deepmind/reverb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/launchpad",
+      "target": "deepmind/launchpad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/launchpad",
+      "target": "tensorflow/agents",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:12.108737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-deepmind/launchpad",
+    "html_url": "https://github.com/google-deepmind/launchpad",
+    "language": "Python",
+    "pushed_at": "2023-08-22T08:22:46Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-02-24T00:42:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/launchpad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/reverb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/agents",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "@nodenv/nodenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-mock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shellcheck",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/release.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "rbenv/rbenv-gem-rehash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "npm/npm-lifecycle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "@nodenv/nodenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "bats-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "bats-mock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "shellcheck",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "nodenv/.github/.github/workflows/release.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "Sync Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:53:13.357718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5365
+    },
+    {
+      "path": "package.json",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/sync-default-branch.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Never run `nodenv rehash` again",
+    "fork": false,
+    "full_name": "nodenv/nodenv-package-rehash",
+    "html_url": "https://github.com/nodenv/nodenv-package-rehash",
+    "language": "Shell",
+    "pushed_at": "2026-04-18T12:57:52Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-18T12:57:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "npm/npm-lifecycle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbenv/rbenv-gem-rehash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "term": "Sync Default Branch"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

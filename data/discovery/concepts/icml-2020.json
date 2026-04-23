@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "icml-2020"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReBias (Learning De-biased Representations with Biased Representations), ICML 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "icml-2020",
+  "concept_id": "icml-2020",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rebias"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icml-2020",
+      "sense_id": "icml-2020#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

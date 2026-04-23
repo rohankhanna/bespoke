@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018348,
+      "status": "candidate",
+      "text": "multinodal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018347,
+      "status": "candidate",
+      "text": "multinodous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018346,
+      "status": "candidate",
+      "text": "multinetwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018345,
+      "status": "candidate",
+      "text": "multihierarchical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018344,
+      "status": "candidate",
+      "text": "multinodate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multinode",
+      "sense_id": "multinode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multinode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multinode",
+  "observation_id": "05a9f77b65381b37",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "multinode",
+  "source_context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+  "source_file": null,
+  "source_repo": "ai-dynamo/grove",
+  "source_repo_description": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+}

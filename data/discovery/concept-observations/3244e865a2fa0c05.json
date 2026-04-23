@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of MolCLR: \"Molecular Contrastive Learning of Representations via Graph Neural Networks\" in PyG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020101,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011730,
+      "status": "candidate",
+      "text": "atom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959137,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852201,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039214,
+      "status": "candidate",
+      "text": "molecular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "molecule",
+      "sense_id": "molecule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18042,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11036,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "atom"
+    }
+  ],
+  "concept_id": "molecule",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "molecule",
+  "observation_id": "3244e865a2fa0c05",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "molecule",
+  "source_context_snippet": "[Yuyang Wang](https://yuyangw.github.io/), [Jianren Wang](https://www.jianrenw.com/), [Zhonglin Cao](https://www.linkedin.com/in/zhonglincao/?trk=public_profile_browsemap), [Amir Barati Farimani](https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html) </b\u2026",
+  "source_file": null,
+  "source_repo": "yuyangw/MolCLR",
+  "source_repo_description": "Implementation of MolCLR: \"Molecular Contrastive Learning of Representations via Graph Neural Networks\" in PyG."
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL"
+    }
+  ],
+  "term": "SkyRL-Train-GPU-Megatron"
+}

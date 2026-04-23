@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "Bearer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "Bearer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate",
+      "text": "Bearer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047568,
+      "status": "candidate",
+      "text": "toter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021282,
+      "status": "candidate",
+      "text": "carrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001684,
+      "status": "candidate",
+      "text": "pallbearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049244,
+      "status": "candidate",
+      "text": "bearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045003,
+      "status": "candidate",
+      "text": "sitter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11071,
+      "status": "candidate",
+      "text": "carrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "pallbearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "toter"
+    }
+  ],
+  "canonical_name": "Bearer",
+  "concept_id": "bearer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bearer",
+      "sense_id": "bearer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

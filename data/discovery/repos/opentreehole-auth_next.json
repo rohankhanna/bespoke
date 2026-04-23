@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "kong/kong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "Dev Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "OpenTreeHole/auth_next",
+      "target": "Dev Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:07:49.497869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6682
+    },
+    {
+      "path": "Dockerfile",
+      "size": 420
+    },
+    {
+      "path": "go.mod",
+      "size": 3587
+    },
+    {
+      "path": ".github/workflows/dev.yaml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Next Generation of Auth microservice integrated with kong for registration and issuing tokens",
+    "fork": false,
+    "full_name": "OpenTreeHole/auth_next",
+    "html_url": "https://github.com/OpenTreeHole/auth_next",
+    "language": "Go",
+    "pushed_at": "2025-08-16T11:23:42Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-15T05:08:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kong/kong",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "term": "Dev Build"
+    },
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Dev Build"
+    }
+  ]
+}

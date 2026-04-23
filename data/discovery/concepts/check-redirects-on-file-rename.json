@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Redirects on File Rename"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Check Redirects on File Rename"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate",
+      "text": "Check Redirects on File Rename"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22237,
+      "status": "candidate",
+      "text": "bouncer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21690,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21622,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21494,
+      "status": "candidate",
+      "text": "alternation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21494,
+      "status": "candidate",
+      "text": "amendment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Redirects on File Rename",
+  "concept_id": "check-redirects-on-file-rename",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-redirects-on-rename.yml",
+      "source_repo": "getsentry/sentry-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Redirects on File Rename",
+      "sense_id": "check-redirects-on-file-rename#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "SonarCloud"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "SonarCloud"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "SonarCloud"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate",
+      "text": "SonarCloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "SonarCloud"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "SonarCloud",
+  "concept_id": "sonarcloud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SonarCloud",
+      "sense_id": "sonarcloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

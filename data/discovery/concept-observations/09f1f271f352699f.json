@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A changelog generator for gitmoji \ud83d\ude1c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005412,
+      "status": "candidate",
+      "text": "emoticon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005411,
+      "status": "candidate",
+      "text": "emoji sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005410,
+      "status": "candidate",
+      "text": "emote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005409,
+      "status": "candidate",
+      "text": "emojification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005408,
+      "status": "candidate",
+      "text": "emoji flag sequence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emoji",
+      "sense_id": "emoji#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emoji",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emoji",
+  "observation_id": "09f1f271f352699f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "emoji",
+  "source_context_snippet": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)",
+  "source_file": null,
+  "source_repo": "frinyvonnick/gitmoji-changelog",
+  "source_repo_description": "A changelog generator for gitmoji \ud83d\ude1c"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -797,6 +797,271 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "ROCm/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_clang_tidy.yml",
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews.yml",
+      "source_repo": "bitnami/vulndb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-tests.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance-report.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-compile-samples.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snippets5000.yml",
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/termlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/pip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-tag.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud_python313.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "python-poetry/install.python-poetry.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "python-poetry/poetry-plugin-bundle"
     }
   ]
 }

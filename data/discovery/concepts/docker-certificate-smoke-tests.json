@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker certificate smoke tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "Docker certificate smoke tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "Docker certificate smoke tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21355,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21355,
+      "status": "candidate",
+      "text": "scooping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16597,
+      "status": "candidate",
+      "text": "bioscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16563,
+      "status": "candidate",
+      "text": "exhale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16546,
+      "status": "candidate",
+      "text": "deal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker certificate smoke tests",
+  "concept_id": "docker-certificate-smoke-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-ca.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker certificate smoke tests",
+      "sense_id": "docker-certificate-smoke-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

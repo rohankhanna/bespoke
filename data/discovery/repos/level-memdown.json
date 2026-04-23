@@ -1,0 +1,484 @@
+{
+  "components": [
+    {
+      "component": "abstract-leveldown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "buffer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "functional-red-black-tree",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inherits",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ltgt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap-playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap-sauce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dependency-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "faucet",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hallmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "level-concat-iterator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker://antonyurchenko/git-release:v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/memdown",
+      "target": "level/memory-level",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/memdown",
+      "target": "level/levelup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/memdown",
+      "target": "level/mem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "abstract-leveldown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "functional-red-black-tree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "inherits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "ltgt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "airtap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "airtap-playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "airtap-sauce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "dependency-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "faucet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "hallmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "level-concat-iterator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/memdown",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/memdown",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/memdown",
+      "target": "docker://antonyurchenko/git-release:v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/memdown",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/memdown",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/memdown",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/memdown",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/memdown",
+      "target": "Sauce Labs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "abstract-leveldown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "leveldown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "levelup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/memdown",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:09:40.239202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3824
+    },
+    {
+      "path": "package.json",
+      "size": 1493
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/sauce.yml",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers.",
+    "fork": false,
+    "full_name": "Level/memdown",
+    "html_url": "https://github.com/Level/memdown",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-02T00:32:04Z",
+    "stargazers_count": 287,
+    "topics": [
+      "abstract-leveldown",
+      "browser",
+      "javascript",
+      "level",
+      "leveldown",
+      "levelup",
+      "nodejs"
+    ],
+    "updated_at": "2024-12-02T00:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/levelup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/mem",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/memory-level",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sauce Labs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sauce.yml",
+      "term": "Sauce Labs"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstract-leveldown"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leveldown"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "levelup"
+    },
+    {
+      "context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

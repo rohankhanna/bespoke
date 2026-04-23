@@ -91,6 +91,78 @@
       "source_repo": "eliemichel/WebGPU-distribution",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Learn to use WebGPU for native graphic applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate-context",
+      "text": "Cross platform .NET bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/Alimer.Bindings/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "Direct access to WebGPU native APIs from perl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Bindings to wgpu-native for the Crystal programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "Native WebGPU implementation. Mirror of https://dawn.googlesource.com/dawn. File bugs here: https://crbug.com/dawn/new"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "Collection of C-language examples that demonstrate basic rendering and computation in WebGPU native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +207,42 @@
       "source_repo": "eliemichel/WebGPU-distribution",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/Alimer.Bindings/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +304,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "eliemichel/WebGPU-distribution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "amerkoleci/Alimer.Bindings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

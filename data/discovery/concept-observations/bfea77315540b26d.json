@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014766,
+      "status": "candidate",
+      "text": "bendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014760,
+      "status": "candidate",
+      "text": "flexile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014730,
+      "status": "candidate",
+      "text": "pliable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014621,
+      "status": "candidate",
+      "text": "supple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014600,
+      "status": "candidate",
+      "text": "limber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flexible",
+      "sense_id": "flexible#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37035,
+      "status": "candidate",
+      "text": "pliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27037,
+      "status": "candidate",
+      "text": "versatile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19034,
+      "status": "candidate",
+      "text": "pliable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "elastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "adaptable"
+    }
+  ],
+  "concept_id": "flexible",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flexible",
+  "observation_id": "bfea77315540b26d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "flexible",
+  "source_context_snippet": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026",
+  "source_file": null,
+  "source_repo": "gofiber/fiber",
+  "source_repo_description": "\u26a1\ufe0f Express inspired web framework written in Go"
+}

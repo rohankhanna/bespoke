@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code Freeze"
+    "Code Freeze",
+    "Code freeze"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "vercel/next.js",
       "status": "candidate-context",
       "text": "Code Freeze"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "Scalable toolkit for efficient model alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "\"Code freeze\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "Code Freeze"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate",
+      "text": "\"Code freeze\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/code_freeze.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

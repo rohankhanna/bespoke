@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "backup/backup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "backup/backup",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "backup/backup",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "mongodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "backup/backup",
+      "target": "slack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:40:32.765555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2013
+    },
+    {
+      "path": "Dockerfile",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/rspec.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy full stack backup operations on UNIX-like systems.",
+    "fork": false,
+    "full_name": "backup/backup",
+    "html_url": "https://github.com/backup/backup",
+    "language": "Ruby",
+    "pushed_at": "2024-07-03T12:44:26Z",
+    "stargazers_count": 4872,
+    "topics": [
+      "backup",
+      "database",
+      "encryption",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "ruby",
+      "s3",
+      "slack"
+    ],
+    "updated_at": "2026-04-21T13:51:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongodb"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Backup",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slack"
+    }
+  ]
+}

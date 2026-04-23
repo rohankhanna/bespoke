@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check hyperlinks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "Check hyperlinks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate",
+      "text": "Check hyperlinks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "clicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "navigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "link"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check hyperlinks",
+  "concept_id": "check-hyperlinks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Lightning-AI/litgpt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check hyperlinks",
+      "sense_id": "check-hyperlinks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

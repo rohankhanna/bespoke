@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/cocoapods-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/claide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods/molinillo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "Specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/CocoaPods",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "CocoaPods/CocoaPods"
+}

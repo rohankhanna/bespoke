@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "probabilistic-models"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "Implementation of WaveGrad high-fidelity vocoder from Google Brain in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "probabilistic-models",
+  "concept_id": "probabilistic-models",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "probabilistic-models",
+      "sense_id": "probabilistic-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

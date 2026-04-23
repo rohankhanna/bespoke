@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Publishing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "Check Publishing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "Check Publishing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12175,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "irs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "imprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "interview"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Publishing",
+  "concept_id": "check-publishing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Publishing",
+      "sense_id": "check-publishing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

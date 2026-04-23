@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "eliemichel/webgpu-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "eliemichel/sdl2webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "eliemichel/sdl3webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "eliemichel/sphinx_literate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "Deploy Sphinx with GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "Tangle code extracted from documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "lecture-notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "eliemichel/LearnWebGPU"
+}

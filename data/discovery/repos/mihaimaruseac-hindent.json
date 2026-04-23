@@ -1,0 +1,462 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml"
+    },
+    {
+      "component": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml"
+    },
+    {
+      "component": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml"
+    },
+    {
+      "component": "haskell-actions/hlint-setup@fe9cd1cd1af94a23900c06738e73f6ddb092966a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml"
+    },
+    {
+      "component": "haskell-actions/hlint-run@eaca4cfbf4a69f4eb875df38b6bc3e1657020378",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "gilligan/vim-textobj-haskell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "alx741/vim-hindent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "Haskell Cabal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "Haskell Stack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell-actions/hlint-setup@fe9cd1cd1af94a23900c06738e73f6ddb092966a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell-actions/hlint-run@eaca4cfbf4a69f4eb875df38b6bc3e1657020378",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "Static checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "code-formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:41.651738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5243
+    },
+    {
+      "path": "Dockerfile",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/presubmit-cabal.yaml",
+      "size": 2644
+    },
+    {
+      "path": ".github/workflows/presubmit-stack.yaml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 5975
+    },
+    {
+      "path": ".github/workflows/scorecards.yaml",
+      "size": 1250
+    },
+    {
+      "path": ".github/workflows/static-checks.yaml",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Haskell pretty printer",
+    "fork": false,
+    "full_name": "mihaimaruseac/hindent",
+    "html_url": "https://github.com/mihaimaruseac/hindent",
+    "language": "Haskell",
+    "pushed_at": "2026-04-23T14:43:55Z",
+    "stargazers_count": 583,
+    "topics": [
+      "code-formatter",
+      "hacktoberfest",
+      "haskell"
+    ],
+    "updated_at": "2026-04-23T14:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alx741/vim-hindent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gilligan/vim-textobj-haskell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Haskell Cabal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "term": "Haskell Cabal"
+    },
+    {
+      "context_snippet": "Haskell Stack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "term": "Haskell Stack"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "Static checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "term": "Static checks"
+    },
+    {
+      "context_snippet": "Haskell pretty printer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-formatter"
+    },
+    {
+      "context_snippet": "Haskell pretty printer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Haskell pretty printer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

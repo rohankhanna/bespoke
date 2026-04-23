@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "kosinkadink/comfyui-videohelpersuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "blepping/comfyui_overly_complicated_sampling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "chrisgoringe/cg-use-everywhere",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "blepping/comfyui_jankhidiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-bleh",
+      "target": "stablediffusion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "blepping/ComfyUI-bleh"
+}

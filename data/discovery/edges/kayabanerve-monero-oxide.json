@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-deny.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-deny.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Daily Deny Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-std.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-std.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "no-std build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Deploy Rust docs to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Monero Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "kayabaNerve/monero-oxide"
+}

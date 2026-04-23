@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "walles/ftop",
+      "target": "walles/loadviz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "walles/ftop",
+      "target": "walles/ptop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/ftop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/ftop",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/ftop",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/ftop",
+      "target": "monitoring-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/ftop",
+      "target": "process-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/ftop",
+      "target": "terminal-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/ftop",
+      "target": "text-ui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:46.575012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8964
+    },
+    {
+      "path": "go.mod",
+      "size": 859
+    },
+    {
+      "path": ".github/workflows/linux-ci.yml",
+      "size": 1058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Finformative top for finding fiery processes",
+    "fork": false,
+    "full_name": "walles/ftop",
+    "html_url": "https://github.com/walles/ftop",
+    "language": "Go",
+    "pushed_at": "2026-04-23T17:17:39Z",
+    "stargazers_count": 6,
+    "topics": [
+      "cli",
+      "monitoring-tool",
+      "process-monitor",
+      "terminal-based",
+      "text-ui",
+      "top"
+    ],
+    "updated_at": "2026-04-23T17:17:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "walles/loadviz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "walles/ptop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring-tool"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-monitor"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-based"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-ui"
+    }
+  ]
+}

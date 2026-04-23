@@ -19,6 +19,30 @@
       "source_repo": "cgrindel/rules_swift_package_manager",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0f A developer friendly package manager for Swift; 100% compatible with Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "cgrindel/rules_swift_package_manager",
       "status": "candidate",
       "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jakeheis/Ice"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "BoundaryML/baml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

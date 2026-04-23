@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Generate files from docker container meta-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Release assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate",
+      "text": "Release assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "unblock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release assets",
+  "concept_id": "release-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "nginx-proxy/docker-gen"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release assets",
+      "sense_id": "release-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

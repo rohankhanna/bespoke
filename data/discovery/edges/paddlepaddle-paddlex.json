@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "Develop Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py38_compat.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py38_compat.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xpu_ci.yml",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "ai-pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "formula-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "layout-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "pdf2markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "pp-chatocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "PaddlePaddle/PaddleX"
+}

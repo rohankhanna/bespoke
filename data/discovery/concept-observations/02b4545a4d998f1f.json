@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Go-fmt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Go-fmt"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go-fmt",
+      "sense_id": "go-fmt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-fmt",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-fmt",
+  "observation_id": "02b4545a4d998f1f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Go-fmt",
+  "source_context_snippet": "Go-fmt",
+  "source_file": ".github/workflows/gofmt.yml",
+  "source_repo": "bnb-chain/tss-lib",
+  "source_repo_description": "Threshold Signature Scheme, for ECDSA and EDDSA"
+}

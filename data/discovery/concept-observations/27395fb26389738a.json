@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LongBench v2 and LongBench (ACL 25'&24')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](LongBench/misc/logo.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](LongBench/misc/logo.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "longtext",
+      "sense_id": "longtext#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "longtext",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "longtext",
+  "observation_id": "27395fb26389738a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "longtext",
+  "source_context_snippet": "![](LongBench/misc/logo.gif)",
+  "source_file": null,
+  "source_repo": "THUDM/LongBench",
+  "source_repo_description": "LongBench v2 and LongBench (ACL 25'&24')"
+}

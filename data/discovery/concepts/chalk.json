@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chalk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8d Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "chalk \u2014 Terminal string styling done right"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate",
+      "text": "chalk \u2014 Terminal string styling done right"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018047,
+      "status": "candidate",
+      "text": "limestone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010932,
+      "status": "candidate",
+      "text": "calcium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886701,
+      "status": "candidate",
+      "text": "cal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29827741,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29789496,
+      "status": "candidate",
+      "text": "unity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chalk",
+  "concept_id": "chalk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chalk/chalk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chalk",
+      "sense_id": "chalk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

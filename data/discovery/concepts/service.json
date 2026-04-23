@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "service"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "Fast badge service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "Modern Job Scheduler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen.net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976663,
+      "status": "candidate",
+      "text": "help"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975221,
+      "status": "candidate",
+      "text": "avail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975069,
+      "status": "candidate",
+      "text": "serving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965307,
+      "status": "candidate",
+      "text": "overhaul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965068,
+      "status": "candidate",
+      "text": "overhauling"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42043,
+      "status": "candidate",
+      "text": "avail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15056,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "overhaul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4038,
+      "status": "candidate",
+      "text": "serving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "servicing"
+    }
+  ],
+  "canonical_name": "service",
+  "concept_id": "service",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajvb/kala"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "service",
+      "sense_id": "service#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

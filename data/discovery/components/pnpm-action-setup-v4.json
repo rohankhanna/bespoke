@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -467,6 +467,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc-site.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node-windows.yml",
+      "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "rollup/plugins"
     }
   ]
 }

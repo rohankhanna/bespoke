@@ -55,6 +55,42 @@
       "source_repo": "alibaba/sentinel-golang",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Simple API server framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "alibaba/sentinel-golang",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alibaba/sentinel-golang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dbubel/intake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

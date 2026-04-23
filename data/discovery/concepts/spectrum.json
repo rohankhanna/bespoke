@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "spectrum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate",
+      "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999942,
+      "status": "candidate",
+      "text": "continuum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999927,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999881,
+      "status": "candidate",
+      "text": "sphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983190,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976304,
+      "status": "candidate",
+      "text": "radiofrequency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "spectrum",
+  "concept_id": "spectrum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe/spectrum-web-components"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spectrum",
+      "sense_id": "spectrum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

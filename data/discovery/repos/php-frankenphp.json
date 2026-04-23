@@ -1,0 +1,729 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/bake-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/bake-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/bake-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "php/frankenphp",
+      "target": "dunglas/frankenphp-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "php/frankenphp",
+      "target": "dunglas/frankenphp-drupal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "php/frankenphp",
+      "target": "alexandreelise/frankenphp-joomla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "php/frankenphp",
+      "target": "ekino/frankenphp-magento2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/bake-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Sanitizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "docker/bake-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Build binary releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "php/frankenphp",
+      "target": "Translate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php/frankenphp",
+      "target": "caddy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php/frankenphp",
+      "target": "frankenphp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php/frankenphp",
+      "target": "sapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "php/frankenphp",
+      "target": "worker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:57:10.058032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7091
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4503
+    },
+    {
+      "path": "go.mod",
+      "size": 2820
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 11770
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1572
+    },
+    {
+      "path": ".github/workflows/sanitizers.yaml",
+      "size": 4355
+    },
+    {
+      "path": ".github/workflows/static.yaml",
+      "size": 23230
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 5881
+    },
+    {
+      "path": ".github/workflows/translate.yaml",
+      "size": 2819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udddf The modern PHP app server",
+    "fork": false,
+    "full_name": "php/frankenphp",
+    "html_url": "https://github.com/php/frankenphp",
+    "language": "Go",
+    "pushed_at": "2026-04-23T14:48:46Z",
+    "stargazers_count": 11008,
+    "topics": [
+      "caddy",
+      "frankenphp",
+      "go",
+      "php",
+      "sapi",
+      "worker"
+    ],
+    "updated_at": "2026-04-23T14:51:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandreelise/frankenphp-joomla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dunglas/frankenphp-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dunglas/frankenphp-drupal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekino/frankenphp-magento2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Build Docker Images"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Sanitizers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "term": "Sanitizers"
+    },
+    {
+      "context_snippet": "Build binary releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yaml",
+      "term": "Build binary releases"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Translate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yaml",
+      "term": "Translate Docs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frankenphp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sapi"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "worker"
+    }
+  ]
+}

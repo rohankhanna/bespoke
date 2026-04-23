@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "workspace publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "The Deno Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "workspace publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate",
+      "text": "workspace publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "bullpen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "loft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11872,
+      "status": "candidate",
+      "text": "island"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11872,
+      "status": "candidate",
+      "text": "labour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11872,
+      "status": "candidate",
+      "text": "work"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "workspace publish",
+  "concept_id": "workspace-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/workspace_publish.yml",
+      "source_repo": "denoland/std"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "workspace publish",
+      "sense_id": "workspace-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

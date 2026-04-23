@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Basic Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "01-ai/Yi",
+      "status": "candidate-context",
+      "text": "A series of large language models trained from scratch by developers @01-ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01-ai/Yi",
+      "status": "candidate-context",
+      "text": "Basic Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01-ai/Yi",
+      "status": "candidate",
+      "text": "Basic Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "search"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Basic Check",
+  "concept_id": "basic-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/basic_check.yml",
+      "source_repo": "01-ai/Yi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Basic Check",
+      "sense_id": "basic-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

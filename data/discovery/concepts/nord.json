@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nord"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29837199,
+      "status": "candidate",
+      "text": "calais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29834402,
+      "status": "candidate",
+      "text": "noord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831102,
+      "status": "candidate",
+      "text": "kivu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29819850,
+      "status": "candidate",
+      "text": "ireland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29804672,
+      "status": "candidate",
+      "text": "cameroun"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nord",
+  "concept_id": "nord",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nord",
+      "sense_id": "nord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

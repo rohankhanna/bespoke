@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "google-research/vision_transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "jdai-cv/facex-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "jingyunliang/swinir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "kamalkraj/swin-transformer-serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "mask-rcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "mscoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer",
+      "target": "swin-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:19.533204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\".",
+    "fork": false,
+    "full_name": "microsoft/Swin-Transformer",
+    "html_url": "https://github.com/microsoft/Swin-Transformer",
+    "language": "Python",
+    "pushed_at": "2024-07-24T17:09:57Z",
+    "stargazers_count": 15874,
+    "topics": [
+      "ade20k",
+      "image-classification",
+      "imagenet",
+      "mask-rcnn",
+      "mscoco",
+      "object-detection",
+      "semantic-segmentation",
+      "swin-transformer"
+    ],
+    "updated_at": "2026-04-23T14:38:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/vision_transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdai-cv/facex-zoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingyunliang/swinir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kamalkraj/swin-transformer-serve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mask-rcnn"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    }
+  ]
+}

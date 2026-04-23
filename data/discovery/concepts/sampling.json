@@ -19,6 +19,18 @@
       "source_repo": "dathere/qsv",
       "status": "candidate-context",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "LightSeq: A High Performance Library for Sequence Processing and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "![logo](./docs/images/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dathere/qsv",
       "status": "candidate",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate",
+      "text": "![logo](./docs/images/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "dathere/qsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

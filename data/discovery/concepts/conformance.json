@@ -94,6 +94,54 @@
       "source_repo": "hickory-dns/hickory-dns",
       "status": "candidate-context",
       "text": "conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Conformance test suite for Connect, gRPC, and gRPC-Web implementations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-java",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-java",
+      "status": "candidate-context",
+      "text": "Conformance"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +186,30 @@
       "source_repo": "hickory-dns/hickory-dns",
       "status": "candidate",
       "text": "conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate",
+      "text": "Conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-java",
+      "status": "candidate",
+      "text": "Conformance"
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +303,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/conformance.yml",
       "source_repo": "hickory-dns/hickory-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

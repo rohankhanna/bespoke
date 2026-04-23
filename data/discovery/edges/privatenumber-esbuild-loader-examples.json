@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "@pvtnbr/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "comment-mark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "esbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "esbuild-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "privatenumber/esbuild-loader-examples"
+}

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "build Antora documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "hendrikmuhs/ccache-action@v1.2.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "Update Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "khronos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "target": "vulkan-samples",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "KhronosGroup/Vulkan-Samples"
+}

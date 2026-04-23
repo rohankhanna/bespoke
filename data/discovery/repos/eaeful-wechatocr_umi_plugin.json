@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eaeful/WechatOCR_umi_plugin",
+      "target": "kanadeblisst00/wechat_ocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eaeful/WechatOCR_umi_plugin",
+      "target": "eeeehex/qqimpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eaeful/WechatOCR_umi_plugin",
+      "target": "swigger/wechat-ocr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:28.513615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9002\u7528\u4e8e Umi-OCR \u6587\u5b57\u8bc6\u522b\u5de5\u5177 \u7684 WeChatOCR \u63d2\u4ef6\uff0c\u8c03\u7528\u5fae\u4fe1OCR\u8fdb\u884c\u672c\u5730\u79bb\u7ebfocr\u8bc6\u522b\u6587\u5b57\u7684\u63d2\u4ef6\u3002\u672c\u9879\u76ee\u6709\u4e24\u4e2a\u7248\u672c\uff0c\u4e00\u4e2a\u662f\u63d2\u4ef6\u81ea\u5e26\u5fae\u4fe1ocr\u6587\u4ef6\u7684\u7248\u672c\uff0c\u53e6\u5916\u4e00\u4e2a\u662f\u624b\u52a8\u586b\u5199\u5fae\u4fe1\u5b89\u88c5\u76ee\u5f55\u548cwechatocr.exe\u7684\u7248\u672c",
+    "fork": false,
+    "full_name": "eaeful/WechatOCR_umi_plugin",
+    "html_url": "https://github.com/eaeful/WechatOCR_umi_plugin",
+    "language": "Python",
+    "pushed_at": "2024-11-23T16:14:17Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-03-20T15:52:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eeeehex/qqimpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kanadeblisst00/wechat_ocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swigger/wechat-ocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

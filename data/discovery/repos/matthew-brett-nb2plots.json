@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "fedora-python/tox-github-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "matthew-brett/nb2plots",
+      "target": "testing-cabal/mock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "matthew-brett/nb2plots",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "matthew-brett/nb2plots",
+      "target": "fedora-python/tox-github-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "matthew-brett/nb2plots",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "matthew-brett/nb2plots",
+      "target": "Run tox tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:27.396491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6036
+    },
+    {
+      "path": "requirements.txt",
+      "size": 190
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert Jupyter notebooks to Sphinx and back again",
+    "fork": false,
+    "full_name": "matthew-brett/nb2plots",
+    "html_url": "https://github.com/matthew-brett/nb2plots",
+    "language": "Python",
+    "pushed_at": "2024-01-24T09:32:21Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2023-07-17T12:56:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testing-cabal/mock",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tox tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Run tox tests"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yaml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-check.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@ded75d963c260fd8489801611a5079d149ebcc07",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/ada",
+      "target": "ada-url/rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/ada",
+      "target": "ada-url/goada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/ada",
+      "target": "ada-url/python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ada-url/ada",
+      "target": "ada-url/kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yaml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yaml",
+      "source_repo": "ada-url/ada",
+      "target": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yaml",
+      "source_repo": "ada-url/ada",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-check.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-check.yml",
+      "source_repo": "ada-url/ada",
+      "target": "ABI Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "ada-url/ada",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "ada-url/ada",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ada-url/ada",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ada-url/ada",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ada-url/ada",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ada-url/ada",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/ada",
+      "target": "CodSpeedHQ/action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/ada",
+      "target": "CodSpeed Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ada-url/ada",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ada-url/ada",
+      "target": "mattnotmitt/doxygen-action@ded75d963c260fd8489801611a5079d149ebcc07",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ada-url/ada",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ada-url/ada",
+      "target": "Doxygen GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "sse2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/ada",
+      "target": "whatwg-url",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:47:41.167163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15273
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1003
+    },
+    {
+      "path": ".github/workflows/_build.yaml",
+      "size": 6578
+    },
+    {
+      "path": ".github/workflows/abi-check.yml",
+      "size": 4001
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1125
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 1726
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 967
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 391
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers.",
+    "fork": false,
+    "full_name": "ada-url/ada",
+    "html_url": "https://github.com/ada-url/ada",
+    "language": "C++",
+    "pushed_at": "2026-04-14T02:18:36Z",
+    "stargazers_count": 1717,
+    "topics": [
+      "cpp",
+      "neon",
+      "parser",
+      "performance",
+      "simd",
+      "sse2",
+      "url",
+      "whatwg-url"
+    ],
+    "updated_at": "2026-04-20T21:19:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ada-url/goada",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ada-url/kotlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ada-url/python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ada-url/rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Build'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "ABI Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-check.yml",
+      "term": "ABI Check"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "CodSpeed Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "term": "CodSpeed Benchmarks"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Doxygen GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Doxygen GitHub Pages"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse2"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg-url"
+    }
+  ]
+}

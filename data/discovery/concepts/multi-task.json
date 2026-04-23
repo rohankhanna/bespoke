@@ -19,6 +19,18 @@
       "source_repo": "JUNJIE99/MLVU",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JUNJIE99/MLVU",
       "status": "candidate",
       "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JUNJIE99/MLVU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

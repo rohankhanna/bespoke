@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "las"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "plus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "pulse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "san"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "fiddlesticks"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blas",
+      "sense_id": "blas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blas",
+  "observation_id": "eaf2a3fa68869d33",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "blas",
+  "source_context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+  "source_file": null,
+  "source_repo": "ashvardanian/NumWars",
+  "source_repo_description": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Orama Package Reindex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Orama Package Reindex"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "barge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "cutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "fortress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Orama Package Reindex",
+      "sense_id": "orama-package-reindex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "orama-package-reindex",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orama-package-reindex",
+  "observation_id": "13cd05426daeb1b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Orama Package Reindex",
+  "source_context_snippet": "Orama Package Reindex",
+  "source_file": ".github/workflows/orama_packages_reindex.yml",
+  "source_repo": "jsr-io/jsr",
+  "source_repo_description": "The open-source package registry for modern JavaScript and TypeScript"
+}

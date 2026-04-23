@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/test",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/test",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/test",
+      "target": "muti-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/test",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:14.398664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Measuring Massive Multitask Language Understanding | ICLR 2021",
+    "fork": false,
+    "full_name": "hendrycks/test",
+    "html_url": "https://github.com/hendrycks/test",
+    "language": "Python",
+    "pushed_at": "2023-05-28T18:28:58Z",
+    "stargazers_count": 1576,
+    "topics": [
+      "few-shot-learning",
+      "gpt-3",
+      "muti-task",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-23T07:57:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "muti-task"
+    },
+    {
+      "context_snippet": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

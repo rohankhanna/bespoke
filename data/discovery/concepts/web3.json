@@ -79,6 +79,30 @@
       "source_repo": "web3/web3.js",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate-context",
+      "text": "The Graph library for building GraphQL-based dapps in a decentralized way.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate-context",
+      "text": "thegraph-client-monorepo"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "web3/web3.js",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate",
+      "text": "thegraph-client-monorepo"
     }
   ],
   "candidate_related_terms": [
@@ -188,11 +224,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphprotocol/graph-client"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

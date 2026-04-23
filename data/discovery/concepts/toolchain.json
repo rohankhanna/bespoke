@@ -19,6 +19,18 @@
       "source_repo": "richfelker/musl-cross-make",
       "status": "candidate-context",
       "text": "musl-cross-make"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "The Rust toolchain installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "richfelker/musl-cross-make",
       "status": "candidate",
       "text": "musl-cross-make"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "richfelker/musl-cross-make"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

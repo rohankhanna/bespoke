@@ -1,0 +1,12 @@
+{
+  "component": "mshick/add-pr-comment@64b8e914979889d746c99dea15a76e77ef64580a",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Azure/bicep"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "alulkesh/sd_delete_button",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "butaixianran/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "bing-su/adetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "anapnoe/stable-diffusion-webui",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Linaqruf/sd-notebook-collection"
+}

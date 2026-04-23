@@ -31,6 +31,30 @@
       "source_repo": "dotnet/docs",
       "status": "candidate-context",
       "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs and docs related to the F# language design process, see https://github.com/fsharp/fslang-suggestions to submit ideas "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate-context",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "dotnet/docs",
       "status": "candidate",
       "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsharp/fslang-design",
+      "status": "candidate",
+      "text": "RFCs ([Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)) and docs related to the F# language design process."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fsharp/fslang-design"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

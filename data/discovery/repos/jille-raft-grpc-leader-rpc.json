@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc/proposal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "jille/grpc-multi-resolver.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc/grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "hashicorp-raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:05.743464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3608
+    },
+    {
+      "path": "go.mod",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Send gRPCs to your Raft leader",
+    "fork": false,
+    "full_name": "Jille/raft-grpc-leader-rpc",
+    "html_url": "https://github.com/Jille/raft-grpc-leader-rpc",
+    "language": "Go",
+    "pushed_at": "2021-09-07T18:25:22Z",
+    "stargazers_count": 21,
+    "topics": [
+      "grpc",
+      "grpc-go",
+      "hashicorp-raft",
+      "raft"
+    ],
+    "updated_at": "2025-06-06T15:21:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/proposal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jille/grpc-multi-resolver.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-go"
+    },
+    {
+      "context_snippet": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-raft"
+    },
+    {
+      "context_snippet": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment on review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "Comment on review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "Comment on review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48084,
+      "status": "candidate",
+      "text": "consultation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28084,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27986,
+      "status": "candidate",
+      "text": "spoiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "assessment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment on review",
+  "concept_id": "comment-on-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/comment_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on review",
+      "sense_id": "comment-on-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

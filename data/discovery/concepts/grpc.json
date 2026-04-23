@@ -79,6 +79,114 @@
       "source_repo": "hyperium/tonic",
       "status": "candidate-context",
       "text": "![](https://github.com/hyperium/tonic/raw/master/.github/assets/tonic-banner.svg?sanitize=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "Example code for how to get hashicorp/raft running with gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Conformance test suite for Connect, gRPC, and gRPC-Web implementations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "The Go implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "Connect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate-context",
+      "text": "Send gRPCs to your Raft leader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate-context",
+      "text": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "Make hashicorp/raft communicate over gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +225,60 @@
       "source_repo": "hyperium/tonic",
       "status": "candidate",
       "text": "![](https://github.com/hyperium/tonic/raw/master/.github/assets/tonic-banner.svg?sanitize=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate",
+      "text": "Connect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate",
+      "text": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +322,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hyperium/tonic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

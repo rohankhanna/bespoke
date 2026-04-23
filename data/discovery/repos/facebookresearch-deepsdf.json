@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/DeepSDF",
+      "target": "cliutils/cli11",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/DeepSDF",
+      "target": "stevenlovegrove/pangolin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/DeepSDF",
+      "target": "jlblancoc/nanoflann",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:12.021083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Learning Continuous Signed Distance Functions for Shape Representation",
+    "fork": false,
+    "full_name": "facebookresearch/DeepSDF",
+    "html_url": "https://github.com/facebookresearch/DeepSDF",
+    "language": "Python",
+    "pushed_at": "2022-06-20T09:07:22Z",
+    "stargazers_count": 1551,
+    "topics": [],
+    "updated_at": "2026-04-23T08:20:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cliutils/cli11",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlblancoc/nanoflann",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevenlovegrove/pangolin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

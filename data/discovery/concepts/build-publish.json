@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "build-publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate",
+      "text": "build-publish"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-publish",
+  "concept_id": "build-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-publish",
+      "sense_id": "build-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

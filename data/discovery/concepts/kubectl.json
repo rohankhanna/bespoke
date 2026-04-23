@@ -79,6 +79,18 @@
       "source_repo": "int128/kubelogin",
       "status": "candidate-context",
       "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "An interactive kubernetes client featuring auto-complete."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "int128/kubelogin",
       "status": "candidate",
       "text": "This is a kubectl plugin for [Kubernetes OpenID Connect (OIDC) authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#openid-connect-tokens), also known as `kubectl oidc-login`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "int128/kubelogin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "golang"
+    "golang",
+    "Golang"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -1201,6 +1204,564 @@
       "source_repo": "sachaos/viddy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wader/fq",
+      "status": "candidate-context",
+      "text": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wader/fq",
+      "status": "candidate-context",
+      "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate-context",
+      "text": "A simple wrapper for hiroi-sora/PaddleOCR-json implemented in Go language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate-context",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "Example code for how to get hashicorp/raft running with gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/gof",
+      "status": "candidate-context",
+      "text": "Go Fuzzy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "ObjectBox Generator based on FlatBuffers schema files (fbs) for C and C++ (more languages in the future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "Small Clojure interpreter, linter and formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Go package for fast high-level image processing powered by libvips C library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate-context",
+      "text": "GoLic, injects license into source code files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate-context",
+      "text": "A declarative tool injecting licenses into source code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate-context",
+      "text": "DigitalOcean Go API client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions CI](https://github.com/digitalocean/godo/actions/workflows/ci.yml/badge.svg)](https://github.com/digitalocean/godo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "Simplified distributed locking implementation using Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-redis/cache",
+      "status": "candidate-context",
+      "text": "Cache library with Redis backend for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/cache",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "Redis compatible server framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Standards-compliant HTTP caching transport for Go clients (RFC 9111)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deneonet/benc",
+      "status": "candidate-context",
+      "text": "Benc is the fastest serializer in pure Golang supporting code generation and forward/backward compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deneonet/benc",
+      "status": "candidate-context",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Simple API server framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "psutil for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil/v4.svg)](https://pkg.go.dev/github.com/shirou/gopsutil/v4) [![Ca\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "An interactive kubernetes client featuring auto-complete."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Build and run containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "Go Memcached client library #golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "defaults"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "Optimized Go Compression Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "This package provides various compression algorithms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate-context",
+      "text": "An email and SMTP testing tool with API for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 (and Swagger v2) implementation for Go (parsing, converting, validation, and more)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "Modern Job Scheduler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "Make hashicorp/raft communicate over gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
     }
   ],
   "candidate_glosses": [
@@ -1803,6 +2364,288 @@
       "source_repo": "sachaos/viddy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wader/fq",
+      "status": "candidate",
+      "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9450/badge)](https://www.bestpractices.dev/projects/9450)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/gof",
+      "status": "candidate",
+      "text": "Go Fuzzy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/golic",
+      "status": "candidate",
+      "text": "A declarative tool injecting licenses into source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate",
+      "text": "[![GitHub Actions CI](https://github.com/digitalocean/godo/actions/workflows/ci.yml/badge.svg)](https://github.com/digitalocean/godo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-redis/cache",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/redcon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deneonet/benc",
+      "status": "candidate",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil/v4.svg)](https://pkg.go.dev/github.com/shirou/gopsutil/v4) [![Ca\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate",
+      "text": "defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate",
+      "text": "This package provides various compression algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axllent/mailpit",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
     }
   ],
   "candidate_related_terms": [],
@@ -2434,11 +3277,305 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wader/fq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doraemonkeys/paddleocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mattn/gof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "candid82/joker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "h2non/bimg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arl/statsviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AbsaOSS/golic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/godo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bsm/redislock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-redis/cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/redcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deneonet/benc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dbubel/intake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "shirou/gopsutil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bradfitz/gomemcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "creasty/defaults"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "klauspost/compress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mmcdole/gofeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "axllent/mailpit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajvb/kala"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/attest@59d89421af93a897026c735860bf21b6eb4f7b26",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c_release.yml",
+      "source_repo": "atsign-foundation/noports"
     }
   ]
 }

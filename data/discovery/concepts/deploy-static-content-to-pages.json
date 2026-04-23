@@ -13,12 +13,48 @@
       "source_repo": "allenporter/python-google-nest-sdm",
       "status": "candidate-context",
       "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "status": "candidate-context",
+      "text": "Multimodal deep-research MLLM and benchmark. The first long-horizon multimodal deep-research MLLM, extending the number of reasoning turns to dozens and the number of search-engine interactions to hundreds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "allenporter/python-google-nest-sdm",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Osilly/Vision-DeepResearch",
       "status": "candidate",
       "text": "Deploy static content to Pages"
     }
@@ -70,11 +106,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/pages.yaml",
       "source_repo": "allenporter/python-google-nest-sdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

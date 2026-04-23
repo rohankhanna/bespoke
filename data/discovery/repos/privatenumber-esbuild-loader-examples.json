@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "@pvtnbr/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "comment-mark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "@pvtnbr/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "comment-mark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "esbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "esbuild-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:48:01.713010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1140
+    },
+    {
+      "path": "package.json",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "esbuild-loader examples",
+    "fork": false,
+    "full_name": "privatenumber/esbuild-loader-examples",
+    "html_url": "https://github.com/privatenumber/esbuild-loader-examples",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-11T12:46:34Z",
+    "stargazers_count": 89,
+    "topics": [
+      "esbuild",
+      "esbuild-loader",
+      "examples",
+      "webpack"
+    ],
+    "updated_at": "2026-03-18T00:35:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esbuild"
+    },
+    {
+      "context_snippet": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esbuild-loader"
+    },
+    {
+      "context_snippet": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpack"
+    }
+  ]
+}

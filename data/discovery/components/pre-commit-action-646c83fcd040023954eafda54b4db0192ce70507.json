@@ -1,12 +1,17 @@
 {
   "component": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pydantic/pydantic-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/boto3"
     }
   ]
 }

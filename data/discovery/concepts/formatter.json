@@ -142,6 +142,90 @@
       "source_repo": "fourmolu/fourmolu",
       "status": "candidate-context",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "A bazel BUILD file formatter and editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "Format JavaScript Standard Style as Stylish (i.e. snazzy) output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": ":sparkles: A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/google-java-format",
+      "status": "candidate-context",
+      "text": "Reformats Java source code to comply with Google Java Style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/google-java-format",
+      "status": "candidate-context",
+      "text": "`google-java-format` is a program that reformats Java source code to comply with"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +294,48 @@
       "source_repo": "fourmolu/fourmolu",
       "status": "candidate",
       "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate",
+      "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/google-java-format",
+      "status": "candidate",
+      "text": "`google-java-format` is a program that reformats Java source code to comply with"
     }
   ],
   "candidate_related_terms": [
@@ -349,11 +475,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fourmolu/fourmolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tweag/ormolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/google-java-format"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

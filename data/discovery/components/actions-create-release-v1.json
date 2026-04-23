@@ -1,7 +1,7 @@
 {
   "component": "actions/create-release@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cryscan/web-rwkv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/navpress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NVIDIA/spark-rapids-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CVEProject/cvelistV5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cryscan/web-rwkv-converter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-release.yml",
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Tencent/TNN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notofonts/nototools"
     }
   ]
 }

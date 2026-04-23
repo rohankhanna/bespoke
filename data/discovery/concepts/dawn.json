@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "dawn"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "Native WebGPU implementation. Mirror of https://dawn.googlesource.com/dawn. File bugs here: https://crbug.com/dawn/new"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "Collection of C-language examples that demonstrate basic rendering and computation in WebGPU native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050501,
+      "status": "candidate",
+      "text": "daybreak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050499,
+      "status": "candidate",
+      "text": "break of day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050473,
+      "status": "candidate",
+      "text": "dayspring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050466,
+      "status": "candidate",
+      "text": "cockcrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050363,
+      "status": "candidate",
+      "text": "first light"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17037,
+      "status": "candidate",
+      "text": "penetrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13024,
+      "status": "candidate",
+      "text": "dayspring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11057,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11035,
+      "status": "candidate",
+      "text": "sunrise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10024,
+      "status": "candidate",
+      "text": "dawning"
+    }
+  ],
+  "canonical_name": "dawn",
+  "concept_id": "dawn",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dawn",
+      "sense_id": "dawn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

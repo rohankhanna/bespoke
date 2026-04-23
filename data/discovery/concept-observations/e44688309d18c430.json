@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Best practice TTS based on BERT and VITS with some Natural Speech Features Of Microsoft; Support ONNX streaming out!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755005,
+      "status": "candidate",
+      "text": "lives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755004,
+      "status": "candidate",
+      "text": "wickedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9747449,
+      "status": "candidate",
+      "text": "immorality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9744344,
+      "status": "candidate",
+      "text": "vice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vits",
+      "sense_id": "vits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vits",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vits",
+  "observation_id": "e44688309d18c430",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "vits",
+  "source_context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+  "source_file": null,
+  "source_repo": "PlayVoice/vits_chinese",
+  "source_repo_description": "Best practice TTS based on BERT and VITS with some Natural Speech Features Of Microsoft; Support ONNX streaming out!"
+}

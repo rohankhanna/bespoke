@@ -176,6 +176,42 @@
       "source_repo": "apache/incubator-seata",
       "status": "candidate-context",
       "text": "\"Publish Docker Image\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "A community-maintained Python framework for creating mathematical animations. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "Publish Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +298,24 @@
       "source_repo": "apache/incubator-seata",
       "status": "candidate",
       "text": "\"Publish Docker Image\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate",
+      "text": "Publish Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -437,11 +491,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On-prem GitHub Actions runners, backed by Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish Ubuntu Focal runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish Ubuntu Focal runner"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26361,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26269,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26269,
+      "status": "candidate",
+      "text": "anchoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26211,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26211,
+      "status": "candidate",
+      "text": "aiming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish Ubuntu Focal runner",
+      "sense_id": "build-and-publish-ubuntu-focal-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-ubuntu-focal-runner",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-ubuntu-focal-runner",
+  "observation_id": "0c3a99233bff0ed1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build and publish Ubuntu Focal runner",
+  "source_context_snippet": "Build and publish Ubuntu Focal runner",
+  "source_file": ".github/workflows/build-ubuntu-focal.yml",
+  "source_repo": "boozallen/goobernetes",
+  "source_repo_description": "On-prem GitHub Actions runners, backed by Kubernetes"
+}

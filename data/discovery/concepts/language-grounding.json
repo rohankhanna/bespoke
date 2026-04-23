@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "language-grounding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "language-grounding",
+  "concept_id": "language-grounding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-grounding",
+      "sense_id": "language-grounding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

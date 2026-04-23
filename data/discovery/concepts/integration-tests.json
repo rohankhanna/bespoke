@@ -3,7 +3,8 @@
     "Integration Tests",
     "integration-tests",
     "integration tests",
-    "Integration tests"
+    "Integration tests",
+    "\ud83e\uddea Integration Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -166,6 +167,66 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "A vim plugin for communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "\ud83d\uded1 This library is DEPRECATED!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "\"Integration Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "Post-training with Tinker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "integration-tests"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +307,36 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate",
+      "text": "integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate",
+      "text": "\"Integration Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "\ud83e\uddea Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate",
+      "text": "integration-tests"
     }
   ],
   "candidate_related_terms": [
@@ -391,11 +482,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/crossdoc-integration-test.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

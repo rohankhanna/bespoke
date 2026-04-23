@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Update documentation"
+    "Update documentation",
+    "Update Documentation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "47degrees/github4s",
       "status": "candidate-context",
       "text": "Update documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "\"Update Documentation\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "47degrees/github4s",
       "status": "candidate",
       "text": "Update documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate",
+      "text": "\"Update Documentation\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "47degrees/github4s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-documentation.yml",
+      "source_repo": "devcontainers/templates"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

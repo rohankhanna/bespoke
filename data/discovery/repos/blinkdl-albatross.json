@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/Albatross",
+      "target": "blinkdl/rwkv-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/Albatross",
+      "target": "rwkv-vibe/rwkv_lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/Albatross",
+      "target": "triang-jyed-driung/rapid-sampling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/Albatross",
+      "target": "triang-jyed-driung/albatross",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:06:58.768524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient RWKV inference engine. RWKV7 7.2B fp16 decoding 10250 tps @ single 5090.",
+    "fork": false,
+    "full_name": "BlinkDL/Albatross",
+    "html_url": "https://github.com/BlinkDL/Albatross",
+    "language": "Python",
+    "pushed_at": "2026-04-18T10:07:08Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-04-22T17:46:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/rwkv-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwkv-vibe/rwkv_lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triang-jyed-driung/albatross",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triang-jyed-driung/rapid-sampling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

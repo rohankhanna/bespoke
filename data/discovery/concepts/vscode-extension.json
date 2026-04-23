@@ -142,6 +142,54 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Official repository for the Microsoft C/C++ extension for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Java Language Support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Language support for Java &trade; for Visual Studio Code"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +258,30 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate",
+      "text": "[![Badge](https://aka.ms/vsls-badge)](https://aka.ms/vsls)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate",
+      "text": "Language support for Java &trade; for Visual Studio Code"
     }
   ],
   "candidate_related_terms": [],
@@ -289,11 +361,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-cpptools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux Builds (Complex)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "Linux Builds (Complex)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate",
+      "text": "Linux Builds (Complex)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10931,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10807,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "xubuntu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux Builds (Complex)",
+  "concept_id": "linux-builds-complex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "source_repo": "catchorg/Catch2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Builds (Complex)",
+      "sense_id": "linux-builds-complex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-linux-musl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "a small build system with a focus on speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "ci-linux-musl"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate",
+      "text": "ci-linux-musl"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-linux-musl",
+  "concept_id": "ci-linux-musl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-musl.yml",
+      "source_repo": "ninja-build/ninja"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-linux-musl",
+      "sense_id": "ci-linux-musl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

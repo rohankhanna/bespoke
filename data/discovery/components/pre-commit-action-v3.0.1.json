@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@v3.0.1",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "BrianPugh/belay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "langfengQ/verl-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "aseprite/laf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "langfengQ/DrMAS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "assignUser/delocate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prs.yaml",
+      "source_repo": "rapidsai/gha-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-precommit.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit"
     }
   ]
 }

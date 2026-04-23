@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cross-platform"
+    "cross-platform",
+    "Cross Platform"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -187,6 +190,126 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate-context",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "ObjectBox Generator based on FlatBuffers schema files (fbs) for C and C++ (more languages in the future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate-context",
+      "text": "Superfast on-device object & vector database for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate-context",
+      "text": "ObjectBox Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Cross Platform"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c  An ecosystem of Vim/Neovim which allows developers to write cross-platform plugins in Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +402,66 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/Tencent/tquic/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate",
+      "text": "ObjectBox Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate",
+      "text": "Cross Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_related_terms": [
@@ -316,6 +499,41 @@
       "score": 20024701,
       "status": "candidate",
       "text": "monoplatform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20072505,
+      "status": "candidate",
+      "text": "multiplatform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20072410,
+      "status": "candidate",
+      "text": "multi-platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002569,
+      "status": "candidate",
+      "text": "platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10072840,
+      "status": "candidate",
+      "text": "crosspatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10072839,
+      "status": "candidate",
+      "text": "interoperability"
     }
   ],
   "candidate_synonyms": [],
@@ -454,11 +672,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enigo-rs/enigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aseprite/laf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

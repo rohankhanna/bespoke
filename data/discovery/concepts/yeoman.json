@@ -19,6 +19,18 @@
       "source_repo": "RichardLitt/generator-standard-readme",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "RichardLitt/generator-standard-readme",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "RichardLitt/generator-standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yeoman/yo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

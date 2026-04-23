@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_analysis.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "corporateshark/lightweightvk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "confettifx/the-forge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "dustinhland/vkdoom3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "arm-software/vulkan_best_practice_for_mobile_developers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "Build code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "Static code analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "Build code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "memory-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:36:59.746584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14074
+    },
+    {
+      "path": ".github/workflows/linux.yaml",
+      "size": 3592
+    },
+    {
+      "path": ".github/workflows/static_code_analysis.yaml",
+      "size": 2659
+    },
+    {
+      "path": ".github/workflows/windows.yaml",
+      "size": 2291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy to integrate Vulkan memory allocation library",
+    "fork": false,
+    "full_name": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+    "html_url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+    "language": "C",
+    "pushed_at": "2026-03-02T23:33:12Z",
+    "stargazers_count": 3300,
+    "topics": [
+      "memory-management",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-23T17:35:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arm-software/vulkan_best_practice_for_mobile_developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confettifx/the-forge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corporateshark/lightweightvk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dustinhland/vkdoom3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "term": "Build code"
+    },
+    {
+      "context_snippet": "Static code analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "term": "Static code analysis"
+    },
+    {
+      "context_snippet": "Build code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "term": "Build code"
+    },
+    {
+      "context_snippet": "Easy to integrate Vulkan memory allocation library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-management"
+    },
+    {
+      "context_snippet": "Easy to integrate Vulkan memory allocation library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

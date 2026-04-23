@@ -191,6 +191,78 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "Curated list of resources for Embedded and Low-level development in the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "A vim plugin for communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "An interactive and powerful Git interface for Neovim, inspired by Magit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -281,6 +353,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
       "status": "candidate",
       "text": "Linting"
     }
@@ -463,11 +571,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

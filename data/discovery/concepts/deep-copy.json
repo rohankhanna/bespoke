@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "deep-copy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "over-approximate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "under-approximate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "quadriplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "de-bias"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "dynamise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "deep-copy",
+  "concept_id": "deep-copy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-copy",
+      "sense_id": "deep-copy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

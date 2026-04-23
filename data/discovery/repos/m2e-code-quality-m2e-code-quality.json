@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "checkstyle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "eclipse-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "findbugs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "target": "spotbugs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:09.356228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2996
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins.",
+    "fork": false,
+    "full_name": "m2e-code-quality/m2e-code-quality",
+    "html_url": "https://github.com/m2e-code-quality/m2e-code-quality",
+    "language": "Java",
+    "pushed_at": "2026-04-16T16:08:59Z",
+    "stargazers_count": 96,
+    "topics": [
+      "checkstyle",
+      "eclipse-plugin",
+      "findbugs",
+      "java",
+      "m2e",
+      "pmd",
+      "quality",
+      "spotbugs"
+    ],
+    "updated_at": "2026-04-16T16:09:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkstyle"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-plugin"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "findbugs"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    },
+    {
+      "context_snippet": "This project provides Eclipse plugins that bridge the Maven and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotbugs"
+    }
+  ]
+}

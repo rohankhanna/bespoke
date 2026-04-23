@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "agent-as-a-judge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate-context",
+      "text": "\ud83d\udc69\u200d\u2696\ufe0f Agent-as-a-Judge: The Magic for Open-Endedness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "agent-as-a-judge",
+  "concept_id": "agent-as-a-judge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "metauto-ai/agent-as-a-judge"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agent-as-a-judge",
+      "sense_id": "agent-as-a-judge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

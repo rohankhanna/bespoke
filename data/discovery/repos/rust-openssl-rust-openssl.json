@@ -171,7 +171,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-22T01:09:00.356474+00:00",
+  "fetched_at": "2026-04-23T22:05:14.186112+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -183,7 +183,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 18619
+      "size": 18556
     }
   ],
   "related_repositories": [],
@@ -195,10 +195,10 @@
     "full_name": "rust-openssl/rust-openssl",
     "html_url": "https://github.com/rust-openssl/rust-openssl",
     "language": "Rust",
-    "pushed_at": "2026-04-20T05:02:19Z",
-    "stargazers_count": 1612,
+    "pushed_at": "2026-04-22T11:44:26Z",
+    "stargazers_count": 1611,
     "topics": [],
-    "updated_at": "2026-04-20T05:02:17Z"
+    "updated_at": "2026-04-23T21:04:17Z"
   },
   "repo_links": [],
   "terms": []

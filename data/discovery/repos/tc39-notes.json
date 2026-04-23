@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@32a09e8b5346216e84d4cdf4769c70af9903b536",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/notes",
+      "target": "tc39/agendas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/notes",
+      "target": "tc39/ecma402",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/notes",
+      "target": "tc39/tg3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/notes",
+      "target": "tc39/incubator-agendas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/notes",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/notes",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/notes",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/notes",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tc39/notes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tc39/notes",
+      "target": "ljharb/actions/node/install@32a09e8b5346216e84d4cdf4769c70af9903b536",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tc39/notes",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tc39/notes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tc39/notes",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:42.817706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1967
+    },
+    {
+      "path": "package.json",
+      "size": 1129
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TC39 meeting notes",
+    "fork": false,
+    "full_name": "tc39/notes",
+    "html_url": "https://github.com/tc39/notes",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-22T22:58:15Z",
+    "stargazers_count": 704,
+    "topics": [],
+    "updated_at": "2026-04-21T09:41:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/agendas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/ecma402",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/incubator-agendas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/tg3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

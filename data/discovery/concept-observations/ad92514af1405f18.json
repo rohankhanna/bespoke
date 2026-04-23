@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "R kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jupyter-kernels",
+      "sense_id": "jupyter-kernels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jupyter-kernels",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jupyter-kernels",
+  "observation_id": "ad92514af1405f18",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "jupyter-kernels",
+  "source_context_snippet": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\"",
+  "source_file": null,
+  "source_repo": "IRkernel/IRkernel",
+  "source_repo_description": "R kernel for Jupyter"
+}

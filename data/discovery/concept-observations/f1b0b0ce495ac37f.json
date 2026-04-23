@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerfile cross-compilation helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "llvm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "llvm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024035,
+      "status": "candidate",
+      "text": "vhll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024034,
+      "status": "candidate",
+      "text": "mvvm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024032,
+      "status": "candidate",
+      "text": "hhvm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024031,
+      "status": "candidate",
+      "text": "jvmtii"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "llvm",
+      "sense_id": "llvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llvm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llvm",
+  "observation_id": "f1b0b0ce495ac37f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "llvm",
+  "source_context_snippet": "llvm",
+  "source_file": ".github/workflows/llvm.yml",
+  "source_repo": "tonistiigi/xx",
+  "source_repo_description": "Dockerfile cross-compilation helpers"
+}

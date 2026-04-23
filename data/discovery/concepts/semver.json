@@ -19,6 +19,42 @@
       "source_repo": "semantic-release/semantic-release",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "Speed up your Git workflow. :tropical_fish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "A changelog generator for gitmoji \ud83d\ude1c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "semantic-release/semantic-release",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "frinyvonnick/gitmoji-changelog"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

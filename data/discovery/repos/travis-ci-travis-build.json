@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-build",
+      "target": "travis-ci/worker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-build",
+      "target": "travis-ci/job-board",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-build",
+      "target": "travis-ci/travis-worker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-build",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-build",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:04.668665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4009
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".travis.yml => build.sh converter",
+    "fork": false,
+    "full_name": "travis-ci/travis-build",
+    "html_url": "https://github.com/travis-ci/travis-build",
+    "language": "Ruby",
+    "pushed_at": "2025-12-29T12:48:58Z",
+    "stargazers_count": 657,
+    "topics": [
+      "ruby",
+      "travis-ci"
+    ],
+    "updated_at": "2026-04-22T14:49:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/job-board",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-worker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/worker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Travis Build exposes an API that [Travis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Travis Build exposes an API that [Travis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

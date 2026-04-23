@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/pr-builder.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-actions/check_nightly_success/dispatch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-actions/telemetry-dispatch-stash-base-env-vars@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/changed-files.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/checks.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/build-in-devcontainer.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-actions/telemetry-dispatch-summarize@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "rapidsai/shared-workflows/.github/workflows/breaking-change-alert.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/ucxx",
+      "target": "Trigger Breaking Change Notifications",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "rapidsai/ucxx"
+}

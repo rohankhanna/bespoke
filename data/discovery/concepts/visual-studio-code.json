@@ -43,6 +43,18 @@
       "source_repo": "microsoft/vscode",
       "status": "candidate-context",
       "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "microsoft/vscode",
       "status": "candidate",
       "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "golang/vscode-go"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

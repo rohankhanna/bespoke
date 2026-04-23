@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check Docstrings"
+    "Check Docstrings",
+    "Check docstrings"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "OpenHands/software-agent-sdk",
       "status": "candidate-context",
       "text": "Check Docstrings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Specifications of cryptographic algorithms in Cryptol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Check docstrings"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "OpenHands/software-agent-sdk",
       "status": "candidate",
       "text": "Check Docstrings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate",
+      "text": "Check docstrings"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/check-docstrings.yml",
       "source_repo": "OpenHands/software-agent-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check_docstrings.yml",
+      "source_repo": "GaloisInc/cryptol-specs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

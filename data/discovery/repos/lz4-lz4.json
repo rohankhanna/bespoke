@@ -1,0 +1,445 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-environment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-environment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Build Systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "source_repo": "lz4/lz4",
+      "target": "CMake Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Compiler Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-tests.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-tests.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Core Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Cross Platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4",
+      "target": "OSS-Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-environment.yml",
+      "source_repo": "lz4/lz4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-environment.yml",
+      "source_repo": "lz4/lz4",
+      "target": "Release & Environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4",
+      "target": "compression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:03:19.507667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4972
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2591
+    },
+    {
+      "path": ".github/workflows/build-systems.yml",
+      "size": 3252
+    },
+    {
+      "path": ".github/workflows/cmake-test.yml",
+      "size": 3644
+    },
+    {
+      "path": ".github/workflows/code-quality.yml",
+      "size": 2795
+    },
+    {
+      "path": ".github/workflows/compilers.yml",
+      "size": 3597
+    },
+    {
+      "path": ".github/workflows/core-tests.yml",
+      "size": 4265
+    },
+    {
+      "path": ".github/workflows/cross-platform.yml",
+      "size": 3891
+    },
+    {
+      "path": ".github/workflows/oss-fuzz.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/release-environment.yml",
+      "size": 2154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Extremely Fast Compression algorithm",
+    "fork": false,
+    "full_name": "lz4/lz4",
+    "html_url": "https://github.com/lz4/lz4",
+    "language": "C",
+    "pushed_at": "2026-04-01T22:56:47Z",
+    "stargazers_count": 11781,
+    "topics": [
+      "c",
+      "compression",
+      "lz4"
+    ],
+    "updated_at": "2026-04-22T11:27:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Systems",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-systems.yml",
+      "term": "Build Systems"
+    },
+    {
+      "context_snippet": "CMake Build Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-test.yml",
+      "term": "CMake Build Tests"
+    },
+    {
+      "context_snippet": "Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "term": "Code Quality"
+    },
+    {
+      "context_snippet": "Compiler Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compilers.yml",
+      "term": "Compiler Tests"
+    },
+    {
+      "context_snippet": "Core Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-tests.yml",
+      "term": "Core Tests"
+    },
+    {
+      "context_snippet": "Cross Platform",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform.yml",
+      "term": "Cross Platform"
+    },
+    {
+      "context_snippet": "OSS-Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "term": "OSS-Fuzz"
+    },
+    {
+      "context_snippet": "Release & Environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-environment.yml",
+      "term": "Release & Environment"
+    },
+    {
+      "context_snippet": "LZ4 - Extremely fast compression",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    }
+  ]
+}

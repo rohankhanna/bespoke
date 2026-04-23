@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "gkr-bot/gkr-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dexters-hub/dexters-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "gautamkrishnar/gautamkrishnar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dateformat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "keepalive-workflow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "promise-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "random-seed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "start-server-and-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dorny/test-reporter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Publish release to GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Version bump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blog-posts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blogging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "ghost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-feed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-feed-urls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackexchange",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoveflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoverflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoverflow-activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "wordpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "gautamkrishnar/blog-post-workflow"
+}

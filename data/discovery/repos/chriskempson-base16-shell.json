@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-shell",
+      "target": "chriskempson/base16-builder-php",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:31.848943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Base16 for Shells",
+    "fork": false,
+    "full_name": "chriskempson/base16-shell",
+    "html_url": "https://github.com/chriskempson/base16-shell",
+    "language": "Shell",
+    "pushed_at": "2024-06-30T15:55:24Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-19T10:32:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16-builder-php",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

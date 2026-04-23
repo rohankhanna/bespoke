@@ -31,6 +31,54 @@
       "source_repo": "ariya/FastLZ",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "Large-scale LLM inference engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "<!---"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "ariya/FastLZ",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate",
+      "text": "<!---"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ariya/FastLZ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

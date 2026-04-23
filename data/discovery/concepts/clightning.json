@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clightning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jb55/lnsocket",
+      "status": "candidate-context",
+      "text": "A minimal C & js library for sending messages to lightning nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jb55/lnsocket",
+      "status": "candidate-context",
+      "text": "A simple C, JS and Go library for sending messages over the lightning network."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jb55/lnsocket",
+      "status": "candidate",
+      "text": "A simple C, JS and Go library for sending messages over the lightning network."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clightning",
+  "concept_id": "clightning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jb55/lnsocket"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clightning",
+      "sense_id": "clightning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -127,6 +127,18 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate-context",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "Format JavaScript Standard Style as Stylish (i.e. snazzy) output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +328,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

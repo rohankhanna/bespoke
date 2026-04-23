@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/pytorch-retinaface",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/pytorch-retinaface",
+      "target": "biubug6/face-detector-1mb-with-landmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/pytorch-retinaface",
+      "target": "wondervictor/widerface-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/pytorch-retinaface",
+      "target": "wang-xinyu/tensorrtx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:07.974460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Retinaface get 80.99% in widerface hard val using mobilenet0.25.",
+    "fork": true,
+    "full_name": "redcaps-dataset/pytorch-retinaface",
+    "html_url": "https://github.com/redcaps-dataset/pytorch-retinaface",
+    "language": "Python",
+    "pushed_at": "2021-08-30T19:05:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-08-30T19:05:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biubug6/face-detector-1mb-with-landmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepinsight/insightface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wang-xinyu/tensorrtx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wondervictor/widerface-evaluation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

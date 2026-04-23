@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Issue Translator",
-    "issue-translator"
+    "issue-translator",
+    "issue translator"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "LuaLS/lua-language-server",
       "status": "candidate-context",
       "text": "'issue-translator'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Seata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "'issue translator'"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "LuaLS/lua-language-server",
       "status": "candidate",
       "text": "'issue-translator'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate",
+      "text": "'issue translator'"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +180,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/translate.yml",
       "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/issue-robot.yml",
+      "source_repo": "apache/incubator-seata-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

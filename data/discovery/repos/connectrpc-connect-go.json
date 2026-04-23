@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "connectrpc/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc/grpchealth-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc/grpcreflect-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc/examples-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc/validate-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "Lint PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "connectrpc/connect-go",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go",
+      "target": "connectrpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:08.914781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6925
+    },
+    {
+      "path": "go.mod",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2003
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/windows.yaml",
+      "size": 822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Go implementation of Connect: Protobuf RPC that works.",
+    "fork": false,
+    "full_name": "connectrpc/connect-go",
+    "html_url": "https://github.com/connectrpc/connect-go",
+    "language": "Go",
+    "pushed_at": "2026-04-23T14:55:47Z",
+    "stargazers_count": 3868,
+    "topics": [
+      "connectrpc",
+      "go",
+      "grpc",
+      "protobuf",
+      "rpc"
+    ],
+    "updated_at": "2026-04-23T15:04:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/examples-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/grpchealth-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/grpcreflect-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/validate-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "Lint PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "Lint PR Title"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "term": "windows"
+    },
+    {
+      "context_snippet": "Connect",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectrpc"
+    },
+    {
+      "context_snippet": "Connect",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "Connect",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

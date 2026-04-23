@@ -48,7 +48,7 @@
   "normalized_form": "code-coverage",
   "observation_id": "040c049d01ff4cc9",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "code-coverage",
   "source_context_snippet": "[![ci](https://github.com/istanbuljs/nyc/actions/workflows/ci.yaml/badge.svg)](https://github.com/bcoe/c8/actions/workflows/ci.yaml)",
   "source_file": null,

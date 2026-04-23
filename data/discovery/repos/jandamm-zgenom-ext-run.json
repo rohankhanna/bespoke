@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-run",
+      "target": "zgenom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:59.493821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Allow running commands in the root of a plugin directory.",
+    "fork": false,
+    "full_name": "jandamm/zgenom-ext-run",
+    "html_url": "https://github.com/jandamm/zgenom-ext-run",
+    "language": "Shell",
+    "pushed_at": "2023-05-04T21:14:05Z",
+    "stargazers_count": 1,
+    "topics": [
+      "zgenom"
+    ],
+    "updated_at": "2023-07-25T14:52:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Allow running commands in the root of a plugin directory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    }
+  ]
+}

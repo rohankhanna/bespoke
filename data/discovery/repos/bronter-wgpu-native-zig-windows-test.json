@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:03:14.746018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Making sure wgpu-native-zig can be used on Windows",
+    "fork": false,
+    "full_name": "bronter/wgpu-native-zig-windows-test",
+    "html_url": "https://github.com/bronter/wgpu-native-zig-windows-test",
+    "language": "Zig",
+    "pushed_at": "2025-06-11T04:23:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-06-11T04:22:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

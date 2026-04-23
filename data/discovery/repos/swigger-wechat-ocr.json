@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:13:24.152766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "swigger/wechat-ocr",
+    "html_url": "https://github.com/swigger/wechat-ocr",
+    "language": "C++",
+    "pushed_at": "2026-01-18T09:44:33Z",
+    "stargazers_count": 902,
+    "topics": [],
+    "updated_at": "2026-04-23T00:55:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

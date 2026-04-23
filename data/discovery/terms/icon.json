@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tc-hib/go-winres"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "badgen/badgen-icons"
     }
   ],
   "term": "icon"

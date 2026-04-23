@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:06:31.630976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official AWS drivers repository for Elastic Network Adapter (ENA) and Elastic Fabric Adapter (EFA)",
+    "fork": false,
+    "full_name": "amzn/amzn-drivers",
+    "html_url": "https://github.com/amzn/amzn-drivers",
+    "language": "C",
+    "pushed_at": "2026-03-31T05:54:53Z",
+    "stargazers_count": 509,
+    "topics": [],
+    "updated_at": "2026-04-17T09:07:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

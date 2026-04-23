@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013201,
+      "status": "candidate",
+      "text": "utf7"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013200,
+      "status": "candidate",
+      "text": "utf16"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013199,
+      "status": "candidate",
+      "text": "codepoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013198,
+      "status": "candidate",
+      "text": "ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013197,
+      "status": "candidate",
+      "text": "code page"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "utf8",
+      "sense_id": "utf8#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "utf8",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "utf8",
+  "observation_id": "8a885827476314d7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "utf8",
+  "source_context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+  "source_file": null,
+  "source_repo": "simdutf/simdutf",
+  "source_repo_description": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+}

@@ -1,0 +1,27 @@
+{
+  "component": "pypa/cibuildwheel@v3.4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/python_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang"
+    }
+  ]
+}

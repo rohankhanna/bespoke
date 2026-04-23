@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-checks.yml"
+    },
+    {
+      "component": "ytanikin/pr-conventional-commits@b628c5a234cc32513014b7bfdd1e47b532124d98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml"
+    },
+    {
+      "component": "ai-dynamo/.github/.github/workflows/mirror_and_trigger_ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "Copyright Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "ytanikin/pr-conventional-commits@b628c5a234cc32513014b7bfdd1e47b532124d98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "ai-dynamo/.github/.github/workflows/mirror_and_trigger_ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_ci.yml",
+      "source_repo": "ai-dynamo/modelexpress",
+      "target": "Trigger CI for modelexpress",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:24.496149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11855
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3396
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 9982
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/common.ps1",
+      "size": 13738
+    },
+    {
+      "path": ".github/workflows/copyright-check.ps1",
+      "size": 11458
+    },
+    {
+      "path": ".github/workflows/copyright-checks.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/lint-pr-title.yml",
+      "size": 1211
+    },
+    {
+      "path": ".github/workflows/trigger_ci.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance.",
+    "fork": false,
+    "full_name": "ai-dynamo/modelexpress",
+    "html_url": "https://github.com/ai-dynamo/modelexpress",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T21:50:07Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-22T22:28:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Copyright Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "term": "Copyright Checks"
+    },
+    {
+      "context_snippet": "Lint PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "term": "Lint PR"
+    },
+    {
+      "context_snippet": "Trigger CI for modelexpress",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_ci.yml",
+      "term": "Trigger CI for modelexpress"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_compliance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/posix_compliance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/trusted-signing-action@b443cf8ea4124818d2ea9f043cba29fc3ec47b16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-sbom@c604332985a26aa8cf1bdc465b92731239ec6b9e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_notifications.yml"
+    },
+    {
+      "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_notifications.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-lang/elixir",
+      "target": "elixir-lang/elixir-lang.github.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_compliance.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_compliance.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "License Compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/posix_compliance.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/posix_compliance.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "POSIX Compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "azure/trusted-signing-action@b443cf8ea4124818d2ea9f043cba29fc3ec47b16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/attest-sbom@c604332985a26aa8cf1bdc465b92731239ec6b9e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_notifications.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_notifications.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_notifications.yml",
+      "source_repo": "elixir-lang/elixir",
+      "target": "Release Notifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:17.617596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6574
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4202
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1512
+    },
+    {
+      "path": ".github/workflows/license_compliance.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/markdown.yml",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/notify.exs",
+      "size": 2081
+    },
+    {
+      "path": ".github/workflows/posix_compliance.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 15901
+    },
+    {
+      "path": ".github/workflows/release_notifications.yml",
+      "size": 817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elixir is a dynamic, functional language for building scalable and maintainable applications",
+    "fork": false,
+    "full_name": "elixir-lang/elixir",
+    "html_url": "https://github.com/elixir-lang/elixir",
+    "language": "Elixir",
+    "pushed_at": "2026-04-22T20:11:43Z",
+    "stargazers_count": 26371,
+    "topics": [],
+    "updated_at": "2026-04-23T20:59:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-lang/elixir-lang.github.com",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "License Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_compliance.yml",
+      "term": "License Compliance"
+    },
+    {
+      "context_snippet": "POSIX Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/posix_compliance.yml",
+      "term": "POSIX Compliance"
+    },
+    {
+      "context_snippet": "Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Releases"
+    },
+    {
+      "context_snippet": "Release Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_notifications.yml",
+      "term": "Release Notifications"
+    }
+  ]
+}

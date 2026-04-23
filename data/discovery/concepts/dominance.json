@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "dominance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "How to use our public wav2vec2 dimensional emotion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044141,
+      "status": "candidate",
+      "text": "ascendancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041240,
+      "status": "candidate",
+      "text": "authority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040603,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038903,
+      "status": "candidate",
+      "text": "say-so"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011713,
+      "status": "candidate",
+      "text": "ascendance"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38057,
+      "status": "candidate",
+      "text": "authority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14031,
+      "status": "candidate",
+      "text": "ascendancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9023,
+      "status": "candidate",
+      "text": "ascendency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8013,
+      "status": "candidate",
+      "text": "ascendence"
+    }
+  ],
+  "canonical_name": "dominance",
+  "concept_id": "dominance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dominance",
+      "sense_id": "dominance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commonmark/commonmark-spec",
+      "target": "commonmark/cmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commonmark/commonmark-spec",
+      "target": "commonmark/commonmark.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commonmark/commonmark-spec",
+      "target": "commonmark/commonmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commonmark/commonmark-spec",
+      "target": "jgm/lunamark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:12:25.116840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7664
+    },
+    {
+      "path": "package.json",
+      "size": 319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CommonMark spec, with reference implementations in C and JavaScript",
+    "fork": false,
+    "full_name": "commonmark/commonmark-spec",
+    "html_url": "https://github.com/commonmark/commonmark-spec",
+    "language": "Python",
+    "pushed_at": "2026-03-08T10:21:59Z",
+    "stargazers_count": 5080,
+    "topics": [],
+    "updated_at": "2026-04-21T17:49:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commonmark/cmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commonmark/commonmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commonmark/commonmark.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/lunamark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

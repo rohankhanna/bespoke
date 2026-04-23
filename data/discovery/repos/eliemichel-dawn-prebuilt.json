@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fbactions/setup-winsdk@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-watcher.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "google/dawn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "webgpu-native/webgpu-headers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "fbactions/setup-winsdk@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "mozilla-actions/sccache-action@v0.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "PR Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "PR Watcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:18.867326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3197
+    },
+    {
+      "path": "go.mod",
+      "size": 3871
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 14985
+    },
+    {
+      "path": ".github/workflows/dawn-ci.cmake",
+      "size": 2139
+    },
+    {
+      "path": ".github/workflows/package-emdawnwebgpu.sh",
+      "size": 6654
+    },
+    {
+      "path": ".github/workflows/pr-manager.yml",
+      "size": 1885
+    },
+    {
+      "path": ".github/workflows/pr-watcher.yml",
+      "size": 5752
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Only look at releases! This fork of Dawn is use to share precompiled artifacts until upstream shares official builds.",
+    "fork": true,
+    "full_name": "eliemichel/dawn-prebuilt",
+    "html_url": "https://github.com/eliemichel/dawn-prebuilt",
+    "language": "C++",
+    "pushed_at": "2026-01-21T14:44:33Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-21T18:27:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/dawn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webgpu-native/webgpu-headers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "term": "PR Manager"
+    },
+    {
+      "context_snippet": "PR Watcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "term": "PR Watcher"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

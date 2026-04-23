@@ -128,34 +128,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/mousefood",
-      "target": "nebelgrau77/airsniffer-esp32c6",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/mousefood",
-      "target": "orhun/tuitar",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/mousefood",
-      "target": "intuis/mnyaoo32",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/mousefood",
-      "target": "julien-cpsn/phone-os",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/mousefood",
@@ -254,7 +226,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:36:32.642751+00:00",
+  "fetched_at": "2026-04-23T22:23:15.092068+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,28 +264,7 @@
     ],
     "updated_at": "2026-04-23T02:40:21Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intuis/mnyaoo32",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "julien-cpsn/phone-os",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nebelgrau77/airsniffer-esp32c6",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "orhun/tuitar",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release-plz",

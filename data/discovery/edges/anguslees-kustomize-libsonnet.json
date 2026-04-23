@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "ksonnet/kubecfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "bitnami-labs/kube-libsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "ksonnet/ksonnet-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "target": "kustomize",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "anguslees/kustomize-libsonnet"
+}

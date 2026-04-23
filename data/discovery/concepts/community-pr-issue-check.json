@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Community PR Issue Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "\"Community PR Issue Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "\"Community PR Issue Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32883,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32856,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30940,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30881,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30881,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Community PR Issue Check",
+  "concept_id": "community-pr-issue-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Community PR Issue Check",
+      "sense_id": "community-pr-issue-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

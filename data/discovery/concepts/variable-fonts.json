@@ -31,6 +31,30 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate-context",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "Source Han Serif | \u601d\u6e90\u5b8b\u4f53 | \u601d\u6e90\u5b8b\u9ad4 | \u601d\u6e90\u5b8b\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u660e\u671d | \ubcf8\uba85\uc870"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "adobe-fonts/source-code-pro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "target": "deepspeedai/deepspeed-mii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "target": "Formatting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:06.550367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2325
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example models using DeepSpeed",
+    "fork": false,
+    "full_name": "deepspeedai/DeepSpeedExamples",
+    "html_url": "https://github.com/deepspeedai/DeepSpeedExamples",
+    "language": "Python",
+    "pushed_at": "2026-03-30T06:14:10Z",
+    "stargazers_count": 6818,
+    "topics": [],
+    "updated_at": "2026-04-23T11:53:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepspeedai/deepspeed-mii",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "Formatting"
+    }
+  ]
+}

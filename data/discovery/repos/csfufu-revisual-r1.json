@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "shawn0728/ares",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "cold-start-initialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "data-efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "efficient-length-reward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "mathematical-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "multimodal-large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "open-source-7b-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "prioritized-advantage-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "self-reflective-chain-of-thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1",
+      "target": "visual-reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:14.869870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11469
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3324
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 797
+    },
+    {
+      "path": "requirements.txt",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026]\ud83d\ude80ReVisual-R1 is a 7B open-source multimodal language model that follows a three-stage curriculum\u2014cold-start pre-training, multimodal reinforcement learning, and text-only reinforcement learning\u2014to achieve faithful, concise, and self-reflective state-of-the-art performance in visual and textual reasoning.",
+    "fork": false,
+    "full_name": "CSfufu/Revisual-R1",
+    "html_url": "https://github.com/CSfufu/Revisual-R1",
+    "language": "Python",
+    "pushed_at": "2025-12-10T12:15:51Z",
+    "stargazers_count": 210,
+    "topics": [
+      "cold-start-initialization",
+      "data-efficiency",
+      "efficient-length-reward",
+      "mathematical-reasoning",
+      "multimodal-large-language-model",
+      "open-source-7b-model",
+      "prioritized-advantage-distillation",
+      "reinforcement-learning",
+      "self-reflective-chain-of-thought",
+      "visual-reasoning"
+    ],
+    "updated_at": "2026-04-21T00:28:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shawn0728/ares",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cold-start-initialization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-efficiency"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-length-reward"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-7b-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prioritized-advantage-distillation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-reflective-chain-of-thought"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-reasoning"
+    }
+  ]
+}

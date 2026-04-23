@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "aws-serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "antonbabenko/serverless.tf-playground"
+}

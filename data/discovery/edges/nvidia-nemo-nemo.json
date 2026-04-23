@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_container.yml@v0.27.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "~Build container template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_bump_yamlfile.yml@v0.27.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "~Bump Megatron Tag template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.74.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.83.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "Approve Test Queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-speech.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NeMo E2E Speech Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NeMo Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "speaker-diariazation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "speech-translation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "NVIDIA-NeMo/NeMo"
+}

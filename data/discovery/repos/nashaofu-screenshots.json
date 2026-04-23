@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nashaofu/screenshots",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots",
+      "target": "JamesIves/github-pages-deploy-action@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "electron-screenshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "react-screenshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots",
+      "target": "shortcut",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:10.652702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 989
+    },
+    {
+      "path": "package.json",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A screenshot plugin for electron and react",
+    "fork": false,
+    "full_name": "nashaofu/screenshots",
+    "html_url": "https://github.com/nashaofu/screenshots",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-03T22:28:44Z",
+    "stargazers_count": 464,
+    "topics": [
+      "capture",
+      "electron",
+      "electron-screenshots",
+      "react-screenshots",
+      "screenshot",
+      "shortcut"
+    ],
+    "updated_at": "2026-04-21T08:40:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "capture"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron-screenshots"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-screenshots"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortcut"
+    }
+  ]
+}

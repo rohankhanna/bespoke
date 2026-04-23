@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "bead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "examining"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Test",
+      "sense_id": "continuous-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-test",
+  "observation_id": "1edf97032cb488da",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Continuous Test",
+  "source_context_snippet": "Continuous Test",
+  "source_file": ".github/workflows/ci.yaml",
+  "source_repo": "google/fonts",
+  "source_repo_description": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+}

@@ -1,0 +1,428 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/slime",
+      "target": "redai-infra/relax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/slime",
+      "target": "ascend/transferqueue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/slime",
+      "target": "gen-verse/openclaw-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/slime",
+      "target": "alibaba-nlp/qqr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "Slash Command Handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "THUDM/slime",
+      "target": "conda CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "THUDM/slime",
+      "target": "PR Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml.j2",
+      "source_repo": "THUDM/slime",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml.j2",
+      "source_repo": "THUDM/slime",
+      "target": "PR Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "THUDM/slime",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docs.yaml",
+      "source_repo": "THUDM/slime",
+      "target": "Release Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:42.320879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9000
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2750
+    },
+    {
+      "path": "requirements.txt",
+      "size": 302
+    },
+    {
+      "path": ".github/workflows/bot-slash-lint.yaml",
+      "size": 4109
+    },
+    {
+      "path": ".github/workflows/conda-ci.yml",
+      "size": 2839
+    },
+    {
+      "path": ".github/workflows/generate_github_workflows.py",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/pr-test.yml",
+      "size": 21139
+    },
+    {
+      "path": ".github/workflows/pr-test.yml.j2",
+      "size": 10908
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 977
+    },
+    {
+      "path": ".github/workflows/release-docs.yaml",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "slime is an LLM post-training framework for RL Scaling.",
+    "fork": false,
+    "full_name": "THUDM/slime",
+    "html_url": "https://github.com/THUDM/slime",
+    "language": "Python",
+    "pushed_at": "2026-04-23T08:30:47Z",
+    "stargazers_count": 5448,
+    "topics": [],
+    "updated_at": "2026-04-23T21:39:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/qqr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ascend/transferqueue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gen-verse/openclaw-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redai-infra/relax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Slash Command Handler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "term": "Slash Command Handler"
+    },
+    {
+      "context_snippet": "conda CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "term": "conda CI"
+    },
+    {
+      "context_snippet": "PR Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml",
+      "term": "PR Test"
+    },
+    {
+      "context_snippet": "PR Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml.j2",
+      "term": "PR Test"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Release Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docs.yaml",
+      "term": "Release Documentation"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "adobe-type-tools/afdko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "adobe-fonts/source-han-serif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "cff2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "source-han",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans",
+      "target": "variable-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:52.512152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515",
+    "fork": false,
+    "full_name": "adobe-fonts/source-han-sans",
+    "html_url": "https://github.com/adobe-fonts/source-han-sans",
+    "language": "Python",
+    "pushed_at": "2025-06-25T03:30:03Z",
+    "stargazers_count": 16574,
+    "topics": [
+      "cff",
+      "cff2",
+      "cjk",
+      "font",
+      "opentype",
+      "otc",
+      "otf",
+      "source-han",
+      "variable-fonts"
+    ],
+    "updated_at": "2026-04-23T08:04:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-fonts/source-han-serif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-type-tools/afdko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff2"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variable-fonts"
+    }
+  ]
+}

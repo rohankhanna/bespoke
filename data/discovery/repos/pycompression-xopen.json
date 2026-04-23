@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pycompression/xopen",
+      "target": "pycompression/python-isal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pycompression/xopen",
+      "target": "pycompression/python-zlib-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pycompression/xopen",
+      "target": "lh3/bwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pycompression/xopen",
+      "target": "selassid/canopener",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pycompression/xopen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pycompression/xopen",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pycompression/xopen",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pycompression/xopen",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:31.594239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open compressed files in Python",
+    "fork": false,
+    "full_name": "pycompression/xopen",
+    "html_url": "https://github.com/pycompression/xopen",
+    "language": "Python",
+    "pushed_at": "2025-10-12T21:13:00Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-08T16:41:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/bwa",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycompression/python-isal",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycompression/python-zlib-ng",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "selassid/canopener",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

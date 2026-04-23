@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color-convert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "log-update",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "matcha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yoctodelay",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "color-convert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "log-update",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "matcha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chalk/chalk",
+      "target": "yoctodelay",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "chalk/chalk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "chalk/chalk",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "chalk/chalk",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "ansi-escape-codes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "chalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "strip-ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk/chalk",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:53:33.693894+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd8d Terminal string styling done right",
+    "fork": false,
+    "full_name": "chalk/chalk",
+    "html_url": "https://github.com/chalk/chalk",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-27T06:30:36Z",
+    "stargazers_count": 23151,
+    "topics": [
+      "ansi",
+      "ansi-escape-codes",
+      "chalk",
+      "cli",
+      "color",
+      "commandline",
+      "console",
+      "javascript",
+      "strip-ansi",
+      "terminal",
+      "terminal-emulators"
+    ],
+    "updated_at": "2026-04-23T17:01:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-escape-codes"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chalk"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strip-ansi"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "chalk \u2014 Terminal string styling done right",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    }
+  ]
+}

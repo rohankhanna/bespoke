@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment Build Size Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "Comment Build Size Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "Comment Build Size Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28426,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27821,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27821,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27769,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27732,
+      "status": "candidate",
+      "text": "inscribe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment Build Size Report",
+  "concept_id": "comment-build-size-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/size_report_comment.yml",
+      "source_repo": "highlightjs/highlight.js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment Build Size Report",
+      "sense_id": "comment-build-size-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

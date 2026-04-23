@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "metaglm/glm-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "li-plus/chatglm.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "hendrycks/test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "chatglm-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:58.596594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15195
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatGLM2-6B: An Open Bilingual Chat LLM | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+    "fork": false,
+    "full_name": "zai-org/ChatGLM2-6B",
+    "html_url": "https://github.com/zai-org/ChatGLM2-6B",
+    "language": "Python",
+    "pushed_at": "2024-06-27T04:05:08Z",
+    "stargazers_count": 15608,
+    "topics": [
+      "chatglm",
+      "chatglm-6b",
+      "large-language-models",
+      "llm"
+    ],
+    "updated_at": "2026-04-23T03:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hendrycks/test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "li-plus/chatglm.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metaglm/glm-cookbook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm-6b"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

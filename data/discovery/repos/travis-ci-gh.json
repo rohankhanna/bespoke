@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:57:03.584894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Layered GitHub API client",
+    "fork": false,
+    "full_name": "travis-ci/gh",
+    "html_url": "https://github.com/travis-ci/gh",
+    "language": "Ruby",
+    "pushed_at": "2024-07-24T08:36:28Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-02-01T18:53:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

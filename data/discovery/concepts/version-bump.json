@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Version Bump"
+    "Version Bump",
+    "Version bump"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "shareAI-lab/Kode-Agent",
       "status": "candidate-context",
       "text": "Version Bump"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Version Bump"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Version bump"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "shareAI-lab/Kode-Agent",
       "status": "candidate",
       "text": "Version Bump"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Version Bump"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "Version bump"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +143,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/version-bump.yml",
       "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

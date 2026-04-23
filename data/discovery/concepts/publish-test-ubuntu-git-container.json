@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish test-ubuntu-git Container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Action for checking out a repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Publish test-ubuntu-git Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate",
+      "text": "Publish test-ubuntu-git Container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "release"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish test-ubuntu-git Container",
+  "concept_id": "publish-test-ubuntu-git-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-test-ubuntu-git.yml",
+      "source_repo": "actions/checkout"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish test-ubuntu-git Container",
+      "sense_id": "publish-test-ubuntu-git-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

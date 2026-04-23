@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekworm-com/x-c1",
+      "target": "geekworm-com/xscript",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:10:06.716530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the safe shutdown script and python pwm fan control sample code.",
+    "fork": false,
+    "full_name": "geekworm-com/x-c1",
+    "html_url": "https://github.com/geekworm-com/x-c1",
+    "language": "Shell",
+    "pushed_at": "2024-06-11T12:52:10Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-11-08T21:23:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekworm-com/xscript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "changesets/action@v1",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Schniz/fnm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "vuejs/eslint-plugin-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphile/crystal"
     }
   ]
 }

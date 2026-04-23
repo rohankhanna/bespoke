@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajvb/kala",
+      "target": "airbnb/chronos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajvb/kala",
+      "target": "dmajere/kala-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "ajvb/kala",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "ajvb/kala",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "ajvb/kala",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "ajvb/kala",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajvb/kala",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajvb/kala",
+      "target": "golang-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajvb/kala",
+      "target": "iso8601",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajvb/kala",
+      "target": "scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajvb/kala",
+      "target": "service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:55.382627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13404
+    },
+    {
+      "path": "Dockerfile",
+      "size": 127
+    },
+    {
+      "path": "go.mod",
+      "size": 1578
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 1328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern Job Scheduler",
+    "fork": false,
+    "full_name": "ajvb/kala",
+    "html_url": "https://github.com/ajvb/kala",
+    "language": "Go",
+    "pushed_at": "2025-12-05T02:38:00Z",
+    "stargazers_count": 2160,
+    "topics": [
+      "go",
+      "golang",
+      "golang-application",
+      "iso8601",
+      "scheduler",
+      "service"
+    ],
+    "updated_at": "2026-04-21T06:07:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airbnb/chronos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmajere/kala-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-application"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso8601"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduler"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service"
+    }
+  ]
+}

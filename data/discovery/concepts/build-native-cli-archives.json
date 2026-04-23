@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build native CLI archives"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Build native CLI archives"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "Build native CLI archives"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22436,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22436,
+      "status": "candidate",
+      "text": "library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21057,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20837,
+      "status": "candidate",
+      "text": "museum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20791,
+      "status": "candidate",
+      "text": "compilation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build native CLI archives",
+  "concept_id": "build-native-cli-archives",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-cli-native-archives.yml",
+      "source_repo": "microsoft/aspire"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build native CLI archives",
+      "sense_id": "build-native-cli-archives#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

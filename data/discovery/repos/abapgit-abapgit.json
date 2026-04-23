@@ -392,7 +392,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:39:01.254957+00:00",
+  "fetched_at": "2026-04-23T19:44:09.440737+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -400,7 +400,7 @@
     },
     {
       "path": "package.json",
-      "size": 1369
+      "size": 1370
     },
     {
       "path": ".github/workflows/ajson_mirror.yaml",
@@ -428,7 +428,7 @@
     "full_name": "abapGit/abapGit",
     "html_url": "https://github.com/abapGit/abapGit",
     "language": "ABAP",
-    "pushed_at": "2026-04-23T07:21:28Z",
+    "pushed_at": "2026-04-23T15:37:27Z",
     "stargazers_count": 1817,
     "topics": [
       "abap",
@@ -439,7 +439,7 @@
       "sap",
       "sap-gui"
     ],
-    "updated_at": "2026-04-22T12:27:27Z"
+    "updated_at": "2026-04-23T15:35:21Z"
   },
   "repo_links": [],
   "terms": [

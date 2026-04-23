@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A repository of models, textual inversions, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Branch Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Branch Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lumo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "seaport"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Branch Deploy",
+      "sense_id": "docker-branch-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-branch-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-branch-deploy",
+  "observation_id": "52ed7433d8662fa0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker Branch Deploy",
+  "source_context_snippet": "Docker Branch Deploy",
+  "source_file": ".github/workflows/deploy-branch.yml",
+  "source_repo": "civitai/civitai",
+  "source_repo_description": "A repository of models, textual inversions, and more"
+}

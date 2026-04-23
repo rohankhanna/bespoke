@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and test Linux aarch64 wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "Build and test Linux aarch64 wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate",
+      "text": "Build and test Linux aarch64 wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22136,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21571,
+      "status": "candidate",
+      "text": "minix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21336,
+      "status": "candidate",
+      "text": "cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17571,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17533,
+      "status": "candidate",
+      "text": "event"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and test Linux aarch64 wheels",
+  "concept_id": "build-and-test-linux-aarch64-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "source_repo": "pytorch/TensorRT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test Linux aarch64 wheels",
+      "sense_id": "build-and-test-linux-aarch64-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

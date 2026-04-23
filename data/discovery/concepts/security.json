@@ -592,6 +592,102 @@
       "source_repo": "slsa-framework/slsa-github-generator",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "'Security'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "'Security'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "A cryptographically verifiable code review system for the cargo (Rust) package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -876,6 +972,54 @@
       "source_repo": "slsa-framework/slsa-github-generator",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "'Security'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "'Security'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1273,11 +1417,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "slsa-framework/slsa-github-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/cargo-crev"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

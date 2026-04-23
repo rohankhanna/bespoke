@@ -99,6 +99,30 @@
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate-context",
+      "text": "Secure key generation for deposits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate-context",
+      "text": "ci-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erincatto/box2d",
+      "status": "candidate-context",
+      "text": "Box2D is a 2D physics engine for games"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erincatto/box2d",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate",
+      "text": "ci-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erincatto/box2d",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -246,11 +282,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "erincatto/box2d"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

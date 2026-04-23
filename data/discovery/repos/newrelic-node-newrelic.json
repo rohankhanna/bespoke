@@ -1,0 +1,1368 @@
+{
+  "components": [
+    {
+      "component": "@apm-js-collab/tracing-hooks",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@grpc/grpc-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@grpc/proto-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@newrelic/security-agent",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/api-logs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/exporter-metrics-otlp-proto",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/resources",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/sdk-logs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/sdk-metrics",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@opentelemetry/sdk-trace-base",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tyriar/fibonacci-heap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concat-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "https-proxy-agent",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "import-in-the-middle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-bigint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-safe",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "module-details-from-path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readable-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "require-in-the-middle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "winston-transport",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-s3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/s3-request-presigner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matteo.collina/tspl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@newrelic/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@newrelic/newrelic-oss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@newrelic/test-utilities",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@slack/bolt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@smithy/eventstream-codec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@smithy/util-utf8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "async",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aws-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "borp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clean-jsdoc-theme",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-conventionalcommits",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-writer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-commits-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "git-raw-commits",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lockfile-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "protobufjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "proxyquire",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "self-cert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "superagent",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-board.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml"
+    },
+    {
+      "component": "newrelic/newrelic-agent-init-container/.github/workflows/agent-metadata.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml"
+    },
+    {
+      "component": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml"
+    },
+    {
+      "component": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/board.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "jsumners-nr/gha-node-deps-divergent@643628fe0da51ec025e984c4644f17fd9f9e93f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "jwalton/gh-docker-logs@2741064ab9d7af54b0b1ffb6076cf64c16f0220e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@71d17cb091aa850acb2a1a4cf87258d183eb941b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@71d17cb091aa850acb2a1a4cf87258d183eb941b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml"
+    },
+    {
+      "component": "newrelic/node-newrelic/.github/workflows/release-creation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-node-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-node-apollo-server-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-native-metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/csec-node-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@apm-js-collab/tracing-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@grpc/grpc-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@grpc/proto-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/security-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/api-logs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/exporter-metrics-otlp-proto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/resources",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-logs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-metrics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-trace-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@tyriar/fibonacci-heap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "concat-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "https-proxy-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "import-in-the-middle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "json-bigint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "json-stringify-safe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "module-details-from-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "require-in-the-middle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "winston-transport",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@aws-sdk/client-s3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@aws-sdk/s3-request-presigner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@matteo.collina/tspl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/newrelic-oss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/test-utilities",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@slack/bolt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@smithy/eventstream-codec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@smithy/util-utf8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "aws-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "borp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "clean-jsdoc-theme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-changelog-conventionalcommits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-changelog-writer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-commits-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "git-raw-commits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "lockfile-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "protobufjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "proxyquire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "self-cert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "superagent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Auto Assign to Project(s)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-agent-init-container/.github/workflows/agent-metadata.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Agent Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Azure Site Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Benchmark Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jsumners-nr/gha-node-deps-divergent@643628fe0da51ec025e984c4644f17fd9f9e93f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jwalton/gh-docker-logs@2741064ab9d7af54b0b1ffb6076cf64c16f0220e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Node Agent CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jaxxstorm/action-install-gh-release@71d17cb091aa850acb2a1a4cf87258d183eb941b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Generate Compatibility Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/release-creation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Create Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:43:10.056052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14309
+    },
+    {
+      "path": "package.json",
+      "size": 9459
+    },
+    {
+      "path": ".github/workflows/add-to-board.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/agent-metadata.yml",
+      "size": 2433
+    },
+    {
+      "path": ".github/workflows/azure-site-extension.yml",
+      "size": 4587
+    },
+    {
+      "path": ".github/workflows/benchmark-tests.yml",
+      "size": 1057
+    },
+    {
+      "path": ".github/workflows/board.yml",
+      "size": 6130
+    },
+    {
+      "path": ".github/workflows/ci-workflow.yml",
+      "size": 9754
+    },
+    {
+      "path": ".github/workflows/compatibility-report.yml",
+      "size": 3930
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New Relic Node.js agent code base. Developers are welcome to create pull requests here, please see our contributing guidelines. For New Relic technical support, please go to http://support.newrelic.com.",
+    "fork": false,
+    "full_name": "newrelic/node-newrelic",
+    "html_url": "https://github.com/newrelic/node-newrelic",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-22T17:28:31Z",
+    "stargazers_count": 1000,
+    "topics": [],
+    "updated_at": "2026-04-22T17:28:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newrelic/csec-node-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newrelic/newrelic-node-apollo-server-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newrelic/newrelic-node-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newrelic/node-native-metrics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Assign to Project(s)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "term": "Auto Assign to Project(s)"
+    },
+    {
+      "context_snippet": "Agent Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "term": "Agent Metadata"
+    },
+    {
+      "context_snippet": "Azure Site Extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "term": "Azure Site Extension"
+    },
+    {
+      "context_snippet": "Benchmark Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "term": "Benchmark Tests"
+    },
+    {
+      "context_snippet": "Node Agent CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "term": "Node Agent CI"
+    },
+    {
+      "context_snippet": "Generate Compatibility Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "term": "Generate Compatibility Report"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    }
+  ]
+}

@@ -68,6 +68,54 @@
       "source_repo": "DataDog/opa",
       "status": "candidate-context",
       "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate-context",
+      "text": "Esprima .NET (BSD license) is a .NET port of the esprima.org project. It is a standard-compliant ECMAScript parser (also popularly known as JavaScript)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate-context",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "civitai/civitai",
+      "status": "candidate-context",
+      "text": "A repository of models, textual inversions, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "civitai/civitai",
+      "status": "candidate-context",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "PR Check"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +146,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DataDog/opa",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "civitai/civitai",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
       "status": "candidate",
       "text": "PR Check"
     }
@@ -203,11 +275,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pull-request.yaml",
       "source_repo": "DataDog/opa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "sebastienros/esprima-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "civitai/civitai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "open-policy-agent/opa"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

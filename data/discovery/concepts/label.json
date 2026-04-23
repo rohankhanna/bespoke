@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "label"
+    "label",
+    "Label"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate-context",
       "text": "label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "Label"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate",
       "text": "label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "Label"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +131,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/labeler.yaml",
       "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "mosecorg/mosec"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

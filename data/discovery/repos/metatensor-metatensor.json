@@ -1,0 +1,819 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "PicoCentauri/comment-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "PicoCentauri/comment-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml"
+    },
+    {
+      "component": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metatensor/metatensor",
+      "target": "lab-cosmo/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "PicoCentauri/comment-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "PicoCentauri/comment-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Julia tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Rust tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "Leafwing-Studios/cargo-cache@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor",
+      "target": "TorchScript tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:48.587166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3474
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 153
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3419
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 18862
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 9826
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2513
+    },
+    {
+      "path": ".github/workflows/julia-tests.yml",
+      "size": 2040
+    },
+    {
+      "path": ".github/workflows/python-tests.yml",
+      "size": 2550
+    },
+    {
+      "path": ".github/workflows/rust-tests.yml",
+      "size": 7414
+    },
+    {
+      "path": ".github/workflows/torch-tests.yml",
+      "size": 3406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-describing sparse tensor data format for atomistic machine learning and beyond",
+    "fork": false,
+    "full_name": "metatensor/metatensor",
+    "html_url": "https://github.com/metatensor/metatensor",
+    "language": "Python",
+    "pushed_at": "2026-04-22T16:15:21Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-04-22T16:15:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lab-cosmo/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Julia tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "term": "Julia tests"
+    },
+    {
+      "context_snippet": "Rust tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "term": "Rust tests"
+    },
+    {
+      "context_snippet": "TorchScript tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "term": "TorchScript tests"
+    }
+  ]
+}

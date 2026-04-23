@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Reminder Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": "PR Reminder Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate",
+      "text": "PR Reminder Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "spin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Reminder Bot",
+  "concept_id": "pr-reminder-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-reminder-bot.yml",
+      "source_repo": "tile-ai/tilelang"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Reminder Bot",
+      "sense_id": "pr-reminder-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

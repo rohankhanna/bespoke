@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@02f6c237bd2518259fed6c71566509edfb3f2b74",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/algolia-index.yml",
+      "source_repo": "getsentry/sentry-docs"
+    }
+  ]
+}

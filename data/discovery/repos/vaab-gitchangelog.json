@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaab/gitchangelog",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaab/gitchangelog",
+      "target": "developer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaab/gitchangelog",
+      "target": "packaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:18.772467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 22189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Creates a changelog from git log history.",
+    "fork": false,
+    "full_name": "vaab/gitchangelog",
+    "html_url": "https://github.com/vaab/gitchangelog",
+    "language": "Python",
+    "pushed_at": "2022-06-07T07:40:01Z",
+    "stargazers_count": 588,
+    "topics": [
+      "changelog",
+      "developer",
+      "git",
+      "packaging",
+      "python"
+    ],
+    "updated_at": "2026-04-20T14:51:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    }
+  ]
+}

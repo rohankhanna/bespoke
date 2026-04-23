@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|Linux CI Status| |macOS CI Status|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|Linux CI Status| |macOS CI Status|"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3",
+      "sense_id": "python3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python3",
+  "observation_id": "4968818852ad4fb2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "python3",
+  "source_context_snippet": "|Linux CI Status| |macOS CI Status|",
+  "source_file": null,
+  "source_repo": "walles/px",
+  "source_repo_description": "ps, top and pstree for human beings"
+}

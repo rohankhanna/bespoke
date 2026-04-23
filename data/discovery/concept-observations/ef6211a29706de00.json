@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005360,
+      "status": "candidate",
+      "text": "constructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982546,
+      "status": "candidate",
+      "text": "developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030092,
+      "status": "candidate",
+      "text": "detergent builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030091,
+      "status": "candidate",
+      "text": "contractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029909,
+      "status": "candidate",
+      "text": "construction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "builder",
+      "sense_id": "builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1040,
+      "status": "candidate",
+      "text": "developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "constructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "detergent builder"
+    }
+  ],
+  "concept_id": "builder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "builder",
+  "observation_id": "ef6211a29706de00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "builder",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "clayrisser/sphinx-markdown-builder",
+  "source_repo_description": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+}

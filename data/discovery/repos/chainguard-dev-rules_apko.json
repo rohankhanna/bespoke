@@ -1,0 +1,440 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "step-security/action-actionlint@c3aa382d371c6b05513ae5907d4f77713e21813c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@c5acdfb288317d0b5c0bbd7a396a3dc868bb0f86",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/git-tag@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml"
+    },
+    {
+      "component": "octo-sts/action@f603d3be9d8dd9871a265776e625a27b00effe05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-gitsign@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "chainguard-dev/apko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/action-actionlint@c3aa382d371c6b05513ae5907d4f77713e21813c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "Action Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "bazel-contrib/setup-bazel@c5acdfb288317d0b5c0bbd7a396a3dc868bb0f86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "chainguard-dev/actions/git-tag@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "octo-sts/action@f603d3be9d8dd9871a265776e625a27b00effe05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "chainguard-dev/actions/setup-gitsign@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "Update to new apko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "Zizmor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainguard-dev/rules_apko",
+      "target": "no-ghaudit-default-permissions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:10.439963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2471
+    },
+    {
+      "path": ".github/workflows/BUILD.bazel",
+      "size": 181
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 1489
+    },
+    {
+      "path": ".github/workflows/buildifier.yaml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4515
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1508
+    },
+    {
+      "path": ".github/workflows/update-apko.yaml",
+      "size": 2549
+    },
+    {
+      "path": ".github/workflows/zizmor.yaml",
+      "size": 1185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel rules for apko",
+    "fork": false,
+    "full_name": "chainguard-dev/rules_apko",
+    "html_url": "https://github.com/chainguard-dev/rules_apko",
+    "language": "Starlark",
+    "pushed_at": "2026-04-23T15:59:08Z",
+    "stargazers_count": 35,
+    "topics": [
+      "apk",
+      "bazel",
+      "bazel-rules",
+      "no-ghaudit-default-permissions"
+    ],
+    "updated_at": "2026-04-23T15:58:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainguard-dev/apko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Action Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "Action Lint"
+    },
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update to new apko",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-apko.yaml",
+      "term": "Update to new apko"
+    },
+    {
+      "context_snippet": "Zizmor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "term": "Zizmor"
+    },
+    {
+      "context_snippet": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-ghaudit-default-permissions"
+    }
+  ]
+}

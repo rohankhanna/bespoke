@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "@babel/template",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-literal-to-ast",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-macros",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql-tag",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ast-pretty-print",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-tester",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flow-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hsu-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "kentcdodds/babel-plugin-macros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "evenchange4/graphql.macro-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "leoasis/graphql-tag.macro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "@babel/template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "babel-literal-to-ast",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "babel-plugin-macros",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "graphql-tag",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "ast-pretty-print",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "babel-plugin-tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "conventional-changelog-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "flow-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "hsu-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "babel-plugin-macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evenchange4/graphql.macro",
+      "target": "graphql-tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:51:05.263252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2900
+    },
+    {
+      "path": "package.json",
+      "size": 2320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compile GraphQL AST at build-time with babel-plugin-macros.",
+    "fork": false,
+    "full_name": "evenchange4/graphql.macro",
+    "html_url": "https://github.com/evenchange4/graphql.macro",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T01:50:46Z",
+    "stargazers_count": 238,
+    "topics": [
+      "babel-plugin-macros",
+      "graphql-tag"
+    ],
+    "updated_at": "2026-04-03T10:11:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evenchange4/graphql.macro-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kentcdodds/babel-plugin-macros",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leoasis/graphql-tag.macro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Compile GraphQL AST at build-time with babel-plugin-macros.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-plugin-macros"
+    },
+    {
+      "context_snippet": "> Compile GraphQL AST at build-time with babel-plugin-macros.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql-tag"
+    }
+  ]
+}

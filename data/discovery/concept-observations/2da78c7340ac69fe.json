@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "e2ee",
+      "sense_id": "e2ee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2ee",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2ee",
+  "observation_id": "2da78c7340ac69fe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "e2ee",
+  "source_context_snippet": "TeleType",
+  "source_file": null,
+  "source_repo": "akshaykmr/teletype",
+  "source_repo_description": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+}

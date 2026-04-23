@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Renumber standard TOC"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "Renumber standard TOC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate",
+      "text": "Renumber standard TOC"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "flatten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "discharged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Renumber standard TOC",
+  "concept_id": "renumber-standard-toc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/renumber-sections.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Renumber standard TOC",
+      "sense_id": "renumber-standard-toc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

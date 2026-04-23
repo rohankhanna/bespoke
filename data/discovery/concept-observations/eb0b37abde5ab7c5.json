@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ implementation of the Ethereum protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "QA - Execution Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "QA - Execution Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18344,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10250,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10134,
+      "status": "candidate",
+      "text": "outputs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9373,
+      "status": "candidate",
+      "text": "attempt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9373,
+      "status": "candidate",
+      "text": "attempted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QA - Execution Test",
+      "sense_id": "qa---execution-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qa---execution-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qa---execution-test",
+  "observation_id": "eb0b37abde5ab7c5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "QA - Execution Test",
+  "source_context_snippet": "QA - Execution Test",
+  "source_file": ".github/workflows/execution-test.yml",
+  "source_repo": "erigontech/silkworm",
+  "source_repo_description": "C++ implementation of the Ethereum protocol"
+}

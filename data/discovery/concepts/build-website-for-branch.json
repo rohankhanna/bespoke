@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build website for branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Build website for branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "Build website for branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "faq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "filter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19739,
+      "status": "candidate",
+      "text": "php"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19702,
+      "status": "candidate",
+      "text": "web"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build website for branch",
+  "concept_id": "build-website-for-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-website-for-branch.yml",
+      "source_repo": "zloirock/core-js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build website for branch",
+      "sense_id": "build-website-for-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

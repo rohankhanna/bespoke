@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049566,
+      "status": "candidate",
+      "text": "spamvertiser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049565,
+      "status": "candidate",
+      "text": "scamster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049564,
+      "status": "candidate",
+      "text": "postmaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049563,
+      "status": "candidate",
+      "text": "sender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049562,
+      "status": "candidate",
+      "text": "spearphisher"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spammer",
+      "sense_id": "spammer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spammer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spammer",
+  "observation_id": "66aeab485c416e8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "spammer",
+  "source_context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "flashbots/contender",
+  "source_repo_description": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+}

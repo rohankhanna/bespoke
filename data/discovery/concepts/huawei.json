@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "huawei"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903798,
+      "status": "candidate",
+      "text": "zhong-hu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903797,
+      "status": "candidate",
+      "text": "zhong hu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903796,
+      "status": "candidate",
+      "text": "zhonghu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903795,
+      "status": "candidate",
+      "text": "huhehaote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903794,
+      "status": "candidate",
+      "text": "handphone"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "huawei",
+  "concept_id": "huawei",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "huawei",
+      "sense_id": "huawei#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

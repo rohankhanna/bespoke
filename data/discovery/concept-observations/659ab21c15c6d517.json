@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044043,
+      "status": "candidate",
+      "text": "collapse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017926,
+      "status": "candidate",
+      "text": "fall through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016473,
+      "status": "candidate",
+      "text": "dud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008549,
+      "status": "candidate",
+      "text": "fall flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992863,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flops",
+      "sense_id": "flops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flops",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flops",
+  "observation_id": "659ab21c15c6d517",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "flops",
+  "source_context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+  "source_file": null,
+  "source_repo": "ultralytics/thop",
+  "source_repo_description": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage."
+}

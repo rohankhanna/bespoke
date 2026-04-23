@@ -19,12 +19,48 @@
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
       "status": "candidate-context",
       "text": "Potential Duplicate Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Java Language Support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Potential Duplicate Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "Potential Duplicate Issues"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "Potential Duplicate Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate",
+      "text": "Potential Duplicate Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
       "status": "candidate",
       "text": "Potential Duplicate Issues"
     }
@@ -76,11 +112,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/duplicate-issues-detector.yaml",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "source_repo": "simple-icons/simple-icons"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

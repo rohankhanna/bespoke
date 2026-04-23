@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf89 The code repository for \"Parrot: Multilingual Visual Instruction Tuning\" in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043242,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043234,
+      "status": "candidate",
+      "text": "trilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043214,
+      "status": "candidate",
+      "text": "bilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040523,
+      "status": "candidate",
+      "text": "linguistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039062,
+      "status": "candidate",
+      "text": "language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multilingual",
+      "sense_id": "multilingual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "trilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "bilingual"
+    }
+  ],
+  "concept_id": "multilingual",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multilingual",
+  "observation_id": "36bea79f4183cc72",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "multilingual",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "AIDC-AI/Parrot",
+  "source_repo_description": "\ud83c\udf89 The code repository for \"Parrot: Multilingual Visual Instruction Tuning\" in PyTorch."
+}

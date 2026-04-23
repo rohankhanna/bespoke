@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hexagon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "Halide is a programming language designed to make it easier to write"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041886,
+      "status": "candidate",
+      "text": "sexagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041885,
+      "status": "candidate",
+      "text": "heptagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041884,
+      "status": "candidate",
+      "text": "octagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041883,
+      "status": "candidate",
+      "text": "dihectagon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041882,
+      "status": "candidate",
+      "text": "quadrangle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hexagon",
+  "concept_id": "hexagon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "halide/Halide"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hexagon",
+      "sense_id": "hexagon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

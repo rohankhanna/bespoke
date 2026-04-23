@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "golangci-lint"
+    "golangci-lint",
+    "Golangci-lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -219,6 +220,90 @@
       "source_repo": "redis/go-redis",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "Entra ID extension for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate-context",
+      "text": "HTTP Round Tripper for GitHub Apps - Authenticate as an Installation Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "psutil for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "Golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "Go implementation of data-plane-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "Modern Job Scheduler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "Full-featured BitTorrent client package and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +400,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/go-redis",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate",
+      "text": "Golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -444,11 +571,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis-entraid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "shirou/gopsutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "ajvb/kala"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "anacrolix/torrent"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

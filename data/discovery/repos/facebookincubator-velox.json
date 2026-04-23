@@ -1,0 +1,613 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@08dcb3a5e62fa31e2da3d490afc4176ef55ecd72",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/stash/restore@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/stash/restore@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/stash/save@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@63fd63b352a9a8bdcc24791c9dbee952ee9a8abc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "apache/infrastructure-actions/stash/save@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml"
+    },
+    {
+      "component": "izaitsevfb/claude-code-action@ececd56fb999d06b4dd2477437bc408938295d76",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "facebookincubator/velox",
+      "target": "assignuser/delocate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breeze.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breeze.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Breeze Linux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-impact-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Build Impact Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-impact.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-impact.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Build Impact Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "cachix/install-nix-action@08dcb3a5e62fa31e2da3d490afc4176ef55ecd72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Collect Build Metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "apache/infrastructure-actions/stash/restore@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "apache/infrastructure-actions/stash/save@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "pypa/cibuildwheel@63fd63b352a9a8bdcc24791c9dbee952ee9a8abc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Build Pyvelox Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "izaitsevfb/claude-code-action@ececd56fb999d06b4dd2477437bc408938295d76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-failure-comment.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "CI Failure Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox",
+      "target": "Claude Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookincubator/velox",
+      "target": "data-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookincubator/velox",
+      "target": "query-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:48:32.046019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10936
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4809
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 15743
+    },
+    {
+      "path": ".github/workflows/breeze.yml",
+      "size": 3661
+    },
+    {
+      "path": ".github/workflows/build-impact-comment.yml",
+      "size": 3271
+    },
+    {
+      "path": ".github/workflows/build-impact.yml",
+      "size": 7451
+    },
+    {
+      "path": ".github/workflows/build-metrics.yml",
+      "size": 7497
+    },
+    {
+      "path": ".github/workflows/build_pyvelox.yml",
+      "size": 5871
+    },
+    {
+      "path": ".github/workflows/ci-failure-comment.yml",
+      "size": 6939
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 26814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A composable and fully extensible C++ execution engine library for data management systems.",
+    "fork": false,
+    "full_name": "facebookincubator/velox",
+    "html_url": "https://github.com/facebookincubator/velox",
+    "language": "C++",
+    "pushed_at": "2026-04-23T18:43:55Z",
+    "stargazers_count": 4102,
+    "topics": [
+      "data-management",
+      "query-processing"
+    ],
+    "updated_at": "2026-04-23T18:43:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "assignuser/delocate",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Breeze Linux Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breeze.yml",
+      "term": "Breeze Linux Build"
+    },
+    {
+      "context_snippet": "Build Impact Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-impact-comment.yml",
+      "term": "Build Impact Comment"
+    },
+    {
+      "context_snippet": "Build Impact Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-impact.yml",
+      "term": "Build Impact Analysis"
+    },
+    {
+      "context_snippet": "Collect Build Metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics.yml",
+      "term": "Collect Build Metrics"
+    },
+    {
+      "context_snippet": "Build Pyvelox Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "term": "Build Pyvelox Wheels"
+    },
+    {
+      "context_snippet": "CI Failure Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-failure-comment.yml",
+      "term": "CI Failure Comment"
+    },
+    {
+      "context_snippet": "Claude Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude Assistant"
+    },
+    {
+      "context_snippet": "<img src=\"static/logo.svg\" alt=\"Velox logo\" width=\"50%\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-management"
+    },
+    {
+      "context_snippet": "<img src=\"static/logo.svg\" alt=\"Velox logo\" width=\"50%\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-processing"
+    }
+  ]
+}

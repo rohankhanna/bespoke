@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "publish-technical-documentation-next"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "publish-technical-documentation-next"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "publish-technical-documentation-next"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "publish-technical-documentation-next",
+  "concept_id": "publish-technical-documentation-next",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish-technical-documentation-next",
+      "sense_id": "publish-technical-documentation-next#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -139,6 +139,90 @@
       "source_repo": "blrchen/chatgpt-minimal",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "OneBot\uff1a\u7edf\u4e00\u7684\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "A novel Multimodal Large Language Model (MLLM) architecture, designed to structurally align visual and textual embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate-context",
+      "text": "Databricks\u2019 Dolly, a large language model trained on the Databricks Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate-context",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +291,48 @@
       "source_repo": "blrchen/chatgpt-minimal",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +460,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "blrchen/chatgpt-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "databrickslabs/dolly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

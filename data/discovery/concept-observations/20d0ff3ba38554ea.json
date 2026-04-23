@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "verl-agent is an extension of veRL, designed for training LLM/VLM agents via RL. verl-agent is also the official code for paper \"Group-in-Group Policy Optimization for LLM Agent Training\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dataset"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dataset"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012946,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006326,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005185,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972786,
+      "status": "candidate",
+      "text": "together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906553,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dataset",
+      "sense_id": "dataset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dataset",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dataset",
+  "observation_id": "20d0ff3ba38554ea",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "dataset",
+  "source_context_snippet": "dataset",
+  "source_file": ".github/workflows/dataset.yml",
+  "source_repo": "langfengQ/verl-agent",
+  "source_repo_description": "verl-agent is an extension of veRL, designed for training LLM/VLM agents via RL. verl-agent is also the official code for paper \"Group-in-Group Policy Optimization for LLM Agent Training\""
+}

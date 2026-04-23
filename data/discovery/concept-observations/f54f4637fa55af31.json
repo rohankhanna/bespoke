@@ -84,7 +84,7 @@
   "normalized_form": "compatibility-e2e-test",
   "observation_id": "f54f4637fa55af31",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Compatibility E2E Test",
   "source_context_snippet": "Compatibility E2E Test",
   "source_file": ".github/workflows/compatibility-e2e.yml",

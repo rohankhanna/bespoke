@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/official-pr.yml",
       "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance-report.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/repl-artefacts.yml",
+      "source_repo": "rollup/rollup"
     }
   ]
 }

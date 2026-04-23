@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "ekampf/pymaybe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "alexmojaki/birdseye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "lihaoyi/macropy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "AndreMiras/coveralls-python-action@v20201129",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/sorcery",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery",
+      "target": "language-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery",
+      "target": "language-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery",
+      "target": "magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery",
+      "target": "python-ast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:29.474777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11201
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dark magic delights in Python",
+    "fork": false,
+    "full_name": "alexmojaki/sorcery",
+    "html_url": "https://github.com/alexmojaki/sorcery",
+    "language": "Python",
+    "pushed_at": "2021-11-11T19:08:05Z",
+    "stargazers_count": 428,
+    "topics": [
+      "ast",
+      "language-extension",
+      "language-extensions",
+      "magic",
+      "python",
+      "python-ast",
+      "python3"
+    ],
+    "updated_at": "2026-04-07T14:01:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/birdseye",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekampf/pymaybe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lihaoyi/macropy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-extension"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-extensions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magic"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-ast"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

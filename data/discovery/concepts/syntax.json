@@ -31,6 +31,18 @@
       "source_repo": "alecthomas/chroma",
       "status": "candidate-context",
       "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alecthomas/chroma",
       "status": "candidate",
       "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

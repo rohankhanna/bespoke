@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "IDE Build and Upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate-context",
+      "text": "IntelliJ IDEA & IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate-context",
+      "text": "IDE Build and Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate",
+      "text": "IDE Build and Upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26037,
+      "status": "candidate",
+      "text": "culture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26037,
+      "status": "candidate",
+      "text": "emit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26037,
+      "status": "candidate",
+      "text": "give off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26037,
+      "status": "candidate",
+      "text": "give out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26037,
+      "status": "candidate",
+      "text": "harass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "IDE Build and Upload",
+  "concept_id": "ide-build-and-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ide_build_and_upload.yml",
+      "source_repo": "JetBrains/intellij-community"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "IDE Build and Upload",
+      "sense_id": "ide-build-and-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CnSTD: \u57fa\u4e8e PyTorch/MXNet \u7684 \u4e2d\u6587/\u82f1\u6587 \u573a\u666f\u6587\u5b57\u68c0\u6d4b\uff08Scene Text Detection\uff09\u3001\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\uff08Mathematical Formula Detection, MFD\uff09\u3001\u7bc7\u7ae0\u5206\u6790\uff08Layout Analysis\uff09\u7684Python3 \u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "c89d1b193c16656f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "breezedeus/CnSTD",
+  "source_repo_description": "CnSTD: \u57fa\u4e8e PyTorch/MXNet \u7684 \u4e2d\u6587/\u82f1\u6587 \u573a\u666f\u6587\u5b57\u68c0\u6d4b\uff08Scene Text Detection\uff09\u3001\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\uff08Mathematical Formula Detection, MFD\uff09\u3001\u7bc7\u7ae0\u5206\u6790\uff08Layout Analysis\uff09\u7684Python3 \u5305"
+}

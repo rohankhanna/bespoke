@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:23:56.590434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 227
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use `pdm shell` set PATH and PYTHONPATH in the current shell",
+    "fork": false,
+    "full_name": "abersheeran/pdm-shell",
+    "html_url": "https://github.com/abersheeran/pdm-shell",
+    "language": "Python",
+    "pushed_at": "2022-11-24T16:28:19Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2024-04-30T09:24:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

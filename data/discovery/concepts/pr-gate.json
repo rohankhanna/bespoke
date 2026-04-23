@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "PR Gate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate",
+      "text": "PR Gate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10868,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10868,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10868,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10823,
+      "status": "candidate",
+      "text": "been"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10823,
+      "status": "candidate",
+      "text": "ben"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "PR Gate",
   "concept_id": "pr-gate",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:38:37.562216+00:00",
       "source_file": ".github/workflows/pr-gate.yml",
       "source_repo": "badlogic/pi-mono"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_pr_gate.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

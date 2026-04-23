@@ -19,6 +19,18 @@
       "source_repo": "jonschlinkert/markdown-toc",
       "status": "candidate-context",
       "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jonschlinkert/markdown-toc",
       "status": "candidate",
       "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

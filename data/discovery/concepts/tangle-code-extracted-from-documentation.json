@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tangle code extracted from documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Learn to use WebGPU for native graphic applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Tangle code extracted from documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate",
+      "text": "Tangle code extracted from documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42599,
+      "status": "candidate",
+      "text": "lace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42470,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31565,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31177,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31177,
+      "status": "candidate",
+      "text": "tied"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tangle code extracted from documentation",
+  "concept_id": "tangle-code-extracted-from-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tangle.yml",
+      "source_repo": "eliemichel/LearnWebGPU"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tangle code extracted from documentation",
+      "sense_id": "tangle-code-extracted-from-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

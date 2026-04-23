@@ -31,6 +31,18 @@
       "source_repo": "Ai00-X/ai00_server",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Python 3 embeddable for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Ai00-X/ai00_server",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

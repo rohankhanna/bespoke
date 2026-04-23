@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Inactive PR Processor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Inactive PR Processor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inactive PR Processor",
+      "sense_id": "inactive-pr-processor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inactive-pr-processor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inactive-pr-processor",
+  "observation_id": "ac0f634b416f75d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Inactive PR Processor",
+  "source_context_snippet": "Inactive PR Processor",
+  "source_file": ".github/workflows/inactive-pr.yml",
+  "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+  "source_repo_description": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+}

@@ -31,6 +31,18 @@
       "source_repo": "0xNyk/council-of-high-intelligence",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "0xNyk/council-of-high-intelligence",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "0xNyk/council-of-high-intelligence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

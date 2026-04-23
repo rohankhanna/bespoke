@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "facebookresearch/detectron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "tianzhi0549/fcos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "rsummers11/cadlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "chenjoya/sampling-free",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "facebookresearch/maskrcnn-benchmark"
+}

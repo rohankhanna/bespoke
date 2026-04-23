@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "google/mirror-branch-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "CI for interpreter & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "CI for specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "google/mirror-branch-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "source_repo": "WebAssembly/compilation-hints",
+      "target": "Mirror main branch to master branch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:29.734461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1759
+    },
+    {
+      "path": ".github/workflows/ci-interpreter.yml",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/ci-spec.yml",
+      "size": 3120
+    },
+    {
+      "path": ".github/workflows/mirror-to-master.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compilation Hints",
+    "fork": false,
+    "full_name": "WebAssembly/compilation-hints",
+    "html_url": "https://github.com/WebAssembly/compilation-hints",
+    "language": "WebAssembly",
+    "pushed_at": "2025-10-29T09:48:46Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-03T00:18:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI for interpreter & tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "term": "CI for interpreter & tests"
+    },
+    {
+      "context_snippet": "CI for specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "term": "CI for specs"
+    },
+    {
+      "context_snippet": "Mirror main branch to master branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "term": "Mirror main branch to master branch"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/executing",
+      "target": "alexmojaki/pure_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/executing",
+      "target": "alexmojaki/snoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/executing",
+      "target": "alexmojaki/heartrate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/executing",
+      "target": "alexmojaki/sorcery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexmojaki/executing",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexmojaki/executing",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexmojaki/executing",
+      "target": "AndreMiras/coveralls-python-action@v20201129",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexmojaki/executing",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:33:59.787884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7706
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get information about what a Python frame is currently doing, particularly the AST node being executed",
+    "fork": false,
+    "full_name": "alexmojaki/executing",
+    "html_url": "https://github.com/alexmojaki/executing",
+    "language": "Python",
+    "pushed_at": "2025-09-01T09:48:02Z",
+    "stargazers_count": 388,
+    "topics": [
+      "python"
+    ],
+    "updated_at": "2026-04-09T14:35:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/heartrate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/pure_eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/snoop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/sorcery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

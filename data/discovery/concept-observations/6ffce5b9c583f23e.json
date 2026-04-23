@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload binaries to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload binaries to release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "bin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload binaries to release",
+      "sense_id": "upload-binaries-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-binaries-to-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-binaries-to-release",
+  "observation_id": "6ffce5b9c583f23e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Upload binaries to release",
+  "source_context_snippet": "Upload binaries to release",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "kubernetes-sigs/controller-runtime",
+  "source_repo_description": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+}

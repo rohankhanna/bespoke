@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "firstbatchxyz/dkn-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-linux.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-linux.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-linux.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "houseabsolute/actions-rust-cross@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebuild-linux.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "rebuild-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "houseabsolute/actions-rust-cross@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "Jimver/cuda-toolkit@v0.2.22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "rocm hotfix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "dria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "firstbatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "gossip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "libp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "firstbatchxyz/dkn-compute-node"
+}

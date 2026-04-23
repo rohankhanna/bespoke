@@ -98,6 +98,41 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/electron-build.yml"
     },
     {
@@ -317,6 +352,48 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "Publish Docker image (nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/electron-build.yml",
       "source_repo": "QuantumNous/new-api",
       "target": "actions/checkout@v4",
@@ -477,7 +554,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:42:42.179257+00:00",
+  "fetched_at": "2026-04-23T22:06:35.991648+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -489,7 +566,7 @@
     },
     {
       "path": "go.mod",
-      "size": 6124
+      "size": 6159
     },
     {
       "path": ".github/workflows/docker-image-alpha.yml",
@@ -498,6 +575,10 @@
     {
       "path": ".github/workflows/docker-image-arm64.yml",
       "size": 6379
+    },
+    {
+      "path": ".github/workflows/docker-image-nightly.yml",
+      "size": 3234
     },
     {
       "path": ".github/workflows/electron-build.yml",
@@ -525,8 +606,8 @@
     "full_name": "QuantumNous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
-    "pushed_at": "2026-04-23T05:32:45Z",
-    "stargazers_count": 28412,
+    "pushed_at": "2026-04-23T18:52:32Z",
+    "stargazers_count": 28533,
     "topics": [
       "ai-gateway",
       "claude",
@@ -536,7 +617,7 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-23T06:41:52Z"
+    "updated_at": "2026-04-23T21:39:04Z"
   },
   "repo_links": [
     {
@@ -551,6 +632,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-image-alpha.yml",
       "term": "Publish Docker image (alpha)"
+    },
+    {
+      "context_snippet": "Publish Docker image (nightly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "term": "Publish Docker image (nightly)"
     },
     {
       "context_snippet": "Build Electron App",

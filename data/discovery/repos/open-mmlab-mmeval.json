@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "open-mmlab/mmclassification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "open-mmlab/mmfewshot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "open-mmlab/mmflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmeval",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:36:57.893389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15079
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unified evaluation library for multiple machine learning libraries",
+    "fork": false,
+    "full_name": "open-mmlab/mmeval",
+    "html_url": "https://github.com/open-mmlab/mmeval",
+    "language": "Python",
+    "pushed_at": "2024-03-29T03:56:22Z",
+    "stargazers_count": 269,
+    "topics": [
+      "machine-learning",
+      "metrics",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2025-12-26T05:05:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmclassification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmfewshot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

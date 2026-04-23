@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "lowRISC/opentitan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-reuse.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib"
     }
   ]
 }

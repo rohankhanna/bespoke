@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tool, language and decoders for working with binary data."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tool, language and decoders for working with binary data."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977766,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931775,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931739,
+      "status": "candidate",
+      "text": "double star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999634,
+      "status": "candidate",
+      "text": "two-fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999539,
+      "status": "candidate",
+      "text": "twofold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "binary",
+      "sense_id": "binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "double star"
+    }
+  ],
+  "concept_id": "binary",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "binary",
+  "observation_id": "34b353c862f140dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "binary",
+  "source_context_snippet": "Tool, language and decoders for working with binary data.",
+  "source_file": null,
+  "source_repo": "wader/fq",
+  "source_repo_description": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+}

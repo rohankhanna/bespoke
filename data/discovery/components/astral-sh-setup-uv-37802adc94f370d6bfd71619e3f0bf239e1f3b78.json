@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label-approved.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_price_and_context_window.yml",
+      "source_repo": "BerriAI/litellm"
     }
   ]
 }

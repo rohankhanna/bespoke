@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Pull requests can't target master branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "Pull requests can't target master branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54856,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54761,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54655,
+      "status": "candidate",
+      "text": "harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54495,
+      "status": "candidate",
+      "text": "table"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54445,
+      "status": "candidate",
+      "text": "box"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Pull requests can't target master branch",
   "concept_id": "pull-requests-can-t-target-master-branch",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/warns_merge_master.yml",
       "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

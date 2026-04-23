@@ -1,12 +1,17 @@
 {
   "component": "denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "hectorm/chafa-wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-autoload"
     }
   ]
 }

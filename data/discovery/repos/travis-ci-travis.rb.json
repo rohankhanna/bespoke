@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis.rb",
+      "target": "travis-ci/travis-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis.rb",
+      "target": "travis-ci/travis-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis.rb",
+      "target": "postmodern/chruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis.rb",
+      "target": "travis-ci/gh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis.rb",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis.rb",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:50:13.796857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 101704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Travis CI Client (CLI and Ruby library)",
+    "fork": false,
+    "full_name": "travis-ci/travis.rb",
+    "html_url": "https://github.com/travis-ci/travis.rb",
+    "language": "Ruby",
+    "pushed_at": "2024-10-25T11:48:30Z",
+    "stargazers_count": 1592,
+    "topics": [
+      "ruby",
+      "travis-ci"
+    ],
+    "updated_at": "2026-04-16T08:04:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postmodern/chruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/gh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![The Travis Mascot](https://about.travis-ci.org/images/travis-mascot-200px.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "![The Travis Mascot](https://about.travis-ci.org/images/travis-mascot-200px.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

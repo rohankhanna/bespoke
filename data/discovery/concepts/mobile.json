@@ -115,6 +115,102 @@
       "source_repo": "objectbox/objectbox-dart",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "Swift database - fast, simple and lightweight (iOS, macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "Vulkan best practice for mobile developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +267,54 @@
       "source_repo": "objectbox/objectbox-dart",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +448,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build, test and validate (reusable workflow)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Carrot2: Text Clustering Algorithms and Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Build, test and validate (reusable workflow)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate",
+      "text": "Build, test and validate (reusable workflow)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24657,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24520,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24491,
+      "status": "candidate",
+      "text": "ratify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24101,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23159,
+      "status": "candidate",
+      "text": "legalize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build, test and validate (reusable workflow)",
+  "concept_id": "build-test-and-validate-reusable-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "carrot2/carrot2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build, test and validate (reusable workflow)",
+      "sense_id": "build-test-and-validate-reusable-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c-ccg/multibase",
+      "target": "workitem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:02.405823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An IETF Internet Draft for the Multibase data format",
+    "fork": false,
+    "full_name": "w3c-ccg/multibase",
+    "html_url": "https://github.com/w3c-ccg/multibase",
+    "language": "XSLT",
+    "pushed_at": "2023-08-31T12:24:03Z",
+    "stargazers_count": 5,
+    "topics": [
+      "workitem"
+    ],
+    "updated_at": "2025-01-04T21:26:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This specification describes a forward-compatible data model for expressing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workitem"
+    }
+  ]
+}

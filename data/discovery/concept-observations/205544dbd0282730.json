@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy to integrate Vulkan memory allocation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Static code analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Static code analysis"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25680,
+      "status": "candidate",
+      "text": "cryptanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18769,
+      "status": "candidate",
+      "text": "squelch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18523,
+      "status": "candidate",
+      "text": "friction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18497,
+      "status": "candidate",
+      "text": "biometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18448,
+      "status": "candidate",
+      "text": "brokerage"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static code analysis",
+      "sense_id": "static-code-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-code-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-code-analysis",
+  "observation_id": "205544dbd0282730",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Static code analysis",
+  "source_context_snippet": "Static code analysis",
+  "source_file": ".github/workflows/static_code_analysis.yaml",
+  "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+  "source_repo_description": "Easy to integrate Vulkan memory allocation library"
+}

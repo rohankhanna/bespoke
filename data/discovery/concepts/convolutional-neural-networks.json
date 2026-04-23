@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "convolutional-neural-networks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate-context",
+      "text": "Topic-Aware Convolutional Neural Networks for Extreme Summarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "convolutional-neural-networks",
+  "concept_id": "convolutional-neural-networks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convolutional-neural-networks",
+      "sense_id": "convolutional-neural-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

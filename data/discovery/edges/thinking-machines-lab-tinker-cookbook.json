@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "allenai/ifbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "check-links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "downstream-compat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "publish-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pyright",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "thinking-machines-lab/tinker-cookbook"
+}

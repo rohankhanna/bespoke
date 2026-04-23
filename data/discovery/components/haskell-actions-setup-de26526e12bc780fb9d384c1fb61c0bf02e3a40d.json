@@ -1,0 +1,12 @@
+{
+  "component": "haskell-actions/setup@de26526e12bc780fb9d384c1fb61c0bf02e3a40d",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    }
+  ]
+}

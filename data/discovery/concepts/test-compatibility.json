@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Compatibility"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "Test Compatibility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate",
+      "text": "Test Compatibility"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12729,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12729,
+      "status": "candidate",
+      "text": "conditions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "coherence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Compatibility",
+  "concept_id": "test-compatibility",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "ModelCloud/GPTQModel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Compatibility",
+      "sense_id": "test-compatibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

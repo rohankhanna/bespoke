@@ -1,0 +1,351 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "nvidia/thrust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "chrischoy/spatiotemporalsegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "chrischoy/fcgf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "3d-convolutional-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "4d-convolutional-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "auto-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "high-dimensional-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "high-dimensional-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "minkowski-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "space-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "sparse-convolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "sparse-tensor-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "sparse-tensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "spatio-temporal-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "target": "trilateral-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:40:42.749757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19943
+    },
+    {
+      "path": "requirements.txt",
+      "size": 22
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors",
+    "fork": false,
+    "full_name": "NVIDIA/MinkowskiEngine",
+    "html_url": "https://github.com/NVIDIA/MinkowskiEngine",
+    "language": "Python",
+    "pushed_at": "2024-03-05T16:00:19Z",
+    "stargazers_count": 2910,
+    "topics": [
+      "3d-convolutional-network",
+      "3d-vision",
+      "4d-convolutional-neural-network",
+      "auto-differentiation",
+      "computer-vision",
+      "convolutional-neural-networks",
+      "cuda",
+      "deep-learning",
+      "high-dimensional-data",
+      "high-dimensional-inference",
+      "minkowski-engine",
+      "neural-network",
+      "pytorch",
+      "semantic-segmentation",
+      "space-time",
+      "sparse-convolution",
+      "sparse-tensor-network",
+      "sparse-tensors",
+      "spatio-temporal-analysis",
+      "trilateral-filter"
+    ],
+    "updated_at": "2026-04-23T01:07:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/fcgf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/spatiotemporalsegmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/thrust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-convolutional-network"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "4d-convolutional-neural-network"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-differentiation"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-dimensional-data"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-dimensional-inference"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minkowski-engine"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-time"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-convolution"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-tensor-network"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-tensors"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatio-temporal-analysis"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trilateral-filter"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "untitaker/hyperlink@0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-tester.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "untitaker/hyperlink",
+      "target": "getsentry/sentry-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "untitaker/hyperlink",
+      "target": "raviqqe/liche",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "untitaker/hyperlink",
+      "target": "raviqqe/muffet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "untitaker/hyperlink",
+      "target": "filiph/linkcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "Release Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-tester.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "untitaker/hyperlink@0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-tester.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "Test installations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "broken-anchors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "broken-link-finder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "link-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "link-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink",
+      "target": "validators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:54:33.211465+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8906
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1104
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1032
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/install-tester.yml",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 13538
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Very fast link checker for CI.",
+    "fork": false,
+    "full_name": "untitaker/hyperlink",
+    "html_url": "https://github.com/untitaker/hyperlink",
+    "language": "Rust",
+    "pushed_at": "2026-04-19T13:11:59Z",
+    "stargazers_count": 218,
+    "topics": [
+      "404",
+      "broken-anchors",
+      "broken-link-finder",
+      "ci",
+      "fast",
+      "link-checker",
+      "link-checking",
+      "linter",
+      "linters",
+      "rust",
+      "validators"
+    ],
+    "updated_at": "2026-04-19T13:12:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filiph/linkcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getsentry/sentry-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raviqqe/liche",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raviqqe/muffet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Release Docker"
+    },
+    {
+      "context_snippet": "Test installations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-tester.yml",
+      "term": "Test installations"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "broken-anchors"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "broken-link-finder"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "link-checker"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "link-checking"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linters"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A command-line tool to find broken links in your static site.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validators"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests"
+    }
+  ]
+}

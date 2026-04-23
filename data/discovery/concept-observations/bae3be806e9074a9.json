@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post Clang Tidy Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post Clang Tidy Comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21474,
+      "status": "candidate",
+      "text": "hoover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17699,
+      "status": "candidate",
+      "text": "tidying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17461,
+      "status": "candidate",
+      "text": "redd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17390,
+      "status": "candidate",
+      "text": "clairvoyance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17390,
+      "status": "candidate",
+      "text": "clairvoyant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Clang Tidy Comments",
+      "sense_id": "post-clang-tidy-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-clang-tidy-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-clang-tidy-comments",
+  "observation_id": "bae3be806e9074a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Post Clang Tidy Comments",
+  "source_context_snippet": "Post Clang Tidy Comments",
+  "source_file": ".github/workflows/clang_tidy_post.yml",
+  "source_repo": "aseprite/laf",
+  "source_repo_description": "A C++ library to create desktop applications"
+}

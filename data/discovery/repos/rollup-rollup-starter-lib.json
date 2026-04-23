@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "ms",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "zeit/ms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "rollup/rollup-watch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "ms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-lib",
+      "target": "rollup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:26:06.158330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2202
+    },
+    {
+      "path": "package.json",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bare-bones example of how to create a library using Rollup",
+    "fork": false,
+    "full_name": "rollup/rollup-starter-lib",
+    "html_url": "https://github.com/rollup/rollup-starter-lib",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-17T06:28:02Z",
+    "stargazers_count": 991,
+    "topics": [],
+    "updated_at": "2026-03-28T07:36:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rollup/rollup-watch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeit/ms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

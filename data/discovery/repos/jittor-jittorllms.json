@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JittorLLMs",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JittorLLMs",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JittorLLMs",
+      "target": "openlmlab/moss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JittorLLMs",
+      "target": "lianjiatech/belle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:10.709943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5244
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u8ba1\u56fe\u5927\u6a21\u578b\u63a8\u7406\u5e93\uff0c\u5177\u6709\u9ad8\u6027\u80fd\u3001\u914d\u7f6e\u8981\u6c42\u4f4e\u3001\u4e2d\u6587\u652f\u6301\u597d\u3001\u53ef\u79fb\u690d\u7b49\u7279\u70b9",
+    "fork": false,
+    "full_name": "Jittor/JittorLLMs",
+    "html_url": "https://github.com/Jittor/JittorLLMs",
+    "language": "Python",
+    "pushed_at": "2025-02-22T15:02:56Z",
+    "stargazers_count": 2423,
+    "topics": [],
+    "updated_at": "2026-04-23T16:24:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lianjiatech/belle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlmlab/moss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

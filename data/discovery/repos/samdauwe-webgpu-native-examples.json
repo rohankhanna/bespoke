@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "chlumsky/msdfgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "artemhlezin/webgpu-gerstner-waves",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "binomialllc/basis_universal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "austineng/webgpu-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "dawn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:15.697126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of C-language examples that demonstrate basic rendering and computation in WebGPU native.",
+    "fork": false,
+    "full_name": "samdauwe/webgpu-native-examples",
+    "html_url": "https://github.com/samdauwe/webgpu-native-examples",
+    "language": "C",
+    "pushed_at": "2026-04-23T18:35:48Z",
+    "stargazers_count": 502,
+    "topics": [
+      "dawn",
+      "graphics",
+      "webgpu"
+    ],
+    "updated_at": "2026-04-23T18:35:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artemhlezin/webgpu-gerstner-waves",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "austineng/webgpu-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binomialllc/basis_universal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chlumsky/msdfgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dawn"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    }
+  ]
+}

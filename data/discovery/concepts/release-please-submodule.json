@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "release-please-submodule"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate-context",
+      "text": "monorepo containing the various nuts and bolts that facilitate istanbul.js test instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate-context",
+      "text": "release-please-submodule"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate",
+      "text": "release-please-submodule"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "release-please-submodule",
+  "concept_id": "release-please-submodule",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/istanbuljs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-please-submodule",
+      "sense_id": "release-please-submodule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

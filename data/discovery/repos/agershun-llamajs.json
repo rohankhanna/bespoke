@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:02:48.780991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 601
+    },
+    {
+      "path": "package.json",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "agershun/llamajs",
+    "html_url": "https://github.com/agershun/llamajs",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-18T15:57:28Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-10-21T12:13:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

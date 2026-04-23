@@ -1,0 +1,753 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "knip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "suggestion-bot",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/cocoapods@trunk",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/cocoapods@trunk",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "@yarnpkg/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "knip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "nx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "suggestion-bot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-deps.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.4.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "microsoft/react-native-test-app/.github/actions/cocoapods@trunk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "microsoft/react-native-test-app/.github/actions/setup-toolchain@4.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "source_repo": "microsoft/rnx-kit",
+      "target": "rnx-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "desktop-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "developer-experience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "mobile-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:25:19.907946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2850
+    },
+    {
+      "path": "package.json",
+      "size": 8372
+    },
+    {
+      "path": ".github/workflows/align-deps.yml",
+      "size": 3248
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2472
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 10679
+    },
+    {
+      "path": ".github/workflows/rnx-build.yml",
+      "size": 10359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modern, scalable tools. Exceptional developer experience.",
+    "fork": false,
+    "full_name": "microsoft/rnx-kit",
+    "html_url": "https://github.com/microsoft/rnx-kit",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T13:45:13Z",
+    "stargazers_count": 1716,
+    "topics": [
+      "android",
+      "cli",
+      "cross-platform",
+      "dependency-manager",
+      "desktop",
+      "desktop-development",
+      "developer-experience",
+      "developer-tools",
+      "devtools",
+      "ios",
+      "macos",
+      "mobile",
+      "mobile-development",
+      "monorepo",
+      "react-native",
+      "typescript",
+      "visionos",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T13:40:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "rnx-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rnx-build.yml",
+      "term": "rnx-build"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-development"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-experience"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-development"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visionos"
+    },
+    {
+      "context_snippet": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "latte"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate-context",
+      "text": "Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate-context",
+      "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/TeaCache",
+      "status": "candidate",
+      "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030745,
+      "status": "candidate",
+      "text": "coffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029323,
+      "status": "candidate",
+      "text": "cream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029301,
+      "status": "candidate",
+      "text": "chocolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029200,
+      "status": "candidate",
+      "text": "cr\u00e8me"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028781,
+      "status": "candidate",
+      "text": "creamer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "latte",
+  "concept_id": "latte",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "latte",
+      "sense_id": "latte#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

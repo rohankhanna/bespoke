@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mindsers/changelog-reader-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "wizhi/setup-buf@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "grpc-ecosystem/grpc-health-probe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-merge.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "post-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "mindsers/changelog-reader-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "goreleaser/goreleaser-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "wizhi/setup-buf@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "access-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "access-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "authorizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "authorizer-tech/access-controller",
+      "target": "zanzibar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:55:38.412147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4234
+    },
+    {
+      "path": "Dockerfile",
+      "size": 304
+    },
+    {
+      "path": "go.mod",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/post-merge.yml",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1421
+    },
+    {
+      "path": ".github/workflows/review.yml",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\"",
+    "fork": false,
+    "full_name": "authorizer-tech/access-controller",
+    "html_url": "https://github.com/authorizer-tech/access-controller",
+    "language": "Go",
+    "pushed_at": "2021-10-26T01:37:21Z",
+    "stargazers_count": 73,
+    "topics": [
+      "access-control",
+      "access-management",
+      "authorization",
+      "authorizer",
+      "iam",
+      "zanzibar"
+    ],
+    "updated_at": "2025-07-28T17:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc-ecosystem/grpc-health-probe",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "post-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-merge.yml",
+      "term": "post-merge"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "term": "review"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "access-control"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "access-management"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorizer"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zanzibar"
+    }
+  ]
+}

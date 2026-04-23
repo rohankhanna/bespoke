@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:49:52.856676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of LLM completions for reasoning-gym task datasets",
+    "fork": false,
+    "full_name": "open-thought/reasoning-gym-eval",
+    "html_url": "https://github.com/open-thought/reasoning-gym-eval",
+    "language": "Python",
+    "pushed_at": "2025-07-04T17:33:55Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-12T05:26:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

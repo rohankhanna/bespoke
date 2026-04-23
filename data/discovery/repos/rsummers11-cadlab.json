@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:45:54.063002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Imaging Biomarkers and Computer-Aided Diagnosis Laboratory",
+    "fork": false,
+    "full_name": "rsummers11/CADLab",
+    "html_url": "https://github.com/rsummers11/CADLab",
+    "language": "C++",
+    "pushed_at": "2024-08-15T21:52:52Z",
+    "stargazers_count": 459,
+    "topics": [],
+    "updated_at": "2026-04-23T19:16:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

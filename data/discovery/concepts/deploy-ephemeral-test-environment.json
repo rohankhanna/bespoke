@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Ephemeral Test Environment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "Rust full node implementation of the Fuel v2 protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "Deploy Ephemeral Test Environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate",
+      "text": "Deploy Ephemeral Test Environment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33242,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33242,
+      "status": "candidate",
+      "text": "rap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33191,
+      "status": "candidate",
+      "text": "bicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33191,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33191,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Ephemeral Test Environment",
+  "concept_id": "deploy-ephemeral-test-environment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-test-env.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Ephemeral Test Environment",
+      "sense_id": "deploy-ephemeral-test-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

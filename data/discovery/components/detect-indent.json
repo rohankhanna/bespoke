@@ -1,7 +1,7 @@
 {
   "component": "detect-indent",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -22,6 +22,21 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/yarn"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/standard-version"
     }
   ]
 }

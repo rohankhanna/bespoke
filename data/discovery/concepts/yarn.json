@@ -55,6 +55,30 @@
       "source_repo": "react-native-community/cli",
       "status": "candidate-context",
       "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "> ## \u2139\ufe0f Important note"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "react-native-community/cli",
       "status": "candidate",
       "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate",
+      "text": "> ## \u2139\ufe0f Important note"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yarnpkg/yarn"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

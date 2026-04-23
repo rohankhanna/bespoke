@@ -106,7 +106,7 @@
   "normalized_form": "formatting",
   "observation_id": "a3ae8fc3314b8dd6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Formatting",
   "source_context_snippet": "Formatting",
   "source_file": ".github/workflows/formatting.yml",

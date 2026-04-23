@@ -272,6 +272,114 @@
       "source_repo": "pug-php/ci-pug-engine",
       "status": "candidate-context",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Self-describing sparse tensor data format for atomistic machine learning and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "A simple and fast linear algebra library for games and graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10   Lightweight internationalization plugin for Vue.js 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "coverage"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +514,60 @@
       "source_repo": "pug-php/ci-pug-engine",
       "status": "candidate",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "coverage"
     }
   ],
   "candidate_related_terms": [
@@ -615,11 +777,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "pug-php/ci-pug-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitshifter/glam-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "arl/statsviz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "sass/node-sass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "systemd/systemd"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

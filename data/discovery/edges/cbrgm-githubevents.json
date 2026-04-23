@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cbrgm/githubevents",
+      "target": "octokit/webhooks.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoassign.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "kentaro-m/auto-assign-action@0a2c53d3721e4c5cfcce6afd4014aecc337979f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoassign.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "add-reviews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "generate-and-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "cbrgm/telegram-github-action@14bbb5d52c0dddd791c3bc9b2f1c4820da59395b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "cbrgm/mastodon-github-action@fc8b40e2ec9e8208654b0bd8695e03ecc3364d7d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "release-notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "cbrgm/cleanup-stale-branches-action@0e8177cdd9631f21c783dbd20f7b9cd6b3422206",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "stale-issues-prs-branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "cbrgm/semver-bump-action@c04892bc502bfc686ae119698c9eb606388d6ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "cbrgm/githubevents",
+      "target": "publish-release-tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "go-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents",
+      "target": "webhooks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "cbrgm/githubevents"
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "defaults"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980223,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992041,
+      "status": "candidate",
+      "text": "bootstrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990749,
+      "status": "candidate",
+      "text": "bootup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990742,
+      "status": "candidate",
+      "text": "init"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957951,
+      "status": "candidate",
+      "text": "initialisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "initialize",
+      "sense_id": "initialize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3052,
+      "status": "candidate",
+      "text": "format"
+    }
+  ],
+  "concept_id": "initialize",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "initialize",
+  "observation_id": "0ac3a0c104ea3472",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "initialize",
+  "source_context_snippet": "defaults",
+  "source_file": null,
+  "source_repo": "creasty/defaults",
+  "source_repo_description": "Initialize structs with default values"
+}

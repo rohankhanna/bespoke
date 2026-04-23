@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "@actions/cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@simple-release/config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@simple-release/github-action",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@actions/cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@simple-release/config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "@simple-release/github-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TrigenSoftware/simple-release-action",
+      "target": "npm",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:12:57.561587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4695
+    },
+    {
+      "path": "package.json",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple action to release projects with monorepo support.",
+    "fork": false,
+    "full_name": "TrigenSoftware/simple-release-action",
+    "html_url": "https://github.com/TrigenSoftware/simple-release-action",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-16T09:44:21Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-05T10:29:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

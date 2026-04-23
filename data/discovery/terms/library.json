@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -151,6 +151,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python"
     }
   ],
   "term": "library"

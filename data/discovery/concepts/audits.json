@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Audits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Audits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "Audits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049061,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047957,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "audited account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "accounts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "appraisals"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Audits",
+  "concept_id": "audits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/audits.yml",
+      "source_repo": "graphql/graphql-http"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Audits",
+      "sense_id": "audits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

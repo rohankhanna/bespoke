@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-formula.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Add CBMC formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/git-user-config@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/git-try-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "brew pr-pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "diffblue/homebrew-cbmc",
+      "target": "brew test-bot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "diffblue/homebrew-cbmc"
+}

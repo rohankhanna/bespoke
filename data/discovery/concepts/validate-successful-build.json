@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate successful build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "Validate successful build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate",
+      "text": "Validate successful build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24603,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24558,
+      "status": "candidate",
+      "text": "authorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24558,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24485,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24485,
+      "status": "candidate",
+      "text": "attest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate successful build",
+  "concept_id": "validate-successful-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adobe/spectrum-css"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate successful build",
+      "sense_id": "validate-successful-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "External-DNS Webhook to manage IONOS DNS Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clouddns",
+      "sense_id": "clouddns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clouddns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clouddns",
+  "observation_id": "9a05321ae32b1eec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "clouddns",
+  "source_context_snippet": "ExternalDNS is a Kubernetes add-on for automatically managing",
+  "source_file": null,
+  "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+  "source_repo_description": "External-DNS Webhook to manage IONOS DNS Records"
+}

@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/execution-specs",
+      "target": "ethereum/eips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/execution-specs",
+      "target": "lambdaclass/ethrex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eip-rebase.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eip-rebase.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "EIP Rebase Onto Fork Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-consume.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-consume.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-consume.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hive-consume.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Hive Consume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-execute.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-execute.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hive-execute.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Hive Execute E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_fixture_feature.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_fixture_feature.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_fixture_feature.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Create Fixture Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Manage stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-checklist.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-checklist.yaml",
+      "source_repo": "ethereum/execution-specs",
+      "target": "Test checklist consistency",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ethereum/execution-specs"
+}

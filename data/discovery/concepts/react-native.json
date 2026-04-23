@@ -271,6 +271,66 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate-context",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "The React Native website and docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate-context",
+      "text": "This repo contains the website configuration and documentation powering the [React Native website](https://reactnative.dev/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Discussions and proposals related to the main React Native project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Do you have an idea on how to make React Native better?"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/releases",
+      "status": "candidate-context",
+      "text": "React Native releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/releases",
+      "status": "candidate-context",
+      "text": "We have deprecated this repository:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate-context",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +465,36 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native-website",
+      "status": "candidate",
+      "text": "This repo contains the website configuration and documentation powering the [React Native website](https://reactnative.dev/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate",
+      "text": "Do you have an idea on how to make React Native better?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/releases",
+      "status": "candidate",
+      "text": "We have deprecated this repository:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "status": "candidate",
+      "text": "Zip archive utility for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +640,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react-native-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/releases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

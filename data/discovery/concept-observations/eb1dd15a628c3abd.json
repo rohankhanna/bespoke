@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Pochi Cli Binary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Pochi Cli Binary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18513,
+      "status": "candidate",
+      "text": "shift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ilc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10311,
+      "status": "candidate",
+      "text": "alt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10311,
+      "status": "candidate",
+      "text": "branding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10311,
+      "status": "candidate",
+      "text": "clique"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Pochi Cli Binary",
+      "sense_id": "release-pochi-cli-binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-pochi-cli-binary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-pochi-cli-binary",
+  "observation_id": "eb1dd15a628c3abd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release Pochi Cli Binary",
+  "source_context_snippet": "Release Pochi Cli Binary",
+  "source_file": ".github/workflows/release-pochi-cli.yml",
+  "source_repo": "TabbyML/pochi",
+  "source_repo_description": null
+}

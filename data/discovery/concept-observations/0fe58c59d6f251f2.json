@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Setuptools Compatibility Reusable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Setuptools Compatibility Reusable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "armature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "scores"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "scoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "scrape"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Setuptools Compatibility Reusable",
+      "sense_id": "setuptools-compatibility-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "setuptools-compatibility-reusable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "setuptools-compatibility-reusable",
+  "observation_id": "0fe58c59d6f251f2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Setuptools Compatibility Reusable",
+  "source_context_snippet": "Setuptools Compatibility Reusable",
+  "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+  "source_repo": "ModelCloud/GPTQModel",
+  "source_repo_description": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+}

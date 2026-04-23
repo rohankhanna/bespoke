@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-fortran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_src_artifact.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "DoozyX/clang-format-lint-action@v0.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "gpgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "arrayfire/arrayfire"
+}

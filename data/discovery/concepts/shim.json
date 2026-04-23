@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "shim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042960,
+      "status": "candidate",
+      "text": "wedge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20033952,
+      "status": "candidate",
+      "text": "washer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017681,
+      "status": "candidate",
+      "text": "attachment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999974,
+      "status": "candidate",
+      "text": "bilge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995384,
+      "status": "candidate",
+      "text": "thrust"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "shim",
+  "concept_id": "shim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zloirock/core-js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shim",
+      "sense_id": "shim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

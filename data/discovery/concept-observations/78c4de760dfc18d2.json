@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Tests Lite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Tests Lite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20333,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20290,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20290,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18707,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12892,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Tests Lite",
+      "sense_id": "ci-tests-lite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-tests-lite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-tests-lite",
+  "observation_id": "78c4de760dfc18d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI Tests Lite",
+  "source_context_snippet": "CI Tests Lite",
+  "source_file": ".github/workflows/ci_test.yaml",
+  "source_repo": "modelscope/evalscope",
+  "source_repo_description": "A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking."
+}

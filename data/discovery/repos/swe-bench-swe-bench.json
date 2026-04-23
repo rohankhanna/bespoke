@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "sjvrijn/pytest-last-failed@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "swe-bench/swe-smith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "build-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "sjvrijn/pytest-last-failed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench",
+      "target": "software-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:28.833746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11728
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1954
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1332
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 1663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+    "fork": false,
+    "full_name": "SWE-bench/SWE-bench",
+    "html_url": "https://github.com/SWE-bench/SWE-bench",
+    "language": "Python",
+    "pushed_at": "2026-04-01T05:16:30Z",
+    "stargazers_count": 4762,
+    "topics": [
+      "benchmark",
+      "language-model",
+      "software-engineering"
+    ],
+    "updated_at": "2026-04-23T18:22:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-smith",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "build-docs"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-engineering"
+    }
+  ]
+}

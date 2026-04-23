@@ -32,6 +32,18 @@
       "source_repo": "agentclientprotocol/symposium-acp",
       "status": "candidate-context",
       "text": "Release Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/cadvisor",
+      "status": "candidate-context",
+      "text": "Analyzes resource usage and performance characteristics of running containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cadvisor",
+      "status": "candidate-context",
+      "text": "Release Binaries"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agentclientprotocol/symposium-acp",
+      "status": "candidate",
+      "text": "Release Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cadvisor",
       "status": "candidate",
       "text": "Release Binaries"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-binaries.yml",
       "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,309 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "advimman/lama",
+      "target": "geekyutao/inpaint-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "advimman/lama",
+      "target": "enesmsahin/simple-lama-inpainting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "advimman/lama",
+      "target": "andy971022/auto-lama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "advimman/lama",
+      "target": "csailvision/semantic-segmentation-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "colab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "colab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "fourier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "fourier-convolutions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "fourier-transform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "generative-adversarial-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "image-inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "inpainting-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "inpainting-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "advimman/lama",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:25.541147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17403
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022",
+    "fork": false,
+    "full_name": "advimman/lama",
+    "html_url": "https://github.com/advimman/lama",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-05T08:41:52Z",
+    "stargazers_count": 9888,
+    "topics": [
+      "cnn",
+      "colab",
+      "colab-notebook",
+      "computer-vision",
+      "deep-learning",
+      "deep-neural-networks",
+      "fourier",
+      "fourier-convolutions",
+      "fourier-transform",
+      "gan",
+      "generative-adversarial-network",
+      "generative-adversarial-networks",
+      "high-resolution",
+      "image-inpainting",
+      "inpainting",
+      "inpainting-algorithm",
+      "inpainting-methods",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T14:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andy971022/auto-lama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csailvision/semantic-segmentation-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enesmsahin/simple-lama-inpainting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekyutao/inpaint-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab-notebook"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fourier"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fourier-convolutions"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fourier-transform"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-networks"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-inpainting"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting-algorithm"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting-methods"
+    },
+    {
+      "context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

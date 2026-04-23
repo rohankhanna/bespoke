@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.8.12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flashlight/text",
+      "target": "kpu/kenlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "flashlight/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "flashlight/text",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "flashlight/text",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "flashlight/text",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "flashlight/text",
+      "target": "pypa/gh-action-pypi-publish@v1.8.12",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:11:33.957916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5802
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 3015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Text utilities, including beam search decoding, tokenizing, and more, built for use in Flashlight.",
+    "fork": false,
+    "full_name": "flashlight/text",
+    "html_url": "https://github.com/flashlight/text",
+    "language": "C++",
+    "pushed_at": "2026-03-31T16:49:46Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-03-31T16:49:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kpu/kenlm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "druid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "A better compressed bitset in Java: used by Apache Spark, Netflix Atlas, Apache Pinot, Tablesaw, and many others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "RoaringBitmap"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate",
+      "text": "RoaringBitmap"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871055,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027778,
+      "status": "candidate",
+      "text": "celt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027777,
+      "status": "candidate",
+      "text": "grove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027776,
+      "status": "candidate",
+      "text": "celtist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027775,
+      "status": "candidate",
+      "text": "celtologist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "druid",
+  "concept_id": "druid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "druid",
+      "sense_id": "druid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

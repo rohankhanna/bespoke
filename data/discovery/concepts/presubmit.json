@@ -19,12 +19,30 @@
       "source_repo": "aws/amazon-vpc-resource-controller-k8s",
       "status": "candidate-context",
       "text": "Presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
+      "status": "candidate-context",
+      "text": "SPIRV-Headers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
+      "status": "candidate-context",
+      "text": "Presubmit"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/amazon-vpc-resource-controller-k8s",
+      "status": "candidate",
+      "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
       "status": "candidate",
       "text": "Presubmit"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/presubmit.yaml",
       "source_repo": "aws/amazon-vpc-resource-controller-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/SPIRV-Headers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

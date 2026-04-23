@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update syntax if upstream changed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kbenzie/vim-spirv",
+      "status": "candidate-context",
+      "text": "A vim plugin for the Khronos Group's SPIR-V standard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kbenzie/vim-spirv",
+      "status": "candidate-context",
+      "text": "Update syntax if upstream changed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kbenzie/vim-spirv",
+      "status": "candidate",
+      "text": "Update syntax if upstream changed"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43917,
+      "status": "candidate",
+      "text": "metamorphose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35389,
+      "status": "candidate",
+      "text": "anacoluthon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34947,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34842,
+      "status": "candidate",
+      "text": "backward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34842,
+      "status": "candidate",
+      "text": "data"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update syntax if upstream changed",
+  "concept_id": "update-syntax-if-upstream-changed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "kbenzie/vim-spirv"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update syntax if upstream changed",
+      "sense_id": "update-syntax-if-upstream-changed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

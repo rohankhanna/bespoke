@@ -19,12 +19,48 @@
       "source_repo": "Dao-AILab/flash-attention",
       "status": "candidate-context",
       "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Causal depthwise conv1d in CUDA, with a PyTorch interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate-context",
+      "text": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Dao-AILab/flash-attention",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepGEMM",
       "status": "candidate",
       "text": "Build wheels and deploy"
     }
@@ -88,11 +124,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Dao-AILab/causal-conv1d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

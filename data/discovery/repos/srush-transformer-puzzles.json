@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:38:10.630141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Puzzles for exploring transformers",
+    "fork": false,
+    "full_name": "srush/Transformer-Puzzles",
+    "html_url": "https://github.com/srush/Transformer-Puzzles",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-04T18:55:23Z",
+    "stargazers_count": 388,
+    "topics": [],
+    "updated_at": "2026-04-22T01:51:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -757,6 +757,211 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babel/babel-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "jasongin/nvs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_702.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_cloud.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_downport.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_downport.yaml",
+      "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "styled-components/babel-plugin-styled-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rose-pine/rose-pine-site"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "electron-userland/electron-installer-zip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/encoding-down"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terkelg/prompts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/electron.js.yml",
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CVEProject/cvelistV5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "CVEProject/cvelistV5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node-windows.yml",
+      "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "rollup/plugins"
     }
   ]
 }

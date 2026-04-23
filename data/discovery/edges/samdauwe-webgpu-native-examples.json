@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "chlumsky/msdfgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "artemhlezin/webgpu-gerstner-waves",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "binomialllc/basis_universal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "austineng/webgpu-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "dawn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "samdauwe/webgpu-native-examples"
+}

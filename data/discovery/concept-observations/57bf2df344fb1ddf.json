@@ -84,7 +84,7 @@
   "normalized_form": "release-docker-latest",
   "observation_id": "57bf2df344fb1ddf",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Release Docker Latest",
   "source_context_snippet": "Release Docker Latest",
   "source_file": ".github/workflows/release-docker.yml",

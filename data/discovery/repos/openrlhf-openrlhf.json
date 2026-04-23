@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "openai/gpt-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "hpcaitech/colossalai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "proximal-policy-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "raylib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "reinforcement-learning-from-human-feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "visual-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenRLHF/OpenRLHF",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:35.737127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41101
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2148
+    },
+    {
+      "path": "requirements.txt",
+      "size": 345
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
+    "fork": false,
+    "full_name": "OpenRLHF/OpenRLHF",
+    "html_url": "https://github.com/OpenRLHF/OpenRLHF",
+    "language": "Python",
+    "pushed_at": "2026-04-22T01:44:08Z",
+    "stargazers_count": 9399,
+    "topics": [
+      "large-language-models",
+      "proximal-policy-optimization",
+      "raylib",
+      "reinforcement-learning",
+      "reinforcement-learning-from-human-feedback",
+      "transformers",
+      "visual-language-models",
+      "vllm"
+    ],
+    "updated_at": "2026-04-23T16:41:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpcaitech/colossalai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proximal-policy-optimization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raylib"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-from-human-feedback"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

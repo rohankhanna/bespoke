@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaskRay/ccls"
     }
   ],
   "term": "language-server-protocol"

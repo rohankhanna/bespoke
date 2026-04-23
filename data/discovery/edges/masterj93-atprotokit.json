@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "bluesky-social/atproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "softprops/action-gh-release@v2.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Update Documentation on Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Build Swift Package on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "SwiftyLab/setup-swift@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Build Swift Package on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "atproto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "atprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "bluesky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "decentralized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "lexicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "social-media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "xrpc",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "MasterJ93/ATProtoKit"
+}

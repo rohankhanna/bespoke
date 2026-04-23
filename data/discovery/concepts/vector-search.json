@@ -55,6 +55,30 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate-context",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

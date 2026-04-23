@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "wangyoucao577/go-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-to-upstream.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "dubbo-go-pixiu/pixiu-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "apache/skywalking-eyes/header@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "wangyoucao577/go-release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-to-upstream.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-to-upstream.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples",
+      "target": "Sync to Upstream",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:22.617999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6017
+    },
+    {
+      "path": "go.mod",
+      "size": 8692
+    },
+    {
+      "path": ".github/workflows/github-actions.yml",
+      "size": 2333
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/sync-to-upstream.yml",
+      "size": 9681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache dubbo",
+    "fork": false,
+    "full_name": "apache/dubbo-go-pixiu-samples",
+    "html_url": "https://github.com/apache/dubbo-go-pixiu-samples",
+    "language": "Go",
+    "pushed_at": "2026-04-12T11:38:11Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-13T01:23:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dubbo-go-pixiu/pixiu-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync to Upstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-to-upstream.yml",
+      "term": "Sync to Upstream"
+    }
+  ]
+}

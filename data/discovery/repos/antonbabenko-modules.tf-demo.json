@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "target": "cloudcraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "target": "reference-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "target": "terraform-configurations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "target": "terragrunt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:50.353393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real modules.tf demo (updated May 2021)",
+    "fork": false,
+    "full_name": "antonbabenko/modules.tf-demo",
+    "html_url": "https://github.com/antonbabenko/modules.tf-demo",
+    "language": "HCL",
+    "pushed_at": "2021-05-10T13:13:37Z",
+    "stargazers_count": 46,
+    "topics": [
+      "aws",
+      "cloudcraft",
+      "reference-architecture",
+      "terraform",
+      "terraform-configurations",
+      "terragrunt"
+    ],
+    "updated_at": "2025-05-16T20:58:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudcraft"
+    },
+    {
+      "context_snippet": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reference-architecture"
+    },
+    {
+      "context_snippet": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-configurations"
+    },
+    {
+      "context_snippet": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terragrunt"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "bing-su/sd-webui-tunnels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "automatic1111/stable-diffusion-webui-rembg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "ashen-sensored/stable-diffusion-webui-two-shot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "ashen-sensored/sd_webui_stealth_pnginfo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "colab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "colab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "colaboratory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "dreambooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "stable-diffusion-web-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "text2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "texttovideo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "target": "txt2img",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "camenduru/stable-diffusion-webui-colab"
+}

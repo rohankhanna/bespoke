@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml"
+    },
+    {
+      "component": "snapcore/action-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-publish.yml"
+    },
+    {
+      "component": "snapcore/action-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/ld-cli",
+      "target": "w3c-ccg/multibase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/ld-cli",
+      "target": "filip26/titanium-json-ld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/ld-cli",
+      "target": "filip26/titanium-jcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/ld-cli",
+      "target": "filip26/iridium-cbor-ld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "Native Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "snapcore/action-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-build.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "Snap Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-publish.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-publish.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "snapcore/action-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-publish.yml",
+      "source_repo": "filip26/ld-cli",
+      "target": "Snap Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "cbor-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "json-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "linked-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "multibase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "multicodec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "multiformats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "multihash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "rdf-canonicalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli",
+      "target": "rdfc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:54:51.129531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5835
+    },
+    {
+      "path": ".github/workflows/java-build.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/native-build.yml",
+      "size": 1955
+    },
+    {
+      "path": ".github/workflows/snap-build.yml",
+      "size": 605
+    },
+    {
+      "path": ".github/workflows/snap-publish.yml",
+      "size": 1452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies.",
+    "fork": false,
+    "full_name": "filip26/ld-cli",
+    "html_url": "https://github.com/filip26/ld-cli",
+    "language": "Java",
+    "pushed_at": "2026-04-22T09:17:06Z",
+    "stargazers_count": 32,
+    "topics": [
+      "cbor",
+      "cbor-ld",
+      "cli",
+      "command-line",
+      "jcs",
+      "json",
+      "json-ld",
+      "linked-data",
+      "multibase",
+      "multicodec",
+      "multiformats",
+      "multihash",
+      "rdf",
+      "rdf-canonicalization",
+      "rdfc"
+    ],
+    "updated_at": "2026-04-22T09:17:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/iridium-cbor-ld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/titanium-jcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/titanium-json-ld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c-ccg/multibase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-build.yml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "Native Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-build.yml",
+      "term": "Native Build"
+    },
+    {
+      "context_snippet": "Snap Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-build.yml",
+      "term": "Snap Build"
+    },
+    {
+      "context_snippet": "Snap Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-publish.yml",
+      "term": "Snap Publish"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor-ld"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-ld"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-data"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multibase"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicodec"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformats"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multihash"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdf-canonicalization"
+    },
+    {
+      "context_snippet": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdfc"
+    }
+  ]
+}

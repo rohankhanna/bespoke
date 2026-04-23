@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultralytics Docs https://docs.ultralytics.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Download Websites"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Download Websites"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "landing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "discharges"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Download Websites",
+      "sense_id": "download-websites#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "download-websites",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "download-websites",
+  "observation_id": "6ddfeebbc949add4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Download Websites",
+  "source_context_snippet": "Download Websites",
+  "source_file": ".github/workflows/download_websites.yml",
+  "source_repo": "ultralytics/docs",
+  "source_repo_description": "Ultralytics Docs https://docs.ultralytics.com"
+}

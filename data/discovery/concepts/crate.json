@@ -19,6 +19,18 @@
       "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "CID in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Vaishnav-Sabari-Girish/Hayasen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/rust-cid"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

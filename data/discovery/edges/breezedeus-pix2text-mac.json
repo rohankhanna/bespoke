@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "horennel/latex-ocr_for_macos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "asweigart/pyperclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "jaredks/rumps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "ronaldoussoren/py2app",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "breezedeus/Pix2Text-Mac"
+}

@@ -55,6 +55,24 @@
       "source_repo": "JuliaIO/MsgPack.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quinnj/JSON3.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +97,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaIO/MsgPack.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quinnj/JSON3.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -112,11 +142,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaIO/MsgPack.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "quinnj/JSON3.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,54 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate-context",
       "text": "Windows CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Collective communications library with various primitives for multi-machine training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Windows CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +109,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate",
+      "text": "Windows CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
       "status": "candidate",
       "text": "Windows CI"
     }
@@ -124,11 +196,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/windows-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci_win.yml",
+      "source_repo": "airspeed-velocity/asv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/moor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/riff"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

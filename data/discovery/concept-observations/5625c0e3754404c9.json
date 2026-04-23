@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029557,
+      "status": "candidate",
+      "text": "utility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029539,
+      "status": "candidate",
+      "text": "usefulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029508,
+      "status": "candidate",
+      "text": "availability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029497,
+      "status": "candidate",
+      "text": "operability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029469,
+      "status": "candidate",
+      "text": "user-friendliness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "usability",
+      "sense_id": "usability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "usability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "usability",
+  "observation_id": "5625c0e3754404c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "usability",
+  "source_context_snippet": "<h2 align=\"center\">",
+  "source_file": null,
+  "source_repo": "httpie/cli",
+  "source_repo_description": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+}

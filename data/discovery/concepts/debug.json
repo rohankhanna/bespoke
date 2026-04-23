@@ -70,6 +70,30 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +211,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruby/debug"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

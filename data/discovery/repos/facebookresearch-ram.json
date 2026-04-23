@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/headers.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/headers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/RAM",
+      "target": "tatsu-lab/alpaca_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "Deploy GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/headers.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/headers.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "apache/skywalking-eyes/header@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/headers.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "headers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "facebookresearch/RAM",
+      "target": "style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:50.577011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1908
+    },
+    {
+      "path": ".github/workflows/deploy-gh-pages.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/headers.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework to study AI models in Reasoning, Alignment, and use of Memory (RAM).",
+    "fork": false,
+    "full_name": "facebookresearch/RAM",
+    "html_url": "https://github.com/facebookresearch/RAM",
+    "language": "Python",
+    "pushed_at": "2026-04-10T14:41:32Z",
+    "stargazers_count": 351,
+    "topics": [],
+    "updated_at": "2026-04-10T14:41:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tatsu-lab/alpaca_eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "term": "Deploy GitHub Pages"
+    },
+    {
+      "context_snippet": "headers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/headers.yml",
+      "term": "headers"
+    },
+    {
+      "context_snippet": "style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "style"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CUDA Core Compute Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Black Duck SCA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Black Duck SCA"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27070,
+      "status": "candidate",
+      "text": "redhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27070,
+      "status": "candidate",
+      "text": "scoter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26670,
+      "status": "candidate",
+      "text": "scooter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26270,
+      "status": "candidate",
+      "text": "black duck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26270,
+      "status": "candidate",
+      "text": "bufflehead"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Black Duck SCA",
+      "sense_id": "black-duck-sca#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "black-duck-sca",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "black-duck-sca",
+  "observation_id": "b348c56d8e68934d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Black Duck SCA",
+  "source_context_snippet": "Black Duck SCA",
+  "source_file": ".github/workflows/blackduck-sca.yml",
+  "source_repo": "NVIDIA/cccl",
+  "source_repo_description": "CUDA Core Compute Libraries"
+}

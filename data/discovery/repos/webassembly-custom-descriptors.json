@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spectec.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spectec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "CI for interpreter & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "CI for specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spectec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spectec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spectec.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "CI for spectec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:38.118257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1740
+    },
+    {
+      "path": ".github/workflows/ci-interpreter.yml",
+      "size": 1428
+    },
+    {
+      "path": ".github/workflows/ci-spec.yml",
+      "size": 7034
+    },
+    {
+      "path": ".github/workflows/ci-spectec.yml",
+      "size": 898
+    },
+    {
+      "path": ".github/workflows/diff-wasm-latest.sh",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/w3c-publish.yml",
+      "size": 3490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Custom RTTs and JS interop for Wasm GC structs",
+    "fork": false,
+    "full_name": "WebAssembly/custom-descriptors",
+    "html_url": "https://github.com/WebAssembly/custom-descriptors",
+    "language": "WebAssembly",
+    "pushed_at": "2026-04-15T00:00:53Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-03T16:03:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI for interpreter & tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "term": "CI for interpreter & tests"
+    },
+    {
+      "context_snippet": "CI for specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "term": "CI for specs"
+    },
+    {
+      "context_snippet": "CI for spectec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spectec.yml",
+      "term": "CI for spectec"
+    }
+  ]
+}

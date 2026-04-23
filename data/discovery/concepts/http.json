@@ -259,6 +259,138 @@
       "source_repo": "julienschmidt/httprouter",
       "status": "candidate-context",
       "text": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Serve your /nix/store directory over the internet :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Standards-compliant HTTP caching transport for Go clients (RFC 9111)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Simple API server framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "\u03bcWebSockets for Node.js back-ends :metal:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate-context",
+      "text": "An ergonomic Python HTTP Client with TLS fingerprint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +519,72 @@
       "source_repo": "julienschmidt/httprouter",
       "status": "candidate",
       "text": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtpolice/eris",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [
@@ -594,11 +792,83 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "julienschmidt/httprouter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thoughtpolice/eris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dbubel/intake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

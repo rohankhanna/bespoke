@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update build failure list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update build failure list"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28743,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28739,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28612,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28276,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28215,
+      "status": "candidate",
+      "text": "omit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update build failure list",
+      "sense_id": "update-build-failure-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-build-failure-list",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-build-failure-list",
+  "observation_id": "190405babe0a768f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update build failure list",
+  "source_context_snippet": "Update build failure list",
+  "source_file": ".github/workflows/build-failures.yml",
+  "source_repo": "bioconda/bioconda-recipes",
+  "source_repo_description": "Conda recipes for the bioconda channel."
+}

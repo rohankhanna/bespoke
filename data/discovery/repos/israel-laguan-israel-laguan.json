@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "grommet/grommet-designer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "bahamon94/covid-global-visualization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "erick2418/vue-axios-vuex-jwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "collinsugwu/microverse201-enumerable-methods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:58.118923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "About me and my tools!",
+    "fork": false,
+    "full_name": "Israel-Laguan/Israel-Laguan",
+    "html_url": "https://github.com/Israel-Laguan/Israel-Laguan",
+    "language": null,
+    "pushed_at": "2024-02-09T15:04:21Z",
+    "stargazers_count": 2,
+    "topics": [
+      "github",
+      "markdown"
+    ],
+    "updated_at": "2025-02-22T07:10:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bahamon94/covid-global-visualization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "collinsugwu/microverse201-enumerable-methods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erick2418/vue-axios-vuex-jwt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grommet/grommet-designer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

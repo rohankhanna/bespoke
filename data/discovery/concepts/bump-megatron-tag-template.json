@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "~Bump Megatron Tag template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "~Bump Megatron Tag template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate",
+      "text": "~Bump Megatron Tag template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9442,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9442,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9442,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9442,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9442,
+      "status": "candidate",
+      "text": "staffing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "~Bump Megatron Tag template",
+  "concept_id": "bump-megatron-tag-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_bump_mcore_tag.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "~Bump Megatron Tag template",
+      "sense_id": "bump-megatron-tag-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

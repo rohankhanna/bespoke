@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Direct access to WebGPU native APIs from perl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compute-shaders",
+      "sense_id": "compute-shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compute-shaders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compute-shaders",
+  "observation_id": "d0b6b24fa082bd9c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compute-shaders",
+  "source_context_snippet": "WebGPU::Direct - Direct access to the WebGPU native APIs.",
+  "source_file": null,
+  "source_repo": "atrodo/WebGPU-Direct",
+  "source_repo_description": "Direct access to WebGPU native APIs from perl"
+}

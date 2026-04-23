@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027850,
+      "status": "candidate",
+      "text": "meaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029014,
+      "status": "candidate",
+      "text": "meaningful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029013,
+      "status": "candidate",
+      "text": "verbal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029012,
+      "status": "candidate",
+      "text": "lexical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029011,
+      "status": "candidate",
+      "text": "linguistic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic",
+      "sense_id": "semantic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semantic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semantic",
+  "observation_id": "5b52c8450e99b587",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "semantic",
+  "source_context_snippet": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)",
+  "source_file": null,
+  "source_repo": "absolute-version/absolute-version-js",
+  "source_repo_description": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+}

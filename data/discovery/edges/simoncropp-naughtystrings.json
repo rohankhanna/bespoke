@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2.6.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "merge-dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "milestone-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "SimonCropp/NaughtyStrings",
+      "target": "on-push-do-docs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "SimonCropp/NaughtyStrings"
+}

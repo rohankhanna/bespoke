@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR: Classify (Size, Risk, Contributor)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "\"PR: Classify (Size, Risk, Contributor)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate",
+      "text": "\"PR: Classify (Size, Risk, Contributor)\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "clas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "divide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "ranged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "ranging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR: Classify (Size, Risk, Contributor)",
+  "concept_id": "pr-classify-size-risk-contributor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-label-classify.yml",
+      "source_repo": "nearai/ironclaw"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR: Classify (Size, Risk, Contributor)",
+      "sense_id": "pr-classify-size-risk-contributor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

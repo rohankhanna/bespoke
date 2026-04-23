@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rail Inspector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rail Inspector"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rail Inspector"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11836,
+      "status": "candidate",
+      "text": "handcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11552,
+      "status": "candidate",
+      "text": "claw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10722,
+      "status": "candidate",
+      "text": "lineman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10711,
+      "status": "candidate",
+      "text": "director"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10711,
+      "status": "candidate",
+      "text": "inspection"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rail Inspector",
+  "concept_id": "rail-inspector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "source_repo": "rails/rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rail Inspector",
+      "sense_id": "rail-inspector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

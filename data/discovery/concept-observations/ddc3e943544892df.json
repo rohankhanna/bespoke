@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "snapcraft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "snapcraft"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "snapcraft",
+      "sense_id": "snapcraft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snapcraft",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snapcraft",
+  "observation_id": "ddc3e943544892df",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "snapcraft",
+  "source_context_snippet": "snapcraft",
+  "source_file": ".github/workflows/snapcraft.yml",
+  "source_repo": "ipfs/ipfs-desktop",
+  "source_repo_description": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+}

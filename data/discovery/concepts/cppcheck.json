@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cppcheck"
+    "cppcheck",
+    "Cppcheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "danmar/cppcheck",
       "status": "candidate-context",
       "text": "pcre,pfultz2/pcre@8.45 -H sha256:d6f7182602a775a7d500a0cedca6449af0400c6493951513046d17615ed0bf11"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "cppcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Connect to any device with no external listening ports open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Cppcheck"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "danmar/cppcheck",
       "status": "candidate",
       "text": "pcre,pfultz2/pcre@8.45 -H sha256:d6f7182602a775a7d500a0cedca6449af0400c6493951513046d17615ed0bf11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate",
+      "text": "cppcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate",
+      "text": "Cppcheck"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +115,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "bdwgc/bdwgc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "atsign-foundation/noports"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

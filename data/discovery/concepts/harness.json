@@ -31,6 +31,18 @@
       "source_repo": "infiniflow/ragflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate-context",
+      "text": "A small test framework to write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate-context",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "infiniflow/ragflow",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukasKalbertodt/libtest-mimic",
+      "status": "candidate",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -141,11 +159,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LukasKalbertodt/libtest-mimic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

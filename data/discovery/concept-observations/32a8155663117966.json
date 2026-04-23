@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An assembler, code formatter, language server and debug adapter for the MOS 6502 CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish VSCode Extension"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish VSCode Extension"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "spread"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish VSCode Extension",
+      "sense_id": "publish-vscode-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-vscode-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-vscode-extension",
+  "observation_id": "32a8155663117966",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Publish VSCode Extension",
+  "source_context_snippet": "Publish VSCode Extension",
+  "source_file": ".github/workflows/vscode.yml",
+  "source_repo": "datatrash/mos",
+  "source_repo_description": "An assembler, code formatter, language server and debug adapter for the MOS 6502 CPU."
+}

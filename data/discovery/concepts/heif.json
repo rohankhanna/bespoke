@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "heif"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate-context",
+      "text": "Provides .NET bindings for libheif."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate-context",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "abo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "heif",
+  "concept_id": "heif",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heif",
+      "sense_id": "heif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

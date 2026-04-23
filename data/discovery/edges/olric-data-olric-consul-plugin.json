@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin",
+      "target": "consul",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin",
+      "target": "olric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "olric-data/olric-consul-plugin"
+}

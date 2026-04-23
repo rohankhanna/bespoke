@@ -1,0 +1,725 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oshi/oshi",
+      "target": "java-native-access/jna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oshi/oshi",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oshi/oshi",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oshi/oshi",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oshi/oshi",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Pull Request CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "SonarCloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Sonatype Snapshot Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "vmactions/solaris-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unix.yaml",
+      "source_repo": "oshi/oshi",
+      "target": "Unix CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "cpu-usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "disk-utilization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "hardware-information",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "memory-usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "process-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "serialnumbers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "system-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oshi/oshi",
+      "target": "usb-devices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:01:33.134446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14147
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/coverity.yaml",
+      "size": 1845
+    },
+    {
+      "path": ".github/workflows/linux.yaml",
+      "size": 2489
+    },
+    {
+      "path": ".github/workflows/macos.yaml",
+      "size": 1767
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 2566
+    },
+    {
+      "path": ".github/workflows/site.yaml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/sonar.yaml",
+      "size": 981
+    },
+    {
+      "path": ".github/workflows/sonatype.yaml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/unix.yaml",
+      "size": 4081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Native Operating System and Hardware Information",
+    "fork": false,
+    "full_name": "oshi/oshi",
+    "html_url": "https://github.com/oshi/oshi",
+    "language": "Java",
+    "pushed_at": "2026-04-23T16:57:51Z",
+    "stargazers_count": 5207,
+    "topics": [
+      "cpu-usage",
+      "disk-utilization",
+      "hacktoberfest",
+      "hardware-information",
+      "java",
+      "jna",
+      "memory-usage",
+      "operating-system",
+      "process-list",
+      "processor",
+      "serialnumbers",
+      "system-monitoring",
+      "usb-devices"
+    ],
+    "updated_at": "2026-04-23T16:57:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "java-native-access/jna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yaml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "Pull Request CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "term": "Pull Request CI"
+    },
+    {
+      "context_snippet": "Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yaml",
+      "term": "Site"
+    },
+    {
+      "context_snippet": "SonarCloud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "term": "SonarCloud"
+    },
+    {
+      "context_snippet": "Sonatype Snapshot Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yaml",
+      "term": "Sonatype Snapshot Deployment"
+    },
+    {
+      "context_snippet": "Unix CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unix.yaml",
+      "term": "Unix CI"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpu-usage"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-utilization"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware-information"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-usage"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-list"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processor"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialnumbers"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-monitoring"
+    },
+    {
+      "context_snippet": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usb-devices"
+    }
+  ]
+}

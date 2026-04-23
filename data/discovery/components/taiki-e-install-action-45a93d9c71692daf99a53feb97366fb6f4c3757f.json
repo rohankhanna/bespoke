@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash"
+    }
+  ]
+}

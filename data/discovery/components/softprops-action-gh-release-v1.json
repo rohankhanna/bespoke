@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -392,6 +392,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-build.yml",
       "source_repo": "meta-pytorch/executorch-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "snowplow-incubator/cla-bot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chunzhimoe/mistral.ai_umi_plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Watfaq/PowerSession"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rapidsai/gha-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GaloisInc/BLST-Verification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "GantMan/nsfw_model"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb"
     }
   ]
 }

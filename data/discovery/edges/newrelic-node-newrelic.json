@@ -1,0 +1,685 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-node-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-node-apollo-server-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-native-metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/csec-node-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@apm-js-collab/tracing-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@grpc/grpc-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@grpc/proto-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/security-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/api-logs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/exporter-metrics-otlp-proto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/resources",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-logs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-metrics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@opentelemetry/sdk-trace-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@tyriar/fibonacci-heap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "concat-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "https-proxy-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "import-in-the-middle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "json-bigint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "json-stringify-safe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "module-details-from-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "require-in-the-middle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "winston-transport",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@aws-sdk/client-s3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@aws-sdk/s3-request-presigner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@matteo.collina/tspl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/newrelic-oss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@newrelic/test-utilities",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@slack/bolt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@smithy/eventstream-codec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "@smithy/util-utf8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "aws-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "borp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "clean-jsdoc-theme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-changelog-conventionalcommits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-changelog-writer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "conventional-commits-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "git-raw-commits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "lockfile-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "protobufjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "proxyquire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "self-cert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "superagent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Auto Assign to Project(s)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/newrelic-agent-init-container/.github/workflows/agent-metadata.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-metadata.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Agent Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-site-extension.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Azure Site Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-tests.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Benchmark Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/board.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jsumners-nr/gha-node-deps-divergent@643628fe0da51ec025e984c4644f17fd9f9e93f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jwalton/gh-docker-logs@2741064ab9d7af54b0b1ffb6076cf64c16f0220e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Node Agent CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "jaxxstorm/action-install-gh-release@71d17cb091aa850acb2a1a4cf87258d183eb941b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Generate Compatibility Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "newrelic/node-newrelic/.github/workflows/release-creation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic",
+      "target": "Create Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "newrelic/node-newrelic"
+}

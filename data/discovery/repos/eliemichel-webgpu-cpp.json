@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/WebGPU-Cpp",
+      "target": "eliemichel/webgpu-raii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/WebGPU-Cpp",
+      "target": "pplux/wgpu.hpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:44.500371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A single-file zero-overhead C++ idiomatic wrapper for WebGPU native",
+    "fork": false,
+    "full_name": "eliemichel/WebGPU-Cpp",
+    "html_url": "https://github.com/eliemichel/WebGPU-Cpp",
+    "language": "C++",
+    "pushed_at": "2025-09-03T15:45:17Z",
+    "stargazers_count": 478,
+    "topics": [],
+    "updated_at": "2026-04-23T03:11:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/webgpu-raii",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pplux/wgpu.hpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

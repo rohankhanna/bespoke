@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Prettier Smoke Test\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Prettier Smoke Test\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23349,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22389,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22389,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22359,
+      "status": "candidate",
+      "text": "aim"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prettier Smoke Test",
+      "sense_id": "prettier-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prettier-smoke-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prettier-smoke-test",
+  "observation_id": "04360fa887f5b726",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Prettier Smoke Test",
+  "source_context_snippet": "\"Prettier Smoke Test\"",
+  "source_file": ".github/workflows/glimmer-syntax-prettier-smoke-test.yml",
+  "source_repo": "emberjs/ember.js",
+  "source_repo_description": "Ember.js - A JavaScript framework for creating ambitious web applications"
+}

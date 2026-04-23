@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The buffer module from node.js, for the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874954,
+      "status": "candidate",
+      "text": "webify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874953,
+      "status": "candidate",
+      "text": "widgetize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874952,
+      "status": "candidate",
+      "text": "ajaxify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874951,
+      "status": "candidate",
+      "text": "britify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874950,
+      "status": "candidate",
+      "text": "microsoftify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browserify",
+      "sense_id": "browserify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browserify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browserify",
+  "observation_id": "4cb266b03954cb28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "browserify",
+  "source_context_snippet": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master",
+  "source_file": null,
+  "source_repo": "feross/buffer",
+  "source_repo_description": "The buffer module from node.js, for the browser."
+}

@@ -14,16 +14,9 @@
       "source_repo": "isl-org/DPT",
       "target": "rwightman/pytorch-image-models",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "isl-org/DPT",
-      "target": "zhanghang1989/pytorch-encoding",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T07:30:53.067644+00:00",
+  "fetched_at": "2026-04-23T22:14:59.681571+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -57,11 +50,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rwightman/pytorch-image-models",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zhanghang1989/pytorch-encoding",
       "source_file": "README.md"
     }
   ],

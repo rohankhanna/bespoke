@@ -1,7 +1,8 @@
 {
   "aliases": [
     "stale issues",
-    "Stale Issues"
+    "Stale Issues",
+    "Stale issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,36 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "status": "candidate-context",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Build and run containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Stale issues"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +77,24 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "status": "candidate",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "Stale issues"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +150,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/stale-issues.yaml",
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "ai-dynamo/grove"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "dilithium"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023601,
+      "status": "candidate",
+      "text": "trilithium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023600,
+      "status": "candidate",
+      "text": "monolithium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023599,
+      "status": "candidate",
+      "text": "lithium hydroxide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023598,
+      "status": "candidate",
+      "text": "lithal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023597,
+      "status": "candidate",
+      "text": "phenyllithium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dilithium",
+  "concept_id": "dilithium",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dilithium",
+      "sense_id": "dilithium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "esp-rs/xtensa-toolchain@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "esp-rs/xtensa-toolchain@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "esp-rs/xtensa-toolchain@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "esp-rs/xtensa-toolchain@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "Continuous Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "esp-rs/xtensa-toolchain@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "fretboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "guitar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "instrument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "ratatui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/tuitar",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:59.952715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10548
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8",
+    "fork": false,
+    "full_name": "orhun/tuitar",
+    "html_url": "https://github.com/orhun/tuitar",
+    "language": "Rust",
+    "pushed_at": "2025-12-23T07:48:43Z",
+    "stargazers_count": 482,
+    "topics": [
+      "fretboard",
+      "guitar",
+      "instrument",
+      "ratatui",
+      "rust",
+      "training",
+      "tuning",
+      "visualization"
+    ],
+    "updated_at": "2026-04-16T20:23:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Continuous Deployment"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fretboard"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guitar"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrument"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ratatui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tuning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

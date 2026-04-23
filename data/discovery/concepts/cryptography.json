@@ -163,6 +163,126 @@
       "source_repo": "bitcoin/bitcoin",
       "status": "candidate-context",
       "text": "Bitcoin Core integration/staging tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "liboqs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "Declare your digital independence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Libraries for finite field, elliptic curve, and polynomial arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">arkworks::algebra</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate-context",
+      "text": "A Rust library for the preprocessing zkSNARK of Groth and Maller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-gm17</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate-context",
+      "text": "A Rust implementation of the Groth16 zkSNARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-groth16</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "A Rust library for the Marlin preprocessing zkSNARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Marlin</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "A Rust library for polynomial commitments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Polynomial Commitments</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate-context",
+      "text": "A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate-context",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +363,72 @@
       "source_repo": "bitcoin/bitcoin",
       "status": "candidate",
       "text": "Bitcoin Core integration/staging tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate",
+      "text": "liboqs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freenet/freenet-core",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">arkworks::algebra</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-gm17</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/groth16",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-groth16</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Marlin</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Polynomial Commitments</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usnistgov/ACVP-Server",
+      "status": "candidate",
+      "text": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140."
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +556,83 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bitcoin/bitcoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/marlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

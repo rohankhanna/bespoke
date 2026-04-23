@@ -19,6 +19,18 @@
       "source_repo": "opencontainers/runtime-tools",
       "status": "candidate-context",
       "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/artwork",
+      "status": "candidate-context",
+      "text": "OCI artwork and logos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/artwork",
+      "status": "candidate-context",
+      "text": "This repository contains OCI artwork and logos in a variety of formats."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "opencontainers/runtime-tools",
       "status": "candidate",
       "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/artwork",
+      "status": "candidate",
+      "text": "This repository contains OCI artwork and logos in a variety of formats."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "opencontainers/runtime-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/artwork"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

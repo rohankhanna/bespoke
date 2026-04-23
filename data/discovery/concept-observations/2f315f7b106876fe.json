@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cancel PR Workflows on Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cancel PR Workflows on Merge"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31238,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21382,
+      "status": "candidate",
+      "text": "blend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21380,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21293,
+      "status": "candidate",
+      "text": "cam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21293,
+      "status": "candidate",
+      "text": "formation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cancel PR Workflows on Merge",
+      "sense_id": "cancel-pr-workflows-on-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cancel-pr-workflows-on-merge",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cancel-pr-workflows-on-merge",
+  "observation_id": "2f315f7b106876fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Cancel PR Workflows on Merge",
+  "source_context_snippet": "Cancel PR Workflows on Merge",
+  "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+  "source_repo": "LDLINGLINGLING/sglang",
+  "source_repo_description": "SGLang is a fast serving framework for large language models and vision language models."
+}

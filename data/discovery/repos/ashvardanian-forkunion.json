@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "CasperWA/push-protected@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "ashvardanian/fork_union",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "bshoshany/thread-pool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "ashvardanian/simsimd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "ashvardanian/parallelreductionsbenchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "Pre-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "CasperWA/push-protected@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "atomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "compare-and-swap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "memory-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "parallel-stl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "rayon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "thread-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion",
+      "target": "threadpool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:03:43.314482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28899
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1473
+    },
+    {
+      "path": ".github/workflows/prerelease.yml",
+      "size": 8936
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lower-latency OpenMP-style minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in Rust and C++, avoiding memory allocations, mutexes, CAS-primitives, and false-sharing on the hot path \ud83c\udf74",
+    "fork": false,
+    "full_name": "ashvardanian/ForkUnion",
+    "html_url": "https://github.com/ashvardanian/ForkUnion",
+    "language": "C++",
+    "pushed_at": "2026-04-02T22:56:17Z",
+    "stargazers_count": 321,
+    "topics": [
+      "arm",
+      "atomics",
+      "compare-and-swap",
+      "concurrency",
+      "memory-model",
+      "mpi",
+      "multithreading",
+      "openmp",
+      "parallel-computing",
+      "parallel-stl",
+      "parallelism",
+      "rayon",
+      "thread-pool",
+      "threadpool"
+    ],
+    "updated_at": "2026-04-20T14:44:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/fork_union",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/parallelreductionsbenchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/simsimd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshoshany/thread-pool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "term": "Pre-Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atomics"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compare-and-swap"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-model"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-stl"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rayon"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread-pool"
+    },
+    {
+      "context_snippet": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threadpool"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Only look at releases! This fork of Dawn is use to share precompiled artifacts until upstream shares official builds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Watcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Watcher"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10409,
+      "status": "candidate",
+      "text": "hdtv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4549,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "abbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "amour-propre"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Watcher",
+      "sense_id": "pr-watcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-watcher",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-watcher",
+  "observation_id": "19d2d669f3f5e0c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "PR Watcher",
+  "source_context_snippet": "PR Watcher",
+  "source_file": ".github/workflows/pr-watcher.yml",
+  "source_repo": "eliemichel/dawn-prebuilt",
+  "source_repo_description": "Only look at releases! This fork of Dawn is use to share precompiled artifacts until upstream shares official builds."
+}

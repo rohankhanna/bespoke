@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sorbet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sorbet"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050759,
+      "status": "candidate",
+      "text": "sherbert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050739,
+      "status": "candidate",
+      "text": "sherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050347,
+      "status": "candidate",
+      "text": "popsicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050762,
+      "status": "candidate",
+      "text": "scherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050761,
+      "status": "candidate",
+      "text": "spoom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sorbet",
+      "sense_id": "sorbet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "sherbet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "sherbert"
+    }
+  ],
+  "concept_id": "sorbet",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sorbet",
+  "observation_id": "33cbbb3a003596c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sorbet",
+  "source_context_snippet": "Sorbet",
+  "source_file": ".github/workflows/check-sorbet-typing-mode.yml",
+  "source_repo": "dependabot/dependabot-core",
+  "source_repo_description": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Haskell Cabal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Haskell Cabal"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10555,
+      "status": "candidate",
+      "text": "fuller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10555,
+      "status": "candidate",
+      "text": "nelson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7004,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6504,
+      "status": "candidate",
+      "text": "bayard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4500,
+      "status": "candidate",
+      "text": "arnold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Haskell Cabal",
+      "sense_id": "haskell-cabal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "haskell-cabal",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "haskell-cabal",
+  "observation_id": "207f7d5aa23d0a8c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Haskell Cabal",
+  "source_context_snippet": "Haskell Cabal",
+  "source_file": ".github/workflows/presubmit-cabal.yaml",
+  "source_repo": "mihaimaruseac/hindent",
+  "source_repo_description": "Haskell pretty printer"
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "soot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "Soot - A Java optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39710602,
+      "status": "candidate",
+      "text": "lampblack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39671244,
+      "status": "candidate",
+      "text": "carbon black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39657537,
+      "status": "candidate",
+      "text": "smut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702687,
+      "status": "candidate",
+      "text": "ashes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29694788,
+      "status": "candidate",
+      "text": "ash"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "smut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "lampblack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "carbon black"
+    }
+  ],
+  "canonical_name": "soot",
+  "concept_id": "soot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "soot-oss/soot"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "soot",
+      "sense_id": "soot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

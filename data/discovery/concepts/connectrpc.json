@@ -19,6 +19,30 @@
       "source_repo": "connectrpc/connect-es",
       "status": "candidate-context",
       "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Conformance test suite for Connect, gRPC, and gRPC-Web implementations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "The Go implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "Connect"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "connectrpc/connect-es",
       "status": "candidate",
       "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate",
+      "text": "Connect"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "connectrpc/connect-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

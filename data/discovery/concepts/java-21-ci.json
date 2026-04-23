@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Java 21 CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Java 21 CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "Java 21 CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "Java 21 CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "Java 21 CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21716,
+      "status": "candidate",
+      "text": "tasse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13690,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13690,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13690,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13690,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Java 21 CI",
+  "concept_id": "java-21-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java 21 CI",
+      "sense_id": "java-21-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

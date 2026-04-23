@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Wiki Sync"
+    "Wiki Sync",
+    "Wiki sync"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "Wiki sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate",
+      "text": "Wiki sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "annual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "cardinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "celtic"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Wiki Sync",
   "concept_id": "wiki-sync",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/wiki-sync.yml",
       "source_repo": "lobehub/lobe-vidol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wiki-sync.yml",
+      "source_repo": "ComunidadAylas/PackSquash"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

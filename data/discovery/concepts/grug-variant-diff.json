@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Grug Variant Diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Grug Variant Diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
+      "status": "candidate",
+      "text": "Grug Variant Diff"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "ding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "het"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "mould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "red"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Grug Variant Diff",
+  "concept_id": "grug-variant-diff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Grug Variant Diff",
+      "sense_id": "grug-variant-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

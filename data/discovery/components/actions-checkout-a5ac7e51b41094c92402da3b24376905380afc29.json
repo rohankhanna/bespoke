@@ -1,0 +1,37 @@
+{
+  "component": "actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_treon_reusable.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecheck.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_deploy.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install_requirements.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    }
+  ]
+}

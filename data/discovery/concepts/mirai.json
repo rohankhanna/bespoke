@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "mirai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate-context",
+      "text": "qq\u534f\u8bae\u7684golang\u5b9e\u73b0, \u79fb\u690d\u4e8emirai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate-context",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate-context",
+      "text": "mirai\u76f8\u5173\u9879\u76ee\u548c\u63d2\u4ef6\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate-context",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/MiraiGo",
+      "status": "candidate",
+      "text": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate",
+      "text": "A template for MiraiGo"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mirai",
+  "concept_id": "mirai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirai",
+      "sense_id": "mirai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

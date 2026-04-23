@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint & Tests"
+    "Lint & Tests",
+    "Lint tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "OpenNMT/OpenNMT-py",
       "status": "candidate-context",
       "text": "Lint & Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Open language modeling toolkit based on PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Lint & Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Lint tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "OpenNMT/OpenNMT-py",
       "status": "candidate",
       "text": "Lint & Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate",
+      "text": "Lint & Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate",
+      "text": "Lint tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "eole-nlp/eole"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

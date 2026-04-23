@@ -1,0 +1,448 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "raviqqe/goreleaser-action@2ec1f4c6dd2c754f5f9c7779e8de095c0cf64e62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@1b9a80c056b620d92cedb9d9b5a223409c68ddfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "streetsidesoftware/cspell-action@de2a73e963e7443969755b648a1008f77033c5b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "raviqqe/markdown-link-check@7cc7ee84bd8a34196095dc004324cd7c134c01f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "raviqqe/goreleaser-action@2ec1f4c6dd2c754f5f9c7779e8de095c0cf64e62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "peter-evans/dockerhub-description@1b9a80c056b620d92cedb9d9b5a223409c68ddfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "streetsidesoftware/cspell-action@de2a73e963e7443969755b648a1008f77033c5b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "raviqqe/markdown-link-check@7cc7ee84bd8a34196095dc004324cd7c134c01f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/muffet",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/muffet",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/muffet",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:15.477469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1297
+    },
+    {
+      "path": "Dockerfile",
+      "size": 172
+    },
+    {
+      "path": "go.mod",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/dependabot.yaml",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/document.yaml",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2592
+    },
+    {
+      "path": ".github/workflows/security.yaml",
+      "size": 636
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast website link checker in Go",
+    "fork": false,
+    "full_name": "raviqqe/muffet",
+    "html_url": "https://github.com/raviqqe/muffet",
+    "language": "Go",
+    "pushed_at": "2026-04-22T15:27:27Z",
+    "stargazers_count": 2597,
+    "topics": [
+      "golang",
+      "linter",
+      "website"
+    ],
+    "updated_at": "2026-04-22T15:26:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yaml",
+      "term": "dependabot"
+    },
+    {
+      "context_snippet": "document",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document.yaml",
+      "term": "document"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "term": "security"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drmingdrmer/xptemplate",
+      "target": "vim/vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:44:04.726234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code snippets engine for Vim, with snippets library.  XPTemplate let you write codes in a smooth, quick and comfortable way.",
+    "fork": false,
+    "full_name": "drmingdrmer/xptemplate",
+    "html_url": "https://github.com/drmingdrmer/xptemplate",
+    "language": "Vim Script",
+    "pushed_at": "2022-09-08T08:44:41Z",
+    "stargazers_count": 314,
+    "topics": [],
+    "updated_at": "2025-12-11T14:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim/vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml"
+    },
+    {
+      "component": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "test & maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "Semantic PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "target": "ipfs-helia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:59:03.236587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3024
+    },
+    {
+      "path": "package.json",
+      "size": 1617
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/js-test-and-release.yml",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Routing V1 HTTP API powered by Helia",
+    "fork": false,
+    "full_name": "ipfs/helia-delegated-routing-v1-http-api",
+    "html_url": "https://github.com/ipfs/helia-delegated-routing-v1-http-api",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-01T15:58:29Z",
+    "stargazers_count": 4,
+    "topics": [
+      "ipfs-helia"
+    ],
+    "updated_at": "2026-01-16T14:05:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "test & maybe release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "term": "test & maybe release"
+    },
+    {
+      "context_snippet": "Semantic PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "term": "Semantic PR"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-helia"
+    }
+  ]
+}

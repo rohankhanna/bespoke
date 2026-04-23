@@ -19,6 +19,66 @@
       "source_repo": "mxmlnkn/rapidgzip",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "nanobind: tiny and efficient C++/Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "mxmlnkn/rapidgzip",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate",
+      "text": "[![build](https://github.com/aseprite/laf/workflows/build/badge.svg)](https://github.com/aseprite/laf/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +130,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aseprite/laf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

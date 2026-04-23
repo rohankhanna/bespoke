@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR approve GH Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR approve GH Workflows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "aar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "codex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "drainage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "fiber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR approve GH Workflows",
+      "sense_id": "pr-approve-gh-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-approve-gh-workflows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-approve-gh-workflows",
+  "observation_id": "8c3e3a63ddc17000",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "PR approve GH Workflows",
+  "source_context_snippet": "PR approve GH Workflows",
+  "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+  "source_repo": "knative/serving",
+  "source_repo_description": "Kubernetes-based, scale-to-zero, request-driven compute"
+}

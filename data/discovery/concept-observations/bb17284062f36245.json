@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010813,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993168,
+      "status": "candidate",
+      "text": "molecule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930310,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39866330,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020652,
+      "status": "candidate",
+      "text": "atomic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atom",
+      "sense_id": "atom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18042,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11036,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1062,
+      "status": "candidate",
+      "text": "molecule"
+    }
+  ],
+  "concept_id": "atom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "atom",
+  "observation_id": "bb17284062f36245",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "atom",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026",
+  "source_file": null,
+  "source_repo": "mmcdole/gofeed",
+  "source_repo_description": "Parse RSS, Atom and JSON feeds in Go"
+}

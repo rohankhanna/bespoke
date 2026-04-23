@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "giraffate/clippy-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-docs-rs",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonhoo/inferno",
+      "target": "ferrous-systems/cargo-flamegraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonhoo/inferno",
+      "target": "iovisor/bpftrace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonhoo/inferno",
+      "target": "bheisler/criterion.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonhoo/inferno",
+      "target": "brendangregg/flamegraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "giraffate/clippy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "obi1kenobi/cargo-semver-checks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/install@cargo-docs-rs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "rolling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:35.160343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7810
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3194
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 4434
+    },
+    {
+      "path": ".github/workflows/scheduled.yml",
+      "size": 2265
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 6749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust port of FlameGraph",
+    "fork": false,
+    "full_name": "jonhoo/inferno",
+    "html_url": "https://github.com/jonhoo/inferno",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T01:05:09Z",
+    "stargazers_count": 2096,
+    "topics": [],
+    "updated_at": "2026-04-23T04:04:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bheisler/criterion.rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brendangregg/flamegraph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ferrous-systems/cargo-flamegraph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iovisor/bpftrace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "rolling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yml",
+      "term": "rolling"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

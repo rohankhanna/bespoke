@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intuis/mnyaoo32",
+      "target": "j-g00da/mousefood",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:55.767865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 504
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "esp32 IRC client made with mousefood",
+    "fork": false,
+    "full_name": "intuis/mnyaoo32",
+    "html_url": "https://github.com/intuis/mnyaoo32",
+    "language": "Rust",
+    "pushed_at": "2025-05-10T11:30:25Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-03-28T18:38:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-g00da/mousefood",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

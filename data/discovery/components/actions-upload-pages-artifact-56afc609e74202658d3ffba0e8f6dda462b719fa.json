@@ -2,7 +2,7 @@
   "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -19,6 +19,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs-page-action.yml",
       "source_repo": "google-gemini/gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_deploy.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
     }
   ]
 }

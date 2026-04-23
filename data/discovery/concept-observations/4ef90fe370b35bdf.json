@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973874,
+      "status": "candidate",
+      "text": "cordoba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19791636,
+      "status": "candidate",
+      "text": "c\u00f3rdoba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18435144,
+      "status": "candidate",
+      "text": "lopez"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18429861,
+      "status": "candidate",
+      "text": "aguilar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973895,
+      "status": "candidate",
+      "text": "cordano"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cordova",
+      "sense_id": "cordova#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "cordoba"
+    }
+  ],
+  "concept_id": "cordova",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cordova",
+  "observation_id": "4ef90fe370b35bdf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cordova",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "apache/cordova-android",
+  "source_repo_description": "Apache Cordova Android"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooz/percol",
+      "target": "keiji0/canything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooz/percol",
+      "target": "lestrrat/peco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooz/percol",
+      "target": "koron/cmigemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mooz/percol",
+      "target": "mooz/python-cmigemo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:49.765942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "adds flavor of interactive filtering to the traditional pipe concept of UNIX shell",
+    "fork": false,
+    "full_name": "mooz/percol",
+    "html_url": "https://github.com/mooz/percol",
+    "language": "Python",
+    "pushed_at": "2023-12-30T17:17:12Z",
+    "stargazers_count": 3329,
+    "topics": [],
+    "updated_at": "2026-04-19T13:48:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keiji0/canything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koron/cmigemo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lestrrat/peco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mooz/python-cmigemo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

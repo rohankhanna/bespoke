@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "gotwarlost/istanbul",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "release-please-submodule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "code-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "jest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "mocha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs",
+      "target": "tape",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:58:34.766641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1975
+    },
+    {
+      "path": "package.json",
+      "size": 1307
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "monorepo containing the various nuts and bolts that facilitate istanbul.js test instrumentation",
+    "fork": false,
+    "full_name": "istanbuljs/istanbuljs",
+    "html_url": "https://github.com/istanbuljs/istanbuljs",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-09T17:48:19Z",
+    "stargazers_count": 1096,
+    "topics": [
+      "ava",
+      "code-coverage",
+      "javascript",
+      "jest",
+      "mocha",
+      "nodejs",
+      "tap",
+      "tape"
+    ],
+    "updated_at": "2026-04-22T02:38:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gotwarlost/istanbul",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release-please-submodule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please-submodule"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-coverage"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocha"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tape"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Failure Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "status": "candidate-context",
+      "text": "Rust Bitcoin library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "status": "candidate-context",
+      "text": "CI Failure Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "status": "candidate",
+      "text": "CI Failure Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15321,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14375,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14375,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14271,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14271,
+      "status": "candidate",
+      "text": "irene"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Failure Issues",
+  "concept_id": "ci-failure-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-failure-issues.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Failure Issues",
+      "sense_id": "ci-failure-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

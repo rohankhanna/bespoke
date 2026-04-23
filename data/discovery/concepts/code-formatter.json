@@ -31,6 +31,18 @@
       "source_repo": "ennocramer/floskell",
       "status": "candidate-context",
       "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ennocramer/floskell",
       "status": "candidate",
       "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate",
+      "text": "Haskell pretty printer"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ennocramer/floskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

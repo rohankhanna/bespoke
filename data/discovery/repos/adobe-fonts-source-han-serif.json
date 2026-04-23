@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "adobe-type-tools/afdko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "cff2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "source-han",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif",
+      "target": "variable-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:55.696048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source Han Serif | \u601d\u6e90\u5b8b\u4f53 | \u601d\u6e90\u5b8b\u9ad4 | \u601d\u6e90\u5b8b\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u660e\u671d | \ubcf8\uba85\uc870",
+    "fork": false,
+    "full_name": "adobe-fonts/source-han-serif",
+    "html_url": "https://github.com/adobe-fonts/source-han-serif",
+    "language": "Shell",
+    "pushed_at": "2024-07-30T18:57:27Z",
+    "stargazers_count": 9376,
+    "topics": [
+      "cff",
+      "cff2",
+      "cjk",
+      "font",
+      "opentype",
+      "otc",
+      "otf",
+      "source-han",
+      "variable-fonts"
+    ],
+    "updated_at": "2026-04-23T14:35:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-type-tools/afdko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff2"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variable-fonts"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "hydra"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Pointnet2/Pointnet++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "status": "candidate-context",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "status": "candidate",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959481,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964403,
+      "status": "candidate",
+      "text": "lernean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29680248,
+      "status": "candidate",
+      "text": "multiheaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669307,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29522112,
+      "status": "candidate",
+      "text": "headed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "snake"
+    }
+  ],
+  "canonical_name": "hydra",
+  "concept_id": "hydra",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hydra",
+      "sense_id": "hydra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

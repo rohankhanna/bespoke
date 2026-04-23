@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd-docker-push-mysql_oss.yaml",
       "source_repo": "ariga/atlas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "camel-ai/owl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd"
     }
   ]
 }

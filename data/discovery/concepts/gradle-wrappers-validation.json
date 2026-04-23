@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gradle Wrappers Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate-context",
+      "text": "IntelliJ IDEA & IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate-context",
+      "text": "Gradle Wrappers Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-community",
+      "status": "candidate",
+      "text": "Gradle Wrappers Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11735,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11714,
+      "status": "candidate",
+      "text": "aid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11714,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11714,
+      "status": "candidate",
+      "text": "bill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gradle Wrappers Validation",
+  "concept_id": "gradle-wrappers-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Gradle_wrappers_validation.yml",
+      "source_repo": "JetBrains/intellij-community"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gradle Wrappers Validation",
+      "sense_id": "gradle-wrappers-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

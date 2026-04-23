@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:52:26.084042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ThePrimeagen/.dotfiles",
+    "html_url": "https://github.com/ThePrimeagen/.dotfiles",
+    "language": "Perl",
+    "pushed_at": "2024-04-24T01:43:35Z",
+    "stargazers_count": 3456,
+    "topics": [],
+    "updated_at": "2026-04-23T13:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

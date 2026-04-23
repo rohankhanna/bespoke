@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Development Freeze"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Development Freeze"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "chill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "halt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12506,
+      "status": "candidate",
+      "text": "bear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Development Freeze",
+      "sense_id": "development-freeze#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "development-freeze",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "development-freeze",
+  "observation_id": "e981e15be5ef3a75",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Development Freeze",
+  "source_context_snippet": "Development Freeze",
+  "source_file": ".github/workflows/development-freeze.yml",
+  "source_repo": "systemd/systemd",
+  "source_repo_description": "The systemd System and Service Manager "
+}

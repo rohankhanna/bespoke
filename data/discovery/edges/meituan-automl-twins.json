@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "open-mmlab/mmsegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "facebookresearch/deit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "microsoft/swin-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "twins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meituan-AutoML/Twins",
+      "target": "vision-transformer-architectures",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Meituan-AutoML/Twins"
+}

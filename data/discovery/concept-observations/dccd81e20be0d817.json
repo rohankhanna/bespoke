@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Backward compatible ML compute opset inspired by HLO/MHLO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Execute Tutorial Notebooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Execute Tutorial Notebooks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23601,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22842,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22842,
+      "status": "candidate",
+      "text": "studying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "slur"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Execute Tutorial Notebooks",
+      "sense_id": "execute-tutorial-notebooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "execute-tutorial-notebooks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "execute-tutorial-notebooks",
+  "observation_id": "dccd81e20be0d817",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Execute Tutorial Notebooks",
+  "source_context_snippet": "Execute Tutorial Notebooks",
+  "source_file": ".github/workflows/execute_tutorials.yml",
+  "source_repo": "openxla/stablehlo",
+  "source_repo_description": "Backward compatible ML compute opset inspired by HLO/MHLO"
+}

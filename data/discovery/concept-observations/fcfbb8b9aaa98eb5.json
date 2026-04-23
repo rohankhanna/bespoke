@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Update CsWin32 Package\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Update CsWin32 Package\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10687,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10687,
+      "status": "candidate",
+      "text": "completing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10687,
+      "status": "candidate",
+      "text": "completion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CsWin32 Package",
+      "sense_id": "update-cswin32-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-cswin32-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-cswin32-package",
+  "observation_id": "fcfbb8b9aaa98eb5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update CsWin32 Package",
+  "source_context_snippet": "\"Update CsWin32 Package\"",
+  "source_file": ".github/workflows/cswin32-update.lock.yml",
+  "source_repo": "dotnet/aspnetcore",
+  "source_repo_description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+}

@@ -19,6 +19,30 @@
       "source_repo": "lobehub/lobe-cli-toolbox",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10   Lightweight internationalization plugin for Vue.js 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for Ajv JSON schema validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "lobehub/lobe-cli-toolbox",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +142,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

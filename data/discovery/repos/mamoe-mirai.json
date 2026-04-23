@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml"
+    },
+    {
+      "component": "pat-s/always-upload-cache@v3.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml"
+    },
+    {
+      "component": "pat-s/always-upload-cache@v3.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pat-s/always-upload-cache@v3.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai",
+      "target": "project-mirai/awsome-mirai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai",
+      "target": "project-mirai/mirai-plugin-center",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamoe/mirai",
+      "target": "project-mirai/mirai-sponsor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "pat-s/always-upload-cache@v3.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "Check Publishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "mirai-doc Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "pat-s/always-upload-cache@v3.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai",
+      "target": "Release Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamoe/mirai",
+      "target": "mirai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:09:17.246793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4383
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3535
+    },
+    {
+      "path": ".github/workflows/check-publishing.yml",
+      "size": 4844
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 759
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93",
+    "fork": false,
+    "full_name": "mamoe/mirai",
+    "html_url": "https://github.com/mamoe/mirai",
+    "language": "Kotlin",
+    "pushed_at": "2024-09-23T11:25:50Z",
+    "stargazers_count": 14858,
+    "topics": [
+      "chatbot",
+      "java",
+      "kotlin",
+      "mirai"
+    ],
+    "updated_at": "2026-04-23T10:52:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/awsome-mirai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/mirai-plugin-center",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/mirai-sponsor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Check Publishing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "term": "Check Publishing"
+    },
+    {
+      "context_snippet": "mirai-doc Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "mirai-doc Publish"
+    },
+    {
+      "context_snippet": "Release Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Publish"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    }
+  ]
+}

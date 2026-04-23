@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator",
+      "target": "objectbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:00.533666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4168
+    },
+    {
+      "path": "go.mod",
+      "size": 121
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ObjectBox Generator based on FlatBuffers schema files (fbs) for C and C++ (more languages in the future)",
+    "fork": false,
+    "full_name": "objectbox/objectbox-generator",
+    "html_url": "https://github.com/objectbox/objectbox-generator",
+    "language": "Go",
+    "pushed_at": "2025-11-28T15:26:33Z",
+    "stargazers_count": 40,
+    "topics": [
+      "c",
+      "code-generator",
+      "cpp",
+      "cross-platform",
+      "database",
+      "embedded",
+      "go",
+      "golang",
+      "nosql",
+      "objectbox"
+    ],
+    "updated_at": "2025-12-12T10:09:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectbox"
+    }
+  ]
+}

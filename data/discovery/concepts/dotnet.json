@@ -163,6 +163,102 @@
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "status": "candidate-context",
       "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": ":cake: Cake (C# Make) is a cross platform build automation system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +339,54 @@
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "status": "candidate",
       "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +472,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "winsw/winsw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "elsa-workflows/elsa-core"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

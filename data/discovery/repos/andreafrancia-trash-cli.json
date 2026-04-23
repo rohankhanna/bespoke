@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "andreafrancia/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "theimpossibleastronaut/rmw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "Make Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "andreafrancia/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli",
+      "target": "trashcan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:16.906830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7914
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 90
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    },
+    {
+      "path": ".github/workflows/make-release.yml",
+      "size": 865
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 2650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command line interface to the freedesktop.org trashcan.",
+    "fork": false,
+    "full_name": "andreafrancia/trash-cli",
+    "html_url": "https://github.com/andreafrancia/trash-cli",
+    "language": "Python",
+    "pushed_at": "2026-02-03T21:02:00Z",
+    "stargazers_count": 4340,
+    "topics": [
+      "linux",
+      "python",
+      "trashcan"
+    ],
+    "updated_at": "2026-04-23T18:51:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theimpossibleastronaut/rmw",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Make Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-release.yml",
+      "term": "Make Release"
+    },
+    {
+      "context_snippet": "trash-cli - Command Line Interface to FreeDesktop.org Trash.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "trash-cli - Command Line Interface to FreeDesktop.org Trash.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trashcan"
+    }
+  ]
+}

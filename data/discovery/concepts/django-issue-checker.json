@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Django Issue Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Django Issue Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "Django Issue Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "grappelli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "guitar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "reinhardt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980,
+      "status": "candidate",
+      "text": "auditor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Django Issue Checker",
+  "concept_id": "django-issue-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Django Issue Checker",
+      "sense_id": "django-issue-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

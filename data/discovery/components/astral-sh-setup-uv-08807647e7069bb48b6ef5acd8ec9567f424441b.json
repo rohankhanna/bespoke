@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-colab-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_linux.yml",
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_macos.yml",
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_upload_index.yml",
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer"
     }
   ]
 }

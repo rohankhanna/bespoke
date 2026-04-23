@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "create-dmg/create-dmg",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "create-dmg/create-dmg",
+      "target": "macos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:08:31.313191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A shell script to build fancy DMGs",
+    "fork": false,
+    "full_name": "create-dmg/create-dmg",
+    "html_url": "https://github.com/create-dmg/create-dmg",
+    "language": "Shell",
+    "pushed_at": "2025-12-01T00:47:59Z",
+    "stargazers_count": 2551,
+    "topics": [
+      "bash",
+      "dmg",
+      "macos"
+    ],
+    "updated_at": "2026-04-23T11:22:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "create-dmg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "create-dmg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2.70.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4.13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2.69.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/create-gh-release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ada-url/rust",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Swatinem/rust-cache@v2.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/rust",
+      "target": "taiki-e/install-action@v2.70.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/rust",
+      "target": "CodSpeedHQ/action@v4.13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "ada-url/rust",
+      "target": "CodSpeed Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "obi1kenobi/cargo-semver-checks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "taiki-e/install-action@v2.69.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "taiki-e/create-gh-release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust",
+      "target": "Update Ada",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/rust",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/rust",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ada-url/rust",
+      "target": "whatwg-url",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:43.742718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7423
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1756
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2320
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3170
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2943
+    },
+    {
+      "path": ".github/workflows/update-ada.yml",
+      "size": 2721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust bindings for Ada URL parser",
+    "fork": false,
+    "full_name": "ada-url/rust",
+    "html_url": "https://github.com/ada-url/rust",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T18:00:55Z",
+    "stargazers_count": 112,
+    "topics": [
+      "fast",
+      "parser",
+      "rust",
+      "url",
+      "whatwg-url"
+    ],
+    "updated_at": "2026-04-17T18:00:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodSpeed Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "term": "CodSpeed Benchmarks"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Update Ada",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-ada.yml",
+      "term": "Update Ada"
+    },
+    {
+      "context_snippet": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg-url"
+    }
+  ]
+}

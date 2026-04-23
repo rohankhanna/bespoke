@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software Development Kit for the Microsoft Performance ToolKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'main tests status'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'main tests status'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26085,
+      "status": "candidate",
+      "text": "lancaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26085,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "diagnosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "main tests status",
+      "sense_id": "main-tests-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "main-tests-status",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "main-tests-status",
+  "observation_id": "55d025905aa10d76",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "main tests status",
+  "source_context_snippet": "'main tests status'",
+  "source_file": ".github/workflows/main_tests_status.yml",
+  "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+  "source_repo_description": "Software Development Kit for the Microsoft Performance ToolKit"
+}

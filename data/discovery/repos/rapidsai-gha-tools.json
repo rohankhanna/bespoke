@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prs.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/breaking-change-alert.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prs.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prs.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prs.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "prs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "release main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "rapidsai/shared-workflows/.github/workflows/breaking-change-alert.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/gha-tools",
+      "target": "Trigger Breaking Change Notifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:21.826633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2557
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/prs.yaml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1414
+    },
+    {
+      "path": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User tools for RAPIDS GitHub Actions",
+    "fork": false,
+    "full_name": "rapidsai/gha-tools",
+    "html_url": "https://github.com/rapidsai/gha-tools",
+    "language": "Shell",
+    "pushed_at": "2026-04-07T19:03:34Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-07T19:03:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "prs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prs.yaml",
+      "term": "prs"
+    },
+    {
+      "context_snippet": "release main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release main"
+    },
+    {
+      "context_snippet": "Trigger Breaking Change Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "term": "Trigger Breaking Change Notifications"
+    }
+  ]
+}

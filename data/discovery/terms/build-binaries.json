@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mcmilk/7-Zip-zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "j178/prek"
     }
   ],
   "term": "Build Binaries"

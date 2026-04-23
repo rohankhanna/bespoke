@@ -19,12 +19,30 @@
       "source_repo": "ChromeDevTools/chrome-devtools-mcp",
       "status": "candidate-context",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "The Chrome DevTools UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "publish-on-tag"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
       "status": "candidate",
       "text": "publish-on-tag"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
       "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

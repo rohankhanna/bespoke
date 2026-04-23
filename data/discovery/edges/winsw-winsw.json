@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "dotnet/core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "jenkinsci/winsw-maven-packaging",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "birkett/srvany-ng",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "mtkennerly/shawl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog-management.yml",
       "source_repo": "winsw/winsw",
@@ -120,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "winsw/winsw"
 }

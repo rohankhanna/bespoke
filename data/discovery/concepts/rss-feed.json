@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rss-feed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rss-feed",
+  "concept_id": "rss-feed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mmcdole/gofeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rss-feed",
+      "sense_id": "rss-feed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

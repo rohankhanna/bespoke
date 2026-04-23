@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_docstrings.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_docstrings.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_docstrings.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_docstrings.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "Check docstrings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "Cryptol typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright_check.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright_check.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "Copyright check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "GaloisInc/cryptol-specs"
+}

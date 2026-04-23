@@ -55,6 +55,30 @@
       "source_repo": "mysticatea/eslint-plugin-node",
       "status": "candidate-context",
       "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Svelte using AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "<!--DOCS_IGNORE_START-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "Official ESLint plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "mysticatea/eslint-plugin-node",
       "status": "candidate",
       "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "status": "candidate",
+      "text": "<!--DOCS_IGNORE_START-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mysticatea/eslint-plugin-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/eslint-plugin-vue"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

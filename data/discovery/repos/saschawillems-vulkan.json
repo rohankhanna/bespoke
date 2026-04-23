@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "saschawillems/howtovulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "rust-gpu/vulkanshaderexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "khronosgroup/gltf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "hlsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "slang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan",
+      "target": "vulkan-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:05.559080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32897
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ examples for the Vulkan graphics API",
+    "fork": false,
+    "full_name": "SaschaWillems/Vulkan",
+    "html_url": "https://github.com/SaschaWillems/Vulkan",
+    "language": "GLSL",
+    "pushed_at": "2026-04-19T18:30:11Z",
+    "stargazers_count": 11903,
+    "topics": [
+      "glsl",
+      "hlsl",
+      "slang",
+      "vulkan",
+      "vulkan-api"
+    ],
+    "updated_at": "2026-04-23T19:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-gpu/vulkanshaderexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saschawillems/howtovulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Project"
+    },
+    {
+      "context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hlsl"
+    },
+    {
+      "context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slang"
+    },
+    {
+      "context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    }
+  ]
+}

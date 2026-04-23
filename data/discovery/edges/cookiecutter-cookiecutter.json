@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "audreyfeldroy/cookiecutter-pypackage",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "cookiecutter/cookiecutter-django",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "pytest-dev/cookiecutter-pytest-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "collective/cookiecutter-plone-starter",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "cookiecutter/cookiecutter",
@@ -120,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "cookiecutter/cookiecutter"
 }

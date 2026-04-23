@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030886,
+      "status": "candidate",
+      "text": "subset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030885,
+      "status": "candidate",
+      "text": "sumset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030884,
+      "status": "candidate",
+      "text": "upper set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030883,
+      "status": "candidate",
+      "text": "proper subset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030882,
+      "status": "candidate",
+      "text": "multiset"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "superset",
+      "sense_id": "superset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "superset",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "superset",
+  "observation_id": "313e3cee9babc5d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "superset",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "apache/superset",
+  "source_repo_description": "Apache Superset is a Data Visualization and Data Exploration Platform"
+}

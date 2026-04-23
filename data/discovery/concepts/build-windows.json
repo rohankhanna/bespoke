@@ -19,12 +19,30 @@
       "source_repo": "wireshark/wireshark",
       "status": "candidate-context",
       "text": "Build Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Python 3 embeddable for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Build Windows"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "wireshark/wireshark",
+      "status": "candidate",
+      "text": "Build Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate",
       "text": "Build Windows"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "wireshark/wireshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

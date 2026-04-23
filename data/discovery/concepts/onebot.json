@@ -19,6 +19,18 @@
       "source_repo": "nonebot/aiocqhttp",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "OneBot\uff1a\u7edf\u4e00\u7684\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate-context",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nonebot/aiocqhttp",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "botuniverse/onebot",
+      "status": "candidate",
+      "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nonebot/aiocqhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "botuniverse/onebot"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

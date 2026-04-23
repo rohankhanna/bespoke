@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Topic-Aware Convolutional Neural Networks for Extreme Summarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "extreme-summarization",
+      "sense_id": "extreme-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "extreme-summarization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extreme-summarization",
+  "observation_id": "57db1c6677388eaa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "extreme-summarization",
+  "source_context_snippet": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question.",
+  "source_file": null,
+  "source_repo": "EdinburghNLP/XSum",
+  "source_repo_description": "Topic-Aware Convolutional Neural Networks for Extreme Summarization"
+}

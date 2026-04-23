@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "facebookresearch/detectron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "tianzhi0549/fcos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "rsummers11/cadlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/maskrcnn-benchmark",
+      "target": "chenjoya/sampling-free",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:21.021516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.",
+    "fork": false,
+    "full_name": "facebookresearch/maskrcnn-benchmark",
+    "html_url": "https://github.com/facebookresearch/maskrcnn-benchmark",
+    "language": "Python",
+    "pushed_at": "2023-02-16T04:01:32Z",
+    "stargazers_count": 9379,
+    "topics": [],
+    "updated_at": "2026-04-21T07:00:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenjoya/sampling-free",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/detectron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rsummers11/cadlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianzhi0549/fcos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

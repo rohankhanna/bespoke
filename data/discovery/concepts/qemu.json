@@ -55,6 +55,30 @@
       "source_repo": "AFLplusplus/AFLplusplus",
       "status": "candidate-context",
       "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qemu/qemu",
+      "status": "candidate-context",
+      "text": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are disabled. Please only use release tarballs from the QEMU website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qemu/qemu",
+      "status": "candidate-context",
+      "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate-context",
+      "text": "Cross-platform emulator collection distributed with Docker images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "AFLplusplus/AFLplusplus",
       "status": "candidate",
       "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qemu/qemu",
+      "status": "candidate",
+      "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "AFLplusplus/AFLplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "qemu/qemu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tonistiigi/binfmt"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

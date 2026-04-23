@@ -1,12 +1,17 @@
 {
   "component": "slackapi/slack-github-action@v2.1.1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/acceptance_test_promote.yml",
       "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
     }
   ]
 }

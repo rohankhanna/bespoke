@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Environment Corruption Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Environment Corruption Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18170,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18164,
+      "status": "candidate",
+      "text": "muckrake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18164,
+      "status": "candidate",
+      "text": "sanctify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18154,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "can"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Environment Corruption Check",
+      "sense_id": "environment-corruption-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "environment-corruption-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "environment-corruption-check",
+  "observation_id": "b80e8058cb4fe311",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Environment Corruption Check",
+  "source_context_snippet": "Environment Corruption Check",
+  "source_file": ".github/workflows/environment-corrupt-check.yaml",
+  "source_repo": "mannaandpoem/OpenManus_Archive",
+  "source_repo_description": null
+}

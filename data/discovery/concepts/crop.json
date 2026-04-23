@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "crop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Go package for fast high-level image processing powered by libvips C library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate-context",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/bimg",
+      "status": "candidate",
+      "text": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989695,
+      "status": "candidate",
+      "text": "harvest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989058,
+      "status": "candidate",
+      "text": "cultivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984059,
+      "status": "candidate",
+      "text": "pasture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949221,
+      "status": "candidate",
+      "text": "prune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936175,
+      "status": "candidate",
+      "text": "range"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54039,
+      "status": "candidate",
+      "text": "cultivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42067,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31093,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "graze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trim"
+    }
+  ],
+  "canonical_name": "crop",
+  "concept_id": "crop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "h2non/bimg"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crop",
+      "sense_id": "crop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

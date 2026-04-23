@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_windows",
+      "target": "umi-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:29.417084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Umi-OCR windows \u8fd0\u884c\u73af\u5883",
+    "fork": false,
+    "full_name": "hiroi-sora/Umi-OCR_runtime_windows",
+    "html_url": "https://github.com/hiroi-sora/Umi-OCR_runtime_windows",
+    "language": "C++",
+    "pushed_at": "2025-03-21T08:09:52Z",
+    "stargazers_count": 164,
+    "topics": [
+      "umi-ocr"
+    ],
+    "updated_at": "2026-03-28T05:20:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umi-ocr"
+    }
+  ]
+}

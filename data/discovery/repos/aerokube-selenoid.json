@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "AButler/upload-release-assets@v2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aerokube/selenoid",
+      "target": "aerokube/cm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aerokube/selenoid",
+      "target": "aerokube/moon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "AButler/upload-release-assets@v2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "selenium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "selenium-grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "selenium-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid",
+      "target": "selenium-webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:48.720086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5277
+    },
+    {
+      "path": "Dockerfile",
+      "size": 336
+    },
+    {
+      "path": "go.mod",
+      "size": 1960
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary.",
+    "fork": false,
+    "full_name": "aerokube/selenoid",
+    "html_url": "https://github.com/aerokube/selenoid",
+    "language": "Go",
+    "pushed_at": "2024-12-17T12:13:37Z",
+    "stargazers_count": 2656,
+    "topics": [
+      "docker",
+      "grid",
+      "hub",
+      "selenium",
+      "selenium-grid",
+      "selenium-server",
+      "selenium-webdriver",
+      "vnc"
+    ],
+    "updated_at": "2026-04-22T06:16:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aerokube/cm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aerokube/moon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-grid"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-server"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-webdriver"
+    }
+  ]
+}

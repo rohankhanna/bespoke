@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test Install"
+    "Test Install",
+    "test-install"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ClickHouse/clickhousectl",
       "status": "candidate-context",
       "text": "Test Install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "test-install"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ClickHouse/clickhousectl",
       "status": "candidate",
       "text": "Test Install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "test-install"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/test-install.yml",
       "source_repo": "ClickHouse/clickhousectl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-install.yaml",
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

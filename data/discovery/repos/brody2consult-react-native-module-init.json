@@ -171,13 +171,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "brody2consult/react-native-module-init",
-      "target": "terkelg/prompts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "brody2consult/react-native-module-init",
       "target": "brodybits/react-native-init-func",
       "target_type": "repository"
     },
@@ -448,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:47:38.411041+00:00",
+  "fetched_at": "2026-04-23T21:12:37.825728+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -494,11 +487,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "react-native-community/bob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "terkelg/prompts",
       "source_file": "README.md"
     },
     {

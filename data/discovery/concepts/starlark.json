@@ -43,6 +43,30 @@
       "source_repo": "cgrindel/bazel-starlib",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/cgrindel/bazel-starlib/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/bazel-starlib/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Helpers for generating Starlark documentation using Stardoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "cgrindel/bazel-starlib",
       "status": "candidate",
       "text": "[![Build](https://github.com/cgrindel/bazel-starlib/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/bazel-starlib/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cgrindel/bazel-starlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

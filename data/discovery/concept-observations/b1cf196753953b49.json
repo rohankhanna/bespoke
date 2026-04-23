@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Set PR and Issue Project Fields"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Set PR and Issue Project Fields"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33965,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33965,
+      "status": "candidate",
+      "text": "contrived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32258,
+      "status": "candidate",
+      "text": "plot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set PR and Issue Project Fields",
+      "sense_id": "set-pr-and-issue-project-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "set-pr-and-issue-project-fields",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "set-pr-and-issue-project-fields",
+  "observation_id": "b1cf196753953b49",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Set PR and Issue Project Fields",
+  "source_context_snippet": "Set PR and Issue Project Fields",
+  "source_file": ".github/workflows/pr_issue_status_automation.yml",
+  "source_repo": "rapidsai/cuml",
+  "source_repo_description": "cuML - RAPIDS Machine Learning Library"
+}

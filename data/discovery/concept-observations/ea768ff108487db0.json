@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19854900,
+      "status": "candidate",
+      "text": "wife"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857420,
+      "status": "candidate",
+      "text": "lyme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029545,
+      "status": "candidate",
+      "text": "pinocchio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029544,
+      "status": "candidate",
+      "text": "baloo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029543,
+      "status": "candidate",
+      "text": "maxime"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nemo",
+      "sense_id": "nemo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nemo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nemo",
+  "observation_id": "ea768ff108487db0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nemo",
+  "source_context_snippet": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "NVIDIA-NeMo/DataDesigner",
+  "source_repo_description": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+}

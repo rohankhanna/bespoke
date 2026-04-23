@@ -43,6 +43,18 @@
       "source_repo": "JoshData/python-email-validator",
       "status": "candidate-context",
       "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Anymail: Django email integration for transactional ESPs"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JoshData/python-email-validator",
       "status": "candidate",
       "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JoshData/python-email-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

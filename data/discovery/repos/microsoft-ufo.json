@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UFO",
+      "target": "microsoft/taskweaver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UFO",
+      "target": "vyokky/llm-brained-gui-agents-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UFO",
+      "target": "nice-mee/windowsagentarena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_deploy.yml",
+      "source_repo": "microsoft/UFO",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_deploy.yml",
+      "source_repo": "microsoft/UFO",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document_deploy.yml",
+      "source_repo": "microsoft/UFO",
+      "target": "Deploy MkDocs site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UFO",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UFO",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:55.743474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24828
+    },
+    {
+      "path": "requirements.txt",
+      "size": 957
+    },
+    {
+      "path": ".github/workflows/document_deploy.yml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UFO\u00b3: Weaving the Digital Agent Galaxy",
+    "fork": false,
+    "full_name": "microsoft/UFO",
+    "html_url": "https://github.com/microsoft/UFO",
+    "language": "Python",
+    "pushed_at": "2026-04-14T10:55:39Z",
+    "stargazers_count": 8503,
+    "topics": [
+      "agent",
+      "automation",
+      "copilot",
+      "gui",
+      "llm",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T13:03:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/taskweaver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nice-mee/windowsagentarena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vyokky/llm-brained-gui-agents-survey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document_deploy.yml",
+      "term": "Deploy MkDocs site"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

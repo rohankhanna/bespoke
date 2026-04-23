@@ -4,6 +4,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "forwardemail/superagent",
+      "target": "johntron/superagent-no-cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "forwardemail/superagent",
+      "target": "alex94puchades/superagent-jsonapify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "forwardemail/superagent",
       "target": "jcoreio/superagent-verbose-errors",
       "target_type": "repository"
     },
@@ -12,20 +26,6 @@
       "source_file": "README.md",
       "source_repo": "forwardemail/superagent",
       "target": "damoclark/superagent-declare",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "forwardemail/superagent",
-      "target": "certible/superagent-aws-sign",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "forwardemail/superagent",
-      "target": "browserify/browserify",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "forwardemail/superagent"
 }

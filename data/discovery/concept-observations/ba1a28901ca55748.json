@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the 5k pocket full-of-gags web microframework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Camping"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Camping"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047117,
+      "status": "candidate",
+      "text": "encampment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044886,
+      "status": "candidate",
+      "text": "tenting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047194,
+      "status": "candidate",
+      "text": "bivouacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047193,
+      "status": "candidate",
+      "text": "campsite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047170,
+      "status": "candidate",
+      "text": "campground"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Camping",
+      "sense_id": "camping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "bivouacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "tenting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "encampment"
+    }
+  ],
+  "concept_id": "camping",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "camping",
+  "observation_id": "ba1a28901ca55748",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Camping",
+  "source_context_snippet": "Camping",
+  "source_file": ".github/workflows/camping.yml",
+  "source_repo": "camping/camping",
+  "source_repo_description": "the 5k pocket full-of-gags web microframework"
+}

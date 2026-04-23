@@ -1,0 +1,22 @@
+{
+  "component": "github/gh-aw-actions/setup@abea67e08ee83539ea33aaae67bf0cddaa0b03b5",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    }
+  ]
+}

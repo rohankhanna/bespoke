@@ -476,13 +476,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "web3/web3.js",
-      "target": "chainsafe/web3js-example-react-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "web3/web3.js",
       "target": "chainsafe/web3.js",
@@ -1028,7 +1021,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:29:54.128815+00:00",
+  "fetched_at": "2026-04-23T20:40:50.390134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1090,11 +1083,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "chainsafe/web3.js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chainsafe/web3js-example-react-app",
       "source_file": "README.md"
     },
     {

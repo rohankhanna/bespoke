@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5/web-abap2ui5-samples",
+      "target": "abap2ui5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5/web-abap2ui5-samples",
+      "target": "open-abap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:34.919273+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build of abap2UI5-web",
+    "fork": false,
+    "full_name": "abap2UI5/web-abap2ui5-samples",
+    "html_url": "https://github.com/abap2UI5/web-abap2ui5-samples",
+    "language": "JavaScript",
+    "pushed_at": "2025-07-23T08:28:03Z",
+    "stargazers_count": 0,
+    "topics": [
+      "abap2ui5",
+      "open-abap"
+    ],
+    "updated_at": "2025-07-23T08:28:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build of abap2UI5-web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap2ui5"
+    },
+    {
+      "context_snippet": "Build of abap2UI5-web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-abap"
+    }
+  ]
+}

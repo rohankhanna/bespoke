@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_docker_image.yml",
       "source_repo": "Mrs4s/go-cqhttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-aws.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsky-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-aws.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-bsync-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-aws.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-ozone-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-aws.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT"
     }
   ]
 }

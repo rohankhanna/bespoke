@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/github-script@v6.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml"
+    },
+    {
+      "component": "lee-dohm/team-rotation@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml"
+    },
+    {
+      "component": "actions/github-script@v6.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml"
+    },
+    {
+      "component": "actions/github-script@v6.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml"
+    },
+    {
+      "component": "actions/github-script@v6.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "Auto-label when user responds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "actions/github-script@v6.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/round-robin.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "lee-dohm/team-rotation@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/round-robin.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "round-robin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/debugpy",
+      "target": "Close stale 'waiting for response' issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:43.067571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1714
+    },
+    {
+      "path": ".github/workflows/auto-label.yml",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/round-robin.yml",
+      "size": 2775
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of the Debug Adapter Protocol for Python",
+    "fork": false,
+    "full_name": "microsoft/debugpy",
+    "html_url": "https://github.com/microsoft/debugpy",
+    "language": "Python",
+    "pushed_at": "2026-04-10T21:47:43Z",
+    "stargazers_count": 2397,
+    "topics": [],
+    "updated_at": "2026-04-23T09:03:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-label when user responds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "term": "Auto-label when user responds"
+    },
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "round-robin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/round-robin.yml",
+      "term": "round-robin"
+    },
+    {
+      "context_snippet": "Close stale 'waiting for response' issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale 'waiting for response' issues"
+    }
+  ]
+}

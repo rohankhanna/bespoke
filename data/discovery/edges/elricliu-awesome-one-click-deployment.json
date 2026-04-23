@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "mckaywrigley/chatbot-ui",
+      "target": "yidadaa/chatgpt-next-web",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "jina-ai/auto-gpt-web",
+      "target": "zhayujie/chatgpt-on-wechat",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
 }

@@ -1,0 +1,17 @@
+{
+  "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine"
+    }
+  ]
+}

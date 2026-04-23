@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pull Request Labeler"
+    "Pull Request Labeler",
+    "pull request labeler"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -247,6 +248,156 @@
       "source_repo": "w3c/aria",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Seata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "\"pull request labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "psutil for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "Scalable toolkit for efficient model alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/spark-rapids-tools",
+      "status": "candidate-context",
+      "text": "User tools for Spark RAPIDS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids-tools",
+      "status": "candidate-context",
+      "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "The Deno Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -367,6 +518,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "w3c/aria",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate",
+      "text": "\"pull request labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids-tools",
+      "status": "candidate",
+      "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -538,11 +767,95 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/labeler.yaml",
       "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pull_request_labeler.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "apache/incubator-seata-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "shirou/gopsutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "NVIDIA/NeMo-Aligner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "NVIDIA/spark-rapids-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "util-linux/util-linux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

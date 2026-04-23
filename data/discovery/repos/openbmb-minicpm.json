@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM",
+      "target": "openbmb/infllmv2_cuda_impl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM",
+      "target": "openbmb/cpm.cu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM",
+      "target": "ldlinglingling/vllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM",
+      "target": "ldlinglingling/sglang",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:33:22.902564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52229
+    },
+    {
+      "path": "requirements.txt",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MiniCPM4 & MiniCPM4.1: Ultra-Efficient LLMs on End Devices, achieving 3+ generation speedup on reasoning tasks",
+    "fork": false,
+    "full_name": "OpenBMB/MiniCPM",
+    "html_url": "https://github.com/OpenBMB/MiniCPM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-11T13:55:08Z",
+    "stargazers_count": 8833,
+    "topics": [],
+    "updated_at": "2026-04-23T09:02:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldlinglingling/sglang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldlinglingling/vllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/cpm.cu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/infllmv2_cuda_impl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

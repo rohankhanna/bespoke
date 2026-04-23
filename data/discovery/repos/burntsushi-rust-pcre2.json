@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-pcre2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-pcre2",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:18.820018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 890
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High level Rust bindings to PCRE2.",
+    "fork": false,
+    "full_name": "BurntSushi/rust-pcre2",
+    "html_url": "https://github.com/BurntSushi/rust-pcre2",
+    "language": "C",
+    "pushed_at": "2025-09-25T18:28:14Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-02-13T03:31:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

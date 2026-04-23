@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "fontawesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "svg-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "svg-sprites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome",
+      "target": "webfont",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:42.582464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "7.x",
+    "description": "The iconic SVG, font, and CSS toolkit",
+    "fork": false,
+    "full_name": "FortAwesome/Font-Awesome",
+    "html_url": "https://github.com/FortAwesome/Font-Awesome",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-10T18:21:21Z",
+    "stargazers_count": 76529,
+    "topics": [
+      "css",
+      "font",
+      "fontawesome",
+      "icons",
+      "svg-icons",
+      "svg-sprites",
+      "webfont"
+    ],
+    "updated_at": "2026-04-23T18:53:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fontawesome"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-icons"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-sprites"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webfont"
+    }
+  ]
+}

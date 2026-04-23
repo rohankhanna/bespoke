@@ -55,6 +55,18 @@
       "source_repo": "python/typing",
       "status": "candidate-context",
       "text": "The documentation for Python's static typing can be found at"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "python/typing",
       "status": "candidate",
       "text": "The documentation for Python's static typing can be found at"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "python/typing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29769498,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702115,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29699546,
+      "status": "candidate",
+      "text": "hue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29693422,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29631129,
+      "status": "candidate",
+      "text": "noe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "noah",
+      "sense_id": "noah#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "noah",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "noah",
+  "observation_id": "27640ec79ef44297",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "noah",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "huawei-noah/bolt",
+  "source_repo_description": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+}

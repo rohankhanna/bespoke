@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cesar-sap/abap_fm_json",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:19.927082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON adapter for ABAP Function Modules. ",
+    "fork": false,
+    "full_name": "cesar-sap/abap_fm_json",
+    "html_url": "https://github.com/cesar-sap/abap_fm_json",
+    "language": "ABAP",
+    "pushed_at": "2021-04-30T18:51:33Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2025-11-07T08:48:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "globby",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -67,6 +67,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "standard-things/esm"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/plugins"
     }
   ]
 }

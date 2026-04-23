@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/neoline.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/vim-pomodoro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/vim-devicons-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/neovcs.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "blacklivesmatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "nowar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "adelarsq/vim-emoji-icon-theme"
+}

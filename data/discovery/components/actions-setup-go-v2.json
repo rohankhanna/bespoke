@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v2",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -217,6 +217,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Mrs4s/MiraiGo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yml",
+      "source_repo": "Mrs4s/MiraiGo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mattn/gof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mattn/gof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalocean/godo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apptainer/sif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "apptainer/sif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "estesp/mquery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tidwall/redcon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crossdoc-integration-test.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "grafana/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "dbubel/intake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "scottwinkler/terraform-provider-shell"
     }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.40.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-rs",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-rs",
+      "target": "KyleMayes/install-llvm-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-rs",
+      "target": "dtolnay/rust-toolchain@1.40.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyleMayes/clang-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:42:39.001028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1454
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A somewhat idiomatic Rust wrapper for libclang.",
+    "fork": false,
+    "full_name": "KyleMayes/clang-rs",
+    "html_url": "https://github.com/KyleMayes/clang-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-25T21:34:02Z",
+    "stargazers_count": 200,
+    "topics": [
+      "rust"
+    ],
+    "updated_at": "2026-04-22T20:01:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Crate](https://img.shields.io/crates/v/clang.svg)](https://crates.io/crates/clang)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

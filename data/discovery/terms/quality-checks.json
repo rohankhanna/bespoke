@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "cncf/tag-env-sustainability"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
     }
   ],
   "term": "Quality Checks"

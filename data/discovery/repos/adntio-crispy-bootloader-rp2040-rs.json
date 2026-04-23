@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "adntio/example-minimal-bootloader-rp2040-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:27.419351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2531
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RP2040 A/B bootloader in Rust \u2014 copies firmware from flash to RAM with dual-bank support.",
+    "fork": false,
+    "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
+    "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
+    "language": "Rust",
+    "pushed_at": "2026-03-10T20:32:47Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-21T20:58:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adntio/example-minimal-bootloader-rp2040-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

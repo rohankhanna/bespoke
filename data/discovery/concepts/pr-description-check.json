@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pr description check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "Spark RAPIDS plugin - accelerate Apache Spark with GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "pr description check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate",
+      "text": "pr description check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882,
+      "status": "candidate",
+      "text": "plotted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pr description check",
+  "concept_id": "pr-description-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "NVIDIA/spark-rapids"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pr description check",
+      "sense_id": "pr-description-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

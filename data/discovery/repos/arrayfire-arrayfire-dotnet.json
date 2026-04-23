@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:16:02.154328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".NET wrapper for ArrayFire",
+    "fork": false,
+    "full_name": "arrayfire/arrayfire-dotnet",
+    "html_url": "https://github.com/arrayfire/arrayfire-dotnet",
+    "language": "C#",
+    "pushed_at": "2022-07-14T07:08:13Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-18T20:30:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

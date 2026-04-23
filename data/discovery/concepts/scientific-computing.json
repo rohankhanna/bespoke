@@ -43,6 +43,30 @@
       "source_repo": "AgentTorch/AgentTorch",
       "status": "candidate-context",
       "text": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "A code generator for array-based code on CPUs and GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate-context",
+      "text": "ArrayFire: a general purpose GPU library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "AgentTorch/AgentTorch",
       "status": "candidate",
       "text": "[project] name = \"agent_torch\" version = \"0.6.0\" description = \"large population models\" readme = \"readme.md\" license = {text = \"MIT\"} authors = [ {name = \"Ayush Chopra\"} ] maintainers = [ {name = \"Ayush Chopra\"}, {name = \"Vedant Kulkarni\"} ] requires-python = \">= 3.8\" dependenc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrayfire/arrayfire",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "AgentTorch/AgentTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "inducer/loopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

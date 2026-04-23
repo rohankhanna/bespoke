@@ -19,6 +19,30 @@
       "source_repo": "mysticatea/eslint-plugin-node",
       "status": "candidate-context",
       "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "Official ESLint plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mysticatea/eslint-plugin-node",
       "status": "candidate",
       "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mysticatea/eslint-plugin-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/eslint-plugin-vue"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

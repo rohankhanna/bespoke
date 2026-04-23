@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Stagnant Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "The Ethereum Improvement Proposal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "Auto Stagnant Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate",
+      "text": "Auto Stagnant Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "cutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "hydroplane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18127,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Stagnant Bot",
+  "concept_id": "auto-stagnant-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Stagnant Bot",
+      "sense_id": "auto-stagnant-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpeechColab/GigaSpeech",
+      "target": "athena-team/athena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpeechColab/GigaSpeech",
+      "target": "espnet/espnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpeechColab/GigaSpeech",
+      "target": "espnet/espnet_model_zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpeechColab/GigaSpeech",
+      "target": "bytedance/neurst",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:23.844692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large, modern dataset for speech recognition",
+    "fork": false,
+    "full_name": "SpeechColab/GigaSpeech",
+    "html_url": "https://github.com/SpeechColab/GigaSpeech",
+    "language": "Shell",
+    "pushed_at": "2024-02-26T07:04:05Z",
+    "stargazers_count": 725,
+    "topics": [],
+    "updated_at": "2026-04-21T11:21:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "athena-team/athena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/neurst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espnet/espnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espnet/espnet_model_zoo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

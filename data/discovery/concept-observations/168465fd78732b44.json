@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Downstream release tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Downstream release tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24717,
+      "status": "candidate",
+      "text": "below"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22804,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22804,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22757,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22687,
+      "status": "candidate",
+      "text": "cathartic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downstream release tests",
+      "sense_id": "downstream-release-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "downstream-release-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "downstream-release-tests",
+  "observation_id": "168465fd78732b44",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Downstream release tests",
+  "source_context_snippet": "Downstream release tests",
+  "source_file": ".github/workflows/downstream-release.yml",
+  "source_repo": "open-quantum-safe/liboqs",
+  "source_repo_description": "C library for prototyping and experimenting with quantum-resistant cryptography"
+}

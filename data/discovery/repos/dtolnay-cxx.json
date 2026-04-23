@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml"
+    },
+    {
+      "component": "dtolnay/install-buck2@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml"
+    },
+    {
+      "component": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@wasmtime-cli",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@reindeer",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-docs-rs",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-outdated",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml"
+    },
+    {
+      "component": "dtolnay/.github/.github/workflows/release_tgz.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@92ae43f10e552721931f98b61fe5506bbdf32ce6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "dtolnay/install@mdbook",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dtolnay/cxx",
+      "target": "eqrion/cbindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install-buck2@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buck2.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "Buck2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install@wasmtime-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install@reindeer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install@cargo-docs-rs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install@cargo-outdated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/.github/.github/workflows/release_tgz.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@92ae43f10e552721931f98b61fe5506bbdf32ce6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "dtolnay/install@mdbook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "dtolnay/cxx",
+      "target": "Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:23.141758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17266
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2569
+    },
+    {
+      "path": ".github/workflows/buck2.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12254
+    },
+    {
+      "path": ".github/workflows/install.yml",
+      "size": 284
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/site.yml",
+      "size": 923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Safe interop between Rust and C++",
+    "fork": false,
+    "full_name": "dtolnay/cxx",
+    "html_url": "https://github.com/dtolnay/cxx",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T00:33:23Z",
+    "stargazers_count": 6707,
+    "topics": [],
+    "updated_at": "2026-04-23T00:33:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eqrion/cbindgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Buck2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buck2.yml",
+      "term": "Buck2"
+    },
+    {
+      "context_snippet": "Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "term": "Install"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "term": "Deploy"
+    }
+  ]
+}

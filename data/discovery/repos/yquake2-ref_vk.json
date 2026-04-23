@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml"
+    },
+    {
+      "component": "libsdl-org/setup-sdl@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yquake2/ref_vk",
+      "target": "yquake2/yquake2remaster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "Coverity for Linux (aarch64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "Testbuild for Linux (aarch64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "libsdl-org/setup-sdl@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_x86_64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "Testbuild for MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/win32.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "Testbuild for Win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/win64.yml",
+      "source_repo": "yquake2/ref_vk",
+      "target": "Testbuild for Win64 (SDL3)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:10.812382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7375
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 2273
+    },
+    {
+      "path": ".github/workflows/linux_aarch64.yml",
+      "size": 2142
+    },
+    {
+      "path": ".github/workflows/linux_x86_64.yml",
+      "size": 1793
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1499
+    },
+    {
+      "path": ".github/workflows/win32.yml",
+      "size": 2792
+    },
+    {
+      "path": ".github/workflows/win64.yml",
+      "size": 2130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optional Vulkan renderer lib for Yamagi Quake II",
+    "fork": false,
+    "full_name": "yquake2/ref_vk",
+    "html_url": "https://github.com/yquake2/ref_vk",
+    "language": "C",
+    "pushed_at": "2026-04-18T15:17:43Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-04-18T15:17:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yquake2/yquake2remaster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverity for Linux (aarch64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity for Linux (aarch64)"
+    },
+    {
+      "context_snippet": "Testbuild for Linux (aarch64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "term": "Testbuild for Linux (aarch64)"
+    },
+    {
+      "context_snippet": "Testbuild for MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "Testbuild for MacOS"
+    },
+    {
+      "context_snippet": "Testbuild for Win32",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/win32.yml",
+      "term": "Testbuild for Win32"
+    },
+    {
+      "context_snippet": "Testbuild for Win64 (SDL3)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/win64.yml",
+      "term": "Testbuild for Win64 (SDL3)"
+    }
+  ]
+}

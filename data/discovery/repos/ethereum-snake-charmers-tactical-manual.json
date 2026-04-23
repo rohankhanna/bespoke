@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:39:02.271081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development *stuff* for the Snake Charmers EF team",
+    "fork": false,
+    "full_name": "ethereum/snake-charmers-tactical-manual",
+    "html_url": "https://github.com/ethereum/snake-charmers-tactical-manual",
+    "language": null,
+    "pushed_at": "2025-04-28T16:58:45Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-03-09T22:36:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

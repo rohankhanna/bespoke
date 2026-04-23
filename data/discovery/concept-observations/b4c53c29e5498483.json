@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2388\u274f Terminal and Web console for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023447,
+      "status": "candidate",
+      "text": "kube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023446,
+      "status": "candidate",
+      "text": "openshift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023445,
+      "status": "candidate",
+      "text": "chromium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023444,
+      "status": "candidate",
+      "text": "kernel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023443,
+      "status": "candidate",
+      "text": "linux"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes",
+      "sense_id": "kubernetes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernetes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernetes",
+  "observation_id": "b4c53c29e5498483",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "kubernetes",
+  "source_context_snippet": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026",
+  "source_file": null,
+  "source_repo": "astefanutti/kubebox",
+  "source_repo_description": "\u2388\u274f Terminal and Web console for Kubernetes"
+}

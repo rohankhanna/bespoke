@@ -19,6 +19,30 @@
       "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 CLI that generates beautiful README.md files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
       "status": "candidate",
       "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

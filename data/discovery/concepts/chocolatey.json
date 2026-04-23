@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chocolatey"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "chocolatey"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate",
+      "text": "chocolatey"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005282,
+      "status": "candidate",
+      "text": "chocolate-boxy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005281,
+      "status": "candidate",
+      "text": "chocolate boxy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005280,
+      "status": "candidate",
+      "text": "chocolate box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005279,
+      "status": "candidate",
+      "text": "flavory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005278,
+      "status": "candidate",
+      "text": "choky"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chocolatey",
+  "concept_id": "chocolatey",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/chocolatey.yml",
+      "source_repo": "ipfs/ipfs-desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "chocolatey",
+      "sense_id": "chocolatey#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

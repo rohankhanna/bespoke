@@ -31,6 +31,54 @@
       "source_repo": "antonbabenko/awsp",
       "status": "candidate-context",
       "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb \ud83d\ude04 Add icons to your GitHub profile using this generator  \ud83d\ude04 \ud83d\udccb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "antonbabenko/awsp",
       "status": "candidate",
       "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/awsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:36:54.362417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "public Optimism Grafana dashboards",
+    "fork": false,
+    "full_name": "ethereum-optimism/grafana-dashboards-public",
+    "html_url": "https://github.com/ethereum-optimism/grafana-dashboards-public",
+    "language": "Just",
+    "pushed_at": "2025-02-05T15:27:53Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-07T04:53:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "@emotion/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/user-event",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-awesome-reveal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scroll",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-vitals",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "@emotion/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "@testing-library/user-event",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react-awesome-reveal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react-scroll",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "web-vitals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "portfolio-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "portfolio-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "single-page-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "ui-ux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "target": "web-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:10:11.740913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3127
+    },
+    {
+      "path": "package.json",
+      "size": 926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern Dark-Themed Portfolio Template for Developers & Designers | Built with React | Dynamic JSON-based content.",
+    "fork": false,
+    "full_name": "AnshulGora/portfolio_template_v1",
+    "html_url": "https://github.com/AnshulGora/portfolio_template_v1",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-01T05:47:15Z",
+    "stargazers_count": 1,
+    "topics": [
+      "dark-theme",
+      "portfolio-template",
+      "portfolio-website",
+      "react",
+      "single-page-app",
+      "ui-ux",
+      "web-development"
+    ],
+    "updated_at": "2026-02-11T13:02:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio-template"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio-website"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-page-app"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-ux"
+    },
+    {
+      "context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-development"
+    }
+  ]
+}

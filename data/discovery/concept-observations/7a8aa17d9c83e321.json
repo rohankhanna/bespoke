@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Backmerge Release to Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Backmerge Release to Main"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "cough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11660,
+      "status": "candidate",
+      "text": "slip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backmerge Release to Main",
+      "sense_id": "backmerge-release-to-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backmerge-release-to-main",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backmerge-release-to-main",
+  "observation_id": "7a8aa17d9c83e321",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Backmerge Release to Main",
+  "source_context_snippet": "Backmerge Release to Main",
+  "source_file": ".github/workflows/backmerge-release.yml",
+  "source_repo": "microsoft/aspire",
+  "source_repo_description": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+}

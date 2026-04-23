@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pre-built ARM/Linux C cross-compilers for MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crosstool-ng",
+      "sense_id": "crosstool-ng#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crosstool-ng",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crosstool-ng",
+  "observation_id": "304819019b0126a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "crosstool-ng",
+  "source_context_snippet": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026",
+  "source_file": null,
+  "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+  "source_repo_description": "Pre-built ARM/Linux C cross-compilers for MacOS"
+}

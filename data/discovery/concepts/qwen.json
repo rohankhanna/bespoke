@@ -97,6 +97,78 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate-context",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/EasyR1)](https://github.com/hiyouga/EasyR1/stargazers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate-context",
+      "text": "[GitHub Trending #2] A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "A novel Multimodal Large Language Model (MLLM) architecture, designed to structurally align visual and textual embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +213,42 @@
       "source_repo": "hiyouga/LlamaFactory",
       "status": "candidate",
       "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/EasyR1)](https://github.com/hiyouga/EasyR1/stargazers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +334,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/EasyR1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

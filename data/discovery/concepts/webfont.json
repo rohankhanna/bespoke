@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate-context",
+      "text": "The iconic SVG, font, and CSS toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "webdings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "webcomic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "webbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "favicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "text link"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "webfont",
   "concept_id": "webfont",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-assets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

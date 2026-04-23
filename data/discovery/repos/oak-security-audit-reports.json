@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oak-security/audit-reports",
+      "target": "oak-security/resources",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:56.536155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "oak-security/audit-reports",
+    "html_url": "https://github.com/oak-security/audit-reports",
+    "language": null,
+    "pushed_at": "2026-04-20T16:59:10Z",
+    "stargazers_count": 168,
+    "topics": [],
+    "updated_at": "2026-04-20T16:59:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oak-security/resources",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

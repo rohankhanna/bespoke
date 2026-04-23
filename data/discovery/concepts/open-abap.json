@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "open-abap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5/web-abap2ui5-samples",
+      "status": "candidate-context",
+      "text": "Build of abap2UI5-web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/web-abap2ui5-samples",
+      "status": "candidate-context",
+      "text": "Build of abap2UI5-web"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/web-abap2ui5-samples",
+      "status": "candidate",
+      "text": "Build of abap2UI5-web"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "open-abap",
+  "concept_id": "open-abap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5/web-abap2ui5-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open-abap",
+      "sense_id": "open-abap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

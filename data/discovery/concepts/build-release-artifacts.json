@@ -32,6 +32,18 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate-context",
       "text": "Build Release Artifacts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/whisper.node",
+      "status": "candidate-context",
+      "text": "An another Node binding of whisper.cpp to make same API with whisper.rn as much as possible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.node",
+      "status": "candidate-context",
+      "text": "Build release artifacts"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate",
       "text": "Build Release Artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.node",
+      "status": "candidate",
+      "text": "Build release artifacts"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/build-release-artifacts.yaml",
       "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "mybigday/whisper.node"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

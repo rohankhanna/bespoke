@@ -1,0 +1,770 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "marin-community/marin",
+      "target": "marin-community/kitoken",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "marin-community/marin",
+      "target": "marin-community/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "marin-community/marin",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "marin-community/marin",
+      "target": "Claude PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Dupekit - Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Dupekit - Build Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Fray - Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Grug Variant Diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haliax-run_tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haliax-run_tests.yaml",
+      "source_repo": "marin-community/marin",
+      "target": "Haliax - Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:13.760185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4885
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7015
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 2388
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 9073
+    },
+    {
+      "path": ".github/workflows/docker-images.yaml",
+      "size": 8218
+    },
+    {
+      "path": ".github/workflows/dupekit-unit-tests.yaml",
+      "size": 2463
+    },
+    {
+      "path": ".github/workflows/dupekit-wheels.yaml",
+      "size": 2422
+    },
+    {
+      "path": ".github/workflows/fray-unit-tests.yaml",
+      "size": 1390
+    },
+    {
+      "path": ".github/workflows/grug-variant-diff.yaml",
+      "size": 6115
+    },
+    {
+      "path": ".github/workflows/haliax-run_tests.yaml",
+      "size": 1363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source framework for the research and development of foundation models.",
+    "fork": false,
+    "full_name": "marin-community/marin",
+    "html_url": "https://github.com/marin-community/marin",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:13:28Z",
+    "stargazers_count": 861,
+    "topics": [],
+    "updated_at": "2026-04-23T22:04:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marin-community/harbor",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marin-community/kitoken",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude PR Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "term": "Build Docker Images"
+    },
+    {
+      "context_snippet": "Dupekit - Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "term": "Dupekit - Tests"
+    },
+    {
+      "context_snippet": "Dupekit - Build Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "term": "Dupekit - Build Wheels"
+    },
+    {
+      "context_snippet": "Fray - Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "term": "Fray - Tests"
+    },
+    {
+      "context_snippet": "Grug Variant Diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grug-variant-diff.yaml",
+      "term": "Grug Variant Diff"
+    },
+    {
+      "context_snippet": "Haliax - Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haliax-run_tests.yaml",
+      "term": "Haliax - Tests"
+    }
+  ]
+}

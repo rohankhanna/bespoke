@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Common Problems Document"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "manim-kindergarten's communal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "Build Common Problems Document"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate",
+      "text": "Build Common Problems Document"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33958,
+      "status": "candidate",
+      "text": "dyslexia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33088,
+      "status": "candidate",
+      "text": "ccd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28548,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28548,
+      "status": "candidate",
+      "text": "vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28372,
+      "status": "candidate",
+      "text": "level"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Common Problems Document",
+  "concept_id": "build-common-problems-document",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Common Problems Document",
+      "sense_id": "build-common-problems-document#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

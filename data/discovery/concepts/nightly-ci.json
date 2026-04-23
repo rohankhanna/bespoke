@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr",
+      "status": "candidate-context",
+      "text": "A powerful and user-friendly binary analysis platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr",
+      "status": "candidate-context",
+      "text": "Nightly CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr",
+      "status": "candidate",
+      "text": "Nightly CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4445,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4445,
+      "status": "candidate",
+      "text": "leander"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly CI",
+  "concept_id": "nightly-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/angr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly CI",
+      "sense_id": "nightly-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

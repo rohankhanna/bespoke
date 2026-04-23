@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-chart.yaml",
       "source_repo": "kubernetes-sigs/metrics-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller"
     }
   ]
 }

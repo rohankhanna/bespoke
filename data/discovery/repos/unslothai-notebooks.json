@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unslothai/notebooks",
+      "target": "unsloth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:32:46.740842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 109715
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "250+ Fine-tuning & RL Notebooks for text, vision, audio, embedding, TTS models.",
+    "fork": false,
+    "full_name": "unslothai/notebooks",
+    "html_url": "https://github.com/unslothai/notebooks",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-18T10:29:22Z",
+    "stargazers_count": 5266,
+    "topics": [
+      "unsloth"
+    ],
+    "updated_at": "2026-04-23T16:25:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsloth"
+    }
+  ]
+}

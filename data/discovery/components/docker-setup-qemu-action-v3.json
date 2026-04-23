@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -397,6 +397,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "AbsaOSS/external-dns-infoblox-webhook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yaml",
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-wheels.yaml",
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ncopa/su-exec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_common.yml",
+      "source_repo": "devcontainers/ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "google/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ada-url/ada-python"
     }
   ]
 }

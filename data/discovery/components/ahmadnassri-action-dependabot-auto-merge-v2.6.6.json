@@ -1,0 +1,12 @@
+{
+  "component": "ahmadnassri/action-dependabot-auto-merge@v2.6.6",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "SimonCropp/NaughtyStrings"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bench Binding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bench Binding"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11658,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "clamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "auditory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bench Binding",
+      "sense_id": "bench-binding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bench-binding",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bench-binding",
+  "observation_id": "11eb445ac1499176",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bench Binding",
+  "source_context_snippet": "Bench Binding",
+  "source_file": ".github/workflows/bench-binding.yml",
+  "source_repo": "web-infra-dev/rspack",
+  "source_repo_description": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "compare-binary-size-pr-comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "compare-binary-size-pr-comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "compare-binary-size-pr-comment",
+      "sense_id": "compare-binary-size-pr-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compare-binary-size-pr-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compare-binary-size-pr-comment",
+  "observation_id": "4fd7adff8d2aa77c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compare-binary-size-pr-comment",
+  "source_context_snippet": "compare-binary-size-pr-comment",
+  "source_file": ".github/workflows/compare-binary-size-pr-comment.yml",
+  "source_repo": "Tencent/ncnn",
+  "source_repo_description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+}

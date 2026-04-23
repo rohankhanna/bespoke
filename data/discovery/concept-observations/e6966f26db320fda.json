@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Merge a PR on a comment'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Merge a PR on a comment'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18157,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18010,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17906,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17906,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17906,
+      "status": "candidate",
+      "text": "ink"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge a PR on a comment",
+      "sense_id": "merge-a-pr-on-a-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-a-pr-on-a-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-a-pr-on-a-comment",
+  "observation_id": "e6966f26db320fda",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Merge a PR on a comment",
+  "source_context_snippet": "'Merge a PR on a comment'",
+  "source_file": ".github/workflows/merge_on_comment.yml",
+  "source_repo": "ruby/gem_rbs_collection",
+  "source_repo_description": "A collection of RBS for gems."
+}

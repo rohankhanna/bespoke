@@ -61,28 +61,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "etcd-io/etcd",
-      "target": "youtube/doorman",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
       "target": "coreos/locksmith",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
-      "target": "vulcand/vulcand",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "etcd-io/etcd",
-      "target": "mattn/goreman",
       "target_type": "repository"
     },
     {
@@ -268,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:39:51.122242+00:00",
+  "fetched_at": "2026-04-23T20:57:28.780722+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,8 +299,8 @@
     "full_name": "etcd-io/etcd",
     "html_url": "https://github.com/etcd-io/etcd",
     "language": "Go",
-    "pushed_at": "2026-04-22T19:49:26Z",
-    "stargazers_count": 51616,
+    "pushed_at": "2026-04-23T17:33:39Z",
+    "stargazers_count": 51619,
     "topics": [
       "cncf",
       "consensus",
@@ -334,27 +313,12 @@
       "kubernetes",
       "raft"
     ],
-    "updated_at": "2026-04-23T04:14:42Z"
+    "updated_at": "2026-04-23T16:29:32Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "coreos/locksmith",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mattn/goreman",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vulcand/vulcand",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "youtube/doorman",
       "source_file": "README.md"
     }
   ],

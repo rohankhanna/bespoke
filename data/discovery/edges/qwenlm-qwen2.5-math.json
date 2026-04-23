@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "zubingou/math-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "qwen2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "QwenLM/Qwen2.5-Math"
+}

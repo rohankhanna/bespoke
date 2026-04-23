@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mac Sanitizer Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mac Sanitizer Builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19288,
+      "status": "candidate",
+      "text": "germ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11210,
+      "status": "candidate",
+      "text": "ozone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9599,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "bud"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac Sanitizer Builds",
+      "sense_id": "mac-sanitizer-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mac-sanitizer-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac-sanitizer-builds",
+  "observation_id": "7dbe7b9fb82e7382",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Mac Sanitizer Builds",
+  "source_context_snippet": "Mac Sanitizer Builds",
+  "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+  "source_repo": "catchorg/Catch2",
+  "source_repo_description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}

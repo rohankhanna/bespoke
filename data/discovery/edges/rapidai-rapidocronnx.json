@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "rapidai/rapidocronnxlibtest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "rapidai/rapidocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "JantHsueh/get-time-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "satak/webrequest-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "RapidAI/RapidOcrOnnx"
+}

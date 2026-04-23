@@ -1,0 +1,828 @@
+{
+  "components": [
+    {
+      "component": "@yeoman/adapter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yeoman/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-list",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "configstore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "figures",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fullname",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "global-agent",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "humanize-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "meow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-keyword",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "open",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "package-json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parse-help",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "read-package-up",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "root-check",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sort-on",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string-length",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "titleize",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "update-notifier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-character",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-doctor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-environment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yosay",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@node-loaders/esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esmocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "registry-url",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@c46424eee26de4078d34105d3de3cc4992202b1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@dc50aa9510b46c811795eb24b2f1ba02a914e534",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "@yeoman/adapter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "@yeoman/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "cli-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "configstore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "figures",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "fullname",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "global-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "humanize-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "meow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "npm-keyword",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "open",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "package-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "parse-help",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "read-package-up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "root-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "sort-on",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "string-length",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "titleize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "update-notifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "yeoman-character",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "yeoman-doctor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "yeoman-environment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "yosay",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "@node-loaders/esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "esmocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "registry-url",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yeoman/yo",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/setup-node@c46424eee26de4078d34105d3de3cc4992202b1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yeoman/yo",
+      "target": "NPM Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yeoman/yo",
+      "target": "github/codeql-action/init@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yeoman/yo",
+      "target": "github/codeql-action/autobuild@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yeoman/yo",
+      "target": "github/codeql-action/analyze@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "yeoman/yo",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "yeoman/yo",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yeoman/yo",
+      "target": "Publish to npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "source_repo": "yeoman/yo",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "source_repo": "yeoman/yo",
+      "target": "Create Release Version PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo",
+      "target": "ossf/scorecard-action@dc50aa9510b46c811795eb24b2f1ba02a914e534",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo",
+      "target": "github/codeql-action/upload-sarif@b6a472f63d85b9c78a3ac5e89422239fc15e9b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeoman/yo",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeoman/yo",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeoman/yo",
+      "target": "scaffolding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeoman/yo",
+      "target": "templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeoman/yo",
+      "target": "yeoman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:53:40.834225+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1876
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2031
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 387
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/release-version-pr.yml",
+      "size": 1625
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLI tool for running Yeoman generators",
+    "fork": false,
+    "full_name": "yeoman/yo",
+    "html_url": "https://github.com/yeoman/yo",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-09T21:48:06Z",
+    "stargazers_count": 3956,
+    "topics": [
+      "generator",
+      "javascript",
+      "nodejs",
+      "scaffolding",
+      "templates",
+      "yeoman"
+    ],
+    "updated_at": "2026-04-22T14:12:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "NPM Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "NPM Test"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Publish to npm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to npm"
+    },
+    {
+      "context_snippet": "Create Release Version PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "term": "Create Release Version PR"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "yo \u2014 CLI tool for running Yeoman generators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "yo \u2014 CLI tool for running Yeoman generators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "yo \u2014 CLI tool for running Yeoman generators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaffolding"
+    },
+    {
+      "context_snippet": "yo \u2014 CLI tool for running Yeoman generators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    },
+    {
+      "context_snippet": "yo \u2014 CLI tool for running Yeoman generators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yeoman"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "vectorspacelab/megapairs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "vectorspacelab/omnigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "qhjqhj00/memorag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "air-bench/air-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "sentence-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "target": "text-semantic-similarity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:30:48.821121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22572
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Retrieval and Retrieval-augmented LLMs",
+    "fork": false,
+    "full_name": "FlagOpen/FlagEmbedding",
+    "html_url": "https://github.com/FlagOpen/FlagEmbedding",
+    "language": "Python",
+    "pushed_at": "2026-04-22T16:00:42Z",
+    "stargazers_count": 11590,
+    "topics": [
+      "embeddings",
+      "information-retrieval",
+      "llm",
+      "retrieval-augmented-generation",
+      "sentence-embeddings",
+      "text-semantic-similarity"
+    ],
+    "updated_at": "2026-04-23T13:56:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "air-bench/air-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qhjqhj00/memorag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorspacelab/megapairs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorspacelab/omnigen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "context_snippet": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-embeddings"
+    },
+    {
+      "context_snippet": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-semantic-similarity"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:48:35.476125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: personal budgeting workflow \u2014 log transactions, categorize, forecast, track goals, monthly reports.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Budgeting-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Budgeting-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T12:51:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T13:05:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

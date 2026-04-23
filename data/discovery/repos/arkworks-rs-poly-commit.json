@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "scipr-lab/poly-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/crypto-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/crypto-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "arkworks-rs/r1cs-std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "Linkify Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "marlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "pairings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "polynomial-commitments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit",
+      "target": "sonic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:38:36.117529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14635
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2029
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2471
+    },
+    {
+      "path": ".github/workflows/linkify_changelog.yml",
+      "size": 459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust library for polynomial commitments",
+    "fork": false,
+    "full_name": "arkworks-rs/poly-commit",
+    "html_url": "https://github.com/arkworks-rs/poly-commit",
+    "language": "Rust",
+    "pushed_at": "2024-12-02T20:55:49Z",
+    "stargazers_count": 428,
+    "topics": [
+      "cryptography",
+      "marlin",
+      "pairings",
+      "polynomial-commitments",
+      "rust",
+      "sonic"
+    ],
+    "updated_at": "2026-04-13T05:40:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/crypto-primitives",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scipr-lab/poly-commit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/crypto-primitives",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/r1cs-std",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linkify Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "term": "Linkify Changelog"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marlin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pairings"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polynomial-commitments"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Polynomial Commitments</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonic"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bradfitz/gomemcache",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bradfitz/gomemcache",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bradfitz/gomemcache",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradfitz/gomemcache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradfitz/gomemcache",
+      "target": "memcache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradfitz/gomemcache",
+      "target": "memcached-clients",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:10.828491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 782
+    },
+    {
+      "path": "go.mod",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Memcached client library #golang",
+    "fork": false,
+    "full_name": "bradfitz/gomemcache",
+    "html_url": "https://github.com/bradfitz/gomemcache",
+    "language": "Go",
+    "pushed_at": "2026-04-22T23:20:11Z",
+    "stargazers_count": 1868,
+    "topics": [
+      "golang",
+      "memcache",
+      "memcached-clients"
+    ],
+    "updated_at": "2026-04-22T23:20:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memcache"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memcached-clients"
+    }
+  ]
+}

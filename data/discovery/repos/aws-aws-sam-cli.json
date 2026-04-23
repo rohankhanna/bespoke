@@ -1,0 +1,570 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-code-review.yml"
+    },
+    {
+      "component": "roger-zhangg/sam-pr-reviewer@742fd2b1a8574050bcdeb41ffe0b762a11ba24d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@4dc28cf14d77b0afa6832d9765ac422dbf0dfedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aws-actions/stale-issue-cleanup@7de35968489e4142233d2a6812519a82e68b5c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "awslabs/aws-lambda-powertools-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "aws/aws-sam-cli-app-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "aws/aws-lambda-builders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "awsdocs/aws-sam-developer-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "roger-zhangg/sam-pr-reviewer@742fd2b1a8574050bcdeb41ffe0b762a11ba24d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "AI Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-updates-to-sam-cli.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "ruby/setup-ruby@4dc28cf14d77b0afa6832d9765ac422dbf0dfedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "Build And Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue-on-release.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "Close issues on release cut",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "aws-actions/stale-issue-cleanup@7de35968489e4142233d2a6812519a82e68b5c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "Closed issue message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli",
+      "target": "api-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli",
+      "target": "serverlessapplicationmodel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:25.827488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8286
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4310
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 556
+    },
+    {
+      "path": ".github/workflows/ai-code-review.yml",
+      "size": 793
+    },
+    {
+      "path": ".github/workflows/automated-updates-to-sam-cli.yml",
+      "size": 8363
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 11853
+    },
+    {
+      "path": ".github/workflows/close-issue-on-release.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 2367
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+    "fork": false,
+    "full_name": "aws/aws-sam-cli",
+    "html_url": "https://github.com/aws/aws-sam-cli",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:02:46Z",
+    "stargazers_count": 6705,
+    "topics": [
+      "api-gateway",
+      "aws",
+      "docker",
+      "lambda",
+      "python",
+      "sam",
+      "serverless",
+      "serverlessapplicationmodel"
+    ],
+    "updated_at": "2026-04-23T12:39:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-lambda-builders",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sam-cli-app-templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awsdocs/aws-sam-developer-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aws-lambda-powertools-dotnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AI Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "term": "AI Code Review"
+    },
+    {
+      "context_snippet": "Build And Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build And Test"
+    },
+    {
+      "context_snippet": "Close issues on release cut",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue-on-release.yml",
+      "term": "Close issues on release cut"
+    },
+    {
+      "context_snippet": "Close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Closed issue message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed issue message"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-gateway"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverlessapplicationmodel"
+    }
+  ]
+}

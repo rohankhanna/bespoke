@@ -46,6 +46,18 @@
       "source_repo": "awslabs/aws-lc-verification",
       "status": "candidate-context",
       "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "awslabs/aws-lc-verification",
       "status": "candidate",
       "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate",
+      "text": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "awslabs/aws-lc-verification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "sonarsource/sonarqube-scan-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml"
+    },
+    {
+      "component": "actions/stale@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/InternLM",
+      "target": "internlm/opencompass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/InternLM",
+      "target": "internlm/internlm-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/InternLM",
+      "target": "internlm/internevo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_tests.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_tests.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "basic-model-tests-daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "lint-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "sonarsource/sonarqube-scan-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "source_repo": "InternLM/InternLM",
+      "target": "Sonarqube",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "InternLM/InternLM",
+      "target": "actions/stale@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "InternLM/InternLM",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "fine-tuning-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "flash-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM",
+      "target": "rlhf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:38:26.956272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40341
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/daily_tests.yaml",
+      "size": 3145
+    },
+    {
+      "path": ".github/workflows/lint_check.yaml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/sonar.yaml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3).",
+    "fork": false,
+    "full_name": "InternLM/InternLM",
+    "html_url": "https://github.com/InternLM/InternLM",
+    "language": "Python",
+    "pushed_at": "2025-10-30T00:35:43Z",
+    "stargazers_count": 7195,
+    "topics": [
+      "chatbot",
+      "chinese",
+      "fine-tuning-llm",
+      "flash-attention",
+      "gpt",
+      "large-language-model",
+      "llm",
+      "long-context",
+      "pretrained-models",
+      "rlhf"
+    ],
+    "updated_at": "2026-04-23T15:38:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/internevo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/internlm-math",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/opencompass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "basic-model-tests-daily",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_tests.yaml",
+      "term": "basic-model-tests-daily"
+    },
+    {
+      "context_snippet": "lint-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "term": "lint-check"
+    },
+    {
+      "context_snippet": "Sonarqube",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yaml",
+      "term": "Sonarqube"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning-llm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash-attention"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    }
+  ]
+}

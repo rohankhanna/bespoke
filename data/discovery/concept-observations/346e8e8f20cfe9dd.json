@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go Memcached client library #golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memcache",
+      "sense_id": "memcache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "memcache",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "memcache",
+  "observation_id": "346e8e8f20cfe9dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "memcache",
+  "source_context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradfitz/gomemcache/memcache.svg)](https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache)",
+  "source_file": null,
+  "source_repo": "bradfitz/gomemcache",
+  "source_repo_description": "Go Memcached client library #golang"
+}

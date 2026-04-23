@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "lumen-oss/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "nvim-telescope/telescope-fzf-native.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "nvim-telescope/telescope-fzy-native.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "nvim-mini/mini.pick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "liuchengxu/vim-clap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "Check docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "Linting and style checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "lumen-oss/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "target": "nvim-lua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:49.379939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31328
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1156
+    },
+    {
+      "path": ".github/workflows/docgen.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Find, Filter, Preview, Pick. All lua, all the time.",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-22T06:53:21Z",
+    "stargazers_count": 19337,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-lua"
+    ],
+    "updated_at": "2026-04-23T18:32:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/vim-clap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-mini/mini.pick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-telescope/telescope-fzf-native.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-telescope/telescope-fzy-native.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Check docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yml",
+      "term": "Check docs"
+    },
+    {
+      "context_snippet": "Linting and style checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting and style checking"
+    },
+    {
+      "context_snippet": "\"release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-lua"
+    }
+  ]
+}

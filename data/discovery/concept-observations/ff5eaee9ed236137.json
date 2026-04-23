@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032385,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031233,
+      "status": "candidate",
+      "text": "slack off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030892,
+      "status": "candidate",
+      "text": "slow up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030783,
+      "status": "candidate",
+      "text": "slow down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030407,
+      "status": "candidate",
+      "text": "slacken"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slack",
+      "sense_id": "slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28047,
+      "status": "candidate",
+      "text": "flaccid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "weak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23041,
+      "status": "candidate",
+      "text": "slake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17054,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16052,
+      "status": "candidate",
+      "text": "slump"
+    }
+  ],
+  "concept_id": "slack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slack",
+  "observation_id": "ff5eaee9ed236137",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "slack",
+  "source_context_snippet": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks).",
+  "source_file": null,
+  "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+  "source_repo_description": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+}

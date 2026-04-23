@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/stale@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "99designs/aws-vault",
+      "target": "byteness/aws-vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "99designs/aws-vault",
+      "target": "karancode/asdf-aws-vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "99designs/aws-vault",
+      "target": "adroll/hologram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "99designs/aws-vault",
+      "target": "dump247/aws-mock-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "golangci/golangci-lint-action@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "actions/stale@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "99designs/aws-vault",
+      "target": "Mark and close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/aws-vault",
+      "target": "aws-vault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/aws-vault",
+      "target": "credentials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/aws-vault",
+      "target": "keychain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "99designs/aws-vault",
+      "target": "temporary-credentials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:46.543244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8871
+    },
+    {
+      "path": "go.mod",
+      "size": 1667
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 952
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A vault for securely storing and accessing AWS credentials in development environments",
+    "fork": false,
+    "full_name": "99designs/aws-vault",
+    "html_url": "https://github.com/99designs/aws-vault",
+    "language": "Go",
+    "pushed_at": "2025-12-30T11:28:54Z",
+    "stargazers_count": 8969,
+    "topics": [
+      "aws",
+      "aws-vault",
+      "cli",
+      "credentials",
+      "iam",
+      "keychain",
+      "mfa",
+      "temporary-credentials"
+    ],
+    "updated_at": "2026-04-22T17:44:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adroll/hologram",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byteness/aws-vault",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dump247/aws-mock-metadata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karancode/asdf-aws-vault",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Mark and close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark and close stale issues"
+    },
+    {
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-vault"
+    },
+    {
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credentials"
+    },
+    {
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keychain"
+    },
+    {
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporary-credentials"
+    }
+  ]
+}

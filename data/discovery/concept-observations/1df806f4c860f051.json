@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049083,
+      "status": "candidate",
+      "text": "saint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976685,
+      "status": "candidate",
+      "text": "beatify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049270,
+      "status": "candidate",
+      "text": "recanonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049269,
+      "status": "candidate",
+      "text": "canonise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049268,
+      "status": "candidate",
+      "text": "consecrate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canonize",
+      "sense_id": "canonize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5054,
+      "status": "candidate",
+      "text": "saint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "beatify"
+    }
+  ],
+  "concept_id": "canonize",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "canonize",
+  "observation_id": "1df806f4c860f051",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "canonize",
+  "source_context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+  "source_file": null,
+  "source_repo": "filip26/titanium-jcs",
+  "source_repo_description": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+}

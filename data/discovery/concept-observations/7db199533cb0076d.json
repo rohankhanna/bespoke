@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012306,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31464,
+      "status": "candidate",
+      "text": "tessellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31463,
+      "status": "candidate",
+      "text": "renderer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31462,
+      "status": "candidate",
+      "text": "antialiasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31461,
+      "status": "candidate",
+      "text": "plugins"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shaders",
+      "sense_id": "shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shaders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shaders",
+  "observation_id": "7db199533cb0076d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "shaders",
+  "source_context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+  "source_file": null,
+  "source_repo": "ConfettiFX/The-Forge",
+  "source_repo_description": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+}

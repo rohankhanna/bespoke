@@ -4,11 +4,104 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/browserify",
+      "status": "candidate-context",
+      "text": "browser-side require() the node.js way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/browserify",
+      "status": "candidate-context",
+      "text": "browserify \u2014 browser-side require() the node way"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "An extremely fast bundler for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/browserify",
+      "status": "candidate",
+      "text": "browserify \u2014 browser-side require() the node way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992572,
+      "status": "candidate",
+      "text": "bundlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992569,
+      "status": "candidate",
+      "text": "pack-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992568,
+      "status": "candidate",
+      "text": "pack-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992567,
+      "status": "candidate",
+      "text": "bund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992566,
+      "status": "candidate",
+      "text": "buncher"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "bundler",
   "concept_id": "bundler",
@@ -19,12 +112,32 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "oven-sh/bun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

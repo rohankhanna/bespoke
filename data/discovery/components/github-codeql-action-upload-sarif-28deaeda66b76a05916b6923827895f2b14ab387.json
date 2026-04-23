@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@28deaeda66b76a05916b6923827895f2b14ab387",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "googleapis/google-http-java-client"
+    }
+  ]
+}

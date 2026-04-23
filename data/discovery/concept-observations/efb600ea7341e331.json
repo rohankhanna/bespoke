@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A monitor of resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Build Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Build Linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18348,
+      "status": "candidate",
+      "text": "internet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16036,
+      "status": "candidate",
+      "text": "beatrix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Build Linux",
+      "sense_id": "continuous-build-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-build-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-build-linux",
+  "observation_id": "efb600ea7341e331",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Continuous Build Linux",
+  "source_context_snippet": "Continuous Build Linux",
+  "source_file": ".github/workflows/continuous-build-linux.yml",
+  "source_repo": "aristocratos/btop",
+  "source_repo_description": "A monitor of resources"
+}

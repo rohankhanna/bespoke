@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-image-tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-image-tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-image-tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-image-tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "devcontainers/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-documentation.yml"
+    },
+    {
+      "component": "devcontainers/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/templates",
+      "target": "devcontainers/template-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/templates",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-image-tags.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-image-tags.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "Compare Templates against Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/templates",
+      "target": "PR - Test Updated Templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-documentation.yml",
+      "source_repo": "devcontainers/templates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-documentation.yml",
+      "source_repo": "devcontainers/templates",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-documentation.yml",
+      "source_repo": "devcontainers/templates",
+      "target": "Update Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/templates",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/templates",
+      "target": "devcontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/templates",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:39:38.373241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5686
+    },
+    {
+      "path": "package.json",
+      "size": 60
+    },
+    {
+      "path": ".github/workflows/check-image-tags.yaml",
+      "size": 1347
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/test-pr.yaml",
+      "size": 6568
+    },
+    {
+      "path": ".github/workflows/update-documentation.yml",
+      "size": 1605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own!",
+    "fork": false,
+    "full_name": "devcontainers/templates",
+    "html_url": "https://github.com/devcontainers/templates",
+    "language": "Shell",
+    "pushed_at": "2026-04-09T11:19:58Z",
+    "stargazers_count": 1383,
+    "topics": [
+      "containers",
+      "devcontainers",
+      "templates"
+    ],
+    "updated_at": "2026-04-18T23:21:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/template-starter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Compare Templates against Images\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-image-tags.yaml",
+      "term": "Compare Templates against Images"
+    },
+    {
+      "context_snippet": "\"PR - Test Updated Templates\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "term": "PR - Test Updated Templates"
+    },
+    {
+      "context_snippet": "\"Update Documentation\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-documentation.yml",
+      "term": "Update Documentation"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainers"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2024] Evaluation harness for SWT-Bench, a benchmark for evaluating LLM repository-level test-generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate and Deploy GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate and Deploy GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18804,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18686,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18670,
+      "status": "candidate",
+      "text": "impose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18654,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18654,
+      "status": "candidate",
+      "text": "bringing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Deploy GitHub Pages",
+      "sense_id": "generate-and-deploy-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-and-deploy-github-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-and-deploy-github-pages",
+  "observation_id": "a363061386e64442",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Generate and Deploy GitHub Pages",
+  "source_context_snippet": "Generate and Deploy GitHub Pages",
+  "source_file": ".github/workflows/deploy-pages.yml",
+  "source_repo": "logic-star-ai/swt-bench",
+  "source_repo_description": "[NeurIPS 2024] Evaluation harness for SWT-Bench, a benchmark for evaluating LLM repository-level test-generation"
+}

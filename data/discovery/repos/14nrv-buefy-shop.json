@@ -1,0 +1,752 @@
+{
+  "components": [
+    {
+      "component": "@fortawesome/fontawesome-free",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/google-analytics",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/pwa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bulma",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bulma-steps",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bulma-switch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "firebase",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lazysizes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "slugify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-form-json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-stripe-elements-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vuex-persistedstate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vuexfire",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/test-utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-junit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-html",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "identity-obj-proxy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-junit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-vue-matcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-commit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pug-plain-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylus-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "sdras/sample-vue-shop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "14nrv/serverless-lambda-stripe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "nuxt/nuxt.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@fortawesome/fontawesome-free",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@nuxtjs/google-analytics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@nuxtjs/pwa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "bulma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "bulma-steps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "bulma-switch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "firebase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "lazysizes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "nuxt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "slugify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vue-form-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vue-stripe-elements-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vuex-persistedstate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vuexfire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@nuxtjs/dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "@vue/test-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-junit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "identity-obj-proxy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "jest-junit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "jest-vue-matcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "postcss-preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "pre-commit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "pug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "pug-plain-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "stylus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "stylus-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vue-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "bulma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "circleci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "firebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "jest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "nuxt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "stripe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vue-test-utils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop",
+      "target": "vuex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:45.520409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1098
+    },
+    {
+      "path": "package.json",
+      "size": 2399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions",
+    "fork": false,
+    "full_name": "14nrv/buefy-shop",
+    "html_url": "https://github.com/14nrv/buefy-shop",
+    "language": "JavaScript",
+    "pushed_at": "2022-02-22T14:29:49Z",
+    "stargazers_count": 259,
+    "topics": [
+      "bulma",
+      "circleci",
+      "ecommerce",
+      "firebase",
+      "jest",
+      "nuxt",
+      "pwa",
+      "stripe",
+      "vue",
+      "vue-test-utils",
+      "vuex"
+    ],
+    "updated_at": "2025-11-12T16:07:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "14nrv/serverless-lambda-stripe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuxt/nuxt.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdras/sample-vue-shop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bulma"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circleci"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-test-utils"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuex"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -141,6 +141,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/babel-plugin-istanbul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google/adk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "google/adk-js"
     }
   ],
   "term": "Release Please"

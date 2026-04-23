@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A web-based Video Editing SDK built on WebCodecs. \u57fa\u4e8e WebCodecs \u6784\u5efa\u7684\u7f51\u9875\u89c6\u9891\u7f16\u8f91 SDK\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957385,
+      "status": "candidate",
+      "text": "registrar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924262,
+      "status": "candidate",
+      "text": "vertical flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "fipple flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "fipple pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "record-keeper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recorder",
+      "sense_id": "recorder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7054,
+      "status": "candidate",
+      "text": "registrar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "fipple flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "vertical flute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "record-keeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "recording equipment"
+    }
+  ],
+  "concept_id": "recorder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recorder",
+  "observation_id": "18d41ff9fc47a964",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "recorder",
+  "source_context_snippet": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)",
+  "source_file": null,
+  "source_repo": "WebAV-Tech/WebAV",
+  "source_repo_description": "A web-based Video Editing SDK built on WebCodecs. \u57fa\u4e8e WebCodecs \u6784\u5efa\u7684\u7f51\u9875\u89c6\u9891\u7f16\u8f91 SDK\u3002"
+}

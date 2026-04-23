@@ -1,12 +1,17 @@
 {
   "component": "vedantmgoyal9/winget-releaser@v2",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "zippoxer/recall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xJacky/nginx-ui"
     }
   ]
 }

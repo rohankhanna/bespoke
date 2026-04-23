@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "release-plz/action@f708778669256143d984cce4b23592637532e040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "attaswift/bigint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "release-plz/action@f708778669256143d984cce4b23592637532e040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paolodamico/ruint-uniffi",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:46.696361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1857
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 806
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UniFFI bindings for unsigned integer types",
+    "fork": false,
+    "full_name": "paolodamico/ruint-uniffi",
+    "html_url": "https://github.com/paolodamico/ruint-uniffi",
+    "language": "Rust",
+    "pushed_at": "2026-03-10T23:41:20Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-13T12:14:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attaswift/bigint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

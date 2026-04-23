@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Setup CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Uptime of all SearXNG public instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Setup CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate",
+      "text": "Setup CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "subscript"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Setup CI",
+  "concept_id": "setup-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Setup CI",
+      "sense_id": "setup-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

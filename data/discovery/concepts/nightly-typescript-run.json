@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly TypeScript Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Nightly TypeScript Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Nightly TypeScript Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "charge sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25364,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24334,
+      "status": "candidate",
+      "text": "lottery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly TypeScript Run",
+  "concept_id": "nightly-typescript-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/night-ts.yml",
+      "source_repo": "emberjs/ember.js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly TypeScript Run",
+      "sense_id": "nightly-typescript-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

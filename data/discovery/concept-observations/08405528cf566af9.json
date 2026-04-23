@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Internationalised error messages for Ajv JSON schema validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007328,
+      "status": "candidate",
+      "text": "internationalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036850,
+      "status": "candidate",
+      "text": "globalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036210,
+      "status": "candidate",
+      "text": "internationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036169,
+      "status": "candidate",
+      "text": "internalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035828,
+      "status": "candidate",
+      "text": "globalisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internationalization",
+      "sense_id": "internationalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "internationalisation"
+    }
+  ],
+  "concept_id": "internationalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "internationalization",
+  "observation_id": "08405528cf566af9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "internationalization",
+  "source_context_snippet": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition.",
+  "source_file": null,
+  "source_repo": "ajv-validator/ajv-i18n",
+  "source_repo_description": "Internationalised error messages for Ajv JSON schema validator"
+}

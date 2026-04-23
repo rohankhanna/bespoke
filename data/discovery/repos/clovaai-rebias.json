@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/rebias",
+      "target": "clovaai/adamp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/rebias",
+      "target": "facebookresearch/slowfast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/rebias",
+      "target": "haohanwang/hex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/rebias",
+      "target": "bethgelab/stylize-datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "bias-generalisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "bias-generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "icml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "icml-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "icml2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/rebias",
+      "target": "rebias",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:04.623140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17681
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch implementation of ReBias (Learning De-biased Representations with Biased Representations), ICML 2020",
+    "fork": false,
+    "full_name": "clovaai/rebias",
+    "html_url": "https://github.com/clovaai/rebias",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:17:00Z",
+    "stargazers_count": 174,
+    "topics": [
+      "bias-generalisation",
+      "bias-generalization",
+      "deep-learning",
+      "icml",
+      "icml-2020",
+      "icml2020",
+      "machine-learning",
+      "pytorch",
+      "rebias"
+    ],
+    "updated_at": "2026-04-10T05:39:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bethgelab/stylize-datasets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/adamp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/slowfast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haohanwang/hex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bias-generalisation"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bias-generalization"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2020"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml2020"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rebias"
+    }
+  ]
+}

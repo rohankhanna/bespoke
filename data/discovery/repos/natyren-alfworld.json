@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Natyren/alfworld",
+      "target": "alfworld/alfworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Natyren/alfworld",
+      "target": "nvidia/nvidia-docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:39:50.493806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8329
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1643
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 88
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Natyren/alfworld",
+    "html_url": "https://github.com/Natyren/alfworld",
+    "language": "Python",
+    "pushed_at": "2025-05-26T21:13:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-05-26T21:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alfworld/alfworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nvidia-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

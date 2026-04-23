@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Documents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Build Documents"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "Build Documents"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11614,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11554,
+      "status": "candidate",
+      "text": "variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11534,
+      "status": "candidate",
+      "text": "forged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10594,
+      "status": "candidate",
+      "text": "adventure playground"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Documents",
+  "concept_id": "build-documents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/documents.yml",
+      "source_repo": "0xJacky/nginx-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Documents",
+      "sense_id": "build-documents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

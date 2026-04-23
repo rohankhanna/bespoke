@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:32:04.181130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "see README",
+    "fork": false,
+    "full_name": "nii-yamagishilab/project-NN-Pytorch-scripts",
+    "html_url": "https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts",
+    "language": "Python",
+    "pushed_at": "2026-03-07T14:52:08Z",
+    "stargazers_count": 361,
+    "topics": [],
+    "updated_at": "2026-04-18T04:53:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

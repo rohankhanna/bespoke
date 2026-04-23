@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus",
+      "target": "Docker image build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:24.425785+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 1119
+    },
+    {
+      "path": ".github/workflows/build_container.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Focus on prompting and generating",
+    "fork": false,
+    "full_name": "lllyasviel/Fooocus",
+    "html_url": "https://github.com/lllyasviel/Fooocus",
+    "language": "Python",
+    "pushed_at": "2025-12-01T19:17:07Z",
+    "stargazers_count": 48142,
+    "topics": [],
+    "updated_at": "2026-04-23T18:15:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker image build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_container.yml",
+      "term": "Docker image build"
+    }
+  ]
+}

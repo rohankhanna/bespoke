@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "azblob"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "azblob",
+  "concept_id": "azblob",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/opendal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azblob",
+      "sense_id": "azblob#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

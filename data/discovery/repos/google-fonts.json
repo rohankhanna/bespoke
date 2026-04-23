@@ -1,0 +1,626 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/designers.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/designers.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font_tags.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font_tags.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pushlists.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pushlists.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml"
+    },
+    {
+      "component": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v1.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "nanasess/setup-chromedriver@v2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "browser-actions/setup-firefox@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "browser-actions/setup-geckodriver@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "fonttools/setup-fontspector@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/fonts",
+      "target": "googlefonts/gf-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/fonts",
+      "target": "googlefonts/lang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/fonts",
+      "target": "fontsource/fontsource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/fonts",
+      "target": "alexmyczko/fnt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/fonts",
+      "target": "Continuous Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/designers.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/designers.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/designers.yaml",
+      "source_repo": "google/fonts",
+      "target": "Check Designer profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font_tags.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font_tags.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/font_tags.yaml",
+      "source_repo": "google/fonts",
+      "target": "Check font tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fontspectorall.yaml",
+      "source_repo": "google/fonts",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fontspectorall.yaml",
+      "source_repo": "google/fonts",
+      "target": "QA whole library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pushlists.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pushlists.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pushlists.yaml",
+      "source_repo": "google/fonts",
+      "target": "Check server files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/upload-pages-artifact@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yaml",
+      "source_repo": "google/fonts",
+      "target": "Google Fonts Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts",
+      "target": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts",
+      "target": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/setup-python@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "browser-actions/setup-chrome@v1.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "nanasess/setup-chromedriver@v2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "browser-actions/setup-firefox@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "browser-actions/setup-geckodriver@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "andstor/file-existence-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "fonttools/setup-fontspector@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "google/fonts",
+      "target": "Google Fonts QA",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:41.306851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4791
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/designers.yaml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/font_tags.yaml",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/fontspectorall.yaml",
+      "size": 1520
+    },
+    {
+      "path": ".github/workflows/knowledge_graph.py",
+      "size": 14436
+    },
+    {
+      "path": ".github/workflows/pushlists.yaml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/report.yaml",
+      "size": 4497
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2931
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 4582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts",
+    "fork": false,
+    "full_name": "google/fonts",
+    "html_url": "https://github.com/google/fonts",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T10:30:33Z",
+    "stargazers_count": 19972,
+    "topics": [],
+    "updated_at": "2026-04-23T21:23:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmyczko/fnt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fontsource/fontsource",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/gf-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/lang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Continuous Test"
+    },
+    {
+      "context_snippet": "Check Designer profiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/designers.yaml",
+      "term": "Check Designer profiles"
+    },
+    {
+      "context_snippet": "Check font tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/font_tags.yaml",
+      "term": "Check font tags"
+    },
+    {
+      "context_snippet": "QA whole library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fontspectorall.yaml",
+      "term": "QA whole library"
+    },
+    {
+      "context_snippet": "Check server files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pushlists.yaml",
+      "term": "Check server files"
+    },
+    {
+      "context_snippet": "Google Fonts Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yaml",
+      "term": "Google Fonts Report"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Google Fonts QA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Google Fonts QA"
+    }
+  ]
+}

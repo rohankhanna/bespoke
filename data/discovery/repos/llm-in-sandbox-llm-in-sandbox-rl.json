@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target": "Pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:13.008839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5185
+    },
+    {
+      "path": "Dockerfile",
+      "size": 803
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3074
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reinforcement Learning within Computers Enhances Generalization",
+    "fork": false,
+    "full_name": "llm-in-sandbox/llm-in-sandbox-rl",
+    "html_url": "https://github.com/llm-in-sandbox/llm-in-sandbox-rl",
+    "language": "Python",
+    "pushed_at": "2026-03-03T07:09:39Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-14T03:04:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-commit"
+    }
+  ]
+}

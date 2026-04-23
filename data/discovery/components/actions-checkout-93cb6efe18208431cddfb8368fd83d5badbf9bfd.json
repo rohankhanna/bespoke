@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-generation-check.yml",
       "source_repo": "SpecterOps/BloodHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
     }
   ]
 }

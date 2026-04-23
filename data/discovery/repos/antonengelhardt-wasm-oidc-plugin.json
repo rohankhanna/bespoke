@@ -1,0 +1,772 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions-hub/kubectl@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "orhun/git-cliff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "dgn/oidc-filter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "sonhal/wasm-oauth-filter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "orhun/git-cliff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "gitleaks/gitleaks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions-hub/kubectl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "orhun/git-cliff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "Test, Build and Deploy wasm-oidc-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "Release new version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "envoy-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "envoy-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "envoyproxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "jwt-authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "oauth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "oidc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "openid-connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "proxy-wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "proxy-wasm-rust-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:09:00.024172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12429
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1639
+    },
+    {
+      "path": "Dockerfile",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 10154
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1696
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 6333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust",
+    "fork": false,
+    "full_name": "antonengelhardt/wasm-oidc-plugin",
+    "html_url": "https://github.com/antonengelhardt/wasm-oidc-plugin",
+    "language": "Rust",
+    "pushed_at": "2026-02-09T07:14:39Z",
+    "stargazers_count": 36,
+    "topics": [
+      "envoy",
+      "envoy-filter",
+      "envoy-plugin",
+      "envoyproxy",
+      "jwt",
+      "jwt-authentication",
+      "oauth2",
+      "oidc",
+      "openid-connect",
+      "proxy-wasm",
+      "proxy-wasm-rust-sdk",
+      "rust",
+      "wasm"
+    ],
+    "updated_at": "2026-04-17T02:38:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgn/oidc-filter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gitleaks/gitleaks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orhun/git-cliff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sonhal/wasm-oauth-filter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test, Build and Deploy wasm-oidc-plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Test, Build and Deploy wasm-oidc-plugin"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Release new version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release new version"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy-filter"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy-plugin"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoyproxy"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwt-authentication"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openid-connect"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-wasm"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-wasm-rust-sdk"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

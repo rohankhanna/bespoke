@@ -19,6 +19,30 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate-context",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "alexellis/arkade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

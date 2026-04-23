@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "httplib2/httplib2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/js-kubo-rpc-client"
     }
   ],
   "term": "http-client"

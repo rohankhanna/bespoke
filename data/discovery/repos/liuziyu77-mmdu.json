@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liuziyu77/MMDU",
+      "target": "open-compass/vlmevalkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:30:52.543823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of MMDU dataset",
+    "fork": false,
+    "full_name": "Liuziyu77/MMDU",
+    "html_url": "https://github.com/Liuziyu77/MMDU",
+    "language": "Python",
+    "pushed_at": "2024-09-29T11:57:17Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-04-13T10:08:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/vlmevalkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

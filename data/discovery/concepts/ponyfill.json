@@ -31,6 +31,18 @@
       "source_repo": "sindresorhus/ponyfill",
       "status": "candidate-context",
       "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "sindresorhus/ponyfill",
       "status": "candidate",
       "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/ponyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zloirock/core-js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

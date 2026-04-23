@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test, Build and Deploy wasm-oidc-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "Test, Build and Deploy wasm-oidc-plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "Test, Build and Deploy wasm-oidc-plugin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24949,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24078,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24012,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24012,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24012,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test, Build and Deploy wasm-oidc-plugin",
+  "concept_id": "test-build-and-deploy-wasm-oidc-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test, Build and Deploy wasm-oidc-plugin",
+      "sense_id": "test-build-and-deploy-wasm-oidc-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

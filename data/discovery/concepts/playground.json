@@ -43,6 +43,18 @@
       "source_repo": "AudioKit/AudioKit",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate-context",
+      "text": "The gluon-lang.org website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "AudioKit/AudioKit",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "AudioKit/AudioKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

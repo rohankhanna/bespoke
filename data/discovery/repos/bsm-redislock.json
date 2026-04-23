@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "distlock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "distributed-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bsm/redislock",
+      "target": "redis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:56:04.082812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1944
+    },
+    {
+      "path": "go.mod",
+      "size": 229
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simplified distributed locking implementation using Redis",
+    "fork": false,
+    "full_name": "bsm/redislock",
+    "html_url": "https://github.com/bsm/redislock",
+    "language": "Go",
+    "pushed_at": "2025-06-09T15:46:45Z",
+    "stargazers_count": 1747,
+    "topics": [
+      "distlock",
+      "distributed",
+      "distributed-lock",
+      "golang",
+      "lock",
+      "redis"
+    ],
+    "updated_at": "2026-04-21T17:09:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distlock"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-lock"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lock"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    }
+  ]
+}

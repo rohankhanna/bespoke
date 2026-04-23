@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Compatibility Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate-context",
+      "text": "New Relic Node.js agent code base. Developers are welcome to create pull requests here, please see our contributing guidelines. For New Relic technical support, please go to http://support.newrelic.com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate-context",
+      "text": "Generate Compatibility Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate",
+      "text": "Generate Compatibility Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19327,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19327,
+      "status": "candidate",
+      "text": "harmonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19278,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19118,
+      "status": "candidate",
+      "text": "inbreeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19070,
+      "status": "candidate",
+      "text": "breed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Compatibility Report",
+  "concept_id": "generate-compatibility-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/compatibility-report.yml",
+      "source_repo": "newrelic/node-newrelic"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Compatibility Report",
+      "sense_id": "generate-compatibility-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

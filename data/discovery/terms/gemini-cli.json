@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -41,6 +41,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "askbudi/roundtable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/adk-samples"
     }
   ],
   "term": "gemini-cli"

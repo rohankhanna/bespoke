@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "browser-driver-manager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "axe-test-fixtures",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-patch-release.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/axe-api-team-public/.github/actions/auto-patch-release-v1@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-candidate.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/axe-api-team-public/.github/actions/create-release-candidate-v1@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-candidate.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Create release candidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr-footer.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/axe-api-team-public/.github/actions/semantic-pr-footer-v1@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr-footer.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Semantic PR footer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pr-title.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/semantic-pr-title@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pr-title.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Semantic PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master-develop.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/action-sync-branches@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-axe-core.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-axe-core.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-axe-core.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "dequelabs/axe-api-team-public/.github/actions/create-update-axe-core-pull-request-v1@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-axe-core.yml",
+      "source_repo": "dequelabs/axe-core-npm",
+      "target": "Update axe-core",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dequelabs/axe-core-npm"
+}

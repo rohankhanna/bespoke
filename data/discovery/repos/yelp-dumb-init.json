@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-security-review@0c6a49f1fa56a1d472575da86a94dbc1edb78eda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yelp/dumb-init",
+      "target": "fpco/pid1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "anthropics/claude-code-security-review@0c6a49f1fa56a1d472575da86a94dbc1edb78eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-review.yml",
+      "source_repo": "Yelp/dumb-init",
+      "target": "Security Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "docker-container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "dumb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "pid1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:06:15.804352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12569
+    },
+    {
+      "path": "Dockerfile",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2004
+    },
+    {
+      "path": ".github/workflows/security-review.yml",
+      "size": 952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal init system for Linux containers",
+    "fork": false,
+    "full_name": "Yelp/dumb-init",
+    "html_url": "https://github.com/Yelp/dumb-init",
+    "language": "Python",
+    "pushed_at": "2026-04-02T17:04:56Z",
+    "stargazers_count": 7275,
+    "topics": [
+      "c",
+      "docker",
+      "docker-container",
+      "dumb",
+      "init",
+      "pid1",
+      "unix"
+    ],
+    "updated_at": "2026-04-23T06:27:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fpco/pid1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-review.yml",
+      "term": "Security Review"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-container"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dumb"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "init"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pid1"
+    },
+    {
+      "context_snippet": "dumb-init",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

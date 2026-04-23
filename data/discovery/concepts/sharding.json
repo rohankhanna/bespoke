@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sharding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate-context",
+      "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate-context",
+      "text": "Database Sharding for ActiveRecord"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate",
+      "text": "Database Sharding for ActiveRecord"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959412,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39865926,
+      "status": "candidate",
+      "text": "sherd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962828,
+      "status": "candidate",
+      "text": "splinter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962735,
+      "status": "candidate",
+      "text": "sliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951537,
+      "status": "candidate",
+      "text": "outburst"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sharding",
+  "concept_id": "sharding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sharding",
+      "sense_id": "sharding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

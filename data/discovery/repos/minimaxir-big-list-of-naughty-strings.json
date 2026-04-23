@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minimaxir/big-list-of-naughty-strings",
+      "target": "simoncropp/naughtystrings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minimaxir/big-list-of-naughty-strings",
+      "target": "mattsparks/blns-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minimaxir/big-list-of-naughty-strings",
+      "target": "eliabieri/blnscpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:51.502081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4526
+    },
+    {
+      "path": "package.json",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.",
+    "fork": false,
+    "full_name": "minimaxir/big-list-of-naughty-strings",
+    "html_url": "https://github.com/minimaxir/big-list-of-naughty-strings",
+    "language": "Python",
+    "pushed_at": "2024-04-18T03:26:59Z",
+    "stargazers_count": 47618,
+    "topics": [],
+    "updated_at": "2026-04-23T09:10:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliabieri/blnscpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattsparks/blns-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simoncropp/naughtystrings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

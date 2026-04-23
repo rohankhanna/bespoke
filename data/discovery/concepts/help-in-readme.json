@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "help-in-readme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Apply black reformatting to Python files only in regions changed since a given commit. For a practical usage example, see the blog post at https://dev.to/akaihola/improving-python-code-incrementally-3f7a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "help-in-readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate",
+      "text": "help-in-readme"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "help-in-readme",
+  "concept_id": "help-in-readme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/darker"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "help-in-readme",
+      "sense_id": "help-in-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

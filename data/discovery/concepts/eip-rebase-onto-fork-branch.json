@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "EIP Rebase Onto Fork Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "EIP Rebase Onto Fork Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate",
+      "text": "EIP Rebase Onto Fork Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33778,
+      "status": "candidate",
+      "text": "offset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31312,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31299,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31299,
+      "status": "candidate",
+      "text": "stocked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31299,
+      "status": "candidate",
+      "text": "stocks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "EIP Rebase Onto Fork Branch",
+  "concept_id": "eip-rebase-onto-fork-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/eip-rebase.yaml",
+      "source_repo": "ethereum/execution-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EIP Rebase Onto Fork Branch",
+      "sense_id": "eip-rebase-onto-fork-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

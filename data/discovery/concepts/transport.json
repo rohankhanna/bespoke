@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "transport"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028241,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025736,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018497,
+      "status": "candidate",
+      "text": "conveyance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014314,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001563,
+      "status": "candidate",
+      "text": "transmit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48053,
+      "status": "candidate",
+      "text": "ecstasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46040,
+      "status": "candidate",
+      "text": "delight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36035,
+      "status": "candidate",
+      "text": "exaltation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27077,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    }
+  ],
+  "canonical_name": "transport",
+  "concept_id": "transport",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-sse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-ws"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transport",
+      "sense_id": "transport#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

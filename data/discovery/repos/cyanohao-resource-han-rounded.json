@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "ot-builder",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "otb-ttc-bundle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CyanoHao/Resource-Han-Rounded",
+      "target": "adobe-fonts/source-han-sans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CyanoHao/Resource-Han-Rounded",
+      "target": "cyanohao/msoffice-rhr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanoHao/Resource-Han-Rounded",
+      "target": "ot-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyanoHao/Resource-Han-Rounded",
+      "target": "otb-ttc-bundle",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:39.744218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4310
+    },
+    {
+      "path": "package.json",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Resource Han Rounded, a rounded font family derived from Source Han Sans.",
+    "fork": false,
+    "full_name": "CyanoHao/Resource-Han-Rounded",
+    "html_url": "https://github.com/CyanoHao/Resource-Han-Rounded",
+    "language": "JavaScript",
+    "pushed_at": "2022-05-06T23:25:13Z",
+    "stargazers_count": 526,
+    "topics": [],
+    "updated_at": "2026-04-22T02:10:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-fonts/source-han-sans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyanohao/msoffice-rhr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

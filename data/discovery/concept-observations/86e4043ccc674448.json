@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bindings Haskell CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bindings Haskell CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9525,
+      "status": "candidate",
+      "text": "imperative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9525,
+      "status": "candidate",
+      "text": "nelson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9365,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5204,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4454,
+      "status": "candidate",
+      "text": "bookworm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings Haskell CI",
+      "sense_id": "bindings-haskell-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings-haskell-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings-haskell-ci",
+  "observation_id": "86e4043ccc674448",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bindings Haskell CI",
+  "source_context_snippet": "Bindings Haskell CI",
+  "source_file": ".github/workflows/ci_bindings_haskell.yml",
+  "source_repo": "apache/opendal",
+  "source_repo_description": "Apache OpenDAL: One Layer, All Storage."
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "code-quality",
-    "Code Quality"
+    "Code Quality",
+    "code quality"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -130,6 +131,90 @@
       "source_repo": "huggingface/optimum-executorch",
       "status": "candidate-context",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate-context",
+      "text": "Minimalistic large language model 3D-parallelism training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate-context",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "A plugin for Flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "=============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "\"code quality\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "Code Quality"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +275,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate",
+      "text": "=============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "\"code quality\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate",
+      "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
       "status": "candidate",
       "text": "Code Quality"
     }
@@ -313,11 +440,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/optimum-executorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "huggingface/nanotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

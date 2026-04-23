@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julialang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "sublime-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:45:42.568044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia syntax highlighting for Sublime Text ",
+    "fork": false,
+    "full_name": "JuliaEditorSupport/Julia-sublime",
+    "html_url": "https://github.com/JuliaEditorSupport/Julia-sublime",
+    "language": "Python",
+    "pushed_at": "2024-05-20T17:29:16Z",
+    "stargazers_count": 121,
+    "topics": [
+      "julia",
+      "julia-language",
+      "julialang",
+      "sublime-text"
+    ],
+    "updated_at": "2026-01-03T08:48:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Julia language support for Sublime Text 4 or above",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "Julia language support for Sublime Text 4 or above",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "Julia language support for Sublime Text 4 or above",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    },
+    {
+      "context_snippet": "Julia language support for Sublime Text 4 or above",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    }
+  ]
+}

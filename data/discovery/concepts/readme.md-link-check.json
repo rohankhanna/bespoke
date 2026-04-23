@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "README.md link check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "React-based frontend for the Plone Content Management System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "README.md link check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate",
+      "text": "README.md link check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "gap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "README.md link check",
+  "concept_id": "readme.md-link-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/volto"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "README.md link check",
+      "sense_id": "readme.md-link-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

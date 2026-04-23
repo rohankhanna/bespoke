@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@react-native-community/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "johanneslumpe/react-native-fs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "plrthink/rnzatestapp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "ziparchive/ziparchive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "srikanth-lingala/zip4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "@react-native-community/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "actions/setup-node@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "npm-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "unzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mockingbot/react-native-zip-archive",
+      "target": "zip-assets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:10:58.102974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8911
+    },
+    {
+      "path": "package.json",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zip archive utility for react-native",
+    "fork": false,
+    "full_name": "mockingbot/react-native-zip-archive",
+    "html_url": "https://github.com/mockingbot/react-native-zip-archive",
+    "language": "Java",
+    "pushed_at": "2026-04-13T07:23:49Z",
+    "stargazers_count": 469,
+    "topics": [
+      "android",
+      "ios",
+      "react-native",
+      "unzip",
+      "zip",
+      "zip-assets"
+    ],
+    "updated_at": "2026-04-20T09:57:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johanneslumpe/react-native-fs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plrthink/rnzatestapp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srikanth-lingala/zip4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ziparchive/ziparchive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "npm-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "npm-publish"
+    },
+    {
+      "context_snippet": "Zip archive utility for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Zip archive utility for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "Zip archive utility for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unzip"
+    },
+    {
+      "context_snippet": "Zip archive utility for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zip-assets"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v3",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-quick-start-module.yml",
       "source_repo": "pytorch/pytorch.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-only-for-standalone-embed-milvus.yaml",
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "milvus-io/milvus"
     }
   ]
 }

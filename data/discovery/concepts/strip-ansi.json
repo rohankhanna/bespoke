@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "strip-ansi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8d Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "chalk \u2014 Terminal string styling done right"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate",
+      "text": "chalk \u2014 Terminal string styling done right"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "strip-ansi",
+  "concept_id": "strip-ansi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chalk/chalk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strip-ansi",
+      "sense_id": "strip-ansi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

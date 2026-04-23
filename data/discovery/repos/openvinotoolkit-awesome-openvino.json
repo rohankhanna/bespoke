@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/awesome-openvino",
+      "target": "5scontrol/machine-control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/awesome-openvino",
+      "target": "abhilegend/drugliphphilicty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/awesome-openvino",
+      "target": "abhilegend/drugdisopenvino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/awesome-openvino",
+      "target": "abhilegend/aidrugdiscoveryopenvino",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:02.215173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of OpenVINO based AI projects",
+    "fork": false,
+    "full_name": "openvinotoolkit/awesome-openvino",
+    "html_url": "https://github.com/openvinotoolkit/awesome-openvino",
+    "language": null,
+    "pushed_at": "2025-06-30T03:23:27Z",
+    "stargazers_count": 194,
+    "topics": [],
+    "updated_at": "2026-04-16T20:34:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/machine-control",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhilegend/aidrugdiscoveryopenvino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhilegend/drugdisopenvino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhilegend/drugliphphilicty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

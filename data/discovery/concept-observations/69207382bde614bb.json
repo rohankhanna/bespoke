@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight, self-hosted friendly RSS reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Fusion</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Fusion</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rss-aggregator",
+      "sense_id": "rss-aggregator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rss-aggregator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rss-aggregator",
+  "observation_id": "69207382bde614bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rss-aggregator",
+  "source_context_snippet": "<h1 align=\"center\">Fusion</h1>",
+  "source_file": null,
+  "source_repo": "0x2E/fusion",
+  "source_repo_description": "A lightweight, self-hosted friendly RSS reader"
+}

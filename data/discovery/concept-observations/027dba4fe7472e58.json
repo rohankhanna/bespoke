@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "natural-language-processing",
+      "sense_id": "natural-language-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "natural-language-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "natural-language-processing",
+  "observation_id": "027dba4fe7472e58",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "natural-language-processing",
+  "source_context_snippet": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026",
+  "source_file": null,
+  "source_repo": "AlibabaResearch/DAMO-ConvAI",
+  "source_repo_description": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI."
+}

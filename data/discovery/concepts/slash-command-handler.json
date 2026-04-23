@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Slash Command Handler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "slime is an LLM post-training framework for RL Scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "Slash Command Handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate",
+      "text": "Slash Command Handler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20195,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20195,
+      "status": "candidate",
+      "text": "sword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19616,
+      "status": "candidate",
+      "text": "common ax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19616,
+      "status": "candidate",
+      "text": "common axe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19616,
+      "status": "candidate",
+      "text": "dayton ax"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slash Command Handler",
+  "concept_id": "slash-command-handler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bot-slash-lint.yaml",
+      "source_repo": "THUDM/slime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slash Command Handler",
+      "sense_id": "slash-command-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

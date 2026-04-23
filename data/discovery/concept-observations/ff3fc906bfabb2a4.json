@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next-generation ES module bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clean Up Caches By Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clean Up Caches By Branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45718,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37879,
+      "status": "candidate",
+      "text": "cleaned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36318,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36028,
+      "status": "candidate",
+      "text": "scavenge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35918,
+      "status": "candidate",
+      "text": "police"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Up Caches By Branch",
+      "sense_id": "clean-up-caches-by-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-up-caches-by-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-up-caches-by-branch",
+  "observation_id": "ff3fc906bfabb2a4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Clean Up Caches By Branch",
+  "source_context_snippet": "Clean Up Caches By Branch",
+  "source_file": ".github/workflows/clean-cache.yml",
+  "source_repo": "rollup/rollup",
+  "source_repo_description": "Next-generation ES module bundler"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "React-based frontend for the Plone Content Management System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "README.md link check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "README.md link check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "gap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "README.md link check",
+      "sense_id": "readme.md-link-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "readme.md-link-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "readme.md-link-check",
+  "observation_id": "fbd58caccfe68ee3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "README.md link check",
+  "source_context_snippet": "README.md link check",
+  "source_file": ".github/workflows/readme-link-check.yml",
+  "source_repo": "plone/volto",
+  "source_repo_description": "React-based frontend for the Plone Content Management System"
+}

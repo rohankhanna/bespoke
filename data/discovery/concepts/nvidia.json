@@ -79,6 +79,90 @@
       "source_repo": "sasha0552/nvidia-pstate",
       "status": "candidate-context",
       "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "CUDA Core Compute Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +201,48 @@
       "source_repo": "sasha0552/nvidia-pstate",
       "status": "candidate",
       "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +322,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "sasha0552/nvidia-pstate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

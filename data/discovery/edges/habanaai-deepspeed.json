@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "azure/azureml-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "deepspeedai/megatron-deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "rocm-developer-tools/hipcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "amd-mi200",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-inference.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-inference.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "cpu-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "cpu-torch-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "hpu-gaudi2-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "hpu-gaudi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-torch.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-torch.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-torch.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "no-torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-a6000.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-a6000.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "nv-a6000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-accelerate-v100.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-accelerate-v100.yml",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "target": "nv-accelerate-v100",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "HabanaAI/DeepSpeed"
+}

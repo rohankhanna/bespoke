@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "ymoslem/mt-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "ymoslem/adaptive-mt-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "ymoslem/mt-lm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "ymoslem/adaptive-mt-llm-fine-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "neural-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "target": "opennmt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:11:57.230675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neural Machine Translation (NMT) tutorial. Data preprocessing, model training, evaluation, and deployment. ",
+    "fork": false,
+    "full_name": "ymoslem/OpenNMT-Tutorial",
+    "html_url": "https://github.com/ymoslem/OpenNMT-Tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-28T19:34:07Z",
+    "stargazers_count": 176,
+    "topics": [
+      "neural-machine-translation",
+      "nmt",
+      "opennmt"
+    ],
+    "updated_at": "2026-02-28T13:30:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymoslem/adaptive-mt-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymoslem/adaptive-mt-llm-fine-tuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymoslem/mt-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymoslem/mt-lm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Neural Machine Translation (NMT) tutorial with [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). Data preprocessing, model training, evaluation, and deployment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-machine-translation"
+    },
+    {
+      "context_snippet": "Neural Machine Translation (NMT) tutorial with [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). Data preprocessing, model training, evaluation, and deployment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opennmt"
+    }
+  ]
+}

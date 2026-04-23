@@ -1,0 +1,901 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "davidB/rust-cargo-make@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FuelLabs/publish-crates@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FuelLabs/publish-crates@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-test-env.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-test-env.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "Warpbuilds/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "WarpBuilds/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@v3.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "WarpBuilds/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@v3.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-beta4-dev.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "katyo/publish-crates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "fuellabs/fuel-vm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "fuellabs/fuel-specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Leader Lock Chaos Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "davidB/rust-cargo-make@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "FuelLabs/publish-crates@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "baptiste0928/cargo-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_version.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_version.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Create version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-test-env.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-test-env.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Delete Ephemeral Test Environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Bump dependencies in Cargo.lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-test-env.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-test-env.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Deploy Ephemeral Test Environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Warpbuilds/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "WarpBuilds/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "reproducible-containers/buildkit-cache-dance@v3.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "benc-uk/workflow-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-beta4-dev.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-beta4-dev.yml",
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "E2E Test Beta-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-core",
+      "target": "fuel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:10:50.014084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7506
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 7857
+    },
+    {
+      "path": ".github/workflows/chaos-test.yml",
+      "size": 3654
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 17282
+    },
+    {
+      "path": ".github/workflows/create_version.yml",
+      "size": 4040
+    },
+    {
+      "path": ".github/workflows/delete-test-env.yml",
+      "size": 1288
+    },
+    {
+      "path": ".github/workflows/dependencies.yml",
+      "size": 3483
+    },
+    {
+      "path": ".github/workflows/deploy-test-env.yml",
+      "size": 1382
+    },
+    {
+      "path": ".github/workflows/docker-images.yml",
+      "size": 10723
+    },
+    {
+      "path": ".github/workflows/e2e-test-beta4-dev.yml",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust full node implementation of the Fuel v2 protocol.",
+    "fork": false,
+    "full_name": "FuelLabs/fuel-core",
+    "html_url": "https://github.com/FuelLabs/fuel-core",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T19:27:01Z",
+    "stargazers_count": 57132,
+    "topics": [
+      "blockchain",
+      "fuel"
+    ],
+    "updated_at": "2026-04-23T19:27:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuellabs/fuel-specs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuellabs/fuel-vm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "katyo/publish-crates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Leader Lock Chaos Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "term": "Leader Lock Chaos Tests"
+    },
+    {
+      "context_snippet": "Create version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_version.yml",
+      "term": "Create version"
+    },
+    {
+      "context_snippet": "Delete Ephemeral Test Environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-test-env.yml",
+      "term": "Delete Ephemeral Test Environment"
+    },
+    {
+      "context_snippet": "Bump dependencies in Cargo.lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "term": "Bump dependencies in Cargo.lock"
+    },
+    {
+      "context_snippet": "Deploy Ephemeral Test Environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-test-env.yml",
+      "term": "Deploy Ephemeral Test Environment"
+    },
+    {
+      "context_snippet": "Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yml",
+      "term": "Docker Images"
+    },
+    {
+      "context_snippet": "E2E Test Beta-4",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-beta4-dev.yml",
+      "term": "E2E Test Beta-4"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuel"
+    }
+  ]
+}

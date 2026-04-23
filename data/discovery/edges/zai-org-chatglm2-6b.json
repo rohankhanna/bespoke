@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "metaglm/glm-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "li-plus/chatglm.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "hendrycks/test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "chatglm-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "zai-org/ChatGLM2-6B"
+}

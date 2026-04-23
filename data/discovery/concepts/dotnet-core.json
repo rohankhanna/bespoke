@@ -43,6 +43,42 @@
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "status": "candidate-context",
       "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "status": "candidate",
       "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OrchardCMS/OrchardCore"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

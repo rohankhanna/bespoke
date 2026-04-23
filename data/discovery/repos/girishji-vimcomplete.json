@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimcomplete",
+      "target": "girishji/ngram-complete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimcomplete",
+      "target": "girishji/ngramview-complete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimcomplete",
+      "target": "girishji/devdocs.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/vimcomplete",
+      "target": "girishji/scope.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "source_repo": "girishji/vimcomplete",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "source_repo": "girishji/vimcomplete",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "autocomplete-suggestions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "autocompletion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete",
+      "target": "vim9script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:02.360899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33332
+    },
+    {
+      "path": ".github/workflows/stale_issue.yml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Async autocompletion for Vim.",
+    "fork": false,
+    "full_name": "girishji/vimcomplete",
+    "html_url": "https://github.com/girishji/vimcomplete",
+    "language": "Vim Script",
+    "pushed_at": "2025-10-05T20:10:11Z",
+    "stargazers_count": 183,
+    "topics": [
+      "autocomplete",
+      "autocomplete-suggestions",
+      "autocompletion",
+      "lsp",
+      "snippets",
+      "vim",
+      "vim-plugin",
+      "vim9-plugin",
+      "vim9script"
+    ],
+    "updated_at": "2026-04-07T19:50:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/devdocs.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/ngram-complete.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/ngramview-complete.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/scope.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete-suggestions"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocompletion"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9script"
+    }
+  ]
+}

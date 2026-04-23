@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run non-FA2-related unit tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate-context",
+      "text": "Minimalistic large language model 3D-parallelism training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate-context",
+      "text": "Run non-FA2-related unit tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/nanotron",
+      "status": "candidate",
+      "text": "Run non-FA2-related unit tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34579,
+      "status": "candidate",
+      "text": "regiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29309,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29309,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29223,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26107,
+      "status": "candidate",
+      "text": "lap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run non-FA2-related unit tests",
+  "concept_id": "run-non-fa2-related-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/3d_parallelism_unit_tests.yaml",
+      "source_repo": "huggingface/nanotron"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run non-FA2-related unit tests",
+      "sense_id": "run-non-fa2-related-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

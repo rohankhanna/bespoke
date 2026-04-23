@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bug Jury labeler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bug Jury labeler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22365,
+      "status": "candidate",
+      "text": "judge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22140,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22140,
+      "status": "candidate",
+      "text": "they"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "ani"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22094,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bug Jury labeler",
+      "sense_id": "bug-jury-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bug-jury-labeler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bug-jury-labeler",
+  "observation_id": "abbe503958d12d87",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bug Jury labeler",
+  "source_context_snippet": "Bug Jury labeler",
+  "source_file": ".github/workflows/bug-jury-labeler.yml",
+  "source_repo": "esp-rs/esp-hal",
+  "source_repo_description": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+}

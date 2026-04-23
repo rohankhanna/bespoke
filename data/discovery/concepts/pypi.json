@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "pypi"
+    "pypi",
+    "PyPI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,66 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "Optax is a gradient processing and optimization library for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypi/warehouse",
+      "status": "candidate-context",
+      "text": "The Python Package Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypi/warehouse",
+      "status": "candidate-context",
+      "text": "Warehouse"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate-context",
+      "text": "Poetry PEP 517 Build Backend & Core Utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +126,36 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate",
+      "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypi/warehouse",
+      "status": "candidate",
+      "text": "Warehouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +181,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/poetry-core"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,409 @@
+{
+  "components": [
+    {
+      "component": "bencode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "k-bucket",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "k-rpc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "last-one-wins",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lru",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "randombytes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "record-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@webtorrent/semantic-release-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bittorrent-dht-sodium",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "once",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "run-parallel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "bencode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "k-bucket",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "k-rpc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "last-one-wins",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "lru",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "randombytes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "record-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "@webtorrent/semantic-release-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "bittorrent-dht-sodium",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "ip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "once",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "run-parallel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "bittorrent-dht",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "dht-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "torrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht",
+      "target": "webtorrent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:53:21.999695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13177
+    },
+    {
+      "path": "package.json",
+      "size": 1818
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd78 Simple, robust, BitTorrent DHT implementation",
+    "fork": false,
+    "full_name": "webtorrent/bittorrent-dht",
+    "html_url": "https://github.com/webtorrent/bittorrent-dht",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T04:44:28Z",
+    "stargazers_count": 1274,
+    "topics": [
+      "bittorrent",
+      "bittorrent-dht",
+      "dht",
+      "dht-protocol",
+      "javascript",
+      "nodejs",
+      "p2p",
+      "peer",
+      "torrent",
+      "webtorrent"
+    ],
+    "updated_at": "2026-04-20T13:18:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent-dht"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dht-protocol"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webtorrent"
+    }
+  ]
+}

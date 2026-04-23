@@ -1,12 +1,27 @@
 {
   "component": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "ryoppippi/ccusage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
     }
   ]
 }

@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "mali"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036414,
+      "status": "candidate",
+      "text": "french sudan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036715,
+      "status": "candidate",
+      "text": "ghana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036614,
+      "status": "candidate",
+      "text": "malawi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035891,
+      "status": "candidate",
+      "text": "morocco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035337,
+      "status": "candidate",
+      "text": "bamako"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "french sudan"
+    }
+  ],
+  "canonical_name": "mali",
+  "concept_id": "mali",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mali",
+      "sense_id": "mali#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

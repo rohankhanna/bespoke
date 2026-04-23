@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform provider for executing shell commands and saving output to state file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Terraform Provider Shell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Terraform Provider Shell"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lifecycle-commands",
+      "sense_id": "lifecycle-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lifecycle-commands",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lifecycle-commands",
+  "observation_id": "5e16f1f75956af33",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "lifecycle-commands",
+  "source_context_snippet": "Terraform Provider Shell",
+  "source_file": null,
+  "source_repo": "scottwinkler/terraform-provider-shell",
+  "source_repo_description": "Terraform provider for executing shell commands and saving output to state file"
+}

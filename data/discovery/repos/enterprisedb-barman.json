@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "Linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "EnterpriseDB/barman",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman",
+      "target": "backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman",
+      "target": "disaster-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman",
+      "target": "recovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:33:35.470047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2065
+    },
+    {
+      "path": ".github/workflows/github-to-jira.yml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 2961
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Barman - Backup and Recovery Manager for PostgreSQL",
+    "fork": false,
+    "full_name": "EnterpriseDB/barman",
+    "html_url": "https://github.com/EnterpriseDB/barman",
+    "language": "Python",
+    "pushed_at": "2026-04-20T16:05:19Z",
+    "stargazers_count": 2782,
+    "topics": [
+      "backup",
+      "disaster-recovery",
+      "postgres",
+      "postgresql",
+      "recovery"
+    ],
+    "updated_at": "2026-04-20T07:35:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Linters"
+    },
+    {
+      "context_snippet": "Barman, Backup and Recovery Manager for PostgreSQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup"
+    },
+    {
+      "context_snippet": "Barman, Backup and Recovery Manager for PostgreSQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disaster-recovery"
+    },
+    {
+      "context_snippet": "Barman, Backup and Recovery Manager for PostgreSQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "Barman, Backup and Recovery Manager for PostgreSQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "Barman, Backup and Recovery Manager for PostgreSQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recovery"
+    }
+  ]
+}

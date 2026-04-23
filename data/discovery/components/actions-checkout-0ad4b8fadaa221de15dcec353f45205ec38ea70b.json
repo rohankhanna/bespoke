@@ -1,12 +1,27 @@
 {
   "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_compiled_requirements.yml",
       "source_repo": "Comfy-Org/desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts.yml",
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-distros.yml",
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/consul"
     }
   ]
 }

@@ -67,6 +67,30 @@
       "source_repo": "GoogleCloudPlatform/generative-ai",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Collective communications library with various primitives for multi-machine training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -184,11 +220,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/linter.yaml",
       "source_repo": "GoogleCloudPlatform/generative-ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

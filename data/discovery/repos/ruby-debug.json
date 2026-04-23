@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml"
+    },
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml"
+    },
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffleruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffleruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby/debug",
+      "target": "deivid-rodriguez/byebug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby/debug",
+      "target": "geoffreylitt/ladybug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug",
+      "target": "Protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug",
+      "target": "Ruby(macOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug",
+      "target": "TestTestFramework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "source_repo": "ruby/debug",
+      "target": "TruffleRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/debug",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/debug",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/debug",
+      "target": "debugging-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/debug",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:34.544461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41270
+    },
+    {
+      "path": ".github/workflows/protocol.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/ruby-macos.yaml",
+      "size": 1070
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/test_test.yml",
+      "size": 1100
+    },
+    {
+      "path": ".github/workflows/truffleruby.yml",
+      "size": 511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Debugging functionality for Ruby",
+    "fork": false,
+    "full_name": "ruby/debug",
+    "html_url": "https://github.com/ruby/debug",
+    "language": "Ruby",
+    "pushed_at": "2026-04-14T04:28:15Z",
+    "stargazers_count": 1263,
+    "topics": [
+      "debug",
+      "debugger",
+      "debugging-tool",
+      "ruby"
+    ],
+    "updated_at": "2026-04-21T01:18:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deivid-rodriguez/byebug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geoffreylitt/ladybug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Protocol",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protocol.yml",
+      "term": "Protocol"
+    },
+    {
+      "context_snippet": "Ruby(macOS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "term": "Ruby(macOS)"
+    },
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "TestTestFramework",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_test.yml",
+      "term": "TestTestFramework"
+    },
+    {
+      "context_snippet": "TruffleRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "term": "TruffleRuby"
+    },
+    {
+      "context_snippet": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tool"
+    },
+    {
+      "context_snippet": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

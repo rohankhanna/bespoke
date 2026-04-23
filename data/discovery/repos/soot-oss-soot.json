@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot",
+      "target": "JamesIves/github-pages-deploy-action@4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot",
+      "target": "Soot CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "analysis-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "java-optimization-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "jimple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "soot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soot-oss/soot",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:39.703863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9606
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Soot - A Java optimization framework",
+    "fork": false,
+    "full_name": "soot-oss/soot",
+    "html_url": "https://github.com/soot-oss/soot",
+    "language": "Java",
+    "pushed_at": "2026-04-21T09:03:16Z",
+    "stargazers_count": 3076,
+    "topics": [
+      "analysis-framework",
+      "bytecode",
+      "java",
+      "java-optimization-framework",
+      "jimple",
+      "optimization",
+      "soot",
+      "static-analysis"
+    ],
+    "updated_at": "2026-04-21T09:37:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Soot CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Soot CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis-framework"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-optimization-framework"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jimple"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

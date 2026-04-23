@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Branch Deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "civitai/civitai",
+      "status": "candidate-context",
+      "text": "A repository of models, textual inversions, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "civitai/civitai",
+      "status": "candidate-context",
+      "text": "Docker Branch Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "civitai/civitai",
+      "status": "candidate",
+      "text": "Docker Branch Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lumo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "lumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "seaport"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Branch Deploy",
+  "concept_id": "docker-branch-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-branch.yml",
+      "source_repo": "civitai/civitai"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Branch Deploy",
+      "sense_id": "docker-branch-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

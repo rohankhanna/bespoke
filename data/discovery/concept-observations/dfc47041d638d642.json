@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reverse engineered API of Microsoft's Bing Chat AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "binggpt",
+      "sense_id": "binggpt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "binggpt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "binggpt",
+  "observation_id": "dfc47041d638d642",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "binggpt",
+  "source_context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+  "source_file": null,
+  "source_repo": "acheong08/EdgeGPT",
+  "source_repo_description": "Reverse engineered API of Microsoft's Bing Chat AI"
+}

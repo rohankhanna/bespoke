@@ -116,6 +116,42 @@
       "source_repo": "docker/buildx",
       "status": "candidate-context",
       "text": "labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "'Labeler'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate-context",
+      "text": "Vim - the text editor - for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate-context",
+      "text": "Apache Arrow Ballista Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +208,24 @@
       "source_repo": "docker/buildx",
       "status": "candidate",
       "text": "labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "'Labeler'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate",
+      "text": "Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -269,11 +323,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "docker/buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "macvim-dev/macvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

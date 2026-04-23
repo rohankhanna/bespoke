@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Publish to the Maven Central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "Publish to the Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate",
+      "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "Publish to the Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "Publish to the Maven Central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23305,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23036,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "numb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "worf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22788,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to the Maven Central",
+  "concept_id": "publish-to-the-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to the Maven Central",
+      "sense_id": "publish-to-the-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

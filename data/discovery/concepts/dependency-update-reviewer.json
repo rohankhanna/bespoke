@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependency Update Reviewer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diem/diem",
+      "status": "candidate-context",
+      "text": "Diem\u2019s mission is to build a trusted and innovative financial network that empowers people and businesses around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem",
+      "status": "candidate-context",
+      "text": "Dependency Update Reviewer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem",
+      "status": "candidate",
+      "text": "Dependency Update Reviewer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17821,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17716,
+      "status": "candidate",
+      "text": "ampere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17716,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17716,
+      "status": "candidate",
+      "text": "coulomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17716,
+      "status": "candidate",
+      "text": "dish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependency Update Reviewer",
+  "concept_id": "dependency-update-reviewer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dep-update-review.yml",
+      "source_repo": "diem/diem"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Update Reviewer",
+      "sense_id": "dependency-update-reviewer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

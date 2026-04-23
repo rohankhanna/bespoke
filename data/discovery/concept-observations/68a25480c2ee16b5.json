@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A bazel BUILD file formatter and editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "build-tool",
+      "sense_id": "build-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-tool",
+  "observation_id": "68a25480c2ee16b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "build-tool",
+  "source_context_snippet": "This repository contains developer tools for working with Google's `bazel` buildtool.",
+  "source_file": null,
+  "source_repo": "bazelbuild/buildtools",
+  "source_repo_description": "A bazel BUILD file formatter and editor"
+}

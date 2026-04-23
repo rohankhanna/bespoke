@@ -127,6 +127,54 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate-context",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "\ud83d\uded1 This library is DEPRECATED!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate-context",
+      "text": "[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![OpenTracing 1.0 Enabled][ot-img]][ot-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-client-go",
+      "status": "candidate",
+      "text": "[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![OpenTracing 1.0 Enabled][ot-img]][ot-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "[![GoDoc Widget]][GoDoc]"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +364,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo-go-pixiu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

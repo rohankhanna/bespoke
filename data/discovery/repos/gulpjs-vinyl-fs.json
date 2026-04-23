@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "fs-mkdirp-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graceful-fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "iconv-lite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-valid-glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lead",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "normalize-path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "resolve-options",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stream-composer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "streamx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "to-through",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "value-or-function",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl-sourcemap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readable-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "gulpjs/prettier_action@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "GoogleCloudPlatform/release-please-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "gulpjs/glob-stream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "ashtuchkin/iconv-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "fs-mkdirp-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "glob-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "graceful-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "iconv-lite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "is-valid-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "lead",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "normalize-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "resolve-options",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "stream-composer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "streamx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "to-through",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "value-or-function",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "vinyl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "vinyl-sourcemap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "eslint-config-gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "expect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "gulpjs/prettier_action@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "coverallsapp/github-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "GoogleCloudPlatform/release-please-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gulpjs/vinyl-fs",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:42:54.854095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13075
+    },
+    {
+      "path": "package.json",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/dev.yml",
+      "size": 1891
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vinyl adapter for the file system.",
+    "fork": false,
+    "full_name": "gulpjs/vinyl-fs",
+    "html_url": "https://github.com/gulpjs/vinyl-fs",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-01T21:41:10Z",
+    "stargazers_count": 974,
+    "topics": [],
+    "updated_at": "2026-04-10T05:45:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashtuchkin/iconv-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gulpjs/glob-stream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "term": "dev"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

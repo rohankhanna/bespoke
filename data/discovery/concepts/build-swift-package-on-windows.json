@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Swift Package on Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate-context",
+      "text": "Build Swift Package on Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "status": "candidate",
+      "text": "Build Swift Package on Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26823,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26823,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26748,
+      "status": "candidate",
+      "text": "times"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26683,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17320,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Swift Package on Windows",
+  "concept_id": "build-swift-package-on-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Swift Package on Windows",
+      "sense_id": "build-swift-package-on-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

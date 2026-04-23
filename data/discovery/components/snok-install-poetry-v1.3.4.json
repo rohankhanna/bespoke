@@ -1,0 +1,12 @@
+{
+  "component": "snok/install-poetry@v1.3.4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/rich"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deno.yml",
       "source_repo": "Shougo/dpp.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deno.yaml",
+      "source_repo": "bufbuild/protobuf-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/deno_doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/std"
     }
   ],
   "term": "deno"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate PR Issue References"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Validate PR Issue References"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "Validate PR Issue References"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32057,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24169,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24101,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22307,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22069,
+      "status": "candidate",
+      "text": "beat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate PR Issue References",
+  "concept_id": "validate-pr-issue-references",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate-issue-references.yaml",
+      "source_repo": "ai-dynamo/grove"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate PR Issue References",
+      "sense_id": "validate-pr-issue-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

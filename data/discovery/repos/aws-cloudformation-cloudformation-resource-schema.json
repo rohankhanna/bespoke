@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "aws-cloudformation/aws-cloudformation-resource-schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "Releasing Project to maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "pre-commit/action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "target": "cloudformation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:51:49.428984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18020
+    },
+    {
+      "path": ".github/workflows/maven-release.yml",
+      "size": 1069
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK.",
+    "fork": false,
+    "full_name": "aws-cloudformation/cloudformation-resource-schema",
+    "html_url": "https://github.com/aws-cloudformation/cloudformation-resource-schema",
+    "language": "Java",
+    "pushed_at": "2026-01-26T21:38:04Z",
+    "stargazers_count": 98,
+    "topics": [
+      "aws",
+      "aws-cloudformation",
+      "cloudformation"
+    ],
+    "updated_at": "2026-02-18T17:22:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-resource-schema",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Releasing Project to maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "term": "Releasing Project to maven"
+    },
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudformation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    }
+  ]
+}

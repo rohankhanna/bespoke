@@ -1,42 +1,7 @@
 {
-  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "koalaman/shellcheck"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "alrra/dotfiles"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "gf3/dotfiles"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "oh-my-fish/packages-main"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "posva/catimg"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "git/git"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ajeetdsouza/zoxide"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -45,32 +10,22 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "federicotdn/flymake-shellcheck"
+      "source_repo": "iamogbz/nvshim"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "faressoft/terminalizer"
+      "source_repo": "jandamm/zgenom-ext-eval"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "isaacs/nave"
+      "source_repo": "jandamm/zgenom-ext-release"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "jandamm/zgenom"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "0ghny/shellx"
     },
     {
       "discovered_via": "repo-topic",
@@ -85,22 +40,32 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "reujab/silver"
+      "source_repo": "zimbatm/mdsh"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "justinmayer/virtualfish"
+      "source_repo": "nordtheme/dircolors"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "FabioAntunes/base16-fish-shell"
+      "source_repo": "abs-lang/abs"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nodenv/nodenv"
+      "source_repo": "scottwinkler/terraform-provider-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
     }
   ],
   "term": "shell"

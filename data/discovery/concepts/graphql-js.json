@@ -19,6 +19,18 @@
       "source_repo": "graphql/graphql-js",
       "status": "candidate-context",
       "text": "[![GraphQLConf 2025 Banner: September 08-10, Amsterdam. Hosted by the GraphQL Foundation](./assets/graphql-conf-2025.png)](https://graphql.org/conf/2025/?utm_source=github&utm_medium=graphql_js&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "graphql/graphql-js",
       "status": "candidate",
       "text": "[![GraphQLConf 2025 Banner: September 08-10, Amsterdam. Hosted by the GraphQL Foundation](./assets/graphql-conf-2025.png)](https://graphql.org/conf/2025/?utm_source=github&utm_medium=graphql_js&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "graphql/graphql-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

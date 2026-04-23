@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:11:49.993576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET for Android reference documentation.",
+    "fork": false,
+    "full_name": "dotnet/android-api-docs",
+    "html_url": "https://github.com/dotnet/android-api-docs",
+    "language": null,
+    "pushed_at": "2025-04-23T05:15:10Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-04T21:59:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

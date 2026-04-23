@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snap Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "Snap Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "Snap Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "chill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "choo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "chopped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snap Publish",
+  "concept_id": "snap-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/snap-publish.yml",
+      "source_repo": "filip26/ld-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snap Publish",
+      "sense_id": "snap-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

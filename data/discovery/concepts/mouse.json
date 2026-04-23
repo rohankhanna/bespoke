@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "mouse"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39459553,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39397297,
+      "status": "candidate",
+      "text": "pussyfoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39379035,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39374619,
+      "status": "candidate",
+      "text": "steal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707585,
+      "status": "candidate",
+      "text": "murine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31068,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23038,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8028,
+      "status": "candidate",
+      "text": "pussyfoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "steal"
+    }
+  ],
+  "canonical_name": "mouse",
+  "concept_id": "mouse",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enigo-rs/enigo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mouse",
+      "sense_id": "mouse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

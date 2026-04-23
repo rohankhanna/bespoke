@@ -250,6 +250,78 @@
       "source_repo": "ublacklist/ublacklist.github.io",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate-context",
+      "text": "A smaller version of caniuse-db, with only the essentials!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80\ud83c\udf21\ufe0f Real-time system monitor for Apple Silicon Macs (M1\u2013M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "Produce redistributable builds of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "A Rust port of FlameGraph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "Julia support in Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +442,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate",
       "text": "Check"
     }
@@ -583,11 +691,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "ublacklist/ublacklist.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "vladkens/macmon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaEditorSupport/julia-emacs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "enisdenjo/graphql-ws"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

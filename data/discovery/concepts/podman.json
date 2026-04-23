@@ -76,6 +76,18 @@
       "source_repo": "kubernetes-sigs/kind",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +126,12 @@
       "source_repo": "kubernetes-sigs/kind",
       "status": "candidate",
       "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
     }
   ],
   "candidate_related_terms": [],
@@ -157,11 +175,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/kind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

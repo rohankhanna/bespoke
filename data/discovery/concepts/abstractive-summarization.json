@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "abstractive-summarization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate-context",
+      "text": "Topic-Aware Convolutional Neural Networks for Extreme Summarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate-context",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdinburghNLP/XSum",
+      "status": "candidate",
+      "text": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "abstractive-summarization",
+  "concept_id": "abstractive-summarization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abstractive-summarization",
+      "sense_id": "abstractive-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

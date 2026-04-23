@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:49.458842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3652
+    },
+    {
+      "path": "requirements.txt",
+      "size": 162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech",
+    "fork": false,
+    "full_name": "jaywalnut310/vits",
+    "html_url": "https://github.com/jaywalnut310/vits",
+    "language": "Python",
+    "pushed_at": "2023-12-06T01:29:50Z",
+    "stargazers_count": 7851,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-04-23T08:28:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

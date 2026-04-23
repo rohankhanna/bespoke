@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Python client library for kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-sig-api-machinery",
+      "sense_id": "k8s-sig-api-machinery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "k8s-sig-api-machinery",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "k8s-sig-api-machinery",
+  "observation_id": "c881b1f702388113",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "k8s-sig-api-machinery",
+  "source_context_snippet": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)",
+  "source_file": null,
+  "source_repo": "kubernetes-client/python",
+  "source_repo_description": "Official Python client library for kubernetes"
+}

@@ -31,6 +31,42 @@
       "source_repo": "antonbabenko/modules.tf-lambda",
       "status": "candidate-context",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which creates almost all supported AWS Lambda resources as well as taking care of building and packaging of required Lambda dependencies for functions and layers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD041 MD043 -->"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "antonbabenko/modules.tf-lambda",
       "status": "candidate",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate",
+      "text": "Terraform module, which creates almost all supported AWS Lambda resources as well as taking care of building and packaging of required Lambda dependencies for functions and layers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD041 MD043 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +124,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/modules.tf-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

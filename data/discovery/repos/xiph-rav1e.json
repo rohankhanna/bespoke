@@ -1,0 +1,516 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "clechasseur/rs-clippy-check@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.83.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "taiki-e/install-action@wasmtime",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "petarpetrovt/setup-sde@v2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xiph/rav1e",
+      "target": "lu-zero/cargo-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "Build devcontainer image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "clechasseur/rs-clippy-check@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "dtolnay/rust-toolchain@1.83.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "taiki-e/install-action@wasmtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "petarpetrovt/setup-sde@v2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e",
+      "target": "rav1e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/rav1e",
+      "target": "av1-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/rav1e",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:40.181670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6368
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5703
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 21605
+    },
+    {
+      "path": ".github/workflows/devcontainer.yml",
+      "size": 1439
+    },
+    {
+      "path": ".github/workflows/rav1e.yml",
+      "size": 15922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The fastest and safest AV1 encoder.",
+    "fork": false,
+    "full_name": "xiph/rav1e",
+    "html_url": "https://github.com/xiph/rav1e",
+    "language": "Assembly",
+    "pushed_at": "2026-04-21T18:42:21Z",
+    "stargazers_count": 4083,
+    "topics": [
+      "av1",
+      "av1-encoder",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-23T11:51:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lu-zero/cargo-c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "Build devcontainer image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "term": "Build devcontainer image"
+    },
+    {
+      "context_snippet": "rav1e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rav1e.yml",
+      "term": "rav1e"
+    },
+    {
+      "context_snippet": "The fastest and safest AV1 encoder.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "av1-encoder"
+    },
+    {
+      "context_snippet": "The fastest and safest AV1 encoder.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

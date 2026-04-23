@@ -64,20 +64,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml",
-      "source_repo": "apache/casbin",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml",
-      "source_repo": "apache/casbin",
-      "target": "actions/setup-node@v3",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/default.yml",
       "source_repo": "apache/casbin",
@@ -138,6 +124,48 @@
       "source_file": ".github/workflows/performance-pr.yml",
       "source_repo": "apache/casbin",
       "target": "Performance Comparison for Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "Build Source Release Draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "Build Source Snapshot",
       "target_type": "term"
     },
     {
@@ -239,6 +267,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "apache/casbin"
 }

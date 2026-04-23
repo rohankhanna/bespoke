@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Auto-merge Beta"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/scoop-bucket",
+      "status": "candidate-context",
+      "text": "Auto-merge Beta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/scoop-bucket",
+      "status": "candidate",
+      "text": "Auto-merge Beta"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "carotene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "alpha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "beets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "gamma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "acebutolol"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-merge Beta",
+  "concept_id": "auto-merge-beta",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "supabase/scoop-bucket"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-merge Beta",
+      "sense_id": "auto-merge-beta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

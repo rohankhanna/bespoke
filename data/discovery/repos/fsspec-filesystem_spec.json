@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pre-commit/action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "pre-commit/action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yaml",
+      "source_repo": "fsspec/filesystem_spec",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:15.363724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4324
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5016
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 3522
+    },
+    {
+      "path": ".github/workflows/pypipublish.yaml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A specification that python filesystems should adhere to.",
+    "fork": false,
+    "full_name": "fsspec/filesystem_spec",
+    "html_url": "https://github.com/fsspec/filesystem_spec",
+    "language": "Python",
+    "pushed_at": "2026-04-17T16:19:13Z",
+    "stargazers_count": 1305,
+    "topics": [],
+    "updated_at": "2026-04-22T08:02:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

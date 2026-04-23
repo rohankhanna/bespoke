@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:35:57.264927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tiny AutoEncoder for Mochi 1",
+    "fork": false,
+    "full_name": "madebyollin/taem1",
+    "html_url": "https://github.com/madebyollin/taem1",
+    "language": "Python",
+    "pushed_at": "2024-11-13T02:03:06Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-08-30T11:27:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

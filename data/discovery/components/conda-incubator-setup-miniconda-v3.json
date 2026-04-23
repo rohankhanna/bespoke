@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "fsspec/filesystem_spec"
     }
   ]
 }

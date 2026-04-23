@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/changelog.yml.x",
       "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/volto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/esp-hal"
     }
   ],
   "term": "Changelog check"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "staged-recipes linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "A place to submit conda recipes before they become fully fledged conda-forge feedstocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "staged-recipes linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate",
+      "text": "staged-recipes linter"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "staged-recipes linter",
+  "concept_id": "staged-recipes-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "staged-recipes linter",
+      "sense_id": "staged-recipes-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

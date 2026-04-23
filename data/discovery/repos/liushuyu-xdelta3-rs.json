@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:10:56.370914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 518
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust binding for xdelta3 (APL branch)",
+    "fork": false,
+    "full_name": "liushuyu/xdelta3-rs",
+    "html_url": "https://github.com/liushuyu/xdelta3-rs",
+    "language": "Rust",
+    "pushed_at": "2024-05-18T03:31:55Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-03T17:57:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

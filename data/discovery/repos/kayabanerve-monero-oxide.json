@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-deny.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-std.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-deny.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-deny.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Daily Deny Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-std.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-std.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "no-std build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Deploy Rust docs to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "target": "Monero Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:11.720731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 930
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4796
+    },
+    {
+      "path": ".github/workflows/daily-deny.yml",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 7563
+    },
+    {
+      "path": ".github/workflows/no-std.yml",
+      "size": 1489
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 3326
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 3897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "kayabaNerve/monero-oxide",
+    "html_url": "https://github.com/kayabaNerve/monero-oxide",
+    "language": "Rust",
+    "pushed_at": "2026-04-05T17:02:41Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-25T06:17:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Daily Deny Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-deny.yml",
+      "term": "Daily Deny Check"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "no-std build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-std.yml",
+      "term": "no-std build"
+    },
+    {
+      "context_snippet": "Deploy Rust docs to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Rust docs to Pages"
+    },
+    {
+      "context_snippet": "Monero Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Monero Tests"
+    }
+  ]
+}

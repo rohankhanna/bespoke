@@ -19,12 +19,30 @@
       "source_repo": "pq-code-package/mlkem-native",
       "status": "candidate-context",
       "text": "Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
+      "status": "candidate-context",
+      "text": "Base"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pq-code-package/mlkem-native",
+      "status": "candidate",
+      "text": "Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mldsa-native",
       "status": "candidate",
       "text": "Base"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/base.yml",
       "source_repo": "pq-code-package/mlkem-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

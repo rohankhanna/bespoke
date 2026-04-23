@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "aws/amazon-vpc-cni-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e_test.yaml",
+      "source_repo": "InternLM/InternEvo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "nearai/ironclaw"
     }
   ],
   "term": "E2E Tests"

@@ -67,6 +67,42 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate-context",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -171,11 +225,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "IntelLabs/fastRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternEvo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

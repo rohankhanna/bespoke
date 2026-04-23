@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EEEEhex/QQImpl",
+      "target": "swigger/wechat-ocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EEEEhex/QQImpl",
+      "target": "kanadeblisst00/wechat_ocr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "EEEEhex/QQImpl"
+}

@@ -55,6 +55,162 @@
       "source_repo": "daniilrobnikov/vits2",
       "status": "candidate-context",
       "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "Implementation of WaveGrad high-fidelity vocoder from Google Brain in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate-context",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate-context",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate-context",
+      "text": "WaveNet vocoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "- [Features](#features)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate-context",
+      "text": "VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate-context",
+      "text": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate-context",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "an open-source implementation of sequence-to-sequence based speech processing engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u6807\u8d1d\u6570\u636e\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u672c\u7684FastSpeech2\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "status": "candidate-context",
+      "text": ":stuck_out_tongue_closed_eyes: TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 (supported including English, French, Korean, Chinese, German and Easy to adapt for other languages)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate-context",
+      "text": "VITS-based zero-shot TTS system varying with diverse style/speaker conditioning methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate-context",
+      "text": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +237,84 @@
       "source_repo": "daniilrobnikov/vits2",
       "status": "candidate",
       "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate",
+      "text": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/glow-tts",
+      "status": "candidate",
+      "text": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "- [Features](#features)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaywalnut310/vits",
+      "status": "candidate",
+      "text": "In our recent [paper](https://arxiv.org/abs/2106.06103), we propose VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "status": "candidate",
+      "text": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TensorSpeech/TensorFlowTTS",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate",
+      "text": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +346,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "daniilrobnikov/vits2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keithito/tacotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaywalnut310/vits"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athena-team/athena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Executedone/Chinese-FastSpeech2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "TensorSpeech/TensorFlowTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

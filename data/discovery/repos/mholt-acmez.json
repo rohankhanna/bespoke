@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/acmez",
+      "target": "acme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/acmez",
+      "target": "acme-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/acmez",
+      "target": "lets-encrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/acmez",
+      "target": "rfc8555",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/acmez",
+      "target": "rfc8737",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:53.447010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6968
+    },
+    {
+      "path": "go.mod",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Premier ACME client library for Go",
+    "fork": false,
+    "full_name": "mholt/acmez",
+    "html_url": "https://github.com/mholt/acmez",
+    "language": "Go",
+    "pushed_at": "2026-03-09T21:51:01Z",
+    "stargazers_count": 335,
+    "topics": [
+      "acme",
+      "acme-client",
+      "lets-encrypt",
+      "rfc8555",
+      "rfc8737",
+      "tls"
+    ],
+    "updated_at": "2026-03-28T05:53:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "acmez - ACME client library for Go",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme"
+    },
+    {
+      "context_snippet": "acmez - ACME client library for Go",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-client"
+    },
+    {
+      "context_snippet": "acmez - ACME client library for Go",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lets-encrypt"
+    },
+    {
+      "context_snippet": "acmez - ACME client library for Go",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc8555"
+    },
+    {
+      "context_snippet": "acmez - ACME client library for Go",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc8737"
+    }
+  ]
+}

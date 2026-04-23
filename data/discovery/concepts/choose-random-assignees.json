@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Choose random assignees"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate-context",
+      "text": "Choose random assignees"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/HotShot",
+      "status": "candidate",
+      "text": "Choose random assignees"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26435,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26035,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26035,
+      "status": "candidate",
+      "text": "randomize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16496,
+      "status": "candidate",
+      "text": "assign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15074,
+      "status": "candidate",
+      "text": "assigned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Choose random assignees",
+  "concept_id": "choose-random-assignees",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Choose random assignees",
+      "sense_id": "choose-random-assignees#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tool, language and decoders for working with binary data."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tool, language and decoders for working with binary data."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049508,
+      "status": "candidate",
+      "text": "decipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049530,
+      "status": "candidate",
+      "text": "decrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049454,
+      "status": "candidate",
+      "text": "decryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049432,
+      "status": "candidate",
+      "text": "unscramble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049334,
+      "status": "candidate",
+      "text": "decoder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decode",
+      "sense_id": "decode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "decipher"
+    }
+  ],
+  "concept_id": "decode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decode",
+  "observation_id": "4745bef8691a3bdd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "decode",
+  "source_context_snippet": "Tool, language and decoders for working with binary data.",
+  "source_file": null,
+  "source_repo": "wader/fq",
+  "source_repo_description": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+}

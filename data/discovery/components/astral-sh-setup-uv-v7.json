@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -442,6 +442,256 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing-arm-linux.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing-linux.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing-macos.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/loopy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/EasyR1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-smoke-test.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "fonttools/fonttools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish-documentation.yml",
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-envs.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-verifiers-rl.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-and-release.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "source_repo": "google/adk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "google/adk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fray-unit-tests.yaml",
+      "source_repo": "marin-community/marin"
     }
   ]
 }

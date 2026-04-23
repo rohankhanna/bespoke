@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -772,6 +772,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "angular/domino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-tests.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance-report.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/repl-artefacts.yml",
+      "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-formatter.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/algolia-index.yml",
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "pypi/warehouse"
     }
   ]
 }

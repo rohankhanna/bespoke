@@ -3,7 +3,8 @@
     "End-to-end tests",
     "End to end tests",
     "End to end Tests",
-    "End-to-End Tests"
+    "End-to-End Tests",
+    "End-to-end Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,18 @@
       "source_repo": "OpenHands/OpenHands",
       "status": "candidate-context",
       "text": "End-to-End Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Build and run containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "End-to-end Tests"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +97,12 @@
       "source_repo": "OpenHands/OpenHands",
       "status": "candidate",
       "text": "End-to-End Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "End-to-end Tests"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +205,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

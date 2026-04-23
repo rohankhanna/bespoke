@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "vision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004271,
+      "status": "candidate",
+      "text": "sight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002005,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001546,
+      "status": "candidate",
+      "text": "imaginativeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004906,
+      "status": "candidate",
+      "text": "visual modality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004906,
+      "status": "candidate",
+      "text": "visual sensation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15061,
+      "status": "candidate",
+      "text": "sight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "imaginativeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "visual sense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "visual sensation"
+    }
+  ],
+  "canonical_name": "vision",
+  "concept_id": "vision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BVLC/caffe"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vision",
+      "sense_id": "vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

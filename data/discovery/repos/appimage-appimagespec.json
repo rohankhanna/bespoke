@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImage/AppImageSpec",
+      "target": "probonopd/appimagekit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImage/AppImageSpec",
+      "target": "probonopd/appimages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageSpec",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageSpec",
+      "target": "appimage-format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:44.436041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository holds the specification for the AppImage format.",
+    "fork": false,
+    "full_name": "AppImage/AppImageSpec",
+    "html_url": "https://github.com/AppImage/AppImageSpec",
+    "language": null,
+    "pushed_at": "2026-04-03T11:48:26Z",
+    "stargazers_count": 85,
+    "topics": [
+      "appimage",
+      "appimage-format"
+    ],
+    "updated_at": "2026-04-16T05:29:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probonopd/appimagekit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probonopd/appimages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage-format"
+    }
+  ]
+}

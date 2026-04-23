@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Test File References"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "Check Test File References"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate",
+      "text": "Check Test File References"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43506,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43506,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43506,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33389,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29036,
+      "status": "candidate",
+      "text": "reference"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Test File References",
+  "concept_id": "check-test-file-references",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-test-file-references.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Test File References",
+      "sense_id": "check-test-file-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

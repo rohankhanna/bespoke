@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Slow Tests Issue Body"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "Slow Tests Issue Body"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate",
+      "text": "Slow Tests Issue Body"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33843,
+      "status": "candidate",
+      "text": "precession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33600,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33600,
+      "status": "candidate",
+      "text": "creeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33587,
+      "status": "candidate",
+      "text": "crawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33587,
+      "status": "candidate",
+      "text": "crawling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slow Tests Issue Body",
+  "concept_id": "slow-tests-issue-body",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/slow-tests-issue.yml",
+      "source_repo": "pymc-devs/pytensor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slow Tests Issue Body",
+      "sense_id": "slow-tests-issue-body#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

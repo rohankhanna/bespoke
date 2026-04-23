@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "keychain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate-context",
+      "text": "A vault for securely storing and accessing AWS credentials in development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "99designs/aws-vault",
+      "status": "candidate",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024535,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022990,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29895502,
+      "status": "candidate",
+      "text": "password"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027655,
+      "status": "candidate",
+      "text": "watchchain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027654,
+      "status": "candidate",
+      "text": "collar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "keychain",
+  "concept_id": "keychain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "99designs/aws-vault"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keychain",
+      "sense_id": "keychain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

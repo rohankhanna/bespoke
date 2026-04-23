@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The code linting framework for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SublimeLinter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SublimeLinter"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublimelinter",
+      "sense_id": "sublimelinter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sublimelinter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sublimelinter",
+  "observation_id": "fa2a7ad0aafde05b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sublimelinter",
+  "source_context_snippet": "SublimeLinter",
+  "source_file": null,
+  "source_repo": "SublimeLinter/SublimeLinter",
+  "source_repo_description": "The code linting framework for Sublime Text"
+}

@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Issue processing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate-context",
+      "text": "Documentation for ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate-context",
+      "text": "Issue processing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate",
+      "text": "Issue processing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "addressing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue processing",
+  "concept_id": "issue-processing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue processing",
+      "sense_id": "issue-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

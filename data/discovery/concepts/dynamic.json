@@ -19,6 +19,18 @@
       "source_repo": "analysis-tools-dev/dynamic-analysis",
       "status": "candidate-context",
       "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "analysis-tools-dev/dynamic-analysis",
       "status": "candidate",
       "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "analysis-tools-dev/dynamic-analysis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

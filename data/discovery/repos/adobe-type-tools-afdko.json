@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.21.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.21.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "security-extended",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cvg.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cvg.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "karelzak/util-linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "Test with ASAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "pypa/cibuildwheel@v2.21.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "security-extended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cvg.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cvg.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "microsoft/setup-msbuild@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "source_repo": "adobe-type-tools/afdko",
+      "target": "AFDKO Test Suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:00.734631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6421
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/asan.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 3570
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2042
+    },
+    {
+      "path": ".github/workflows/run_cvg.yml",
+      "size": 1537
+    },
+    {
+      "path": ".github/workflows/testpythonpackage.yml",
+      "size": 2870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Adobe Font Development Kit for OpenType",
+    "fork": false,
+    "full_name": "adobe-type-tools/afdko",
+    "html_url": "https://github.com/adobe-type-tools/afdko",
+    "language": "PostScript",
+    "pushed_at": "2026-04-15T09:51:27Z",
+    "stargazers_count": 1161,
+    "topics": [],
+    "updated_at": "2026-04-15T09:51:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karelzak/util-linux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test with ASAN",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asan.yml",
+      "term": "Test with ASAN"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "AFDKO Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testpythonpackage.yml",
+      "term": "AFDKO Test Suite"
+    }
+  ]
+}

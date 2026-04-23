@@ -1,0 +1,522 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignment.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignment.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@9dbec29a20fab3f35017a40ad0eb798a257d4d51",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-contributor-terms.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignment.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assignment.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignment.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "auto-assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras",
+      "target": "google-github-actions/run-gemini-cli@9dbec29a20fab3f35017a40ad0eb798a257d4d51",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras",
+      "target": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "keras-team/keras",
+      "target": "Keras GPU Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "keras-team/keras",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "keras-team/keras",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "keras-team/keras",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-contributor-terms.yml",
+      "source_repo": "keras-team/keras",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-contributor-terms.yml",
+      "source_repo": "keras-team/keras",
+      "target": "PR Contributor Agreement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:15.671133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5354
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2703
+    },
+    {
+      "path": "requirements.txt",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 5392
+    },
+    {
+      "path": ".github/workflows/auto-assignment.yaml",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/gemini-automated-issue-triage.yml",
+      "size": 15088
+    },
+    {
+      "path": ".github/workflows/gpu_tests.yml",
+      "size": 2509
+    },
+    {
+      "path": ".github/workflows/labeler.yaml",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 3764
+    },
+    {
+      "path": ".github/workflows/pr-contributor-terms.yml",
+      "size": 1857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep Learning for humans",
+    "fork": false,
+    "full_name": "keras-team/keras",
+    "html_url": "https://github.com/keras-team/keras",
+    "language": "Python",
+    "pushed_at": "2026-04-23T16:18:47Z",
+    "stargazers_count": 64028,
+    "topics": [
+      "data-science",
+      "deep-learning",
+      "jax",
+      "machine-learning",
+      "neural-networks",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-23T18:09:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "auto-assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assignment.yaml",
+      "term": "auto-assignment"
+    },
+    {
+      "context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "term": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage"
+    },
+    {
+      "context_snippet": "Keras GPU Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "term": "Keras GPU Tests"
+    },
+    {
+      "context_snippet": "'Labeler'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "'PR Contributor Agreement'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-contributor-terms.yml",
+      "term": "PR Contributor Agreement"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

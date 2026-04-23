@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Flatpak"
+    "Flatpak",
+    "flatpak"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "ghostty-org/ghostty",
       "status": "candidate-context",
       "text": "Flatpak"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Run commands on your host from inside your toolbox or flatpak sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "ghostty-org/ghostty",
       "status": "candidate",
       "text": "Flatpak"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/flatpak.yml",
       "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1player/host-spawn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Use pre-commit to validate Pull Request'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Use pre-commit to validate Pull Request'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44642,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44642,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32833,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32505,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32498,
+      "status": "candidate",
+      "text": "refuse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Use pre-commit to validate Pull Request",
+      "sense_id": "use-pre-commit-to-validate-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "use-pre-commit-to-validate-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "use-pre-commit-to-validate-pull-request",
+  "observation_id": "531709085711391d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Use pre-commit to validate Pull Request",
+  "source_context_snippet": "'Use pre-commit to validate Pull Request'",
+  "source_file": ".github/workflows/pr-precommit.yml",
+  "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+  "source_repo_description": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+}

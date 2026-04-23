@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-homebrew-bump-formula@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "walles/px",
+      "target": "walles/loadviz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "walles/px",
+      "target": "joerick/pyinstrument",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px",
+      "target": "dawidd6/action-homebrew-bump-formula@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px",
+      "target": "Continuous Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "walles/px",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "walles/px",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "walles/px",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "console-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "htop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "pgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "pipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "process-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "pstree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:50.816811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 18636
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1411
+    },
+    {
+      "path": ".github/workflows/deployment.yml",
+      "size": 2011
+    },
+    {
+      "path": ".github/workflows/linux-ci.yml",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/macos-ci.yml",
+      "size": 1447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "python",
+    "description": "ps, top and pstree for human beings",
+    "fork": false,
+    "full_name": "walles/px",
+    "html_url": "https://github.com/walles/px",
+    "language": "Python",
+    "pushed_at": "2026-01-29T19:41:36Z",
+    "stargazers_count": 321,
+    "topics": [
+      "command-line",
+      "command-line-tool",
+      "console",
+      "console-application",
+      "htop",
+      "ipc",
+      "linux",
+      "macos",
+      "osx",
+      "pex",
+      "pgrep",
+      "pipe",
+      "process-monitor",
+      "ps",
+      "pstree",
+      "python",
+      "python3",
+      "terminal",
+      "top",
+      "tui"
+    ],
+    "updated_at": "2026-04-21T18:32:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joerick/pyinstrument",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "walles/loadviz",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Delivery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "term": "Continuous Delivery"
+    },
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-application"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htop"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pgrep"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipe"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-monitor"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pstree"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "|Linux CI Status| |macOS CI Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

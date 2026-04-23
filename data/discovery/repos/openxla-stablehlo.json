@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml"
+    },
+    {
+      "component": "bazelbuild/setup-bazelisk@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestCMake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_tutorials.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_tutorials.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "bazelbuild/setup-bazelisk@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "Bazel Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestCMake.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildAndTestCMake.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "CMake Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_tutorials.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_tutorials.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute_tutorials.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "Execute Tutorial Notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_lint.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishWheelRelease.yml",
+      "source_repo": "openxla/stablehlo",
+      "target": "ncipollo/release-action@v1.13.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:47:19.948908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6701
+    },
+    {
+      "path": ".github/workflows/buildAndTestBazel.yml",
+      "size": 3198
+    },
+    {
+      "path": ".github/workflows/buildAndTestCMake.yml",
+      "size": 3662
+    },
+    {
+      "path": ".github/workflows/execute_tutorials.yml",
+      "size": 1324
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 3949
+    },
+    {
+      "path": ".github/workflows/markdown_lint.yml",
+      "size": 1121
+    },
+    {
+      "path": ".github/workflows/publishWheelRelease.yml",
+      "size": 4761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Backward compatible ML compute opset inspired by HLO/MHLO",
+    "fork": false,
+    "full_name": "openxla/stablehlo",
+    "html_url": "https://github.com/openxla/stablehlo",
+    "language": "MLIR",
+    "pushed_at": "2026-04-22T17:45:57Z",
+    "stargazers_count": 644,
+    "topics": [],
+    "updated_at": "2026-04-22T17:46:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bazel Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "term": "Bazel Build"
+    },
+    {
+      "context_snippet": "CMake Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildAndTestCMake.yml",
+      "term": "CMake Build"
+    },
+    {
+      "context_snippet": "Execute Tutorial Notebooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute_tutorials.yml",
+      "term": "Execute Tutorial Notebooks"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

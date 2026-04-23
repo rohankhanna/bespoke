@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "GH Check CLI Linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "Azure Command-Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "GH Check CLI Linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate",
+      "text": "GH Check CLI Linter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "rh negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GH Check CLI Linter",
+  "concept_id": "gh-check-cli-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/AzdevLinter.yml",
+      "source_repo": "Azure/azure-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GH Check CLI Linter",
+      "sense_id": "gh-check-cli-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

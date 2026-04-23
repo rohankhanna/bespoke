@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "milvus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/pymilvus",
+      "status": "candidate-context",
+      "text": "Python SDK for Milvus Vector Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/pymilvus",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/pymilvus",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/pymilvus.svg?color=blue)](https://pypi.org/project/pymilvus/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "genus-milvus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "accipiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "geranoaetus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "osprey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "hawks"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "genus-milvus"
+    }
+  ],
+  "canonical_name": "milvus",
+  "concept_id": "milvus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "milvus-io/pymilvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "milvus",
+      "sense_id": "milvus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -164,6 +164,18 @@
       "source_repo": "docker/login-action",
       "status": "candidate-context",
       "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +254,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
       "status": "candidate",
       "text": "validate"
     }
@@ -392,11 +410,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "docker/setup-buildx-action"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

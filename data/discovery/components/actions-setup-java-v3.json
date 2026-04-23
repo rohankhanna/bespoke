@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_cpp.yml",
       "source_repo": "Macoron/whisper.unity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/compileflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-api-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-api-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
     }
   ]
 }

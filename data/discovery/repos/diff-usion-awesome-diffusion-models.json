@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "1202kbs/dmcmc",
+      "target": "acids-ircam/diffusion_models",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "1jsingh/divide-evaluate-and-refine",
+      "target": "adobe-research/diffusion-rig",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "1zb/3dshape2vecset",
+      "target": "advocate99/diffgesture",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "42shawn/ptq4dm",
+      "target": "adobe-research/affordance-insertion",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:22:46.994675+00:00",
+  "fetched_at": "2026-04-23T21:20:59.247250+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/diff-usion/Awesome-Diffusion-Models",
     "language": "HTML",
     "pushed_at": "2024-08-01T07:11:20Z",
-    "stargazers_count": 12318,
+    "stargazers_count": 12320,
     "topics": [
       "artificial-intelligence",
       "diffusion-models",
@@ -98,27 +98,27 @@
       "score-based",
       "score-matching"
     ],
-    "updated_at": "2026-04-21T14:50:36Z"
+    "updated_at": "2026-04-23T08:08:26Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1202kbs/dmcmc",
+      "full_name": "acids-ircam/diffusion_models",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1jsingh/divide-evaluate-and-refine",
+      "full_name": "adobe-research/affordance-insertion",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1zb/3dshape2vecset",
+      "full_name": "adobe-research/diffusion-rig",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "42shawn/ptq4dm",
+      "full_name": "advocate99/diffgesture",
       "source_file": "README.md"
     }
   ],

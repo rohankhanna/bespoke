@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build aarch64 Linux (static)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Build aarch64 Linux (static)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "Build aarch64 Linux (static)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13048,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13048,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12807,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12656,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12656,
+      "status": "candidate",
+      "text": "knoppix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build aarch64 Linux (static)",
+  "concept_id": "build-aarch64-linux-static",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build aarch64 Linux (static)",
+      "sense_id": "build-aarch64-linux-static#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

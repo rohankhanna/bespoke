@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "postmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29867964,
+      "status": "candidate",
+      "text": "frank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021779,
+      "status": "candidate",
+      "text": "cachet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980699,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19923776,
+      "status": "candidate",
+      "text": "stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19849169,
+      "status": "candidate",
+      "text": "pill"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "frank"
+    }
+  ],
+  "canonical_name": "postmark",
+  "concept_id": "postmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "postmark",
+      "sense_id": "postmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

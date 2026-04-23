@@ -1,0 +1,594 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "extractions/setup-crate@4993624604c307fbca528d28a3c8b60fa5ecc859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@711d29f3da23c9f4a1798e369a6f01198c13b11a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "extractions/setup-crate@4993624604c307fbca528d28a3c8b60fa5ecc859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "cygwin/cygwin-install-action@711d29f3da23c9f4a1798e369a6f01198c13b11a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "astral-sh/python-build-standalone",
+      "target": "zizmor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:40:53.172701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 252
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 932
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 809
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40278
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 12847
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 6415
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 6748
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 6746
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Produce redistributable builds of Python",
+    "fork": false,
+    "full_name": "astral-sh/python-build-standalone",
+    "html_url": "https://github.com/astral-sh/python-build-standalone",
+    "language": "Python",
+    "pushed_at": "2026-04-23T18:38:33Z",
+    "stargazers_count": 4021,
+    "topics": [],
+    "updated_at": "2026-04-23T18:38:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows"
+    },
+    {
+      "context_snippet": "zizmor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "zizmor"
+    }
+  ]
+}

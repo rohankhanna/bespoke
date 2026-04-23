@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "endersonmenezes/free-disk-space@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "Update Nightly rustc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "endersonmenezes/free-disk-space@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "ludeeus/action-shellcheck@2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript",
+      "target": "Shellcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:29.836763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3269
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1908
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/cron-daily-fuzz.yml",
+      "size": 2173
+    },
+    {
+      "path": ".github/workflows/cron-weekly-update-nightly.yml",
+      "size": 1972
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 4847
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Support for Miniscript and Output Descriptors for rust-bitcoin",
+    "fork": false,
+    "full_name": "rust-bitcoin/rust-miniscript",
+    "html_url": "https://github.com/rust-bitcoin/rust-miniscript",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T13:21:34Z",
+    "stargazers_count": 413,
+    "topics": [],
+    "updated_at": "2026-04-23T13:22:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "term": "Fuzz"
+    },
+    {
+      "context_snippet": "Update Nightly rustc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "term": "Update Nightly rustc"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "Shellcheck"
+    }
+  ]
+}

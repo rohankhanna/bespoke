@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39817808,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39744725,
+      "status": "candidate",
+      "text": "pawn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971884,
+      "status": "candidate",
+      "text": "instrumentate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971884,
+      "status": "candidate",
+      "text": "legal document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971884,
+      "status": "candidate",
+      "text": "legal instrument"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instrument",
+      "sense_id": "instrument#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "pawn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "legal document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "instrumentate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "legal instrument"
+    }
+  ],
+  "concept_id": "instrument",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instrument",
+  "observation_id": "6ef823f8b59cf9c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "instrument",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "orhun/tuitar",
+  "source_repo_description": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+}

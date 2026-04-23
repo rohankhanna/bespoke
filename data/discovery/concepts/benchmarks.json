@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -129,6 +131,42 @@
       "source_repo": "DataDog/opa",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "Benchmarking Goal-Oriented Software Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +227,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DataDog/opa",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
       "status": "candidate",
       "text": "Benchmarks"
     }
@@ -353,11 +409,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/benchmarks.yaml",
       "source_repo": "DataDog/opa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CodeClash-ai/CodeClash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "open-policy-agent/opa"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

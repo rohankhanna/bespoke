@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cherry Pick to Release Branch"
+    "Cherry Pick to Release Branch",
+    "Cherry-pick to Release Branch"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "containers/podman",
       "status": "candidate-context",
       "text": "Cherry Pick to Release Branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Offline optimization of your disaggregated Dynamo graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Cherry-pick to Release Branch"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "containers/podman",
       "status": "candidate",
       "text": "Cherry Pick to Release Branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate",
+      "text": "Cherry-pick to Release Branch"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 27865,
       "status": "candidate",
       "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9336,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9336,
+      "status": "candidate",
+      "text": "communications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9336,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9336,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9322,
+      "status": "candidate",
+      "text": "announcements"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/cherry-pick.yml",
       "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "ai-dynamo/aiconfigurator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

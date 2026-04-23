@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "struct"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate",
+      "text": "defaults"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971932,
+      "status": "candidate",
+      "text": "extern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023583,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023582,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023581,
+      "status": "candidate",
+      "text": "structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023580,
+      "status": "candidate",
+      "text": "handle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "struct",
+  "concept_id": "struct",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "creasty/defaults"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "struct",
+      "sense_id": "struct#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

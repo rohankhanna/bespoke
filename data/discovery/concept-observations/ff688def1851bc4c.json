@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">SQLx</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">SQLx</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050821,
+      "status": "candidate",
+      "text": "wait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014273,
+      "status": "candidate",
+      "text": "expect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980040,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051340,
+      "status": "candidate",
+      "text": "waiting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050566,
+      "status": "candidate",
+      "text": "bide"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "await",
+      "sense_id": "await#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5041,
+      "status": "candidate",
+      "text": "expect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "wait"
+    }
+  ],
+  "concept_id": "await",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "await",
+  "observation_id": "ff688def1851bc4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "await",
+  "source_context_snippet": "<h1 align=\"center\">SQLx</h1>",
+  "source_file": null,
+  "source_repo": "launchbadge/sqlx",
+  "source_repo_description": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+}

@@ -79,7 +79,7 @@
   "normalized_form": "gemini-dispatch",
   "observation_id": "dd363aa92a42aa0a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Gemini Dispatch",
   "source_context_snippet": "'Gemini Dispatch'",
   "source_file": ".github/workflows/gemini-dispatch.yml",

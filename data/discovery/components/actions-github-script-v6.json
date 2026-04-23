@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v6",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -157,6 +157,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-draft-release.yml",
       "source_repo": "microsoft/react-native-macos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "microsoft/debugpy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/triage-agent.yml",
+      "source_repo": "microsoft/java-debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/triage-all-open-issues.yml",
+      "source_repo": "microsoft/java-debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "CVEProject/cvelistV5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
     }
   ]
 }

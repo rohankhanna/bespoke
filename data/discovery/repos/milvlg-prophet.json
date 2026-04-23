@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "a-okvqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "multimodal-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "okvqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:43.159228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of CVPR 2023 paper \"Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering\".",
+    "fork": false,
+    "full_name": "MILVLG/prophet",
+    "html_url": "https://github.com/MILVLG/prophet",
+    "language": "Python",
+    "pushed_at": "2025-06-14T03:31:10Z",
+    "stargazers_count": 278,
+    "topics": [
+      "a-okvqa",
+      "gpt-3",
+      "multimodal-deep-learning",
+      "okvqa",
+      "prompt-engineering",
+      "pytorch",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-04-08T16:52:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a-okvqa"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-deep-learning"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "okvqa"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

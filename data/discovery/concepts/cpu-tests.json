@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CPU tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "CPU tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate",
+      "text": "CPU tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11171,
+      "status": "candidate",
+      "text": "microcontroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11006,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10884,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "bars"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CPU tests",
+  "concept_id": "cpu-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPU tests",
+      "sense_id": "cpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

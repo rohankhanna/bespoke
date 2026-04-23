@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger Community Edition to Enterprise Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger Community Edition to Enterprise Merge"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40066,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672,
+      "status": "candidate",
+      "text": "rallying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39603,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39525,
+      "status": "candidate",
+      "text": "enter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Community Edition to Enterprise Merge",
+      "sense_id": "trigger-community-edition-to-enterprise-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-community-edition-to-enterprise-merge",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-community-edition-to-enterprise-merge",
+  "observation_id": "30e74caf682a7a88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Trigger Community Edition to Enterprise Merge",
+  "source_context_snippet": "Trigger Community Edition to Enterprise Merge",
+  "source_file": ".github/workflows/ce-merge-trigger.yml",
+  "source_repo": "hashicorp/consul",
+  "source_repo_description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+}

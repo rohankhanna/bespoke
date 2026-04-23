@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "bagder/roffit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "bagder/roffit",
+      "target": "fsfe/reuse-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "bagder/roffit",
+      "target": "REUSE compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bagder/roffit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bagder/roffit",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/roffit",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/roffit",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/roffit",
+      "target": "man-page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bagder/roffit",
+      "target": "nroff",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:59.339021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "converts nroff man pages to HTML",
+    "fork": false,
+    "full_name": "bagder/roffit",
+    "html_url": "https://github.com/bagder/roffit",
+    "language": "Perl",
+    "pushed_at": "2025-10-16T06:16:14Z",
+    "stargazers_count": 116,
+    "topics": [
+      "conversion",
+      "html",
+      "man-page",
+      "nroff"
+    ],
+    "updated_at": "2026-02-15T07:58:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "REUSE compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE compliance"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "A command line tool that reads nroff and outputs HTML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "A command line tool that reads nroff and outputs HTML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "A command line tool that reads nroff and outputs HTML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "man-page"
+    },
+    {
+      "context_snippet": "A command line tool that reads nroff and outputs HTML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nroff"
+    }
+  ]
+}

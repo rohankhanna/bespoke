@@ -19,6 +19,18 @@
       "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Updates README with Todoist Stats of a user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
       "status": "candidate",
       "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

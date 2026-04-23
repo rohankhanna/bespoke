@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-empty-issue.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ],
+  "term": "Close empty issues and templates"
+}

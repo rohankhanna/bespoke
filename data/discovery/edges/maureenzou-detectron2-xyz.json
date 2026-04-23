@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "facebookresearch/detectron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "Check issue template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "dessant/lock-threads@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "Remove needs-more-info label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "MaureenZOU/detectron2-xyz"
+}

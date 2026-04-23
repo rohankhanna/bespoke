@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    },
+    {
+      "component": "cargo-bins/release-pr@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "arkworks-rs/r1cs-std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "arkworks-rs/crypto-primitives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "Linkify Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "taiki-e/install-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "cargo-bins/release-pr@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "arkworks-rs/groth16",
+      "target": "Open a release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16",
+      "target": "groth16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16",
+      "target": "snark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/groth16",
+      "target": "zksnark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:38:13.853221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2671
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4186
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2731
+    },
+    {
+      "path": ".github/workflows/linkify_changelog.yml",
+      "size": 459
+    },
+    {
+      "path": ".github/workflows/release_pr.yml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust implementation of the Groth16 zkSNARK",
+    "fork": false,
+    "full_name": "arkworks-rs/groth16",
+    "html_url": "https://github.com/arkworks-rs/groth16",
+    "language": "Rust",
+    "pushed_at": "2025-08-11T21:55:36Z",
+    "stargazers_count": 338,
+    "topics": [
+      "cryptography",
+      "groth16",
+      "rust",
+      "snark",
+      "zksnark"
+    ],
+    "updated_at": "2026-04-05T19:50:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/crypto-primitives",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/r1cs-std",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linkify Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "term": "Linkify Changelog"
+    },
+    {
+      "context_snippet": "Open a release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pr.yml",
+      "term": "Open a release PR"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-groth16</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-groth16</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groth16"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-groth16</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-groth16</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-groth16</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zksnark"
+    }
+  ]
+}

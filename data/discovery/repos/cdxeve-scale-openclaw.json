@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:46:11.171593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9967
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collect OpenClaw Trajectories at Scale & Docker-Free",
+    "fork": false,
+    "full_name": "cdxeve/scale-openclaw",
+    "html_url": "https://github.com/cdxeve/scale-openclaw",
+    "language": "Python",
+    "pushed_at": "2026-04-12T02:08:49Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-15T07:22:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

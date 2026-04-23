@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "leveldown",
+      "sense_id": "leveldown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "leveldown",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "leveldown",
+  "observation_id": "eaa527f4e88e5f51",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "leveldown",
+  "source_context_snippet": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+  "source_file": null,
+  "source_repo": "Level/memdown",
+  "source_repo_description": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers."
+}

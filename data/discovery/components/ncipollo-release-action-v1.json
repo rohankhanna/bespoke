@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@v1",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pochi-cli.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Infleqtion/client-superstaq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/fontmake"
     }
   ]
 }

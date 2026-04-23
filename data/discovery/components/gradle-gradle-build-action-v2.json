@@ -1,12 +1,27 @@
 {
   "component": "gradle/gradle-build-action@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-publishing.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mamoe/mirai"
     }
   ]
 }

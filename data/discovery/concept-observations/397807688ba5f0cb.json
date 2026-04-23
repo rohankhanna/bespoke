@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29867964,
+      "status": "candidate",
+      "text": "frank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021779,
+      "status": "candidate",
+      "text": "cachet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980699,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19923776,
+      "status": "candidate",
+      "text": "stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19849169,
+      "status": "candidate",
+      "text": "pill"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "postmark",
+      "sense_id": "postmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "frank"
+    }
+  ],
+  "concept_id": "postmark",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "postmark",
+  "observation_id": "397807688ba5f0cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "postmark",
+  "source_context_snippet": "Anymail: Django email integration for transactional ESPs",
+  "source_file": null,
+  "source_repo": "anymail/django-anymail",
+  "source_repo_description": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+}

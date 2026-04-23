@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:00:28.402969+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A vim plugin to toggle words between pairs or lists of related words.",
+    "fork": false,
+    "full_name": "zef/vim-cycle",
+    "html_url": "https://github.com/zef/vim-cycle",
+    "language": "Vim Script",
+    "pushed_at": "2025-01-23T17:05:37Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-01-30T12:18:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

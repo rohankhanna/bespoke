@@ -2,7 +2,8 @@
   "aliases": [
     "Publish to PyPI",
     "Publish to pypi",
-    "Publish to PYPI"
+    "Publish to PYPI",
+    "Publish to Pypi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -351,6 +352,54 @@
       "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names for Python (IDNA 2008 and UTS #46)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Simple text to phones converter for multiple languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Publish to Pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Boulaouaney/timmx",
+      "status": "candidate-context",
+      "text": "A tool to export pre-trained/finetuned timm models to various deployment-ready frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boulaouaney/timmx",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +574,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate",
+      "text": "Publish to Pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Boulaouaney/timmx",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -774,11 +847,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "mxmlnkn/ratarmount"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

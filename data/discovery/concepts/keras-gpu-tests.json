@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Keras GPU Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Keras GPU Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "Keras GPU Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "keratin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "available"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Keras GPU Tests",
+  "concept_id": "keras-gpu-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "keras-team/keras"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keras GPU Tests",
+      "sense_id": "keras-gpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

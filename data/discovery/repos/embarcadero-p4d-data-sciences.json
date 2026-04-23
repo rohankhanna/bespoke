@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/P4D-Data-Sciences",
+      "target": "embarcadero/pythonpackages4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/P4D-Data-Sciences",
+      "target": "embarcadero/python4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/P4D-Data-Sciences",
+      "target": "embarcadero/pythonenvironments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Embarcadero/P4D-Data-Sciences",
+      "target": "embarcadero/lightweight-python-wrappers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:13:25.298917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of lightweight Python wrappers based on Python4Delphi simplifying Data Sciences development with Delphi",
+    "fork": false,
+    "full_name": "Embarcadero/P4D-Data-Sciences",
+    "html_url": "https://github.com/Embarcadero/P4D-Data-Sciences",
+    "language": "Pascal",
+    "pushed_at": "2026-02-27T10:21:53Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-03-26T01:21:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/lightweight-python-wrappers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/python4delphi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/pythonenvironments",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/pythonpackages4delphi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

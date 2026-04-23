@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "ipfs-helia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "An implementation of IPFS in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "Ready-to-run Helia examples for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "The Routing V1 HTTP API powered by Helia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Run Helia NodeJS in a Docker Container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ipfs-helia",
+  "concept_id": "ipfs-helia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia-remote-pinning"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipfs-helia",
+      "sense_id": "ipfs-helia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

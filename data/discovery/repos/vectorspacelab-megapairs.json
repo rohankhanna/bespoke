@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorSpaceLab/MegaPairs",
+      "target": "vectorspacelab/vis-ir",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:10.716251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2025 Oral] \ud83d\udd25\ud83d\udd25 MegaPairs: Massive Data Synthesis for Universal Multimodal Retrieval",
+    "fork": false,
+    "full_name": "VectorSpaceLab/MegaPairs",
+    "html_url": "https://github.com/VectorSpaceLab/MegaPairs",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-11-06T13:07:19Z",
+    "stargazers_count": 244,
+    "topics": [],
+    "updated_at": "2026-04-02T07:01:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorspacelab/vis-ir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

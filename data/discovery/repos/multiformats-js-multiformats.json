@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "@stablelib/sha256",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stablelib/sha512",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "buffer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cids",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crypto-hash",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml"
+    },
+    {
+      "component": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipld/js-blockcodec-to-ipld-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipld/interface-ipld-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipld/js-dag-cbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ceramicnetwork/js-dag-jose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "@stablelib/sha256",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "@stablelib/sha512",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "cids",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "crypto-hash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "test & maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "Semantic PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/js-multiformats",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:54:27.282836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13121
+    },
+    {
+      "path": "package.json",
+      "size": 8176
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/js-test-and-release.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multiformats interface (multihash, multicodec, multibase and CID)",
+    "fork": false,
+    "full_name": "multiformats/js-multiformats",
+    "html_url": "https://github.com/multiformats/js-multiformats",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-01T16:19:05Z",
+    "stargazers_count": 267,
+    "topics": [],
+    "updated_at": "2026-04-15T01:46:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ceramicnetwork/js-dag-jose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/interface-ipld-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-blockcodec-to-ipld-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-dag-cbor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "test & maybe release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "term": "test & maybe release"
+    },
+    {
+      "context_snippet": "Semantic PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "term": "Semantic PR"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    }
+  ]
+}

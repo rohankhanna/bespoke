@@ -31,6 +31,30 @@
       "source_repo": "ajv-validator/ajv",
       "status": "candidate-context",
       "text": "<img align=\"right\" alt=\"Ajv logo\" width=\"160\" src=\"https://ajv.js.org/img/ajv.svg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for Ajv JSON schema validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "Additional JSON-Schema keywords for Ajv JSON validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ajv-validator/ajv",
       "status": "candidate",
       "text": "<img align=\"right\" alt=\"Ajv logo\" width=\"160\" src=\"https://ajv.js.org/img/ajv.svg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate",
+      "text": "Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv) - superfast JSON validator for JSON Schema and JSON Type Definition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate",
+      "text": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-keywords"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

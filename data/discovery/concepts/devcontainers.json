@@ -103,6 +103,30 @@
       "source_repo": "devcontainers/action",
       "status": "candidate-context",
       "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate-context",
+      "text": "A GitHub Action and Azure DevOps Task designed to simplify using Dev Containers (https://containers.dev) in CI/CD systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate-context",
+      "text": "The Dev Container Build and Run GitHub Action is aimed at making it easier to re-use [Dev Containers](https://containers.dev) in a GitHub workflow. The Action supports using a Dev Container to run commands for CI, testing, and more, along with pre-building a Dev Container image.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "devcontainers/action",
+      "status": "candidate",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate",
+      "text": "The Dev Container Build and Run GitHub Action is aimed at making it easier to re-use [Dev Containers](https://containers.dev) in a GitHub workflow. The Action supports using a Dev Container to run commands for CI, testing, and more, along with pre-building a Dev Container image.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
       "status": "candidate",
       "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
     }
@@ -208,11 +244,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "devcontainers/action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

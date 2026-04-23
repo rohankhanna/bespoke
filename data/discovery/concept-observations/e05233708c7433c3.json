@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957111,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953661,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953193,
+      "status": "candidate",
+      "text": "analyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946718,
+      "status": "candidate",
+      "text": "analyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917077,
+      "status": "candidate",
+      "text": "profiler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parser",
+      "sense_id": "parser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "parser",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parser",
+  "observation_id": "e05233708c7433c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "parser",
+  "source_context_snippet": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust.",
+  "source_file": null,
+  "source_repo": "ada-url/rust",
+  "source_repo_description": "Rust bindings for Ada URL parser"
+}

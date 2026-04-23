@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "zubingou/math-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen2.5-Math",
+      "target": "qwen2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:09.801019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A series of math-specific large language models of our Qwen2 series.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen2.5-Math",
+    "html_url": "https://github.com/QwenLM/Qwen2.5-Math",
+    "language": "Python",
+    "pushed_at": "2025-01-11T17:30:43Z",
+    "stargazers_count": 1076,
+    "topics": [
+      "large-language-models",
+      "mathematics",
+      "qwen2"
+    ],
+    "updated_at": "2026-04-20T07:44:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zubingou/math-evaluation-harness",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen2"
+    }
+  ]
+}

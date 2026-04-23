@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation for ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge to Live"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge to Live"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11902,
+      "status": "candidate",
+      "text": "blend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11902,
+      "status": "candidate",
+      "text": "combination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11902,
+      "status": "candidate",
+      "text": "combine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11902,
+      "status": "candidate",
+      "text": "combining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11902,
+      "status": "candidate",
+      "text": "confluence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge to Live",
+      "sense_id": "merge-to-live#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-to-live",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-to-live",
+  "observation_id": "e52f6627018119c1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Merge to Live",
+  "source_context_snippet": "Merge to Live",
+  "source_file": ".github/workflows/merge-live.yml",
+  "source_repo": "dotnet/AspNetCore.Docs",
+  "source_repo_description": "Documentation for ASP.NET Core"
+}

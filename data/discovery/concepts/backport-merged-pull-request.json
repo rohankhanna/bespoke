@@ -19,12 +19,30 @@
       "source_repo": "ckan/ckan",
       "status": "candidate-context",
       "text": "Backport merged pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "CUDA Core Compute Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "Backport merged pull request"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "Backport merged pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
       "status": "candidate",
       "text": "Backport merged pull request"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/backports.yml",
       "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport-prs.yml",
+      "source_repo": "NVIDIA/cccl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

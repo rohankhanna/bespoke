@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zb/3DILG",
+      "target": "google-research/vision_transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:32.604690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "3DILG: Irregular Latent Grids for 3D Generative Modeling",
+    "fork": false,
+    "full_name": "1zb/3DILG",
+    "html_url": "https://github.com/1zb/3DILG",
+    "language": "Python",
+    "pushed_at": "2022-12-09T15:35:46Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-03-11T08:28:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/vision_transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

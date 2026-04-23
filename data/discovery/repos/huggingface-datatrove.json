@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/datatrove",
+      "target": "google-research/deduplicate-text-datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "PyPI release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "Test & Check Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/datatrove",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:03.434718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35677
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4085
+    },
+    {
+      "path": ".github/workflows/pypi-release.yml",
+      "size": 2349
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1542
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.",
+    "fork": false,
+    "full_name": "huggingface/datatrove",
+    "html_url": "https://github.com/huggingface/datatrove",
+    "language": "Python",
+    "pushed_at": "2026-04-20T12:40:54Z",
+    "stargazers_count": 3005,
+    "topics": [],
+    "updated_at": "2026-04-23T14:07:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/deduplicate-text-datasets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyPI release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "term": "PyPI release"
+    },
+    {
+      "context_snippet": "Test & Check Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Test & Check Code Quality"
+    },
+    {
+      "context_snippet": "Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Secret Leaks"
+    }
+  ]
+}

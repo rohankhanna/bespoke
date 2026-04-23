@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gwihlidal/vk-sync-rs",
+      "target": "tobski/simple_vulkan_synchronization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:08:55.001846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3672
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simplified Vulkan synchronization logic, written in rust",
+    "fork": false,
+    "full_name": "gwihlidal/vk-sync-rs",
+    "html_url": "https://github.com/gwihlidal/vk-sync-rs",
+    "language": "Rust",
+    "pushed_at": "2025-07-04T02:44:26Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-01-02T12:49:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tobski/simple_vulkan_synchronization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:04:31.906716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web Media applications developer guidelines",
+    "fork": false,
+    "full_name": "w3c/webmediaguidelines",
+    "html_url": "https://github.com/w3c/webmediaguidelines",
+    "language": "HTML",
+    "pushed_at": "2023-06-16T18:47:49Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-09-27T10:13:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

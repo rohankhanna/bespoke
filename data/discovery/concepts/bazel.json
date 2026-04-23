@@ -190,6 +190,114 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate-context",
       "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "D rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "https://registry.bazel.build/docs/rules_d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Rust rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "A bazel BUILD file formatter and editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate-context",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Helpers for generating Starlark documentation using Stardoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "Modern Bazel rules for building OCI container images with advanced performance optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Bazel rules for apko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "status": "candidate-context",
+      "text": "validate the structure of your container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "status": "candidate-context",
+      "text": "Bazel"
     }
   ],
   "candidate_glosses": [
@@ -280,6 +388,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bufbuild/protovalidate",
+      "status": "candidate",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate",
+      "text": "https://registry.bazel.build/docs/rules_d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate",
+      "text": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/buildtools",
+      "status": "candidate",
+      "text": "This repository contains developer tools for working with Google's `bazel` buildtool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/container-structure-test",
       "status": "candidate",
       "text": "Bazel"
     }
@@ -421,11 +583,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/bazel.yaml",
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bazel.yaml",
+      "source_repo": "GoogleContainerTools/container-structure-test"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

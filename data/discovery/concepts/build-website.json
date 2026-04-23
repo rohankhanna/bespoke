@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Website"
+    "Build Website",
+    "Build website"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/react-native-windows-samples",
       "status": "candidate-context",
       "text": "Build Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Build website"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "microsoft/react-native-windows-samples",
       "status": "candidate",
       "text": "Build Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "Build website"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 10755,
       "status": "candidate",
       "text": "blog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100108604,
+      "status": "candidate",
+      "text": "web design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100107604,
+      "status": "candidate",
+      "text": "web development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100008604,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100007481,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100007481,
+      "status": "candidate",
+      "text": "author"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/template-buildwebsite.yml",
       "source_repo": "microsoft/react-native-windows-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-website.yml",
+      "source_repo": "zloirock/core-js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

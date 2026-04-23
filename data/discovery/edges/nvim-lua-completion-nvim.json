@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "lifepillar/vim-mucomplete",
+      "target": "ms-jpq/coq_nvim",
       "target_type": "repository"
     },
     {
@@ -25,10 +25,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "kristijanhusak/completion-tags",
+      "target": "norcalli/snippets.nvim",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "nvim-lua/completion-nvim"
 }

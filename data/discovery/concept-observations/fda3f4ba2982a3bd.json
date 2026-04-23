@@ -84,7 +84,7 @@
   "normalized_form": "test-external",
   "observation_id": "fda3f4ba2982a3bd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Test External",
   "source_context_snippet": "Test External",
   "source_file": ".github/workflows/test-external.yml",

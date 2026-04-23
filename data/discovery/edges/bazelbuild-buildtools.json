@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "Close stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "formatter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bazelbuild/buildtools"
+}

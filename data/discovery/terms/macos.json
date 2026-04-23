@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -296,6 +296,131 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/macos-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/testing-macos.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/macmon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "macvim-dev/macvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "erigontech/silkworm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/Gifski"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "create-dmg/create-dmg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ada-url/goada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
     }
   ],
   "term": "macos"

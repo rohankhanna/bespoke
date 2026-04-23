@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotnet",
+      "sense_id": "dotnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dotnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dotnet",
+  "observation_id": "45f32fc9712f9f42",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "dotnet",
+  "source_context_snippet": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)",
+  "source_file": null,
+  "source_repo": "dotnet/docfx",
+  "source_repo_description": "Static site generator for .NET API documentation."
+}

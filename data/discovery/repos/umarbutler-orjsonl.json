@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "umarbutler/orjsonl",
+      "target": "pycompression/xopen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "umarbutler/orjsonl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "umarbutler/orjsonl",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "umarbutler/orjsonl",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "deserialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "gzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "json-lines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "jsonl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "jsonlines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "ndjson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl",
+      "target": "zstandard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:45:17.119554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11607
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1667
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, high-performance Python library for parsing jsonl files.",
+    "fork": false,
+    "full_name": "umarbutler/orjsonl",
+    "html_url": "https://github.com/umarbutler/orjsonl",
+    "language": "Python",
+    "pushed_at": "2023-11-09T02:30:53Z",
+    "stargazers_count": 52,
+    "topics": [
+      "bzip2",
+      "deserialization",
+      "gzip",
+      "json",
+      "json-lines",
+      "jsonl",
+      "jsonlines",
+      "ndjson",
+      "parser",
+      "parsing",
+      "python",
+      "serialization",
+      "xz",
+      "zstandard"
+    ],
+    "updated_at": "2026-04-20T21:48:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycompression/xopen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deserialization"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-lines"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonl"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonlines"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndjson"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    }
+  ]
+}

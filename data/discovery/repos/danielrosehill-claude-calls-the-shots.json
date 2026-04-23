@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:48:36.336392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Calls-The-Shots",
+    "html_url": "https://github.com/danielrosehill/Claude-Calls-The-Shots",
+    "language": "Shell",
+    "pushed_at": "2026-04-14T11:13:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-14T11:14:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

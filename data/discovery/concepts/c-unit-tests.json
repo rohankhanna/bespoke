@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "C Unit Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Connect to any device with no external listening ports open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "C Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate",
+      "text": "C Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13757,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "inkblot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "C Unit Tests",
+  "concept_id": "c-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/c_unit_tests.yaml",
+      "source_repo": "atsign-foundation/noports"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C Unit Tests",
+      "sense_id": "c-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+      "target": "ldnoobw/naughty-words-js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:33.469205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of Dirty, Naughty, Obscene, and Otherwise Bad Words",
+    "fork": false,
+    "full_name": "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+    "html_url": "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+    "language": null,
+    "pushed_at": "2024-08-05T08:32:35Z",
+    "stargazers_count": 3348,
+    "topics": [],
+    "updated_at": "2026-04-22T05:11:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldnoobw/naughty-words-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

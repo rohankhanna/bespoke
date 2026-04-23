@@ -79,6 +79,42 @@
       "source_repo": "yudai/gotty",
       "status": "candidate-context",
       "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate-context",
+      "text": "An ergonomic Python HTTP Client with TLS fingerprint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "yudai/gotty",
       "status": "candidate",
       "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-python",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "yudai/gotty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependency-review.yaml",
       "source_repo": "awslabs/amazon-eks-ami"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Cryptonomic/Tezori"
     }
   ],
   "term": "Dependency Review"

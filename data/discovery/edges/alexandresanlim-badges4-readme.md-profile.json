@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "alexandresanlim/badges4-readme.md-profile-dynamic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "simple-icons/simple-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "awesome-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "github-profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "readme-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "shield",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "shields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "target": "social",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+}

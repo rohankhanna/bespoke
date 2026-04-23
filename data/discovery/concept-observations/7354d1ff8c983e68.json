@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check hyperlinks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check hyperlinks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "clicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "navigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "link"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check hyperlinks",
+      "sense_id": "check-hyperlinks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-hyperlinks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-hyperlinks",
+  "observation_id": "7354d1ff8c983e68",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check hyperlinks",
+  "source_context_snippet": "Check hyperlinks",
+  "source_file": ".github/workflows/check-links.yml",
+  "source_repo": "Lightning-AI/litgpt",
+  "source_repo_description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+}

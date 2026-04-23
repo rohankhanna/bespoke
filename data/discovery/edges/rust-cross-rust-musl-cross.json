@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "musl-cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "musl-libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-cross/rust-musl-cross",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "rust-cross/rust-musl-cross"
+}

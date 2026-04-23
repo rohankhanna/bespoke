@@ -1,0 +1,940 @@
+{
+  "components": [
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/get-release-plan",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint-community/eslint-plugin-eslint-comments",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ota-meshi/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "env-cmd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-formatter-friendly",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-json-schema-validator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsonc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-mdx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node-dependencies",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-regexp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-yml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "undici",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "plantain-00/type-coverage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "atlassian/changesets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "sveltejs/eslint-plugin-svelte3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "sveltejs/prettier-plugin-svelte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@changesets/get-release-plan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@eslint-community/eslint-plugin-eslint-comments",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@ota-meshi/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@types/eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "env-cmd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-formatter-friendly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-json-schema-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-jsonc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-mdx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-node-dependencies",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-regexp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin-yml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "npm-run-all2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "prettier-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "undici",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/GHPages.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "GHPages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NodeCI.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "Update pkg.pr.new comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "Publish to pkg.pr.new",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "eslint-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sveltejs/eslint-plugin-svelte",
+      "target": "sveltejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:45.700984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27655
+    },
+    {
+      "path": "package.json",
+      "size": 2115
+    },
+    {
+      "path": ".github/workflows/GHPages.yml",
+      "size": 1229
+    },
+    {
+      "path": ".github/workflows/NodeCI.yml",
+      "size": 5110
+    },
+    {
+      "path": ".github/workflows/Release.yml",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/pkg.pr.new-comment.yml",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/pkg.pr.new.yml",
+      "size": 1382
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ESLint plugin for Svelte using AST",
+    "fork": false,
+    "full_name": "sveltejs/eslint-plugin-svelte",
+    "html_url": "https://github.com/sveltejs/eslint-plugin-svelte",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T09:17:29Z",
+    "stargazers_count": 401,
+    "topics": [
+      "eslint",
+      "eslint-plugin",
+      "svelte",
+      "sveltejs"
+    ],
+    "updated_at": "2026-04-23T14:27:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atlassian/changesets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plantain-00/type-coverage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/eslint-plugin-svelte3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/prettier-plugin-svelte",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GHPages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/GHPages.yml",
+      "term": "GHPages"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update pkg.pr.new comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.pr.new-comment.yml",
+      "term": "Update pkg.pr.new comment"
+    },
+    {
+      "context_snippet": "Publish to pkg.pr.new",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "term": "Publish to pkg.pr.new"
+    },
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<!--DOCS_IGNORE_START-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "<!--DOCS_IGNORE_START-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-plugin"
+    },
+    {
+      "context_snippet": "<!--DOCS_IGNORE_START-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "<!--DOCS_IGNORE_START-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sveltejs"
+    }
+  ]
+}

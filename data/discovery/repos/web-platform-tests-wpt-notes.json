@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:13:50.528458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minutes from wpt infra meetings",
+    "fork": false,
+    "full_name": "web-platform-tests/wpt-notes",
+    "html_url": "https://github.com/web-platform-tests/wpt-notes",
+    "language": null,
+    "pushed_at": "2025-06-03T15:35:29Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-11-26T19:13:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

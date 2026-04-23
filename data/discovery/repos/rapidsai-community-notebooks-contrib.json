@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai-community/notebooks-contrib",
+      "target": "gpuhackathons-org/gpubootcamp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai-community/notebooks-contrib",
+      "target": "exactlyallan/spatial-analytics-viz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai-community/notebooks-contrib",
+      "target": "clara-parabricks/rapids-single-cell-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai-community/notebooks-contrib",
+      "target": "graphistry/graph-app-kit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:00.599206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14287
+    },
+    {
+      "path": "Dockerfile",
+      "size": 992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RAPIDS Community Notebooks",
+    "fork": false,
+    "full_name": "rapidsai-community/notebooks-contrib",
+    "html_url": "https://github.com/rapidsai-community/notebooks-contrib",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-03T01:00:26Z",
+    "stargazers_count": 554,
+    "topics": [],
+    "updated_at": "2026-03-31T13:35:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clara-parabricks/rapids-single-cell-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exactlyallan/spatial-analytics-viz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpuhackathons-org/gpubootcamp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphistry/graph-app-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

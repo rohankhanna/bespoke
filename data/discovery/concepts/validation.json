@@ -70,6 +70,30 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate-context",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "validation"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate",
+      "text": "validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
+      "status": "candidate",
+      "text": "validation"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +240,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "google/adk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validation.yaml",
+      "source_repo": "google/adk-js"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,603 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "NVIDIA/holodeck@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "mikefarah/yq@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nvidia/libnvidia-container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Cherry-Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "NVIDIA/holodeck@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "mikefarah/yq@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "slackapi/slack-github-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "End-to-end Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "target": "Stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:06:35.410175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2292
+    },
+    {
+      "path": "go.mod",
+      "size": 2005
+    },
+    {
+      "path": ".github/workflows/cherrypick.yml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1442
+    },
+    {
+      "path": ".github/workflows/code_scanning.yaml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 4051
+    },
+    {
+      "path": ".github/workflows/golang.yaml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/image.yaml",
+      "size": 7133
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1061
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build and run containers leveraging NVIDIA GPUs",
+    "fork": false,
+    "full_name": "NVIDIA/nvidia-container-toolkit",
+    "html_url": "https://github.com/NVIDIA/nvidia-container-toolkit",
+    "language": "Go",
+    "pushed_at": "2026-04-23T08:20:19Z",
+    "stargazers_count": 4274,
+    "topics": [],
+    "updated_at": "2026-04-23T11:12:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/libnvidia-container",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cherry-Pick",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "term": "Cherry-Pick"
+    },
+    {
+      "context_snippet": "CI Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "CI Pipeline"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "End-to-end Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "End-to-end Tests"
+    },
+    {
+      "context_snippet": "Golang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yaml",
+      "term": "Golang"
+    },
+    {
+      "context_snippet": "image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "term": "image"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Stale issues"
+    }
+  ]
+}

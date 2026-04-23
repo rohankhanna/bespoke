@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vyorkin/ormolu.el",
+      "target": "purcell/reformatter.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:36.535398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1017
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A formatter for Haskell source code",
+    "fork": false,
+    "full_name": "vyorkin/ormolu.el",
+    "html_url": "https://github.com/vyorkin/ormolu.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-05-30T09:21:52Z",
+    "stargazers_count": 37,
+    "topics": [
+      "emacs",
+      "formatter",
+      "haskell"
+    ],
+    "updated_at": "2024-10-31T21:55:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purcell/reformatter.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

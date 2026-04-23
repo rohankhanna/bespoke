@@ -1,0 +1,42 @@
+{
+  "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts.yml",
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-distros.yml",
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

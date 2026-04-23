@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Entra ID extension for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "go test & coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "go test & coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37175,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35975,
+      "status": "candidate",
+      "text": "passed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26219,
+      "status": "candidate",
+      "text": "make it"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22074,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21826,
+      "status": "candidate",
+      "text": "audit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "go test & coverage",
+      "sense_id": "go-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-test-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-test-coverage",
+  "observation_id": "a936154b944aac7a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "go test & coverage",
+  "source_context_snippet": "go test & coverage",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "redis/go-redis-entraid",
+  "source_repo_description": "Entra ID extension for go-redis"
+}

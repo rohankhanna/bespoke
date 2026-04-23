@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coredns/deployment",
+      "target": "coredns/helm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:53:01.358810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scripts, utilities, and examples for deploying CoreDNS.",
+    "fork": false,
+    "full_name": "coredns/deployment",
+    "html_url": "https://github.com/coredns/deployment",
+    "language": "Shell",
+    "pushed_at": "2025-11-10T12:52:20Z",
+    "stargazers_count": 571,
+    "topics": [],
+    "updated_at": "2026-04-22T07:49:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coredns/helm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

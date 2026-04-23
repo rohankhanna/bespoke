@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984384,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030347,
+      "status": "candidate",
+      "text": "module"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015303,
+      "status": "candidate",
+      "text": "exponentiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014546,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007355,
+      "status": "candidate",
+      "text": "modularized"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modular",
+      "sense_id": "modular#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    }
+  ],
+  "concept_id": "modular",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "modular",
+  "observation_id": "96914cef37c5aaac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "modular",
+  "source_context_snippet": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.",
+  "source_file": null,
+  "source_repo": "OrchardCMS/OrchardCore",
+  "source_repo_description": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+}

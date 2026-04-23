@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Blockstream/rust-electrum-client",
+      "target": "magicalbitcoin/rust-electrum-client",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:46.292990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 100
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitcoin Electrum client library. Supports plaintext, TLS and Onion servers.",
+    "fork": true,
+    "full_name": "Blockstream/rust-electrum-client",
+    "html_url": "https://github.com/Blockstream/rust-electrum-client",
+    "language": null,
+    "pushed_at": "2021-08-20T12:36:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-11-17T23:34:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicalbitcoin/rust-electrum-client",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

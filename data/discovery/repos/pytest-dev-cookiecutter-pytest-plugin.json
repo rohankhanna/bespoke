@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "Run checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "target": "pytest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:23.576360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4531
+    },
+    {
+      "path": ".github/workflows/run-checks.yml",
+      "size": 550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Cookiecutter template for pytest plugins \ud83d\udcbb",
+    "fork": false,
+    "full_name": "pytest-dev/cookiecutter-pytest-plugin",
+    "html_url": "https://github.com/pytest-dev/cookiecutter-pytest-plugin",
+    "language": "Python",
+    "pushed_at": "2024-09-18T20:33:48Z",
+    "stargazers_count": 336,
+    "topics": [
+      "cookiecutter",
+      "pytest",
+      "python"
+    ],
+    "updated_at": "2026-04-17T14:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-checks.yml",
+      "term": "Run checks"
+    },
+    {
+      "context_snippet": "[![Documentation Status][docs_badge]][documentation]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "[![Documentation Status][docs_badge]][documentation]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    }
+  ]
+}

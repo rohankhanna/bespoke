@@ -31,6 +31,18 @@
       "source_repo": "Azure/azure-sdk-for-rust",
       "status": "candidate-context",
       "text": "This repository is for the active development of the Azure SDK for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "The Rust toolchain installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Azure/azure-sdk-for-rust",
       "status": "candidate",
       "text": "This repository is for the active development of the Azure SDK for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Azure/azure-sdk-for-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

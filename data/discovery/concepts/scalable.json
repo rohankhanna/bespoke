@@ -19,6 +19,30 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate-context",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "A cryptographically verifiable code review system for the cargo (Rust) package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/cargo-crev",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +134,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/cargo-crev"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "Level/classic-level",
       "status": "candidate-context",
       "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/browser-level",
+      "status": "candidate-context",
+      "text": "An abstract-level database for browsers, backed by IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browser-level",
+      "status": "candidate-context",
+      "text": "**An [`abstract-level`][abstract-level] database for browsers, backed by [IndexedDB][indexeddb].** The successor to [`level-js`](https://github.com/Level/level-js). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Web Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Level/classic-level",
       "status": "candidate",
       "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browser-level",
+      "status": "candidate",
+      "text": "**An [`abstract-level`][abstract-level] database for browsers, backed by [IndexedDB][indexeddb].** The successor to [`level-js`](https://github.com/Level/level-js). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate",
+      "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Level/classic-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/browser-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/web-stream"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

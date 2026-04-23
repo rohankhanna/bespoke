@@ -80,6 +80,30 @@
       "source_repo": "mcmilk/7-Zip-zstd",
       "status": "candidate-context",
       "text": "Build binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "Build binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\u26a1 A Git hook manager written in Rust, designed as a drop-in alternative to pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\"Build binaries\""
     }
   ],
   "candidate_glosses": [
@@ -118,6 +142,18 @@
       "source_repo": "mcmilk/7-Zip-zstd",
       "status": "candidate",
       "text": "Build binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate",
+      "text": "Build binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate",
+      "text": "\"Build binaries\""
     }
   ],
   "candidate_related_terms": [
@@ -209,11 +245,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mcmilk/7-Zip-zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "j178/prek"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

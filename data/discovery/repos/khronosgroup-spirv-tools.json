@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoroll.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "lukka/get-cmake@ea83089aa35e08e459464341fe24ad024ee2466f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "google/graphicsfuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "google/effcee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "microsoft/mimalloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "kbenzie/vim-spirv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoroll.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoroll.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "Update dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "Build and Test with Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "lukka/get-cmake@ea83089aa35e08e459464341fe24ad024ee2466f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "target": "Wasm Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:46.116020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32345
+    },
+    {
+      "path": ".github/workflows/autoroll.yml",
+      "size": 1807
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 1894
+    },
+    {
+      "path": ".github/workflows/ios.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2102
+    },
+    {
+      "path": ".github/workflows/wasm.yml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "KhronosGroup/SPIRV-Tools",
+    "html_url": "https://github.com/KhronosGroup/SPIRV-Tools",
+    "language": "C++",
+    "pushed_at": "2026-04-23T18:36:50Z",
+    "stargazers_count": 1297,
+    "topics": [],
+    "updated_at": "2026-04-23T18:36:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/effcee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/graphicsfuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kbenzie/vim-spirv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mimalloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoroll.yml",
+      "term": "Update dependencies"
+    },
+    {
+      "context_snippet": "Build and Test with Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Build and Test with Bazel"
+    },
+    {
+      "context_snippet": "iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "term": "iOS"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Wasm Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "term": "Wasm Build"
+    }
+  ]
+}

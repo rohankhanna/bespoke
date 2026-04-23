@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jb55/lnsocket",
+      "target": "lightningnetwork/lnd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jb55/lnsocket",
+      "target": "fiatjaf/makeinvoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jb55/lnsocket",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jb55/lnsocket",
+      "target": "clightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jb55/lnsocket",
+      "target": "lightning-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:00:03.095597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2681
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 416
+    },
+    {
+      "path": "package.json",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal C & js library for sending messages to lightning nodes",
+    "fork": false,
+    "full_name": "jb55/lnsocket",
+    "html_url": "https://github.com/jb55/lnsocket",
+    "language": "C",
+    "pushed_at": "2023-11-30T21:25:36Z",
+    "stargazers_count": 63,
+    "topics": [
+      "clightning",
+      "lightning-network"
+    ],
+    "updated_at": "2025-12-16T08:04:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fiatjaf/makeinvoice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightningnetwork/lnd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple C, JS and Go library for sending messages over the lightning network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clightning"
+    },
+    {
+      "context_snippet": "A simple C, JS and Go library for sending messages over the lightning network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning-network"
+    }
+  ]
+}

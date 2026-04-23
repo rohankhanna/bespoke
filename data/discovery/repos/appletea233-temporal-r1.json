@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "qwenlm/qwen2.5-vl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "hiyouga/vllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appletea233/Temporal-R1",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:11.537057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7392
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2504
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 734
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency",
+    "fork": false,
+    "full_name": "appletea233/Temporal-R1",
+    "html_url": "https://github.com/appletea233/Temporal-R1",
+    "language": "Python",
+    "pushed_at": "2025-06-06T19:05:51Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-03-05T08:01:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5-vl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/vllm",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

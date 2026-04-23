@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "XML extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> fork of [vscode-xml](https://github.com/redhat-developer/vscode-xml), provides support for creating and editing XML documents, based on the [LemMinX XML Language Server](https://github.com/eclipse/lemminx), running with Java."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> fork of [vscode-xml](https://github.com/redhat-developer/vscode-xml), provides support for creating and editing XML documents, based on the [LemMinX XML Language Server](https://github.com/eclipse/lemminx), running with Java."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xml-language-server",
+      "sense_id": "xml-language-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xml-language-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xml-language-server",
+  "observation_id": "7586bc387e8dcd1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "xml-language-server",
+  "source_context_snippet": "> fork of [vscode-xml](https://github.com/redhat-developer/vscode-xml), provides support for creating and editing XML documents, based on the [LemMinX XML Language Server](https://github.com/eclipse/lemminx), running with Java.",
+  "source_file": null,
+  "source_repo": "fannheyward/coc-xml",
+  "source_repo_description": "XML extension for coc.nvim"
+}

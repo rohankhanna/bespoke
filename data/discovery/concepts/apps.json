@@ -19,6 +19,18 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate-context",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate",
       "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "alexellis/arkade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

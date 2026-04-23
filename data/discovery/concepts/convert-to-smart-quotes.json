@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Convert to Smart Quotes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "Convert to Smart Quotes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate",
+      "text": "Convert to Smart Quotes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21198,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeemed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeeming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Convert to Smart Quotes",
+  "concept_id": "convert-to-smart-quotes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/smart-quotes.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Convert to Smart Quotes",
+      "sense_id": "convert-to-smart-quotes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "blurry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WillBrennan/BlurDetection2",
+      "status": "candidate-context",
+      "text": "Blur Detection with OpenCV in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WillBrennan/BlurDetection2",
+      "status": "candidate-context",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WillBrennan/BlurDetection2",
+      "status": "candidate",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027730,
+      "status": "candidate",
+      "text": "blurred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026915,
+      "status": "candidate",
+      "text": "muzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026565,
+      "status": "candidate",
+      "text": "indistinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019966,
+      "status": "candidate",
+      "text": "bleary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010398,
+      "status": "candidate",
+      "text": "foggy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48032,
+      "status": "candidate",
+      "text": "bleary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38031,
+      "status": "candidate",
+      "text": "indistinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "muzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "fuzzy"
+    }
+  ],
+  "canonical_name": "blurry",
+  "concept_id": "blurry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blurry",
+      "sense_id": "blurry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

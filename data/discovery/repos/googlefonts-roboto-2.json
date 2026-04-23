@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/roboto-2",
+      "target": "googlefonts/roboto-3-classic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/roboto-2",
+      "target": "google/roboto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/roboto-2",
+      "target": "behdad/harfbuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "googlefonts/roboto-2",
+      "target": "googlei18n/nototools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:33.600386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1904
+    },
+    {
+      "path": "requirements.txt",
+      "size": 524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The Roboto family of fonts",
+    "fork": false,
+    "full_name": "googlefonts/roboto-2",
+    "html_url": "https://github.com/googlefonts/roboto-2",
+    "language": "Python",
+    "pushed_at": "2025-04-01T16:56:26Z",
+    "stargazers_count": 3840,
+    "topics": [],
+    "updated_at": "2026-04-23T12:45:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behdad/harfbuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/roboto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/roboto-3-classic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlei18n/nototools",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

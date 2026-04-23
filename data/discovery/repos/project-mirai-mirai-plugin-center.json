@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "target": "mamoe/mirai-console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "project-mirai/mirai-plugin-center",
+      "target": "Build-deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:05.303590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 157
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[WIP] Center of plugins for Mirai Console and Mirai community.",
+    "fork": false,
+    "full_name": "project-mirai/mirai-plugin-center",
+    "html_url": "https://github.com/project-mirai/mirai-plugin-center",
+    "language": "Kotlin",
+    "pushed_at": "2022-02-13T18:53:59Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-02-12T06:46:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mamoe/mirai-console",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build-deploy"
+    }
+  ]
+}

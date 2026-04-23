@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "open-mmlab/mmocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "open-mmlab/mmpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "open-mmlab/mmhuman3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "open-mmlab/mmflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "deeplabv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "pspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "realtime-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "retinal-vessel-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation",
+      "target": "vessel-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:09:39.562383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26135
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenMMLab Semantic Segmentation Toolbox and Benchmark.",
+    "fork": false,
+    "full_name": "open-mmlab/mmsegmentation",
+    "html_url": "https://github.com/open-mmlab/mmsegmentation",
+    "language": "Python",
+    "pushed_at": "2024-08-13T08:53:34Z",
+    "stargazers_count": 9749,
+    "topics": [
+      "deeplabv3",
+      "image-segmentation",
+      "medical-image-segmentation",
+      "pspnet",
+      "pytorch",
+      "realtime-segmentation",
+      "retinal-vessel-segmentation",
+      "semantic-segmentation",
+      "swin-transformer",
+      "transformer",
+      "vessel-segmentation"
+    ],
+    "updated_at": "2026-04-23T05:20:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmhuman3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplabv3"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pspnet"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retinal-vessel-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vessel-segmentation"
+    }
+  ]
+}

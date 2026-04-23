@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/SlowFast",
+      "target": "facebookresearch/pytorchvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:45:48.446999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PySlowFast: video understanding codebase from FAIR for reproducing state-of-the-art video models.",
+    "fork": false,
+    "full_name": "facebookresearch/SlowFast",
+    "html_url": "https://github.com/facebookresearch/SlowFast",
+    "language": "Python",
+    "pushed_at": "2026-03-16T11:07:10Z",
+    "stargazers_count": 7347,
+    "topics": [],
+    "updated_at": "2026-04-23T01:25:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pytorchvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

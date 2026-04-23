@@ -1,0 +1,461 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-issue-references.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "Build, Check and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "Build and Publish Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "Stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-issue-references.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-issue-references.yaml",
+      "source_repo": "ai-dynamo/grove",
+      "target": "Validate PR Issue References",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "auto-scaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "auto-scaling-group",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "disaggregated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "gang-scheduling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "grove",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "leader-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "multinode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "role-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove",
+      "target": "topology-aware-scheduling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:12.593269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7075
+    },
+    {
+      "path": ".github/workflows/build-check-test.yaml",
+      "size": 6802
+    },
+    {
+      "path": ".github/workflows/push-artifacts.yaml",
+      "size": 3251
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2060
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 851
+    },
+    {
+      "path": ".github/workflows/validate-issue-references.yaml",
+      "size": 3082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling",
+    "fork": false,
+    "full_name": "ai-dynamo/grove",
+    "html_url": "https://github.com/ai-dynamo/grove",
+    "language": "Go",
+    "pushed_at": "2026-04-23T12:50:16Z",
+    "stargazers_count": 197,
+    "topics": [
+      "agentic",
+      "auto-scaling",
+      "auto-scaling-group",
+      "disaggregated",
+      "gang-scheduling",
+      "gpu",
+      "grove",
+      "inference",
+      "kubernetes",
+      "leader-worker",
+      "multinode",
+      "operator",
+      "role-based",
+      "topology-aware-scheduling"
+    ],
+    "updated_at": "2026-04-23T12:50:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build, Check and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-check-test.yaml",
+      "term": "Build, Check and Test"
+    },
+    {
+      "context_snippet": "Build and Publish Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-artifacts.yaml",
+      "term": "Build and Publish Artifacts"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Stale issues"
+    },
+    {
+      "context_snippet": "Validate PR Issue References",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-issue-references.yaml",
+      "term": "Validate PR Issue References"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-scaling"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-scaling-group"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disaggregated"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gang-scheduling"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grove"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leader-worker"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multinode"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "role-based"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topology-aware-scheduling"
+    }
+  ]
+}

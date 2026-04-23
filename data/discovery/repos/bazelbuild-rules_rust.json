@@ -1,0 +1,476 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_bazel_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_bazel_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_pyo3_dev_requirements.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/determinism.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/determinism.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runfiles_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runfiles_release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_bazel_release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_bazel_release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Release Cargo-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_pyo3_dev_requirements.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/determinism.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/determinism.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/determinism.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Determinism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "JamesIves/github-pages-deploy-action@4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runfiles_release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runfiles_release.yaml",
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "Release Runfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust",
+      "target": "rustdoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:53:54.466811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1217
+    },
+    {
+      "path": ".github/workflows/cargo_bazel_release.yaml",
+      "size": 1411
+    },
+    {
+      "path": ".github/workflows/compile_pyo3_dev_requirements.yaml",
+      "size": 1851
+    },
+    {
+      "path": ".github/workflows/determinism.yaml",
+      "size": 3971
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 533
+    },
+    {
+      "path": ".github/workflows/formatting.yaml",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 13777
+    },
+    {
+      "path": ".github/workflows/runfiles_release.yaml",
+      "size": 1405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust rules for Bazel",
+    "fork": false,
+    "full_name": "bazelbuild/rules_rust",
+    "html_url": "https://github.com/bazelbuild/rules_rust",
+    "language": "Starlark",
+    "pushed_at": "2026-04-23T01:49:43Z",
+    "stargazers_count": 807,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "rust",
+      "rust-lang",
+      "rustdoc"
+    ],
+    "updated_at": "2026-04-22T16:47:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Cargo-bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_bazel_release.yaml",
+      "term": "Release Cargo-bazel"
+    },
+    {
+      "context_snippet": "Determinism",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/determinism.yaml",
+      "term": "Determinism"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Release Runfiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runfiles_release.yaml",
+      "term": "Release Runfiles"
+    },
+    {
+      "context_snippet": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rustdoc"
+    }
+  ]
+}

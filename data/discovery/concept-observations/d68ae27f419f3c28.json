@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10644,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "disappearing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Tests",
+      "sense_id": "pr-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-tests",
+  "observation_id": "d68ae27f419f3c28",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "PR Tests",
+  "source_context_snippet": "PR Tests",
+  "source_file": ".github/workflows/tests-pr.yml",
+  "source_repo": "bitsandbytes-foundation/bitsandbytes",
+  "source_repo_description": "Accessible large language models via k-bit quantization for PyTorch."
+}

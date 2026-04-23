@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "alpha-vllm/lumina-image-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "alpha-vllm/lumina-t2x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "black-forest-labs/flux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "aigc-apps/easyanimate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "cogvideox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "hunyuan-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "inference-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "latte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "open-sora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "open-sora-plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:25.574674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13071
+    },
+    {
+      "path": "requirements.txt",
+      "size": 261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model",
+    "fork": false,
+    "full_name": "ali-vilab/TeaCache",
+    "html_url": "https://github.com/ali-vilab/TeaCache",
+    "language": "Python",
+    "pushed_at": "2025-06-08T14:29:09Z",
+    "stargazers_count": 1313,
+    "topics": [
+      "cogvideox",
+      "diffusion-models",
+      "hunyuan-video",
+      "inference-acceleration",
+      "latte",
+      "open-sora",
+      "open-sora-plan",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-23T12:47:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc-apps/easyanimate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/lumina-image-2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/lumina-t2x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "black-forest-labs/flux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cogvideox"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan-video"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-acceleration"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latte"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-sora"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-sora-plan"
+    },
+    {
+      "context_snippet": "<div class=\"is-size-5 publication-authors\", align=\"center\",>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "biubug6/face-detector-1mb-with-landmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "wondervictor/widerface-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "wang-xinyu/tensorrtx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:18.336678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Retinaface get 80.99% in widerface hard val using mobilenet0.25.",
+    "fork": false,
+    "full_name": "biubug6/Pytorch_Retinaface",
+    "html_url": "https://github.com/biubug6/Pytorch_Retinaface",
+    "language": "Python",
+    "pushed_at": "2023-06-28T07:07:53Z",
+    "stargazers_count": 2954,
+    "topics": [],
+    "updated_at": "2026-04-19T12:50:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biubug6/face-detector-1mb-with-landmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepinsight/insightface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wang-xinyu/tensorrtx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wondervictor/widerface-evaluation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Domain-Specific Text Generation for Machine Translation (with LLMs) - scripts and config files for the paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-modeling",
+      "sense_id": "language-modeling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-modeling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-modeling",
+  "observation_id": "03e2f98b599437de",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "language-modeling",
+  "source_context_snippet": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)",
+  "source_file": null,
+  "source_repo": "ymoslem/MT-LM",
+  "source_repo_description": "Domain-Specific Text Generation for Machine Translation (with LLMs) - scripts and config files for the paper"
+}

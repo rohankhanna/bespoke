@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "dialog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:05.813986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2645
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI.",
+    "fork": false,
+    "full_name": "AlibabaResearch/DAMO-ConvAI",
+    "html_url": "https://github.com/AlibabaResearch/DAMO-ConvAI",
+    "language": "Python",
+    "pushed_at": "2026-01-22T02:36:47Z",
+    "stargazers_count": 1550,
+    "topics": [
+      "conversational-ai",
+      "deep-learning",
+      "dialog",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-23T06:51:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ai"
+    },
+    {
+      "context_snippet": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialog"
+    },
+    {
+      "context_snippet": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

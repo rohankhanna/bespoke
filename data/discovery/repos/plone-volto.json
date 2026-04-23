@@ -1,0 +1,904 @@
+{
+  "components": [
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview-registry.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview-volto.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plone/volto",
+      "target": "collective/awesome-volto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plone/volto",
+      "target": "eea/bise-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plone/volto",
+      "target": "eea/eea-website-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plone/volto",
+      "target": "eea/fise-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "plone/volto",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "plone/volto",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "plone/volto",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "plone/volto",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "plone/volto",
+      "target": "cypress-io/github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "plone/volto",
+      "target": "Acceptance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/volto",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/volto",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "plone/volto",
+      "target": "Code Analysis Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml",
+      "source_repo": "plone/volto",
+      "target": "cypress-io/github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookieplone.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cookieplone.yml",
+      "source_repo": "plone/volto",
+      "target": "Cookieplone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview-registry.yml",
+      "source_repo": "plone/volto",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview-volto.yml",
+      "source_repo": "plone/volto",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plone/volto",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/volto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/volto",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/volto",
+      "target": "README.md link check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plone/volto",
+      "target": "plone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plone/volto",
+      "target": "volto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:29.869445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19086
+    },
+    {
+      "path": "package.json",
+      "size": 2838
+    },
+    {
+      "path": ".github/workflows/acceptance.yml",
+      "size": 33329
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 3151
+    },
+    {
+      "path": ".github/workflows/code-analysis.yml",
+      "size": 5393
+    },
+    {
+      "path": ".github/workflows/cookieplone.yml",
+      "size": 3369
+    },
+    {
+      "path": ".github/workflows/docs-rtd-pr-preview-registry.yml",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/docs-rtd-pr-preview-volto.yml",
+      "size": 602
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1074
+    },
+    {
+      "path": ".github/workflows/readme-link-check.yml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "React-based frontend for the Plone Content Management System",
+    "fork": false,
+    "full_name": "plone/volto",
+    "html_url": "https://github.com/plone/volto",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T18:58:38Z",
+    "stargazers_count": 612,
+    "topics": [
+      "plone",
+      "volto"
+    ],
+    "updated_at": "2026-04-23T18:43:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "collective/awesome-volto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eea/bise-frontend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eea/eea-website-frontend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eea/fise-frontend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Acceptance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance.yml",
+      "term": "Acceptance Tests"
+    },
+    {
+      "context_snippet": "Changelog check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog check"
+    },
+    {
+      "context_snippet": "Code Analysis Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "term": "Code Analysis Check"
+    },
+    {
+      "context_snippet": "Cookieplone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cookieplone.yml",
+      "term": "Cookieplone"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "README.md link check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "term": "README.md link check"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plone"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volto"
+    }
+  ]
+}

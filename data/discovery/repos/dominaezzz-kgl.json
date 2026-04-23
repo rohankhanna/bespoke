@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "dominaezzz/kgl-vulkan-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "dominaezzz/kgl-opengl-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "actions/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "eskatos/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "glfw3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "kotlin-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl",
+      "target": "vulkan-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:54:08.018494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9134
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Thin multiplatform wrappers for graphics.",
+    "fork": false,
+    "full_name": "Dominaezzz/kgl",
+    "html_url": "https://github.com/Dominaezzz/kgl",
+    "language": "Kotlin",
+    "pushed_at": "2023-02-25T12:46:35Z",
+    "stargazers_count": 112,
+    "topics": [
+      "glfw3",
+      "graphics",
+      "kgl",
+      "kotlin",
+      "kotlin-multiplatform",
+      "kotlin-native",
+      "opengl",
+      "vulkan",
+      "vulkan-api"
+    ],
+    "updated_at": "2026-03-21T03:30:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominaezzz/kgl-opengl-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominaezzz/kgl-vulkan-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw3"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-multiplatform"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-native"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    }
+  ]
+}

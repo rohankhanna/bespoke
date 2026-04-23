@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:33:54.049825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10284
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    },
+    {
+      "path": ".github/workflows/format-check.yml",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform",
+    "fork": false,
+    "full_name": "intel/intel-extension-for-pytorch",
+    "html_url": "https://github.com/intel/intel-extension-for-pytorch",
+    "language": "Python",
+    "pushed_at": "2026-03-30T08:35:24Z",
+    "stargazers_count": 2008,
+    "topics": [
+      "deep-learning",
+      "intel",
+      "machine-learning",
+      "neural-network",
+      "pytorch",
+      "quantization"
+    ],
+    "updated_at": "2026-04-22T09:52:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

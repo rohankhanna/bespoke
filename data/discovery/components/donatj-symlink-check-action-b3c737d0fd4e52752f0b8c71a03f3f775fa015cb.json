@@ -1,12 +1,17 @@
 {
   "component": "donatj/symlink-check-action@b3c737d0fd4e52752f0b8c71a03f3f775fa015cb",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/base.yml",
       "source_repo": "pq-code-package/mlkem-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native"
     }
   ]
 }

@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattmc3/zsh_unplugged",
+      "target": "boyter/scc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattmc3/zsh_unplugged",
+      "target": "antonio/zsh-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattmc3/zsh_unplugged",
+      "target": "agkozak/zcomet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattmc3/zsh_unplugged",
+      "target": "belak/zsh-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattmc3/zsh_unplugged",
+      "target": "extensions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:47:08.792095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " \ud83e\udd14 perhaps you don't need a Zsh plugin manager after all...",
+    "fork": false,
+    "full_name": "mattmc3/zsh_unplugged",
+    "html_url": "https://github.com/mattmc3/zsh_unplugged",
+    "language": "Shell",
+    "pushed_at": "2025-10-09T12:31:07Z",
+    "stargazers_count": 492,
+    "topics": [
+      "extensions",
+      "zsh"
+    ],
+    "updated_at": "2026-04-21T06:45:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agkozak/zcomet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonio/zsh-config",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belak/zsh-utils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boyter/scc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \ud83e\udd14 perhaps you don't need a Zsh plugin manager after all...",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extensions"
+    }
+  ]
+}

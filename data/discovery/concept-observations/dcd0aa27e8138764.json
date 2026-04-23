@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024664,
+      "status": "candidate",
+      "text": "ichthyologically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999664,
+      "status": "candidate",
+      "text": "to boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999660,
+      "status": "candidate",
+      "text": "in addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999182,
+      "status": "candidate",
+      "text": "all over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998976,
+      "status": "candidate",
+      "text": "so far"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moar",
+      "sense_id": "moar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "moar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "moar",
+  "observation_id": "dcd0aa27e8138764",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "moar",
+  "source_context_snippet": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to",
+  "source_file": null,
+  "source_repo": "walles/moor",
+  "source_repo_description": "Moor is a pager. It's designed to just do the right thing without any configuration."
+}

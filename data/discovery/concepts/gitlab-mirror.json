@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Gitlab mirror"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "A code generator for array-based code on CPUs and GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/cgen",
+      "status": "candidate-context",
+      "text": "C/C++ source generation from an AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/cgen",
+      "status": "candidate-context",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/codepy",
+      "status": "candidate-context",
+      "text": "Generate and execute native code at run time, from Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/codepy",
+      "status": "candidate-context",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/genpy",
+      "status": "candidate-context",
+      "text": "An AST for Python code generation, in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/genpy",
+      "status": "candidate-context",
+      "text": "Gitlab mirror"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/cgen",
+      "status": "candidate",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/codepy",
+      "status": "candidate",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/genpy",
+      "status": "candidate",
+      "text": "Gitlab mirror"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "concave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "duplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "glare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "glass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gitlab mirror",
+  "concept_id": "gitlab-mirror",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/loopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/cgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/codepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/genpy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gitlab mirror",
+      "sense_id": "gitlab-mirror#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

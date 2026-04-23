@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041192,
+      "status": "candidate",
+      "text": "education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035049,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902684,
+      "status": "candidate",
+      "text": "grooming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815887,
+      "status": "candidate",
+      "text": "breeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045460,
+      "status": "candidate",
+      "text": "schooling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "training",
+      "sense_id": "training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8029,
+      "status": "candidate",
+      "text": "grooming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6049,
+      "status": "candidate",
+      "text": "education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "breeding"
+    }
+  ],
+  "concept_id": "training",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "training",
+  "observation_id": "dd4ae6fd1f7b8ed8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "training",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "SWE-bench/SWE-smith",
+  "source_repo_description": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+}

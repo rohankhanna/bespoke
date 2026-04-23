@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA3",
+      "target": "damo-nlp-sg/videorefer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA3",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA3",
+      "target": "llava-vl/llava-next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA3",
+      "target": "qwenlm/qwen2-vl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:29.942403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20554
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1570
+    },
+    {
+      "path": "requirements.txt",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Frontier Multimodal Foundation Models for Image and Video Understanding",
+    "fork": false,
+    "full_name": "DAMO-NLP-SG/VideoLLaMA3",
+    "html_url": "https://github.com/DAMO-NLP-SG/VideoLLaMA3",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-08-14T06:52:30Z",
+    "stargazers_count": 1144,
+    "topics": [],
+    "updated_at": "2026-04-21T12:29:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/videorefer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llava-vl/llava-next",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2-vl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

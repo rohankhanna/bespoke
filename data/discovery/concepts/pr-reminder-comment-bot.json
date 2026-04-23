@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "PR Reminder Comment Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "PR Reminder Comment Bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "PR Reminder Comment Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "PR Reminder Comment Bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate",
+      "text": "PR Reminder Comment Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17229,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17229,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17229,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17229,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17197,
+      "status": "candidate",
+      "text": "spin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Reminder Comment Bot",
+  "concept_id": "pr-reminder-comment-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/set-comment.yaml",
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Reminder Comment Bot",
+      "sense_id": "pr-reminder-comment-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

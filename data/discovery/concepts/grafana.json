@@ -55,6 +55,18 @@
       "source_repo": "grafana/grafana",
       "status": "candidate-context",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80\ud83c\udf21\ufe0f Real-time system monitor for Apple Silicon Macs (M1\u2013M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "grafana/grafana",
       "status": "candidate",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vladkens/macmon"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

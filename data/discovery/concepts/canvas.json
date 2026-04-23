@@ -19,6 +19,30 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate-context",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "A web-based Video Editing SDK built on WebCodecs. \u57fa\u4e8e WebCodecs \u6784\u5efa\u7684\u7f51\u9875\u89c6\u9891\u7f16\u8f91 SDK\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "WebAV-Tech/WebAV"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

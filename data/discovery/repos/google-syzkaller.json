@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@1360a344ccb0ab6e9475edef90ad2f46bf8003b1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/dependency-review-action@1360a344ccb0ab6e9475edef90ad2f46bf8003b1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller",
+      "target": "oss-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "source_repo": "google/syzkaller",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "source_repo": "google/syzkaller",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "source_repo": "google/syzkaller",
+      "target": "upload-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "fuzz-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "fuzzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "security-vulnerability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/syzkaller",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:49:28.212564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2458
+    },
+    {
+      "path": "go.mod",
+      "size": 18072
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7921
+    },
+    {
+      "path": ".github/workflows/depsreview.yaml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/oss-fuzz.yml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/run.sh",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/upload-coverage.yml",
+      "size": 4886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "syzkaller is an unsupervised coverage-guided kernel fuzzer",
+    "fork": false,
+    "full_name": "google/syzkaller",
+    "html_url": "https://github.com/google/syzkaller",
+    "language": "Go",
+    "pushed_at": "2026-04-23T17:35:02Z",
+    "stargazers_count": 6136,
+    "topics": [
+      "fuzz-testing",
+      "fuzzer",
+      "fuzzing",
+      "kernel",
+      "linux",
+      "security",
+      "security-tools",
+      "security-vulnerability",
+      "testing"
+    ],
+    "updated_at": "2026-04-23T17:35:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "oss-fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "term": "oss-fuzz"
+    },
+    {
+      "context_snippet": "upload-coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-coverage.yml",
+      "term": "upload-coverage"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzz-testing"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzer"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-vulnerability"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

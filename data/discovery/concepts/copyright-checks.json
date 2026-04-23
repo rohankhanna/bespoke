@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Copyright Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Offline optimization of your disaggregated Dynamo graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Copyright Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Copyright Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate",
+      "text": "Copyright Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate",
+      "text": "Copyright Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10665,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10609,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10609,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10609,
+      "status": "candidate",
+      "text": "legislation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10609,
+      "status": "candidate",
+      "text": "patent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Copyright Checks",
+  "concept_id": "copyright-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/aiconfigurator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/modelexpress"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copyright Checks",
+      "sense_id": "copyright-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

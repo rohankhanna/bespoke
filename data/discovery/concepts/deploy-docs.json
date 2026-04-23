@@ -155,6 +155,84 @@
       "source_repo": "deepset-ai/hayhooks",
       "status": "candidate-context",
       "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Open language modeling toolkit based on PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-tokens",
+      "status": "candidate-context",
+      "text": "Redirects from old repo name to new repo name. Use https://github.com/adobe/spectrum-design-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-tokens",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nashaofu/screenshots",
+      "status": "candidate-context",
+      "text": "A screenshot plugin for electron and react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashaofu/screenshots",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +305,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "deepset-ai/hayhooks",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eole-nlp/eole",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-tokens",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashaofu/screenshots",
       "status": "candidate",
       "text": "Deploy Docs"
     }
@@ -350,11 +470,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "deepset-ai/hayhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs_deploy.yaml",
+      "source_repo": "ethereum/execution-spec-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "adobe/spectrum-tokens"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "nashaofu/screenshots"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

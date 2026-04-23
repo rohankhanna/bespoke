@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "terraform-module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which creates almost all supported AWS Lambda resources as well as taking care of building and packaging of required Lambda dependencies for functions and layers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate",
+      "text": "Terraform module, which creates almost all supported AWS Lambda resources as well as taking care of building and packaging of required Lambda dependencies for functions and layers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate",
+      "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "terraform-module",
+  "concept_id": "terraform-module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terraform-module",
+      "sense_id": "terraform-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Git",
+      "target": "erkyrath/glulxe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavidKinder/Git",
+      "target": "davidkinder/windows-glk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:53.845758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2085
+    },
+    {
+      "path": "README.txt",
+      "size": 14927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Glulx interpreter, originally written by Iain Merrick.",
+    "fork": false,
+    "full_name": "DavidKinder/Git",
+    "html_url": "https://github.com/DavidKinder/Git",
+    "language": "C",
+    "pushed_at": "2026-02-11T09:11:06Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-02-11T09:11:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/windows-glk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erkyrath/glulxe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

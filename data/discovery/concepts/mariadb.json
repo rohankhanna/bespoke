@@ -19,6 +19,18 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate-context",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">SQLx</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">SQLx</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

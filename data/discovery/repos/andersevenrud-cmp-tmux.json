@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Jayrgo/luacheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "andersevenrud/compe-tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "Jayrgo/luacheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "wagoid/commitlint-github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "Lint tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "nvim-compe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:50.264080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2008
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tmux completion source for nvim-cmp and nvim-compe",
+    "fork": false,
+    "full_name": "andersevenrud/cmp-tmux",
+    "html_url": "https://github.com/andersevenrud/cmp-tmux",
+    "language": "Lua",
+    "pushed_at": "2024-02-29T17:17:17Z",
+    "stargazers_count": 127,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim-cmp",
+      "nvim-compe",
+      "nvim-plugin",
+      "tmux"
+    ],
+    "updated_at": "2026-04-08T17:48:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andersevenrud/compe-tmux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint tests"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-compe"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

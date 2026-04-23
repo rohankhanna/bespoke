@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "syncToGitee"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "syncToGitee"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "syncToGitee",
+      "sense_id": "synctogitee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "synctogitee",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synctogitee",
+  "observation_id": "4973b7a1c9cab6c5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "syncToGitee",
+  "source_context_snippet": "syncToGitee",
+  "source_file": ".github/workflows/syncToGitee.yml",
+  "source_repo": "027xiguapi/pear-rec",
+  "source_repo_description": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+}

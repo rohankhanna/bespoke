@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CROSS-signature/CROSS-lib-oqs",
+      "target": "cross-signature/cross-implementation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:25.443339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Upstream for CROSS in liboqs",
+    "fork": false,
+    "full_name": "CROSS-signature/CROSS-lib-oqs",
+    "html_url": "https://github.com/CROSS-signature/CROSS-lib-oqs",
+    "language": "C",
+    "pushed_at": "2026-03-08T18:50:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-08T18:50:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cross-signature/cross-implementation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

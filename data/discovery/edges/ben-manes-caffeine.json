@@ -1,0 +1,377 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ben-manes/caffeine",
+      "target": "ben-manes/concurrentlinkedhashmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ben-manes/caffeine",
+      "target": "blemale/scaffeine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ben-manes/caffeine",
+      "target": "apache/camel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ben-manes/caffeine",
+      "target": "be-hase/caffeine-coroutines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "reviewdog/action-actionlint@6fb7acc99f4a1008869fa8a0f09cfca740837d9d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "suzuki-shunsuke/pinact-action@cf51507d80d4d6522a07348e3d58790290eaf0b6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Static analysis for GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Static analysis for Java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "bearer/bearer-action@828eeb928ce2f4a7ca5ed57fb8b59508cb8c79bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "andstor/file-existence-action@558493d6c74bf472d87c84eab196434afc2fa029",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Bearer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arm.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arm.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-arm.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Build (ARM)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ea.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ea.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ea.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Build (Early Access)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "andstor/file-existence-action@558493d6c74bf472d87c84eab196434afc2fa029",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "codacy/codacy-coverage-reporter-action@89d6c85cfafaec52c72b6c5e8b2878d33104c699",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "popsiclestick/gist-sync-action@88f8633178625914f2a01abf1a765f7272a580fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "codacy/codacy-analysis-cli-action@562ee3e92b8e92df8b67e0a5ff8aa8e261919c08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "andstor/file-existence-action@558493d6c74bf472d87c84eab196434afc2fa029",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "Codacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ben-manes/caffeine",
+      "target": "CodeQL",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ben-manes/caffeine"
+}

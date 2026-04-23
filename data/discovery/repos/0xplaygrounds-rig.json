@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    },
+    {
+      "component": "MarcoIeni/release-plz-action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "clechasseur/rs-clippy-check@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "coral-protocol/coral-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "firstbatchxyz/dkn-compute-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "nearai/ironclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "0xplaygrounds/rig-onchain-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "MarcoIeni/release-plz-action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "Build & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "clechasseur/rs-clippy-check@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "Lint & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig",
+      "target": "scalable-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:22.426454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9288
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/cd.yaml",
+      "size": 950
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2699\ufe0f\ud83e\udd80 Build modular and scalable LLM Applications in Rust",
+    "fork": false,
+    "full_name": "0xPlaygrounds/rig",
+    "html_url": "https://github.com/0xPlaygrounds/rig",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T04:05:46Z",
+    "stargazers_count": 7018,
+    "topics": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "automation",
+      "generative-ai",
+      "large-language-model",
+      "llm",
+      "llmops",
+      "rust",
+      "scalable-ai"
+    ],
+    "updated_at": "2026-04-23T17:40:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xplaygrounds/rig-onchain-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coral-protocol/coral-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firstbatchxyz/dkn-compute-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nearai/ironclaw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build & Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "term": "Build & Release"
+    },
+    {
+      "context_snippet": "Lint & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Lint & Test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalable-ai"
+    }
+  ]
+}

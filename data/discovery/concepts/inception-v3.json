@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "inception-v3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "Keras model of NSFW detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "inception-v3",
+  "concept_id": "inception-v3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inception-v3",
+      "sense_id": "inception-v3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

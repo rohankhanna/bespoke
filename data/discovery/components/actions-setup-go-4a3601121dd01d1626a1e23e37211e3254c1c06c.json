@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -932,6 +932,221 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-alloy-mixin-rendered.yml",
       "source_repo": "grafana/alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-template.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-arch-template.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/failpoint_test.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-merge.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-tag.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-tests.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/external-plugin.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ca-test.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-major-version.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-reuse.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber"
     }
   ]
 }

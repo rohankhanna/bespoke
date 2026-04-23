@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run tests and coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate-context",
+      "text": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate-context",
+      "text": "\"Run tests and coverage\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate",
+      "text": "\"Run tests and coverage\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26877,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26877,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26815,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19877,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19218,
+      "status": "candidate",
+      "text": "news"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run tests and coverage",
+  "concept_id": "run-tests-and-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MarcCote/TextWorld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run tests and coverage",
+      "sense_id": "run-tests-and-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

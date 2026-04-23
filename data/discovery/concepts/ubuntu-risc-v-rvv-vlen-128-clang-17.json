@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu RISC-V rvv VLEN=128 (clang 17)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Ubuntu RISC-V rvv VLEN=128 (clang 17)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "Ubuntu RISC-V rvv VLEN=128 (clang 17)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "zulu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "individualism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu RISC-V rvv VLEN=128 (clang 17)",
+  "concept_id": "ubuntu-risc-v-rvv-vlen-128-clang-17",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/risc.yml",
+      "source_repo": "fastfloat/fast_float"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu RISC-V rvv VLEN=128 (clang 17)",
+      "sense_id": "ubuntu-risc-v-rvv-vlen-128-clang-17#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "mshick/add-pr-comment@v2",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/l10n.yml",
       "source_repo": "git/git"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/AddIssueCommentWithLabel.yml",
+      "source_repo": "Azure/azure-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/GitHookNotice.yml",
+      "source_repo": "Azure/azure-cli"
     }
   ]
 }

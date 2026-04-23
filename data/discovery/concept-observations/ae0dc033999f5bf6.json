@@ -84,7 +84,7 @@
   "normalized_form": "build-bindings-for-alpine-releases",
   "observation_id": "ae0dc033999f5bf6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Build bindings for Alpine releases",
   "source_context_snippet": "Build bindings for Alpine releases",
   "source_file": ".github/workflows/alpine.yml",

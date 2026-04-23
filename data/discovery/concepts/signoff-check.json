@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "signoff check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "Spark RAPIDS plugin - accelerate Apache Spark with GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "signoff check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate",
+      "text": "signoff check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "amen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "best"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "peace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "access"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "signoff check",
+  "concept_id": "signoff-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/signoff-check.yml",
+      "source_repo": "NVIDIA/spark-rapids"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "signoff check",
+      "sense_id": "signoff-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

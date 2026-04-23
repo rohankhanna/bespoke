@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -372,6 +372,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "succinctlabs/sp1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_container.yml",
+      "source_repo": "lllyasviel/Fooocus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-nightly.yml",
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "google/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
     }
   ]
 }

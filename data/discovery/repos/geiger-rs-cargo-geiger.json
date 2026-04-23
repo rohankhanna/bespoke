@@ -93,13 +93,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "geiger-rs/cargo-geiger",
-      "target": "rust-lang/unsafe-code-guidelines",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geiger-rs/cargo-geiger",
       "target": "rust-secure-code/cargo-geiger",
       "target_type": "repository"
     },
@@ -223,7 +216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:39:35.113466+00:00",
+  "fetched_at": "2026-04-23T22:02:18.212373+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,11 +266,6 @@
     "updated_at": "2026-04-19T02:32:26Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/unsafe-code-guidelines",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rust-secure-code/cargo-geiger",

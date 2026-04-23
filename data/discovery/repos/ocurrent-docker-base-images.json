@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/docker-base-images",
+      "target": "ocurrent/ocurrent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/docker-base-images",
+      "target": "ocurrent/ocaml-dockerfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/docker-base-images",
+      "target": "ocurrent/ocluster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ocurrent/docker-base-images",
+      "target": "ocurrent/ocaml-dockerfile",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:57.038384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3412
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate various Docker ocaml images",
+    "fork": false,
+    "full_name": "ocurrent/docker-base-images",
+    "html_url": "https://github.com/ocurrent/docker-base-images",
+    "language": "OCaml",
+    "pushed_at": "2026-04-22T07:44:28Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-30T17:52:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocaml-dockerfile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocluster",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocurrent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocaml-dockerfile",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

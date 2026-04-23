@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "bluebird",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-google-camelcase",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-closure-compiler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-bump",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-clean",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-coffee",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-qunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-prompt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "load-grunt-tasks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "superagent",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "bluebird",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "eslint-plugin-google-camelcase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "google-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-bump",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-clean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-coffee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-contrib-qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "grunt-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "load-grunt-tasks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/accessibility-developer-tools",
+      "target": "superagent",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:30.930028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10729
+    },
+    {
+      "path": "package.json",
+      "size": 1189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This is a library of accessibility-related testing and utility code.",
+    "fork": false,
+    "full_name": "GoogleChrome/accessibility-developer-tools",
+    "html_url": "https://github.com/GoogleChrome/accessibility-developer-tools",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-04T17:53:27Z",
+    "stargazers_count": 2303,
+    "topics": [],
+    "updated_at": "2026-04-22T00:56:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980022,
+      "status": "candidate",
+      "text": "decisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977703,
+      "status": "candidate",
+      "text": "responsibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977675,
+      "status": "candidate",
+      "text": "disposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977614,
+      "status": "candidate",
+      "text": "decision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976575,
+      "status": "candidate",
+      "text": "reception"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decision-making",
+      "sense_id": "decision-making#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "decision-making",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decision-making",
+  "observation_id": "df1cc3ca9d1e7ac0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "decision-making",
+  "source_context_snippet": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)",
+  "source_file": null,
+  "source_repo": "princeton-nlp/WebShop",
+  "source_repo_description": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+}

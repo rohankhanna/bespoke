@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "starter-kit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate-context",
+      "text": "Scripts and configurations to leverage lsp-mode in docker environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate-context",
+      "text": "CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate",
+      "text": "CI"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "starter-kit",
+  "concept_id": "starter-kit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-docker"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starter-kit",
+      "sense_id": "starter-kit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

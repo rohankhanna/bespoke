@@ -2089,6 +2089,654 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate-context",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate-context",
+      "text": "Compositional vector graphics in Scala / Scala.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate-context",
+      "text": "Copyright [Noel Welsh](http://noelwelsh.com)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names for Python (IDNA 2008 and UTS #46)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names in Applications (IDNA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michaelherold/pyIsEmail",
+      "status": "candidate-context",
+      "text": "Simple, robust email validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaelherold/pyIsEmail",
+      "status": "candidate-context",
+      "text": "pyIsEmail"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaIPFS documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate-context",
+      "text": "My GitHub profile-README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "The Rust toolchain installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate-context",
+      "text": "An Awesome List of projects using the pyproject.toml Python configuration file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate-context",
+      "text": "![logo](https://repository-images.githubusercontent.com/226840558/aff71800-2fd4-11ea-99ed-8e6a645dd5fe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "A python package containing functions that help interacting with various versions of Ansible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/ansible-compat.svg)](https://pypi.org/project/ansible-compat/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate-context",
+      "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate-context",
+      "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate-context",
+      "text": "The fastest and safest AV1 encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate-context",
+      "text": "The fastest and safest AV1 encoder."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": ":cake: Cake (C# Make) is a cross platform build automation system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/angr",
+      "status": "candidate-context",
+      "text": "A powerful and user-friendly binary analysis platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "Fast Ethereum Virtual Machine implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "[![ethereum badge]][ethereum]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate-context",
+      "text": "DigitalOcean Go API client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions CI](https://github.com/digitalocean/godo/actions/workflows/ci.yml/badge.svg)](https://github.com/digitalocean/godo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "A place to submit conda recipes before they become fully fledged conda-forge feedstocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate-context",
+      "text": "This repo is a holding area for recipes destined for a conda-forge feedstock repo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The Extras bucket for Scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate-context",
+      "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "A TypeScript ESLint config that loves you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "A tool for creating technical documents and web standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/speced/respec/workflows/Node%20CI/badge.svg?branch=develop)](https://github.com/speced/respec/actions?query=workflow%3A%22Node+CI%22+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to send arbitrary requests to GitHub's REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "> A GitHub Action to send arbitrary requests to GitHub's REST API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": ":trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Connect to any device with no external listening ports open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "<a href=\"https://atsign.com#gh-light-mode-only\"><img width=250px src=\"https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only\" alt=\"The Atsign Foundation\"></a><a href=\"https://atsign.com#gh-dark-mode-only\"><img width=250px src=\"https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "A community-maintained Python framework for creating mathematical animations. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "Primary and community-submitted packages for webinstall.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "A changelog generator for gitmoji \ud83d\ude1c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "<a href=\"https://marked.js.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI 3.0 (and Swagger v2) implementation for Go (parsing, converting, validation, and more)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_glosses": [
@@ -3129,6 +3777,330 @@
       "source_repo": "react-navigation/react-navigation",
       "status": "candidate",
       "text": "[![Build Status][build-badge]][build]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creativescala/doodle",
+      "status": "candidate",
+      "text": "Copyright [Noel Welsh](http://noelwelsh.com)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate",
+      "text": "Internationalized Domain Names in Applications (IDNA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaelherold/pyIsEmail",
+      "status": "candidate",
+      "text": "pyIsEmail"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430\" width=\"30\"/> Hey, nice to see you.</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rustup",
+      "status": "candidate",
+      "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate",
+      "text": "![logo](https://repository-images.githubusercontent.com/226840558/aff71800-2fd4-11ea-99ed-8e6a645dd5fe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/ansible-compat.svg)](https://pypi.org/project/ansible-compat/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate",
+      "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate",
+      "text": "The fastest and safest AV1 encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate",
+      "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/angr",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate",
+      "text": "[![ethereum badge]][ethereum]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/godo",
+      "status": "candidate",
+      "text": "[![GitHub Actions CI](https://github.com/digitalocean/godo/actions/workflows/ci.yml/badge.svg)](https://github.com/digitalocean/godo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/staged-recipes",
+      "status": "candidate",
+      "text": "This repo is a holding area for recipes destined for a conda-forge feedstock repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate",
+      "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/speced/respec/workflows/Node%20CI/badge.svg?branch=develop)](https://github.com/speced/respec/actions?query=workflow%3A%22Node+CI%22+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate",
+      "text": "> A GitHub Action to send arbitrary requests to GitHub's REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "[![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate",
+      "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate",
+      "text": "<a href=\"https://atsign.com#gh-light-mode-only\"><img width=250px src=\"https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only\" alt=\"The Atsign Foundation\"></a><a href=\"https://atsign.com#gh-dark-mode-only\"><img width=250px src=\"https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "<a href=\"https://marked.js.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getkin/kin-openapi",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -4294,11 +5266,419 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "creativescala/doodle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "michaelherold/pyIsEmail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "winsw/winsw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "carlosperate/awesome-pyproject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ansible/ansible-compat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arl/statsviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/godo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conda-forge/staged-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "speced/respec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "octokit/request-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/opendal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "frinyvonnick/gitmoji-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "markedjs/marked"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-on-demand.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-on-demand.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/enhancements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/modelexpress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/grove",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/aiconfigurator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allure-report.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Allure Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build Framework Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend-image.yaml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build Frontend Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build On Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Framework Matrix Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build, Test, and Copy Framework Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "CodeQL",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:43:47.000454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16658
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5357
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 16912
+    },
+    {
+      "path": ".github/workflows/allure-report.yml",
+      "size": 2806
+    },
+    {
+      "path": ".github/workflows/build-flavor.yml",
+      "size": 6662
+    },
+    {
+      "path": ".github/workflows/build-frontend-image.yaml",
+      "size": 10960
+    },
+    {
+      "path": ".github/workflows/build-on-demand.yml",
+      "size": 6557
+    },
+    {
+      "path": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+      "size": 6034
+    },
+    {
+      "path": ".github/workflows/build-test-distribute-flavor.yml",
+      "size": 19240
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Datacenter Scale Distributed Inference Serving Framework",
+    "fork": false,
+    "full_name": "ai-dynamo/dynamo",
+    "html_url": "https://github.com/ai-dynamo/dynamo",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T18:43:17Z",
+    "stargazers_count": 6634,
+    "topics": [],
+    "updated_at": "2026-04-23T18:03:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-dynamo/aiconfigurator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-dynamo/enhancements",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-dynamo/grove",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-dynamo/modelexpress",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Allure Test Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allure-report.yml",
+      "term": "Allure Test Report"
+    },
+    {
+      "context_snippet": "Build Framework Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-flavor.yml",
+      "term": "Build Framework Image"
+    },
+    {
+      "context_snippet": "Build Frontend Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend-image.yaml",
+      "term": "Build Frontend Image"
+    },
+    {
+      "context_snippet": "Build On Demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "term": "Build On Demand"
+    },
+    {
+      "context_snippet": "Framework Matrix Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+      "term": "Framework Matrix Pipeline"
+    },
+    {
+      "context_snippet": "Build, Test, and Copy Framework Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+      "term": "Build, Test, and Copy Framework Image"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    }
+  ]
+}

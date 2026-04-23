@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-duplicate-named-capturing-groups",
+      "target": "tc39/ecma262",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-duplicate-named-capturing-groups",
+      "target": "tc39/proposal-regexp-named-groups",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:04:36.504243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "TC39 proposal to allow regex capturing group names to be repeated",
+    "fork": false,
+    "full_name": "tc39/proposal-duplicate-named-capturing-groups",
+    "html_url": "https://github.com/tc39/proposal-duplicate-named-capturing-groups",
+    "language": null,
+    "pushed_at": "2026-04-10T02:50:52Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-10T02:51:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/ecma262",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-regexp-named-groups",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

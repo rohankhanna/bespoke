@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "continuous-integration",
+      "sense_id": "continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-integration",
+  "observation_id": "999e126be7c171af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "continuous-integration",
+  "source_context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+  "source_file": null,
+  "source_repo": "bors-ng/bors-ng",
+  "source_repo_description": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+}

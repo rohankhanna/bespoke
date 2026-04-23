@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build all RAPIDS repositories"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "CUDA Core Compute Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "Build all RAPIDS repositories"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate",
+      "text": "Build all RAPIDS repositories"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33601,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24161,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "gain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22611,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22611,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build all RAPIDS repositories",
+  "concept_id": "build-all-rapids-repositories",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "source_repo": "NVIDIA/cccl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build all RAPIDS repositories",
+      "sense_id": "build-all-rapids-repositories#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

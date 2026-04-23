@@ -31,6 +31,30 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate-context",
       "text": "[![Nightly Builds](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml/badge.svg)](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrash/fwknop",
+      "status": "candidate-context",
+      "text": "Single Packet Authorization > Port Knocking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/fwknop",
+      "status": "candidate-context",
+      "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe2 auth_plug lets you seamlessly add authentication to your Phoenix App with ONE Environment Variable\u2122  in less than 2 minutes! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate",
       "text": "[![Nightly Builds](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml/badge.svg)](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/fwknop",
+      "status": "candidate",
+      "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -128,11 +164,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mrash/fwknop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/auth_plug"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

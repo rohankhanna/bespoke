@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "matt-gardner/allennlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "actions/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "allennlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/allennlp-semparse",
+      "target": "semantic-parsers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:52.223169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3043
+    },
+    {
+      "path": "Dockerfile",
+      "size": 416
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 218
+    },
+    {
+      "path": "requirements.txt",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A framework for building semantic parsers (including neural module networks) with AllenNLP, built by the authors of AllenNLP",
+    "fork": false,
+    "full_name": "allenai/allennlp-semparse",
+    "html_url": "https://github.com/allenai/allennlp-semparse",
+    "language": "Python",
+    "pushed_at": "2022-04-08T21:22:07Z",
+    "stargazers_count": 108,
+    "topics": [
+      "allennlp",
+      "nlp",
+      "semantic-parsers"
+    ],
+    "updated_at": "2026-02-01T08:22:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matt-gardner/allennlp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://github.com/allenai/allennlp-semparse/workflows/CI/badge.svg)](https://github.com/allenai/allennlp-semparse/actions?workflow=CI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allennlp"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/allenai/allennlp-semparse/workflows/CI/badge.svg)](https://github.com/allenai/allennlp-semparse/actions?workflow=CI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-parsers"
+    }
+  ]
+}

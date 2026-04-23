@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/spark-rapids"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
     }
   ],
   "term": "big-data"

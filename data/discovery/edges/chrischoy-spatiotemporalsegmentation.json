@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "stanfordvl/minkowskiengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "chrischoy/spatiotemporalsegmentation-scannet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "chrischoy/fcgf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "convolutional-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "minkowski-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "scannet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "target": "spatio-temporal-analysis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "chrischoy/SpatioTemporalSegmentation"
+}

@@ -19,6 +19,18 @@
       "source_repo": "prometheus/prometheus",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "All-in-One Development Tool based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "prometheus/prometheus",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "prometheus/prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update documentation redirects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pip",
+      "status": "candidate-context",
+      "text": "The Python package installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pip",
+      "status": "candidate-context",
+      "text": "Update documentation redirects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pip",
+      "status": "candidate",
+      "text": "Update documentation redirects"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17769,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11209,
+      "status": "candidate",
+      "text": "tosser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "pleistocene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "sun"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update documentation redirects",
+  "concept_id": "update-documentation-redirects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-rtd-redirects.yml",
+      "source_repo": "pypa/pip"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update documentation redirects",
+      "sense_id": "update-documentation-redirects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

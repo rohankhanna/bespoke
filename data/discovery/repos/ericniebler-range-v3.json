@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/range-v3-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ericniebler/range-v3",
+      "target": "build2-packaging/range-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/range-v3-ci.yml",
+      "source_repo": "ericniebler/range-v3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/range-v3-ci.yml",
+      "source_repo": "ericniebler/range-v3",
+      "target": "range-v3 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3",
+      "target": "iterator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3",
+      "target": "range",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3",
+      "target": "range-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:48:04.072456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8860
+    },
+    {
+      "path": ".github/workflows/range-v3-ci.yml",
+      "size": 20551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Range library for C++14/17/20, basis for C++20's std::ranges",
+    "fork": false,
+    "full_name": "ericniebler/range-v3",
+    "html_url": "https://github.com/ericniebler/range-v3",
+    "language": "C++",
+    "pushed_at": "2026-04-12T21:47:31Z",
+    "stargazers_count": 4359,
+    "topics": [
+      "c-plus-plus",
+      "iterator",
+      "proposal",
+      "range",
+      "range-library"
+    ],
+    "updated_at": "2026-04-20T13:16:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "build2-packaging/range-v3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "range-v3 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/range-v3-ci.yml",
+      "term": "range-v3 CI"
+    },
+    {
+      "context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterator"
+    },
+    {
+      "context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range"
+    },
+    {
+      "context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range-library"
+    }
+  ]
+}

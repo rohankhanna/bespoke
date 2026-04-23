@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nowar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nowar",
+  "concept_id": "nowar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nowar",
+      "sense_id": "nowar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

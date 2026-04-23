@@ -19,6 +19,18 @@
       "source_repo": "matryer/xbar",
       "status": "candidate-context",
       "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "matryer/xbar",
       "status": "candidate",
       "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "matryer/xbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-desktop"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

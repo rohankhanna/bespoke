@@ -187,6 +187,18 @@
       "source_repo": "abap2UI5/abap2UI5",
       "status": "candidate-context",
       "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5/samples",
+      "status": "candidate-context",
+      "text": "Learn how to code with abap2UI5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/samples",
+      "status": "candidate-context",
+      "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "abap2UI5/abap2UI5",
       "status": "candidate",
       "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/samples",
+      "status": "candidate",
+      "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +454,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "abap2UI5/abap2UI5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5/samples"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

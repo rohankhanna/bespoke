@@ -332,6 +332,54 @@
       "source_repo": "coin-or/CHiPPS-ALPS",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "A better compressed bitset in Java: used by Apache Spark, Netflix Atlas, Apache Pinot, Tablesaw, and many others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate-context",
+      "text": "New Relic Node.js agent code base. Developers are welcome to create pull requests here, please see our contributing guidelines. For New Relic technical support, please go to http://support.newrelic.com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "status": "candidate-context",
+      "text": "validate the structure of your container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -494,6 +542,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coin-or/CHiPPS-ALPS",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-newrelic",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/container-structure-test",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -731,11 +803,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "coin-or/CHiPPS-ALPS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

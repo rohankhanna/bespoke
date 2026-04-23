@@ -57,6 +57,126 @@
       "source_repo": "mdn/browser-compat-data",
       "status": "candidate-context",
       "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate-context",
+      "text": "verl-agent is an extension of veRL, designed for training LLM/VLM agents via RL. verl-agent is also the official code for paper \"Group-in-Group Policy Optimization for LLM Agent Training\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "Project page of the paper \"Learning Multi-Scale Photo Exposure Correction\" (CVPR 2021). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "Official code for the paper, \"Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langfengQ/DrMAS",
+      "status": "candidate-context",
+      "text": "Dr. MAS is an end-to-end RL training framework for multi-agent LLM systems, supporting the co-training of multiple (heterogeneous) LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/DrMAS",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes for different datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate-context",
+      "text": "A powerful tool for creating datasets for LLM fine-tuning \u3001RAG and Eval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +203,66 @@
       "source_repo": "mdn/browser-compat-data",
       "status": "candidate",
       "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/verl-agent",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup>,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CJReinforce/PURE",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langfengQ/DrMAS",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +330,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mdn/browser-compat-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "langfengQ/verl-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "CJReinforce/PURE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "langfengQ/DrMAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConardLi/easy-dataset"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

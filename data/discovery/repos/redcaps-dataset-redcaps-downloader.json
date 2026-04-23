@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "webdataset/webdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "reddit-archive/reddit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "gantman/nsfw_model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redcaps-dataset/redcaps-downloader",
+      "target": "redcaps-dataset/pytorch-retinaface",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:29.848091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9618
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command-line tool for downloading and extending the RedCaps dataset.",
+    "fork": false,
+    "full_name": "redcaps-dataset/redcaps-downloader",
+    "html_url": "https://github.com/redcaps-dataset/redcaps-downloader",
+    "language": "Python",
+    "pushed_at": "2023-12-18T14:04:21Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-03-18T17:24:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gantman/nsfw_model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redcaps-dataset/pytorch-retinaface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reddit-archive/reddit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webdataset/webdataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

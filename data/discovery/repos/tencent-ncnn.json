@@ -1,0 +1,695 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-msg.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-msg.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size-pr-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv32.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv32.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv32.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent/ncnn",
+      "target": "biubug6/pytorch_retinaface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent/ncnn",
+      "target": "chuanqi305/mobilenet-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent/ncnn",
+      "target": "chuanqi305/squeezenet-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent/ncnn",
+      "target": "chuanqi305/mobilenetv2-ssdlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-msg.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-msg.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "code-format-msg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "code-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size-pr-comment.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-size-pr-comment.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "compare-binary-size-pr-comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare-binary-size.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-size.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "compare-binary-size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv32.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf-riscv32.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "elf-riscv32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf-riscv64.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf-riscv64.yml",
+      "source_repo": "Tencent/ncnn",
+      "target": "elf-riscv64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "arm-neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "high-preformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "mlir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "riscv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:06:22.262902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25350
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 5616
+    },
+    {
+      "path": ".github/workflows/code-format-msg.yml",
+      "size": 3811
+    },
+    {
+      "path": ".github/workflows/code-format.yml",
+      "size": 3855
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/compare-binary-size-pr-comment.yml",
+      "size": 5629
+    },
+    {
+      "path": ".github/workflows/compare-binary-size.yml",
+      "size": 3279
+    },
+    {
+      "path": ".github/workflows/elf-riscv32.yml",
+      "size": 2974
+    },
+    {
+      "path": ".github/workflows/elf-riscv64.yml",
+      "size": 2927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+    "fork": false,
+    "full_name": "Tencent/ncnn",
+    "html_url": "https://github.com/Tencent/ncnn",
+    "language": "C++",
+    "pushed_at": "2026-04-22T11:42:01Z",
+    "stargazers_count": 23144,
+    "topics": [
+      "android",
+      "arm-neon",
+      "artificial-intelligence",
+      "caffe",
+      "darknet",
+      "deep-learning",
+      "high-preformance",
+      "inference",
+      "ios",
+      "keras",
+      "mlir",
+      "mxnet",
+      "ncnn",
+      "neural-network",
+      "onnx",
+      "pytorch",
+      "riscv",
+      "simd",
+      "tensorflow",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-23T18:58:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biubug6/pytorch_retinaface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuanqi305/mobilenet-ssd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuanqi305/mobilenetv2-ssdlite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuanqi305/squeezenet-ssd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "android"
+    },
+    {
+      "context_snippet": "code-format-msg",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-msg.yml",
+      "term": "code-format-msg"
+    },
+    {
+      "context_snippet": "code-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yml",
+      "term": "code-format"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "compare-binary-size-pr-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-size-pr-comment.yml",
+      "term": "compare-binary-size-pr-comment"
+    },
+    {
+      "context_snippet": "compare-binary-size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-size.yml",
+      "term": "compare-binary-size"
+    },
+    {
+      "context_snippet": "elf-riscv32",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf-riscv32.yml",
+      "term": "elf-riscv32"
+    },
+    {
+      "context_snippet": "elf-riscv64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf-riscv64.yml",
+      "term": "elf-riscv64"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm-neon"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darknet"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-preformance"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlir"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riscv"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

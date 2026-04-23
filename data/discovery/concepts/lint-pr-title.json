@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint PR Title"
+    "Lint PR Title",
+    "Lint PR title"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,90 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate-context",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "\"Lint PR title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Conformance test suite for Connect, gRPC, and gRPC-Web implementations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "The Go implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate-context",
+      "text": "Utilities for use with Playwright and Connect-ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for ECMAScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "The Deno Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate-context",
+      "text": "\"Lint PR title\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +130,48 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate",
+      "text": "\"Lint PR title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/std",
+      "status": "candidate",
+      "text": "\"Lint PR title\""
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +227,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "jsr-io/jsr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-playwright-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protovalidate-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "denoland/std"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

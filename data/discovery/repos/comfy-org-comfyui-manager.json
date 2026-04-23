@@ -53,21 +53,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI-Manager",
-      "target": "ltdrdata/comfyui-connection-helper",
+      "target": "ltdrdata/comfyui-manager",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI-Manager",
-      "target": "comfy-org/comfy-cli",
+      "target": "melmass/comfy_mtb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "Comfy-Org/ComfyUI-Manager",
-      "target": "comfy-org/rfcs",
+      "target": "ltdrdata/comfyui-manager",
       "target_type": "repository"
     },
     {
@@ -141,7 +141,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T04:29:26.394354+00:00",
+  "fetched_at": "2026-04-23T22:21:07.982965+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,21 +178,11 @@
     "html_url": "https://github.com/Comfy-Org/ComfyUI-Manager",
     "language": "Python",
     "pushed_at": "2026-04-22T13:21:06Z",
-    "stargazers_count": 14350,
+    "stargazers_count": 14363,
     "topics": [],
-    "updated_at": "2026-04-23T02:38:55Z"
+    "updated_at": "2026-04-23T18:15:04Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "comfy-org/comfy-cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "comfy-org/rfcs",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "comfyanonymous/comfyui",
@@ -200,8 +190,18 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ltdrdata/comfyui-connection-helper",
+      "full_name": "ltdrdata/comfyui-manager",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melmass/comfy_mtb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

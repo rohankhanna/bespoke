@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/setup-r-dependencies@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/r-test.yml",
       "source_repo": "bnprks/BPCells"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/r.yml",
+      "source_repo": "IRkernel/IRkernel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver"
     }
   ]
 }

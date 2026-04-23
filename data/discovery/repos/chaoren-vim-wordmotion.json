@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoren/vim-wordmotion",
+      "target": "camel-case",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoren/vim-wordmotion",
+      "target": "text-objects",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:49.846832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "More useful word motions for Vim",
+    "fork": false,
+    "full_name": "chaoren/vim-wordmotion",
+    "html_url": "https://github.com/chaoren/vim-wordmotion",
+    "language": "Vim Script",
+    "pushed_at": "2023-02-26T21:15:32Z",
+    "stargazers_count": 875,
+    "topics": [
+      "camel-case",
+      "text-objects",
+      "vim"
+    ],
+    "updated_at": "2026-04-18T13:11:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is one word under Vim's definition:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camel-case"
+    },
+    {
+      "context_snippet": "This is one word under Vim's definition:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-objects"
+    }
+  ]
+}

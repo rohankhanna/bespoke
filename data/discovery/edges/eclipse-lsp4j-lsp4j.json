@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eclipse-lsp4j/lsp4j",
-      "target": "microsoft/language-server-protocol",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/junit.yml",
       "source_repo": "eclipse-lsp4j/lsp4j",
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "eclipse-lsp4j/lsp4j"
 }

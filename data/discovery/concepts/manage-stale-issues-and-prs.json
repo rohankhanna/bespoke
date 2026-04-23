@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manage stale issues and PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "Manage stale issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate",
+      "text": "Manage stale issues and PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21420,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17518,
+      "status": "candidate",
+      "text": "commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "bibliographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "departmental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "dos"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manage stale issues and PRs",
+  "concept_id": "manage-stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/execution-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage stale issues and PRs",
+      "sense_id": "manage-stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,18 +19,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "project-baize/baize-chatbot",
-      "target": "tloen/alpaca-lora",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "project-baize/baize-chatbot",
       "target": "project-baize/baize",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T08:47:04.160832+00:00",
+  "fetched_at": "2026-04-23T21:11:09.449970+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,11 +62,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "timdettmers/bitsandbytes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tloen/alpaca-lora",
       "source_file": "README.md"
     }
   ],

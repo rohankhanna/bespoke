@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Windows 2022"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Windows 2022"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "accept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "asl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "binary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "lvi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9718,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows 2022",
+      "sense_id": "build-windows-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-windows-2022",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-windows-2022",
+  "observation_id": "2cbf9b99e19fb4cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build Windows 2022",
+  "source_context_snippet": "Build Windows 2022",
+  "source_file": ".github/workflows/build-windows-2022.yml",
+  "source_repo": "kurrent-io/KurrentDB",
+  "source_repo_description": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency."
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tests"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925191,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917597,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912462,
+      "status": "candidate",
+      "text": "interpreting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910238,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830965,
+      "status": "candidate",
+      "text": "rendition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rendering",
+      "sense_id": "rendering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21041,
+      "status": "candidate",
+      "text": "rendition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11048,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6025,
+      "status": "candidate",
+      "text": "interpreting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2062,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "concept_id": "rendering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rendering",
+  "observation_id": "6d75eef9621d75e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rendering",
+  "source_context_snippet": "Tests",
+  "source_file": null,
+  "source_repo": "a-e-k/canvas_ity",
+  "source_repo_description": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+}

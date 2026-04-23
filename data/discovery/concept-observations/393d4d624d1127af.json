@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JSON Schema format validation for Ajv v8+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "JSON Schema formats for Ajv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "JSON Schema formats for Ajv"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json-schema",
+      "sense_id": "json-schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "json-schema",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "json-schema",
+  "observation_id": "393d4d624d1127af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "json-schema",
+  "source_context_snippet": "JSON Schema formats for Ajv",
+  "source_file": null,
+  "source_repo": "ajv-validator/ajv-formats",
+  "source_repo_description": "JSON Schema format validation for Ajv v8+"
+}

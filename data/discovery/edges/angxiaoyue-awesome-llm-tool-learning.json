@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ailab-cvc/gpt4tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ber666/toolkengpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ask-03/reverse-chain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "adriantheuma/llama2-raven",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "AngxiaoYue/awesome-llm-tool-learning"
+}

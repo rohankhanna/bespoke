@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "gristlabs/asttokens",
+      "target": "gristlabs/asttokens.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "gristlabs/asttokens",
+      "target": "pycqa/astroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "gristlabs/asttokens",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "gristlabs/asttokens",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "gristlabs/asttokens",
+      "target": "AndreMiras/coveralls-python-action@v20201129",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "gristlabs/asttokens",
+      "target": "Build and test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:33.631415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3187
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 663
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 2731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Annotate Python AST trees with source text and token information",
+    "fork": false,
+    "full_name": "gristlabs/asttokens",
+    "html_url": "https://github.com/gristlabs/asttokens",
+    "language": "Python",
+    "pushed_at": "2026-01-08T05:56:19Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-03-30T05:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gristlabs/asttokens.",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycqa/astroid",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and test"
+    }
+  ]
+}

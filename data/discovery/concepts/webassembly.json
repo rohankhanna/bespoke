@@ -163,6 +163,42 @@
       "source_repo": "emscripten-core/emscripten",
       "status": "candidate-context",
       "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, HarmonyOS, WebAssembly, watchOS, tvOS, visionOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "Build a private P2P device network for capability-first services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "emscripten-core/emscripten",
       "status": "candidate",
       "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +388,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enbop/fungi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

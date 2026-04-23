@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Runner Updates Check (Scheduled Job)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Runner Updates Check (Scheduled Job)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "Runner Updates Check (Scheduled Job)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24467,
+      "status": "candidate",
+      "text": "refresher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24161,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23467,
+      "status": "candidate",
+      "text": "refresher course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22647,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22647,
+      "status": "candidate",
+      "text": "ski"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Runner Updates Check (Scheduled Job)",
+  "concept_id": "runner-updates-check-scheduled-job",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/arc-update-runners-scheduled.yaml",
+      "source_repo": "actions/actions-runner-controller"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Runner Updates Check (Scheduled Job)",
+      "sense_id": "runner-updates-check-scheduled-job#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

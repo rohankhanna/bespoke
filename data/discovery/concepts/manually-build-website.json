@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manually Build Website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "Manually Build Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Manually Build Website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18471,
+      "status": "candidate",
+      "text": "colophon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18471,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "binding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "bookmark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manually Build Website",
+  "concept_id": "manually-build-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs-manual-build.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Build Website",
+      "sense_id": "manually-build-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

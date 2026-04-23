@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-asan.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "unetworking/uwebsockets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-asan.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-asan.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "Build ASAN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "ilammy/setup-nasm@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "commercial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "proxy-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:00:05.617762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2786
+    },
+    {
+      "path": ".github/workflows/build-asan.yml",
+      "size": 1375
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u03bcWebSockets for Node.js back-ends :metal:",
+    "fork": false,
+    "full_name": "uNetworking/uWebSockets.js",
+    "html_url": "https://github.com/uNetworking/uWebSockets.js",
+    "language": "C++",
+    "pushed_at": "2026-04-23T00:07:43Z",
+    "stargazers_count": 9063,
+    "topics": [
+      "commercial",
+      "http",
+      "nodejs",
+      "proxy-protocol",
+      "pubsub",
+      "router",
+      "runtime",
+      "typescript",
+      "websockets"
+    ],
+    "updated_at": "2026-04-22T23:32:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unetworking/uwebsockets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build ASAN",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-asan.yml",
+      "term": "Build ASAN"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commercial"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-protocol"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

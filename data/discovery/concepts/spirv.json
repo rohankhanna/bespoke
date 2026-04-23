@@ -31,6 +31,42 @@
       "source_repo": "gfx-rs/rspirv",
       "status": "candidate-context",
       "text": "rspirv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "TornadoVM: A practical and efficient heterogeneous programming framework for managed languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "A testing framework for automatically finding and simplifying bugs in graphics shader compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "gfx-rs/rspirv",
       "status": "candidate",
       "text": "rspirv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "gfx-rs/rspirv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

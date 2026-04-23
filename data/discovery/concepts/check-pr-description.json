@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR Description"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate-context",
+      "text": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate-context",
+      "text": "Check PR Description"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate",
+      "text": "Check PR Description"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19641,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19573,
+      "status": "candidate",
+      "text": "incorporate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR Description",
+  "concept_id": "check-pr-description",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR Description",
+      "sense_id": "check-pr-description#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

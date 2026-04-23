@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy demo to GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "A web-based Video Editing SDK built on WebCodecs. \u57fa\u4e8e WebCodecs \u6784\u5efa\u7684\u7f51\u9875\u89c6\u9891\u7f16\u8f91 SDK\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "Deploy demo to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate",
+      "text": "Deploy demo to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19488,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19123,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19101,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19101,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19101,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy demo to GitHub Pages",
+  "concept_id": "deploy-demo-to-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-doc-site.yml",
+      "source_repo": "WebAV-Tech/WebAV"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy demo to GitHub Pages",
+      "sense_id": "deploy-demo-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

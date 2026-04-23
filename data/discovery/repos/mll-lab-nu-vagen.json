@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mll-lab-nu/VAGEN",
+      "target": "ragen-ai/ragen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:46.754026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training VLM agents with multi-turn reinforcement learning",
+    "fork": false,
+    "full_name": "mll-lab-nu/VAGEN",
+    "html_url": "https://github.com/mll-lab-nu/VAGEN",
+    "language": "Python",
+    "pushed_at": "2026-04-17T00:11:48Z",
+    "stargazers_count": 449,
+    "topics": [],
+    "updated_at": "2026-04-23T15:02:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ragen-ai/ragen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

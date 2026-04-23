@@ -1,0 +1,532 @@
+{
+  "components": [
+    {
+      "component": "@quasar/extras",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dayjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pinia",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pinia-plugin-persistedstate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "quasar",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-i18n",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@intlify/vite-plugin-vue-i18n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@quasar/app-vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/uuid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-build",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-cacheable-response",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-expiration",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-precaching",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-routing",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workbox-strategies",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "torantulino/auto-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@quasar/extras",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "dayjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "pinia",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "pinia-plugin-persistedstate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "quasar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "vue-i18n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@intlify/vite-plugin-vue-i18n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@quasar/app-vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@types/uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-cacheable-response",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-expiration",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-precaching",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-routing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "workbox-strategies",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "autogpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web",
+      "target": "gpt-4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:15.848829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1191
+    },
+    {
+      "path": "package.json",
+      "size": 1587
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 1629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set Your Goals, AI Achieves Them.",
+    "fork": false,
+    "full_name": "jina-ai/auto-gpt-web",
+    "html_url": "https://github.com/jina-ai/auto-gpt-web",
+    "language": "TypeScript",
+    "pushed_at": "2023-04-13T08:09:58Z",
+    "stargazers_count": 760,
+    "topics": [
+      "ai",
+      "autogpt",
+      "electron",
+      "gpt-3",
+      "gpt-4",
+      "javascript",
+      "openai"
+    ],
+    "updated_at": "2026-04-23T11:53:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torantulino/auto-gpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autogpt"
+    },
+    {
+      "context_snippet": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    }
+  ]
+}

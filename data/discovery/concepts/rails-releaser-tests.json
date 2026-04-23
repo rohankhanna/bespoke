@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rails releaser tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rails releaser tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rails releaser tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22126,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18207,
+      "status": "candidate",
+      "text": "cue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "pope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "yoga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10185,
+      "status": "candidate",
+      "text": "defect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rails releaser tests",
+  "concept_id": "rails-releaser-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "source_repo": "rails/rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rails releaser tests",
+      "sense_id": "rails-releaser-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

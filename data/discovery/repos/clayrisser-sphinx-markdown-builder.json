@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-markdown-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-jekyll-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-markdown-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "sphinx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:06:27.258556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3522
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder.",
+    "fork": false,
+    "full_name": "clayrisser/sphinx-markdown-builder",
+    "html_url": "https://github.com/clayrisser/sphinx-markdown-builder",
+    "language": "Python",
+    "pushed_at": "2023-06-24T21:25:39Z",
+    "stargazers_count": 162,
+    "topics": [
+      "build",
+      "builder",
+      "code",
+      "generator",
+      "markdown",
+      "md",
+      "output",
+      "sphinx"
+    ],
+    "updated_at": "2025-10-03T20:45:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-jekyll-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-markdown-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-markdown-parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builder"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "output"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run commands on your host from inside your toolbox or flatpak sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862897,
+      "status": "candidate",
+      "text": "sandpile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910036,
+      "status": "candidate",
+      "text": "park"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882768,
+      "status": "candidate",
+      "text": "environment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931534,
+      "status": "candidate",
+      "text": "playpen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931533,
+      "status": "candidate",
+      "text": "dig box"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sandbox",
+      "sense_id": "sandbox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "sandpile"
+    }
+  ],
+  "concept_id": "sandbox",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sandbox",
+  "observation_id": "2c69ba6e68f66f24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sandbox",
+  "source_context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+  "source_file": null,
+  "source_repo": "1player/host-spawn",
+  "source_repo_description": "Run commands on your host from inside your toolbox or flatpak sandbox"
+}

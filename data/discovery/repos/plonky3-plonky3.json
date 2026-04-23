@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3",
+      "target": "Release-plz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:30.854617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9308
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4767
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4634
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 1065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolkit for polynomial IOPs (PIOPs)",
+    "fork": false,
+    "full_name": "Plonky3/Plonky3",
+    "html_url": "https://github.com/Plonky3/Plonky3",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T21:45:07Z",
+    "stargazers_count": 788,
+    "topics": [],
+    "updated_at": "2026-04-22T00:19:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "html-string"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/vhtml",
+      "status": "candidate-context",
+      "text": "Render JSX/Hyperscript to HTML strings, without VDOM \ud83c\udf08"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/vhtml",
+      "status": "candidate-context",
+      "text": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/vhtml",
+      "status": "candidate",
+      "text": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "html-string",
+  "concept_id": "html-string",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "developit/vhtml"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html-string",
+      "sense_id": "html-string#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

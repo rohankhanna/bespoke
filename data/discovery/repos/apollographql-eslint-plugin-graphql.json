@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "@babel/runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.flatten",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.without",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-transform-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pretty-quick",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "test-all-versions",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "dotansimha/graphql-eslint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "apollostack/eslint-plugin-graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "cjoudrey/graphql-schema-linter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "apollographql/apollo-codegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "graphql-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "lodash.flatten",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "lodash.without",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/plugin-transform-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "@babel/register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "pretty-quick",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "test-all-versions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "target": "Node CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:51:02.562683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15739
+    },
+    {
+      "path": "package.json",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":vertical_traffic_light: Check your GraphQL query strings against a schema.",
+    "fork": false,
+    "full_name": "apollographql/eslint-plugin-graphql",
+    "html_url": "https://github.com/apollographql/eslint-plugin-graphql",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T21:57:57Z",
+    "stargazers_count": 1216,
+    "topics": [],
+    "updated_at": "2026-04-21T13:17:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/apollo-codegen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollostack/eslint-plugin-graphql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjoudrey/graphql-schema-linter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotansimha/graphql-eslint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node CI"
+    }
+  ]
+}

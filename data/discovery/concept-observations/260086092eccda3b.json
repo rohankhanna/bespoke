@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-docs",
+      "sense_id": "build-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-docs",
+  "observation_id": "260086092eccda3b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "build-docs",
+  "source_context_snippet": "build-docs",
+  "source_file": ".github/workflows/build-docs.yaml",
+  "source_repo": "SWE-bench/SWE-smith",
+  "source_repo_description": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+}

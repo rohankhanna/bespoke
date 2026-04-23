@@ -32,6 +32,42 @@
       "source_repo": "mason-org/mason-registry",
       "status": "candidate-context",
       "text": "Stale bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Stale Bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "The Go language implementation of gRPC. HTTP/2 based RPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate-context",
+      "text": "Stale bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "Stale Bot"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +82,24 @@
       "source_repo": "mason-org/mason-registry",
       "status": "candidate",
       "text": "Stale bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "Stale Bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "Stale bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate",
+      "text": "Stale Bot"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +155,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/stale-bot.yml",
       "source_repo": "mason-org/mason-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml.disabled",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "PanQiWei/peft"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

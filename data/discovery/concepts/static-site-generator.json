@@ -55,6 +55,30 @@
       "source_repo": "gohugoio/hugo",
       "status": "candidate-context",
       "text": "[Clang]: https://clang.llvm.org/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "gohugoio/hugo",
       "status": "candidate",
       "text": "[Clang]: https://clang.llvm.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate",
+      "text": "![Decap CMS](/img/decap.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "gohugoio/hugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docfx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

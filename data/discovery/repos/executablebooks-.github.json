@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:11:14.319654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community health files: Contributing guidelines, Code of Conduct, ...",
+    "fork": false,
+    "full_name": "executablebooks/.github",
+    "html_url": "https://github.com/executablebooks/.github",
+    "language": null,
+    "pushed_at": "2024-05-10T20:39:52Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-10-29T21:43:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

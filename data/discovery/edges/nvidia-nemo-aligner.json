@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "triton-inference-server/pytriton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run_test.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo/.github/actions/cancel-workflow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_run_test.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "~test template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.22.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "tj-actions/changed-files@v44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_container.yml@v0.22.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "CICD NeMo Aligner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_copyright_check.yml@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Copyright check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_code_freeze.yml@v0.22.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Code freeze",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "NVIDIA/NeMo-Aligner"
+}

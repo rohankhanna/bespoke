@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "filip26/tree-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "cyberphone/json-canonicalization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "filip26/titanium-rdf-canon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Codacy Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Java 21 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs",
+      "target": "Publish to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonicalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonicalize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "canonize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "equality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "jackson-databind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "jakarta-json-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:34.504675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4839
+    },
+    {
+      "path": ".github/workflows/codacy-coverage.yml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/java21-build.yml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/maven-central-publish.yml",
+      "size": 987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS",
+    "fork": false,
+    "full_name": "filip26/titanium-jcs",
+    "html_url": "https://github.com/filip26/titanium-jcs",
+    "language": "Java",
+    "pushed_at": "2026-03-11T22:27:35Z",
+    "stargazers_count": 3,
+    "topics": [
+      "canonical",
+      "canonicalization",
+      "canonicalize",
+      "canonize",
+      "equality",
+      "jackson-databind",
+      "jakarta-json-api",
+      "jcs",
+      "json"
+    ],
+    "updated_at": "2026-03-11T22:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberphone/json-canonicalization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/titanium-rdf-canon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/tree-io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codacy Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "term": "Codacy Coverage"
+    },
+    {
+      "context_snippet": "Java 21 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21-build.yml",
+      "term": "Java 21 CI"
+    },
+    {
+      "context_snippet": "Publish to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "term": "Publish to the Maven Central"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canonical"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canonicalization"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canonicalize"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canonize"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "equality"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson-databind"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jakarta-json-api"
+    },
+    {
+      "context_snippet": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

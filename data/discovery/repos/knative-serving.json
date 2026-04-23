@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "knative/actions/setup-go@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "knative/actions/setup-go@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-kind@127740c4cc23cb47120860698b0fd91a803bab32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/kind-diag@3e8a2a226fad9e1ecbf2d359b8a7697554a4ac6d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-style.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-style.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-verify-codegen.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-verify.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "chainguard-dev/actions/setup-kind@127740c4cc23cb47120860698b0fd91a803bab32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "chainguard-dev/actions/kind-diag@3e8a2a226fad9e1ecbf2d359b8a7697554a4ac6d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "knative/serving",
+      "target": "e2e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/serving",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/serving",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/serving",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/serving",
+      "target": "Close stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-style.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "source_repo": "knative/serving",
+      "target": "Code Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/serving",
+      "target": "knative/actions/.github/workflows/reusable-verify-codegen.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "source_repo": "knative/serving",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "source_repo": "knative/serving",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "source_repo": "knative/serving",
+      "target": "PR approve GH Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "autoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "developer-productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "knative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/serving",
+      "target": "serverless-containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:55.798687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2008
+    },
+    {
+      "path": "go.mod",
+      "size": 8871
+    },
+    {
+      "path": ".github/workflows/kind-e2e.yaml",
+      "size": 7374
+    },
+    {
+      "path": ".github/workflows/knative-go-build.yaml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/knative-go-test.yaml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/knative-security.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/knative-stale.yaml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/knative-style.yaml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/knative-verify.yaml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes-based, scale-to-zero, request-driven compute",
+    "fork": false,
+    "full_name": "knative/serving",
+    "html_url": "https://github.com/knative/serving",
+    "language": "Go",
+    "pushed_at": "2026-04-23T12:45:19Z",
+    "stargazers_count": 6037,
+    "topics": [
+      "app",
+      "autoscaler",
+      "container",
+      "developer-productivity",
+      "function",
+      "knative",
+      "kubernetes",
+      "networking",
+      "scale",
+      "serverless",
+      "serverless-containers"
+    ],
+    "updated_at": "2026-04-23T12:45:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "e2e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "term": "e2e"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "'Security'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "'Close stale'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "term": "Close stale"
+    },
+    {
+      "context_snippet": "Code Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-style.yaml",
+      "term": "Code Style"
+    },
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-verify.yaml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "PR approve GH Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "term": "PR approve GH Workflows"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoscaler"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-productivity"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knative"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scale"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-containers"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "laude-institute/terminal-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check Canary String",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dockerfile-references.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dockerfile-references.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check Dockerfile References",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dockerfile-sanity.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dockerfile-sanity.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check Dockerfile Sanity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-run-tests-sh-sanity.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-run-tests-sh-sanity.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check run-tests.sh Sanity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check Task Absolute Paths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-file-references.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-test-file-references.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Check Test File References",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-task-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-task-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-task-review.yml",
+      "source_repo": "harbor-framework/terminal-bench",
+      "target": "Claude Code Terminal-Bench Task Review",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "harbor-framework/terminal-bench"
+}

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "milvus-io/milvus-sdk-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "milvus-io/milvus-sdk-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "milvus-io/milvus-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "milvus-io/milvus-sdk-csharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "milvus-io/milvus-proto",
+      "target": "Test on pull request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:28.751189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2040
+    },
+    {
+      "path": "go.mod",
+      "size": 53
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Share Milvus proto files between Milvus repository and SDK repositories",
+    "fork": false,
+    "full_name": "milvus-io/milvus-proto",
+    "html_url": "https://github.com/milvus-io/milvus-proto",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T10:09:39Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-22T10:09:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-csharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/milvus-sdk-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test on pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "Test on pull request"
+    }
+  ]
+}

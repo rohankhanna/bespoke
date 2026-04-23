@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:06.149797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "thanku-all/parse_answer",
+    "html_url": "https://github.com/thanku-all/parse_answer",
+    "language": "Python",
+    "pushed_at": "2024-06-23T04:04:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-06-23T04:04:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

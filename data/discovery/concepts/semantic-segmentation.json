@@ -19,6 +19,54 @@
       "source_repo": "PaddlePaddle/PaddleSeg",
       "status": "candidate-context",
       "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "OpenMMLab Semantic Segmentation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "status": "candidate-context",
+      "text": "4D Spatio-Temporal Semantic Segmentation on a 3D video (a sequence of 3D scans)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "status": "candidate-context",
+      "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "PaddlePaddle/PaddleSeg",
       "status": "candidate",
       "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MinkowskiEngine",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrischoy/SpatioTemporalSegmentation",
+      "status": "candidate",
+      "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chrischoy/SpatioTemporalSegmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -7,10 +7,74 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050110,
+      "status": "candidate",
+      "text": "logotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050101,
+      "status": "candidate",
+      "text": "trademark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049214,
+      "status": "candidate",
+      "text": "oem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047972,
+      "status": "candidate",
+      "text": "signature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046319,
+      "status": "candidate",
+      "text": "emblem"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "logotype"
+    }
+  ],
   "canonical_name": "logo",
   "concept_id": "logo",
   "definition_status": "unresolved",
@@ -20,12 +84,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-assets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

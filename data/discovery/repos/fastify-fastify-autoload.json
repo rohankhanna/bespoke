@@ -1,0 +1,438 @@
+{
+  "components": [
+    {
+      "component": "@fastify/url-data",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsumners/line-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc-node/register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swc/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "borp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild-register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastify-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "neostandard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node-dev",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fastify/workflows/.github/workflows/plugins-ci.yml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify/fastify-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@fastify/url-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@jsumners/line-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@swc-node/register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@swc/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "borp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "esbuild-register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "neostandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "ts-node-dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "tsm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify/workflows/.github/workflows/plugins-ci.yml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-autoload",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-autoload",
+      "target": "fastify-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:52.273178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16819
+    },
+    {
+      "path": "package.json",
+      "size": 3504
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/lock-threads.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Require all plugins in a directory",
+    "fork": false,
+    "full_name": "fastify/fastify-autoload",
+    "html_url": "https://github.com/fastify/fastify-autoload",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-19T21:24:08Z",
+    "stargazers_count": 372,
+    "topics": [
+      "fastify",
+      "fastify-plugin"
+    ],
+    "updated_at": "2026-04-19T19:53:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastify/fastify-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lock Threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-autoload/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-autoload/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-autoload/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-autoload/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify-plugin"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "facebookresearch/AugLy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "facebookresearch/AugLy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_python.yml",
+      "source_repo": "facebookresearch/AugLy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_python.yml",
+      "source_repo": "facebookresearch/AugLy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:02.450942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7008
+    },
+    {
+      "path": "requirements.txt",
+      "size": 94
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/test_python.yml",
+      "size": 564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A data augmentations library for audio, image, text, and video.",
+    "fork": false,
+    "full_name": "facebookresearch/AugLy",
+    "html_url": "https://github.com/facebookresearch/AugLy",
+    "language": "Python",
+    "pushed_at": "2026-04-21T12:41:43Z",
+    "stargazers_count": 5077,
+    "topics": [],
+    "updated_at": "2026-04-23T09:49:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

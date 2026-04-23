@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FMInference/H2O",
+      "target": "fminference/flexgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "heavy-hitters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "high-throughput",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "kv-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FMInference/H2O",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:41.528919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'23] H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models.",
+    "fork": false,
+    "full_name": "FMInference/H2O",
+    "html_url": "https://github.com/FMInference/H2O",
+    "language": "Python",
+    "pushed_at": "2024-08-01T19:41:25Z",
+    "stargazers_count": 513,
+    "topics": [
+      "gpt-3",
+      "heavy-hitters",
+      "high-throughput",
+      "kv-cache",
+      "large-language-models",
+      "sparsity"
+    ],
+    "updated_at": "2026-04-22T13:32:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fminference/flexgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heavy-hitters"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-throughput"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kv-cache"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

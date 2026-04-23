@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "justjavac/free-programming-books-zh_cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "logiase/miraigo-module-autoreply",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "yinghau76/go-ascii-art",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "miraigo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "qqbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:09.265906+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2075
+    },
+    {
+      "path": "Dockerfile",
+      "size": 274
+    },
+    {
+      "path": "go.mod",
+      "size": 2084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A template for MiraiGo",
+    "fork": false,
+    "full_name": "Logiase/MiraiGo-Template",
+    "html_url": "https://github.com/Logiase/MiraiGo-Template",
+    "language": "Go",
+    "pushed_at": "2023-04-18T12:22:19Z",
+    "stargazers_count": 164,
+    "topics": [
+      "framework",
+      "mirai",
+      "miraigo",
+      "qq",
+      "qqbot",
+      "template"
+    ],
+    "updated_at": "2026-02-04T01:42:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justjavac/free-programming-books-zh_cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logiase/miraigo-module-autoreply",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yinghau76/go-ascii-art",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A template for MiraiGo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "A template for MiraiGo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "A template for MiraiGo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "miraigo"
+    },
+    {
+      "context_snippet": "A template for MiraiGo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    },
+    {
+      "context_snippet": "A template for MiraiGo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

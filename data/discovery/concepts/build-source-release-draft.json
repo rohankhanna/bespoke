@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Source Release Draft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Build Source Release Draft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Build Source Release Draft"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43473,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43306,
+      "status": "candidate",
+      "text": "keg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27888,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27801,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27766,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Source Release Draft",
+  "concept_id": "build-source-release-draft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Source Release Draft",
+      "sense_id": "build-source-release-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Base"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Base"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043075,
+      "status": "candidate",
+      "text": "groundwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042771,
+      "status": "candidate",
+      "text": "foundation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042263,
+      "status": "candidate",
+      "text": "fundament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038944,
+      "status": "candidate",
+      "text": "basal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035855,
+      "status": "candidate",
+      "text": "establish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base",
+      "sense_id": "base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59085,
+      "status": "candidate",
+      "text": "mean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42061,
+      "status": "candidate",
+      "text": "radical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38040,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28056,
+      "status": "candidate",
+      "text": "foundation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "inferior"
+    }
+  ],
+  "concept_id": "base",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "base",
+  "observation_id": "94d8641f3a3c9bbe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Base",
+  "source_context_snippet": "Base",
+  "source_file": ".github/workflows/base.yml",
+  "source_repo": "pq-code-package/mldsa-native",
+  "source_repo_description": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204"
+}

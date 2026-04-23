@@ -1,0 +1,587 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_c.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_d.yml"
+    },
+    {
+      "component": "dlang-community/setup-dlang@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_d.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "1password/load-secrets-action@13f58eec611f8e5db52ec16247f58c508398f3e6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_lua.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/opendal",
+      "target": "apache/opendal-oli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/opendal",
+      "target": "apache/opendal-ofs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/opendal",
+      "target": "compio-rs/compio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/opendal",
+      "target": "kimahriman/hdfs-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_c.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_c.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings C CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_cpp.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_cpp.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Cpp CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_d.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_d.yml",
+      "source_repo": "apache/opendal",
+      "target": "dlang-community/setup-dlang@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_d.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings D CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dart.yml",
+      "source_repo": "apache/opendal",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_dart.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Dart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Dotnet CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_go.yml",
+      "source_repo": "apache/opendal",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_go.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Go CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "1password/load-secrets-action@13f58eec611f8e5db52ec16247f58c508398f3e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Haskell CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_java.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_java.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_bindings_lua.yml",
+      "source_repo": "apache/opendal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_lua.yml",
+      "source_repo": "apache/opendal",
+      "target": "Bindings Lua CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal",
+      "target": "azblob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/opendal",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:23.460043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16646
+    },
+    {
+      "path": ".github/workflows/ci_bindings_c.yml",
+      "size": 2813
+    },
+    {
+      "path": ".github/workflows/ci_bindings_cpp.yml",
+      "size": 3240
+    },
+    {
+      "path": ".github/workflows/ci_bindings_d.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/ci_bindings_dart.yml",
+      "size": 2604
+    },
+    {
+      "path": ".github/workflows/ci_bindings_dotnet.yml",
+      "size": 2665
+    },
+    {
+      "path": ".github/workflows/ci_bindings_go.yml",
+      "size": 1606
+    },
+    {
+      "path": ".github/workflows/ci_bindings_haskell.yml",
+      "size": 4600
+    },
+    {
+      "path": ".github/workflows/ci_bindings_java.yml",
+      "size": 3126
+    },
+    {
+      "path": ".github/workflows/ci_bindings_lua.yml",
+      "size": 1778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache OpenDAL: One Layer, All Storage.",
+    "fork": false,
+    "full_name": "apache/opendal",
+    "html_url": "https://github.com/apache/opendal",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T16:11:31Z",
+    "stargazers_count": 5025,
+    "topics": [
+      "azblob",
+      "gcs",
+      "hacktoberfest",
+      "redis",
+      "rust",
+      "s3",
+      "storage"
+    ],
+    "updated_at": "2026-04-23T10:05:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/opendal-ofs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/opendal-oli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compio-rs/compio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kimahriman/hdfs-native",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bindings C CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_c.yml",
+      "term": "Bindings C CI"
+    },
+    {
+      "context_snippet": "Bindings Cpp CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_cpp.yml",
+      "term": "Bindings Cpp CI"
+    },
+    {
+      "context_snippet": "Bindings D CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_d.yml",
+      "term": "Bindings D CI"
+    },
+    {
+      "context_snippet": "Bindings Dart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_dart.yml",
+      "term": "Bindings Dart CI"
+    },
+    {
+      "context_snippet": "Bindings Dotnet CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_dotnet.yml",
+      "term": "Bindings Dotnet CI"
+    },
+    {
+      "context_snippet": "Bindings Go CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_go.yml",
+      "term": "Bindings Go CI"
+    },
+    {
+      "context_snippet": "Bindings Haskell CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_haskell.yml",
+      "term": "Bindings Haskell CI"
+    },
+    {
+      "context_snippet": "Bindings Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_java.yml",
+      "term": "Bindings Java CI"
+    },
+    {
+      "context_snippet": "Bindings Lua CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_bindings_lua.yml",
+      "term": "Bindings Lua CI"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azblob"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

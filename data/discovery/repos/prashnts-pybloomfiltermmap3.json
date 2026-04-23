@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prashnts/pybloomfiltermmap3",
+      "target": "axiak/pybloomfiltermmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "prashnts/pybloomfiltermmap3",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "prashnts/pybloomfiltermmap3",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "prashnts/pybloomfiltermmap3",
+      "target": "CI Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prashnts/pybloomfiltermmap3",
+      "target": "bloom-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:35.490760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4821
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 991
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Python Bloom Filter using Mmap",
+    "fork": false,
+    "full_name": "prashnts/pybloomfiltermmap3",
+    "html_url": "https://github.com/prashnts/pybloomfiltermmap3",
+    "language": "C",
+    "pushed_at": "2025-09-14T20:18:09Z",
+    "stargazers_count": 136,
+    "topics": [
+      "bloom-filter",
+      "python"
+    ],
+    "updated_at": "2026-04-07T02:55:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axiak/pybloomfiltermmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "term": "CI Builds"
+    },
+    {
+      "context_snippet": "[pybloomfiltermmap3](https://github.com/prashnts/pybloomfiltermmap3) is a Python 3 compatible fork of [pybloomfiltermmap](https://github.com/axiak/pybloomfiltermmap) by [@axiak](https://github.com/axiak).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    }
+  ]
+}

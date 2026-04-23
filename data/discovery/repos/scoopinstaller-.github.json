@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:47:38.378390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Org-wide settings",
+    "fork": false,
+    "full_name": "ScoopInstaller/.github",
+    "html_url": "https://github.com/ScoopInstaller/.github",
+    "language": null,
+    "pushed_at": "2026-04-02T14:23:16Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-02T14:23:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

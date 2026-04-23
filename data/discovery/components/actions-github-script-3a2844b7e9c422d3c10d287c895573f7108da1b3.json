@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -257,6 +257,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/smoketest.yml",
       "source_repo": "EclipseFdn/open-vsx.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-pr-issue-check.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cswin32-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_db_migration_confict.yml",
+      "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
     }
   ]
 }

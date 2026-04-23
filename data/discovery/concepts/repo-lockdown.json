@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Repo Lockdown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qemu/qemu",
+      "status": "candidate-context",
+      "text": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are disabled. Please only use release tarballs from the QEMU website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qemu/qemu",
+      "status": "candidate-context",
+      "text": "'Repo Lockdown'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qemu/qemu",
+      "status": "candidate",
+      "text": "'Repo Lockdown'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "bedrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "cadence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "cadenced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "cadences"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "cowlick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Repo Lockdown",
+  "concept_id": "repo-lockdown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "qemu/qemu"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Repo Lockdown",
+      "sense_id": "repo-lockdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

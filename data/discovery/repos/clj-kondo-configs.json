@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/configs",
+      "target": "babashka/neil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/configs",
+      "target": "clojure-lsp/clojure-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/configs",
+      "target": "tonsky/rum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/configs",
+      "target": "clj-kondo/clj-kondo.configs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs",
+      "target": "clj-kondo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:51.381555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library configurations as dependencies for clj-kondo",
+    "fork": false,
+    "full_name": "clj-kondo/configs",
+    "html_url": "https://github.com/clj-kondo/configs",
+    "language": "Clojure",
+    "pushed_at": "2025-08-21T16:00:36Z",
+    "stargazers_count": 16,
+    "topics": [
+      "clj-kondo",
+      "clojure"
+    ],
+    "updated_at": "2026-02-07T08:43:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/neil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clj-kondo/clj-kondo.configs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-lsp/clojure-lsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonsky/rum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clj-kondo configurations for libraries, as dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clj-kondo"
+    },
+    {
+      "context_snippet": "Clj-kondo configurations for libraries, as dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

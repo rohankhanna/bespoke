@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adam-p/markdown-here",
+      "target": "chjj/marked",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adam-p/markdown-here",
+      "target": "isagalaev/highlight.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:39.094985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+    "fork": false,
+    "full_name": "adam-p/markdown-here",
+    "html_url": "https://github.com/adam-p/markdown-here",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-22T00:21:50Z",
+    "stargazers_count": 60181,
+    "topics": [],
+    "updated_at": "2026-04-23T17:55:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chjj/marked",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isagalaev/highlight.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

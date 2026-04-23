@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check code quality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Easy and lightning fast training of \ud83e\udd17 Transformers on Habana Gaudi processor (HPU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Check code quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate",
+      "text": "Check code quality"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38070,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36458,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34944,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26797,
+      "status": "candidate",
+      "text": "spot check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26397,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check code quality",
+  "concept_id": "check-code-quality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check_code_quality.yml",
+      "source_repo": "huggingface/optimum-habana"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check code quality",
+      "sense_id": "check-code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

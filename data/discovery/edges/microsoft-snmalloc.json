@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "bencherdev/bencher@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "snmalloc Benchmarking CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "bazelbuild/setup-bazelisk@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "snmalloc CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/morello.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/morello.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "snmalloc CI for Morello",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-cmake-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-cmake-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-cmake-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "Reusable CMake Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-vm-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-vm-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-vm-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-vm-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "vmactions/openbsd-vm@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-vm-build.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "Reusable VM Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/snmalloc",
+      "target": "snmalloc-rs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/snmalloc",
+      "target": "allocator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/snmalloc",
+      "target": "malloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/snmalloc",
+      "target": "memory-allocator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/snmalloc"
+}

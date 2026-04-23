@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "discussion-board"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Discussions and proposals related to the main React Native project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Do you have an idea on how to make React Native better?"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate",
+      "text": "Do you have an idea on how to make React Native better?"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "discussion-board",
+  "concept_id": "discussion-board",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "discussion-board",
+      "sense_id": "discussion-board#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

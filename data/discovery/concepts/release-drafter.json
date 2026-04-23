@@ -140,6 +140,114 @@
       "source_repo": "redis/go-redis",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Seata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate-context",
+      "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "Entra ID extension for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/hiredis",
+      "status": "candidate-context",
+      "text": "Minimalistic C client for Redis >= 1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +314,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/go-redis",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/xcodes",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/hiredis",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -317,11 +479,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "apache/incubator-seata-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "athityakumar/colorls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/xcodes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis-entraid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "Tencent/TNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/hiredis"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

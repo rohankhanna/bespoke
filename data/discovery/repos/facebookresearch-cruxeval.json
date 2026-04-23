@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/cruxeval",
+      "target": "bigcode-project/bigcode-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/cruxeval",
+      "target": "naman-ntc/fastcode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/cruxeval",
+      "target": "evalplus/evalplus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:35.651802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7938
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "CRUXEval: Code Reasoning, Understanding, and Execution Evaluation",
+    "fork": false,
+    "full_name": "facebookresearch/cruxeval",
+    "html_url": "https://github.com/facebookresearch/cruxeval",
+    "language": "Python",
+    "pushed_at": "2024-10-11T21:35:50Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-01T00:04:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcode-project/bigcode-evaluation-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evalplus/evalplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naman-ntc/fastcode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -79,6 +79,42 @@
       "source_repo": "grafana/grafana",
       "status": "candidate-context",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman - Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "grafana/grafana",
       "status": "candidate",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +256,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

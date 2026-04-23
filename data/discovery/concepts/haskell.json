@@ -91,6 +91,54 @@
       "source_repo": "haskell/stylish-haskell",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "Fourmolu GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "A formatter for Haskell source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate-context",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "haskell/stylish-haskell",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/ormolu",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vyorkin/ormolu.el",
+      "status": "candidate",
+      "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +292,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "haskell/stylish-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tweag/ormolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vyorkin/ormolu.el"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

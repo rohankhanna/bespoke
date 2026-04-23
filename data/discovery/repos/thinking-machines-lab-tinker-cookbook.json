@@ -1,0 +1,385 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "allenai/ifbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "check-links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "downstream-compat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "publish-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyright.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "target": "pyright",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:03.794222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8893
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5891
+    },
+    {
+      "path": ".github/workflows/check-links.yaml",
+      "size": 1602
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 1873
+    },
+    {
+      "path": ".github/workflows/downstream-compat.yaml",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/integration-tests.yaml",
+      "size": 1754
+    },
+    {
+      "path": ".github/workflows/nightly.yaml",
+      "size": 2697
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 248
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yaml",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/pyright.yaml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Post-training with Tinker",
+    "fork": false,
+    "full_name": "thinking-machines-lab/tinker-cookbook",
+    "html_url": "https://github.com/thinking-machines-lab/tinker-cookbook",
+    "language": "Python",
+    "pushed_at": "2026-04-23T18:31:56Z",
+    "stargazers_count": 3135,
+    "topics": [],
+    "updated_at": "2026-04-23T18:32:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/ifbench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check-links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yaml",
+      "term": "check-links"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "downstream-compat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-compat.yaml",
+      "term": "downstream-compat"
+    },
+    {
+      "context_snippet": "integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "term": "integration-tests"
+    },
+    {
+      "context_snippet": "nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "term": "nightly"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "publish-pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "term": "publish-pypi"
+    },
+    {
+      "context_snippet": "pyright",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyright.yaml",
+      "term": "pyright"
+    }
+  ]
+}

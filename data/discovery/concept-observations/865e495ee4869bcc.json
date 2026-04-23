@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "https://superstaq.readthedocs.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Integration Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Integration Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18420,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18420,
+      "status": "candidate",
+      "text": "involve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18415,
+      "status": "candidate",
+      "text": "globe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18373,
+      "status": "candidate",
+      "text": "routine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18373,
+      "status": "candidate",
+      "text": "smooth"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Integration Check",
+      "sense_id": "daily-integration-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-integration-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-integration-check",
+  "observation_id": "865e495ee4869bcc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Daily Integration Check",
+  "source_context_snippet": "Daily Integration Check",
+  "source_file": ".github/workflows/daily-integration-check.yml",
+  "source_repo": "Infleqtion/client-superstaq",
+  "source_repo_description": "https://superstaq.readthedocs.io"
+}

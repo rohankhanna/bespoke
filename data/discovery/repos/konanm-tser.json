@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KonanM/tser",
+      "target": "fraillt/bitsery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KonanM/tser",
+      "target": "nixman/yas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KonanM/tser",
+      "target": "fraillt/cpp_serializers_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KonanM/tser",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KonanM/tser",
+      "target": "serialization-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KonanM/tser",
+      "target": "tiny",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:28.648072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tser - tiny serialization for C++",
+    "fork": false,
+    "full_name": "KonanM/tser",
+    "html_url": "https://github.com/KonanM/tser",
+    "language": "C++",
+    "pushed_at": "2021-05-05T23:13:47Z",
+    "stargazers_count": 146,
+    "topics": [
+      "cpp",
+      "serialization",
+      "serialization-libraries",
+      "tiny"
+    ],
+    "updated_at": "2025-12-29T11:09:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fraillt/bitsery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fraillt/cpp_serializers_benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixman/yas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization-libraries"
+    },
+    {
+      "context_snippet": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny"
+    }
+  ]
+}

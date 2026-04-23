@@ -51,14 +51,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "denysdovhan/robbyrussell-node",
-      "target": "denysdovhan/robbyrussell",
+      "target": "substack/tape",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "denysdovhan/robbyrussell-node",
-      "target": "chalk/chalk",
+      "target": "denysdovhan/robbyrussell",
       "target_type": "repository"
     },
     {
@@ -167,7 +167,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:40:27.299354+00:00",
+  "fetched_at": "2026-04-23T19:47:25.922720+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -200,11 +200,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chalk/chalk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "denysdovhan/robbyrussell",
       "source_file": "README.md"
     },
@@ -216,6 +211,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "substack/tape",
       "source_file": "README.md"
     }
   ],

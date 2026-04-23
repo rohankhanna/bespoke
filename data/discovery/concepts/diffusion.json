@@ -79,6 +79,30 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate-context",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes collection: better TAESD previews (including batch previews), improved HyperTile and Deep Shrink nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate-context",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "IntelLabs/fastRAG",
       "status": "candidate",
       "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +252,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "IntelLabs/fastRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-bleh"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

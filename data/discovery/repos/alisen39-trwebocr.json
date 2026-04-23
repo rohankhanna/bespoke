@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisen39/TrWebOCR",
+      "target": "myhub/tr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alisen39/TrWebOCR",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alisen39/TrWebOCR",
+      "target": "ocr-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alisen39/TrWebOCR",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:13:07.373750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2829
+    },
+    {
+      "path": "Dockerfile",
+      "size": 577
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u5f00\u6e90\u6613\u7528\u7684\u4e2d\u6587\u79bb\u7ebfOCR\uff0c\u8bc6\u522b\u7387\u5ab2\u7f8e\u5927\u5382\uff0c\u5e76\u4e14\u63d0\u4f9b\u4e86\u6613\u7528\u7684web\u9875\u9762\u53caweb\u7684\u63a5\u53e3\uff0c\u65b9\u4fbf\u4eba\u7c7b\u65e5\u5e38\u5de5\u4f5c\u4f7f\u7528\u6216\u8005\u5176\u4ed6\u7a0b\u5e8f\u6765\u8c03\u7528~",
+    "fork": false,
+    "full_name": "alisen39/TrWebOCR",
+    "html_url": "https://github.com/alisen39/TrWebOCR",
+    "language": "Python",
+    "pushed_at": "2023-06-14T16:03:13Z",
+    "stargazers_count": 2874,
+    "topics": [
+      "docker",
+      "ocr",
+      "ocr-recognition",
+      "python",
+      "python3",
+      "web"
+    ],
+    "updated_at": "2026-04-23T02:12:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myhub/tr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-recognition"
+    },
+    {
+      "context_snippet": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atcelen/IDesign",
+      "target": "nvidia/minkowskiengine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:40:28.576867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1963
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "atcelen/IDesign",
+    "html_url": "https://github.com/atcelen/IDesign",
+    "language": "Python",
+    "pushed_at": "2025-07-21T08:40:20Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-21T07:00:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/minkowskiengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

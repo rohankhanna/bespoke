@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honza/vim-snippets",
+      "target": "dcampos/nvim-snippy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honza/vim-snippets",
+      "target": "l3mon4d3/luasnip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honza/vim-snippets",
+      "target": "drmingdrmer/xptemplate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honza/vim-snippets",
+      "target": "bonsaiben/bootstrap-snippets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:35:04.838530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vim-snipmate default snippets (Previously snipmate-snippets)",
+    "fork": false,
+    "full_name": "honza/vim-snippets",
+    "html_url": "https://github.com/honza/vim-snippets",
+    "language": "Vim Snippet",
+    "pushed_at": "2025-10-28T14:00:35Z",
+    "stargazers_count": 4872,
+    "topics": [],
+    "updated_at": "2026-04-22T19:45:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonsaiben/bootstrap-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcampos/nvim-snippy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drmingdrmer/xptemplate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l3mon4d3/luasnip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

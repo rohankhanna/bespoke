@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crystal-lang/install-crystal@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "crystal-lang/install-crystal@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v2.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "crystal-lang/install-crystal@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "wgpu.cr CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "crystal-lang/install-crystal@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "crazy-max/ghaction-github-pages@v2.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chances/wgpu-crystal",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "compute-shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "crystal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:00.550429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2090
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bindings to wgpu-native for the Crystal programming language",
+    "fork": false,
+    "full_name": "chances/wgpu-crystal",
+    "html_url": "https://github.com/chances/wgpu-crystal",
+    "language": "Crystal",
+    "pushed_at": "2021-12-18T18:58:48Z",
+    "stargazers_count": 17,
+    "topics": [
+      "3d-graphics",
+      "compute-shaders",
+      "crystal",
+      "graphics",
+      "graphics-library",
+      "webgpu"
+    ],
+    "updated_at": "2025-08-27T12:20:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "wgpu.cr CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "wgpu.cr CI"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compute-shaders"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crystal"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-library"
+    },
+    {
+      "context_snippet": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    }
+  ]
+}

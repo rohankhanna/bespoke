@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Sign Blockchain Commit Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Build and Sign Blockchain Commit Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "Build and Sign Blockchain Commit Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26573,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26504,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26425,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26392,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26259,
+      "status": "candidate",
+      "text": "execute"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Sign Blockchain Commit Images",
+  "concept_id": "build-and-sign-blockchain-commit-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "source_repo": "celo-org/celo-blockchain"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Sign Blockchain Commit Images",
+      "sense_id": "build-and-sign-blockchain-commit-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

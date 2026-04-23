@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "License Compliance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "Elixir is a dynamic, functional language for building scalable and maintainable applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "License Compliance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate",
+      "text": "License Compliance"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "allow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "allowance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "dismissed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "freedom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "License Compliance",
+  "concept_id": "license-compliance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/license_compliance.yml",
+      "source_repo": "elixir-lang/elixir"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Compliance",
+      "sense_id": "license-compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

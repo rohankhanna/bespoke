@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "w3c/webmediaapi",
+      "target": "w3c/webmediaguidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "w3c/webmediaapi",
+      "target": "w3c/webmediaporting",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:58:42.362716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Web Media API specification",
+    "fork": false,
+    "full_name": "w3c/webmediaapi",
+    "html_url": "https://github.com/w3c/webmediaapi",
+    "language": "HTML",
+    "pushed_at": "2026-04-15T00:22:35Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-15T00:22:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/webmediaguidelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/webmediaporting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

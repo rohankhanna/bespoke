@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "pypa/virtualenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "pypa/get-pip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "target": "poetry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:11.393552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4691
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/installer.yml",
+      "size": 4173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official Poetry installation script",
+    "fork": false,
+    "full_name": "python-poetry/install.python-poetry.org",
+    "html_url": "https://github.com/python-poetry/install.python-poetry.org",
+    "language": "Python",
+    "pushed_at": "2026-04-20T20:54:10Z",
+    "stargazers_count": 249,
+    "topics": [
+      "poetry",
+      "python"
+    ],
+    "updated_at": "2026-04-23T11:50:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/get-pip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/virtualenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "poetry"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpg/p256-m",
+      "target": "agl/ctgrind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpg/p256-m",
+      "target": "intel/tinycrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpg/p256-m",
+      "target": "mpg/tinycrypt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:36:42.642075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal implementation of ECDH & ECDSA on NIST P-256 for 32-bit micro-controllers",
+    "fork": false,
+    "full_name": "mpg/p256-m",
+    "html_url": "https://github.com/mpg/p256-m",
+    "language": "C",
+    "pushed_at": "2022-06-15T20:06:11Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-03T12:07:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agl/ctgrind",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/tinycrypt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpg/tinycrypt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

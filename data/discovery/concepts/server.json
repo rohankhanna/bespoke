@@ -67,6 +67,78 @@
       "source_repo": "expressjs/express",
       "status": "candidate-context",
       "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +171,42 @@
       "source_repo": "expressjs/express",
       "status": "candidate",
       "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +295,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-sse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-ws"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

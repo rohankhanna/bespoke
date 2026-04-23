@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "eliemichel/WebGPU-distribution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "amerkoleci/Alimer.Bindings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/dawn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples"
     }
   ],
   "term": "webgpu"

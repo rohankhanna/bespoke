@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Elixir CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Elixir CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "alchemy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "arcanum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "cure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "panacea"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Elixir CI",
+      "sense_id": "elixir-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elixir-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elixir-ci",
+  "observation_id": "1deb0d255094b924",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Elixir CI",
+  "source_context_snippet": "Elixir CI",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "dwyl/learn-elixir",
+  "source_repo_description": ":droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!"
+}

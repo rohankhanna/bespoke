@@ -19,12 +19,48 @@
       "source_repo": "filip26/copper-multibase",
       "status": "candidate-context",
       "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lanthale/LibHeifFX",
+      "status": "candidate-context",
+      "text": "This installs the native lib libheif as a JavaFX Image format provider similar to imageIO before on Swing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lanthale/LibHeifFX",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "filip26/copper-multibase",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lanthale/LibHeifFX",
       "status": "candidate",
       "text": "Java CI with Maven"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "filip26/copper-multibase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

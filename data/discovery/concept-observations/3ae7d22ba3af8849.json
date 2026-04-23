@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Monitor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Monitor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14814,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "madame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "radon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Monitor",
+      "sense_id": "ci-monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-monitor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-monitor",
+  "observation_id": "3ae7d22ba3af8849",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI Monitor",
+  "source_context_snippet": "CI Monitor",
+  "source_file": ".github/workflows/ci-monitor.yml",
+  "source_repo": "LDLINGLINGLING/sglang",
+  "source_repo_description": "SGLang is a fast serving framework for large language models and vision language models."
+}

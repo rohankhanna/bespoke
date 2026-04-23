@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "teletype"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028436,
+      "status": "candidate",
+      "text": "teletypewriter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028347,
+      "status": "candidate",
+      "text": "telex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028225,
+      "status": "candidate",
+      "text": "tty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026969,
+      "status": "candidate",
+      "text": "telecommunication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025119,
+      "status": "candidate",
+      "text": "telecommunications"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "teletype",
+  "concept_id": "teletype",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akshaykmr/teletype"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "teletype",
+      "sense_id": "teletype#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

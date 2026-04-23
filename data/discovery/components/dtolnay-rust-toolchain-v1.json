@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unit-tests.yml",
       "source_repo": "ogham/exa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal"
     }
   ]
 }

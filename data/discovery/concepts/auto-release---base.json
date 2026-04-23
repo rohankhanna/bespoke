@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Release - Base"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate-context",
+      "text": " One stop shop for running AI/ML on AWS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate-context",
+      "text": "Auto Release - Base"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate",
+      "text": "Auto Release - Base"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19378,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18366,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18334,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18334,
+      "status": "candidate",
+      "text": "limo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18334,
+      "status": "candidate",
+      "text": "roadster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Release - Base",
+  "concept_id": "auto-release---base",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "source_repo": "aws/deep-learning-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Release - Base",
+      "sense_id": "auto-release---base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

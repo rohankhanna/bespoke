@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-hsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-mumps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-asl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "idaes/idaes-ext",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "coin-or/Ipopt"
+}

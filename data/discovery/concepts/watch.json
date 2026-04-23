@@ -43,6 +43,30 @@
       "source_repo": "sachaos/viddy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "sachaos/viddy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "sachaos/viddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/tsx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

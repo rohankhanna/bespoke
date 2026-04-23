@@ -31,6 +31,30 @@
       "source_repo": "fatchord/WaveRNN",
       "status": "candidate-context",
       "text": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": ":robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "fatchord/WaveRNN",
       "status": "candidate",
       "text": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fatchord/WaveRNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keithito/tacotron"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

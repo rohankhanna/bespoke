@@ -265,6 +265,102 @@
       "source_repo": "cornelk/llama-go",
       "status": "candidate-context",
       "text": "Inference of [Facebook's LLaMA](https://github.com/facebookresearch/llama) model in Golang with embedded C/C++."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "status": "candidate-context",
+      "text": "[EMNLP 2023 Demo] Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate-context",
+      "text": "All-in-one desktop app for running LLMs locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "Python package wrapping llama.cpp for on-device LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "Inference Llama 2 in one file of pure Zig"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -393,6 +489,54 @@
       "source_repo": "cornelk/llama-go",
       "status": "candidate",
       "text": "Inference of [Facebook's LLaMA](https://github.com/facebookresearch/llama) model in Golang with embedded C/C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "![](docs/img/logo-long-chatchat-trans-v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +748,83 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cornelk/llama-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cztomsik/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgbur/llama2.zig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,660 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-prs.yml"
+    },
+    {
+      "component": "korthout/backport-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blackduck-sca.yml"
+    },
+    {
+      "component": "blackduck-inc/black-duck-security-scan@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blackduck-sca.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-python-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-python-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.26.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.26.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.26.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/cccl",
+      "target": "conda-forge/cccl-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/cccl",
+      "target": "cusplibrary/cusplibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/cccl",
+      "target": "bytedance/lightseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/cccl",
+      "target": "cannylab/tsne-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-prs.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-prs.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "korthout/backport-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-prs.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Backport merged pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Benchmark Compare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blackduck-sca.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blackduck-sca.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "blackduck-inc/black-duck-security-scan@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blackduck-sca.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Black Duck SCA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-python-wheels.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matx.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-matx.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Build MatX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pytorch.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pytorch.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Build PyTorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "Build all RAPIDS repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow-nightly.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow-nightly.yml",
+      "source_repo": "NVIDIA/cccl",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "accelerated-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cpp-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cuda-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cuda-kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cuda-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "cuda-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "modern-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "nvidia-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "parallel-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cccl",
+      "target": "parallel-programming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:49:06.365487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31092
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/backport-prs.yml",
+      "size": 993
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 13319
+    },
+    {
+      "path": ".github/workflows/blackduck-sca.yml",
+      "size": 3349
+    },
+    {
+      "path": ".github/workflows/build-and-test-python-wheels.yml",
+      "size": 3698
+    },
+    {
+      "path": ".github/workflows/build-matx.yml",
+      "size": 3969
+    },
+    {
+      "path": ".github/workflows/build-pytorch.yml",
+      "size": 3584
+    },
+    {
+      "path": ".github/workflows/build-rapids.yml",
+      "size": 9455
+    },
+    {
+      "path": ".github/workflows/ci-workflow-nightly.yml",
+      "size": 5901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CUDA Core Compute Libraries",
+    "fork": false,
+    "full_name": "NVIDIA/cccl",
+    "html_url": "https://github.com/NVIDIA/cccl",
+    "language": "C++",
+    "pushed_at": "2026-04-23T18:31:55Z",
+    "stargazers_count": 2289,
+    "topics": [
+      "accelerated-computing",
+      "cpp",
+      "cpp-programming",
+      "cuda",
+      "cuda-cpp",
+      "cuda-kernels",
+      "cuda-library",
+      "cuda-programming",
+      "gpu",
+      "gpu-acceleration",
+      "gpu-computing",
+      "gpu-programming",
+      "hpc",
+      "modern-cpp",
+      "nvidia",
+      "nvidia-gpu",
+      "parallel-algorithm",
+      "parallel-computing",
+      "parallel-programming"
+    ],
+    "updated_at": "2026-04-23T17:51:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/lightseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cannylab/tsne-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/cccl-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cusplibrary/cusplibrary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport merged pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-prs.yml",
+      "term": "Backport merged pull request"
+    },
+    {
+      "context_snippet": "Benchmark Compare",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "Benchmark Compare"
+    },
+    {
+      "context_snippet": "Black Duck SCA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blackduck-sca.yml",
+      "term": "Black Duck SCA"
+    },
+    {
+      "context_snippet": "Build MatX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-matx.yml",
+      "term": "Build MatX"
+    },
+    {
+      "context_snippet": "Build PyTorch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pytorch.yml",
+      "term": "Build PyTorch"
+    },
+    {
+      "context_snippet": "Build all RAPIDS repositories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rapids.yml",
+      "term": "Build all RAPIDS repositories"
+    },
+    {
+      "context_snippet": "nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow-nightly.yml",
+      "term": "nightly"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accelerated-computing"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-programming"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-cpp"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-kernels"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-library"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-programming"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern-cpp"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-gpu"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-algorithm"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NVIDIA/cccl?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-programming"
+    }
+  ]
+}

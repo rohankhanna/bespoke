@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "coqui-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "recipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes",
+      "target": "tts-recipes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:40.768324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc38TTS recipes for different datasets",
+    "fork": false,
+    "full_name": "coqui-ai/TTS-recipes",
+    "html_url": "https://github.com/coqui-ai/TTS-recipes",
+    "language": "Shell",
+    "pushed_at": "2022-07-26T12:59:57Z",
+    "stargazers_count": 89,
+    "topics": [
+      "coqui-ai",
+      "dataset",
+      "deep-learning",
+      "recipe",
+      "speech",
+      "text-to-speech",
+      "tts",
+      "tts-recipes"
+    ],
+    "updated_at": "2026-03-29T18:23:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coqui-ai"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recipe"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-recipes"
+    }
+  ]
+}

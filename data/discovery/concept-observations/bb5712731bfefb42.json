@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cpu-inference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cpu-inference"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cpu-inference",
+      "sense_id": "cpu-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cpu-inference",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cpu-inference",
+  "observation_id": "bb5712731bfefb42",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cpu-inference",
+  "source_context_snippet": "cpu-inference",
+  "source_file": ".github/workflows/cpu-inference.yml",
+  "source_repo": "HabanaAI/DeepSpeed",
+  "source_repo_description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+}

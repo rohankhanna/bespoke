@@ -19,6 +19,42 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate-context",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "Official Python client library for kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/controller-runtime)](https://goreportcard.com/report/sigs.k8s.io/controller-runtime)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/controller-runtime)](https://goreportcard.com/report/sigs.k8s.io/controller-runtime)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubebuilder"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@fb404b9557c186e349162b0d8efb06e2bc36edea",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ]
+}

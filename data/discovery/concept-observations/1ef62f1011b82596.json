@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An embedded key/value database for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable Benchmark Template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable Benchmark Template"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17972,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17972,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "kast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "last"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Benchmark Template",
+      "sense_id": "reusable-benchmark-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-benchmark-template",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-benchmark-template",
+  "observation_id": "1ef62f1011b82596",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Reusable Benchmark Template",
+  "source_context_snippet": "Reusable Benchmark Template",
+  "source_file": ".github/workflows/benchmark-template.yaml",
+  "source_repo": "etcd-io/bbolt",
+  "source_repo_description": "An embedded key/value database for Go."
+}

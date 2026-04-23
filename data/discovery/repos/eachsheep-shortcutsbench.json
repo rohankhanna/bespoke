@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench",
+      "target": "shortcut",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench",
+      "target": "watchos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EachSheep/ShortcutsBench",
+      "target": "wwdc24",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:29.242205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21928
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ShortcutsBench: A Large-Scale Real-World Benchmark for API-Based Agents",
+    "fork": false,
+    "full_name": "EachSheep/ShortcutsBench",
+    "html_url": "https://github.com/EachSheep/ShortcutsBench",
+    "language": "Python",
+    "pushed_at": "2025-06-24T02:36:29Z",
+    "stargazers_count": 112,
+    "topics": [
+      "agent",
+      "api",
+      "apple",
+      "ios",
+      "llm",
+      "macos",
+      "shortcut",
+      "watchos",
+      "wwdc24"
+    ],
+    "updated_at": "2026-03-23T10:24:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple"
+    },
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortcut"
+    },
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    },
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wwdc24"
+    }
+  ]
+}

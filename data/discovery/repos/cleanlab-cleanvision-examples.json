@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision-examples",
+      "target": "cleanvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision-examples",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision-examples",
+      "target": "data-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision-examples",
+      "target": "image-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:44.664406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notebooks demonstrating example applications of the cleanvision library",
+    "fork": false,
+    "full_name": "cleanlab/cleanvision-examples",
+    "html_url": "https://github.com/cleanlab/cleanvision-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-16T00:51:46Z",
+    "stargazers_count": 17,
+    "topics": [
+      "cleanvision",
+      "computer-vision",
+      "data-quality",
+      "image-processing"
+    ],
+    "updated_at": "2025-12-16T00:52:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The notebooks in this repository demonstrate example applications",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cleanvision"
+    },
+    {
+      "context_snippet": "The notebooks in this repository demonstrate example applications",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "The notebooks in this repository demonstrate example applications",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-quality"
+    },
+    {
+      "context_snippet": "The notebooks in this repository demonstrate example applications",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    }
+  ]
+}

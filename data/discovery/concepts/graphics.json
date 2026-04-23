@@ -79,6 +79,114 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate-context",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Learn to use WebGPU for native graphic applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "Direct access to WebGPU native APIs from perl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate-context",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Bindings to wgpu-native for the Crystal programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "One stop solution for all Vulkan samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "\"build Antora documentation\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Thin multiplatform wrappers for graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "Collection of C-language examples that demonstrate basic rendering and computation in WebGPU native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "Vulkan best practice for mobile developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +225,60 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atrodo/WebGPU-Direct",
+      "status": "candidate",
+      "text": "WebGPU::Direct - Direct access to the WebGPU native APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate",
+      "text": "\"build Antora documentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samdauwe/webgpu-native-examples",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"20%\" src=\"https://github.com/samdauwe/webgpu-native-examples/blob/master/doc/images/webgpu-logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +380,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atrodo/WebGPU-Direct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "samdauwe/webgpu-native-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

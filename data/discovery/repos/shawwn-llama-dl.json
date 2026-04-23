@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawwn/llama-dl",
+      "target": "webtorrent/webtorrent-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawwn/llama-dl",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawwn/llama-dl",
+      "target": "shawwn/openai-server",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:05:54.885195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-speed download of LLaMA, Facebook's 65B parameter GPT model",
+    "fork": false,
+    "full_name": "shawwn/llama-dl",
+    "html_url": "https://github.com/shawwn/llama-dl",
+    "language": "Shell",
+    "pushed_at": "2023-06-28T16:56:55Z",
+    "stargazers_count": 4132,
+    "topics": [],
+    "updated_at": "2026-04-20T13:24:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shawwn/openai-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webtorrent/webtorrent-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

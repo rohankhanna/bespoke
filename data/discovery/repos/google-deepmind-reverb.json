@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/reverb",
+      "target": "deepmind/reverb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:13.262162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reverb is an efficient and easy-to-use data storage and transport system designed for machine learning research",
+    "fork": false,
+    "full_name": "google-deepmind/reverb",
+    "html_url": "https://github.com/google-deepmind/reverb",
+    "language": "C++",
+    "pushed_at": "2026-04-16T00:09:40Z",
+    "stargazers_count": 774,
+    "topics": [],
+    "updated_at": "2026-04-21T09:35:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/reverb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

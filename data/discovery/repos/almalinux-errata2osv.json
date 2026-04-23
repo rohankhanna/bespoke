@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:02:22.744663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1932
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Conversion utils for errata information to OSV format",
+    "fork": false,
+    "full_name": "AlmaLinux/errata2osv",
+    "html_url": "https://github.com/AlmaLinux/errata2osv",
+    "language": "Python",
+    "pushed_at": "2025-03-25T09:22:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-25T09:22:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

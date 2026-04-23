@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG",
+      "target": "graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG",
+      "target": "graphics2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG",
+      "target": "ios-lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollix/MetalNanoVG",
+      "target": "nanovg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:59.244707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Metal port of NanoVG.",
+    "fork": false,
+    "full_name": "ollix/MetalNanoVG",
+    "html_url": "https://github.com/ollix/MetalNanoVG",
+    "language": "C",
+    "pushed_at": "2023-12-09T15:51:31Z",
+    "stargazers_count": 229,
+    "topics": [
+      "graphics-library",
+      "graphics2d",
+      "ios-lib",
+      "metal",
+      "nanovg"
+    ],
+    "updated_at": "2026-03-20T11:39:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MetalNanoVG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-library"
+    },
+    {
+      "context_snippet": "MetalNanoVG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics2d"
+    },
+    {
+      "context_snippet": "MetalNanoVG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-lib"
+    },
+    {
+      "context_snippet": "MetalNanoVG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "MetalNanoVG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanovg"
+    }
+  ]
+}

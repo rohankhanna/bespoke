@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Execute Tutorial Notebooks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate-context",
+      "text": "Backward compatible ML compute opset inspired by HLO/MHLO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate-context",
+      "text": "Execute Tutorial Notebooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate",
+      "text": "Execute Tutorial Notebooks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23601,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22842,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22842,
+      "status": "candidate",
+      "text": "studying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "slur"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Execute Tutorial Notebooks",
+  "concept_id": "execute-tutorial-notebooks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/execute_tutorials.yml",
+      "source_repo": "openxla/stablehlo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Execute Tutorial Notebooks",
+      "sense_id": "execute-tutorial-notebooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -251,113 +251,29 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "1runeberg/confichat",
+      "target": "augustdev/enchanted",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "abraxas-365/langchain-rust",
+      "target": "agents-flex/agents-flex",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "1panel-dev/maxkb",
+      "target": "appflowy-io/appflowy",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "1panel-dev/1panel",
+      "target": "av/harbor",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "ollama",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "Claude Code",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "OpenClaw",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "OpenCode",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "Codex",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "Copilot",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "ollama launch claude",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "ollama launch openclaw",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "ollama run gemma3",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "pip install ollama",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "### JavaScript",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "npm i ollama",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -547,9 +463,93 @@
       "source_repo": "ollama/ollama",
       "target": "test",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "gemma3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "gpt-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "minimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ollama/ollama",
+      "target": "qwen",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T03:42:09.303252+00:00",
+  "fetched_at": "2026-04-23T22:07:25.137799+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -580,7 +580,6 @@
       "size": 13649
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:59.943397+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -590,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-19T02:26:28Z",
-    "stargazers_count": 169423,
+    "pushed_at": "2026-04-23T21:10:13Z",
+    "stargazers_count": 169803,
     "topics": [
       "deepseek",
       "gemma",
@@ -609,110 +608,126 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-19T13:59:09Z"
+    "updated_at": "2026-04-23T21:56:41Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1panel-dev/1panel",
+      "full_name": "agents-flex/agents-flex",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1panel-dev/maxkb",
+      "full_name": "appflowy-io/appflowy",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1runeberg/confichat",
+      "full_name": "augustdev/enchanted",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "abraxas-365/langchain-rust",
+      "full_name": "av/harbor",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "ollama"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Claude Code"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OpenClaw"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OpenCode"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Codex"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Copilot"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "ollama launch claude"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "ollama launch openclaw"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "ollama run gemma3"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "pip install ollama"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### JavaScript"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "npm i ollama"
-    },
-    {
+      "context_snippet": "latest",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/latest.yaml",
       "term": "latest"
     },
     {
+      "context_snippet": "release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "term": "release"
     },
     {
+      "context_snippet": "test-install",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test-install.yaml",
       "term": "test-install"
     },
     {
+      "context_snippet": "test",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yaml",
       "term": "test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-oss"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
     }
   ]
 }

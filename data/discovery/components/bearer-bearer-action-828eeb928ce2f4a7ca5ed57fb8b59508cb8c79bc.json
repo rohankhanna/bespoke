@@ -1,0 +1,12 @@
+{
+  "component": "bearer/bearer-action@828eeb928ce2f4a7ca5ed57fb8b59508cb8c79bc",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine"
+    }
+  ]
+}

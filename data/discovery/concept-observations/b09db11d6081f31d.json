@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf3e OAT: A research-friendly framework for LLM online alignment, including reinforcement learning, preference learning, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984799,
+      "status": "candidate",
+      "text": "rational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982634,
+      "status": "candidate",
+      "text": "thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978841,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987330,
+      "status": "candidate",
+      "text": "abstract thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987330,
+      "status": "candidate",
+      "text": "logical thinking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reasoning",
+      "sense_id": "reasoning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3012,
+      "status": "candidate",
+      "text": "abstract thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "logical thinking"
+    }
+  ],
+  "concept_id": "reasoning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reasoning",
+  "observation_id": "b09db11d6081f31d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "reasoning",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "sail-sg/oat",
+  "source_repo_description": "\ud83c\udf3e OAT: A research-friendly framework for LLM online alignment, including reinforcement learning, preference learning, etc."
+}

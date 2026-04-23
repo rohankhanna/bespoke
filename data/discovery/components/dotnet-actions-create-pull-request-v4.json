@@ -1,0 +1,17 @@
+{
+  "component": "dotnet/actions-create-pull-request@v4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-code-metrics.yml",
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smart-quotes.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    }
+  ]
+}

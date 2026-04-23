@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006294,
+      "status": "candidate",
+      "text": "compliancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005875,
+      "status": "candidate",
+      "text": "obligingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003461,
+      "status": "candidate",
+      "text": "conformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002855,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002809,
+      "status": "candidate",
+      "text": "deference"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compliance",
+      "sense_id": "compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32035,
+      "status": "candidate",
+      "text": "deference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "submission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15021,
+      "status": "candidate",
+      "text": "abidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14032,
+      "status": "candidate",
+      "text": "complaisance"
+    }
+  ],
+  "concept_id": "compliance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compliance",
+  "observation_id": "3bbcff261b3d83af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compliance",
+  "source_context_snippet": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026",
+  "source_file": null,
+  "source_repo": "open-policy-agent/opa",
+  "source_repo_description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/ultralytics-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/ultralytics-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:57.796949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8872
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 3940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for ultralytics.",
+    "fork": false,
+    "full_name": "conda-forge/ultralytics-feedstock",
+    "html_url": "https://github.com/conda-forge/ultralytics-feedstock",
+    "language": null,
+    "pushed_at": "2026-04-21T18:13:29Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-21T18:13:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

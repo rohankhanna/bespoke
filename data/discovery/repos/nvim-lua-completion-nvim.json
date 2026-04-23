@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "lifepillar/vim-mucomplete",
+      "target": "ms-jpq/coq_nvim",
       "target_type": "repository"
     },
     {
@@ -26,11 +26,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "kristijanhusak/completion-tags",
+      "target": "norcalli/snippets.nvim",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T07:47:24.977955+00:00",
+  "fetched_at": "2026-04-23T20:08:24.901078+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -59,17 +59,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kristijanhusak/completion-tags",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "kristijanhusak/vim-dadbod-completion",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lifepillar/vim-mucomplete",
+      "full_name": "ms-jpq/coq_nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "norcalli/snippets.nvim",
       "source_file": "README.md"
     }
   ],

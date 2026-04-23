@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "markdown-it"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "markdown-it",
+  "concept_id": "markdown-it",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/markdown-it-py"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "markdown-it",
+      "sense_id": "markdown-it#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

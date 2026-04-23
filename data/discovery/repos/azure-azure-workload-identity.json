@@ -1,0 +1,552 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml"
+    },
+    {
+      "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml"
+    },
+    {
+      "component": "stefanprodan/helm-gh-pages@0ad2bb377311d61ac04ad9eb6f252fb68e207260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@7afa10ed9b269c561c2336fd862446844e0cbf71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@eb055d739abdc2e8de2e5f4ba1a8b246daa779aa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@eb055d739abdc2e8de2e5f4ba1a8b246daa779aa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml"
+    },
+    {
+      "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@336e29918d653399e599bfca99fadc1d7ffbc9f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "azure/aad-pod-identity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "Azure Workload Identity CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "Azure Workload Identity E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "stefanprodan/helm-gh-pages@0ad2bb377311d61ac04ad9eb6f252fb68e207260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "codecov/codecov-action@7afa10ed9b269c561c2336fd862446844e0cbf71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "github/codeql-action/init@eb055d739abdc2e8de2e5f4ba1a8b246daa779aa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "github/codeql-action/analyze@eb055d739abdc2e8de2e5f4ba1a8b246daa779aa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "goreleaser/goreleaser-action@336e29918d653399e599bfca99fadc1d7ffbc9f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "federated-identity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "oidc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity",
+      "target": "workload-identity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:00.905645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3372
+    },
+    {
+      "path": "go.mod",
+      "size": 5781
+    },
+    {
+      "path": ".github/workflows/azwi-build.yaml",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/azwi-e2e.yaml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/chart.yaml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/codecov.yaml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/create-release-pull-request.yaml",
+      "size": 1994
+    },
+    {
+      "path": ".github/workflows/create-release.yaml",
+      "size": 1395
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 1021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods.",
+    "fork": false,
+    "full_name": "Azure/azure-workload-identity",
+    "html_url": "https://github.com/Azure/azure-workload-identity",
+    "language": "Go",
+    "pushed_at": "2026-04-20T18:11:08Z",
+    "stargazers_count": 335,
+    "topics": [
+      "aad",
+      "azure",
+      "federated-identity",
+      "kubernetes",
+      "oidc",
+      "workload-identity"
+    ],
+    "updated_at": "2026-04-20T18:11:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/aad-pod-identity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Azure Workload Identity CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "term": "Azure Workload Identity CI"
+    },
+    {
+      "context_snippet": "Azure Workload Identity E2E",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "term": "Azure Workload Identity E2E"
+    },
+    {
+      "context_snippet": "Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yaml",
+      "term": "Codecov"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "[![Build Status][14]][13]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "[![Build Status][14]][13]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-identity"
+    },
+    {
+      "context_snippet": "[![Build Status][14]][13]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status][14]][13]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc"
+    },
+    {
+      "context_snippet": "[![Build Status][14]][13]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workload-identity"
+    }
+  ]
+}

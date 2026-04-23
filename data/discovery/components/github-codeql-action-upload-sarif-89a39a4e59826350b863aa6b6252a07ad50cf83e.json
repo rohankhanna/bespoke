@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd"
     }
   ]
 }

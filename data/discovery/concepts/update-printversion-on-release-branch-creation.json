@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update PrintVersion on release branch creation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate-context",
+      "text": "Formatting technology for Swift source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate-context",
+      "text": "Update PrintVersion on release branch creation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate",
+      "text": "Update PrintVersion on release branch creation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894,
+      "status": "candidate",
+      "text": "paragraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894,
+      "status": "candidate",
+      "text": "reposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894,
+      "status": "candidate",
+      "text": "repositioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894,
+      "status": "candidate",
+      "text": "retool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29762,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update PrintVersion on release branch creation",
+  "concept_id": "update-printversion-on-release-branch-creation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto_update_version.yml",
+      "source_repo": "swiftlang/swift-format"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update PrintVersion on release branch creation",
+      "sense_id": "update-printversion-on-release-branch-creation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

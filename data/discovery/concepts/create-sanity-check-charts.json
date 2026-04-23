@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Sanity Check Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Offline optimization of your disaggregated Dynamo graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Create Sanity Check Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate",
+      "text": "Create Sanity Check Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31970,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31907,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31778,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31746,
+      "status": "candidate",
+      "text": "conceiving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31746,
+      "status": "candidate",
+      "text": "fancy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Sanity Check Charts",
+  "concept_id": "create-sanity-check-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Sanity Check Charts",
+      "sense_id": "create-sanity-check-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

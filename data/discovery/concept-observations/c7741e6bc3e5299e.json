@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Message Passing Neural Networks for Molecule Property Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034536,
+      "status": "candidate",
+      "text": "chemical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034536,
+      "status": "candidate",
+      "text": "interpersonal chemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034535,
+      "status": "candidate",
+      "text": "chem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032543,
+      "status": "candidate",
+      "text": "alchemy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032422,
+      "status": "candidate",
+      "text": "chemical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chemistry",
+      "sense_id": "chemistry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "chemical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "interpersonal chemistry"
+    }
+  ],
+  "concept_id": "chemistry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chemistry",
+  "observation_id": "c7741e6bc3e5299e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "chemistry",
+  "source_context_snippet": "<picture>",
+  "source_file": null,
+  "source_repo": "chemprop/chemprop",
+  "source_repo_description": "Message Passing Neural Networks for Molecule Property Prediction"
+}

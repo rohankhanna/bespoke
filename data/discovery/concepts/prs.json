@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "prs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/gha-tools",
+      "status": "candidate-context",
+      "text": "User tools for RAPIDS GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/gha-tools",
+      "status": "candidate-context",
+      "text": "prs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/gha-tools",
+      "status": "candidate",
+      "text": "prs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39600114,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012352,
+      "status": "candidate",
+      "text": "atomic number 59"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012351,
+      "status": "candidate",
+      "text": "prt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012203,
+      "status": "candidate",
+      "text": "gsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012192,
+      "status": "candidate",
+      "text": "lte"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "prs",
+  "concept_id": "prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/prs.yaml",
+      "source_repo": "rapidsai/gha-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "prs",
+      "sense_id": "prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

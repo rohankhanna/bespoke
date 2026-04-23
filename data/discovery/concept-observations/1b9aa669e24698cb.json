@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convolutional-neural-networks",
+      "sense_id": "convolutional-neural-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "convolutional-neural-networks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "convolutional-neural-networks",
+  "observation_id": "1b9aa669e24698cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "convolutional-neural-networks",
+  "source_context_snippet": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg",
+  "source_file": null,
+  "source_repo": "NVIDIA/MinkowskiEngine",
+  "source_repo_description": "Minkowski Engine is an auto-diff neural network library for high-dimensional sparse tensors"
+}

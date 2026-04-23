@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI Code Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI Code Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24394,
+      "status": "candidate",
+      "text": "ais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23363,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23344,
+      "status": "candidate",
+      "text": "person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "bills"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16449,
+      "status": "candidate",
+      "text": "robotics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Code Review",
+      "sense_id": "ai-code-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-code-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-code-review",
+  "observation_id": "e8ca0f1bb8182760",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "AI Code Review",
+  "source_context_snippet": "AI Code Review",
+  "source_file": ".github/workflows/ai-code-review.yml",
+  "source_repo": "aws/aws-sam-cli",
+  "source_repo_description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+}

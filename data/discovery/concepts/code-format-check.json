@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Format Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepseek-ai/DeepEP",
+      "status": "candidate-context",
+      "text": "DeepEP: an efficient expert-parallel communication library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepEP",
+      "status": "candidate-context",
+      "text": "Code Format Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepEP",
+      "status": "candidate",
+      "text": "Code Format Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35808,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18373,
+      "status": "candidate",
+      "text": "encode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18373,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18318,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18283,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Format Check",
+  "concept_id": "code-format-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "deepseek-ai/DeepEP"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Format Check",
+      "sense_id": "code-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

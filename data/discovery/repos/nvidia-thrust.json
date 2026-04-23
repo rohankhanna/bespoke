@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml"
+    },
+    {
+      "component": "google/mirror-branch-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-main-branch-to-master-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml"
+    },
+    {
+      "component": "serokell/xrefcheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "Deploy Documentation GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-main-branch-to-master-branch.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "google/mirror-branch-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "serokell/xrefcheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+      "source_repo": "NVIDIA/thrust",
+      "target": "Check bad links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cxx11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cxx14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cxx17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "cxx20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "nvidia-hpc-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust",
+      "target": "thrust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:27.204890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14821
+    },
+    {
+      "path": ".github/workflows/deploy-documentation-github-pages.yml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/mirror-main-branch-to-master-branch.yml",
+      "size": 383
+    },
+    {
+      "path": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+      "size": 338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl",
+    "fork": false,
+    "full_name": "NVIDIA/thrust",
+    "html_url": "https://github.com/NVIDIA/thrust",
+    "language": "C++",
+    "pushed_at": "2024-02-08T15:54:40Z",
+    "stargazers_count": 5002,
+    "topics": [
+      "algorithms",
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "cuda",
+      "cxx",
+      "cxx11",
+      "cxx14",
+      "cxx17",
+      "cxx20",
+      "gpu",
+      "gpu-computing",
+      "nvidia",
+      "nvidia-hpc-sdk",
+      "thrust"
+    ],
+    "updated_at": "2026-04-17T03:16:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Documentation GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml",
+      "term": "Deploy Documentation GitHub Pages"
+    },
+    {
+      "context_snippet": "Check bad links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+      "term": "Check bad links"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx11"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx14"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx17"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx20"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-hpc-sdk"
+    },
+    {
+      "context_snippet": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thrust"
+    }
+  ]
+}

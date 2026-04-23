@@ -41,6 +41,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/pytorch-image-models",
+      "target": "amshaker/swiftformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "apple/ml-aim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
       "target": "alphadl/lookahead.pytorch",
       "target_type": "repository"
     },
@@ -48,21 +62,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/pytorch-image-models",
-      "target": "agi-arena/mars",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/pytorch-image-models",
-      "target": "allenai/allennlp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/pytorch-image-models",
-      "target": "albumentations-team/albumentations",
+      "target": "boulaouaney/timmx",
       "target_type": "repository"
     },
     {
@@ -283,15 +283,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:29:08.782918+00:00",
+  "fetched_at": "2026-04-23T22:14:25.630276+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 38484
+      "size": 38805
     },
     {
       "path": "pyproject.toml",
-      "size": 2110
+      "size": 2173
     },
     {
       "path": "requirements.txt",
@@ -327,8 +327,8 @@
     "full_name": "huggingface/pytorch-image-models",
     "html_url": "https://github.com/huggingface/pytorch-image-models",
     "language": "Python",
-    "pushed_at": "2026-04-22T21:14:36Z",
-    "stargazers_count": 36682,
+    "pushed_at": "2026-04-23T16:57:08Z",
+    "stargazers_count": 36687,
     "topics": [
       "augmix",
       "convnext",
@@ -351,27 +351,27 @@
       "resnet",
       "vision-transformer-models"
     ],
-    "updated_at": "2026-04-22T22:58:39Z"
+    "updated_at": "2026-04-23T20:54:27Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "agi-arena/mars",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "albumentations-team/albumentations",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allenai/allennlp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "alphadl/lookahead.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amshaker/swiftformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-aim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boulaouaney/timmx",
       "source_file": "README.md"
     }
   ],

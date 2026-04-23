@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CommentResponder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CommentResponder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CommentResponder",
+      "sense_id": "commentresponder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commentresponder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commentresponder",
+  "observation_id": "a84e606ade564426",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CommentResponder",
+  "source_context_snippet": "CommentResponder",
+  "source_file": ".github/workflows/CommentResponder.yml",
+  "source_repo": "bioconda/bioconda-recipes",
+  "source_repo_description": "Conda recipes for the bioconda channel."
+}

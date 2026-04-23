@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050091,
+      "status": "candidate",
+      "text": "keypad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047318,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046808,
+      "status": "candidate",
+      "text": "typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044416,
+      "status": "candidate",
+      "text": "touch-tone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042658,
+      "status": "candidate",
+      "text": "keyword"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keyboard",
+      "sense_id": "keyboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keyboard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keyboard",
+  "observation_id": "d7d7016ac4fa231a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "keyboard",
+  "source_context_snippet": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "enigo-rs/enigo",
+  "source_repo_description": "Cross platform input simulation in Rust"
+}

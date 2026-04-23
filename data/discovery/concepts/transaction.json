@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "transaction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029304,
+      "status": "candidate",
+      "text": "dealing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028716,
+      "status": "candidate",
+      "text": "dealings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029423,
+      "status": "candidate",
+      "text": "sale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029060,
+      "status": "candidate",
+      "text": "exchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028791,
+      "status": "candidate",
+      "text": "purchase"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "dealing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "dealings"
+    }
+  ],
+  "canonical_name": "transaction",
+  "concept_id": "transaction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "flashbots/contender"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transaction",
+      "sense_id": "transaction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

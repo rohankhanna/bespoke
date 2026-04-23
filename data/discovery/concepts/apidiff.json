@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "apidiff"
+    "apidiff",
+    "APIDiff"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "googleapis/go-genproto",
       "status": "candidate-context",
       "text": "apidiff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "APIDiff"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "googleapis/go-genproto",
       "status": "candidate",
       "text": "apidiff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "APIDiff"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/apidiff.yaml",
       "source_repo": "googleapis/go-genproto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "robertbeckebans/rbdoom-3-bfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "git-for-windows/git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "doom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "doom3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "hardware-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:54.865778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Vulkan DOOM 3 port based on DOOM 3 BFG Edition",
+    "fork": false,
+    "full_name": "DustinHLand/vkDOOM3",
+    "html_url": "https://github.com/DustinHLand/vkDOOM3",
+    "language": "C++",
+    "pushed_at": "2023-06-03T17:44:38Z",
+    "stargazers_count": 901,
+    "topics": [
+      "3d-graphics",
+      "doom",
+      "doom3",
+      "hardware-acceleration",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-12T20:00:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git-for-windows/git",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robertbeckebans/rbdoom-3-bfg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom"
+    },
+    {
+      "context_snippet": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom3"
+    },
+    {
+      "context_snippet": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware-acceleration"
+    },
+    {
+      "context_snippet": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

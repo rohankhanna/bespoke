@@ -1,7 +1,7 @@
 {
   "component": "lycheeverse/lychee-action@v2.8.0",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/link-check.yaml",
       "source_repo": "0xAX/asm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "emmabostian/developer-portfolios"
     }
   ]
 }

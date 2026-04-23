@@ -172,6 +172,222 @@
       "source_repo": "rack/rack",
       "status": "candidate-context",
       "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/travis.rb",
+      "status": "candidate-context",
+      "text": "Travis CI Client (CLI and Ruby library)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis.rb",
+      "status": "candidate-context",
+      "text": "![The Travis Mascot](https://about.travis-ci.org/images/travis-mascot-200px.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Easy full stack backup operations on UNIX-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Ruby applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate-context",
+      "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate-context",
+      "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/travis-build",
+      "status": "candidate-context",
+      "text": ".travis.yml => build.sh converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-build",
+      "status": "candidate-context",
+      "text": "Travis Build exposes an API that [Travis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate-context",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +474,120 @@
       "source_repo": "rack/rack",
       "status": "candidate",
       "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis.rb",
+      "status": "candidate",
+      "text": "![The Travis Mascot](https://about.travis-ci.org/images/travis-mascot-200px.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate",
+      "text": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate",
+      "text": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thiagopradi/octopus",
+      "status": "candidate",
+      "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-build",
+      "status": "candidate",
+      "text": "Travis Build exposes an API that [Travis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/debug",
+      "status": "candidate",
+      "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -439,11 +769,125 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rack/rack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/travis.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "athityakumar/colorls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruby/debug"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

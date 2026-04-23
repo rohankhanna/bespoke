@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -472,6 +472,236 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-lint-example-app.yml",
       "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "carlosperate/awesome-pyproject"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-Antora-doc.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/module_test.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_step_1_create_version_bump.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_step_2_create_github_release.yml",
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "athityakumar/colorls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_comment_body_on_review.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge_on_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/welcome_comment.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rack_conform.yml",
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/turbo-rails.yml",
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/dartsass-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/tailwindcss-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upstream.yml",
+      "source_repo": "rails/tailwindcss-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/camping.yml",
+      "source_repo": "camping/camping"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "camping/camping"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jeremyevans/roda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-check-markdown.yml",
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby-macos.yaml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_test.yml",
+      "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/truffleruby.yml",
+      "source_repo": "ruby/debug"
     }
   ]
 }

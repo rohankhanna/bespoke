@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2025 Highlight] The official CLIP training codebase of Inf-CL: \"Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss\". A super memory-efficiency CLIP training scheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ring-attention",
+      "sense_id": "ring-attention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ring-attention",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ring-attention",
+  "observation_id": "770d63f271cbe005",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ring-attention",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+  "source_repo_description": "[CVPR 2025 Highlight] The official CLIP training codebase of Inf-CL: \"Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss\". A super memory-efficiency CLIP training scheme."
+}

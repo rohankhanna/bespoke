@@ -1,0 +1,506 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "open-mmlab/mmgen-facestylor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "open-mmlab/mmclassification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "open-mmlab/mmhuman3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "codecov/codecov-action@v1.0.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "codecov/codecov-action@v1.0.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_stage_test.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "test-mim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "generative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "mmcv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "openmmlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmgeneration",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:45:32.205385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11278
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 853
+    },
+    {
+      "path": ".github/workflows/merge_stage_test.yml",
+      "size": 6565
+    },
+    {
+      "path": ".github/workflows/pr_stage_test.yml",
+      "size": 5106
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 761
+    },
+    {
+      "path": ".github/workflows/test_mim.yml",
+      "size": 1147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MMGeneration is a powerful toolkit for generative models, based on PyTorch and MMCV. ",
+    "fork": false,
+    "full_name": "open-mmlab/mmgeneration",
+    "html_url": "https://github.com/open-mmlab/mmgeneration",
+    "language": "Python",
+    "pushed_at": "2023-09-05T13:15:50Z",
+    "stargazers_count": 2015,
+    "topics": [
+      "diffusion-models",
+      "gan",
+      "generative",
+      "generative-adversarial-network",
+      "mmcv",
+      "openmmlab",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-14T05:14:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmclassification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmgen-facestylor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmhuman3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "test-mim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_mim.yml",
+      "term": "test-mim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmcv"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmmlab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

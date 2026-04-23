@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-dist.yml",
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "supabase/scoop-bucket"
     }
   ]
 }

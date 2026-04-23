@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust full node implementation of the Fuel v2 protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9157,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9157,
+      "status": "candidate",
+      "text": "lumper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Images",
+      "sense_id": "docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-images",
+  "observation_id": "66ee4471a065cdc9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker Images",
+  "source_context_snippet": "Docker Images",
+  "source_file": ".github/workflows/docker-images.yml",
+  "source_repo": "FuelLabs/fuel-core",
+  "source_repo_description": "Rust full node implementation of the Fuel v2 protocol."
+}

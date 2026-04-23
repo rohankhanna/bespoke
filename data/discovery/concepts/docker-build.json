@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Docker Build"
+    "Docker Build",
+    "docker-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "caddyserver/caddy-docker",
       "status": "candidate-context",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "docker-build"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "caddyserver/caddy-docker",
       "status": "candidate",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "docker-build"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "caddyserver/caddy-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024982,
+      "status": "candidate",
+      "text": "homokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024981,
+      "status": "candidate",
+      "text": "excess kurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024980,
+      "status": "candidate",
+      "text": "mesokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024979,
+      "status": "candidate",
+      "text": "heterokurtosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024978,
+      "status": "candidate",
+      "text": "fat tail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kurtosis",
+      "sense_id": "kurtosis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kurtosis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kurtosis",
+  "observation_id": "9142b3c0a3e4dfef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "kurtosis",
+  "source_context_snippet": "![Run of the Ethereum Network Package](run.gif)",
+  "source_file": null,
+  "source_repo": "ethpandaops/ethereum-package",
+  "source_repo_description": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+}

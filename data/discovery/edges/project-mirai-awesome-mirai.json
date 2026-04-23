@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "45gfg9/mirai-release-watcher-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "985892345/mirai-hotfix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "ac682/arcbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "aimerneige/miraichess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "MiraiForum Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai-console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "qqbot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "project-mirai/awesome-mirai"
+}

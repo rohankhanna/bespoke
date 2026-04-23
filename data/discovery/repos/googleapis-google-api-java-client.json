@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-readme.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "googleapis/google-api-java-client-services",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "googleapis/google-oauth-java-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "auto-merge-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "auto-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "downstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/google-api-java-client",
+      "target": "Renovate Bot Config Validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:45.926201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3728
+    },
+    {
+      "path": ".github/workflows/approve-readme.yaml",
+      "size": 2617
+    },
+    {
+      "path": ".github/workflows/auto-release.yaml",
+      "size": 4165
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4577
+    },
+    {
+      "path": ".github/workflows/downstream.yaml",
+      "size": 3390
+    },
+    {
+      "path": ".github/workflows/renovate_config_check.yaml",
+      "size": 508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google APIs Client Library for Java",
+    "fork": false,
+    "full_name": "googleapis/google-api-java-client",
+    "html_url": "https://github.com/googleapis/google-api-java-client",
+    "language": "Java",
+    "pushed_at": "2026-04-20T21:14:38Z",
+    "stargazers_count": 1449,
+    "topics": [],
+    "updated_at": "2026-04-21T09:38:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-java-client-services",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-oauth-java-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-merge-readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "term": "auto-merge-readme"
+    },
+    {
+      "context_snippet": "auto-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "term": "auto-release"
+    },
+    {
+      "context_snippet": "downstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yaml",
+      "term": "downstream"
+    },
+    {
+      "context_snippet": "Renovate Bot Config Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "term": "Renovate Bot Config Validation"
+    }
+  ]
+}

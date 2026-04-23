@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "aminya/setup-cpp@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "sundoge/json-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "aminya/setup-cpp@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust",
+      "target": "simdjson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:00:48.121279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3657
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust bindings for the simdjson project.",
+    "fork": false,
+    "full_name": "SunDoge/simdjson-rust",
+    "html_url": "https://github.com/SunDoge/simdjson-rust",
+    "language": "Rust",
+    "pushed_at": "2026-03-02T09:14:56Z",
+    "stargazers_count": 111,
+    "topics": [
+      "bindings",
+      "json",
+      "rust",
+      "simd",
+      "simdjson"
+    ],
+    "updated_at": "2026-04-18T03:24:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sundoge/json-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simdjson"
+    }
+  ]
+}

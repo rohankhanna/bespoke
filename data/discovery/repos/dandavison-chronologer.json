@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:46:25.841315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 890
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visualize performance benchmarks over git commit history",
+    "fork": false,
+    "full_name": "dandavison/chronologer",
+    "html_url": "https://github.com/dandavison/chronologer",
+    "language": "Python",
+    "pushed_at": "2024-01-11T17:26:54Z",
+    "stargazers_count": 268,
+    "topics": [],
+    "updated_at": "2026-04-17T13:19:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

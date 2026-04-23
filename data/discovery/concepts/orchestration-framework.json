@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "orchestration-framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "orchestration-framework",
+  "concept_id": "orchestration-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "spotify/luigi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchestration-framework",
+      "sense_id": "orchestration-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-description.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-description.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "nginx-proxy/docker-gen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "Build and publish Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "peter-evans/dockerhub-description@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "Update Docker Hub Description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "docker-gen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "nginx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:37:31.264513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4400
+    },
+    {
+      "path": ".github/workflows/build-publish-dispatch.yml",
+      "size": 2885
+    },
+    {
+      "path": ".github/workflows/build-publish.yml",
+      "size": 3600
+    },
+    {
+      "path": ".github/workflows/dockerhub-description.yml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated nginx proxy for Docker containers using docker-gen",
+    "fork": false,
+    "full_name": "nginx-proxy/nginx-proxy",
+    "html_url": "https://github.com/nginx-proxy/nginx-proxy",
+    "language": "Python",
+    "pushed_at": "2026-04-20T04:59:30Z",
+    "stargazers_count": 19816,
+    "topics": [
+      "docker",
+      "docker-gen",
+      "nginx",
+      "reverse-proxy"
+    ],
+    "updated_at": "2026-04-23T06:27:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nginx-proxy/docker-gen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-publish.yml",
+      "term": "Build and publish Docker images"
+    },
+    {
+      "context_snippet": "Update Docker Hub Description",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "term": "Update Docker Hub Description"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-gen"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nginx"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    }
+  ]
+}

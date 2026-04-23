@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-regex-match@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "fsspec/filesystem_spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "actions-ecosystem/action-regex-match@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "rom1504/embedding-reader",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:34.617764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7779
+    },
+    {
+      "path": "requirements.txt",
+      "size": 82
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1111
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficiently read embedding in streaming from any filesystem",
+    "fork": false,
+    "full_name": "rom1504/embedding-reader",
+    "html_url": "https://github.com/rom1504/embedding-reader",
+    "language": "Python",
+    "pushed_at": "2025-08-09T21:43:44Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-02-24T11:21:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsspec/filesystem_spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Release"
+    }
+  ]
+}

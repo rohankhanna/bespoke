@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "specterops/sharphoundcommon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHound",
+      "target": "Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:26.772930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6777
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2000
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2.X",
+    "description": "C# Data Collector for BloodHound",
+    "fork": false,
+    "full_name": "SpecterOps/SharpHound",
+    "html_url": "https://github.com/SpecterOps/SharpHound",
+    "language": "C#",
+    "pushed_at": "2026-04-23T15:56:25Z",
+    "stargazers_count": 1249,
+    "topics": [],
+    "updated_at": "2026-04-23T15:56:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "specterops/sharphoundcommon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    }
+  ]
+}

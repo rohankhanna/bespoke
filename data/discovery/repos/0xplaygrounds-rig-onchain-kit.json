@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "piotrostr/listen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:21.899454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1811
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2327
+    },
+    {
+      "path": "Dockerfile",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/mdbook.yml",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd17\ud83e\udd16 Build multi-tenant AI agents that execute secure blockchain operations across Solana and EVM networks",
+    "fork": false,
+    "full_name": "0xPlaygrounds/rig-onchain-kit",
+    "html_url": "https://github.com/0xPlaygrounds/rig-onchain-kit",
+    "language": "Rust",
+    "pushed_at": "2025-02-27T22:35:00Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2026-03-25T19:28:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piotrostr/listen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdbook.yml",
+      "term": "Deploy Documentation"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync SPDX License Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "Sync SPDX License Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate",
+      "text": "Sync SPDX License Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23380,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22716,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "benching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "seasoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22587,
+      "status": "candidate",
+      "text": "forward"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync SPDX License Data",
+  "concept_id": "sync-spdx-license-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sync-license-data.yml",
+      "source_repo": "jsr-io/jsr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync SPDX License Data",
+      "sense_id": "sync-spdx-license-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

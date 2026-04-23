@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "functional-css"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "A library to create small, reusable CSS that scales as your website grows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "functional-css",
+  "concept_id": "functional-css",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "acss-io/atomizer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "functional-css",
+      "sense_id": "functional-css#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

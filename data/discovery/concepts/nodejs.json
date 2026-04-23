@@ -829,6 +829,282 @@
       "source_repo": "Level/abstract-leveldown",
       "status": "candidate-context",
       "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate-context",
+      "text": "\ud83d\udd78 Simple, robust, BitTorrent DHT implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate-context",
+      "text": "monorepo containing the various nuts and bolts that facilitate istanbul.js test instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "A nodenv plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d node-ignore is the manager and filter for .gitignore rules, the one used by eslint, prettier and many others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "| Linux / MacOS / Windows | Coverage | Downloads |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/braces",
+      "status": "candidate-context",
+      "text": "Faster brace expansion for node.js. Besides being faster, braces is not subject to DoS attacks like minimatch, is more accurate, and has more complete support for Bash 4.3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/braces",
+      "status": "candidate-context",
+      "text": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "Format JavaScript Standard Style as Stylish (i.e. snazzy) output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "NodeSource Node.js Binary Distributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "\u03bcWebSockets for Node.js back-ends :metal:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate-context",
+      "text": "Azure SDK for Node.js - Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate-context",
+      "text": "We are excited to announce that we are building a new [Azure SDK for JavaScript](https://github.com/azure/azure-sdk-for-js) in a new GitHub repo located here: https://github.com/azure/azure-sdk-for-js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feross/buffer",
+      "status": "candidate-context",
+      "text": "The buffer module from node.js, for the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/buffer",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Web Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "WebTorrent, the streaming torrent client. For the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -1239,6 +1515,144 @@
       "source_repo": "Level/abstract-leveldown",
       "status": "candidate",
       "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/istanbuljs",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=main)](https://travis-ci.org/istanbuljs/istanbuljs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate",
+      "text": "| Linux / MacOS / Windows | Coverage | Downloads |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/braces",
+      "status": "candidate",
+      "text": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-node",
+      "status": "candidate",
+      "text": "We are excited to announce that we are building a new [Azure SDK for JavaScript](https://github.com/azure/azure-sdk-for-js) in a new GitHub repo located here: https://github.com/azure/azure-sdk-for-js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/buffer",
+      "status": "candidate",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/buffer/ci/master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate",
+      "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [],
@@ -1762,11 +2176,179 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Level/abstract-leveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "istanbuljs/istanbuljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kaelzhang/node-ignore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodesource/distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "feross/buffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/web-stream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terkelg/prompts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/webtorrent-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

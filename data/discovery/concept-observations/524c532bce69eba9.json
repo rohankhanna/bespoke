@@ -84,7 +84,7 @@
   "normalized_form": "weekly-build-and-publish",
   "observation_id": "524c532bce69eba9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Weekly Build and Publish",
   "source_context_snippet": "Weekly Build and Publish",
   "source_file": ".github/workflows/weekly.yml",

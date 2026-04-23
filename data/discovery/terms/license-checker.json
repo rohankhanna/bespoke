@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/licence-checker.yml",
       "source_repo": "apache/dubbo-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "apache/incubator-seata-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s"
     }
   ],
   "term": "License Checker"

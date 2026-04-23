@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inpainting-methods",
+      "sense_id": "inpainting-methods#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inpainting-methods",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inpainting-methods",
+  "observation_id": "50d6ec73fe2d0b75",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "inpainting-methods",
+  "source_context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+  "source_file": null,
+  "source_repo": "advimman/lama",
+  "source_repo_description": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+}

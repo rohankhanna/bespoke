@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and publish CentOS 7 runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boozallen/goobernetes",
+      "status": "candidate-context",
+      "text": "On-prem GitHub Actions runners, backed by Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozallen/goobernetes",
+      "status": "candidate-context",
+      "text": "Build and publish CentOS 7 runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozallen/goobernetes",
+      "status": "candidate",
+      "text": "Build and publish CentOS 7 runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17693,
+      "status": "candidate",
+      "text": "fable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17004,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16995,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16965,
+      "status": "candidate",
+      "text": "footing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16902,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and publish CentOS 7 runner",
+  "concept_id": "build-and-publish-centos-7-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish CentOS 7 runner",
+      "sense_id": "build-and-publish-centos-7-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

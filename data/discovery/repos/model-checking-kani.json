@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-compiler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-compiler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-compiler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-compiler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml"
+    },
+    {
+      "component": "dacbd/create-issue-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_jobs.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-compiler.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-compiler.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Kani Compiler Performance Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-e2e.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-e2e.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Kani End-To-End Performance Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Attempt cargo update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-latest.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cbmc-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "dacbd/create-issue-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbmc-update.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Attempt CBMC update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "model-checking/kani",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Cargo Deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_jobs.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_jobs.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra_jobs.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Kani Extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "model-checking/kani",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "model-checking/kani",
+      "target": "Kani Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "model-checking/kani",
+      "target": "model-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "model-checking/kani",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "model-checking/kani",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:06.306695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3274
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2136
+    },
+    {
+      "path": ".github/workflows/bench-compiler.yml",
+      "size": 5969
+    },
+    {
+      "path": ".github/workflows/bench-e2e.yml",
+      "size": 2774
+    },
+    {
+      "path": ".github/workflows/cargo-update.yml",
+      "size": 1580
+    },
+    {
+      "path": ".github/workflows/cbmc-latest.yml",
+      "size": 3069
+    },
+    {
+      "path": ".github/workflows/cbmc-update.yml",
+      "size": 3683
+    },
+    {
+      "path": ".github/workflows/deny.yml",
+      "size": 663
+    },
+    {
+      "path": ".github/workflows/extra_jobs.yml",
+      "size": 1961
+    },
+    {
+      "path": ".github/workflows/format-check.yml",
+      "size": 1644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kani Rust Verifier",
+    "fork": false,
+    "full_name": "model-checking/kani",
+    "html_url": "https://github.com/model-checking/kani",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T23:29:22Z",
+    "stargazers_count": 3050,
+    "topics": [
+      "model-checking",
+      "rust",
+      "verification"
+    ],
+    "updated_at": "2026-04-23T14:51:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Kani Compiler Performance Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-compiler.yml",
+      "term": "Kani Compiler Performance Benchmarks"
+    },
+    {
+      "context_snippet": "Kani End-To-End Performance Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-e2e.yml",
+      "term": "Kani End-To-End Performance Benchmarks"
+    },
+    {
+      "context_snippet": "Attempt cargo update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-update.yml",
+      "term": "Attempt cargo update"
+    },
+    {
+      "context_snippet": "Attempt CBMC update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbmc-update.yml",
+      "term": "Attempt CBMC update"
+    },
+    {
+      "context_snippet": "Cargo Deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "term": "Cargo Deny"
+    },
+    {
+      "context_snippet": "Kani Extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra_jobs.yml",
+      "term": "Kani Extra"
+    },
+    {
+      "context_snippet": "Kani Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yml",
+      "term": "Kani Format Check"
+    },
+    {
+      "context_snippet": "![](./kani-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-checking"
+    },
+    {
+      "context_snippet": "![](./kani-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![](./kani-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

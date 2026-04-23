@@ -1,0 +1,485 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wntrblm/nox@2026.04.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "cmake-wheel/cmeel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "conda-forge/scikit-build-core-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "hynek/build-and-inspect-python-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "jwlawson/actions-setup-cmake@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "cygwin/cygwin-install-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "hynek/build-and-inspect-python-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "wntrblm/nox@2026.04.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "hynek/build-and-inspect-python-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "Anaconda Cloud nightly wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-build/scikit-build-core",
+      "target": "cmake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:49.911298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13995
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12487
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10861
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/nightlies.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A next generation Python CMake adaptor and Python API for plugins",
+    "fork": false,
+    "full_name": "scikit-build/scikit-build-core",
+    "html_url": "https://github.com/scikit-build/scikit-build-core",
+    "language": "Python",
+    "pushed_at": "2026-04-23T19:33:25Z",
+    "stargazers_count": 465,
+    "topics": [
+      "cmake",
+      "python"
+    ],
+    "updated_at": "2026-04-23T19:33:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmake-wheel/cmeel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/scikit-build-core-feedstock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Anaconda Cloud nightly wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightlies.yml",
+      "term": "Anaconda Cloud nightly wheels"
+    },
+    {
+      "context_snippet": "[![Documentation Status][rtd-badge]][rtd-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    }
+  ]
+}

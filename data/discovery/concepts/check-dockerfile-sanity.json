@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Dockerfile Sanity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "Check Dockerfile Sanity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate",
+      "text": "Check Dockerfile Sanity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15325,
+      "status": "candidate",
+      "text": "borderland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15325,
+      "status": "candidate",
+      "text": "cure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15325,
+      "status": "candidate",
+      "text": "cured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15325,
+      "status": "candidate",
+      "text": "rationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15325,
+      "status": "candidate",
+      "text": "reasoned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Dockerfile Sanity",
+  "concept_id": "check-dockerfile-sanity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-dockerfile-sanity.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Dockerfile Sanity",
+      "sense_id": "check-dockerfile-sanity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

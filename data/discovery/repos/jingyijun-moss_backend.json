@@ -1,0 +1,376 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml"
+    },
+    {
+      "component": "docker/build-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/build-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "aliyun/acr-login@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/build-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "docker/build-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml"
+    },
+    {
+      "component": "docker/login-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml"
+    },
+    {
+      "component": "docker/build-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "opentreehole/auth_next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "Dev Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "Dev Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "aliyun/acr-login@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "Master Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-qemu-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/setup-buildx-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/login-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tools.yaml",
+      "source_repo": "JingYiJun/MOSS_backend",
+      "target": "Dev Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:03:01.028265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 797
+    },
+    {
+      "path": "Dockerfile",
+      "size": 875
+    },
+    {
+      "path": "go.mod",
+      "size": 3846
+    },
+    {
+      "path": ".github/workflows/dev-003.yaml",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/dev.yaml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1434
+    },
+    {
+      "path": ".github/workflows/tools.yaml",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "backend for fastnlp MOSS project",
+    "fork": false,
+    "full_name": "JingYiJun/MOSS_backend",
+    "html_url": "https://github.com/JingYiJun/MOSS_backend",
+    "language": "Go",
+    "pushed_at": "2024-07-07T13:06:37Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-11T02:03:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opentreehole/auth_next",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-003.yaml",
+      "term": "Dev Build"
+    },
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "term": "Dev Build"
+    },
+    {
+      "context_snippet": "Master Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Master Build"
+    },
+    {
+      "context_snippet": "Dev Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tools.yaml",
+      "term": "Dev Build"
+    }
+  ]
+}

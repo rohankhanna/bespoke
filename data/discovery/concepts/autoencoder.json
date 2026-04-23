@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "autoencoder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate-context",
+      "text": "Reference code for the paper: Deep White-Balance Editing (CVPR 2020). Our method is a deep learning multi-task framework for white-balance editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018498,
+      "status": "candidate",
+      "text": "encoder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018497,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018496,
+      "status": "candidate",
+      "text": "autolearning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018495,
+      "status": "candidate",
+      "text": "encode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018494,
+      "status": "candidate",
+      "text": "autoclassifier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "autoencoder",
+  "concept_id": "autoencoder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autoencoder",
+      "sense_id": "autoencoder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

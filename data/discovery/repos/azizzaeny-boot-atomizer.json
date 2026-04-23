@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer",
+      "target": "atomizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer",
+      "target": "boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer",
+      "target": "boot-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azizzaeny/boot-atomizer",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:08.230715+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compile atomic css for boot",
+    "fork": false,
+    "full_name": "azizzaeny/boot-atomizer",
+    "html_url": "https://github.com/azizzaeny/boot-atomizer",
+    "language": "Clojure",
+    "pushed_at": "2023-08-10T02:16:35Z",
+    "stargazers_count": 8,
+    "topics": [
+      "atomizer",
+      "boot",
+      "boot-tasks",
+      "clojure"
+    ],
+    "updated_at": "2023-08-10T02:14:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile atomic css for boot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atomizer"
+    },
+    {
+      "context_snippet": "Compile atomic css for boot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boot"
+    },
+    {
+      "context_snippet": "Compile atomic css for boot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boot-tasks"
+    },
+    {
+      "context_snippet": "Compile atomic css for boot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

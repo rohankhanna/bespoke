@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gpt4v"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gpt4v",
+  "concept_id": "gpt4v",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpt4v",
+      "sense_id": "gpt4v#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

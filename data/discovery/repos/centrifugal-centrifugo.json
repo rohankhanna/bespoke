@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bufbuild/buf-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.37.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "bufbuild/buf-setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "bufbuild/buf-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "crate-ci/typos@v1.37.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "ably",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "eventsource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "http-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "pubnub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "pusher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "server-sent-events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "socket-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "websockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo",
+      "target": "webtransport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:56:53.877779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4219
+    },
+    {
+      "path": "Dockerfile",
+      "size": 338
+    },
+    {
+      "path": "go.mod",
+      "size": 6767
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1800
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever.",
+    "fork": false,
+    "full_name": "centrifugal/centrifugo",
+    "html_url": "https://github.com/centrifugal/centrifugo",
+    "language": "Go",
+    "pushed_at": "2026-04-23T16:29:38Z",
+    "stargazers_count": 10200,
+    "topics": [
+      "ably",
+      "alternative",
+      "eventsource",
+      "grpc",
+      "http-streaming",
+      "http3",
+      "messaging",
+      "pubnub",
+      "pubsub",
+      "pusher",
+      "real-time",
+      "redis",
+      "scalability",
+      "server-sent-events",
+      "socket-io",
+      "sse",
+      "streaming",
+      "websocket",
+      "websockets",
+      "webtransport"
+    ],
+    "updated_at": "2026-04-23T15:46:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ably"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alternative"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsource"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-streaming"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubnub"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pusher"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalability"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-sent-events"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socket-io"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    },
+    {
+      "context_snippet": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webtransport"
+    }
+  ]
+}

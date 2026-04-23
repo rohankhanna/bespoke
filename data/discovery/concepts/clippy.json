@@ -68,6 +68,18 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "clippy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "clippy"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intentee/paddler",
+      "status": "candidate",
+      "text": "clippy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
       "status": "candidate",
       "text": "clippy"
     }
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "microsoft/windows-rs"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

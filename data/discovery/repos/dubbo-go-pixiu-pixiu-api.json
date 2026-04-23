@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:45:28.314878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 217
+    },
+    {
+      "path": "go.mod",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "dubbo-go-pixiu/pixiu-api",
+    "html_url": "https://github.com/dubbo-go-pixiu/pixiu-api",
+    "language": "Go",
+    "pushed_at": "2025-09-06T07:30:58Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-09-06T07:31:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

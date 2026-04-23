@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@81ee1d48d9194cdcab880cbdc7d36e87d39874cb",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-cargo-mutants.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin"
+    }
+  ]
+}

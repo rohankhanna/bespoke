@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8_py_version_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8_py_version_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "pycqa/pep8-naming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8_py_version_check.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8_py_version_check.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_upload.yml",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "linter-flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear",
+      "target": "linter-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:46.631058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 34379
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2059
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 814
+    },
+    {
+      "path": ".github/workflows/flake8_py_version_check.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/pypi_upload.yml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A plugin for Flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle.",
+    "fork": false,
+    "full_name": "PyCQA/flake8-bugbear",
+    "html_url": "https://github.com/PyCQA/flake8-bugbear",
+    "language": "Python",
+    "pushed_at": "2026-03-16T22:50:46Z",
+    "stargazers_count": 1115,
+    "topics": [
+      "code-quality",
+      "linter",
+      "linter-flake8",
+      "linter-plugin"
+    ],
+    "updated_at": "2026-04-21T09:51:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycqa/pep8-naming",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-flake8"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-plugin"
+    }
+  ]
+}

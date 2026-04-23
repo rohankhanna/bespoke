@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "github-samples-app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "Samples for Intel\u00ae oneAPI Toolkits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "github-samples-app"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate",
+      "text": "github-samples-app"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "github-samples-app",
+  "concept_id": "github-samples-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "github-samples-app",
+      "sense_id": "github-samples-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "defaults"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013746,
+      "status": "candidate",
+      "text": "imbricated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007454,
+      "status": "candidate",
+      "text": "intertwined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998849,
+      "status": "candidate",
+      "text": "interlace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980527,
+      "status": "candidate",
+      "text": "interrelated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967337,
+      "status": "candidate",
+      "text": "settled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nested",
+      "sense_id": "nested#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nested",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nested",
+  "observation_id": "9b831228b90a43ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nested",
+  "source_context_snippet": "defaults",
+  "source_file": null,
+  "source_repo": "creasty/defaults",
+  "source_repo_description": "Initialize structs with default values"
+}

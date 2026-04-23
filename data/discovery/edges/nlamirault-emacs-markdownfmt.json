@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/emacs-markdownfmt",
+      "target": "shurcool/markdownfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/emacs-markdownfmt",
+      "target": "nlamirault/markdownfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nlamirault/emacs-markdownfmt",
+      "target": "tonini/overseer.el",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "nlamirault/emacs-markdownfmt"
+}

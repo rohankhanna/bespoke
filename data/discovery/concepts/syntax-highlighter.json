@@ -19,6 +19,18 @@
       "source_repo": "dandavison/delta",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dandavison/delta",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

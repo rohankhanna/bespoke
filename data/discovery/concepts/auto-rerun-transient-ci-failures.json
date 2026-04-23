@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto rerun transient CI failures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Auto rerun transient CI failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "Auto rerun transient CI failures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29482,
+      "status": "candidate",
+      "text": "scramble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29482,
+      "status": "candidate",
+      "text": "trucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29482,
+      "status": "candidate",
+      "text": "trucks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29385,
+      "status": "candidate",
+      "text": "beat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29385,
+      "status": "candidate",
+      "text": "beats"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto rerun transient CI failures",
+  "concept_id": "auto-rerun-transient-ci-failures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
+      "source_repo": "microsoft/aspire"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto rerun transient CI failures",
+      "sense_id": "auto-rerun-transient-ci-failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

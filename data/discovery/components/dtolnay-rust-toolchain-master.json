@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@master",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -637,6 +637,161 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "g1mv/density"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/readonly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/ref-cast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ralexstokes/ssz-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/torch-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/rust-pcre2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "David-OConnor/pyflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/loom.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stress-test.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/mio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paolodamico/ruint-uniffi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "Nugine/simd-benches"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/quote"
     }
   ]
 }

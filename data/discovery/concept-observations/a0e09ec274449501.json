@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful and user-friendly binary analysis platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test with coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test with coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "ink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11739,
+      "status": "candidate",
+      "text": "area"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with coverage",
+      "sense_id": "test-with-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-with-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-with-coverage",
+  "observation_id": "a0e09ec274449501",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Test with coverage",
+  "source_context_snippet": "Test with coverage",
+  "source_file": ".github/workflows/coverage.yml",
+  "source_repo": "angr/angr",
+  "source_repo_description": "A powerful and user-friendly binary analysis platform!"
+}

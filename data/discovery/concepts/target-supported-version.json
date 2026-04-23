@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "target supported version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "\"target supported version\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "\"target supported version\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26161,
+      "status": "candidate",
+      "text": "call fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18118,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18118,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "order"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "target supported version",
+  "concept_id": "target-supported-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/version-sweep.yml",
+      "source_repo": "dotnet/samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "target supported version",
+      "sense_id": "target-supported-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

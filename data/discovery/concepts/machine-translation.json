@@ -31,6 +31,90 @@
       "source_repo": "rsennrich/subword-nmt",
       "status": "candidate-context",
       "text": "Subword Neural Machine Translation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate-context",
+      "text": "Adaptive Machine Translation with Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate-context",
+      "text": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate-context",
+      "text": "Fine-tuning Open-Source LLMs for Adaptive Machine Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate-context",
+      "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/MT-Evaluation",
+      "status": "candidate-context",
+      "text": "Machine Translation (MT) Evaluation Scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/MT-Evaluation",
+      "status": "candidate-context",
+      "text": "Machine Translation (MT) Evaluation Scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/MT-LM",
+      "status": "candidate-context",
+      "text": "Domain-Specific Text Generation for Machine Translation (with LLMs) - scripts and config files for the paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/MT-LM",
+      "status": "candidate-context",
+      "text": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +129,48 @@
       "source_repo": "rsennrich/subword-nmt",
       "status": "candidate",
       "text": "Subword Neural Machine Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate",
+      "text": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "status": "candidate",
+      "text": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
+      "status": "candidate",
+      "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/MT-Evaluation",
+      "status": "candidate",
+      "text": "Machine Translation (MT) Evaluation Scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/MT-LM",
+      "status": "candidate",
+      "text": "Scripts and config files for our paper, [Domain-Specific Text Generation for Machine Translation](https://aclanthology.org/2022.amta-research.2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +190,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rsennrich/subword-nmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-Evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espnet/espnet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

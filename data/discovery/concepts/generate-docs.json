@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "generate-docs"
+    "generate-docs",
+    "Generate Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "kubernetes/minikube",
       "status": "candidate-context",
       "text": "\"generate-docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Generate Docs"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "kubernetes/minikube",
       "status": "candidate",
       "text": "\"generate-docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Generate Docs"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11267,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "allier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "andre gide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "andre paul guillaume gide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11146,
+      "status": "candidate",
+      "text": "antoine laurent lavoisier"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "generate-docs",
   "concept_id": "generate-docs",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emberjs/ember.js"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -154,6 +154,30 @@
       "source_repo": "justinfx/olric-nats-plugin",
       "status": "candidate-context",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": ":sparkles: A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +252,18 @@
       "source_repo": "justinfx/olric-nats-plugin",
       "status": "candidate",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate",
+      "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +391,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "justinfx/olric-nats-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gitalk/gitalk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

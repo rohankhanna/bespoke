@@ -37,6 +37,42 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate-context",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "Rich is a Python library for rich text and beautiful formatting in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "A changelog generator for gitmoji \ud83d\ude1c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +87,24 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "frinyvonnick/gitmoji-changelog"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

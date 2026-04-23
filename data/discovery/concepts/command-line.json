@@ -355,6 +355,66 @@
       "source_repo": "sasha0552/nvidia-pstate",
       "status": "candidate-context",
       "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "TeleType"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate-context",
+      "text": "Cleo allows you to create beautiful and testable command-line interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +585,36 @@
       "source_repo": "sasha0552/nvidia-pstate",
       "status": "candidate",
       "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate",
+      "text": "TeleType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_related_terms": [
@@ -732,11 +822,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "sasha0552/nvidia-pstate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akshaykmr/teletype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terkelg/prompts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/cleo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/px"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

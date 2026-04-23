@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml"
+    },
+    {
+      "component": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "MarcoIeni/release-plz-action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-builder-image.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "MarcoIeni/release-plz-action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "target": "Release-plz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:49.278169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5941
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 106
+    },
+    {
+      "path": ".github/workflows/publish-builder-image.yml",
+      "size": 1412
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tooling to develop and emulate verifyable programs compatible with Optimism Cannon and the OP Stack \ud83e\udd80\ud83c\udf86",
+    "fork": false,
+    "full_name": "BadBoiLabs/Cannon-rs",
+    "html_url": "https://github.com/BadBoiLabs/Cannon-rs",
+    "language": "Rust",
+    "pushed_at": "2023-11-27T04:44:57Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2025-09-12T05:22:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    }
+  ]
+}

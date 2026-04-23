@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "wearerequired/git-mirror-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuzukiHD/YuzukiChameleon",
+      "target": "dumtux/allwinner-h616",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "YuzukiHD/YuzukiChameleon",
+      "target": "wearerequired/git-mirror-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "YuzukiHD/YuzukiChameleon",
+      "target": "Sync To Gitee",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:17.026237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3875
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[OSHW] Yuzuki Chameleon is a Raspberry Pi A Shaped SBC based on Allwinner H616",
+    "fork": false,
+    "full_name": "YuzukiHD/YuzukiChameleon",
+    "html_url": "https://github.com/YuzukiHD/YuzukiChameleon",
+    "language": null,
+    "pushed_at": "2024-06-16T11:51:02Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-04-22T14:23:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dumtux/allwinner-h616",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync To Gitee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Sync To Gitee"
+    }
+  ]
+}

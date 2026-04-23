@@ -1631,6 +1631,432 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate-context",
       "text": "'Lint'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tloen/alpaca-lora",
+      "status": "candidate-context",
+      "text": "Instruct-tune LLaMA on consumer hardware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tloen/alpaca-lora",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "OpenMMLab FewShot Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate-context",
+      "text": "Backward compatible ML compute opset inspired by HLO/MHLO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate-context",
+      "text": "Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Specifications of cryptographic algorithms in Cryptol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate-context",
+      "text": "An embedded key/value database for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Easy full stack backup operations on UNIX-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "The Cocoa Dependency Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Packages for Typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate-context",
+      "text": "lua-language-server plugin for the asdf version manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Libraries for finite field, elliptic curve, and polynomial arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "Format JavaScript Standard Style as Stylish (i.e. snazzy) output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Standards-compliant HTTP caching transport for Go clients (RFC 9111)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "Examples for using ONNX Runtime for machine learning inferencing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "OpenMMLab optical flow toolbox and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "MMGeneration is a powerful toolkit for generative models, based on PyTorch and MMCV. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Python bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab 3D Human Parametric Model Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "OpenMMLab Pose Estimation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -2455,6 +2881,222 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate",
       "text": "'Lint'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tloen/alpaca-lora",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/stablehlo",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-profiler/async-profiler",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kayabaNerve/monero-oxide",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/CocoaPods",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/snazzy",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate",
+      "text": "Lint"
     }
   ],
   "candidate_related_terms": [
@@ -3577,11 +4219,305 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tloen/alpaca-lora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmfewshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxla/stablehlo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GaloisInc/cryptol-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bellini666/asdf-lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bartventer/httpcache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/commitlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ada-url/ada-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmhuman3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

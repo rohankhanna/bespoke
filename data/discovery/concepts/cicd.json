@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "CICD"
+    "CICD",
+    "cicd"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "lsd-rs/lsd",
       "status": "candidate-context",
       "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "lsd-rs/lsd",
       "status": "candidate",
       "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "lsd-rs/lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

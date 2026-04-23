@@ -43,6 +43,30 @@
       "source_repo": "Comfy-Org/desktop",
       "status": "candidate-context",
       "text": "![Beta](https://img.shields.io/badge/beta-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "Animation oriented nodes pack for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes collection: better TAESD previews (including batch previews), improved HyperTile and Deep Shrink nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate-context",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Comfy-Org/desktop",
       "status": "candidate",
       "text": "![Beta](https://img.shields.io/badge/beta-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-bleh",
+      "status": "candidate",
+      "text": "A ComfyUI nodes collection of utility and model patching functions. Also includes improved previewer that allows previewing batches during generation."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-bleh"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

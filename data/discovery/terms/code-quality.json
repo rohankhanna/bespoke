@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -76,6 +76,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/optimum-executorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "huggingface/nanotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
     }
   ],
   "term": "Code Quality"

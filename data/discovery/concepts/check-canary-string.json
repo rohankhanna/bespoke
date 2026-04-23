@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Canary String"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "Check Canary String"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "Check Canary String"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate",
+      "text": "Check Canary String"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate",
+      "text": "Check Canary String"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18508,
+      "status": "candidate",
+      "text": "det"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18508,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18445,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18322,
+      "status": "candidate",
+      "text": "row"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Canary String",
+  "concept_id": "check-canary-string",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-canary.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Canary String",
+      "sense_id": "check-canary-string#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

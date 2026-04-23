@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021925,
+      "status": "candidate",
+      "text": "osgi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021924,
+      "status": "candidate",
+      "text": "ietf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021923,
+      "status": "candidate",
+      "text": "wais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021922,
+      "status": "candidate",
+      "text": "iesg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021921,
+      "status": "candidate",
+      "text": "wsdl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wsgi",
+      "sense_id": "wsgi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wsgi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wsgi",
+  "observation_id": "9861decbfe28c765",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "wsgi",
+  "source_context_snippet": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg",
+  "source_file": null,
+  "source_repo": "falconry/falcon",
+  "source_repo_description": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+}

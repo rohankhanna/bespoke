@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Performance Regression Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Performance Regression Bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21861,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21861,
+      "status": "candidate",
+      "text": "alternating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "correction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21598,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14947,
+      "status": "candidate",
+      "text": "decadence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Regression Bot",
+      "sense_id": "performance-regression-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "performance-regression-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance-regression-bot",
+  "observation_id": "e4c404a410501dfd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Performance Regression Bot",
+  "source_context_snippet": "Performance Regression Bot",
+  "source_file": ".github/workflows/pr-regression-test-bot.yml",
+  "source_repo": "tile-ai/tilelang",
+  "source_repo_description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+}

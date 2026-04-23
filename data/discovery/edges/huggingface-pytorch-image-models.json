@@ -4,6 +4,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/pytorch-image-models",
+      "target": "amshaker/swiftformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "apple/ml-aim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
       "target": "alphadl/lookahead.pytorch",
       "target_type": "repository"
     },
@@ -11,21 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/pytorch-image-models",
-      "target": "agi-arena/mars",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/pytorch-image-models",
-      "target": "allenai/allennlp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/pytorch-image-models",
-      "target": "albumentations-team/albumentations",
+      "target": "boulaouaney/timmx",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "huggingface/pytorch-image-models"
 }

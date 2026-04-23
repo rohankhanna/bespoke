@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Approve Test Queue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Approve Test Queue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26254,
+      "status": "candidate",
+      "text": "improve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19493,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19445,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "passed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approve Test Queue",
+      "sense_id": "approve-test-queue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "approve-test-queue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "approve-test-queue",
+  "observation_id": "ce86bef35d30b2ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Approve Test Queue",
+  "source_context_snippet": "Approve Test Queue",
+  "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+  "source_repo": "NVIDIA-NeMo/NeMo",
+  "source_repo_description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+}

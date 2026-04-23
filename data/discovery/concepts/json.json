@@ -247,6 +247,198 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate-context",
       "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wader/fq",
+      "status": "candidate-context",
+      "text": "jq for binary formats - tool, language and decoders for working with binary and text formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wader/fq",
+      "status": "candidate-context",
+      "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "A lightweight, high-performance Python library for parsing jsonl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3x0r/JSON6",
+      "status": "candidate-context",
+      "text": "JSON for Humans (ES6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3x0r/JSON6",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/d3x0r/JSON6.svg?branch=master)](https://travis-ci.com/d3x0r/JSON6)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/jsxobj",
+      "status": "candidate-context",
+      "text": "Build JSON using JSX \ud83c\udf08 (may contain blood magic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/jsxobj",
+      "status": "candidate-context",
+      "text": "Converts JSX to Objects (JSON) <sub>using blood magic</sub>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for the simdjson project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akheron/jansson",
+      "status": "candidate-context",
+      "text": "C library for encoding, decoding and manipulating JSON data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akheron/jansson",
+      "status": "candidate-context",
+      "text": "Jansson README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf JSON library for Arduino and embedded C++. Simple and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "Your high performance web application C framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform provider for executing shell commands and saving output to state file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform Provider Shell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +561,102 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate",
       "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wader/fq",
+      "status": "candidate",
+      "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3x0r/JSON6",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/d3x0r/JSON6.svg?branch=master)](https://travis-ci.com/d3x0r/JSON6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/jsxobj",
+      "status": "candidate",
+      "text": "Converts JSX to Objects (JSON) <sub>using blood magic</sub>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akheron/jansson",
+      "status": "candidate",
+      "text": "Jansson README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate",
+      "text": "Terraform Provider Shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
     }
   ],
   "candidate_related_terms": [
@@ -525,11 +813,107 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wader/fq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "d3x0r/JSON6"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "developit/jsxobj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akheron/jansson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottwinkler/terraform-provider-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

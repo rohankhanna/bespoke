@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ghostnet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "thinthread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "hafnium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "project merrimac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "cozy bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "illegals program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ghostnet",
+  "concept_id": "ghostnet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ghostnet",
+      "sense_id": "ghostnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

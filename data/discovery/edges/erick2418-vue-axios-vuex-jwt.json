@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "core-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "sweetalert2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-class-component",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-property-decorator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vuetify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vuex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vuex-class",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "@vue/cli-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "@vue/cli-plugin-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "@vue/cli-plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "@vue/cli-plugin-vuex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "@vue/cli-service",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "sass-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-cli-plugin-vuetify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vue-template-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Erick2418/vue-axios-vuex-jwt",
+      "target": "vuetify-loader",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Erick2418/vue-axios-vuex-jwt"
+}

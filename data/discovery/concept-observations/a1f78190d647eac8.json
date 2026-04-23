@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Azure Workload Identity E2E"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Azure Workload Identity E2E"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19158,
+      "status": "candidate",
+      "text": "linesman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19158,
+      "status": "candidate",
+      "text": "supercharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18786,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18459,
+      "status": "candidate",
+      "text": "devil"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Azure Workload Identity E2E",
+      "sense_id": "azure-workload-identity-e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "azure-workload-identity-e2e",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "azure-workload-identity-e2e",
+  "observation_id": "a1f78190d647eac8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Azure Workload Identity E2E",
+  "source_context_snippet": "Azure Workload Identity E2E",
+  "source_file": ".github/workflows/azwi-e2e.yaml",
+  "source_repo": "Azure/azure-workload-identity",
+  "source_repo_description": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+}

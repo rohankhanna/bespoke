@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blurry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "WillBrennan/BlurDetection2"
+}

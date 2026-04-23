@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "dapplion/beacon-metrics-gazer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethdreamer/json_rpc_snoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "blockscout/blockscout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "eth-act/zkboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-consensus-spec-values.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check consensus spec values",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "crate-ci/typos@cf5f1c29a8ac336af8568821ec41919923b05a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-typos.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Check PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "nobrayner/discord-webhook@1766a33bf571acdcc0678f00da4fb83aad01ebc7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Nightly test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "googleapis/release-please-action@5c625bfb5d1ff62eadeeb3772007f7f66fdcf071",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "medyagh/setup-minikube@e9e035a86bbc3caea26a450bd4dbf9d0c453682e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@f64942cbc780df731a731ea9f45765b161d2c8df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-k8s.yml",
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "Run k8s test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "flashbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "geth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kurtosis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "kurtosis-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "lighthouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "mev-boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "mev-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "reth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "starlark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ethpandaops/ethereum-package"
+}

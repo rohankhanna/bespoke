@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "huggingface/nanotron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym"
+    }
+  ]
+}

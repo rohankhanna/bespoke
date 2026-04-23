@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-zvg/Semantic-Segment-Anything",
+      "target": "nvlabs/segformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:42.984734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated dense category annotation engine that serves as the initial semantic labeling for the Segment Anything dataset (SA-1B). ",
+    "fork": false,
+    "full_name": "fudan-zvg/Semantic-Segment-Anything",
+    "html_url": "https://github.com/fudan-zvg/Semantic-Segment-Anything",
+    "language": "Python",
+    "pushed_at": "2023-06-07T11:54:19Z",
+    "stargazers_count": 2298,
+    "topics": [],
+    "updated_at": "2026-04-23T11:53:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/segformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

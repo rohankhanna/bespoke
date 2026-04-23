@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-reply.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "facebookresearch/detectron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "Check issue template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "dessant/lock-threads@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "Remove needs-more-info label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "MaureenZOU/detectron2-xyz",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:37.568740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3066
+    },
+    {
+      "path": ".github/workflows/check-template.yml",
+      "size": 3853
+    },
+    {
+      "path": ".github/workflows/levenshtein.js",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/needs-reply.yml",
+      "size": 4091
+    },
+    {
+      "path": ".github/workflows/remove-needs-reply.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 2989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.",
+    "fork": true,
+    "full_name": "MaureenZOU/detectron2-xyz",
+    "html_url": "https://github.com/MaureenZOU/detectron2-xyz",
+    "language": "Python",
+    "pushed_at": "2022-05-07T05:28:53Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-08T11:58:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/detectron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check issue template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-template.yml",
+      "term": "Check issue template"
+    },
+    {
+      "context_snippet": "Remove needs-more-info label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "term": "Remove needs-more-info label"
+    }
+  ]
+}

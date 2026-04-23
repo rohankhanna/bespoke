@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generative-adversarial-network",
+      "sense_id": "generative-adversarial-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generative-adversarial-network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generative-adversarial-network",
+  "observation_id": "cee594a2b082bb2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "generative-adversarial-network",
+  "source_context_snippet": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,",
+  "source_file": null,
+  "source_repo": "advimman/lama",
+  "source_repo_description": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+}

@@ -19,6 +19,18 @@
       "source_repo": "libjxl/libjxl",
       "status": "candidate-context",
       "text": "[![Build/Test](https://github.com/libjxl/libjxl/actions/workflows/build_test.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "libjxl/libjxl",
       "status": "candidate",
       "text": "[![Build/Test](https://github.com/libjxl/libjxl/actions/workflows/build_test.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "libjxl/libjxl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

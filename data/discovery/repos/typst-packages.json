@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "kheiakiyama/install-azcopy-action@13e9f2135934ba6d9dcec703be926f2b2e616471",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "typst/package-check@4bec9b5d5917be6b9f95e25dbe01c7d8876d1c19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages",
+      "target": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages",
+      "target": "kheiakiyama/install-azcopy-action@13e9f2135934ba6d9dcec703be926f2b2e616471",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "typst/packages",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "typst/packages",
+      "target": "typst/package-check@4bec9b5d5917be6b9f95e25dbe01c7d8876d1c19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "typst/packages",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages",
+      "target": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:45.828199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3000
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1408
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Packages for Typst.",
+    "fork": false,
+    "full_name": "typst/packages",
+    "html_url": "https://github.com/typst/packages",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T15:57:25Z",
+    "stargazers_count": 946,
+    "topics": [],
+    "updated_at": "2026-04-23T15:57:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -44,6 +44,18 @@
       "source_repo": "diesel-rs/diesel",
       "status": "candidate-context",
       "text": "CI Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/cppwinrt",
+      "status": "candidate-context",
+      "text": "C++/WinRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cppwinrt",
+      "status": "candidate-context",
+      "text": "CI Tests"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "diesel-rs/diesel",
+      "status": "candidate",
+      "text": "CI Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cppwinrt",
       "status": "candidate",
       "text": "CI Tests"
     }
@@ -131,11 +149,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/cppwinrt"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

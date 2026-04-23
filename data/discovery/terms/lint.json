@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -806,6 +806,186 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tloen/alpaca-lora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmfewshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxla/stablehlo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kayabaNerve/monero-oxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GaloisInc/cryptol-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/CocoaPods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bellini666/asdf-lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bartventer/httpcache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmgeneration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ada-url/ada-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmhuman3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
     }
   ],
   "term": "lint"

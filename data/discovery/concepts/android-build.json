@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Android Build"
+    "Android Build",
+    "android build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "meta-pytorch/executorch-examples",
       "status": "candidate-context",
       "text": "Android Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate-context",
+      "text": "android build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "meta-pytorch/executorch-examples",
       "status": "candidate",
       "text": "Android Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-quantum-safe/liboqs",
+      "status": "candidate",
+      "text": "android build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/android-build.yml",
       "source_repo": "meta-pytorch/executorch-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "open-quantum-safe/liboqs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

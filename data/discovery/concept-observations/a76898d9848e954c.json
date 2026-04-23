@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scalable toolkit for efficient model alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"CICD NeMo Aligner\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"CICD NeMo Aligner\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "adscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "aimed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CICD NeMo Aligner",
+      "sense_id": "cicd-nemo-aligner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cicd-nemo-aligner",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cicd-nemo-aligner",
+  "observation_id": "a76898d9848e954c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CICD NeMo Aligner",
+  "source_context_snippet": "\"CICD NeMo Aligner\"",
+  "source_file": ".github/workflows/cicd-main.yml",
+  "source_repo": "NVIDIA/NeMo-Aligner",
+  "source_repo_description": "Scalable toolkit for efficient model alignment"
+}

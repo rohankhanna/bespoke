@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a golang based cli to run a subset of Actions version v0.3 of act"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "promote"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "promote"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020954,
+      "status": "candidate",
+      "text": "kick upstairs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019992,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019812,
+      "status": "candidate",
+      "text": "elevate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019098,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018419,
+      "status": "candidate",
+      "text": "further"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "promote",
+      "sense_id": "promote#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55059,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44034,
+      "status": "candidate",
+      "text": "encourage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "elevate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25066,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24055,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "concept_id": "promote",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "promote",
+  "observation_id": "9fb5656c3297a42c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "promote",
+  "source_context_snippet": "promote",
+  "source_file": ".github/workflows/promote.yml",
+  "source_repo": "actions-oss/act-cli",
+  "source_repo_description": "a golang based cli to run a subset of Actions version v0.3 of act"
+}

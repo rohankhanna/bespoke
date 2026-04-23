@@ -247,6 +247,102 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f\ud83e\udd80 Build modular and scalable LLM Applications in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "Build Graph Nets in Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate-context",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +465,54 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/graph_nets",
+      "status": "candidate",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate",
+      "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -526,11 +670,95 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

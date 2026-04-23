@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Set PR and Issue Project Fields"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "Set PR and Issue Project Fields"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "Set PR and Issue Project Fields"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33965,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33965,
+      "status": "candidate",
+      "text": "contrived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32258,
+      "status": "candidate",
+      "text": "plot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Set PR and Issue Project Fields",
+  "concept_id": "set-pr-and-issue-project-fields",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr_issue_status_automation.yml",
+      "source_repo": "rapidsai/cuml"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set PR and Issue Project Fields",
+      "sense_id": "set-pr-and-issue-project-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

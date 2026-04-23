@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus",
+      "target": "zilliztech/attu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus",
+      "target": "zilliztech/vts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus",
+      "target": "zilliztech/kafka-connect-milvus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "milvus-io/milvus",
+      "target": "milvus-io/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-contributors.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-contributors.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "milvus-io/hero-bot@dco-enabled",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-contributors.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "all-contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-only-for-standalone-embed-milvus.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-only-for-standalone-embed-milvus.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version-only-for-standalone-embed-milvus.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Bump Standalone Embed Milvus Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Bump Milvus Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-issue.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-issue.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "peter-evans/create-or-update-comment@5f728c3dae25f329afbe34ee4d08eef25569d79f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-issue.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Add Comment for issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checker.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checker.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-checker.yaml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Code Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-release.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-release.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-release.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-release.yml",
+      "source_repo": "milvus-io/milvus",
+      "target": "Daily Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "anns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "diskann",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "embedding-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "embedding-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "embedding-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "faiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "hnsw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "vector-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milvus-io/milvus",
+      "target": "vector-store",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "milvus-io/milvus"
+}

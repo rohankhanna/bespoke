@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check EIP Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "Check EIP Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate",
+      "text": "Check EIP Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "stepping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14428,
+      "status": "candidate",
+      "text": "brake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "bonnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "boom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "bootjack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check EIP Versions",
+  "concept_id": "check-eip-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check EIP Versions",
+      "sense_id": "check-eip-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

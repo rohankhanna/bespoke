@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BUTSpeechFIT/CALLHOME_sublists",
+      "target": "kaldi-asr/kaldi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:03.042471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "BUTSpeechFIT/CALLHOME_sublists",
+    "html_url": "https://github.com/BUTSpeechFIT/CALLHOME_sublists",
+    "language": null,
+    "pushed_at": "2023-10-27T08:17:41Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-11-12T22:14:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaldi-asr/kaldi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

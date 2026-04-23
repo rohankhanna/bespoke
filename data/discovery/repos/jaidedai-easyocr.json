@@ -1,0 +1,258 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "clovaai/craft-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "clovaai/deep-text-recognition-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "githubharald/ctcdecoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "belval/textrecognitiondatagenerator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "easyocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "optical-character-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "scene-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR",
+      "target": "scene-text-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:13:01.354609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9856
+    },
+    {
+      "path": "Dockerfile",
+      "size": 877
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.",
+    "fork": false,
+    "full_name": "JaidedAI/EasyOCR",
+    "html_url": "https://github.com/JaidedAI/EasyOCR",
+    "language": "Python",
+    "pushed_at": "2025-12-05T12:23:12Z",
+    "stargazers_count": 29340,
+    "topics": [
+      "cnn",
+      "crnn",
+      "data-mining",
+      "deep-learning",
+      "easyocr",
+      "image-processing",
+      "information-retrieval",
+      "lstm",
+      "machine-learning",
+      "ocr",
+      "optical-character-recognition",
+      "python",
+      "pytorch",
+      "scene-text",
+      "scene-text-recognition"
+    ],
+    "updated_at": "2026-04-23T20:29:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belval/textrecognitiondatagenerator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/craft-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/deep-text-recognition-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "githubharald/ctcdecoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easyocr"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lstm"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-character-recognition"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    },
+    {
+      "context_snippet": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recognition"
+    }
+  ]
+}

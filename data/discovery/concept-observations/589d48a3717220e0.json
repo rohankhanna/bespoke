@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Non-blocking direnv integration daemon with tmux/zellij support that provides instant shell prompts by running direnv asynchronously in the background."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Non-blocking direnv integration daemon with tmux/zellij support that provides instant shell prompts by running direnv asynchronously in the background."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "build-with-buildbot",
+      "sense_id": "build-with-buildbot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-with-buildbot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-with-buildbot",
+  "observation_id": "589d48a3717220e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "build-with-buildbot",
+  "source_context_snippet": "Non-blocking direnv integration daemon with tmux/zellij support that provides instant shell prompts by running direnv asynchronously in the background.",
+  "source_file": null,
+  "source_repo": "Mic92/direnv-instant",
+  "source_repo_description": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background."
+}

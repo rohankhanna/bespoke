@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "CI for interpreter & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "CI for specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/content-security-policy",
+      "target": "proposal",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "WebAssembly/content-security-policy"
+}

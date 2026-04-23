@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-misspell@d6429416b12b09b4e2768307d53bef58d172e962",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yaml",
+      "source_repo": "x-motemen/ghq"
+    }
+  ]
+}

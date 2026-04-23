@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "webrtc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "WebTorrent, the streaming torrent client. For the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024211,
+      "status": "candidate",
+      "text": "rtsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024210,
+      "status": "candidate",
+      "text": "videotelephony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024209,
+      "status": "candidate",
+      "text": "video chat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024208,
+      "status": "candidate",
+      "text": "web conference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024207,
+      "status": "candidate",
+      "text": "teleconference"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "webrtc",
+  "concept_id": "webrtc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/webtorrent-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webrtc",
+      "sense_id": "webrtc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execution-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execution-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execution-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-performance-tests-light.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-performance-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erigontech/silkworm",
+      "target": "erthink/libmdbx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execution-test.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execution-test.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execution-test.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - Execution Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - RPC Fuzzer Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-integration-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-integration-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-integration-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - RPC Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-performance-tests-light.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-performance-tests-light.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - RPC Performance Tests Light",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpc-performance-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-performance-tests.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - RPC Performance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-test.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-test.yml",
+      "source_repo": "erigontech/silkworm",
+      "target": "QA - Snapshot Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erigontech/silkworm",
+      "target": "ethereum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:09:31.033337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9931
+    },
+    {
+      "path": ".github/workflows/execution-test.yml",
+      "size": 3990
+    },
+    {
+      "path": ".github/workflows/macOS.yml",
+      "size": 2405
+    },
+    {
+      "path": ".github/workflows/rpc-fuzzer-tests.yml",
+      "size": 2635
+    },
+    {
+      "path": ".github/workflows/rpc-integration-tests.yml",
+      "size": 4487
+    },
+    {
+      "path": ".github/workflows/rpc-performance-tests-light.yml",
+      "size": 966
+    },
+    {
+      "path": ".github/workflows/rpc-performance-tests.yml",
+      "size": 806
+    },
+    {
+      "path": ".github/workflows/run_integration_tests.sh",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/snapshot-test.yml",
+      "size": 3313
+    },
+    {
+      "path": ".github/workflows/start_integration_rpcdaemon.sh",
+      "size": 496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ implementation of the Ethereum protocol",
+    "fork": false,
+    "full_name": "erigontech/silkworm",
+    "html_url": "https://github.com/erigontech/silkworm",
+    "language": "C++",
+    "pushed_at": "2025-05-21T09:10:41Z",
+    "stargazers_count": 317,
+    "topics": [
+      "cpp",
+      "ethereum"
+    ],
+    "updated_at": "2026-02-27T02:05:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erthink/libmdbx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "QA - Execution Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execution-test.yml",
+      "term": "QA - Execution Test"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "QA - RPC Fuzzer Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml",
+      "term": "QA - RPC Fuzzer Tests"
+    },
+    {
+      "context_snippet": "QA - RPC Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-integration-tests.yml",
+      "term": "QA - RPC Integration Tests"
+    },
+    {
+      "context_snippet": "QA - RPC Performance Tests Light",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-performance-tests-light.yml",
+      "term": "QA - RPC Performance Tests Light"
+    },
+    {
+      "context_snippet": "QA - RPC Performance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpc-performance-tests.yml",
+      "term": "QA - RPC Performance Tests"
+    },
+    {
+      "context_snippet": "QA - Snapshot Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-test.yml",
+      "term": "QA - Snapshot Test"
+    },
+    {
+      "context_snippet": "C++ implementation of the [Ethereum] Execution Layer (EL) protocol based on the [Erigon architecture].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    }
+  ]
+}

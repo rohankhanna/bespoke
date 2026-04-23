@@ -44,6 +44,18 @@
       "source_repo": "aws/aws-app-mesh-controller-for-k8s",
       "status": "candidate-context",
       "text": "integration-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "integration-test"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "integration-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
       "status": "candidate",
       "text": "integration-test"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/integration-test.yaml",
       "source_repo": "aws/aws-app-mesh-controller-for-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "anymail/django-anymail"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

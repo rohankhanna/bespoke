@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "platisd/clang-tidy-pr-comments@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "build-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "platisd/clang-tidy-pr-comments@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "clang-tidy-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "code-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "integration-test-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "apache/skywalking-eyes/header@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish-nightly.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:52:29.075981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4911
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2744
+    },
+    {
+      "path": ".github/workflows/clang-tidy-review.yml",
+      "size": 1621
+    },
+    {
+      "path": ".github/workflows/code-check.yml",
+      "size": 1795
+    },
+    {
+      "path": ".github/workflows/integ.yml",
+      "size": 4165
+    },
+    {
+      "path": ".github/workflows/linters.yml",
+      "size": 1612
+    },
+    {
+      "path": ".github/workflows/test-and-publish-nightly.yml",
+      "size": 7006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events",
+    "fork": false,
+    "full_name": "async-profiler/async-profiler",
+    "html_url": "https://github.com/async-profiler/async-profiler",
+    "language": "C++",
+    "pushed_at": "2026-04-20T22:48:59Z",
+    "stargazers_count": 8996,
+    "topics": [],
+    "updated_at": "2026-04-23T12:57:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build-template"
+    },
+    {
+      "context_snippet": "clang-tidy-review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "term": "clang-tidy-review"
+    },
+    {
+      "context_snippet": "code-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-check.yml",
+      "term": "code-check"
+    },
+    {
+      "context_snippet": "integration-test-template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integ.yml",
+      "term": "integration-test-template"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "term": "lint"
+    }
+  ]
+}

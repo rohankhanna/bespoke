@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "magic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate-context",
+      "text": "Dark magic delights in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/sorcery/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/sorcery/badge.svg?branch=master)](https://coverall\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010542,
+      "status": "candidate",
+      "text": "sorcerous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010215,
+      "status": "candidate",
+      "text": "wizardly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010037,
+      "status": "candidate",
+      "text": "wizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005120,
+      "status": "candidate",
+      "text": "supernatural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002060,
+      "status": "candidate",
+      "text": "magic trick"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32036,
+      "status": "candidate",
+      "text": "charming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32034,
+      "status": "candidate",
+      "text": "legerdemain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31042,
+      "status": "candidate",
+      "text": "deception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25051,
+      "status": "candidate",
+      "text": "illusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19039,
+      "status": "candidate",
+      "text": "supernatural"
+    }
+  ],
+  "canonical_name": "magic",
+  "concept_id": "magic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexmojaki/sorcery"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "magic",
+      "sense_id": "magic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

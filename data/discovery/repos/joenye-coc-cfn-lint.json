@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "@types/cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/lodash.isequal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/rc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coc.nvim",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.isequal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver-protocol",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver-textdocument",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@types/cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@types/js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@types/lodash.isequal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@types/rc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "coc.nvim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "lodash.isequal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "vscode-languageserver-protocol",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "vscode-languageserver-textdocument",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "cfn-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "cfn-python-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "coc-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "coc-nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "lsp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:09.864493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3188
+    },
+    {
+      "path": "package.json",
+      "size": 5318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint",
+    "fork": false,
+    "full_name": "joenye/coc-cfn-lint",
+    "html_url": "https://github.com/joenye/coc-cfn-lint",
+    "language": "TypeScript",
+    "pushed_at": "2023-03-15T02:24:38Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cfn",
+      "cfn-lint",
+      "cfn-python-lint",
+      "cloudformation",
+      "coc",
+      "coc-extensions",
+      "coc-nvim",
+      "extension",
+      "lint",
+      "linter",
+      "linting",
+      "lsp",
+      "lsp-server",
+      "neovim",
+      "nvim",
+      "vim"
+    ],
+    "updated_at": "2025-02-26T13:59:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/cfn-python-lint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/cfn-python-lint",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cfn-lint"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cfn-python-lint"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coc-extensions"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coc-nvim"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linting"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-server"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

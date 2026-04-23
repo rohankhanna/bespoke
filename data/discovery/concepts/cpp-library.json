@@ -19,6 +19,18 @@
       "source_repo": "conan-io/conan-center-index",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "conan-io/conan-center-index",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "conan-io/conan-center-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

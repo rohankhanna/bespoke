@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/FasterTransformer",
+      "target": "bytedance/effective_transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/FasterTransformer",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/FasterTransformer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/FasterTransformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:42.606471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Transformer related optimization, including BERT, GPT",
+    "fork": false,
+    "full_name": "NVIDIA/FasterTransformer",
+    "html_url": "https://github.com/NVIDIA/FasterTransformer",
+    "language": "C++",
+    "pushed_at": "2024-03-27T11:25:30Z",
+    "stargazers_count": 6410,
+    "topics": [
+      "bert",
+      "gpt",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T15:42:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/effective_transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note: FasterTransformer development has transitioned to [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/release/0.5.0). All developers are encouraged to leverage TensorRT-LLM to get the latest improvements on LLM Inference. The NVIDIA/FasterTransformer repo will sta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "**Note: FasterTransformer development has transitioned to [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/release/0.5.0). All developers are encouraged to leverage TensorRT-LLM to get the latest improvements on LLM Inference. The NVIDIA/FasterTransformer repo will sta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Note: FasterTransformer development has transitioned to [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/release/0.5.0). All developers are encouraged to leverage TensorRT-LLM to get the latest improvements on LLM Inference. The NVIDIA/FasterTransformer repo will sta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

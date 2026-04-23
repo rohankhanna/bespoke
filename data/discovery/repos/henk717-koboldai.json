@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "henk717/KoboldAI",
+      "target": "koboldai/koboldai-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "henk717/KoboldAI",
+      "target": "radeonopencompute/rocm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "henk717/KoboldAI",
+      "target": "jllllll/bitsandbytes-windows-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "henk717/KoboldAI",
+      "target": "0cc4m/hf_bleeding_edge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "henk717/KoboldAI",
+      "target": "generativeai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "henk717/KoboldAI",
+      "target": "story-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "henk717/KoboldAI",
+      "target": "text-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "henk717/KoboldAI",
+      "target": "text-generation-webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:51.948284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37290
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "united",
+    "description": "KoboldAI is generative AI software optimized for fictional use, but capable of much more!",
+    "fork": true,
+    "full_name": "henk717/KoboldAI",
+    "html_url": "https://github.com/henk717/KoboldAI",
+    "language": "C++",
+    "pushed_at": "2025-01-16T16:55:26Z",
+    "stargazers_count": 429,
+    "topics": [
+      "generativeai",
+      "story-generation",
+      "text-generation",
+      "text-generation-webui"
+    ],
+    "updated_at": "2026-04-16T02:08:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koboldai/koboldai-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radeonopencompute/rocm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0cc4m/hf_bleeding_edge",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jllllll/bitsandbytes-windows-webui",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generativeai"
+    },
+    {
+      "context_snippet": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "story-generation"
+    },
+    {
+      "context_snippet": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    },
+    {
+      "context_snippet": "This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Du\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation-webui"
+    }
+  ]
+}

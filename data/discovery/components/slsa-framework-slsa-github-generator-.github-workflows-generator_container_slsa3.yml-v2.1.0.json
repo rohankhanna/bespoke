@@ -1,0 +1,17 @@
+{
+  "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v2.1.0",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_e2e_all_base_runtime.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub_sshnpd.yml",
+      "source_repo": "atsign-foundation/noports"
+    }
+  ]
+}

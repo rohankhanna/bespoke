@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "stubbornella/oocss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "css3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "oocss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "scss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide",
+      "target": "styleguide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:19.198137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Airbnb-\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10eb\u10e6\u10d5\u10d0\u10dc\u10d4\u10da\u10dd\u10e1 \u2014 \u201eCSS / Sass Style Guide\u201c \u2014 \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d7\u10d0\u10e0\u10d2\u10db\u10d0\u10dc\u10d8.",
+    "fork": false,
+    "full_name": "davidkadaria/css-style-guide",
+    "html_url": "https://github.com/davidkadaria/css-style-guide",
+    "language": null,
+    "pushed_at": "2023-02-23T19:12:02Z",
+    "stargazers_count": 1,
+    "topics": [
+      "bem",
+      "css",
+      "css3",
+      "html",
+      "oocss",
+      "sass",
+      "scss",
+      "styleguide"
+    ],
+    "updated_at": "2025-01-19T11:30:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stubbornella/oocss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css3"
+    },
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oocss"
+    },
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    },
+    {
+      "context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    }
+  ]
+}

@@ -346,6 +346,90 @@
       "source_repo": "ethereumjs/ethereumjs-monorepo",
       "status": "candidate-context",
       "text": "Blockchain"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "Rust full node implementation of the Fuel v2 protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "Fast Ethereum Virtual Machine implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate-context",
+      "text": "[![ethereum badge]][ethereum]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diem/diem",
+      "status": "candidate-context",
+      "text": "Diem\u2019s mission is to build a trusted and innovative financial network that empowers people and businesses around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem",
+      "status": "candidate-context",
+      "text": "> **Note to readers:** Silvergate Capital Corporation announced in January 2022 that it acquired intellectual property and other technology assets related to running a blockchain-based payment network from Diem, further investing in its platform and enhancing its existing stable\u2026"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +600,48 @@
       "source_repo": "ethereumjs/ethereumjs-monorepo",
       "status": "candidate",
       "text": "Blockchain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate",
+      "text": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmone",
+      "status": "candidate",
+      "text": "[![ethereum badge]][ethereum]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate",
+      "text": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem",
+      "status": "candidate",
+      "text": "> **Note to readers:** Silvergate Capital Corporation announced in January 2022 that it acquired intellectual property and other technology assets related to running a blockchain-based payment network from Diem, further investing in its platform and enhancing its existing stable\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -745,11 +871,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/blockchain-build.yml",
       "source_repo": "ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "diem/diem"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "laverdet/alpine-arm64@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki-sync.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki-sync.yml"
+    },
+    {
+      "component": "crate-ci/typos@2d0ce569feab1f8752f1dde43cc2f2aa53236e06",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki-sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "optivorbis/optivorbis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "comunidadaylas/glsl-lang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "aloucks/spng-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "taiki-e/install-action@45a93d9c71692daf99a53feb97366fb6f4c3757f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "laverdet/alpine-arm64@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki-sync.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki-sync.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "crate-ci/typos@2d0ce569feab1f8752f1dde43cc2f2aa53236e06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki-sync.yml",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "Wiki sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "bandwidth-saver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "lossy-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "lossy-data-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "lossy-image-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "minecraft-datapack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "minecraft-map-making",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "minecraft-resourcepack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "minecraft-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "packsquash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "rust-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash",
+      "target": "zopfli-compression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:09:19.650165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21338
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1778
+    },
+    {
+      "path": "Dockerfile",
+      "size": 227
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 23255
+    },
+    {
+      "path": ".github/workflows/wiki-sync.yml",
+      "size": 1942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times.",
+    "fork": false,
+    "full_name": "ComunidadAylas/PackSquash",
+    "html_url": "https://github.com/ComunidadAylas/PackSquash",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T15:31:52Z",
+    "stargazers_count": 809,
+    "topics": [
+      "bandwidth-saver",
+      "compression",
+      "hacktoberfest",
+      "lossy-compression",
+      "lossy-data-compression",
+      "lossy-image-compression",
+      "minecraft",
+      "minecraft-datapack",
+      "minecraft-map-making",
+      "minecraft-resourcepack",
+      "minecraft-server",
+      "packsquash",
+      "rust-application",
+      "zopfli-compression"
+    ],
+    "updated_at": "2026-04-21T09:49:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optivorbis/optivorbis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aloucks/spng-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comunidadaylas/glsl-lang",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Wiki sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki-sync.yml",
+      "term": "Wiki sync"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bandwidth-saver"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossy-compression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossy-data-compression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossy-image-compression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-datapack"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-map-making"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-resourcepack"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packsquash"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-application"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zopfli-compression"
+    }
+  ]
+}

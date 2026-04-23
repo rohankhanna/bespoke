@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rss-aggregator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "A lightweight, self-hosted friendly RSS reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Fusion</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Fusion</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rss-aggregator",
+  "concept_id": "rss-aggregator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0x2E/fusion"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rss-aggregator",
+      "sense_id": "rss-aggregator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

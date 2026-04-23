@@ -31,6 +31,18 @@
       "source_repo": "aerobounce/Sublime-Pretty-Shell",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aerobounce/Sublime-Pretty-Shell",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Pretty-Shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

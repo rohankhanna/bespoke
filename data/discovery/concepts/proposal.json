@@ -49,6 +49,36 @@
       "source_repo": "WebAssembly/esm-integration",
       "status": "candidate-context",
       "text": "![Spectec Status](https://github.com/WebAssembly/spec/actions/workflows/ci-spectec.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate-context",
+      "text": "Range library for C++14/17/20, basis for C++20's std::ranges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate-context",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/content-security-policy",
+      "status": "candidate-context",
+      "text": "[![CI for specs](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
     }
   ],
   "candidate_glosses": [
@@ -75,6 +105,24 @@
       "source_repo": "WebAssembly/esm-integration",
       "status": "candidate",
       "text": "![Spectec Status](https://github.com/WebAssembly/spec/actions/workflows/ci-spectec.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericniebler/range-v3",
+      "status": "candidate",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/content-security-policy",
+      "status": "candidate",
+      "text": "[![CI for specs](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
     }
   ],
   "candidate_related_terms": [
@@ -164,11 +212,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/esm-integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ericniebler/range-v3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/content-security-policy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zloirock/core-js"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

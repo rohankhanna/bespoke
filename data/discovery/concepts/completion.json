@@ -19,6 +19,18 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate-context",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate-context",
+      "text": ":heart: Slim, Fast and Hackable Completion Framework for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate-context",
+      "text": "Ncm2 is a slim, async and hackable completion framework for neovim."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate",
+      "text": "Ncm2 is a slim, async and hackable completion framework for neovim."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "jayli/vim-easycomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

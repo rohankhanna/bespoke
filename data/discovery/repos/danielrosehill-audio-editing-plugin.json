@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:48:39.898628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for audio editing, conversion, processing, and microphone management slash commands and agents.",
+    "fork": false,
+    "full_name": "danielrosehill/audio-editing-plugin",
+    "html_url": "https://github.com/danielrosehill/audio-editing-plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T11:17:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T11:17:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

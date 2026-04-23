@@ -19,6 +19,18 @@
       "source_repo": "SirVer/ultisnips",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/SirVer/ultisnips/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate-context",
+      "text": "async completion in pure vim script for vim8 and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate-context",
+      "text": "asyncomplete.vim"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SirVer/ultisnips",
       "status": "candidate",
       "text": "![Build Status](https://github.com/SirVer/ultisnips/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate",
+      "text": "asyncomplete.vim"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "SirVer/ultisnips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

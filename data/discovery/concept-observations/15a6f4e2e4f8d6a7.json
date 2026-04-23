@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Additional JSON-Schema keywords for Ajv JSON validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029678,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029677,
+      "status": "candidate",
+      "text": "invalidator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029676,
+      "status": "candidate",
+      "text": "certificator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029675,
+      "status": "candidate",
+      "text": "legitimator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029674,
+      "status": "candidate",
+      "text": "verificator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "validator",
+      "sense_id": "validator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validator",
+  "observation_id": "15a6f4e2e4f8d6a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "validator",
+  "source_context_snippet": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator",
+  "source_file": null,
+  "source_repo": "ajv-validator/ajv-keywords",
+  "source_repo_description": "Additional JSON-Schema keywords for Ajv JSON validator"
+}

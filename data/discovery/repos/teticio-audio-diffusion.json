@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teticio/audio-diffusion",
+      "target": "laion-ai/audio-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teticio/audio-diffusion",
+      "target": "teticio/deej-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/audio-diffusion",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/audio-diffusion",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/audio-diffusion",
+      "target": "latent-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/audio-diffusion",
+      "target": "music-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:21.455031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13302
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 57
+    },
+    {
+      "path": "requirements.txt",
+      "size": 161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apply diffusion models using the new Hugging Face diffusers package to synthesize music instead of images.",
+    "fork": false,
+    "full_name": "teticio/audio-diffusion",
+    "html_url": "https://github.com/teticio/audio-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-25T15:51:21Z",
+    "stargazers_count": 788,
+    "topics": [
+      "diffusion-models",
+      "huggingface",
+      "latent-diffusion",
+      "music-generation"
+    ],
+    "updated_at": "2026-04-20T23:32:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laion-ai/audio-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teticio/deej-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-diffusion"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-generation"
+    }
+  ]
+}

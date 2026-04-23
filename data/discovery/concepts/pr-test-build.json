@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "pr-test-build"
+    "pr-test-build",
+    "PR Test Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "router-for-me/CLIProxyAPIPlus",
       "status": "candidate-context",
       "text": "pr-test-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "\"PR Test Build\""
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "router-for-me/CLIProxyAPIPlus",
       "status": "candidate",
       "text": "pr-test-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "\"PR Test Build\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19665,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "pr-test-build",
   "concept_id": "pr-test-build",
@@ -46,11 +101,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pr-test-build.yml",
       "source_repo": "router-for-me/CLIProxyAPIPlus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "cjpais/Handy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

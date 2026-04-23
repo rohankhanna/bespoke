@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Continuous Delivery"
+    "Continuous Delivery",
+    "continuous-delivery"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,12 +22,84 @@
       "source_repo": "github/local-action",
       "status": "candidate-context",
       "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "github/local-action",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
       "status": "candidate",
       "text": "Continuous Delivery"
     }
@@ -76,11 +151,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/continuous-delivery.yml",
       "source_repo": "github/local-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/moor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/riff"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

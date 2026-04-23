@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v6",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-elixir"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp_testing.yml",
+      "source_repo": "pyg-team/pyg-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "multiformats/rust-cid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgeos/geos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet"
     }
   ]
 }

@@ -19,6 +19,30 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate-context",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "Image processing and computer vision library in pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate-context",
+      "text": "Reference code for the paper: Deep White-Balance Editing (CVPR 2020). Our method is a deep learning multi-task framework for white-balance editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate-context",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "status": "candidate",
+      "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mac Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mac Builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11592,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "bud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "man"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mac Builds",
+      "sense_id": "mac-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mac-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac-builds",
+  "observation_id": "b51bb8689d858911",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Mac Builds",
+  "source_context_snippet": "Mac Builds",
+  "source_file": ".github/workflows/mac-builds.yml",
+  "source_repo": "catchorg/Catch2",
+  "source_repo_description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}

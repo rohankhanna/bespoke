@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963928,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934312,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994390,
+      "status": "candidate",
+      "text": "established"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992346,
+      "status": "candidate",
+      "text": "composed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990962,
+      "status": "candidate",
+      "text": "disposed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedded",
+      "sense_id": "embedded#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18022,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14040,
+      "status": "candidate",
+      "text": "integrated"
+    }
+  ],
+  "concept_id": "embedded",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embedded",
+  "observation_id": "ec7ec73895e09749",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "embedded",
+  "source_context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+  "source_file": null,
+  "source_repo": "PaddlePaddle/Paddle-Lite",
+  "source_repo_description": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+}

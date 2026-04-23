@@ -31,6 +31,30 @@
       "source_repo": "microsoft/graphrag",
       "status": "candidate-context",
       "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "ChatGPT Java SDK\u3002\u652f\u6301 GPT-4o\u3001 GPT-5 API\u3002\u5f00\u7bb1\u5373\u7528\u3002An unofficial Java SDK for seamless integration with ChatGPT's GPT-5 and GPT-4 APIs. Ready-to-use, simple setup, and efficient for building AI-powered applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "microsoft/graphrag",
       "status": "candidate",
       "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/graphrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-java"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

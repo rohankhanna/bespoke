@@ -31,6 +31,18 @@
       "source_repo": "gakonst/ethers-rs",
       "status": "candidate-context",
       "text": "deps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "deps"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gakonst/ethers-rs",
+      "status": "candidate",
+      "text": "deps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
       "status": "candidate",
       "text": "deps"
     }
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deps.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deps.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "alloy-rs/op-alloy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Offline - Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "Offline - Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "Offline - Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "approve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "audit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Offline - Test",
+  "concept_id": "offline---test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test_offline.yaml",
+      "source_repo": "huggingface/optimum-intel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Offline - Test",
+      "sense_id": "offline---test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

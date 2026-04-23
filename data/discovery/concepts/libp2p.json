@@ -103,6 +103,30 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "Build a private P2P device network for capability-first services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "Compute Node of Dria Knowledge Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +256,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "firstbatchxyz/dkn-compute-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

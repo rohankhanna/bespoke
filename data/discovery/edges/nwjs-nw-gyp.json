@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nwjs/nw-gyp",
-      "target": "felixrieseberg/windows-build-tools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nwjs/nw-gyp",
-      "target": "microsoft/nodejs-guidelines",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nwjs/nw-gyp",
@@ -134,6 +120,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "nwjs/nw-gyp"
 }

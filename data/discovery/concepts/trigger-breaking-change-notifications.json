@@ -31,6 +31,36 @@
       "source_repo": "rapidsai/rmm",
       "status": "candidate-context",
       "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/gha-tools",
+      "status": "candidate-context",
+      "text": "User tools for RAPIDS GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/gha-tools",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +73,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rapidsai/rmm",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/gha-tools",
       "status": "candidate",
       "text": "Trigger Breaking Change Notifications"
     }
@@ -100,11 +148,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
       "source_repo": "rapidsai/rmm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/ucxx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/gha-tools"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

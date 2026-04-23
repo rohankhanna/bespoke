@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "celery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "cultivated celery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947375,
+      "status": "candidate",
+      "text": "blanching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "apium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "genus apium"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cultivated celery"
+    }
+  ],
+  "canonical_name": "celery",
+  "concept_id": "celery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "celery",
+      "sense_id": "celery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

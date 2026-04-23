@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Closed Issue Message"
+    "Closed Issue Message",
+    "Closed issue message"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,54 @@
       "source_repo": "aws/aws-iot-device-sdk-js-v2",
       "status": "candidate-context",
       "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "Closed issue message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boto/boto3",
+      "status": "candidate-context",
+      "text": "Boto3, an AWS SDK for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/boto3",
+      "status": "candidate-context",
+      "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Configure AWS credential environment variables for use in other GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "Closed issue message"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +94,30 @@
       "source_repo": "aws/aws-iot-device-sdk-js-v2",
       "status": "candidate",
       "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate",
+      "text": "Closed issue message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/boto3",
+      "status": "candidate",
+      "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate",
+      "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate",
+      "text": "Closed issue message"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +173,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "aws/aws-iot-device-sdk-js-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/close_issue_message.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sam-cli"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

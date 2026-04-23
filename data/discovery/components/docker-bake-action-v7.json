@@ -1,0 +1,17 @@
+{
+  "component": "docker/bake-action@v7",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp"
+    }
+  ]
+}

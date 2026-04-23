@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "skx/github-action-publish-binaries@release-1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1player/host-spawn",
+      "target": "89luca89/distrobox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1player/host-spawn",
+      "target": "flatpak/flatpak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1player/host-spawn",
+      "target": "flatpak/flatpak-xdg-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "1player/host-spawn",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "1player/host-spawn",
+      "target": "skx/github-action-publish-binaries@release-1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "1player/host-spawn",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "distrobox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "flatpak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "sandbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "silverblue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1player/host-spawn",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:08.171204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1988
+    },
+    {
+      "path": "go.mod",
+      "size": 147
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run commands on your host from inside your toolbox or flatpak sandbox",
+    "fork": false,
+    "full_name": "1player/host-spawn",
+    "html_url": "https://github.com/1player/host-spawn",
+    "language": "Go",
+    "pushed_at": "2025-07-31T10:35:01Z",
+    "stargazers_count": 166,
+    "topics": [
+      "containers",
+      "distrobox",
+      "flatpak",
+      "linux",
+      "sandbox",
+      "silverblue",
+      "toolbox"
+    ],
+    "updated_at": "2026-04-19T19:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "89luca89/distrobox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatpak/flatpak",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatpak/flatpak-xdg-utils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distrobox"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatpak"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sandbox"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silverblue"
+    },
+    {
+      "context_snippet": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbox"
+    }
+  ]
+}

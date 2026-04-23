@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Quality Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "Code Quality Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "Code Quality Main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27173,
+      "status": "candidate",
+      "text": "subroutine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26643,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19812,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19628,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19575,
+      "status": "candidate",
+      "text": "type"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Quality Main",
+  "concept_id": "code-quality-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "ashleve/lightning-hydra-template"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Quality Main",
+      "sense_id": "code-quality-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

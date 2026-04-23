@@ -212,6 +212,126 @@
       "source_repo": "awslabs/amazon-eks-ami",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "Connect to any device with no external listening ports open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate-context",
+      "text": "Cluster Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy AI/ML and HPC environments on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "Whitelabel wallet framework for the Tezos blockchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +436,66 @@
       "source_repo": "awslabs/amazon-eks-ami",
       "status": "candidate",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/noports",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_related_terms": [
@@ -485,11 +665,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/dependency-review.yaml",
       "source_repo": "awslabs/amazon-eks-ami"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "GoogleCloudPlatform/cluster-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Cryptonomic/Tezori"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

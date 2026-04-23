@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "target": "farama-foundation/gymnasium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "target": "Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:00.897640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for Gym documentation website",
+    "fork": false,
+    "full_name": "Farama-Foundation/gym-docs",
+    "html_url": "https://github.com/Farama-Foundation/gym-docs",
+    "language": null,
+    "pushed_at": "2025-06-29T13:21:43Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/gymnasium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy"
+    }
+  ]
+}

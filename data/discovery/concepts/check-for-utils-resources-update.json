@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check for utils resources update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "Official ESLint plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "Check for utils resources update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate",
+      "text": "Check for utils resources update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28467,
+      "status": "candidate",
+      "text": "costs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22290,
+      "status": "candidate",
+      "text": "utility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18437,
+      "status": "candidate",
+      "text": "accommodation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18437,
+      "status": "candidate",
+      "text": "votes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18026,
+      "status": "candidate",
+      "text": "maintaining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check for utils resources update",
+  "concept_id": "check-for-utils-resources-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-for-resources-update.yml",
+      "source_repo": "vuejs/eslint-plugin-vue"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check for utils resources update",
+      "sense_id": "check-for-utils-resources-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

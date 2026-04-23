@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "sgl-project/sgl-learning-materials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "outlines-dev/outlines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-all-pending-pr-test-runs.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Cancel All Pending PR Test Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Cancel PR Workflows on Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-monitor.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-monitor.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-monitor.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-monitor.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "CI Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Close Inactive Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute-notebook.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute-notebook.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Execute Notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions-cool/check-user-permission@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Label PR for CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "DoozyX/clang-format-lint-action@v0.18.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test-amd.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-test-amd.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Nightly Test (AMD)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "target": "Nightly Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "LDLINGLINGLING/sglang"
+}

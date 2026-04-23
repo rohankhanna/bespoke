@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "aws-samples/sample-vllm-on-eks-with-dlc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - Ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - SGLang EC2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - SGLang SageMaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM EC2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM-Omni",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM RayServe",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "aws/deep-learning-containers"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Maven Central Repo Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "ChatGPT Java SDK\u3002\u652f\u6301 GPT-4o\u3001 GPT-5 API\u3002\u5f00\u7bb1\u5373\u7528\u3002An unofficial Java SDK for seamless integration with ChatGPT's GPT-5 and GPT-4 APIs. Ready-to-use, simple setup, and efficient for building AI-powered applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "Maven Central Repo Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate",
+      "text": "Maven Central Repo Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24327,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23368,
+      "status": "candidate",
+      "text": "equipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23368,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23121,
+      "status": "candidate",
+      "text": "serai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23121,
+      "status": "candidate",
+      "text": "tree"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Maven Central Repo Deployment",
+  "concept_id": "maven-central-repo-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "PlexPt/chatgpt-java"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maven Central Repo Deployment",
+      "sense_id": "maven-central-repo-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

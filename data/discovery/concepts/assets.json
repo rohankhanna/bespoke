@@ -1,15 +1,74 @@
 {
   "aliases": [
-    "assets"
+    "assets",
+    "Assets"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021674,
+      "status": "candidate",
+      "text": "plus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050778,
+      "status": "candidate",
+      "text": "liabilities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050445,
+      "status": "candidate",
+      "text": "collections"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049905,
+      "status": "candidate",
+      "text": "capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048845,
+      "status": "candidate",
+      "text": "fundamentals"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "assets",
   "concept_id": "assets",
@@ -20,12 +79,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-assets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "arl/statsviz"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

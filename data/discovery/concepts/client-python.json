@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "client-python"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "Official Python client library for kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "client-python",
+  "concept_id": "client-python",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "client-python",
+      "sense_id": "client-python#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

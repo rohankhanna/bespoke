@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-book.yml",
+      "source_repo": "ad-si/FlatCV",
+      "target": "Publish Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "cli-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "grayscale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "image-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "image-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "magick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "otsu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "single-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV",
+      "target": "vips",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:11:06.722851+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 104
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2212
+    },
+    {
+      "path": ".github/workflows/publish-book.yml",
+      "size": 891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image processing and computer vision library in pure C",
+    "fork": false,
+    "full_name": "ad-si/FlatCV",
+    "html_url": "https://github.com/ad-si/FlatCV",
+    "language": "C",
+    "pushed_at": "2026-04-22T19:25:38Z",
+    "stargazers_count": 47,
+    "topics": [
+      "c",
+      "cli",
+      "cli-tool",
+      "computer-vision",
+      "grayscale",
+      "image",
+      "image-filter",
+      "image-manipulation",
+      "image-pipeline",
+      "image-processing",
+      "magick",
+      "opencv",
+      "otsu",
+      "single-header",
+      "vips"
+    ],
+    "updated_at": "2026-04-22T19:25:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-book.yml",
+      "term": "Publish Website"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-tool"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grayscale"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-filter"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-pipeline"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magick"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otsu"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    },
+    {
+      "context_snippet": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vips"
+    }
+  ]
+}

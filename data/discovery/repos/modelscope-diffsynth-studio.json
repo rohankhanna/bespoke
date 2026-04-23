@@ -16,21 +16,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/DiffSynth-Studio",
-      "target": "modelscope/diffsynth-engine",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/DiffSynth-Studio",
-      "target": "artiprocher/sd-webui-fastblend",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/DiffSynth-Studio",
-      "target": "artiprocher/fastsdxl",
+      "target": "modelscope/nexus-gen",
       "target_type": "repository"
     },
     {
@@ -62,7 +48,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:34:06.212961+00:00",
+  "fetched_at": "2026-04-23T21:51:47.686753+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,10 +76,10 @@
     "full_name": "modelscope/DiffSynth-Studio",
     "html_url": "https://github.com/modelscope/DiffSynth-Studio",
     "language": "Python",
-    "pushed_at": "2026-04-23T05:53:23Z",
-    "stargazers_count": 12284,
+    "pushed_at": "2026-04-23T10:09:50Z",
+    "stargazers_count": 12291,
     "topics": [],
-    "updated_at": "2026-04-23T06:28:22Z"
+    "updated_at": "2026-04-23T16:33:02Z"
   },
   "repo_links": [
     {
@@ -103,17 +89,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "artiprocher/fastsdxl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "artiprocher/sd-webui-fastblend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/diffsynth-engine",
+      "full_name": "modelscope/nexus-gen",
       "source_file": "README.md"
     }
   ],

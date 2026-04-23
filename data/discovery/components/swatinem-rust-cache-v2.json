@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v2",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -857,6 +857,241 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paradigmxyz/mev-share-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "paradigmxyz/mev-share-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ralexstokes/ssz-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/tuitar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "David-OConnor/pyflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/loom.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stress-test.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LaurenzV/krilla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-extended.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sqlx-cli.yml",
+      "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cgisky1980/hf-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andelf/axcli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andelf/axcli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/riff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/riff"
     }
   ]
 }

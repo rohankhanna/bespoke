@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:37:35.598625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3069
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pairing cryptography library in Rust",
+    "fork": true,
+    "full_name": "paritytech/bn",
+    "html_url": "https://github.com/paritytech/bn",
+    "language": "Rust",
+    "pushed_at": "2024-01-18T22:54:25Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-05-23T15:05:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

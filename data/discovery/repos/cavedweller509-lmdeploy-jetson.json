@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cavedweller509/LMDeploy-Jetson",
-      "target": "internlm/internlm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cavedweller509/LMDeploy-Jetson",
       "target": "bestanhongjun/interndog",
       "target_type": "repository"
     },
@@ -21,16 +14,9 @@
       "source_repo": "cavedweller509/LMDeploy-Jetson",
       "target": "bestanhongjun/lmdeploy-jetson",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cavedweller509/LMDeploy-Jetson",
-      "target": "internlm/tutorial",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T06:32:49.459896+00:00",
+  "fetched_at": "2026-04-23T21:46:29.844565+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -60,16 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bestanhongjun/lmdeploy-jetson",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "internlm/internlm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "internlm/tutorial",
       "source_file": "README.md"
     }
   ],

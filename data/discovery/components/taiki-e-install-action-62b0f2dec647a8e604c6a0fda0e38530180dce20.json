@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@62b0f2dec647a8e604c6a0fda0e38530180dce20",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "nearai/ironclaw"
+    }
+  ]
+}

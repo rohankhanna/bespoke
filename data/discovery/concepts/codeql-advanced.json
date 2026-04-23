@@ -121,6 +121,66 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/nargs",
+      "status": "candidate-context",
+      "text": "nargs is a Go static analysis tool to find unused arguments in function declarations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nargs",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "Entra ID extension for go-redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "Elixir is a dynamic, functional language for building scalable and maintainable applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -175,6 +235,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "camel-ai/camel",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nargs",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis-entraid",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-lang/elixir",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -292,11 +382,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "alexkohler/nargs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "redis/go-redis-entraid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "elixir-lang/elixir"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

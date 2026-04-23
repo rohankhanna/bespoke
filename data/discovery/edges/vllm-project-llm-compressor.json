@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-check.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ready-label-check.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "Check Ready Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-comment.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-comment.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "PR Reminder Comment Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/stale@997185467fa4f803885201cee163a9f38240193d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "Close inactive PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "neuralmagic/nm-actions/actions/changed-files@14cecb6bf54cc9919b1d3f64881a364401b2ae62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-check-transformers.yaml",
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "Test Checks (Transformers)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vllm-project/llm-compressor",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "vllm-project/llm-compressor"
+}

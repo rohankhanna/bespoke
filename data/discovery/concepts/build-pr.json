@@ -19,12 +19,30 @@
       "source_repo": "opencontainers/distribution-spec",
       "status": "candidate-context",
       "text": "build-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/servo.org",
+      "status": "candidate-context",
+      "text": "Servo project website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo.org",
+      "status": "candidate-context",
+      "text": "build-pr"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate",
+      "text": "build-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo.org",
       "status": "candidate",
       "text": "build-pr"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/build-pr.yml",
       "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "servo/servo.org"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

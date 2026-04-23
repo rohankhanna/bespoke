@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "fedora"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727953,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727615,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726603,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727960,
+      "status": "candidate",
+      "text": "felt hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727959,
+      "status": "candidate",
+      "text": "hat"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "felt hat"
+    }
+  ],
+  "canonical_name": "fedora",
+  "concept_id": "fedora",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fedora",
+      "sense_id": "fedora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

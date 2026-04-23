@@ -1,0 +1,12 @@
+{
+  "component": "qltysh/qlty-action/coverage@a19242102d17e497f437d7466aa01b528537e899",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib"
+    }
+  ]
+}

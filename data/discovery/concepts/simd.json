@@ -67,6 +67,126 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate-context",
       "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "A simple and fast linear algebra library for games and graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for the simdjson project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "Inference Llama 2 in one file of pure Zig"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +219,66 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate",
       "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/glam-rs",
+      "status": "candidate",
+      "text": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SunDoge/simdjson-rust",
+      "status": "candidate",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +352,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bitshifter/glam-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SunDoge/simdjson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgbur/llama2.zig"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

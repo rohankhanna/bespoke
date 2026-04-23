@@ -1,0 +1,514 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "kanga333/variable-mapper@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kurrent-io/kurrentdb-client-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kurrent-io/eventstore-client-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kurrent-io/kurrentdb-client-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kurrent-io/eventstoredb-client-dotnet-legacy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container-noble.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Build Noble Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kanga333/variable-mapper@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Build Container - Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Build Production Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Build - Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-2022.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Build Windows 2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "Cherry pick PR commits for label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "cqrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "event-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "eventsourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB",
+      "target": "eventstore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:04:56.449695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7168
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3113
+    },
+    {
+      "path": ".github/workflows/build-container-noble.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/build-container-reusable.yml",
+      "size": 4215
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 250
+    },
+    {
+      "path": ".github/workflows/build-reusable.yml",
+      "size": 4519
+    },
+    {
+      "path": ".github/workflows/build-ubuntu-20.04-arm64.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/build-ubuntu-22.04.yml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/build-windows-2022.yml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "size": 409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency.",
+    "fork": false,
+    "full_name": "kurrent-io/KurrentDB",
+    "html_url": "https://github.com/kurrent-io/KurrentDB",
+    "language": "C#",
+    "pushed_at": "2026-04-23T15:33:21Z",
+    "stargazers_count": 5777,
+    "topics": [
+      "cqrs",
+      "database",
+      "event-sourcing",
+      "event-store",
+      "eventsourcing",
+      "eventstore"
+    ],
+    "updated_at": "2026-04-21T19:29:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurrent-io/eventstore-client-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurrent-io/eventstoredb-client-dotnet-legacy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurrent-io/kurrentdb-client-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurrent-io/kurrentdb-client-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Noble Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container-noble.yml",
+      "term": "Build Noble Container"
+    },
+    {
+      "context_snippet": "Build Container - Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container-reusable.yml",
+      "term": "Build Container - Reusable"
+    },
+    {
+      "context_snippet": "Build Production Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Production Site"
+    },
+    {
+      "context_snippet": "Build - Reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "term": "Build - Reusable"
+    },
+    {
+      "context_snippet": "Build Windows 2022",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-2022.yml",
+      "term": "Build Windows 2022"
+    },
+    {
+      "context_snippet": "Cherry pick PR commits for label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "term": "Cherry pick PR commits for label"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqrs"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-store"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstore"
+    }
+  ]
+}

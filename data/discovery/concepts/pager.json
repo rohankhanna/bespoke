@@ -19,6 +19,18 @@
       "source_repo": "dandavison/delta",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dandavison/delta",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/moor"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

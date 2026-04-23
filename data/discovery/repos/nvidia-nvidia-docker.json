@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker",
+      "target": "nvidia-docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:05.766326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Build and run Docker containers leveraging NVIDIA GPUs",
+    "fork": false,
+    "full_name": "NVIDIA/nvidia-docker",
+    "html_url": "https://github.com/NVIDIA/nvidia-docker",
+    "language": null,
+    "pushed_at": "2023-12-06T09:16:49Z",
+    "stargazers_count": 17537,
+    "topics": [
+      "cuda",
+      "docker",
+      "gpu",
+      "nvidia-docker"
+    ],
+    "updated_at": "2026-04-22T19:13:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-docker"
+    }
+  ]
+}

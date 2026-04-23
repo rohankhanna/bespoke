@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tafia/quick-protobuf",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tafia/quick-protobuf",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tafia/quick-protobuf",
+      "target": "protobuf-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tafia/quick-protobuf",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:10:12.997805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8554
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust implementation of protobuf parser",
+    "fork": false,
+    "full_name": "tafia/quick-protobuf",
+    "html_url": "https://github.com/tafia/quick-protobuf",
+    "language": "Rust",
+    "pushed_at": "2024-02-14T05:48:24Z",
+    "stargazers_count": 473,
+    "topics": [
+      "codegen",
+      "cow",
+      "protobuf",
+      "protobuf-parser",
+      "rust"
+    ],
+    "updated_at": "2026-04-08T13:41:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf-parser"
+    },
+    {
+      "context_snippet": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

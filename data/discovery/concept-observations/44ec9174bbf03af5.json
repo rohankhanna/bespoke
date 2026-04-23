@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple, decentralized dependency manager for Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](Logo/PNG/header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](Logo/PNG/header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036667,
+      "status": "candidate",
+      "text": "tunis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004754,
+      "status": "candidate",
+      "text": "cartagena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29553197,
+      "status": "candidate",
+      "text": "colton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29490204,
+      "status": "candidate",
+      "text": "cartago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036808,
+      "status": "candidate",
+      "text": "tunisia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carthage",
+      "sense_id": "carthage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carthage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carthage",
+  "observation_id": "44ec9174bbf03af5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "carthage",
+  "source_context_snippet": "![](Logo/PNG/header.png)",
+  "source_file": null,
+  "source_repo": "Carthage/Carthage",
+  "source_repo_description": "A simple, decentralized dependency manager for Cocoa"
+}

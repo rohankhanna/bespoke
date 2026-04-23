@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/EasyTransfer",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/EasyTransfer",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/EasyTransfer",
+      "target": "nlp-applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/EasyTransfer",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:09.298551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EasyTransfer is designed to make the development of transfer learning in NLP applications easier.",
+    "fork": false,
+    "full_name": "alibaba/EasyTransfer",
+    "html_url": "https://github.com/alibaba/EasyTransfer",
+    "language": "Python",
+    "pushed_at": "2022-08-25T06:48:53Z",
+    "stargazers_count": 862,
+    "topics": [
+      "bert",
+      "knowledge-distillation",
+      "nlp-applications",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-21T13:34:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-applications"
+    },
+    {
+      "context_snippet": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

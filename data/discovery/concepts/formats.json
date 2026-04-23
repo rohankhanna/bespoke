@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "formats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "JSON Schema format validation for Ajv v8+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "JSON Schema formats for Ajv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate",
+      "text": "JSON Schema formats for Ajv"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039708,
+      "status": "candidate",
+      "text": "initialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034785,
+      "status": "candidate",
+      "text": "arrange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "data format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "data formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "approaches"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "formats",
+  "concept_id": "formats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-formats"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "formats",
+      "sense_id": "formats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

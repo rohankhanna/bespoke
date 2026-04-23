@@ -103,6 +103,66 @@
       "source_repo": "electron-userland/electron-installer-snap",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "Set Your Goals, AI Achieves Them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": ":atom: The hackable text editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "Whitelabel wallet framework for the Tezos blockchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nashaofu/screenshots",
+      "status": "candidate-context",
+      "text": "A screenshot plugin for electron and react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashaofu/screenshots",
+      "status": "candidate-context",
+      "text": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +213,36 @@
       "source_repo": "electron-userland/electron-installer-snap",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate",
+      "text": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate",
+      "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashaofu/screenshots",
+      "status": "candidate",
+      "text": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +346,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nashaofu/screenshots"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FPC - Fast Prefix Coder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "entropy-coder",
+      "sense_id": "entropy-coder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "entropy-coder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "entropy-coder",
+  "observation_id": "75535285169854fc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "entropy-coder",
+  "source_context_snippet": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions.",
+  "source_file": null,
+  "source_repo": "kagiannis/FPC",
+  "source_repo_description": "FPC - Fast Prefix Coder"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "serializer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deneonet/benc",
+      "status": "candidate-context",
+      "text": "Benc is the fastest serializer in pure Golang supporting code generation and forward/backward compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deneonet/benc",
+      "status": "candidate-context",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deneonet/benc",
+      "status": "candidate",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024601,
+      "status": "candidate",
+      "text": "serial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024600,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024599,
+      "status": "candidate",
+      "text": "title"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024598,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024597,
+      "status": "candidate",
+      "text": "livraison"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "serializer",
+  "concept_id": "serializer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deneonet/benc"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serializer",
+      "sense_id": "serializer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

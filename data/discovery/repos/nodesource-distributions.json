@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deprecated.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deprecated.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nodesource/distributions",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "nodesource/distributions",
+      "target": "Test Installation Scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deprecated.yaml",
+      "source_repo": "nodesource/distributions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deprecated.yaml",
+      "source_repo": "nodesource/distributions",
+      "target": "Test Installation Scripts DEPRECATED VERSIONS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodesource/distributions",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodesource/distributions",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodesource/distributions",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodesource/distributions",
+      "target": "runtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:46.570645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 11165
+    },
+    {
+      "path": ".github/workflows/deprecated.yaml",
+      "size": 2398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NodeSource Node.js Binary Distributions",
+    "fork": false,
+    "full_name": "nodesource/distributions",
+    "html_url": "https://github.com/nodesource/distributions",
+    "language": "Shell",
+    "pushed_at": "2026-04-14T15:56:49Z",
+    "stargazers_count": 13833,
+    "topics": [
+      "javascript",
+      "linux",
+      "node",
+      "nodejs",
+      "runtime"
+    ],
+    "updated_at": "2026-04-23T14:13:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Test Installation Scripts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Test Installation Scripts"
+    },
+    {
+      "context_snippet": "\"Test Installation Scripts DEPRECATED VERSIONS\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deprecated.yaml",
+      "term": "Test Installation Scripts DEPRECATED VERSIONS"
+    },
+    {
+      "context_snippet": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    }
+  ]
+}

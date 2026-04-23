@@ -31,6 +31,18 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate-context",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

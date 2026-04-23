@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kaldi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "masruq ibn abraha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "saladin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "sa'd ibn abi waqqas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "ibrahim ibn adham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "idris i of morocco"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kaldi",
+  "concept_id": "kaldi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "espnet/espnet"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kaldi",
+      "sense_id": "kaldi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

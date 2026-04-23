@@ -19,12 +19,30 @@
       "source_repo": "aquasecurity/trivy-operator",
       "status": "candidate-context",
       "text": "Publish Helm chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Publish Helm chart"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate",
+      "text": "Publish Helm chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
       "status": "candidate",
       "text": "Publish Helm chart"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish-helm-chart.yaml",
       "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-helm-chart.yaml",
+      "source_repo": "aquasecurity/starboard"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

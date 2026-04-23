@@ -1,0 +1,328 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/changes@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/matches@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/cache@v2.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/process-test-results@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "aws-actions/amazon-ecr-login@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "peaceiris/actions-gh-pages@v3.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-land.yml",
+      "source_repo": "diem/diem",
+      "target": "ci-post-land",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test-complete.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test-complete.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/get-artifacts@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test-complete.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/publish-unit-test-result-action@07dbf21c1095745d5149a54007f28231936c9da4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test-complete.yml",
+      "source_repo": "diem/diem",
+      "target": "ci-test-complete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/changes@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/matches@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "aws-actions/amazon-ecr-login@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "Swatinem/rust-cache@c5ed9ba6b7e1bb8aff90d43acd2f0af4990fa57c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/cache@v2.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/setup-node@v2.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/github-script@v4.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem",
+      "target": "ci-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/create-issue@faadd16607b77dfa2231a8f366883e01717b3225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "diem/diem",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/cache@v2.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "diem/diem",
+      "target": "daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/pr-base-ref@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/require-review@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/comment@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/labels@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/request-review@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem",
+      "target": "Dependency Notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-update-review.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dep-update-review.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/comment@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dep-update-review.yml",
+      "source_repo": "diem/diem",
+      "target": "Dependency Update Reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hyperjump-comment.yml",
+      "source_repo": "diem/diem",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hyperjump-comment.yml",
+      "source_repo": "diem/diem",
+      "target": "diem/actions/hyperjump-comment@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diem/diem",
+      "target": "blockchain",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "diem/diem"
+}

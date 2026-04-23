@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/xlang",
+      "target": "microsoft/cppwin32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/xlang",
+      "target": "microsoft/cswinrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/xlang",
+      "target": "microsoft/cswin32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/xlang",
+      "target": "microsoft/projectreunion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/xlang",
+      "target": "actions/stale@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/xlang",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:12:12.221425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4187
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/xlang",
+    "html_url": "https://github.com/microsoft/xlang",
+    "language": "C++",
+    "pushed_at": "2026-03-25T00:58:25Z",
+    "stargazers_count": 907,
+    "topics": [],
+    "updated_at": "2026-04-18T14:14:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cppwin32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cswin32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cswinrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/projectreunion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

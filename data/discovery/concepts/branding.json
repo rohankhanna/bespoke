@@ -19,6 +19,18 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate-context",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

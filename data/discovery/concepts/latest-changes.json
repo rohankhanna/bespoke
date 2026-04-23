@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Latest Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Latest Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "Latest Changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28226,
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28226,
+      "status": "candidate",
+      "text": "up-to-date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11838,
+      "status": "candidate",
+      "text": "changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11838,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11838,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest Changes",
+  "concept_id": "latest-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "source_repo": "fastapi/typer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest Changes",
+      "sense_id": "latest-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

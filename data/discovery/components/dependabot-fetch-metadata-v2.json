@@ -1,7 +1,7 @@
 {
   "component": "dependabot/fetch-metadata@v2",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "clux/muslrust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-autoapprove.yml",
+      "source_repo": "aws-actions/configure-aws-credentials"
     }
   ]
 }

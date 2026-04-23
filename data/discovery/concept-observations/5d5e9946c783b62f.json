@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Development repo of Inconsolata Fonts by Raph Levien"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-fonts",
+      "sense_id": "google-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-fonts",
+  "observation_id": "5d5e9946c783b62f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "google-fonts",
+  "source_context_snippet": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)",
+  "source_file": null,
+  "source_repo": "googlefonts/Inconsolata",
+  "source_repo_description": "Development repo of Inconsolata Fonts by Raph Levien"
+}

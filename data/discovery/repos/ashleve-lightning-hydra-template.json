@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "trilom/file-changes-action@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "pytorchlightning/deep-learning-project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "drivendata/cookiecutter-data-science",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "lucmos/nn-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "jxpress/lightning-hydra-template-vertex-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "Code Quality Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "trilom/file-changes-action@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "Code Quality PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "project-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "reproducibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleve/lightning-hydra-template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:37.991573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41236
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 461
+    },
+    {
+      "path": "requirements.txt",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/code-quality-main.yaml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/code-quality-pr.yaml",
+      "size": 885
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1",
+    "fork": false,
+    "full_name": "ashleve/lightning-hydra-template",
+    "html_url": "https://github.com/ashleve/lightning-hydra-template",
+    "language": "Python",
+    "pushed_at": "2026-04-22T21:53:37Z",
+    "stargazers_count": 5238,
+    "topics": [
+      "best-practices",
+      "config",
+      "deep-learning",
+      "hydra",
+      "mlops",
+      "project-structure",
+      "pytorch",
+      "pytorch-lightning",
+      "reproducibility",
+      "template"
+    ],
+    "updated_at": "2026-04-23T16:49:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drivendata/cookiecutter-data-science",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jxpress/lightning-hydra-template-vertex-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucmos/nn-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/deep-learning-project-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Quality Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "term": "Code Quality Main"
+    },
+    {
+      "context_snippet": "Code Quality PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "term": "Code Quality PR"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hydra"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-structure"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducibility"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

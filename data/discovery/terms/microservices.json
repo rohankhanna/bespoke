@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -51,6 +51,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "apache/dubbo-go-pixiu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi"
     }
   ],
   "term": "microservices"

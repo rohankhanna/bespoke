@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Natyren/WebShop",
+      "target": "princeton-nlp/webshop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Natyren/WebShop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Natyren/WebShop",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Natyren/WebShop",
+      "target": "PyTest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:39:52.662587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7650
+    },
+    {
+      "path": "requirements.txt",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+    "fork": true,
+    "full_name": "Natyren/WebShop",
+    "html_url": "https://github.com/Natyren/WebShop",
+    "language": "Python",
+    "pushed_at": "2025-06-10T21:13:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-06-10T21:13:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/webshop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "PyTest"
+    }
+  ]
+}

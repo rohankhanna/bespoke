@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:41.290628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2311
+    },
+    {
+      "path": "requirements.txt",
+      "size": 162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VITS-based zero-shot TTS system varying with diverse style/speaker conditioning methods.",
+    "fork": true,
+    "full_name": "hcy71o/SC-VITS",
+    "html_url": "https://github.com/hcy71o/SC-VITS",
+    "language": "Python",
+    "pushed_at": "2022-09-21T04:18:31Z",
+    "stargazers_count": 36,
+    "topics": [
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "vits",
+      "zero-shot"
+    ],
+    "updated_at": "2025-11-13T13:58:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

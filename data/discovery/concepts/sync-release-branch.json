@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Release Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foundry-rs/forge-std",
+      "status": "candidate-context",
+      "text": "A collection of helpful contracts and libraries for use with Forge and Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/forge-std",
+      "status": "candidate-context",
+      "text": "Sync Release Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foundry-rs/forge-std",
+      "status": "candidate",
+      "text": "Sync Release Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24535,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23513,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22516,
+      "status": "candidate",
+      "text": "second"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "eliminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22492,
+      "status": "candidate",
+      "text": "banked"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Release Branch",
+  "concept_id": "sync-release-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "foundry-rs/forge-std"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Release Branch",
+      "sense_id": "sync-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

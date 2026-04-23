@@ -1,12 +1,17 @@
 {
   "component": "@preact/signals",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nacos-group/nacos-group.github.io"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cztomsik/ava"
     }
   ]
 }

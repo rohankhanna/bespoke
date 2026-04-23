@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove needs-more-info label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove needs-more-info label"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12011,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12011,
+      "status": "candidate",
+      "text": "peeling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove needs-more-info label",
+      "sense_id": "remove-needs-more-info-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-needs-more-info-label",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-needs-more-info-label",
+  "observation_id": "a97f1340d5d6deca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Remove needs-more-info label",
+  "source_context_snippet": "Remove needs-more-info label",
+  "source_file": ".github/workflows/remove-needs-reply.yml",
+  "source_repo": "MaureenZOU/detectron2-xyz",
+  "source_repo_description": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks."
+}

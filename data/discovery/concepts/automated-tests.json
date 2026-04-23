@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Automated tests",
-    "automated-tests"
+    "automated-tests",
+    "Automated Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "freebsd/kyua",
       "status": "candidate-context",
       "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpipe/cloudpickle",
+      "status": "candidate-context",
+      "text": "Extended pickling support for Python objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpipe/cloudpickle",
+      "status": "candidate-context",
+      "text": "Automated Tests"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +61,12 @@
       "source_repo": "freebsd/kyua",
       "status": "candidate",
       "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpipe/cloudpickle",
+      "status": "candidate",
+      "text": "Automated Tests"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +122,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "freebsd/kyua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "cloudpipe/cloudpickle"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

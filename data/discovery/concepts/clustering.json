@@ -19,6 +19,30 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/iodine",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/iodine"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

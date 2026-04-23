@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "google/fuzzbench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "okotaku/diffengine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Natyren/WebShop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "umarbutler/orjsonl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "karpathy/llama2.c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda_linux.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda_windows.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi_linux.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi_windows.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_quality.yml",
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "logic-star-ai/swt-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "swansonk14/admet_ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "princeton-nlp/WebShop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "IDEA-CCNL/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "celikin/llama2.c-android-wrapper"
     }
   ]
 }

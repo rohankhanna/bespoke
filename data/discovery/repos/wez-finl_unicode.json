@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "wez/finl_unicode",
+      "target": "dahosek/finl_unicode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "wez/finl_unicode",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "wez/finl_unicode",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:41.552852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8463
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unicode support for the finl project",
+    "fork": true,
+    "full_name": "wez/finl_unicode",
+    "html_url": "https://github.com/wez/finl_unicode",
+    "language": null,
+    "pushed_at": "2025-04-20T17:20:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-20T17:00:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dahosek/finl_unicode",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

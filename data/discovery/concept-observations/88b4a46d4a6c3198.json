@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907031,
+      "status": "candidate",
+      "text": "stain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904488,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901643,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896770,
+      "status": "candidate",
+      "text": "sword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883815,
+      "status": "candidate",
+      "text": "mark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brand",
+      "sense_id": "brand#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21093,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21034,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19054,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19053,
+      "status": "candidate",
+      "text": "stigma"
+    }
+  ],
+  "concept_id": "brand",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brand",
+  "observation_id": "88b4a46d4a6c3198",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "brand",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "simple-icons/simple-icons",
+  "source_repo_description": "SVG icons for popular brands"
+}

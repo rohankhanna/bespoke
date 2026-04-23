@@ -19,6 +19,30 @@
       "source_repo": "krallin/tini",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "A minimal init system for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "krallin/tini",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "krallin/tini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "systemd/systemd"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

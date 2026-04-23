@@ -19,6 +19,18 @@
       "source_repo": "cortesi/devd",
       "status": "candidate-context",
       "text": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "Your high performance web application C framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cortesi/devd",
       "status": "candidate",
       "text": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "cortesi/devd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

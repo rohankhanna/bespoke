@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimized Go Compression Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This package provides various compression algorithms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This package provides various compression algorithms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018960,
+      "status": "candidate",
+      "text": "decompressing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018959,
+      "status": "candidate",
+      "text": "pressure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009150,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003318,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001039,
+      "status": "candidate",
+      "text": "relieving"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decompression",
+      "sense_id": "decompression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "decompressing"
+    }
+  ],
+  "concept_id": "decompression",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decompression",
+  "observation_id": "5ff19731fcd98992",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "decompression",
+  "source_context_snippet": "This package provides various compression algorithms.",
+  "source_file": null,
+  "source_repo": "klauspost/compress",
+  "source_repo_description": "Optimized Go Compression Packages"
+}

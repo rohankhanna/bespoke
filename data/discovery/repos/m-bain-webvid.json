@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-bain/webvid",
+      "target": "m-bain/frozen-in-time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-bain/webvid",
+      "target": "iejmac/video2dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-bain/webvid",
+      "target": "iejmac/clip-video-encode",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:22.492491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large-scale text-video dataset. 10 million captioned short videos.",
+    "fork": false,
+    "full_name": "m-bain/webvid",
+    "html_url": "https://github.com/m-bain/webvid",
+    "language": "Python",
+    "pushed_at": "2024-08-14T02:23:15Z",
+    "stargazers_count": 678,
+    "topics": [],
+    "updated_at": "2026-04-10T14:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iejmac/clip-video-encode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iejmac/video2dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "m-bain/frozen-in-time",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

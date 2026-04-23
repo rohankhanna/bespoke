@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heliconialabs/steampunkification",
+      "target": "larshp/uccp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:36.965131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notes and snippets for Steampunk compatibility",
+    "fork": false,
+    "full_name": "heliconialabs/steampunkification",
+    "html_url": "https://github.com/heliconialabs/steampunkification",
+    "language": null,
+    "pushed_at": "2025-07-24T13:23:16Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-01-14T08:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/uccp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

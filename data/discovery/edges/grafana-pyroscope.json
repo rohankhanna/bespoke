@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/explore-profiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "Backport PR Creator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "docker/login-action@465a07811f14bebb1938fbed4728c6a1ff8901fc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/shared-workflows/actions/trigger-argo-workflow@c2f1df59dba624b3fd509e5181aa8da5217120c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/helm-charts/.github/workflows/lint-test.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "helm-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "helm-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/writers-toolkit/publish-technical-documentation@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-next.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "publish-technical-documentation-next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "grafana/writers-toolkit/publish-technical-documentation-release@53f56c6ad8d9870aff26be10a1db9d0f4652b63a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-technical-documentation-release.yml",
+      "source_repo": "grafana/pyroscope",
+      "target": "publish-technical-documentation-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "continuous-profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "find-bottlenecks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "pyroscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "grafana/pyroscope"
+}

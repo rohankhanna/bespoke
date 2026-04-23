@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools",
+      "target": "Close stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/buildtools",
+      "target": "formatter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:03.363391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 672
+    },
+    {
+      "path": "go.mod",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 3040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A bazel BUILD file formatter and editor",
+    "fork": false,
+    "full_name": "bazelbuild/buildtools",
+    "html_url": "https://github.com/bazelbuild/buildtools",
+    "language": "Go",
+    "pushed_at": "2026-03-19T08:02:35Z",
+    "stargazers_count": 1169,
+    "topics": [
+      "bazel",
+      "build-tool",
+      "formatter"
+    ],
+    "updated_at": "2026-04-21T09:39:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and pull requests"
+    },
+    {
+      "context_snippet": "This repository contains developer tools for working with Google's `bazel` buildtool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This repository contains developer tools for working with Google's `bazel` buildtool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "This repository contains developer tools for working with Google's `bazel` buildtool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    }
+  ]
+}

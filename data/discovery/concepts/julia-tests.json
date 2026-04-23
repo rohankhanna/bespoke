@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Julia tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Self-describing sparse tensor data format for atomistic machine learning and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate-context",
+      "text": "Julia tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatensor/metatensor",
+      "status": "candidate",
+      "text": "Julia tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10699,
+      "status": "candidate",
+      "text": "morgan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10699,
+      "status": "candidate",
+      "text": "ward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "child"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "dent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "smith"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Julia tests",
+  "concept_id": "julia-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/julia-tests.yml",
+      "source_repo": "metatensor/metatensor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Julia tests",
+      "sense_id": "julia-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

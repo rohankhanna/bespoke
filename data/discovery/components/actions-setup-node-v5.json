@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto_downport.yaml",
       "source_repo": "abap2UI5/abap2UI5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-smoke.yml",
+      "source_repo": "OpenBMB/UltraRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "redhat-developer/yaml-language-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "redhat-developer/yaml-language-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-java"
     }
   ]
 }

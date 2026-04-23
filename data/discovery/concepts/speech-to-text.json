@@ -67,6 +67,18 @@
       "source_repo": "Macoron/whisper.unity",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Macoron/whisper.unity",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Macoron/whisper.unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

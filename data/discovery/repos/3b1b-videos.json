@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3b1b/videos",
+      "target": "manimcommunity/manim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:59.025629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the manim-generated scenes used in 3blue1brown videos",
+    "fork": false,
+    "full_name": "3b1b/videos",
+    "html_url": "https://github.com/3b1b/videos",
+    "language": "Python",
+    "pushed_at": "2026-03-30T13:54:37Z",
+    "stargazers_count": 10586,
+    "topics": [],
+    "updated_at": "2026-04-23T14:13:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manimcommunity/manim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

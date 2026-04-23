@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "go-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "go-library",
+  "concept_id": "go-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "go-library",
+      "sense_id": "go-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

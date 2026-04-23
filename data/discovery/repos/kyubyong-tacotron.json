@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kyubyong/tacotron",
+      "target": "kyubyong/dc_tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kyubyong/tacotron",
+      "target": "kyubyong/deepvoice3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/tacotron",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/tacotron",
+      "target": "speech-synthesis-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/tacotron",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:47.428174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow Implementation of Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model",
+    "fork": false,
+    "full_name": "Kyubyong/tacotron",
+    "html_url": "https://github.com/Kyubyong/tacotron",
+    "language": "Python",
+    "pushed_at": "2022-01-17T20:46:22Z",
+    "stargazers_count": 1834,
+    "topics": [
+      "speech",
+      "speech-synthesis-model",
+      "tensorflow",
+      "tts"
+    ],
+    "updated_at": "2026-04-02T08:35:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyubyong/dc_tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyubyong/deepvoice3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* NumPy >= 1.11.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "* NumPy >= 1.11.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis-model"
+    },
+    {
+      "context_snippet": "* NumPy >= 1.11.1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

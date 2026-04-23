@@ -103,6 +103,54 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "D rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "https://registry.bazel.build/docs/rules_d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Rust rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Helpers for generating Starlark documentation using Stardoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Bazel rules for apko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "bazel-contrib/rules_python",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate",
+      "text": "https://registry.bazel.build/docs/rules_d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate",
+      "text": "* Postsubmit [![Build status](https://badge.buildkite.com/76523cc666caab9ca91c2a08d9ac8f84af28cb25a92f387293.svg?branch=main)](https://buildkite.com/bazel/rustlang-rules-rust-postsubmit?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate",
+      "text": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +280,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-dev/rules_apko"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "airspeed velocity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "airspeed velocity"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "airspeed-velocity",
+      "sense_id": "airspeed-velocity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "airspeed-velocity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "airspeed-velocity",
+  "observation_id": "7581cc70384128f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "airspeed-velocity",
+  "source_context_snippet": "airspeed velocity",
+  "source_file": null,
+  "source_repo": "airspeed-velocity/asv",
+  "source_repo_description": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+}

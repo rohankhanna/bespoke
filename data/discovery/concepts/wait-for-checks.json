@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Wait for checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "Wait for checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate",
+      "text": "Wait for checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11749,
+      "status": "candidate",
+      "text": "stays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11749,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11749,
+      "status": "candidate",
+      "text": "stops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11531,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10662,
+      "status": "candidate",
+      "text": "abide"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Wait for checks",
+  "concept_id": "wait-for-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_wait_for_checks.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wait for checks",
+      "sense_id": "wait-for-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

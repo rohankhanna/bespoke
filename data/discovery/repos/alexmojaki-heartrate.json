@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/heartrate",
+      "target": "csurfer/pyheat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/heartrate",
+      "target": "alexmojaki/snoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/heartrate",
+      "target": "alexmojaki/birdseye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/heartrate",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/heartrate",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:23.467531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple real time visualisation of the execution of a Python program.",
+    "fork": false,
+    "full_name": "alexmojaki/heartrate",
+    "html_url": "https://github.com/alexmojaki/heartrate",
+    "language": "Python",
+    "pushed_at": "2021-11-13T14:58:11Z",
+    "stargazers_count": 1840,
+    "topics": [
+      "debugger",
+      "python",
+      "visualization"
+    ],
+    "updated_at": "2026-04-09T07:49:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/birdseye",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/snoop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csurfer/pyheat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This library offers a simple real time visualisation of the execution of a Python program:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "This library offers a simple real time visualisation of the execution of a Python program:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

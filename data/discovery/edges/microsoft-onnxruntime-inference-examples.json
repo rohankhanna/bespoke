@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Mobile Examples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/onnxruntime-inference-examples"
+}

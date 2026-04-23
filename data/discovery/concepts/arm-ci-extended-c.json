@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ARM CI Extended C++"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "ARM CI Extended C++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "ARM CI Extended C++"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26416,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "straight-arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25948,
+      "status": "candidate",
+      "text": "in line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15071,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ARM CI Extended C++",
+  "concept_id": "arm-ci-extended-c",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml",
+      "source_repo": "tensorflow/tensorflow"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM CI Extended C++",
+      "sense_id": "arm-ci-extended-c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

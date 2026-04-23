@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kpu/kenlm",
+      "target": "Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:45.718468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6027
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 65
+    },
+    {
+      "path": ".github/workflows/mac.yml",
+      "size": 542
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KenLM: Faster and Smaller Language Model Queries",
+    "fork": false,
+    "full_name": "kpu/kenlm",
+    "html_url": "https://github.com/kpu/kenlm",
+    "language": "C++",
+    "pushed_at": "2025-03-30T17:50:54Z",
+    "stargazers_count": 2764,
+    "topics": [],
+    "updated_at": "2026-04-23T02:52:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "term": "Mac"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    }
+  ]
+}

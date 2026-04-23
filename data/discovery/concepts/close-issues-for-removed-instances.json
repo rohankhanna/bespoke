@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close issues for removed instances"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Uptime of all SearXNG public instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Close issues for removed instances"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate",
+      "text": "Close issues for removed instances"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33329,
+      "status": "candidate",
+      "text": "nearby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28993,
+      "status": "candidate",
+      "text": "far"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28943,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28814,
+      "status": "candidate",
+      "text": "concept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28752,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close issues for removed instances",
+  "concept_id": "close-issues-for-removed-instances",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/close-removed-issues.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close issues for removed instances",
+      "sense_id": "close-issues-for-removed-instances#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

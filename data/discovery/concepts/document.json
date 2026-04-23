@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "document"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "document"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate",
+      "text": "document"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952072,
+      "status": "candidate",
+      "text": "papers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942043,
+      "status": "candidate",
+      "text": "text file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966484,
+      "status": "candidate",
+      "text": "written document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966483,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966450,
+      "status": "candidate",
+      "text": "backgrounder"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "papers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "text file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "written document"
+    }
+  ],
+  "canonical_name": "document",
+  "concept_id": "document",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/document.yaml",
+      "source_repo": "raviqqe/muffet"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "document",
+      "sense_id": "document#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

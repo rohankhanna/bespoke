@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+      "target": "googlecloudplatform/hpc-toolkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:46.327493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6002
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+    "html_url": "https://github.com/GoogleCloudPlatform/ai-infra-cluster-provisioning",
+    "language": "HCL",
+    "pushed_at": "2026-01-05T18:52:18Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-04T10:14:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/hpc-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

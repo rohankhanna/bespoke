@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@v4",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pkgdown.yml",
       "source_repo": "stan-dev/rstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_test_npu.yaml",
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-build-dev.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-build-release.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-build.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "libgeos/geos"
     }
   ]
 }

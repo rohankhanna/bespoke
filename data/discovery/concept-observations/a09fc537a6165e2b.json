@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661922,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853222,
+      "status": "candidate",
+      "text": "eventer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853221,
+      "status": "candidate",
+      "text": "show jumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853220,
+      "status": "candidate",
+      "text": "horse opera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853219,
+      "status": "candidate",
+      "text": "equestrianship"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eventing",
+      "sense_id": "eventing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eventing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eventing",
+  "observation_id": "a09fc537a6165e2b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "eventing",
+  "source_context_snippet": "_Secure event processing and discovery with CloudEvents_",
+  "source_file": null,
+  "source_repo": "knative/eventing",
+  "source_repo_description": "Event-driven application platform for Kubernetes"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and verify production"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and verify production"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18695,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18695,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18649,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18634,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18634,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and verify production",
+      "sense_id": "build-and-verify-production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-verify-production",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-verify-production",
+  "observation_id": "4566304396a32363",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build and verify production",
+  "source_context_snippet": "Build and verify production",
+  "source_file": ".github/workflows/production.yml",
+  "source_repo": "adobe/spectrum-css",
+  "source_repo_description": "The standard CSS implementation of the Spectrum design language."
+}

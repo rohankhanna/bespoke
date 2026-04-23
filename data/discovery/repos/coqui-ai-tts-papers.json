@@ -5,28 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coqui-ai/TTS-papers",
-      "target": "jaywalnut310/glow-tts",
+      "target": "ttaoretw/semi-tts",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coqui-ai/TTS-papers",
-      "target": "mozilla/tts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coqui-ai/TTS-papers",
-      "target": "ivanvovk/wavegrad",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coqui-ai/TTS-papers",
-      "target": "nii-yamagishilab/project-nn-pytorch-scripts",
+      "target": "tianrengao/squeezewave",
       "target_type": "repository"
     },
     {
@@ -65,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:33:29.984363+00:00",
+  "fetched_at": "2026-04-23T22:17:37.321440+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,22 +82,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ivanvovk/wavegrad",
+      "full_name": "tianrengao/squeezewave",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jaywalnut310/glow-tts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mozilla/tts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nii-yamagishilab/project-nn-pytorch-scripts",
+      "full_name": "ttaoretw/semi-tts",
       "source_file": "README.md"
     }
   ],

@@ -43,6 +43,30 @@
       "source_repo": "lmcgartland/graphene-file-upload",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Anymail: Django email integration for transactional ESPs"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "lmcgartland/graphene-file-upload",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/lmcgartland/graphene-file-upload.svg?branch=master)](https://travis-ci.com/lmcgartland/graphene-file-upload) [![PyPI version](https://badge.fury.io/py/graphene-file-upload.svg)](https://badge.fury.io/py/graphene-file-upload) [![Downloads](h\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate",
+      "text": "Anymail: Django email integration for transactional ESPs"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "lmcgartland/graphene-file-upload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anymail/django-anymail"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

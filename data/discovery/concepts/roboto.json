@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Roboto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/roboto-3-classic",
+      "status": "candidate-context",
+      "text": "Development of a Roboto Variable font"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/roboto-3-classic",
+      "status": "candidate-context",
+      "text": "Roboto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/roboto-3-classic",
+      "status": "candidate",
+      "text": "Roboto"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "product sans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "droid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "arial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "open sans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "android"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Roboto",
+  "concept_id": "roboto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "googlefonts/roboto-3-classic"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Roboto",
+      "sense_id": "roboto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

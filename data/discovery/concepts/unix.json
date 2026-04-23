@@ -67,6 +67,30 @@
       "source_repo": "GuillaumeGomez/sysinfo",
       "status": "candidate-context",
       "text": "`sysinfo` is a crate used to get a system's information."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "A minimal init system for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "Master the command line, in one page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "GuillaumeGomez/sysinfo",
       "status": "candidate",
       "text": "`sysinfo` is a crate used to get a system's information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate",
+      "text": "\ud83c\udf0d"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "GuillaumeGomez/sysinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029398,
+      "status": "candidate",
+      "text": "profound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023875,
+      "status": "candidate",
+      "text": "broad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022937,
+      "status": "candidate",
+      "text": "wide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020146,
+      "status": "candidate",
+      "text": "large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020106,
+      "status": "candidate",
+      "text": "distant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep",
+      "sense_id": "deep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 115039,
+      "status": "candidate",
+      "text": "esoteric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 87037,
+      "status": "candidate",
+      "text": "profound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66035,
+      "status": "candidate",
+      "text": "inscrutable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57040,
+      "status": "candidate",
+      "text": "intense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54031,
+      "status": "candidate",
+      "text": "artful"
+    }
+  ],
+  "concept_id": "deep",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep",
+  "observation_id": "b00937fa31d71151",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "deep",
+  "source_context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/clone-deep",
+  "source_repo_description": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+}

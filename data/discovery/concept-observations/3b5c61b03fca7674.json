@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Speed up your Git workflow. :tropical_fish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "git-workflow",
+      "sense_id": "git-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "git-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "git-workflow",
+  "observation_id": "3b5c61b03fca7674",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "git-workflow",
+  "source_context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+  "source_file": null,
+  "source_repo": "joseluisq/gitnow",
+  "source_repo_description": "Speed up your Git workflow. :tropical_fish:"
+}

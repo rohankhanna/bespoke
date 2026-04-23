@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@7410117eef9b9bd416593a4ae34d1bda0b4a2766",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_compatibility.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_compatibility.yml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_issue_message.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/serverless-application-model",
+      "target": "aws/aws-sam-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_compatibility.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_compatibility.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_compatibility.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "Check compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_issue_message.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_issue_message.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "Closed issue message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema.yml",
+      "source_repo": "aws/serverless-application-model",
+      "target": "Update schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "aws-sam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "sam-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "serverless-application-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model",
+      "target": "serverless-applications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:03.172907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5877
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 626
+    },
+    {
+      "path": ".github/workflows/check_compatibility.yml",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/close_issue_message.yml",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/schema.yml",
+      "size": 1546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates.",
+    "fork": false,
+    "full_name": "aws/serverless-application-model",
+    "html_url": "https://github.com/aws/serverless-application-model",
+    "language": "Python",
+    "pushed_at": "2026-04-22T23:23:11Z",
+    "stargazers_count": 9550,
+    "topics": [
+      "aws",
+      "aws-sam",
+      "lambda",
+      "sam",
+      "sam-specification",
+      "serverless",
+      "serverless-application-model",
+      "serverless-applications"
+    ],
+    "updated_at": "2026-04-22T23:23:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sam-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Check compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_compatibility.yml",
+      "term": "Check compatibility"
+    },
+    {
+      "context_snippet": "Closed issue message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_issue_message.yml",
+      "term": "Closed issue message"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Update schema",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema.yml",
+      "term": "Update schema"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sam"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sam-specification"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-application-model"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-applications"
+    }
+  ]
+}

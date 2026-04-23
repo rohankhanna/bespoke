@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "laude-institute/harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "mlfoundations/skyrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "target": "Nightly Submodule Update",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "open-thoughts/OpenThoughts-Agent"
+}

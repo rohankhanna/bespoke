@@ -1,7 +1,8 @@
 {
   "aliases": [
     "pre-commit",
-    "Pre-commit"
+    "Pre-commit",
+    "Pre-Commit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -262,6 +263,222 @@
       "source_repo": "BrianPugh/belay",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/gym",
+      "status": "candidate-context",
+      "text": "A toolkit for developing and comparing reinforcement learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/gym",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "Large-scale LLM inference engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "status": "candidate-context",
+      "text": "Reinforcement Learning within Computers Enhances Generalization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/mosaic",
+      "status": "candidate-context",
+      "text": "Post processing library used to analyze memory snapshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mosaic",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate-context",
+      "text": "Legible, Scalable, Reproducible Foundation Models with Named Tensors and Jax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate-context",
+      "text": "A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/pyupgrade/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pyupgrade/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\u26a1 A Git hook manager written in Rust, designed as a drop-in alternative to pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keleshev/schema",
+      "status": "candidate-context",
+      "text": "Schema validation just got Pythonic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keleshev/schema",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS resources for sending notifications to Slack \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "slime is an LLM post-training framework for RL Scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "status": "candidate-context",
+      "text": "[ICLR'26] Stronger-MAS: A RL Framework for multi LLM agent system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "Post-training with Tinker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -388,6 +605,114 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BrianPugh/belay",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/gym",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/mosaic",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/pyupgrade/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pyupgrade/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keleshev/schema",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pettingllms-ai/PettingLLMs",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -589,11 +914,137 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "BrianPugh/belay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "asottile/pyupgrade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "aseprite/laf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "THUDM/slime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

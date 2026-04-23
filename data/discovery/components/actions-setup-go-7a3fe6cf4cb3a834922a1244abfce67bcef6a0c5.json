@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/verify-docs.yaml",
       "source_repo": "aquasecurity/trivy-checks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bored-engineer/github-conditional-http-transport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "grafana/pyroscope"
     }
   ]
 }

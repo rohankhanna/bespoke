@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:45:29.478720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 111
+    },
+    {
+      "path": "go.mod",
+      "size": 453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "API definition for the Dubbo control-plane.",
+    "fork": false,
+    "full_name": "kdubbo/api",
+    "html_url": "https://github.com/kdubbo/api",
+    "language": "Go",
+    "pushed_at": "2026-03-22T19:21:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-22T20:11:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

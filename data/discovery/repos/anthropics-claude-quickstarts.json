@@ -78,27 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-quickstarts",
-      "target": "anthropics/claude-cookbooks",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-quickstarts",
-      "target": "anthropics/courses",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-quickstarts",
-      "target": "computer_use_20251124",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "anthropics/claude-quickstarts",
@@ -190,7 +169,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:22:44.279810+00:00",
+  "fetched_at": "2026-04-23T21:48:49.786253+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,7 +192,6 @@
       "size": 1476
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:25.550078+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -224,34 +202,20 @@
     "html_url": "https://github.com/anthropics/claude-quickstarts",
     "language": "Python",
     "pushed_at": "2026-02-05T20:47:09Z",
-    "stargazers_count": 16165,
+    "stargazers_count": 16263,
     "topics": [],
-    "updated_at": "2026-04-19T13:12:09Z"
+    "updated_at": "2026-04-23T21:20:14Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "anthropics/claude-cookbooks",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "anthropics/courses",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "computer_use_20251124"
-    },
-    {
+      "context_snippet": "build",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build.yaml",
       "term": "build"
     },
     {
+      "context_snippet": "tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/tests.yaml",
       "term": "tests"

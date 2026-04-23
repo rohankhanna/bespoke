@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "openset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gary23ai/ARPL",
+      "status": "candidate-context",
+      "text": "[TPAMI 2022] Adversarial Reciprocal Points Learning for Open Set Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gary23ai/ARPL",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gary23ai/ARPL",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openset",
+  "concept_id": "openset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openset",
+      "sense_id": "openset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "unsplash/comment-on-pr@a9bf050e744c8282dee4bb0dbcf063186d8316c4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_commit.yml",
+      "source_repo": "aseprite/laf"
+    }
+  ]
+}

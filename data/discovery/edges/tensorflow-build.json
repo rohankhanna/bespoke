@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/build",
+      "target": "tensorflow/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/build",
+      "target": "uvarc/rivanna-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build",
+      "target": "Dashboard Generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build",
+      "target": "ossf/scorecard-action@15c10fcf1cf912bd22260bfec67569a359ab87da",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build",
+      "target": "actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build",
+      "target": "github/codeql-action/upload-sarif@896079047b4bb059ba6f150a5d87d47dde99e6e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "tensorflow/build"
+}

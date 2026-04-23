@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "FlagOpen/FlagEmbedding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "CodeClash-ai/CodeClash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compilation-hints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-documentation-github-pages.yml",
+      "source_repo": "NVIDIA/thrust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/BLST-Verification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "servo/servo.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "servo/servo.org"
     }
   ]
 }

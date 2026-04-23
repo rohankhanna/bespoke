@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Mono Samples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Mono Samples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18328,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "copy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "digraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "printing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Mono Samples",
+      "sense_id": "publish-mono-samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-mono-samples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-mono-samples",
+  "observation_id": "a61722818d27affb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Publish Mono Samples",
+  "source_context_snippet": "Publish Mono Samples",
+  "source_file": ".github/workflows/publish-mono-samples.yml",
+  "source_repo": "dotnet/samples",
+  "source_repo_description": "Sample code referenced by the .NET documentation"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tools tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tools tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11453,
+      "status": "candidate",
+      "text": "diagnostics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "archaeology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "communications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "design"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tools tests",
+      "sense_id": "tools-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tools-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tools-tests",
+  "observation_id": "65a36914f5749063",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Tools tests",
+  "source_context_snippet": "Tools tests",
+  "source_file": ".github/workflows/tools-tests.yaml",
+  "source_repo": "dotnet/csharpstandard",
+  "source_repo_description": "Working space for ECMA-TC49-TG2, the C# standard committee."
+}

@@ -31,6 +31,18 @@
       "source_repo": "faressoft/terminalizer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "faressoft/terminalizer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "date-fns",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "rollup/rollup-starter-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "zeit/serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "date-fns",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rollup/rollup-starter-app",
+      "target": "serve",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:26:05.054149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1217
+    },
+    {
+      "path": "package.json",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bare-bones example of how to create an application using Rollup",
+    "fork": false,
+    "full_name": "rollup/rollup-starter-app",
+    "html_url": "https://github.com/rollup/rollup-starter-app",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-26T08:57:30Z",
+    "stargazers_count": 446,
+    "topics": [],
+    "updated_at": "2026-03-06T02:41:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rollup/rollup-starter-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeit/serve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "foundationagents/openmanus.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "geekan/metagpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "anthropics/anthropic-quickstarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "Environment Corruption Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "PR Diff Summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "Pre-commit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/top-issues.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "rickstaa/top-issues-action@7e8dda5d5ae3087670f9094b9724a9a091fc3ba1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/top-issues.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "target": "Top issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "mannaandpoem/OpenManus_Archive"
+}

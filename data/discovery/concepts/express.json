@@ -31,6 +31,66 @@
       "source_repo": "expressjs/express",
       "status": "candidate-context",
       "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "expressjs/express",
       "status": "candidate",
       "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-sse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

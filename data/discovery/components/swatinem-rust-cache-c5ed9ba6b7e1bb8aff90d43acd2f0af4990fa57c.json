@@ -1,0 +1,17 @@
+{
+  "component": "Swatinem/rust-cache@c5ed9ba6b7e1bb8aff90d43acd2f0af4990fa57c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "diem/diem-devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "diem/diem"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "RUC-NLPIR/FlashRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
     }
   ],
   "term": "datasets"

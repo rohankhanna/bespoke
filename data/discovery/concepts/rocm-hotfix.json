@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rocm hotfix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "Compute Node of Dria Knowledge Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "rocm hotfix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate",
+      "text": "rocm hotfix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "check-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "coldfix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "markup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "overhaul"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rocm hotfix",
+  "concept_id": "rocm-hotfix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rocm hotfix",
+      "sense_id": "rocm-hotfix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

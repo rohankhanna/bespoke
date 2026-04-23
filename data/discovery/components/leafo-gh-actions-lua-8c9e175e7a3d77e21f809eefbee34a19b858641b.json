@@ -1,0 +1,12 @@
+{
+  "component": "leafo/gh-actions-lua@8c9e175e7a3d77e21f809eefbee34a19b858641b",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    }
+  ]
+}

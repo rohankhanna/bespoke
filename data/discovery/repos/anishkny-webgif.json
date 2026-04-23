@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "gifencoder",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "png-file-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tempdir",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "showdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anishkny/webgif",
+      "target": "googlechrome/puppeteer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anishkny/webgif",
+      "target": "eugeneware/gifencoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anishkny/webgif",
+      "target": "eugeneware/png-file-stream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "gifencoder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "png-file-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "tempdir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anishkny/webgif",
+      "target": "showdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anishkny/webgif",
+      "target": "animated-gifs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anishkny/webgif",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anishkny/webgif",
+      "target": "puppeteer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:33.714958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2641
+    },
+    {
+      "path": "package.json",
+      "size": 1039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily generate animated GIFs from websites",
+    "fork": false,
+    "full_name": "anishkny/webgif",
+    "html_url": "https://github.com/anishkny/webgif",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-28T00:15:38Z",
+    "stargazers_count": 107,
+    "topics": [
+      "animated-gifs",
+      "automation",
+      "gif",
+      "puppeteer"
+    ],
+    "updated_at": "2026-02-03T19:50:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eugeneware/gifencoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eugeneware/png-file-stream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechrome/puppeteer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"logo\" src=\"https://rawgit.com/anishkny/webgif/master/logo.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animated-gifs"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"logo\" src=\"https://rawgit.com/anishkny/webgif/master/logo.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"logo\" src=\"https://rawgit.com/anishkny/webgif/master/logo.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer"
+    }
+  ]
+}

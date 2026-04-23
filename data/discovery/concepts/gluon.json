@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "gluon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate-context",
+      "text": "Language server providing completion for gluon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate-context",
+      "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate-context",
+      "text": "The gluon-lang.org website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "status": "candidate",
+      "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon-lang.org",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gluon-lang/gluon-lang.org.svg?branch=master)](https://travis-ci.org/gluon-lang/gluon-lang.org) [![Gitter](https://badges.gitter.im/gluon-lang/gluon.svg)](https://gitter.im/gluon-lang/gluon?utm_source=badge&utm_medium=badge&utm_campaign=pr-b\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028323,
+      "status": "candidate",
+      "text": "quark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028409,
+      "status": "candidate",
+      "text": "gluonics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028408,
+      "status": "candidate",
+      "text": "hypergluon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028407,
+      "status": "candidate",
+      "text": "sgluon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028406,
+      "status": "candidate",
+      "text": "gluonium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gluon",
+  "concept_id": "gluon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon_language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gluon",
+      "sense_id": "gluon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

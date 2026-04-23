@@ -1,0 +1,40 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-mucomplete",
+      "target": "autocompletion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:19.181140+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Chained completion that works the way you want!",
+    "fork": false,
+    "full_name": "lifepillar/vim-mucomplete",
+    "html_url": "https://github.com/lifepillar/vim-mucomplete",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-11T15:47:58Z",
+    "stargazers_count": 948,
+    "topics": [
+      "autocompletion",
+      "vim"
+    ],
+    "updated_at": "2026-04-05T21:00:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Chained completion that works the way you want!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocompletion"
+    }
+  ]
+}

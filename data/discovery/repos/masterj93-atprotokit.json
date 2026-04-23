@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml"
+    },
+    {
+      "component": "swift-actions/setup-swift@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml"
+    },
+    {
+      "component": "SwiftyLab/setup-swift@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "bluesky-social/atproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "softprops/action-gh-release@v2.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docc.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Update Documentation on Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift-actions/setup-swift@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Build Swift Package on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "SwiftyLab/setup-swift@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "Build Swift Package on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "atproto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "atprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "bluesky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "decentralized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "lexicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "social-media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterJ93/ATProtoKit",
+      "target": "xrpc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:54:41.161661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8861
+    },
+    {
+      "path": ".github/workflows/docc.yml",
+      "size": 1211
+    },
+    {
+      "path": ".github/workflows/swift_macos.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/swift_windows.yml",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A straightforward solution for using the AT Protocol and Bluesky, written in Swift.",
+    "fork": false,
+    "full_name": "MasterJ93/ATProtoKit",
+    "html_url": "https://github.com/MasterJ93/ATProtoKit",
+    "language": "Swift",
+    "pushed_at": "2026-04-22T06:09:33Z",
+    "stargazers_count": 216,
+    "topics": [
+      "api",
+      "atproto",
+      "atprotocol",
+      "bluesky",
+      "decentralized",
+      "lexicon",
+      "social-media",
+      "swift",
+      "swift-package-manager",
+      "xrpc"
+    ],
+    "updated_at": "2026-04-22T06:09:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluesky-social/atproto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Documentation on Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docc.yml",
+      "term": "Update Documentation on Release"
+    },
+    {
+      "context_snippet": "Build Swift Package on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_macos.yml",
+      "term": "Build Swift Package on macOS"
+    },
+    {
+      "context_snippet": "Build Swift Package on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift_windows.yml",
+      "term": "Build Swift Package on Windows"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atproto"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atprotocol"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bluesky"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralized"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lexicon"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social-media"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xrpc"
+    }
+  ]
+}

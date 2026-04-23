@@ -1,12 +1,17 @@
 {
   "component": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "TabbyML/pochi"
     }
   ]
 }

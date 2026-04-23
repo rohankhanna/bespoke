@@ -84,7 +84,7 @@
   "normalized_form": "sync-translations",
   "observation_id": "d9589298941d9209",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Sync translations",
   "source_context_snippet": "Sync translations",
   "source_file": ".github/workflows/sync-translations.yml",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Framework for building Themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038877,
+      "status": "candidate",
+      "text": "rule of thumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976374,
+      "status": "candidate",
+      "text": "guidepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "advice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "advisories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "approaches"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guidelines",
+      "sense_id": "guidelines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "guidelines",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "guidelines",
+  "observation_id": "1a8fc00486a739f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "guidelines",
+  "source_context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+  "source_file": null,
+  "source_repo": "chriskempson/base16",
+  "source_repo_description": "A Framework for building Themes"
+}

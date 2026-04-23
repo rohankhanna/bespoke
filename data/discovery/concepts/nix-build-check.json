@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nix build check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "\"nix build check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "\"nix build check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24603,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24547,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22546,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22532,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22531,
+      "status": "candidate",
+      "text": "withhold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nix build check",
+  "concept_id": "nix-build-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nix-check.yml",
+      "source_repo": "cjpais/Handy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nix build check",
+      "sense_id": "nix-build-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,30 @@
       "source_repo": "alteryx/open_source_demos",
       "status": "candidate-context",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": ":droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "alteryx/open_source_demos",
       "status": "candidate",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "alteryx/open_source_demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

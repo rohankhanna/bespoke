@@ -187,6 +187,66 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate-context",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "Source Han Serif | \u601d\u6e90\u5b8b\u4f53 | \u601d\u6e90\u5b8b\u9ad4 | \u601d\u6e90\u5b8b\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u660e\u671d | \ubcf8\uba85\uc870"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate-context",
+      "text": "The iconic SVG, font, and CSS toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate-context",
+      "text": "OTFeatureFreezer GUI app and pyftfeatfreeze commandline tool in Python to permanently \"apply\" OpenType features to fonts, by remapping their Unicode assignments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate-context",
+      "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +339,36 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FortAwesome/Font-Awesome",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer",
+      "status": "candidate",
+      "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +538,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JetBrains/JetBrainsMono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FortAwesome/Font-Awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "twardoch/fonttools-opentype-feature-freezer"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

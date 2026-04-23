@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check compatibility"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "Check compatibility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate",
+      "text": "Check compatibility"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13195,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12908,
+      "status": "candidate",
+      "text": "whether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "accord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12315,
+      "status": "candidate",
+      "text": "agree"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check compatibility",
+  "concept_id": "check-compatibility",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check_compatibility.yml",
+      "source_repo": "aws/serverless-application-model"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check compatibility",
+      "sense_id": "check-compatibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

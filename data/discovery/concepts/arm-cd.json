@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ARM CD"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "ARM CD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "ARM CD"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "disarmament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "used"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10842,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10766,
+      "status": "candidate",
+      "text": "cert"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ARM CD",
+  "concept_id": "arm-cd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/arm-cd.yml",
+      "source_repo": "tensorflow/tensorflow"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM CD",
+      "sense_id": "arm-cd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

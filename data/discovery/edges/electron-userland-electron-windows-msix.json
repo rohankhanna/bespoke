@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "bitdisaster/electron-windows-msix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "electron/windows-sign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "bitdisaster/electron-windows-msix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "@electron/windows-sign",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "@malept/cross-spawn-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "xml-escape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "@vitest/coverage-istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "electron-userland/electron-windows-msix"
+}

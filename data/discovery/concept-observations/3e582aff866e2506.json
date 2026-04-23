@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close issues on release cut"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close issues on release cut"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44556,
+      "status": "candidate",
+      "text": "crop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34761,
+      "status": "candidate",
+      "text": "shave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34361,
+      "status": "candidate",
+      "text": "chisel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33660,
+      "status": "candidate",
+      "text": "divorce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33606,
+      "status": "candidate",
+      "text": "chiselled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close issues on release cut",
+      "sense_id": "close-issues-on-release-cut#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-issues-on-release-cut",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-issues-on-release-cut",
+  "observation_id": "3e582aff866e2506",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Close issues on release cut",
+  "source_context_snippet": "Close issues on release cut",
+  "source_file": ".github/workflows/close-issue-on-release.yml",
+  "source_repo": "aws/aws-sam-cli",
+  "source_repo_description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Auditing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Auditing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13208,
+      "status": "candidate",
+      "text": "loss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12666,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12666,
+      "status": "candidate",
+      "text": "accounting firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12666,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12666,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Auditing",
+      "sense_id": "release-auditing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-auditing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-auditing",
+  "observation_id": "72cf222e9ac327ca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release Auditing",
+  "source_context_snippet": "Release Auditing",
+  "source_file": ".github/workflows/release-audit.yml",
+  "source_repo": "apache/cordova-ios",
+  "source_repo_description": "Apache Cordova iOS"
+}

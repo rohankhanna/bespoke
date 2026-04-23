@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "hmarr/auto-approve-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/github-script@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "hmarr/auto-approve-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/github-script@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "cycjimmy/semantic-release-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "n-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "node-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "nvm-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "shim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:11.572874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2654
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 671
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 808
+    },
+    {
+      "path": ".github/workflows/pythonapp.yml",
+      "size": 1541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf44 Automagically use the correct version of node with nvm",
+    "fork": false,
+    "full_name": "iamogbz/nvshim",
+    "html_url": "https://github.com/iamogbz/nvshim",
+    "language": "Python",
+    "pushed_at": "2023-08-31T00:33:22Z",
+    "stargazers_count": 25,
+    "topics": [
+      "n",
+      "n-shim",
+      "node",
+      "node-shim",
+      "nvm",
+      "nvm-shim",
+      "shell",
+      "shim"
+    ],
+    "updated_at": "2026-02-24T11:51:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependabot"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "n-shim"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-shim"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvm-shim"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shim"
+    }
+  ]
+}

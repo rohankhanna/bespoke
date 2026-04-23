@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language Server Protocol implementation for Typescript via tsserver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tsserver",
+      "sense_id": "tsserver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tsserver",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tsserver",
+  "observation_id": "c82fff33ed63266e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "tsserver",
+  "source_context_snippet": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd",
+  "source_file": null,
+  "source_repo": "prabirshrestha/typescript-language-server",
+  "source_repo_description": "Language Server Protocol implementation for Typescript via tsserver"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "bike"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/bike-kem",
+      "status": "candidate-context",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/bike-kem",
+      "status": "candidate-context",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/bike-kem",
+      "status": "candidate",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042649,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042621,
+      "status": "candidate",
+      "text": "motorcycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042549,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040717,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033343,
+      "status": "candidate",
+      "text": "wheel"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11076,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1068,
+      "status": "candidate",
+      "text": "wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "motorcycle"
+    }
+  ],
+  "canonical_name": "bike",
+  "concept_id": "bike",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/bike-kem"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bike",
+      "sense_id": "bike#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

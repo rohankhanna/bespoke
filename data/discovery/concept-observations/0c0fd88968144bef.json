@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ implementation of the Ethereum protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "QA - RPC Performance Tests Light"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "QA - RPC Performance Tests Light"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35933,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32739,
+      "status": "candidate",
+      "text": "guideline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32549,
+      "status": "candidate",
+      "text": "agitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31768,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31092,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QA - RPC Performance Tests Light",
+      "sense_id": "qa---rpc-performance-tests-light#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qa---rpc-performance-tests-light",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qa---rpc-performance-tests-light",
+  "observation_id": "0c0fd88968144bef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "QA - RPC Performance Tests Light",
+  "source_context_snippet": "QA - RPC Performance Tests Light",
+  "source_file": ".github/workflows/rpc-performance-tests-light.yml",
+  "source_repo": "erigontech/silkworm",
+  "source_repo_description": "C++ implementation of the Ethereum protocol"
+}

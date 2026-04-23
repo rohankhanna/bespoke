@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Browser-Testing Dependencies (Selenium & Playwright)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "dollar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "krone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Browser-Testing Dependencies (Selenium & Playwright)",
+  "concept_id": "update-browser-testing-dependencies-selenium-playwright",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+      "source_repo": "dotnet/aspnetcore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Browser-Testing Dependencies (Selenium & Playwright)",
+      "sense_id": "update-browser-testing-dependencies-selenium-playwright#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

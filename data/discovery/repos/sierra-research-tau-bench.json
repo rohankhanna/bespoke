@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sierra-research/tau-bench",
+      "target": "sierra-research/tau2-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:47.167634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and Data for Tau-Bench",
+    "fork": false,
+    "full_name": "sierra-research/tau-bench",
+    "html_url": "https://github.com/sierra-research/tau-bench",
+    "language": "Python",
+    "pushed_at": "2026-03-18T17:36:06Z",
+    "stargazers_count": 1187,
+    "topics": [],
+    "updated_at": "2026-04-23T17:18:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sierra-research/tau2-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

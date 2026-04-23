@@ -1,0 +1,863 @@
+{
+  "components": [
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-docker-tag.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "test-summary/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/build-container@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/actions/build-container@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "docker://eelaclabs/forkdiff:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/op-geth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "ethereum/rpc-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/celo-monorepo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-docker-tag.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-docker-tag.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "Add Tags to Blockchain Release Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "test-summary/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blockchain.yml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/reusable-workflows/.github/actions/auth-gcp-artifact-registry@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/reusable-workflows/.github/actions/build-container@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "Build and Sign Blockchain Commit Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sign-release-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-sign-release-images.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "Build and Sign Blockchain Release Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "Build mycelo image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "docker://eelaclabs/forkdiff:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "Build and publish forkdiff github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "celo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-blockchain",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:55:57.572930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16025
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1860
+    },
+    {
+      "path": "go.mod",
+      "size": 5586
+    },
+    {
+      "path": ".github/workflows/add-docker-tag.yaml",
+      "size": 1579
+    },
+    {
+      "path": ".github/workflows/blockchain.yml",
+      "size": 24222
+    },
+    {
+      "path": ".github/workflows/build-sign-commit-images.yaml",
+      "size": 2834
+    },
+    {
+      "path": ".github/workflows/build-sign-release-images.yaml",
+      "size": 9006
+    },
+    {
+      "path": ".github/workflows/mycelo-docker-image.yaml",
+      "size": 1721
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "size": 4571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Previous official repository for the golang Celo Blockchain, for current see op-geth",
+    "fork": false,
+    "full_name": "celo-org/celo-blockchain",
+    "html_url": "https://github.com/celo-org/celo-blockchain",
+    "language": "Go",
+    "pushed_at": "2026-04-17T17:06:08Z",
+    "stargazers_count": 619,
+    "topics": [
+      "blockchain",
+      "celo",
+      "hacktoberfest",
+      "web3"
+    ],
+    "updated_at": "2026-04-23T17:56:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/celo-monorepo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/op-geth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/rpc-tests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add Tags to Blockchain Release Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-docker-tag.yaml",
+      "term": "Add Tags to Blockchain Release Images"
+    },
+    {
+      "context_snippet": "Build and Sign Blockchain Commit Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-sign-commit-images.yaml",
+      "term": "Build and Sign Blockchain Commit Images"
+    },
+    {
+      "context_snippet": "Build and Sign Blockchain Release Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-sign-release-images.yaml",
+      "term": "Build and Sign Blockchain Release Images"
+    },
+    {
+      "context_snippet": "Build mycelo image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "term": "Build mycelo image"
+    },
+    {
+      "context_snippet": "Build and publish forkdiff github-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "term": "Build and publish forkdiff github-pages"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celo"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

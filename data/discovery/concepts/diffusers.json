@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "diffusers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025001,
+      "status": "candidate",
+      "text": "diffusor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "broadcasters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "distributors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "exhibitors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "nozzles"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "diffusers",
+  "concept_id": "diffusers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusers",
+      "sense_id": "diffusers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

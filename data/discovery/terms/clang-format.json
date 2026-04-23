@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clangformat.yml",
+      "source_repo": "simdutf/simdutf"
+    }
+  ],
+  "term": "Clang-Format"
+}

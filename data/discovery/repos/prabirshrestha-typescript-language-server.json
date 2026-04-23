@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pino",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tempy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/commander",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/pino",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "theia-ide/typescript-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "pino",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "tempy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "vscode-languageserver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "@types/commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "@types/pino",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "target": "tsserver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:54.652326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1538
+    },
+    {
+      "path": "package.json",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Language Server Protocol implementation for Typescript via tsserver",
+    "fork": false,
+    "full_name": "prabirshrestha/typescript-language-server",
+    "html_url": "https://github.com/prabirshrestha/typescript-language-server",
+    "language": "TypeScript",
+    "pushed_at": "2023-12-15T05:36:51Z",
+    "stargazers_count": 29,
+    "topics": [
+      "language-server",
+      "language-server-protocol",
+      "tsserver",
+      "typescript"
+    ],
+    "updated_at": "2026-03-19T23:26:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theia-ide/typescript-language-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsserver"
+    }
+  ]
+}

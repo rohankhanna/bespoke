@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tutorial tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "Tutorial tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate",
+      "text": "Tutorial tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13064,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13064,
+      "status": "candidate",
+      "text": "lesson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13064,
+      "status": "candidate",
+      "text": "tutor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12628,
+      "status": "candidate",
+      "text": "tut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12254,
+      "status": "candidate",
+      "text": "finals"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tutorial tests",
+  "concept_id": "tutorial-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-tutorials-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tutorial tests",
+      "sense_id": "tutorial-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

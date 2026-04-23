@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.85.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.85.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.85.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.85.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pksunkara/cargo-workspaces",
+      "target": "clap-rs/clap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pksunkara/cargo-workspaces",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pksunkara/cargo-workspaces",
+      "target": "dtolnay/rust-toolchain@1.85.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pksunkara/cargo-workspaces",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pksunkara/cargo-workspaces",
+      "target": "dtolnay/rust-toolchain@1.85.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:10:58.249704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13134
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2106
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool for managing cargo workspaces and their crates, inspired by lerna",
+    "fork": false,
+    "full_name": "pksunkara/cargo-workspaces",
+    "html_url": "https://github.com/pksunkara/cargo-workspaces",
+    "language": "Rust",
+    "pushed_at": "2026-01-17T03:59:45Z",
+    "stargazers_count": 584,
+    "topics": [],
+    "updated_at": "2026-04-18T10:00:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clap-rs/clap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

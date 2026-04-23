@@ -73,6 +73,24 @@
       "source_repo": "actions/upload-artifact",
       "status": "candidate-context",
       "text": "Licensed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Action for checking out a repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate-context",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate-context",
+      "text": "Licensed"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +127,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/upload-artifact",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/checkout",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
       "status": "candidate",
       "text": "Licensed"
     }
@@ -225,11 +255,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "actions/upload-artifact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/checkout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/download-artifact"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

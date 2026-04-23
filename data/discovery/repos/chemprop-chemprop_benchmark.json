@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:43:36.096754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Chemprop benchmarking scripts and data for v1",
+    "fork": false,
+    "full_name": "chemprop/chemprop_benchmark",
+    "html_url": "https://github.com/chemprop/chemprop_benchmark",
+    "language": "Shell",
+    "pushed_at": "2024-06-04T13:47:43Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-13T18:14:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

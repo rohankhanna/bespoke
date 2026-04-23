@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/examples",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/examples",
+      "target": "tensorflow-examples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:27.503245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorFlow examples",
+    "fork": false,
+    "full_name": "tensorflow/examples",
+    "html_url": "https://github.com/tensorflow/examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-22T13:55:19Z",
+    "stargazers_count": 8264,
+    "topics": [
+      "tensorflow",
+      "tensorflow-examples"
+    ],
+    "updated_at": "2026-04-22T13:55:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-examples"
+    }
+  ]
+}

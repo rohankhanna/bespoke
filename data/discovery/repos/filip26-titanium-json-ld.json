@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "filip26/tree-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "nuxy/no-ai-badge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "filip26/titanium-rdfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "filip26/titanium-rdf-n-quads",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "codacy/codacy-coverage-reporter-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "Codacy Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "Java 21 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "Publish to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "SonarCloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "json-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "json-ld-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "jsonld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "linked-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld",
+      "target": "structured-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:41.812071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10873
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2431
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 763
+    },
+    {
+      "path": ".github/workflows/java17-build.yml",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/maven-central-publish.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/sonarcloud.yml",
+      "size": 1101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API",
+    "fork": false,
+    "full_name": "filip26/titanium-json-ld",
+    "html_url": "https://github.com/filip26/titanium-json-ld",
+    "language": "Java",
+    "pushed_at": "2026-03-24T18:40:56Z",
+    "stargazers_count": 157,
+    "topics": [
+      "java",
+      "json",
+      "json-ld",
+      "json-ld-11",
+      "jsonld",
+      "linked-data",
+      "rdf",
+      "semantic-web",
+      "structured-data"
+    ],
+    "updated_at": "2026-03-24T18:41:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/titanium-rdf-n-quads",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/titanium-rdfc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/tree-io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuxy/no-ai-badge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codacy Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Codacy Coverage"
+    },
+    {
+      "context_snippet": "Java 21 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17-build.yml",
+      "term": "Java 21 CI"
+    },
+    {
+      "context_snippet": "Publish to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "term": "Publish to the Maven Central"
+    },
+    {
+      "context_snippet": "SonarCloud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "term": "SonarCloud"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-ld"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-ld-11"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonld"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-data"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-web"
+    },
+    {
+      "context_snippet": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-data"
+    }
+  ]
+}

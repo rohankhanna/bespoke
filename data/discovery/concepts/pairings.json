@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "pairings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "Libraries for finite field, elliptic curve, and polynomial arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">arkworks::algebra</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "A Rust library for polynomial commitments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Polynomial Commitments</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/algebra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">arkworks::algebra</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Polynomial Commitments</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031381,
+      "status": "candidate",
+      "text": "coupling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031007,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030251,
+      "status": "candidate",
+      "text": "union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028664,
+      "status": "candidate",
+      "text": "mating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948087,
+      "status": "candidate",
+      "text": "sexual union"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pairings",
+  "concept_id": "pairings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pairings",
+      "sense_id": "pairings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

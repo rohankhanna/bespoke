@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Documentation Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Python packaging and dependency management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Documentation Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "Documentation Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11537,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10679,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "overview"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation Preview",
+  "concept_id": "documentation-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "python-poetry/poetry"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Preview",
+      "sense_id": "documentation-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

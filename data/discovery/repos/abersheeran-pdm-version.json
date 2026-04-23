@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "abersheeran/pdm-version",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "abersheeran/pdm-version",
+      "target": "pdm-project/setup-pdm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "abersheeran/pdm-version",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:58.162936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/pypi.yaml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make `pdm version` like `poetry version`",
+    "fork": false,
+    "full_name": "abersheeran/pdm-version",
+    "html_url": "https://github.com/abersheeran/pdm-version",
+    "language": "Python",
+    "pushed_at": "2025-11-27T09:05:54Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-27T08:55:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

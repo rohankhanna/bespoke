@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SAP-archive/project-odense",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP-archive/project-odense",
+      "target": "abap-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP-archive/project-odense",
+      "target": "abapgit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP-archive/project-odense",
+      "target": "sap-namespace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:16.038462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "RESTful endpoints to enable the usage of abapGit for ABAP Development Tools",
+    "fork": false,
+    "full_name": "SAP-archive/project-odense",
+    "html_url": "https://github.com/SAP-archive/project-odense",
+    "language": "ABAP",
+    "pushed_at": "2024-01-03T13:38:36Z",
+    "stargazers_count": 22,
+    "topics": [
+      "abap-development",
+      "abapgit",
+      "sap-namespace"
+    ],
+    "updated_at": "2024-04-12T18:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap-development"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sap-namespace"
+    }
+  ]
+}

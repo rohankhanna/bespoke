@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "xcodesorg/xcodesapp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "saagarjha/unxip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "xcodesorg/homebrew-made",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "xcpretty/xcode-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/xcodes",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:22.702912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8789
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 221
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The best command-line tool to install and switch between multiple versions of Xcode.",
+    "fork": false,
+    "full_name": "XcodesOrg/xcodes",
+    "html_url": "https://github.com/XcodesOrg/xcodes",
+    "language": "Swift",
+    "pushed_at": "2025-09-26T23:22:33Z",
+    "stargazers_count": 4635,
+    "topics": [
+      "hacktoberfest",
+      "macos",
+      "swift",
+      "xcode"
+    ],
+    "updated_at": "2026-04-23T08:56:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saagarjha/unxip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcodesorg/homebrew-made",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcodesorg/xcodesapp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcpretty/xcode-install",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "The best command-line tool to install and switch between multiple versions of Xcode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "The best command-line tool to install and switch between multiple versions of Xcode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "The best command-line tool to install and switch between multiple versions of Xcode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "The best command-line tool to install and switch between multiple versions of Xcode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

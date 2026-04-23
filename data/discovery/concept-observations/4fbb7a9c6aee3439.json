@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete Stale Vercel Preview Deployments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete Stale Vercel Preview Deployments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21626,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21469,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21469,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21414,
+      "status": "candidate",
+      "text": "aversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21414,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Stale Vercel Preview Deployments",
+      "sense_id": "delete-stale-vercel-preview-deployments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-stale-vercel-preview-deployments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-stale-vercel-preview-deployments",
+  "observation_id": "4fbb7a9c6aee3439",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Delete Stale Vercel Preview Deployments",
+  "source_context_snippet": "Delete Stale Vercel Preview Deployments",
+  "source_file": ".github/workflows/cleanup-preview-deployments.yml",
+  "source_repo": "getsentry/sentry-docs",
+  "source_repo_description": "Sentry's documentation (and tools to build it)"
+}

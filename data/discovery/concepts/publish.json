@@ -742,6 +742,150 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": ":ship:  semantic-release plugin to publish a npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "A TypeScript ESLint config that loves you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "An extremely fast bundler for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "Azure Data Exporter for BloodHound"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate-context",
+      "text": "C# Data Collector for BloodHound"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "JSON Schema format validation for Ajv v8+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for Ajv JSON schema validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "Additional JSON-Schema keywords for Ajv JSON validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate-context",
+      "text": "Documentation generator for Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate-context",
+      "text": "publish"
     }
   ],
   "candidate_glosses": [
@@ -1104,6 +1248,78 @@
       "source_repo": "react-native-webview/react-native-webview",
       "status": "candidate",
       "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denoland/deno_doc",
+      "status": "candidate",
+      "text": "publish"
     }
   ],
   "candidate_related_terms": [
@@ -1633,11 +1849,101 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-rust.yaml",
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-formats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "denoland/deno_doc"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

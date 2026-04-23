@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Duplicate Closer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Official repository for the Microsoft C/C++ extension for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Duplicate Closer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate",
+      "text": "Duplicate Closer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11619,
+      "status": "candidate",
+      "text": "mate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "alike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "carbon copy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "clone"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Duplicate Closer",
+  "concept_id": "duplicate-closer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/duplicate-closer.yml",
+      "source_repo": "microsoft/vscode-cpptools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Duplicate Closer",
+      "sense_id": "duplicate-closer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

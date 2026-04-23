@@ -55,6 +55,42 @@
       "source_repo": "JuliaLang/julia",
       "status": "candidate-context",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "Julia support in Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate-context",
+      "text": "Julia syntax highlighting for Sublime Text "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate-context",
+      "text": "Julia language support for Sublime Text 4 or above"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate-context",
+      "text": "Vim support for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "JuliaLang/julia",
       "status": "candidate",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "status": "candidate",
+      "text": "Julia language support for Sublime Text 4 or above"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "JuliaLang/julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

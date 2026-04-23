@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "DataDog/go-cmp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openai/gym"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extended.yml",
+      "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/go-cmp"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "scale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975275,
+      "status": "candidate",
+      "text": "weighing machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965271,
+      "status": "candidate",
+      "text": "descale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948594,
+      "status": "candidate",
+      "text": "plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903906,
+      "status": "candidate",
+      "text": "surmount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801849,
+      "status": "candidate",
+      "text": "scale leaf"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "surmount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7067,
+      "status": "candidate",
+      "text": "plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "scurf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "weighing machine"
+    }
+  ],
+  "canonical_name": "scale",
+  "concept_id": "scale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/serving"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scale",
+      "sense_id": "scale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

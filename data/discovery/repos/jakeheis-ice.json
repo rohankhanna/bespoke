@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "fwal/setup-swift@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/Ice",
+      "target": "apple/swift-package-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/Ice",
+      "target": "yonaskolb/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/Ice",
+      "target": "jakeheis/iceregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/Ice",
+      "target": "alamofire/alamofire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/Ice",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/Ice",
+      "target": "fwal/setup-swift@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/Ice",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/Ice",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/Ice",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:43:46.476738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5698
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2744\ufe0f A developer friendly package manager for Swift; 100% compatible with Swift Package Manager",
+    "fork": false,
+    "full_name": "jakeheis/Ice",
+    "html_url": "https://github.com/jakeheis/Ice",
+    "language": "Swift",
+    "pushed_at": "2021-05-31T04:25:00Z",
+    "stargazers_count": 387,
+    "topics": [
+      "package-manager",
+      "swift-package-manager"
+    ],
+    "updated_at": "2026-03-14T16:49:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alamofire/alamofire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-package-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakeheis/iceregistry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yonaskolb/mint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/jakeheis/Ice/workflows/Test/badge.svg)](https://github.com/jakeheis/Ice/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    }
+  ]
+}

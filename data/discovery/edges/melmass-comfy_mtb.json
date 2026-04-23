@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_wheels.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Building wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83d\udce6 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb",
+      "target": "\ud83e\uddea Test Comfy Portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "faceswap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "melMass/comfy_mtb"
+}

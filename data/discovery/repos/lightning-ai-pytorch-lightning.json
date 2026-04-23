@@ -86,13 +86,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/pytorch-lightning",
-      "target": "lightning-ai/litserve",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Lightning-AI/pytorch-lightning",
       "target": "lightning-ai/lightning",
       "target_type": "repository"
     },
@@ -258,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:28:22.803669+00:00",
+  "fetched_at": "2026-04-23T21:42:19.289833+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,8 +303,8 @@
     "full_name": "Lightning-AI/pytorch-lightning",
     "html_url": "https://github.com/Lightning-AI/pytorch-lightning",
     "language": "Python",
-    "pushed_at": "2026-04-21T09:35:34Z",
-    "stargazers_count": 31073,
+    "pushed_at": "2026-04-23T11:44:35Z",
+    "stargazers_count": 31074,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -321,17 +314,12 @@
       "python",
       "pytorch"
     ],
-    "updated_at": "2026-04-22T17:04:00Z"
+    "updated_at": "2026-04-23T09:35:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "lightning-ai/lightning",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lightning-ai/litserve",
       "source_file": "README.md"
     }
   ],

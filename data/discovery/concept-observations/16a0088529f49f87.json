@@ -1,0 +1,94 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792891,
+      "status": "candidate",
+      "text": "atomic number 10"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792890,
+      "status": "candidate",
+      "text": "helium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29463688,
+      "status": "candidate",
+      "text": "conflict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19792929,
+      "status": "candidate",
+      "text": "glowing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neon",
+      "sense_id": "neon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "atomic number 10"
+    }
+  ],
+  "concept_id": "neon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neon",
+  "observation_id": "16a0088529f49f87",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "neon",
+  "source_context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)",
+  "source_file": null,
+  "source_repo": "ada-url/ada",
+  "source_repo_description": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+}

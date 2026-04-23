@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "shogo82148/actions-upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "shogo82148/actions-upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/ormolu",
+      "target": "vyorkin/ormolu.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/ormolu",
+      "target": "sbdchd/neoformat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/ormolu",
+      "target": "haskell-actions/run-ormolu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/ormolu",
+      "target": "sdiehl/vim-ormolu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "shogo82148/actions-upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "Build binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "nwtgck/actions-netlify@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tweag/ormolu",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tweag/ormolu",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tweag/ormolu",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:52.897190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12632
+    },
+    {
+      "path": ".github/workflows/binaries.yml",
+      "size": 3335
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A formatter for Haskell source code",
+    "fork": false,
+    "full_name": "tweag/ormolu",
+    "html_url": "https://github.com/tweag/ormolu",
+    "language": "Haskell",
+    "pushed_at": "2026-04-23T11:30:34Z",
+    "stargazers_count": 1057,
+    "topics": [
+      "formatter",
+      "haskell"
+    ],
+    "updated_at": "2026-04-07T16:27:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell-actions/run-ormolu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbdchd/neoformat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdiehl/vim-ormolu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vyorkin/ormolu.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries.yml",
+      "term": "Build binaries"
+    },
+    {
+      "context_snippet": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snap Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "Snap Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "Snap Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11726,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11726,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11726,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "frail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10699,
+      "status": "candidate",
+      "text": "album"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snap Build",
+  "concept_id": "snap-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/snap-build.yml",
+      "source_repo": "filip26/ld-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snap Build",
+      "sense_id": "snap-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

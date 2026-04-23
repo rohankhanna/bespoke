@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "hmarr/auto-approve-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/github-script@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "iamogbz/nvshim",
+      "target": "cycjimmy/semantic-release-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "n-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "node-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "nvm-shim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim",
+      "target": "shim",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "iamogbz/nvshim"
+}

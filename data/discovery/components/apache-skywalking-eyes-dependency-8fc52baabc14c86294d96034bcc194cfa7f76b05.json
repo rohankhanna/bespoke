@@ -1,12 +1,27 @@
 {
   "component": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/license-checker.yaml",
       "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-k8s"
     }
   ]
 }

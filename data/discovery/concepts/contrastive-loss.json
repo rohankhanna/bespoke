@@ -19,6 +19,18 @@
       "source_repo": "mlfoundations/open_clip",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mlfoundations/open_clip",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,633 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@9c00cb4f6b517705a3794b22395aedc36257242c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow-tests-issue.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow-tests-issue.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@4bdcce38c94cec68da58d012ac24b7b1155efe8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@757bedc3f972eb7227a1aa657651f15a8527c817",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "pymc-devs/pymc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "numba/numba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "aesara-devs/aesara",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "pypa/cibuildwheel@9c00cb4f6b517705a3794b22395aedc36257242c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow-tests-issue.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow-tests-issue.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slow-tests-issue.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "Slow Tests Issue Body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "benchmark-action/github-action-benchmark@4bdcce38c94cec68da58d012ac24b7b1155efe8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "hynek/setup-cached-uv@757bedc3f972eb7227a1aa657651f15a8527c817",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pymc-devs/pytensor",
+      "target": "zizmor GHA analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pytensor",
+      "target": "bayesian-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pytensor",
+      "target": "computational-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pytensor",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pymc-devs/pytensor",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:18.389286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4089
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5691
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 948
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 8648
+    },
+    {
+      "path": ".github/workflows/slow-tests-issue.yml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 13262
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 1013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v3",
+    "description": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays.",
+    "fork": false,
+    "full_name": "pymc-devs/pytensor",
+    "html_url": "https://github.com/pymc-devs/pytensor",
+    "language": "Python",
+    "pushed_at": "2026-04-23T17:10:11Z",
+    "stargazers_count": 605,
+    "topics": [
+      "ai",
+      "bayesian-inference",
+      "computational-science",
+      "deep-learning",
+      "statistics"
+    ],
+    "updated_at": "2026-04-23T17:10:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aesara-devs/aesara",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numba/numba",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pymc-devs/pymc",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "PyPI"
+    },
+    {
+      "context_snippet": "Slow Tests Issue Body",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slow-tests-issue.yml",
+      "term": "Slow Tests Issue Body"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "zizmor GHA analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "zizmor GHA analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-inference"
+    },
+    {
+      "context_snippet": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-science"
+    },
+    {
+      "context_snippet": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    }
+  ]
+}

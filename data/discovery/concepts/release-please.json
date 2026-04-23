@@ -280,6 +280,102 @@
       "source_repo": "absolute-version/commit-and-tag-version",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate-context",
+      "text": "Superagent plugin to sign AWS requests and invoke AWS resources protected by IAM roles. It uses the aws4 process to add authentication information to requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istanbuljs/babel-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "A babel plugin that adds istanbul instrumentation to ES6 code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/babel-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": ":trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -418,6 +514,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istanbuljs/babel-plugin-istanbul",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
       "status": "candidate",
       "text": "release-please"
     }
@@ -637,11 +781,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/babel-plugin-istanbul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google/adk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "google/adk-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "istanbuljs/nyc"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

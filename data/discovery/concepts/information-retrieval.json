@@ -91,6 +91,54 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate-context",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate-context",
+      "text": "Retrieval and Retrieval-augmented LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate-context",
+      "text": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "ashvardanian/NumKong",
       "status": "candidate",
       "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/FlagEmbedding",
+      "status": "candidate",
+      "text": "[<img src=\"./imgs/FlagOpen.png\">](https://flagopen.baai.ac.cn/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/FlagEmbedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

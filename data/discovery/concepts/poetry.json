@@ -1,0 +1,163 @@
+{
+  "aliases": [
+    "poetry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Python packaging and dependency management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "status": "candidate-context",
+      "text": "The official Poetry installation script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate-context",
+      "text": "Poetry plugin to bundle projects into various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate-context",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/install.python-poetry.org",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate",
+      "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033051,
+      "status": "candidate",
+      "text": "verse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032850,
+      "status": "candidate",
+      "text": "poesy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033201,
+      "status": "candidate",
+      "text": "poetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033105,
+      "status": "candidate",
+      "text": "poet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033070,
+      "status": "candidate",
+      "text": "poem"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14048,
+      "status": "candidate",
+      "text": "verse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8026,
+      "status": "candidate",
+      "text": "poesy"
+    }
+  ],
+  "canonical_name": "poetry",
+  "concept_id": "poetry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/install.python-poetry.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "python-poetry/poetry-plugin-bundle"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "poetry",
+      "sense_id": "poetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

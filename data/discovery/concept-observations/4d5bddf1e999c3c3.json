@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "How to use our public wav2vec2 dimensional emotion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39621952,
+      "status": "candidate",
+      "text": "valency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29804858,
+      "status": "candidate",
+      "text": "layer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29748807,
+      "status": "candidate",
+      "text": "diaper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29691268,
+      "status": "candidate",
+      "text": "prevalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29475405,
+      "status": "candidate",
+      "text": "valencian"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "valence",
+      "sense_id": "valence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3034,
+      "status": "candidate",
+      "text": "valency"
+    }
+  ],
+  "concept_id": "valence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "valence",
+  "observation_id": "4d5bddf1e999c3c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "valence",
+  "source_context_snippet": "An introduction to our model for",
+  "source_file": null,
+  "source_repo": "audeering/w2v2-how-to",
+  "source_repo_description": "How to use our public wav2vec2 dimensional emotion model"
+}

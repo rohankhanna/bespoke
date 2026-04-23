@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "PR Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "slime is an LLM post-training framework for RL Scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate-context",
+      "text": "PR Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/slime",
+      "status": "candidate",
+      "text": "PR Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12941,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12941,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12941,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12900,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12900,
+      "status": "candidate",
+      "text": "trail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Test",
+  "concept_id": "pr-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "THUDM/slime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-test.yml.j2",
+      "source_repo": "THUDM/slime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Test",
+      "sense_id": "pr-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

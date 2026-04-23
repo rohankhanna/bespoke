@@ -31,6 +31,18 @@
       "source_repo": "casbin-rs/examples",
       "status": "candidate-context",
       "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "casbin-rs/examples",
       "status": "candidate",
       "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "casbin-rs/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

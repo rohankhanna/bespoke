@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootstrap-4",
+      "sense_id": "bootstrap-4#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bootstrap-4",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bootstrap-4",
+  "observation_id": "40c67d9770679481",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bootstrap-4",
+  "source_context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+  "source_file": null,
+  "source_repo": "1hanzla100/developer-portfolio",
+  "source_repo_description": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+}

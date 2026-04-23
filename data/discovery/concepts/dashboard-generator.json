@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dashboard Generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/build",
+      "status": "candidate-context",
+      "text": "Build-related tools for TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/build",
+      "status": "candidate-context",
+      "text": "Dashboard Generator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/build",
+      "status": "candidate",
+      "text": "Dashboard Generator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "fascia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "stereo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10556,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10556,
+      "status": "candidate",
+      "text": "console"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dashboard Generator",
+  "concept_id": "dashboard-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dashboard Generator",
+      "sense_id": "dashboard-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

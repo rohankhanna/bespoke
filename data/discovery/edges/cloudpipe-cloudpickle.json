@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "sigstore/gh-action-sigstore-python@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "cloudpipe/cloudpickle",
+      "target": "Automated Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "cloudpipe/cloudpickle"
+}

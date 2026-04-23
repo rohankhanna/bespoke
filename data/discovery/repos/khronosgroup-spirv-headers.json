@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/SPIRV-Headers",
+      "target": "Presubmit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:40.749047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7735
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 5174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SPIRV-Headers",
+    "fork": false,
+    "full_name": "KhronosGroup/SPIRV-Headers",
+    "html_url": "https://github.com/KhronosGroup/SPIRV-Headers",
+    "language": "C++",
+    "pushed_at": "2026-04-20T17:39:57Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2026-04-23T15:03:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit"
+    }
+  ]
+}

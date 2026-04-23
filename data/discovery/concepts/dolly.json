@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "dolly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate-context",
+      "text": "Databricks\u2019 Dolly, a large language model trained on the Databricks Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate-context",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/dolly",
+      "status": "candidate",
+      "text": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043608,
+      "status": "candidate",
+      "text": "doll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039663,
+      "status": "candidate",
+      "text": "babe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035655,
+      "status": "candidate",
+      "text": "baby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20031191,
+      "status": "candidate",
+      "text": "dearie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030224,
+      "status": "candidate",
+      "text": "sweetheart"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "doll"
+    }
+  ],
+  "canonical_name": "dolly",
+  "concept_id": "dolly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "databrickslabs/dolly"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dolly",
+      "sense_id": "dolly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

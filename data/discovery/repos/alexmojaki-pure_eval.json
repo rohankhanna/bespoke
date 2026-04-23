@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/pure_eval",
+      "target": "gristlabs/asttokens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/pure_eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/pure_eval",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/pure_eval",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:01.760733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5426
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 230
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Safely evaluate AST nodes without side effects",
+    "fork": false,
+    "full_name": "alexmojaki/pure_eval",
+    "html_url": "https://github.com/alexmojaki/pure_eval",
+    "language": "Python",
+    "pushed_at": "2026-01-11T12:07:44Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-02-14T14:59:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gristlabs/asttokens",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Tests"
+    }
+  ]
+}

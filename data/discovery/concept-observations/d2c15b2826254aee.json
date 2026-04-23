@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Render JSX/Hyperscript to HTML strings, without VDOM \ud83c\udf08"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html-string",
+      "sense_id": "html-string#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "html-string",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "html-string",
+  "observation_id": "d2c15b2826254aee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "html-string",
+  "source_context_snippet": "[![NPM](https://img.shields.io/npm/v/vhtml.svg?style=flat)](https://www.npmjs.org/package/vhtml)",
+  "source_file": null,
+  "source_repo": "developit/vhtml",
+  "source_repo_description": "Render JSX/Hyperscript to HTML strings, without VDOM \ud83c\udf08"
+}

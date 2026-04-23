@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "dist"
+    "dist",
+    "Dist"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,42 @@
       "source_repo": "virtuald/pyhcl",
       "status": "candidate-context",
       "text": "dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "Dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate-context",
+      "text": "Canonical source repository for LibYAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate-context",
+      "text": "dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate-context",
+      "text": "Dist"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +82,24 @@
       "source_repo": "virtuald/pyhcl",
       "status": "candidate",
       "text": "dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "Dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate",
+      "text": "dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tile-ai/tilelang",
+      "status": "candidate",
+      "text": "Dist"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +155,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "virtuald/pyhcl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dist.yaml",
+      "source_repo": "yaml/libyaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

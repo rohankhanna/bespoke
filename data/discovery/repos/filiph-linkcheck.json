@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filiph/linkcheck",
+      "target": "linkchecker/linkchecker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filiph/linkcheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filiph/linkcheck",
+      "target": "dart-lang/setup-dart@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "filiph/linkcheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "filiph/linkcheck",
+      "target": "dart-lang/setup-dart@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "filiph/linkcheck",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:59.599709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11629
+    },
+    {
+      "path": "Dockerfile",
+      "size": 97
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast link checker",
+    "fork": false,
+    "full_name": "filiph/linkcheck",
+    "html_url": "https://github.com/filiph/linkcheck",
+    "language": "Dart",
+    "pushed_at": "2026-02-16T08:07:48Z",
+    "stargazers_count": 467,
+    "topics": [],
+    "updated_at": "2026-04-07T14:08:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linkchecker/linkchecker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

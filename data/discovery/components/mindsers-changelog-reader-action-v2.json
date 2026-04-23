@@ -1,7 +1,7 @@
 {
   "component": "mindsers/changelog-reader-action@v2",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "chrisguida/smaug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "authorizer-tech/access-controller"
     }
   ]
 }

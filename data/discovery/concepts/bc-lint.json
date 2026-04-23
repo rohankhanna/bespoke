@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "BC Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "BC Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate",
+      "text": "BC Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "chou"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "ovid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "sappho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10396,
+      "status": "candidate",
+      "text": "canto"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "BC Lint",
+  "concept_id": "bc-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bc-lint.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BC Lint",
+      "sense_id": "bc-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

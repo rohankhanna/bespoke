@@ -31,6 +31,18 @@
       "source_repo": "nix-community/nur-packages-template",
       "status": "candidate-context",
       "text": "\"Build and populate cache\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalbasit/nur-packages",
+      "status": "candidate-context",
+      "text": "NUR - https://github.com/nix-community/NUR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalbasit/nur-packages",
+      "status": "candidate-context",
+      "text": "\"Build and populate cache\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nix-community/nur-packages-template",
+      "status": "candidate",
+      "text": "\"Build and populate cache\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalbasit/nur-packages",
       "status": "candidate",
       "text": "\"Build and populate cache\""
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "nix-community/nur-packages-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalbasit/nur-packages"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

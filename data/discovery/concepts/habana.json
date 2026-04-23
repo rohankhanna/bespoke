@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "habana"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Easy and lightning fast training of \ud83e\udd17 Transformers on Habana Gaudi processor (HPU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate-context",
+      "text": "<!---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum",
+      "status": "candidate",
+      "text": "<!---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "cuba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "havana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "fidel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "ernesto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31422,
+      "status": "candidate",
+      "text": "clemente"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "habana",
+  "concept_id": "habana",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "habana",
+      "sense_id": "habana#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

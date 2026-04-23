@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dataset Size Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "Dataset Size Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate",
+      "text": "Dataset Size Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "apologetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27284,
+      "status": "candidate",
+      "text": "accretion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27284,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27284,
+      "status": "candidate",
+      "text": "solution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "adn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dataset Size Validation",
+  "concept_id": "dataset-size-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dataset Size Validation",
+      "sense_id": "dataset-size-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

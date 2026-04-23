@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/live-protection.yml",
       "source_repo": "dotnet/dotnet-api-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_treon_reusable.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_deploy.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apply-test-attributes.yml",
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backmerge-release.yml",
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire"
     }
   ]
 }

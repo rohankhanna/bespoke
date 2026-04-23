@@ -1,0 +1,12 @@
+{
+  "component": "github/combine-prs@2909f404763c3177a456e052bdb7f2e85d3a7cb3",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "pypi/warehouse"
+    }
+  ]
+}

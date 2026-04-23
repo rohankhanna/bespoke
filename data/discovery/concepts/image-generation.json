@@ -79,6 +79,54 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "Automatically find issues in image datasets and practice data-centric computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "stable diffusion webui colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +244,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

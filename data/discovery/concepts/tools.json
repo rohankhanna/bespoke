@@ -139,6 +139,18 @@
       "source_repo": "matryer/xbar-plugins",
       "status": "candidate-context",
       "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "matryer/xbar-plugins",
       "status": "candidate",
       "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "matryer/xbar-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "get-gah/gah"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

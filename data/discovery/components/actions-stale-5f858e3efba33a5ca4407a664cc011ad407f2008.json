@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "gohugoio/hugoDocs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/buildtools"
     }
   ]
 }

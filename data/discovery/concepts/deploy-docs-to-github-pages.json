@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Deploy Docs to GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/agents-cli",
+      "status": "candidate-context",
+      "text": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/agents-cli",
+      "status": "candidate-context",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Deploy Docs to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/agents-cli",
+      "status": "candidate",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate",
+      "text": "Deploy Docs to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "lectern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "right to know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19692,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19681,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18895,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Docs to GitHub Pages",
+  "concept_id": "deploy-docs-to-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google/agents-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Docs to GitHub Pages",
+      "sense_id": "deploy-docs-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

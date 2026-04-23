@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "az1326/advisor-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "open-thoughts/openthoughts-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "open-reasoner-zero/open-reasoner-zero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "nvidia-nemo/rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-Train-CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-GPU-E2E-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-GPU-E2E-CI-Fully-Async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-GPU-E2E-CI-Megatron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-Train-GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "source_repo": "NovaSky-AI/SkyRL",
+      "target": "SkyRL-Train-GPU-Megatron",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:33.725395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8302
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10012
+    },
+    {
+      "path": ".github/workflows/cpu_skyrl.yaml",
+      "size": 1714
+    },
+    {
+      "path": ".github/workflows/cpu_skyrl_train.yaml",
+      "size": 2623
+    },
+    {
+      "path": ".github/workflows/gpu_e2e_ci.yaml",
+      "size": 1621
+    },
+    {
+      "path": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "size": 1705
+    },
+    {
+      "path": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "size": 1683
+    },
+    {
+      "path": ".github/workflows/gpu_skyrl.yaml",
+      "size": 1385
+    },
+    {
+      "path": ".github/workflows/gpu_skyrl_train.yaml",
+      "size": 1975
+    },
+    {
+      "path": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "size": 2138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SkyRL: A Modular Full-stack RL Library for LLMs",
+    "fork": false,
+    "full_name": "NovaSky-AI/SkyRL",
+    "html_url": "https://github.com/NovaSky-AI/SkyRL",
+    "language": "Python",
+    "pushed_at": "2026-04-23T01:07:07Z",
+    "stargazers_count": 1782,
+    "topics": [],
+    "updated_at": "2026-04-23T17:57:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "az1326/advisor-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-nemo/rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-reasoner-zero/open-reasoner-zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-thoughts/openthoughts-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SkyRL-CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_skyrl.yaml",
+      "term": "SkyRL-CPU"
+    },
+    {
+      "context_snippet": "SkyRL-Train-CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu_skyrl_train.yaml",
+      "term": "SkyRL-Train-CPU"
+    },
+    {
+      "context_snippet": "SkyRL-GPU-E2E-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci.yaml",
+      "term": "SkyRL-GPU-E2E-CI"
+    },
+    {
+      "context_snippet": "SkyRL-GPU-E2E-CI-Fully-Async",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+      "term": "SkyRL-GPU-E2E-CI-Fully-Async"
+    },
+    {
+      "context_snippet": "SkyRL-GPU-E2E-CI-Megatron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_e2e_ci_megatron.yaml",
+      "term": "SkyRL-GPU-E2E-CI-Megatron"
+    },
+    {
+      "context_snippet": "SkyRL-GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl.yaml",
+      "term": "SkyRL-GPU"
+    },
+    {
+      "context_snippet": "SkyRL-Train-GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl_train.yaml",
+      "term": "SkyRL-Train-GPU"
+    },
+    {
+      "context_snippet": "SkyRL-Train-GPU-Megatron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_skyrl_train_megatron.yaml",
+      "term": "SkyRL-Train-GPU-Megatron"
+    }
+  ]
+}

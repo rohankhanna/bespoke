@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "juliaio/json.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "quinnj/JSON3.jl"
+}

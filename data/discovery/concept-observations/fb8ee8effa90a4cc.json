@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Full-featured BitTorrent client package and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030229,
+      "status": "candidate",
+      "text": "torrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030228,
+      "status": "candidate",
+      "text": "file sharing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030227,
+      "status": "candidate",
+      "text": "swarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030226,
+      "status": "candidate",
+      "text": "file transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030225,
+      "status": "candidate",
+      "text": "seedbox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bittorrent",
+      "sense_id": "bittorrent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bittorrent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bittorrent",
+  "observation_id": "fb8ee8effa90a4cc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bittorrent",
+  "source_context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)",
+  "source_file": null,
+  "source_repo": "anacrolix/torrent",
+  "source_repo_description": "Full-featured BitTorrent client package and utilities"
+}

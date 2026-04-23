@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979688,
+      "status": "candidate",
+      "text": "woodlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978951,
+      "status": "candidate",
+      "text": "orchard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979515,
+      "status": "candidate",
+      "text": "woodland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979067,
+      "status": "candidate",
+      "text": "coppice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978856,
+      "status": "candidate",
+      "text": "forest"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grove",
+      "sense_id": "grove#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "orchard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5010,
+      "status": "candidate",
+      "text": "woodlet"
+    }
+  ],
+  "concept_id": "grove",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grove",
+  "observation_id": "650f82ab2d9a3579",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "grove",
+  "source_context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)",
+  "source_file": null,
+  "source_repo": "ai-dynamo/grove",
+  "source_repo_description": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerfile cross-compilation helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "sdk-extras"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "sdk-extras"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sdk-extras",
+      "sense_id": "sdk-extras#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sdk-extras",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sdk-extras",
+  "observation_id": "1a5ede9b6a4e6067",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sdk-extras",
+  "source_context_snippet": "sdk-extras",
+  "source_file": ".github/workflows/sdk-extras.yml",
+  "source_repo": "tonistiigi/xx",
+  "source_repo_description": "Dockerfile cross-compilation helpers"
+}

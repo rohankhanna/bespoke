@@ -1,0 +1,519 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@acb598e5ddbc6f68a970c5da0688d2f3a9f04d05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "NexusPHP/no-merge-commits@4f0fa727cc774b7b0d459b4d2372c3fc14f242d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-containers.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "awalsh128/cache-apt-pkgs-action@acb598e5ddbc6f68a970c5da0688d2f3a9f04d05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "NexusPHP/no-merge-commits@4f0fa727cc774b7b0d459b4d2372c3fc14f242d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-containers.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-containers.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "release-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "release-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gleam-lang/gleam",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam",
+      "target": "gleam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam",
+      "target": "statically-typed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:27.458373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 801
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 17875
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/release-containers.yaml",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/release-nightly.yaml",
+      "size": 5674
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 3568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!",
+    "fork": false,
+    "full_name": "gleam-lang/gleam",
+    "html_url": "https://github.com/gleam-lang/gleam",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T15:00:50Z",
+    "stargazers_count": 21381,
+    "topics": [
+      "compiler",
+      "erlang",
+      "gleam",
+      "programming-language",
+      "statically-typed"
+    ],
+    "updated_at": "2026-04-23T15:02:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "release-containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-containers.yaml",
+      "term": "release-containers"
+    },
+    {
+      "context_snippet": "release-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yaml",
+      "term": "release-nightly"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gleam"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statically-typed"
+    }
+  ]
+}

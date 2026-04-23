@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clear Actions Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clear Actions Cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21291,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20761,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20667,
+      "status": "candidate",
+      "text": "reserves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20642,
+      "status": "candidate",
+      "text": "follow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20632,
+      "status": "candidate",
+      "text": "quantity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear Actions Cache",
+      "sense_id": "clear-actions-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clear-actions-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clear-actions-cache",
+  "observation_id": "688b80e69df4707a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Clear Actions Cache",
+  "source_context_snippet": "Clear Actions Cache",
+  "source_file": ".github/workflows/clear-cache.yml",
+  "source_repo": "PyO3/maturin",
+  "source_repo_description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+}

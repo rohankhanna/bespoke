@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "0xNyk/council-of-high-intelligence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop"
     }
   ],
   "term": "decision-making"

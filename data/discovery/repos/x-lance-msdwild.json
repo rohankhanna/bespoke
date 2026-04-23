@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "taoruijie/talknet-asd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "darkpgmr/darklabel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/MSDWILD",
+      "target": "liutaocode/diarizationvisualization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:04.763135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[INTERSPEECH 2022] This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.",
+    "fork": false,
+    "full_name": "X-LANCE/MSDWILD",
+    "html_url": "https://github.com/X-LANCE/MSDWILD",
+    "language": "HTML",
+    "pushed_at": "2024-01-24T04:00:40Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-08T04:26:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkpgmr/darklabel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepinsight/insightface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liutaocode/diarizationvisualization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taoruijie/talknet-asd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

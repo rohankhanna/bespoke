@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/effcee",
+      "target": "microsoft/directxshadercompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/effcee",
+      "target": "regular-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/effcee",
+      "target": "string-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/effcee",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:35.523443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Effcee is a C++ library for stateful pattern matching of strings, inspired by LLVM's FileCheck",
+    "fork": false,
+    "full_name": "google/effcee",
+    "html_url": "https://github.com/google/effcee",
+    "language": "C++",
+    "pushed_at": "2026-02-24T15:38:36Z",
+    "stargazers_count": 103,
+    "topics": [
+      "regular-expression",
+      "string-matching",
+      "testing-tools"
+    ],
+    "updated_at": "2026-04-22T18:30:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxshadercompiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Effcee is a C++ library for stateful pattern matching of strings, inspired by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    },
+    {
+      "context_snippet": "Effcee is a C++ library for stateful pattern matching of strings, inspired by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-matching"
+    },
+    {
+      "context_snippet": "Effcee is a C++ library for stateful pattern matching of strings, inspired by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

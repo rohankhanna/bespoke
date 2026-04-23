@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open language modeling toolkit based on PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Base Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Base Docker Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33457,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33457,
+      "status": "candidate",
+      "text": "pyramids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32888,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27912,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26821,
+      "status": "candidate",
+      "text": "pyramid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Base Docker Image",
+      "sense_id": "build-base-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-base-docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-base-docker-image",
+  "observation_id": "3ec1cfe649840ed9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build Base Docker Image",
+  "source_context_snippet": "Build Base Docker Image",
+  "source_file": ".github/workflows/build_base.yml",
+  "source_repo": "eole-nlp/eole",
+  "source_repo_description": "Open language modeling toolkit based on PyTorch"
+}

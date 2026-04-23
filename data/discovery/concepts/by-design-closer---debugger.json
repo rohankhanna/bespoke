@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "By Design closer - debugger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Official repository for the Microsoft C/C++ extension for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "By Design closer - debugger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate",
+      "text": "By Design closer - debugger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10314,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10314,
+      "status": "candidate",
+      "text": "compiler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "By Design closer - debugger",
+  "concept_id": "by-design-closer---debugger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/by-design-closer-debugger .yml",
+      "source_repo": "microsoft/vscode-cpptools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "By Design closer - debugger",
+      "sense_id": "by-design-closer---debugger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

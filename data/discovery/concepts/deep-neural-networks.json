@@ -31,6 +31,30 @@
       "source_repo": "uxlfoundation/oneDNN",
       "status": "candidate-context",
       "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "uxlfoundation/oneDNN",
       "status": "candidate",
       "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

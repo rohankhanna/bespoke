@@ -199,6 +199,66 @@
       "source_repo": "node-lightning/node-lightning",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "Examples for using ONNX Runtime for machine learning inferencing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "Primary and community-submitted packages for webinstall.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "Whitelabel wallet framework for the Tezos blockchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/regenerator",
+      "status": "candidate-context",
+      "text": "Source transformer enabling ECMAScript 6 generator functions in JavaScript-of-today."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/regenerator",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -289,6 +349,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "node-lightning/node-lightning",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/regenerator",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -448,11 +538,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "facebook/regenerator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.js.yml",
+      "source_repo": "highlightjs/highlight.js"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

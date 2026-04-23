@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "uncertainty"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate-context",
+      "text": "This repo contains a PyTorch implementation of the paper: \"Evidential Deep Learning to Quantify Classification Uncertainty\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate-context",
+      "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate",
+      "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023085,
+      "status": "candidate",
+      "text": "incertitude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023052,
+      "status": "candidate",
+      "text": "uncertainness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022870,
+      "status": "candidate",
+      "text": "dubiety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022847,
+      "status": "candidate",
+      "text": "doubt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022825,
+      "status": "candidate",
+      "text": "dubiousness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23040,
+      "status": "candidate",
+      "text": "doubt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21028,
+      "status": "candidate",
+      "text": "dubiety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20023,
+      "status": "candidate",
+      "text": "incertitude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "dubiousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "doubtfulness"
+    }
+  ],
+  "canonical_name": "uncertainty",
+  "concept_id": "uncertainty",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uncertainty",
+      "sense_id": "uncertainty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

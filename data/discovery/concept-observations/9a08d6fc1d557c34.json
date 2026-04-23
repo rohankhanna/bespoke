@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029304,
+      "status": "candidate",
+      "text": "dealing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028716,
+      "status": "candidate",
+      "text": "dealings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029423,
+      "status": "candidate",
+      "text": "sale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029060,
+      "status": "candidate",
+      "text": "exchange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028791,
+      "status": "candidate",
+      "text": "purchase"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transaction",
+      "sense_id": "transaction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "dealing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "dealings"
+    }
+  ],
+  "concept_id": "transaction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transaction",
+  "observation_id": "9a08d6fc1d557c34",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "transaction",
+  "source_context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "flashbots/contender",
+  "source_repo_description": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+}

@@ -91,6 +91,30 @@
       "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
       "status": "candidate-context",
       "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "Inference Llama 2 in one file of pure Zig"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
       "status": "candidate",
       "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgbur/llama2.zig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cgbur/llama2.zig"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

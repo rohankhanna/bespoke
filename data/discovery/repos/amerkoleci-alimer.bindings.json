@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "zeux/meshoptimizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "jkuhlmann/cgltf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "erincatto/box2d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "target": "wgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:51.861818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1846
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross platform .NET bindings",
+    "fork": false,
+    "full_name": "amerkoleci/Alimer.Bindings",
+    "html_url": "https://github.com/amerkoleci/Alimer.Bindings",
+    "language": "C",
+    "pushed_at": "2026-02-16T17:34:29Z",
+    "stargazers_count": 40,
+    "topics": [
+      "gpu",
+      "webgpu",
+      "wgpu"
+    ],
+    "updated_at": "2026-03-25T22:50:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erincatto/box2d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkuhlmann/cgltf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeux/meshoptimizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/Alimer.Bindings/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/Alimer.Bindings/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wgpu"
+    }
+  ]
+}

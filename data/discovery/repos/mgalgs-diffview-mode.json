@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:59:06.280525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "View diffs side-by-side in Emacs",
+    "fork": false,
+    "full_name": "mgalgs/diffview-mode",
+    "html_url": "https://github.com/mgalgs/diffview-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-02-24T19:18:50Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-01-10T07:56:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

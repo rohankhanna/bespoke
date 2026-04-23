@@ -121,6 +121,66 @@
       "source_repo": "bazel-contrib/rules_distroless",
       "status": "candidate-context",
       "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "D rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Rust rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_buildx",
+      "status": "candidate-context",
+      "text": "BuildX rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_buildx",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "Modern Bazel rules for building OCI container images with advanced performance optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +241,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bazel-contrib/rules_distroless",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_d",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_buildx",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
       "status": "candidate",
       "text": "Publish to BCR"
     }
@@ -310,11 +400,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "bazel-contrib/rules_distroless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_to_bcr.yaml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_img"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

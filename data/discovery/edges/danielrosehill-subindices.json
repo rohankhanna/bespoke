@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/arch-and-interiors-index",
+      "target": "danielrosehill/ai-presentation-builders-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/architectural-plans-index",
+      "target": "danielrosehill/claude-israel",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/backup-projects-index",
+      "target": "danielrosehill/context-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/bug-reports-and-fixes",
+      "target": "danielrosehill/data-projects-index",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "danielrosehill/Subindices"
 }

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "target": "ppc64le-cloud/kubetest2-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "target": "kubernetes-sigs/provider-aws-test-infra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "target": "k8s-sig-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:06:50.792675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4426
+    },
+    {
+      "path": "go.mod",
+      "size": 16542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubetest2 is the framework for launching and running end-to-end tests on Kubernetes.",
+    "fork": false,
+    "full_name": "kubernetes-sigs/kubetest2",
+    "html_url": "https://github.com/kubernetes-sigs/kubetest2",
+    "language": "Go",
+    "pushed_at": "2026-03-17T14:37:41Z",
+    "stargazers_count": 396,
+    "topics": [
+      "k8s-sig-testing"
+    ],
+    "updated_at": "2026-04-03T00:44:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/provider-aws-test-infra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ppc64le-cloud/kubetest2-plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Kubetest2 is a framework for deploying Kubernetes clusters and running end-to-end tests against them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-testing"
+    }
+  ]
+}

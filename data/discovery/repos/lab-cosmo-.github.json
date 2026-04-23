@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:02:21.510263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "COSMO Github Page",
+    "fork": false,
+    "full_name": "lab-cosmo/.github",
+    "html_url": "https://github.com/lab-cosmo/.github",
+    "language": null,
+    "pushed_at": "2026-03-30T08:47:57Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-30T08:48:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bot Auto Approve"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bot Auto Approve"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "alternating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "cleared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18010,
+      "status": "candidate",
+      "text": "ferry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bot Auto Approve",
+      "sense_id": "bot-auto-approve#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bot-auto-approve",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bot-auto-approve",
+  "observation_id": "cdba2f3dc5fe19a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bot Auto Approve",
+  "source_context_snippet": "Bot Auto Approve",
+  "source_file": ".github/workflows/bot-auto-approve.yaml",
+  "source_repo": "hashicorp/consul",
+  "source_repo_description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+}

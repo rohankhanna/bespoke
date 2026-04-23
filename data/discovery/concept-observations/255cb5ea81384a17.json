@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A base16 builder written in go, focused on convenience for template maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Keep published action versions up-to-date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Keep published action versions up-to-date"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48827,
+      "status": "candidate",
+      "text": "digest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45773,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43341,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34974,
+      "status": "candidate",
+      "text": "suppress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34545,
+      "status": "candidate",
+      "text": "suppressed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep published action versions up-to-date",
+      "sense_id": "keep-published-action-versions-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keep-published-action-versions-up-to-date",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keep-published-action-versions-up-to-date",
+  "observation_id": "255cb5ea81384a17",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Keep published action versions up-to-date",
+  "source_context_snippet": "Keep published action versions up-to-date",
+  "source_file": ".github/workflows/action-versions.yml",
+  "source_repo": "tinted-theming/base16-builder-go",
+  "source_repo_description": "A base16 builder written in go, focused on convenience for template maintainers."
+}

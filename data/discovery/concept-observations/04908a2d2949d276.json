@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optional Vulkan renderer lib for Yamagi Quake II"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Testbuild for MacOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Testbuild for MacOS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "windows"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Testbuild for MacOS",
+      "sense_id": "testbuild-for-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "testbuild-for-macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "testbuild-for-macos",
+  "observation_id": "04908a2d2949d276",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Testbuild for MacOS",
+  "source_context_snippet": "Testbuild for MacOS",
+  "source_file": ".github/workflows/macos.yml",
+  "source_repo": "yquake2/ref_vk",
+  "source_repo_description": "Optional Vulkan renderer lib for Yamagi Quake II"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ArrayFire: a general purpose GPU library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952579,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950955,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950856,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949162,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954016,
+      "status": "candidate",
+      "text": "carrying into action"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "performance",
+      "sense_id": "performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18055,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3035,
+      "status": "candidate",
+      "text": "doing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "carrying out"
+    }
+  ],
+  "concept_id": "performance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance",
+  "observation_id": "b0b4b593a2cdc757",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "performance",
+  "source_context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+  "source_file": null,
+  "source_repo": "arrayfire/arrayfire",
+  "source_repo_description": "ArrayFire: a general purpose GPU library."
+}

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "cheriot-platform/cheriot-pqc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "usnistgov/acvp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "pq-crystals/dilithium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "mjosaarinen/tiny_sha3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baremetal.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baremetal.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Baremetal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "donatj/symlink-check-action@b3c737d0fd4e52752f0b8c71a03f3f775fa015cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_any.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "bench-ec2-any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "bench-ec2-reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbmc.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "CBMC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Extended",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ci-ec2-reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "formal-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ml-dsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "post-quantum-cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "post-quantum-signature",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "pq-code-package/mldsa-native"
+}

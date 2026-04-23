@@ -266,28 +266,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "trigensoftware/simple-release",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "absolute-version/commit-and-tag-version",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "commitizen/cz-cli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "conventional-changelog/commitlint",
+      "target": "trigensoftware/simple-release-action",
       "target_type": "repository"
     },
     {
@@ -599,7 +578,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:46:45.932643+00:00",
+  "fetched_at": "2026-04-23T18:33:07.205430+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -635,7 +614,7 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T13:10:38Z",
+    "pushed_at": "2026-04-23T13:20:54Z",
     "stargazers_count": 8426,
     "topics": [
       "changelog",
@@ -650,22 +629,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "absolute-version/commit-and-tag-version",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "commitizen/cz-cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "conventional-changelog/commitlint",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "trigensoftware/simple-release",
+      "full_name": "trigensoftware/simple-release-action",
       "source_file": "README.md"
     }
   ],

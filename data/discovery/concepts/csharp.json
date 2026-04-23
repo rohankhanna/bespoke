@@ -103,6 +103,90 @@
       "source_repo": "dotnet/docs",
       "status": "candidate-context",
       "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate-context",
+      "text": "The official repo for the design of the C# programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate-context",
+      "text": "Provides .NET bindings for libheif."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate-context",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +237,48 @@
       "source_repo": "dotnet/docs",
       "status": "candidate",
       "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "![Markdownlint](https://github.com/dotnet/samples/workflows/Markdownlint/badge.svg) [![Snippets 5000](https://github.com/dotnet/samples/actions/workflows/build-validation.yml/badge.svg)](https://github.com/dotnet/samples/actions/workflows/build-validation.yml) [![target supporte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharplang",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/dotnet/csharplang](https://badges.gitter.im/dotnet/csharplang.svg)](https://gitter.im/dotnet/csharplang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Chat on Discord](https://discordapp.com/api/guilds/14386783\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xC0000054/libheif-sharp",
+      "status": "candidate",
+      "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +340,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "winsw/winsw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/csharplang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xC0000054/libheif-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "elsa-workflows/elsa-core"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

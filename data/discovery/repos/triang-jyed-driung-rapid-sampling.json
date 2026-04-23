@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:31.891462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast LLM sampling kernels (3-7x flashinfer!) in CUDA.",
+    "fork": false,
+    "full_name": "Triang-jyed-driung/Rapid-Sampling",
+    "html_url": "https://github.com/Triang-jyed-driung/Rapid-Sampling",
+    "language": "HIP",
+    "pushed_at": "2026-03-07T08:49:04Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-07T08:49:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

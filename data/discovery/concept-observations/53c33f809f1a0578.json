@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "converts nroff man pages to HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017181,
+      "status": "candidate",
+      "text": "roneo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017180,
+      "status": "candidate",
+      "text": "roffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017179,
+      "status": "candidate",
+      "text": "r0x0r"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017178,
+      "status": "candidate",
+      "text": "rendrynge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017176,
+      "status": "candidate",
+      "text": "rendryng"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nroff",
+      "sense_id": "nroff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nroff",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nroff",
+  "observation_id": "53c33f809f1a0578",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nroff",
+  "source_context_snippet": "A command line tool that reads nroff and outputs HTML",
+  "source_file": null,
+  "source_repo": "bagder/roffit",
+  "source_repo_description": "converts nroff man pages to HTML"
+}

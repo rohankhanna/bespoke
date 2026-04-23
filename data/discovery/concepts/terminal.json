@@ -763,6 +763,150 @@
       "source_repo": "c-bata/go-prompt",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8d Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate-context",
+      "text": "TeleType"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "\u2388\u274f Terminal and Web console for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moul/gotty-client",
+      "status": "candidate-context",
+      "text": ":wrench: terminal client for GoTTY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moul/gotty-client",
+      "status": "candidate-context",
+      "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate-context",
+      "text": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "Rich is a Python library for rich text and beautiful formatting in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate-context",
+      "text": "A Spotify player in the terminal with full feature parity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "Web player for terminal session recordings and streams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml/badge.svg)](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1287,78 @@
       "source_repo": "c-bata/go-prompt",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate",
+      "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akshaykmr/teletype",
+      "status": "candidate",
+      "text": "TeleType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moul/gotty-client",
+      "status": "candidate",
+      "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athityakumar/colorls",
+      "status": "candidate",
+      "text": "[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml/badge.svg)](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_related_terms": [
@@ -1660,11 +1876,107 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "c-bata/go-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chalk/chalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akshaykmr/teletype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "moul/gotty-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athityakumar/colorls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/asciinema-player"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/px"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

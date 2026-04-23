@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily Support Matrix Update (Release)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "Offline optimization of your disaggregated Dynamo graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate-context",
+      "text": "\"Daily Support Matrix Update (Release)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "status": "candidate",
+      "text": "\"Daily Support Matrix Update (Release)\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30688,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30247,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30205,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30205,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30205,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Support Matrix Update (Release)",
+  "concept_id": "daily-support-matrix-update-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/daily-support-matrix-release.yml",
+      "source_repo": "ai-dynamo/aiconfigurator"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Support Matrix Update (Release)",
+      "sense_id": "daily-support-matrix-update-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

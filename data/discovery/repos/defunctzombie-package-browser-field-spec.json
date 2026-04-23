@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:58:29.014091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spec document for the 'browser' field in package.json",
+    "fork": false,
+    "full_name": "defunctzombie/package-browser-field-spec",
+    "html_url": "https://github.com/defunctzombie/package-browser-field-spec",
+    "language": null,
+    "pushed_at": "2021-08-22T18:22:45Z",
+    "stargazers_count": 443,
+    "topics": [],
+    "updated_at": "2026-03-10T19:38:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

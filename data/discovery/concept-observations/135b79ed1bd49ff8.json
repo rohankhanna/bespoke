@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sonatype Snapshot Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sonatype Snapshot Deployment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "artwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "smap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sonatype Snapshot Deployment",
+      "sense_id": "sonatype-snapshot-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sonatype-snapshot-deployment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sonatype-snapshot-deployment",
+  "observation_id": "135b79ed1bd49ff8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sonatype Snapshot Deployment",
+  "source_context_snippet": "Sonatype Snapshot Deployment",
+  "source_file": ".github/workflows/sonatype.yaml",
+  "source_repo": "oshi/oshi",
+  "source_repo_description": "Native Operating System and Hardware Information"
+}

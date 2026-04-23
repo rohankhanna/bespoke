@@ -41,20 +41,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
-      "target": "microsoft/microsoft-performance-toolkit-sdk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
-      "target": "azure/walinuxagent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
       "target": "microsoft/microsoft-performance-tools-linux",
       "target_type": "repository"
     },
@@ -234,7 +220,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:37:45.688394+00:00",
+  "fetched_at": "2026-04-23T20:53:16.243918+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -281,16 +267,6 @@
     "updated_at": "2026-04-21T07:56:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "azure/walinuxagent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/microsoft-performance-toolkit-sdk",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/microsoft-performance-tools-linux",

@@ -1,0 +1,342 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "determinatesystems/determinate-nix-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "nixos/experimental-nix-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "determinatesystems/nix-installer-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "guibou/nixgl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/determinate-nix-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "Build aarch64 Darwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/determinate-nix-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-aarch64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "Build aarch64 Linux (static)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/determinate-nix-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-linux.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/flake-checker-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/determinate-nix-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/propose-release.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "DeterminateSystems/propose-release/.github/workflows/workflow.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branches.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branches.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-branches.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-branches.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tags.yml",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "Release Tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "ostree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "selinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "silverblue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer",
+      "target": "wsl2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "DeterminateSystems/nix-installer"
+}

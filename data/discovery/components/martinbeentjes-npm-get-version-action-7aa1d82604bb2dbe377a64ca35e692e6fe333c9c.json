@@ -1,0 +1,12 @@
+{
+  "component": "martinbeentjes/npm-get-version-action@7aa1d82604bb2dbe377a64ca35e692e6fe333c9c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "redhat-developer/yaml-language-server"
+    }
+  ]
+}

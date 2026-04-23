@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codety.yml",
       "source_repo": "codetyio/codety-scanner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "pymc-devs/pytensor"
     }
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "espnet/espnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "neural-vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "wavenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder",
+      "target": "wavenet-vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:09.222603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WaveNet vocoder",
+    "fork": false,
+    "full_name": "r9y9/wavenet_vocoder",
+    "html_url": "https://github.com/r9y9/wavenet_vocoder",
+    "language": "Python",
+    "pushed_at": "2023-07-29T04:47:53Z",
+    "stargazers_count": 2373,
+    "topics": [
+      "neural-vocoder",
+      "python",
+      "pytorch",
+      "speech",
+      "speech-processing",
+      "speech-synthesis",
+      "wavenet",
+      "wavenet-vocoder"
+    ],
+    "updated_at": "2026-04-21T00:23:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espnet/espnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-vocoder"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavenet"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavenet-vocoder"
+    }
+  ]
+}

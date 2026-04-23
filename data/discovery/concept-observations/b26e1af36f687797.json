@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wiki sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wiki sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "annual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "cardinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10451,
+      "status": "candidate",
+      "text": "celtic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wiki sync",
+      "sense_id": "wiki-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wiki-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wiki-sync",
+  "observation_id": "b26e1af36f687797",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Wiki sync",
+  "source_context_snippet": "Wiki sync",
+  "source_file": ".github/workflows/wiki-sync.yml",
+  "source_repo": "ComunidadAylas/PackSquash",
+  "source_repo_description": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+}

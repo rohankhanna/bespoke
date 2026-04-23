@@ -1,0 +1,317 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "nuxy/no-ai-badge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "digitalbazaar/cborld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "codacy/codacy-coverage-reporter-action@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "Java 17 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "Java 17 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "Publish to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "cbor-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "cborld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "json-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "linked-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "self-describing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld",
+      "target": "self-descriptive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:27.762442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9558
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/java17-build.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/maven-central-publish.yml",
+      "size": 972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Semantic, self-describing binary format for Linked Data",
+    "fork": false,
+    "full_name": "filip26/iridium-cbor-ld",
+    "html_url": "https://github.com/filip26/iridium-cbor-ld",
+    "language": "Java",
+    "pushed_at": "2026-03-24T18:40:07Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cbor",
+      "cbor-ld",
+      "cborld",
+      "compression",
+      "java",
+      "json-ld",
+      "linked-data",
+      "self-describing",
+      "self-descriptive"
+    ],
+    "updated_at": "2026-03-24T18:40:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digitalbazaar/cborld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuxy/no-ai-badge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java 17 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Java 17 CI"
+    },
+    {
+      "context_snippet": "Java 17 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17-build.yml",
+      "term": "Java 17 CI"
+    },
+    {
+      "context_snippet": "Publish to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "term": "Publish to the Maven Central"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor-ld"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cborld"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-ld"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-data"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-describing"
+    },
+    {
+      "context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-descriptive"
+    }
+  ]
+}

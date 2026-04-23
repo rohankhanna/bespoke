@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "advice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "advised"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proposals",
+      "sense_id": "proposals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proposals",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proposals",
+  "observation_id": "d391542b9a85d631",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "proposals",
+  "source_context_snippet": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)",
+  "source_file": null,
+  "source_repo": "zloirock/core-js",
+  "source_repo_description": "Standard Library"
+}

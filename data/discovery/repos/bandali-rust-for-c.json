@@ -7,16 +7,9 @@
       "source_repo": "bandali/rust-for-c",
       "target": "aminb/rust-for-c",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bandali/rust-for-c",
-      "target": "nrc/r4cppp",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T06:35:38.154111+00:00",
+  "fetched_at": "2026-04-23T21:55:24.198009+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "aminb/rust-for-c",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nrc/r4cppp",
       "source_file": "README.md"
     }
   ],

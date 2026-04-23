@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-pr.yml",
       "source_repo": "mdn/browser-compat-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "changesets/action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-prs.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
     }
   ],
   "term": "Release PR"

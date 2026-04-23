@@ -139,6 +139,42 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boto/boto3",
+      "status": "candidate-context",
+      "text": "Boto3, an AWS SDK for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/boto3",
+      "status": "candidate-context",
+      "text": "==============================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "Azure Command-Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/boto3",
+      "status": "candidate",
+      "text": "==============================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +406,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-cli"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

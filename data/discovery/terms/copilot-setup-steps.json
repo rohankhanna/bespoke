@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,61 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "Azure/azure-sdk-for-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/jericho"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
     }
   ],
   "term": "Copilot Setup Steps"

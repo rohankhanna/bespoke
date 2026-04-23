@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TransferTTS (Zero-Shot learning of VITS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transfertts",
+      "sense_id": "transfertts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "transfertts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transfertts",
+  "observation_id": "99b85609dda47cbc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "transfertts",
+  "source_context_snippet": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0.",
+  "source_file": null,
+  "source_repo": "hcy71o/TransferTTS",
+  "source_repo_description": "TransferTTS (Zero-Shot learning of VITS)"
+}

@@ -7,9 +7,101 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate-context",
+      "text": "'Close inactive issues and PRs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate",
+      "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate",
+      "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/vllm",
+      "status": "candidate",
+      "text": "'Close inactive issues and PRs'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17622,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17612,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17481,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17452,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17452,
+      "status": "candidate",
+      "text": "falls"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Close inactive issues and PRs",
   "concept_id": "close-inactive-issues-and-prs",
@@ -20,12 +112,32 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/close_inactive_issues_pr.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:21:24.571681+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A full-featured implementation of of the LMS and HSS Hash Based Signature Schemes from draft-mcgrew-hash-sigs-07.",
+    "fork": false,
+    "full_name": "cisco/hash-sigs",
+    "html_url": "https://github.com/cisco/hash-sigs",
+    "language": "C",
+    "pushed_at": "2025-08-06T02:09:16Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-04-11T02:53:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

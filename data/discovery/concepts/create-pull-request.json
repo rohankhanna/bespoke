@@ -4,11 +4,68 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "GitHub Actions runner images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "Create Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate",
+      "text": "Create Pull Request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26222,
+      "status": "candidate",
+      "text": "suck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18901,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18901,
+      "status": "candidate",
+      "text": "sit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18738,
+      "status": "candidate",
+      "text": "execute"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Create Pull Request",
   "concept_id": "create-pull-request",
@@ -19,12 +76,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/create_pull_request.yml",
       "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "source_repo": "actions/runner-images"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

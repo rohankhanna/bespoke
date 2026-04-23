@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Region Bootstrap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "Region Bootstrap"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate",
+      "text": "Region Bootstrap"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "biot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "basilicata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "block"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Region Bootstrap",
+  "concept_id": "region-bootstrap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Region Bootstrap",
+      "sense_id": "region-bootstrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

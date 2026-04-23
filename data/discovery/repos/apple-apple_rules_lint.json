@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/apple_rules_lint",
+      "target": "seleniumhq/selenium",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:49.630328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for adding lint checks to Bazel projects",
+    "fork": false,
+    "full_name": "apple/apple_rules_lint",
+    "html_url": "https://github.com/apple/apple_rules_lint",
+    "language": "Starlark",
+    "pushed_at": "2024-08-28T13:03:47Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seleniumhq/selenium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -55,6 +55,30 @@
       "source_repo": "objectbox/objectbox-go",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "ObjectBox Generator based on FlatBuffers schema files (fbs) for C and C++ (more languages in the future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "Swift database - fast, simple and lightweight (iOS, macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "objectbox/objectbox-go",
       "status": "candidate",
       "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "objectbox/objectbox-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

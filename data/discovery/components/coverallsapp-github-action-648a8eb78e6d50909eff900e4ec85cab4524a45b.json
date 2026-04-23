@@ -1,7 +1,7 @@
 {
   "component": "coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "systemd/systemd"
     }
   ]
 }

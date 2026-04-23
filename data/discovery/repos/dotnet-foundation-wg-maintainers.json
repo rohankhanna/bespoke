@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:54:51.736984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Project maintainers' working group and committee",
+    "fork": false,
+    "full_name": "dotnet-foundation/wg-maintainers",
+    "html_url": "https://github.com/dotnet-foundation/wg-maintainers",
+    "language": null,
+    "pushed_at": "2023-06-29T18:32:07Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-21T09:42:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

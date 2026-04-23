@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "IDEA-CCNL/stable-diffusion-webui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "IDEA-CCNL/stable-diffusion-webui",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "IDEA-CCNL/stable-diffusion-webui",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:45.325065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 1444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stable Diffusion web UI",
+    "fork": true,
+    "full_name": "IDEA-CCNL/stable-diffusion-webui",
+    "html_url": "https://github.com/IDEA-CCNL/stable-diffusion-webui",
+    "language": "Python",
+    "pushed_at": "2022-12-13T14:03:23Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2025-08-28T06:48:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

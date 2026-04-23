@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build aarch64 Darwin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Build aarch64 Darwin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "Build aarch64 Darwin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "darwinian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "darwinism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "evolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "huxley"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build aarch64 Darwin",
+  "concept_id": "build-aarch64-darwin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-aarch64-darwin.yml",
+      "source_repo": "DeterminateSystems/nix-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build aarch64 Darwin",
+      "sense_id": "build-aarch64-darwin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

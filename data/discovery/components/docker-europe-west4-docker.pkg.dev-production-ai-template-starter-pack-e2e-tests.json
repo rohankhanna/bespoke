@@ -1,0 +1,12 @@
+{
+  "component": "docker://europe-west4-docker.pkg.dev/production-ai-template/starter-pack/e2e-tests",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples"
+    }
+  ]
+}

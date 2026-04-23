@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/getdeps_mac.yml",
       "source_repo": "facebook/folly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "kpu/kenlm"
     }
   ],
   "term": "mac"

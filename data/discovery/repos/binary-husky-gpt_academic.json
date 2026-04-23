@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "binary-husky/void-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "fghrsh/live2d_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "acheong08/edgegpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "build-with-all-capacity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "build-with-audio-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "build-with-latex-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "build-with-latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "build-without-local-llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "Create Conda Environment Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "academic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "chatglm-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binary-husky/gpt_academic",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:51.794380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20573
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1437
+    },
+    {
+      "path": "requirements.txt",
+      "size": 801
+    },
+    {
+      "path": ".github/workflows/build-with-all-capacity.yml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/build-with-audio-assistant.yml",
+      "size": 1187
+    },
+    {
+      "path": ".github/workflows/build-with-latex-arm.yml",
+      "size": 1353
+    },
+    {
+      "path": ".github/workflows/build-with-latex.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/build-without-local-llms.yml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/conda-pack-windows.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002",
+    "fork": false,
+    "full_name": "binary-husky/gpt_academic",
+    "html_url": "https://github.com/binary-husky/gpt_academic",
+    "language": "Python",
+    "pushed_at": "2026-01-25T12:33:10Z",
+    "stargazers_count": 70509,
+    "topics": [
+      "academic",
+      "chatglm-6b",
+      "chatgpt",
+      "gpt-4",
+      "large-language-models"
+    ],
+    "updated_at": "2026-04-23T18:03:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acheong08/edgegpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binary-husky/void-terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fghrsh/live2d_demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-with-all-capacity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-all-capacity.yml",
+      "term": "build-with-all-capacity"
+    },
+    {
+      "context_snippet": "build-with-audio-assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-audio-assistant.yml",
+      "term": "build-with-audio-assistant"
+    },
+    {
+      "context_snippet": "build-with-latex-arm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-latex-arm.yml",
+      "term": "build-with-latex-arm"
+    },
+    {
+      "context_snippet": "build-with-latex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-latex.yml",
+      "term": "build-with-latex"
+    },
+    {
+      "context_snippet": "build-without-local-llms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-without-local-llms.yml",
+      "term": "build-without-local-llms"
+    },
+    {
+      "context_snippet": "Create Conda Environment Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-pack-windows.yml",
+      "term": "Create Conda Environment Package"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm-6b"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

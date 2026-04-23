@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydn-jones/SOAP_JAX",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:13.918929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1569
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial JAX implementation of the SOAP optimizer (https://arxiv.org/abs/2409.11321)",
+    "fork": false,
+    "full_name": "haydn-jones/SOAP_JAX",
+    "html_url": "https://github.com/haydn-jones/SOAP_JAX",
+    "language": "Python",
+    "pushed_at": "2026-01-09T21:00:41Z",
+    "stargazers_count": 25,
+    "topics": [
+      "jax",
+      "ml",
+      "optimization"
+    ],
+    "updated_at": "2026-04-20T13:44:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "I saw that a number of people have been using this implementation, so I took the time to ensure it was more aligned with the official implementation and corrected some potential issues with tree leaves (I had never observed the issue, but I addressed it anyway). Also added optio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

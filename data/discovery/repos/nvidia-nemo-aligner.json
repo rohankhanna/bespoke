@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "NVIDIA/NeMo/.github/actions/cancel-workflow@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run_test.yml"
+    },
+    {
+      "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml"
+    },
+    {
+      "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.22.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_container.yml@v0.22.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_copyright_check.yml@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-check.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_code_freeze.yml@v0.22.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "triton-inference-server/pytriton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_run_test.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo/.github/actions/cancel-workflow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_run_test.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "~test template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.22.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "tj-actions/changed-files@v44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_build_container.yml@v0.22.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "CICD NeMo Aligner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_copyright_check.yml@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Copyright check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "NVIDIA/NeMo-FW-CI-templates/.github/workflows/_code_freeze.yml@v0.22.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "target": "Code freeze",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:05.118029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6988
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5932
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2818
+    },
+    {
+      "path": ".github/workflows/_run_test.yml",
+      "size": 3766
+    },
+    {
+      "path": ".github/workflows/build-test-publish-wheel.yml",
+      "size": 1250
+    },
+    {
+      "path": ".github/workflows/cherry-pick-release-commit.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/cicd-main.yml",
+      "size": 5545
+    },
+    {
+      "path": ".github/workflows/copyright-check.yml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/labeler.yaml",
+      "size": 267
+    },
+    {
+      "path": ".github/workflows/release-freeze.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Scalable toolkit for efficient model alignment",
+    "fork": false,
+    "full_name": "NVIDIA/NeMo-Aligner",
+    "html_url": "https://github.com/NVIDIA/NeMo-Aligner",
+    "language": "Python",
+    "pushed_at": "2025-10-06T21:58:57Z",
+    "stargazers_count": 853,
+    "topics": [],
+    "updated_at": "2026-04-21T07:01:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/pytriton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~test template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_run_test.yml",
+      "term": "~test template"
+    },
+    {
+      "context_snippet": "\"CICD NeMo Aligner\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "term": "CICD NeMo Aligner"
+    },
+    {
+      "context_snippet": "Copyright check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "term": "Copyright check"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "\"Code freeze\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "term": "Code freeze"
+    }
+  ]
+}

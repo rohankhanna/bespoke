@@ -1,12 +1,17 @@
 {
   "component": "actions/delete-package-versions@e5bc658cc4c965c472efe991f8beea3981499c55",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/command-not-found-db-update.yml",
       "source_repo": "Homebrew/brew"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releasecache-cleanup.yml",
+      "source_repo": "dani-garcia/vaultwarden"
     }
   ]
 }

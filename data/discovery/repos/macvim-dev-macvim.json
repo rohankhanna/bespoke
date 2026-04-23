@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "macvim-dev/macvim",
+      "target": "vim/vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "macvim-dev/macvim",
+      "target": "vim/vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "macvim-dev/macvim",
+      "target": "vim/vim-win32-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macvim.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "MacVim GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "Check Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-buildtest.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macvim-buildtest.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "MacVim Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macvim-issues.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macvim-issues.yaml",
+      "source_repo": "macvim-dev/macvim",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macvim-dev/macvim",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macvim-dev/macvim",
+      "target": "macvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:47:58.072308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3780
+    },
+    {
+      "path": "README.txt",
+      "size": 5292
+    },
+    {
+      "path": ".github/workflows/ci-macvim.yaml",
+      "size": 1852
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2778
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 2639
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/macvim-buildtest.yaml",
+      "size": 19763
+    },
+    {
+      "path": ".github/workflows/macvim-issues.yaml",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim - the text editor - for macOS",
+    "fork": false,
+    "full_name": "macvim-dev/macvim",
+    "html_url": "https://github.com/macvim-dev/macvim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-08T07:09:22Z",
+    "stargazers_count": 7804,
+    "topics": [
+      "macos",
+      "macvim",
+      "vim"
+    ],
+    "updated_at": "2026-04-23T11:28:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim/vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim/vim",
+      "source_file": "README.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim/vim-win32-installer",
+      "source_file": "README.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MacVim GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macvim.yaml",
+      "term": "MacVim GitHub CI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Check Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "term": "Check Links"
+    },
+    {
+      "context_snippet": "MacVim Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macvim-buildtest.yaml",
+      "term": "MacVim Build and Test"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macvim-issues.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "<h1 align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<h1 align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macvim"
+    }
+  ]
+}

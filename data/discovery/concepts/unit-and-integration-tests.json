@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Unit and Integration Tests"
+    "Unit and Integration Tests",
+    "Unit and integration tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "cli/cli",
       "status": "candidate-context",
       "text": "Unit and Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Easy and lightning fast training of \ud83e\udd17 Transformers on Habana Gaudi processor (HPU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Unit and integration tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "cli/cli",
       "status": "candidate",
       "text": "Unit and Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate",
+      "text": "Unit and integration tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "cli/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/fast_tests.yml",
+      "source_repo": "huggingface/optimum-habana"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

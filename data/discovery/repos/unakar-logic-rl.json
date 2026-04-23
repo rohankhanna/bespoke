@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Unakar/Logic-RL",
+      "target": "shadecloak/adora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Unakar/Logic-RL",
+      "target": "lblankl/short-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Unakar/Logic-RL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "Unakar/Logic-RL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:30.462780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3345
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2219
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reproduce R1 Zero on Logic Puzzle",
+    "fork": false,
+    "full_name": "Unakar/Logic-RL",
+    "html_url": "https://github.com/Unakar/Logic-RL",
+    "language": "Python",
+    "pushed_at": "2025-03-20T06:24:26Z",
+    "stargazers_count": 2447,
+    "topics": [],
+    "updated_at": "2026-04-22T16:39:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lblankl/short-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadecloak/adora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

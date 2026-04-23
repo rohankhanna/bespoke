@@ -1,0 +1,276 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "brightmart/roberta_zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "brightmart/albert_zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "brightmart/nlp_chinese_corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "cbluebenchmark/cblue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "albert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "chineseglue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "glue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:38.076675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  ",
+    "fork": false,
+    "full_name": "CLUEbenchmark/CLUE",
+    "html_url": "https://github.com/CLUEbenchmark/CLUE",
+    "language": "Python",
+    "pushed_at": "2026-02-06T11:41:17Z",
+    "stargazers_count": 4253,
+    "topics": [
+      "albert",
+      "benchmark",
+      "bert",
+      "chinese",
+      "chineseglue",
+      "corpus",
+      "dataset",
+      "glue",
+      "language-model",
+      "nlu",
+      "pretrained-models",
+      "pytorch",
+      "roberta",
+      "tensorflow",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T02:33:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/albert_zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/nlp_chinese_corpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/roberta_zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbluebenchmark/cblue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "albert"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chineseglue"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corpus"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glue"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

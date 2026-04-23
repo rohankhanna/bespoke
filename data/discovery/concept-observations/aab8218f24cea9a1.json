@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easiest and laziest way for  building multi-agent LLMs applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload PyPI And Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload PyPI And Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17324,
+      "status": "candidate",
+      "text": "pic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16354,
+      "status": "candidate",
+      "text": "youtube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "clip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload PyPI And Release",
+      "sense_id": "upload-pypi-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-pypi-and-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-pypi-and-release",
+  "observation_id": "aab8218f24cea9a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Upload PyPI And Release",
+  "source_context_snippet": "Upload PyPI And Release",
+  "source_file": ".github/workflows/publish_release.yml",
+  "source_repo": "LazyAGI/LazyLLM",
+  "source_repo_description": "Easiest and laziest way for  building multi-agent LLMs applications."
+}

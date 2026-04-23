@@ -49,6 +49,48 @@
       "source_repo": "WebAssembly/esm-integration",
       "status": "candidate-context",
       "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/spec",
+      "status": "candidate-context",
+      "text": "WebAssembly specification, reference interpreter, and test suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/spec",
+      "status": "candidate-context",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/compilation-hints",
+      "status": "candidate-context",
+      "text": "Compilation Hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/compilation-hints",
+      "status": "candidate-context",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/content-security-policy",
+      "status": "candidate-context",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "status": "candidate-context",
+      "text": "Custom RTTs and JS interop for Wasm GC structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-descriptors",
+      "status": "candidate-context",
+      "text": "CI for interpreter & tests"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +115,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/spec",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/compilation-hints",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/content-security-policy",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-descriptors",
       "status": "candidate",
       "text": "CI for interpreter & tests"
     }
@@ -142,11 +208,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci-interpreter.yml",
       "source_repo": "WebAssembly/esm-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/content-security-policy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/custom-descriptors"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "one-stage",
+      "sense_id": "one-stage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "one-stage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "one-stage",
+  "observation_id": "795f78f94f801f8c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "one-stage",
+  "source_context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+  "source_file": null,
+  "source_repo": "tianzhi0549/FCOS",
+  "source_repo_description": "FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19)"
+}

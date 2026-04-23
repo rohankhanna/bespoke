@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "broken-link-finder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "Very fast link checker for CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "A command-line tool to find broken links in your static site."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate",
+      "text": "A command-line tool to find broken links in your static site."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "broken-link-finder",
+  "concept_id": "broken-link-finder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "broken-link-finder",
+      "sense_id": "broken-link-finder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

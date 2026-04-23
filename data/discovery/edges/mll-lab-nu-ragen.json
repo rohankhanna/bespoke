@@ -4,31 +4,24 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "openmanus/openmanus-rl",
+      "target": "zihanwang314/ragen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "pzyseere/metaspatial",
+      "target": "volcengine/verl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "pat-jj/s3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mll-lab-nu/RAGEN",
-      "target": "jiayi-pan/tinyzero",
+      "target": "ragen-ai/vagen",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "mll-lab-nu/RAGEN"
 }

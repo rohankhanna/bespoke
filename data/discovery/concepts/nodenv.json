@@ -19,6 +19,42 @@
       "source_repo": "nodenv/nodenv",
       "status": "candidate-context",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "A nodenv plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "Installer and doctor scripts for nodenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "nodenv/nodenv",
       "status": "candidate",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "decaporg/gatsby-starter-decap-cms",
       "status": "candidate-context",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate-context",
+      "text": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "decaporg/gatsby-starter-decap-cms",
       "status": "candidate",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "decaporg/gatsby-starter-decap-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

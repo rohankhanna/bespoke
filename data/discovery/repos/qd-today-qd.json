@@ -1,0 +1,580 @@
+{
+  "components": [
+    {
+      "component": "dropseed/changerelease@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ChangeRelease.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerHub-Description.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerHub-Description.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerHub-Description.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qd-today/qd",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ChangeRelease.yml",
+      "source_repo": "qd-today/qd",
+      "target": "dropseed/changerelease@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ChangeRelease.yml",
+      "source_repo": "qd-today/qd",
+      "target": "ChangeRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "source_repo": "qd-today/qd",
+      "target": "peter-evans/dockerhub-description@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "source_repo": "qd-today/qd",
+      "target": "Update Docker Hub Description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "Publish Ja3 Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "Publish Lite Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "source_repo": "qd-today/qd",
+      "target": "Publish Latest Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "qd-today/qd",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "qd-today/qd",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "qd-today/qd",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "source_repo": "qd-today/qd",
+      "target": "Deploy Webdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qd-today/qd",
+      "target": "checkin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qd-today/qd",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qd-today/qd",
+      "target": "qiandao",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:56.847696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12810
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3151
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2249
+    },
+    {
+      "path": ".github/workflows/ChangeRelease.yml",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/DockerHub-Description.yml",
+      "size": 929
+    },
+    {
+      "path": ".github/workflows/Publish Ja3 Package.yml",
+      "size": 3613
+    },
+    {
+      "path": ".github/workflows/Publish Lite Package.yml",
+      "size": 3628
+    },
+    {
+      "path": ".github/workflows/Publish Package.yml",
+      "size": 3574
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 4574
+    },
+    {
+      "path": ".github/workflows/deploy-webdoc.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server",
+    "fork": false,
+    "full_name": "qd-today/qd",
+    "html_url": "https://github.com/qd-today/qd",
+    "language": "Python",
+    "pushed_at": "2025-08-16T05:30:37Z",
+    "stargazers_count": 5506,
+    "topics": [
+      "checkin",
+      "docker",
+      "har",
+      "qd",
+      "qiandao"
+    ],
+    "updated_at": "2026-04-22T06:53:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ChangeRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ChangeRelease.yml",
+      "term": "ChangeRelease"
+    },
+    {
+      "context_snippet": "Update Docker Hub Description",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "term": "Update Docker Hub Description"
+    },
+    {
+      "context_snippet": "Publish Ja3 Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Ja3 Package.yml",
+      "term": "Publish Ja3 Package"
+    },
+    {
+      "context_snippet": "Publish Lite Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Lite Package.yml",
+      "term": "Publish Lite Package"
+    },
+    {
+      "context_snippet": "Publish Latest Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Publish Package.yml",
+      "term": "Publish Latest Package"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy Webdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-webdoc.yml",
+      "term": "Deploy Webdoc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkin"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qiandao"
+    }
+  ]
+}

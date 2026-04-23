@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Style Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Code Style Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Code Style Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33896,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18954,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18954,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18954,
+      "status": "candidate",
+      "text": "dashed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "rule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Style Check",
+  "concept_id": "code-style-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "httpie/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Style Check",
+      "sense_id": "code-style-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

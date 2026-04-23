@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-a6000-fastgen.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-v100-legacy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "deepspeedai/deepspeed-kernels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-a6000-fastgen.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-a6000-fastgen.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "nv-a6000-fastgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nv-v100-legacy.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-v100-legacy.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "nv-v100-legacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "Build and publish DeepSpeed-MII release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:33.445970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20474
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 186
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 685
+    },
+    {
+      "path": ".github/workflows/nv-a6000-fastgen.yml",
+      "size": 1598
+    },
+    {
+      "path": ".github/workflows/nv-v100-legacy.yml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
+    "fork": false,
+    "full_name": "deepspeedai/DeepSpeed-MII",
+    "html_url": "https://github.com/deepspeedai/DeepSpeed-MII",
+    "language": "Python",
+    "pushed_at": "2025-06-30T16:21:45Z",
+    "stargazers_count": 2108,
+    "topics": [
+      "deep-learning",
+      "inference",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-15T09:18:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepspeedai/deepspeed-kernels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "nv-a6000-fastgen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-a6000-fastgen.yml",
+      "term": "nv-a6000-fastgen"
+    },
+    {
+      "context_snippet": "nv-v100-legacy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nv-v100-legacy.yml",
+      "term": "nv-v100-legacy"
+    },
+    {
+      "context_snippet": "Build and publish DeepSpeed-MII release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and publish DeepSpeed-MII release"
+    },
+    {
+      "context_snippet": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[![Formatting](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml/badge.svg?branch=main)](https://github.com/deepspeedai/DeepSpeed-MII/actions/workflows/formatting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Production Site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "Build Production Site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate",
+      "text": "Build Production Site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33889,
+      "status": "candidate",
+      "text": "plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33873,
+      "status": "candidate",
+      "text": "bakehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26492,
+      "status": "candidate",
+      "text": "hydrocele"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25772,
+      "status": "candidate",
+      "text": "atelier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19303,
+      "status": "candidate",
+      "text": "construction"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Production Site",
+  "concept_id": "build-production-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Production Site",
+      "sense_id": "build-production-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

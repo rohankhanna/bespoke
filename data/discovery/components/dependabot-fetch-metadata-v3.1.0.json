@@ -1,12 +1,22 @@
 {
   "component": "dependabot/fetch-metadata@v3.1.0",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automerge-dependabot.yaml",
       "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-approve-and-automerge.yml",
+      "source_repo": "dotnet/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber"
     }
   ]
 }

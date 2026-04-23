@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-clone",
+      "sense_id": "deep-clone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-clone",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-clone",
+  "observation_id": "5a17a16eec9317d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "deep-clone",
+  "source_context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/clone-deep",
+  "source_repo_description": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+}

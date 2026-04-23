@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "git-diff",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "Astro-Han/diffpane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/riff"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

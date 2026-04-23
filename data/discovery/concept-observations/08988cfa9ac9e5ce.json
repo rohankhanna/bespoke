@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust bindings for the simdjson project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038783,
+      "status": "candidate",
+      "text": "valid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009715,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9993878,
+      "status": "candidate",
+      "text": "tight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9901595,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9838677,
+      "status": "candidate",
+      "text": "bandaging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bindings",
+      "sense_id": "bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings",
+  "observation_id": "08988cfa9ac9e5ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bindings",
+  "source_context_snippet": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)",
+  "source_file": null,
+  "source_repo": "SunDoge/simdjson-rust",
+  "source_repo_description": "Rust bindings for the simdjson project."
+}

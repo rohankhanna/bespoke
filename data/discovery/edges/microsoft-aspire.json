@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire",
+      "target": "microsoft/aspire-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire",
+      "target": "microsoft/dcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-test-attributes.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-test-attributes.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-test-attributes.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-test-attributes.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Auto rerun transient CI failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backmerge-release.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backmerge-release.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backmerge-release.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backmerge-release.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Backmerge Release to Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "dotnet/arcade/.github/workflows/scheduled-action-cleanup-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-native-archives.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-native-archives.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli-native-archives.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Build native CLI archives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Build Packages (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/aspire",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/aspire",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/aspire",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/aspire"
+}

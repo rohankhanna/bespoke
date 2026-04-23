@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manually Build Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manually Build Website"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18471,
+      "status": "candidate",
+      "text": "colophon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18471,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "binding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18387,
+      "status": "candidate",
+      "text": "bookmark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Build Website",
+      "sense_id": "manually-build-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manually-build-website",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manually-build-website",
+  "observation_id": "6b70e0384a4e544d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Manually Build Website",
+  "source_context_snippet": "Manually Build Website",
+  "source_file": ".github/workflows/docs-manual-build.yml",
+  "source_repo": "Farama-Foundation/Gymnasium",
+  "source_repo_description": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+}

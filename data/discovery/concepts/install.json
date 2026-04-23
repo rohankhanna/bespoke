@@ -58,6 +58,18 @@
       "source_repo": "dtolnay/cargo-llvm-lines",
       "status": "candidate-context",
       "text": "Install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtolnay/cxx",
+      "status": "candidate-context",
+      "text": "Safe interop between Rust and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cxx",
+      "status": "candidate-context",
+      "text": "Install"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dtolnay/cargo-llvm-lines",
+      "status": "candidate",
+      "text": "Install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cxx",
       "status": "candidate",
       "text": "Install"
     }
@@ -192,11 +210,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cxx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

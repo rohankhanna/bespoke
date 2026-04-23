@@ -1,0 +1,12 @@
+{
+  "component": "roger-zhangg/sam-pr-reviewer@742fd2b1a8574050bcdeb41ffe0b762a11ba24d5",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "source_repo": "aws/aws-sam-cli"
+    }
+  ]
+}

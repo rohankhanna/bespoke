@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-Coder",
+      "target": "bigcode-project/bigcode-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-Coder",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-Coder",
+      "target": "dogewbx/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-Coder",
+      "target": "deepseek-ai/awesome-deepseek-coder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:34.537618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20310
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepSeek Coder: Let the Code Write Itself",
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-Coder",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+    "language": "Python",
+    "pushed_at": "2025-11-11T06:44:56Z",
+    "stargazers_count": 23071,
+    "topics": [],
+    "updated_at": "2026-04-23T21:37:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcode-project/bigcode-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepseek-ai/awesome-deepseek-coder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogewbx/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

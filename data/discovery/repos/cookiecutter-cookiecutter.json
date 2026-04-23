@@ -53,34 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "audreyfeldroy/cookiecutter-pypackage",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "cookiecutter/cookiecutter-django",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "pytest-dev/cookiecutter-pytest-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cookiecutter/cookiecutter",
-      "target": "collective/cookiecutter-plone-starter",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "cookiecutter/cookiecutter",
@@ -172,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:33:09.404072+00:00",
+  "fetched_at": "2026-04-23T22:16:59.628649+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -201,35 +173,14 @@
     "html_url": "https://github.com/cookiecutter/cookiecutter",
     "language": "Python",
     "pushed_at": "2026-04-01T17:46:44Z",
-    "stargazers_count": 24827,
+    "stargazers_count": 24828,
     "topics": [
       "cookiecutter",
       "python"
     ],
-    "updated_at": "2026-04-23T06:42:33Z"
+    "updated_at": "2026-04-23T16:20:33Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "audreyfeldroy/cookiecutter-pypackage",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "collective/cookiecutter-plone-starter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cookiecutter/cookiecutter-django",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pytest-dev/cookiecutter-pytest-plugin",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish to PyPI",

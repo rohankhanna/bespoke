@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release on Homebrew"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release on Homebrew"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "aided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "commercial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "cooperative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "equipment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release on Homebrew",
+      "sense_id": "release-on-homebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-on-homebrew",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-on-homebrew",
+  "observation_id": "638855c179b80b09",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release on Homebrew",
+  "source_context_snippet": "Release on Homebrew",
+  "source_file": ".github/workflows/release-brew.yml",
+  "source_repo": "httpie/cli",
+  "source_repo_description": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+}

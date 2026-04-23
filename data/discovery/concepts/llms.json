@@ -175,6 +175,114 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate-context",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "Easiest and laziest way for  building multi-agent LLMs applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "Python package wrapping llama.cpp for on-device LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate-context",
+      "text": "\ud83d\udc69\u200d\u2696\ufe0f Agent-as-a-Judge: The Magic for Open-Endedness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-python",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +369,60 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/litgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metauto-ai/agent-as-a-judge",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-java",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-js",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-python",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +568,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "metauto-ai/agent-as-a-judge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/adk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/adk-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/adk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

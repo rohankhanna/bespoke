@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Airbnb-\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10eb\u10e6\u10d5\u10d0\u10dc\u10d4\u10da\u10dd\u10e1 \u2014 \u201eCSS / Sass Style Guide\u201c \u2014 \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d7\u10d0\u10e0\u10d2\u10db\u10d0\u10dc\u10d8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19898987,
+      "status": "candidate",
+      "text": "cssom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19898986,
+      "status": "candidate",
+      "text": "sass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19898985,
+      "status": "candidate",
+      "text": "oops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19898984,
+      "status": "candidate",
+      "text": "xslt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19898983,
+      "status": "candidate",
+      "text": "cssa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oocss",
+      "sense_id": "oocss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oocss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oocss",
+  "observation_id": "2e1c8683d00ab521",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "oocss",
+  "source_context_snippet": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)",
+  "source_file": null,
+  "source_repo": "davidkadaria/css-style-guide",
+  "source_repo_description": "Airbnb-\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10eb\u10e6\u10d5\u10d0\u10dc\u10d4\u10da\u10dd\u10e1 \u2014 \u201eCSS / Sass Style Guide\u201c \u2014 \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d7\u10d0\u10e0\u10d2\u10db\u10d0\u10dc\u10d8."
+}

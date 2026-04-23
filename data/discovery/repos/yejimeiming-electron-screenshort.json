@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "electron-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "vite-plugin-electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yejimeiming/electron-screenshort",
+      "target": "vue",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:14.694054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79
+    },
+    {
+      "path": "package.json",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Electron \u622a\u56fe\u793a\u4f8b\uff0c\u53c2\u8003 https://github.com/027xiguapi/pear-rec",
+    "fork": false,
+    "full_name": "yejimeiming/electron-screenshort",
+    "html_url": "https://github.com/yejimeiming/electron-screenshort",
+    "language": "Vue",
+    "pushed_at": "2024-02-18T11:26:33Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-08-15T07:38:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

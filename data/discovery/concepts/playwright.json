@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "playwright"
+    "playwright",
+    "Playwright"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate-context",
       "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate-context",
+      "text": "Utilities for use with Playwright and Connect-ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate-context",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "\"Playwright\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate",
       "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-playwright-es",
+      "status": "candidate",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "\"Playwright\""
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +135,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "microsoft/playwright-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-playwright-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "cjpais/Handy"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

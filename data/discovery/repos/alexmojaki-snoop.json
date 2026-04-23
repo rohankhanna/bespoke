@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/snoop",
+      "target": "cool-rr/pysnooper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/snoop",
+      "target": "gruns/icecream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/snoop",
+      "target": "alexmojaki/birdseye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmojaki/snoop",
+      "target": "alexmojaki/cheap_repr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/snoop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/snoop",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/snoop",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/snoop",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/snoop",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/snoop",
+      "target": "debugging-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/snoop",
+      "target": "logging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:25.763942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21113
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 215
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A powerful set of Python debugging tools, based on PySnooper",
+    "fork": false,
+    "full_name": "alexmojaki/snoop",
+    "html_url": "https://github.com/alexmojaki/snoop",
+    "language": "Python",
+    "pushed_at": "2026-01-11T12:58:28Z",
+    "stargazers_count": 1452,
+    "topics": [
+      "debugger",
+      "debugging",
+      "debugging-tools",
+      "logging",
+      "python"
+    ],
+    "updated_at": "2026-04-21T20:42:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/birdseye",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/cheap_repr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cool-rr/pysnooper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gruns/icecream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tools"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    }
+  ]
+}

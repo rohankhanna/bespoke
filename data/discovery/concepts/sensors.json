@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sensors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": "Cross-platform lib for process and system monitoring in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": ".. <PYPI-EXCLUDE>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate",
+      "text": ".. <PYPI-EXCLUDE>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986542,
+      "status": "candidate",
+      "text": "detector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "alarms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "catchers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "catheters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "cells"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sensors",
+  "concept_id": "sensors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sensors",
+      "sense_id": "sensors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

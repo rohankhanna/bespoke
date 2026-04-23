@@ -1,7 +1,7 @@
 {
   "component": "Mic92/auto-merge@main",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yaml",
       "source_repo": "nix-community/harmonia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "Mic92/direnv-instant"
     }
   ]
 }

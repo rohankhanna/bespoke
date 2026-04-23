@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dupekit - Build Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
+      "status": "candidate-context",
+      "text": "Dupekit - Build Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/marin",
+      "status": "candidate",
+      "text": "Dupekit - Build Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11615,
+      "status": "candidate",
+      "text": "locks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11539,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11539,
+      "status": "candidate",
+      "text": "bridged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dupekit - Build Wheels",
+  "concept_id": "dupekit---build-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dupekit - Build Wheels",
+      "sense_id": "dupekit---build-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

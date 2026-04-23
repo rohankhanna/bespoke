@@ -1,0 +1,618 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1xH100_tests.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1xL4_tests.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/4xH100_tests.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/_claude-code.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-miniconda@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/upload-benchmark-results@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/ao",
+      "target": "sayakpaul/diffusers-torchao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/torchtune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/torchtitan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/ao",
+      "target": "meta-pytorch/mslk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1xH100_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/1xH100_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Run 1xH100 Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1xL4_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/1xL4_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Run 1xL4 Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/4xH100_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/4xH100_tests.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Run 4xH100 tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/ao",
+      "target": "dawidd6/action-send-mail@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Build Linux Wheels (AArch64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/ao",
+      "target": "dawidd6/action-send-mail@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Build Linux Wheels (x86)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/workflows/_claude-code.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml",
+      "source_repo": "pytorch/ao",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/actions/setup-miniconda@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard_perf_test.yml",
+      "source_repo": "pytorch/ao",
+      "target": "pytorch/test-infra/.github/actions/upload-benchmark-results@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard_perf_test.yml",
+      "source_repo": "pytorch/ao",
+      "target": "A100-perf-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "brrr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "dtypes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "float8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "sparsity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/ao",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:49.179159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19358
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 376
+    },
+    {
+      "path": ".github/workflows/1xH100_tests.yml",
+      "size": 2277
+    },
+    {
+      "path": ".github/workflows/1xL4_tests.yml",
+      "size": 1665
+    },
+    {
+      "path": ".github/workflows/4xH100_tests.yml",
+      "size": 1477
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "size": 3247
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_x86.yml",
+      "size": 3454
+    },
+    {
+      "path": ".github/workflows/claude-code.yml",
+      "size": 310
+    },
+    {
+      "path": ".github/workflows/dashboard_perf_test.yml",
+      "size": 4012
+    },
+    {
+      "path": ".github/workflows/doc_build.yml",
+      "size": 5850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch native quantization and sparsity for training and inference",
+    "fork": false,
+    "full_name": "pytorch/ao",
+    "html_url": "https://github.com/pytorch/ao",
+    "language": "Python",
+    "pushed_at": "2026-04-23T20:58:49Z",
+    "stargazers_count": 2794,
+    "topics": [
+      "brrr",
+      "cuda",
+      "dtypes",
+      "float8",
+      "inference",
+      "llama",
+      "mx",
+      "pytorch",
+      "quantization",
+      "sparsity",
+      "training",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T18:59:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-pytorch/mslk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchtitan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchtune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sayakpaul/diffusers-torchao",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run 1xH100 Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/1xH100_tests.yml",
+      "term": "Run 1xH100 Tests"
+    },
+    {
+      "context_snippet": "Run 1xL4 Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/1xL4_tests.yml",
+      "term": "Run 1xL4 Tests"
+    },
+    {
+      "context_snippet": "Run 4xH100 tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/4xH100_tests.yml",
+      "term": "Run 4xH100 tests"
+    },
+    {
+      "context_snippet": "Build Linux Wheels (AArch64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "term": "Build Linux Wheels (AArch64)"
+    },
+    {
+      "context_snippet": "Build Linux Wheels (x86)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "term": "Build Linux Wheels (x86)"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "A100-perf-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard_perf_test.yml",
+      "term": "A100-perf-nightly"
+    },
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_build.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brrr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtypes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "float8"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

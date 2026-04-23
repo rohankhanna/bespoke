@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940998,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933203,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922625,
+      "status": "candidate",
+      "text": "arrangement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867657,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953865,
+      "status": "candidate",
+      "text": "system of rules"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "system",
+      "sense_id": "system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27045,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25063,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "arrangement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5022,
+      "status": "candidate",
+      "text": "organisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "system of rules"
+    }
+  ],
+  "concept_id": "system",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "system",
+  "observation_id": "b6e6c2ff218a4e52",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "system",
+  "source_context_snippet": "![Systemd](http://brand.systemd.io/assets/page-logo.png)",
+  "source_file": null,
+  "source_repo": "systemd/systemd",
+  "source_repo_description": "The systemd System and Service Manager "
+}

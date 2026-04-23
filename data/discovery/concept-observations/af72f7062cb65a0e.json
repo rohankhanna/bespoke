@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "apple build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "apple build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "alar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "apples"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "bob"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "apple build",
+      "sense_id": "apple-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apple-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apple-build",
+  "observation_id": "af72f7062cb65a0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "apple build",
+  "source_context_snippet": "apple build",
+  "source_file": ".github/workflows/apple.yml",
+  "source_repo": "open-quantum-safe/liboqs",
+  "source_repo_description": "C library for prototyping and experimenting with quantum-resistant cryptography"
+}

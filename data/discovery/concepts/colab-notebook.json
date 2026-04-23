@@ -19,6 +19,42 @@
       "source_repo": "camenduru/grounded-segment-anything-colab",
       "status": "candidate-context",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate-context",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "stable diffusion webui colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate-context",
+      "text": "Gradio wrapper for sd-scripts by kohya"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "camenduru/grounded-segment-anything-colab",
       "status": "candidate",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "advimman/lama",
+      "status": "candidate",
+      "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "camenduru/grounded-segment-anything-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

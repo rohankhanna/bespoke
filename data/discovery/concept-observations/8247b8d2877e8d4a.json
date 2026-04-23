@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example code for how to get hashicorp/raft running with gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grpc-go",
+      "sense_id": "grpc-go#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grpc-go",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grpc-go",
+  "observation_id": "8247b8d2877e8d4a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "grpc-go",
+  "source_context_snippet": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC.",
+  "source_file": null,
+  "source_repo": "Jille/raft-grpc-example",
+  "source_repo_description": "Example code for how to get hashicorp/raft running with gRPC"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:06:32.335693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Python mock library",
+    "fork": false,
+    "full_name": "testing-cabal/mock",
+    "html_url": "https://github.com/testing-cabal/mock",
+    "language": "Python",
+    "pushed_at": "2025-03-03T12:31:44Z",
+    "stargazers_count": 539,
+    "topics": [],
+    "updated_at": "2026-04-10T12:14:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

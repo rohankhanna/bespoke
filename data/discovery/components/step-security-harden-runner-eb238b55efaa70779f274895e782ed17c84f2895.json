@@ -1,0 +1,42 @@
+{
+  "component": "step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azwi-build.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azwi-e2e.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

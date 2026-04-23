@@ -178,21 +178,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "callstack/react-native-builder-bob",
-      "target": "react-native-community/rnnewarchitecturelibraries",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "callstack/react-native-builder-bob",
       "target": "brodybits/react-native-module-init",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "callstack/react-native-builder-bob",
-      "target": "react-navigation/react-navigation",
       "target_type": "repository"
     },
     {
@@ -490,7 +476,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:46:36.994623+00:00",
+  "fetched_at": "2026-04-23T21:12:24.902193+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -557,16 +543,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "react-native-community/react-native-webview",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "react-native-community/rnnewarchitecturelibraries",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "react-navigation/react-navigation",
-      "source_file": "package.json"
     }
   ],
   "terms": [

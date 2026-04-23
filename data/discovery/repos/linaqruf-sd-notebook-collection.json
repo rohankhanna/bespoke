@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "alulkesh/sd_delete_button",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "butaixianran/stable-diffusion-webui-civitai-helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "bing-su/adetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/sd-notebook-collection",
+      "target": "anapnoe/stable-diffusion-webui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:57.350464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Linaqruf/sd-notebook-collection",
+    "html_url": "https://github.com/Linaqruf/sd-notebook-collection",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-20T01:31:04Z",
+    "stargazers_count": 211,
+    "topics": [],
+    "updated_at": "2025-11-19T11:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alulkesh/sd_delete_button",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anapnoe/stable-diffusion-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bing-su/adetailer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "butaixianran/stable-diffusion-webui-civitai-helper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

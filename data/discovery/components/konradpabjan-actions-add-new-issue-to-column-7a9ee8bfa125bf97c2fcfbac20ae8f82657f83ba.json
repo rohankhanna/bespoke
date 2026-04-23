@@ -1,0 +1,17 @@
+{
+  "component": "konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-support-requests-to-board.yml",
+      "source_repo": "dotnet-foundation/projects"
+    }
+  ]
+}

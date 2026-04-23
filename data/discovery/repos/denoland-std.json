@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/deployctl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_bump.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_bump.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace_publish.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace_publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denoland/std",
+      "target": "semver/semver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "denoland/deployctl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std",
+      "target": "hecrj/setup-rust-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "denoland/std",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "denoland/std",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "denoland/std",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "denoland/std",
+      "target": "Lint PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_bump.yml",
+      "source_repo": "denoland/std",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_bump.yml",
+      "source_repo": "denoland/std",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace_publish.yml",
+      "source_repo": "denoland/std",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace_publish.yml",
+      "source_repo": "denoland/std",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace_publish.yml",
+      "source_repo": "denoland/std",
+      "target": "workspace publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/std",
+      "target": "deno",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:33.386853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5362
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 252
+    },
+    {
+      "path": ".github/workflows/title.yml",
+      "size": 2045
+    },
+    {
+      "path": ".github/workflows/version_bump.yml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/workspace_publish.yml",
+      "size": 578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Deno Standard Library",
+    "fork": false,
+    "full_name": "denoland/std",
+    "html_url": "https://github.com/denoland/std",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T14:53:45Z",
+    "stargazers_count": 3535,
+    "topics": [
+      "deno",
+      "javascript",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T14:54:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semver/semver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "\"Lint PR title\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "term": "Lint PR title"
+    },
+    {
+      "context_snippet": "workspace publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace_publish.yml",
+      "term": "workspace publish"
+    },
+    {
+      "context_snippet": "[![JSR @std](https://jsr.io/badges/@std)](https://jsr.io/@std)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    }
+  ]
+}

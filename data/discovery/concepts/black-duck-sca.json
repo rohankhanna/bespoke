@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Black Duck SCA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "CUDA Core Compute Libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate-context",
+      "text": "Black Duck SCA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cccl",
+      "status": "candidate",
+      "text": "Black Duck SCA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27070,
+      "status": "candidate",
+      "text": "redhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27070,
+      "status": "candidate",
+      "text": "scoter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26670,
+      "status": "candidate",
+      "text": "scooter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26270,
+      "status": "candidate",
+      "text": "black duck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26270,
+      "status": "candidate",
+      "text": "bufflehead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Black Duck SCA",
+  "concept_id": "black-duck-sca",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/blackduck-sca.yml",
+      "source_repo": "NVIDIA/cccl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Black Duck SCA",
+      "sense_id": "black-duck-sca#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:40.971909+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "A highly customizable, full scale web backend for web-rwkv, built on axum with websocket protocol.",
+    "fork": false,
+    "full_name": "Prunoideae/web-rwkv-axum",
+    "html_url": "https://github.com/Prunoideae/web-rwkv-axum",
+    "language": "Rust",
+    "pushed_at": "2024-04-15T02:43:55Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-11-30T03:53:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

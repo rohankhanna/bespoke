@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Checks",
-    "checks"
+    "checks",
+    "\u2705 Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -236,6 +237,36 @@
       "source_repo": "TrigenSoftware/simple-release",
       "status": "candidate-context",
       "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "A collection of sample agents built with Agent Development Kit (ADK) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "\u2705 Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "a golang based cli to run a subset of Actions version v0.3 of act"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "checks"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +383,24 @@
       "source_repo": "TrigenSoftware/simple-release",
       "status": "candidate",
       "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate",
+      "text": "\u2705 Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate",
+      "text": "checks"
     }
   ],
   "candidate_related_terms": [
@@ -389,6 +438,41 @@
       "score": 9904102,
       "status": "candidate",
       "text": "check into"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "balances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_synonyms": [],
@@ -515,11 +599,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "actions-oss/act-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

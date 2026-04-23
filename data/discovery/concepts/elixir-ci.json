@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Elixir CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/cid",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0fcid (\"content id\") is a human-friendly (readable/typeable) unique ID function built for distributed/decentralised systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/cid",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": ":droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe2 auth_plug lets you seamlessly add authentication to your Phoenix App with ONE Environment Variable\u2122  in less than 2 minutes! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/cid",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elixir",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/auth_plug",
+      "status": "candidate",
+      "text": "Elixir CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "alchemy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "arcanum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "cure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "panacea"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Elixir CI",
+  "concept_id": "elixir-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-elixir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/auth_plug"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Elixir CI",
+      "sense_id": "elixir-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

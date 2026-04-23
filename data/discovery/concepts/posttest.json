@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Posttest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "Posttest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "Posttest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991401,
+      "status": "candidate",
+      "text": "pretest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006679,
+      "status": "candidate",
+      "text": "postperformance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006678,
+      "status": "candidate",
+      "text": "postobservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006677,
+      "status": "candidate",
+      "text": "posttesting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006676,
+      "status": "candidate",
+      "text": "postmeasurement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Posttest",
+  "concept_id": "posttest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/posttest.yml",
+      "source_repo": "graphile/crystal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Posttest",
+      "sense_id": "posttest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

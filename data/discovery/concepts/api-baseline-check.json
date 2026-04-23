@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Baseline Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "API Baseline Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate",
+      "text": "API Baseline Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24749,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "filming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "microfilm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24189,
+      "status": "candidate",
+      "text": "command"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Baseline Check",
+  "concept_id": "api-baseline-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Baseline Check",
+      "sense_id": "api-baseline-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

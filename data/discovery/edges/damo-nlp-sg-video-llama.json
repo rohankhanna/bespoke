@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "damo-nlp-sg/videollama2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "m-bain/webvid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "facebookresearch/imagebind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "blip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "cross-modal-pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "minigpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "multi-modal-chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "video-language-pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "vision-language-pretraining",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "DAMO-NLP-SG/Video-LLaMA"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Dockerfile References"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Dockerfile References"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12502,
+      "status": "candidate",
+      "text": "citations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12502,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12502,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12502,
+      "status": "candidate",
+      "text": "referrals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12199,
+      "status": "candidate",
+      "text": "footnote"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Dockerfile References",
+      "sense_id": "check-dockerfile-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-dockerfile-references",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-dockerfile-references",
+  "observation_id": "7849afb156202a76",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check Dockerfile References",
+  "source_context_snippet": "Check Dockerfile References",
+  "source_file": ".github/workflows/check-dockerfile-references.yml",
+  "source_repo": "harbor-framework/terminal-bench",
+  "source_repo_description": "A benchmark for LLMs on complicated tasks in the terminal"
+}

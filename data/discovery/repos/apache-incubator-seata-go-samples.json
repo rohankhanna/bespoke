@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "golangci/golangci-lint-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "golang ci lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:45:06.538054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3251
+    },
+    {
+      "path": "go.mod",
+      "size": 8376
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2428
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 2014
+    },
+    {
+      "path": ".github/workflows/license-checker.yaml",
+      "size": 1935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples for seata-go",
+    "fork": false,
+    "full_name": "apache/incubator-seata-go-samples",
+    "html_url": "https://github.com/apache/incubator-seata-go-samples",
+    "language": "Go",
+    "pushed_at": "2026-01-31T08:59:35Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-06T06:14:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"golang ci lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golang ci lint"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "term": "License checker"
+    }
+  ]
+}

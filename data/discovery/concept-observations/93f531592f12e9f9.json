@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd80\ud83c\udf21\ufe0f Real-time system monitor for Apple Silicon Macs (M1\u2013M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "paraview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "knime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "qgis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "orange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "opennms"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grafana",
+      "sense_id": "grafana#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grafana",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grafana",
+  "observation_id": "93f531592f12e9f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "grafana",
+  "source_context_snippet": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026",
+  "source_file": null,
+  "source_repo": "vladkens/macmon",
+  "source_repo_description": "\ud83e\udd80\ud83c\udf21\ufe0f Real-time system monitor for Apple Silicon Macs (M1\u2013M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library."
+}

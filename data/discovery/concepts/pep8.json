@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "pep8"
+    "pep8",
+    "PEP8"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "astral-sh/ruff",
       "status": "candidate-context",
       "text": "<!-- Begin section: Overview -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate-context",
+      "text": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate-context",
+      "text": "PEP8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "Naming Convention checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "PEP 8 Naming Conventions"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "astral-sh/ruff",
       "status": "candidate",
       "text": "<!-- Begin section: Overview -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/TextWorld",
+      "status": "candidate",
+      "text": "PEP8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate",
+      "text": "PEP 8 Naming Conventions"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +85,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "MarcCote/TextWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

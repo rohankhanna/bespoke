@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "android build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "android build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12986,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12986,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12561,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12561,
+      "status": "candidate",
+      "text": "icon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "android build",
+      "sense_id": "android-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-build",
+  "observation_id": "8175fa95733792da",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "android build",
+  "source_context_snippet": "android build",
+  "source_file": ".github/workflows/android.yml",
+  "source_repo": "open-quantum-safe/liboqs",
+  "source_repo_description": "C library for prototyping and experimenting with quantum-resistant cryptography"
+}

@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "@movable/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@movable/eslint-config-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@movable/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/qunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "testdouble",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "volta-cli/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "volta-cli/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "@movable/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "@movable/eslint-config-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "@movable/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "@types/qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "testdouble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "Auto-Merge PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "volta-cli/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "qunit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "stubs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "testdouble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexlafroscia/testdouble-qunit",
+      "target": "verify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:53:22.766869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1226
+    },
+    {
+      "path": "package.json",
+      "size": 1737
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 298
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Verify testdouble stubs with QUnit",
+    "fork": false,
+    "full_name": "alexlafroscia/testdouble-qunit",
+    "html_url": "https://github.com/alexlafroscia/testdouble-qunit",
+    "language": "TypeScript",
+    "pushed_at": "2025-03-03T04:03:52Z",
+    "stargazers_count": 1,
+    "topics": [
+      "qunit",
+      "stubs",
+      "testdouble",
+      "verify"
+    ],
+    "updated_at": "2024-12-10T11:09:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-Merge PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Auto-Merge PR"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qunit"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stubs"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testdouble"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verify"
+    }
+  ]
+}

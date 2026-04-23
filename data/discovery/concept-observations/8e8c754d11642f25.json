@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close stale issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18369,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18238,
+      "status": "candidate",
+      "text": "level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18174,
+      "status": "candidate",
+      "text": "threadbare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18121,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stale issues and PRs",
+      "sense_id": "close-stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-stale-issues-and-prs",
+  "observation_id": "8e8c754d11642f25",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Close stale issues and PRs",
+  "source_context_snippet": "Close stale issues and PRs",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "huggingface/optimum",
+  "source_repo_description": "\ud83d\ude80 Accelerate inference and training of \ud83e\udd17 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools"
+}

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gym",
+      "target": "farama-foundation/gymnasium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gym",
+      "target": "farama-foundation/gym-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gym",
+      "target": "thu-ml/tianshou",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gym",
+      "target": "farama-foundation/pettingzoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openai/gym",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openai/gym",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "openai/gym",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:05.329478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4854
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1263
+    },
+    {
+      "path": "requirements.txt",
+      "size": 334
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 550
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A toolkit for developing and comparing reinforcement learning algorithms.",
+    "fork": false,
+    "full_name": "openai/gym",
+    "html_url": "https://github.com/openai/gym",
+    "language": "Python",
+    "pushed_at": "2026-03-26T23:13:27Z",
+    "stargazers_count": 37174,
+    "topics": [],
+    "updated_at": "2026-04-23T16:11:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/gym-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/gymnasium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/pettingzoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/tianshou",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-msi.yaml",
       "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-ci.yml",
+      "source_repo": "swiftlang/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "python-poetry/cleo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/cleo"
     }
   ]
 }

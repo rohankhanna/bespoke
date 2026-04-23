@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPT-2 Small Integration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate-context",
+      "text": "Legible, Scalable, Reproducible Foundation Models with Named Tensors and Jax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate-context",
+      "text": "GPT-2 Small Integration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/levanter",
+      "status": "candidate",
+      "text": "GPT-2 Small Integration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41433,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32372,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31768,
+      "status": "candidate",
+      "text": "ssi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27298,
+      "status": "candidate",
+      "text": "patch test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27298,
+      "status": "candidate",
+      "text": "skin test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPT-2 Small Integration Test",
+  "concept_id": "gpt-2-small-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gpt2_small_itest.yaml",
+      "source_repo": "marin-community/levanter"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPT-2 Small Integration Test",
+      "sense_id": "gpt-2-small-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

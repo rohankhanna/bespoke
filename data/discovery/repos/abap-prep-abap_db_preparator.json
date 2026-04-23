@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABAP-prep/abap_db_preparator",
+      "target": "cesar-sap/abap_fm_json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ABAP-prep/abap_db_preparator",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:18.813970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ABAP database preparation (mirror from https://github.com/bunysae/abap_db_preparator).",
+    "fork": false,
+    "full_name": "ABAP-prep/abap_db_preparator",
+    "html_url": "https://github.com/ABAP-prep/abap_db_preparator",
+    "language": "ABAP",
+    "pushed_at": "2024-06-07T12:06:40Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-06-07T12:06:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cesar-sap/abap_fm_json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zhou-Wang/MemVR",
+      "target": "pku-yuangroup/chat-univi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zhou-Wang/MemVR",
+      "target": "shikiw/opera",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zhou-Wang/MemVR",
+      "target": "damo-nlp-sg/vcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zhou-Wang/MemVR",
+      "target": "qwenlm/qwen-vl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "1zhou-Wang/MemVR"
+}

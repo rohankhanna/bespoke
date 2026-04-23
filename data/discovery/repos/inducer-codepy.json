@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "MarkusJx/install-boost@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/codepy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/codepy",
+      "target": "Gitlab mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/codepy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/codepy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/codepy",
+      "target": "MarkusJx/install-boost@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:13.007733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 949
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2443
+    },
+    {
+      "path": "requirements.txt",
+      "size": 49
+    },
+    {
+      "path": ".github/workflows/autopush.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate and execute native code at run time, from Python",
+    "fork": false,
+    "full_name": "inducer/codepy",
+    "html_url": "https://github.com/inducer/codepy",
+    "language": "Python",
+    "pushed_at": "2026-03-15T19:48:41Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-07T13:45:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gitlab mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "term": "Gitlab mirror"
+    }
+  ]
+}

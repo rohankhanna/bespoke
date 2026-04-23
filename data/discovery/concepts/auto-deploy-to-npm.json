@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Deploy to NPM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/navpress",
+      "status": "candidate-context",
+      "text": "Easy navigation generator "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/navpress",
+      "status": "candidate-context",
+      "text": "Auto Deploy to NPM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/navpress",
+      "status": "candidate",
+      "text": "Auto Deploy to NPM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23513,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23513,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23392,
+      "status": "candidate",
+      "text": "delayed action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23392,
+      "status": "candidate",
+      "text": "gig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23392,
+      "status": "candidate",
+      "text": "hamper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Deploy to NPM",
+  "concept_id": "auto-deploy-to-npm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/navpress"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Deploy to NPM",
+      "sense_id": "auto-deploy-to-npm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

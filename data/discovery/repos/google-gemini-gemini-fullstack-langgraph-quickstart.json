@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "target": "gemini-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:37.883652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6392
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
+    "fork": false,
+    "full_name": "google-gemini/gemini-fullstack-langgraph-quickstart",
+    "html_url": "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-16T01:42:21Z",
+    "stargazers_count": 18114,
+    "topics": [
+      "gemini",
+      "gemini-api"
+    ],
+    "updated_at": "2026-04-23T17:16:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on t\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label and close inactive issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "Label and close inactive issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "Label and close inactive issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28108,
+      "status": "candidate",
+      "text": "canton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28108,
+      "status": "candidate",
+      "text": "doriden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28052,
+      "status": "candidate",
+      "text": "bingo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28052,
+      "status": "candidate",
+      "text": "crash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28052,
+      "status": "candidate",
+      "text": "defile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label and close inactive issues",
+  "concept_id": "label-and-close-inactive-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIA/TensorRT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label and close inactive issues",
+      "sense_id": "label-and-close-inactive-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

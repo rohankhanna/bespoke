@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "dotnet/nbgv@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "PR CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_build_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_build_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_build_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "dotnet/nbgv@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_build_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "main build status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_tests_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_tests_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_tests_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "dotnet/nbgv@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_tests_status.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "main tests status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "perftools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "microsoft/microsoft-performance-toolkit-sdk"
+}

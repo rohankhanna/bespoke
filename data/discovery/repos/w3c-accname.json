@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:04:39.632243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accessible Name and Description Computation",
+    "fork": false,
+    "full_name": "w3c/accname",
+    "html_url": "https://github.com/w3c/accname",
+    "language": null,
+    "pushed_at": "2026-04-19T15:47:32Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-08T12:34:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

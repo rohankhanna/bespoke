@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/staleness.yml",
       "source_repo": "google/clusterfuzz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-swift"
     }
   ]
 }

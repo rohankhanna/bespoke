@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Diem\u2019s mission is to build a trusted and innovative financial network that empowers people and businesses around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependency Notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependency Notifier"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11931,
+      "status": "candidate",
+      "text": "notification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "dad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "journalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "oxidase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11397,
+      "status": "candidate",
+      "text": "accession"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Notifier",
+      "sense_id": "dependency-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-notifier",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-notifier",
+  "observation_id": "80c38e976c99fb2b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Dependency Notifier",
+  "source_context_snippet": "Dependency Notifier",
+  "source_file": ".github/workflows/dep-summaries.yml",
+  "source_repo": "diem/diem",
+  "source_repo_description": "Diem\u2019s mission is to build a trusted and innovative financial network that empowers people and businesses around the world."
+}

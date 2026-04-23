@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"target supported version\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"target supported version\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26161,
+      "status": "candidate",
+      "text": "call fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18118,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18118,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "order"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "target supported version",
+      "sense_id": "target-supported-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "target-supported-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "target-supported-version",
+  "observation_id": "377968cbd5d308a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "target supported version",
+  "source_context_snippet": "\"target supported version\"",
+  "source_file": ".github/workflows/version-sweep.yml",
+  "source_repo": "dotnet/samples",
+  "source_repo_description": "Sample code referenced by the .NET documentation"
+}

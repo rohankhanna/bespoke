@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Coobiw/IE-Critic-R1",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Coobiw/IE-Critic-R1",
+      "target": "qwenlm/qwen2.5-vl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Coobiw/IE-Critic-R1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Coobiw/IE-Critic-R1",
+      "target": "lwpyh/awesome-mllm-reasoning-collection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:13.258737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6943
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 797
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "IE-Critic-R1: Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment",
+    "fork": false,
+    "full_name": "Coobiw/IE-Critic-R1",
+    "html_url": "https://github.com/Coobiw/IE-Critic-R1",
+    "language": "Python",
+    "pushed_at": "2025-11-26T20:24:23Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-01-29T07:52:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lwpyh/awesome-mllm-reasoning-collection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5-vl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

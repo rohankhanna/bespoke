@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:14:29.158855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast MoE impl for PyTorch",
+    "fork": false,
+    "full_name": "laekov/fastmoe",
+    "html_url": "https://github.com/laekov/fastmoe",
+    "language": "Python",
+    "pushed_at": "2025-02-10T06:04:33Z",
+    "stargazers_count": 1849,
+    "topics": [],
+    "updated_at": "2026-04-23T15:30:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

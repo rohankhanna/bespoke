@@ -19,12 +19,102 @@
       "source_repo": "Novum/vkQuake",
       "status": "candidate-context",
       "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/ftop",
+      "status": "candidate-context",
+      "text": "Finformative top for finding fiery processes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/ftop",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Linux CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Novum/vkQuake",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/ftop",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
       "status": "candidate",
       "text": "Linux CI"
     }
@@ -76,11 +166,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "Novum/vkQuake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/moor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/ftop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/riff"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

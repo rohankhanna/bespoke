@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker://emscripten/emsdk",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "supranational/blst",
+      "target": "galoisinc/blst-verification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "docker://emscripten/emsdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "supranational/blst",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "supranational/blst",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "supranational/blst",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "supranational/blst",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml",
+      "source_repo": "supranational/blst",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-lint.yml",
+      "source_repo": "supranational/blst",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-lint.yml",
+      "source_repo": "supranational/blst",
+      "target": "golang-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "bls-signature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "bls12-381",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "blst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "blst-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "eth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "filecoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "hash-to-curve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/blst",
+      "target": "signatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:52:13.818458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15681
+    },
+    {
+      "path": "go.mod",
+      "size": 46
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10322
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1230
+    },
+    {
+      "path": ".github/workflows/golang-lint.yml",
+      "size": 2026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multilingual BLS12-381 signature library",
+    "fork": false,
+    "full_name": "supranational/blst",
+    "html_url": "https://github.com/supranational/blst",
+    "language": "Assembly",
+    "pushed_at": "2026-04-17T18:09:02Z",
+    "stargazers_count": 556,
+    "topics": [
+      "bls-signature",
+      "bls12-381",
+      "blst",
+      "blst-library",
+      "eth2",
+      "filecoin",
+      "hash-to-curve",
+      "signatures"
+    ],
+    "updated_at": "2026-04-21T13:43:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "galoisinc/blst-verification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "golang-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-lint.yml",
+      "term": "golang-lint"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bls-signature"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bls12-381"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blst"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blst-library"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eth2"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-to-curve"
+    },
+    {
+      "context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signatures"
+    }
+  ]
+}

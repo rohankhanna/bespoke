@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "dathere/qsv-easy-windows-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah"
     }
   ],
   "term": "installer"

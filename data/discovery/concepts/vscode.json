@@ -259,6 +259,42 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "Go extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate-context",
+      "text": "A GitHub Action and Azure DevOps Task designed to simplify using Dev Containers (https://containers.dev) in CI/CD systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate-context",
+      "text": "The Dev Container Build and Run GitHub Action is aimed at making it easier to re-use [Dev Containers](https://containers.dev) in a GitHub workflow. The Action supports using a Dev Container to run commands for CI, testing, and more, along with pre-building a Dev Container image.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "microsoft/vscode-js-debug",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/vscode-go",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-gophers-green.svg?style=flat)](https://gophers.slack.com/messages/vscode/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/ci",
+      "status": "candidate",
+      "text": "The Dev Container Build and Run GitHub Action is aimed at making it easier to re-use [Dev Containers](https://containers.dev) in a GitHub workflow. The Action supports using a Dev Container to run commands for CI, testing, and more, along with pre-building a Dev Container image.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +574,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "golang/vscode-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

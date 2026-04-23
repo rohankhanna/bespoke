@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968515,
+      "status": "candidate",
+      "text": "successiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966825,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947087,
+      "status": "candidate",
+      "text": "episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974748,
+      "status": "candidate",
+      "text": "chronological sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974748,
+      "status": "candidate",
+      "text": "chronological succession"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequence",
+      "sense_id": "sequence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8053,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3043,
+      "status": "candidate",
+      "text": "episode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "successiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "chronological succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "chronological sequence"
+    }
+  ],
+  "concept_id": "sequence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sequence",
+  "observation_id": "c155221d35a9a170",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sequence",
+  "source_context_snippet": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`",
+  "source_file": null,
+  "source_repo": "jonschlinkert/fill-range",
+  "source_repo_description": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+}

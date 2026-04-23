@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Enforce Version Conventions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Enforce Version Conventions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate",
+      "text": "Enforce Version Conventions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18178,
+      "status": "candidate",
+      "text": "apply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18178,
+      "status": "candidate",
+      "text": "implement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18178,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18178,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18178,
+      "status": "candidate",
+      "text": "pressed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Enforce Version Conventions",
+  "concept_id": "enforce-version-conventions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/enforce-version-convention.yml",
+      "source_repo": "getsentry/sentry-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce Version Conventions",
+      "sense_id": "enforce-version-conventions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

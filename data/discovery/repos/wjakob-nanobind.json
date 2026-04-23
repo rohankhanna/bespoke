@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "deadsnakes/action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wjakob/nanobind",
+      "target": "wjakob/nanobind_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wjakob/nanobind",
+      "target": "fenics/dolfinx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "deadsnakes/action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "Jimver/cuda-toolkit@v0.2.17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "source_repo": "wjakob/nanobind",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjakob/nanobind",
+      "target": "pybind11",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:19.626862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5515
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2109
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7785
+    },
+    {
+      "path": ".github/workflows/nvcc-win.yml",
+      "size": 922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nanobind: tiny and efficient C++/Python bindings",
+    "fork": false,
+    "full_name": "wjakob/nanobind",
+    "html_url": "https://github.com/wjakob/nanobind",
+    "language": "C++",
+    "pushed_at": "2026-04-14T20:35:35Z",
+    "stargazers_count": 3471,
+    "topics": [
+      "bindings",
+      "cpp17",
+      "pybind11",
+      "python"
+    ],
+    "updated_at": "2026-04-23T21:16:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fenics/dolfinx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wjakob/nanobind_example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybind11"
+    }
+  ]
+}

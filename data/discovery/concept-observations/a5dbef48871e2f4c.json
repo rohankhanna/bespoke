@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPU Accelerated t-SNE for CUDA with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-visualization",
+      "sense_id": "data-visualization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-visualization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-visualization",
+  "observation_id": "a5dbef48871e2f4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "data-visualization",
+  "source_context_snippet": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)",
+  "source_file": null,
+  "source_repo": "CannyLab/tsne-cuda",
+  "source_repo_description": "GPU Accelerated t-SNE for CUDA with Python bindings"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitset-library",
+      "sense_id": "bitset-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bitset-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bitset-library",
+  "observation_id": "81ebe37b9fe532a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bitset-library",
+  "source_context_snippet": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026",
+  "source_file": null,
+  "source_repo": "RoaringBitmap/CRoaring",
+  "source_repo_description": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+}

@@ -163,6 +163,18 @@
       "source_repo": "quchangle1/LLM-Tool-Survey",
       "status": "candidate-context",
       "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "quchangle1/LLM-Tool-Survey",
       "status": "candidate",
       "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate",
+      "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +406,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "quchangle1/LLM-Tool-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

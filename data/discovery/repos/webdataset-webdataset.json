@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdataset/webdataset",
+      "target": "tmbdev/webdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdataset/webdataset",
+      "target": "webdataset/webdataset.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdataset/webdataset",
+      "target": "webdataset/tarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset",
+      "target": "webdataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset",
+      "target": "webdataset-format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:17:10.398958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9904
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3639
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-performance Python-based I/O system for large (and small) deep learning problems, with strong support for PyTorch.",
+    "fork": false,
+    "full_name": "webdataset/webdataset",
+    "html_url": "https://github.com/webdataset/webdataset",
+    "language": "Python",
+    "pushed_at": "2026-02-09T14:48:08Z",
+    "stargazers_count": 3063,
+    "topics": [
+      "data-augmentation",
+      "deep-learning",
+      "pytorch",
+      "webdataset",
+      "webdataset-format"
+    ],
+    "updated_at": "2026-04-23T04:24:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbdev/webdataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webdataset/tarp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webdataset/webdataset.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdataset"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/tmbdev/webdataset/workflows/CI/badge.svg)](https://github.com/tmbdev/webdataset/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdataset-format"
+    }
+  ]
+}

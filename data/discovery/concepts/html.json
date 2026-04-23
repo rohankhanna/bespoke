@@ -115,6 +115,66 @@
       "source_repo": "pagedjs/pagedjs",
       "status": "candidate-context",
       "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "converts nroff man pages to HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "Official ESLint plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate-context",
+      "text": "Airbnb-\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10eb\u10e6\u10d5\u10d0\u10dc\u10d4\u10da\u10dd\u10e1 \u2014 \u201eCSS / Sass Style Guide\u201c \u2014 \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d7\u10d0\u10e0\u10d2\u10db\u10d0\u10dc\u10d8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate-context",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Fast Link Checker for Markdown and HTML in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +231,36 @@
       "source_repo": "pagedjs/pagedjs",
       "status": "candidate",
       "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/eslint-plugin-vue",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkadaria/css-style-guide",
+      "status": "candidate",
+      "text": "> \u10d3\u10d4\u10d3\u10d0\u10dc\u10d8: [Airbnb/CSS](https://github.com/airbnb/css)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +366,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "pagedjs/pagedjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bagder/roffit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/eslint-plugin-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "davidkadaria/css-style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "raviqqe/liche"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "playback"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017927,
+      "status": "candidate",
+      "text": "replaying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017207,
+      "status": "candidate",
+      "text": "reprinting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015616,
+      "status": "candidate",
+      "text": "replay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014368,
+      "status": "candidate",
+      "text": "resubmission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010585,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "playback",
+  "concept_id": "playback",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playback",
+      "sense_id": "playback#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

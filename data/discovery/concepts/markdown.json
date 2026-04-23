@@ -307,6 +307,162 @@
       "source_repo": "PeterDaveHello/docker-doctoc",
       "status": "candidate-context",
       "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate-context",
+      "text": "About me and my tools!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate-context",
+      "text": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "Flat file markdown blogging system with filesystem watch and extended markdown support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "Rich is a Python library for rich text and beautiful formatting in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate-context",
+      "text": "`$ mdsh` # a markdown shell pre-processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Fast Link Checker for Markdown and HTML in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "Static site generator for .NET API documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate-context",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "sphinx builder that outputs jekyll compatible markdown files with frontmatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "<a href=\"https://marked.js.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +615,84 @@
       "source_repo": "PeterDaveHello/docker-doctoc",
       "status": "candidate",
       "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate",
+      "text": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate",
+      "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docfx",
+      "status": "candidate",
+      "text": "[![NuGet](https://img.shields.io/nuget/v/docfx)](https://www.nuget.org/packages/docfx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "<a href=\"https://marked.js.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +904,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PeterDaveHello/docker-doctoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "depado/smallblog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "raviqqe/liche"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "markedjs/marked"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

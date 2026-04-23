@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romanz/electrs",
+      "target": "kyuupichan/electrumx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romanz/electrs",
+      "target": "chris-belcher/electrum-personal-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romanz/electrs",
+      "target": "jonasschnelli/bitcoincore-indexd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romanz/electrs",
+      "target": "bitcoinbook/bitcoinbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "romanz/electrs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "romanz/electrs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "romanz/electrs",
+      "target": "electrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "electrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "electrum-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "indexer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "rocksdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romanz/electrs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:40.982345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4341
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1765
+    },
+    {
+      "path": "Dockerfile",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An efficient re-implementation of Electrum Server in Rust",
+    "fork": false,
+    "full_name": "romanz/electrs",
+    "html_url": "https://github.com/romanz/electrs",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T14:12:18Z",
+    "stargazers_count": 1352,
+    "topics": [
+      "bitcoin",
+      "electrum",
+      "electrum-server",
+      "indexer",
+      "rocksdb",
+      "rust"
+    ],
+    "updated_at": "2026-04-23T12:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitcoinbook/bitcoinbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chris-belcher/electrum-personal-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonasschnelli/bitcoincore-indexd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyuupichan/electrumx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "electrs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "electrs"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-server"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexer"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocksdb"
+    },
+    {
+      "context_snippet": "![Logo](logo/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test deployment"
+    "Test deployment",
+    "Test Deployment"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ethereum/execution-apis",
       "status": "candidate-context",
       "text": "Test deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "Test Deployment"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ethereum/execution-apis",
       "status": "candidate",
       "text": "Test deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate",
+      "text": "Test Deployment"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/test-deploy.yaml",
       "source_repo": "ethereum/execution-apis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "benchmarking"
+    "benchmarking",
+    "Benchmarking"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,42 @@
       "source_repo": "google/fuzzbench",
       "status": "candidate-context",
       "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "Flutter App benchmarking the performance of ObjectBox against others (e.g. sqflite, Hive)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate-context",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate-context",
+      "text": "Benchmarking"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +138,24 @@
       "source_repo": "google/fuzzbench",
       "status": "candidate",
       "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "status": "candidate",
+      "text": "As usual run `flutter pub get`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-specs",
+      "status": "candidate",
+      "text": "Benchmarking"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +229,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "google/fuzzbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ethereum/execution-specs"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

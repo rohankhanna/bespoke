@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "deepinsight/insightface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "biubug6/face-detector-1mb-with-landmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "wondervictor/widerface-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biubug6/Pytorch_Retinaface",
+      "target": "wang-xinyu/tensorrtx",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "biubug6/Pytorch_Retinaface"
+}

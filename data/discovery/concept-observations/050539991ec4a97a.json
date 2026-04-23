@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch implementation of Pointnet2/Pointnet++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pointnet2",
+      "sense_id": "pointnet2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pointnet2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pointnet2",
+  "observation_id": "050539991ec4a97a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "pointnet2",
+  "source_context_snippet": "Pointnet2/Pointnet++ PyTorch",
+  "source_file": null,
+  "source_repo": "erikwijmans/Pointnet2_PyTorch",
+  "source_repo_description": "PyTorch implementation of Pointnet2/Pointnet++"
+}

@@ -19,6 +19,18 @@
       "source_repo": "hiroi-sora/Umi-OCR",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breezedeus/CnOCR",
+      "status": "candidate-context",
+      "text": "CnOCR: Awesome Chinese/English OCR Python toolkits based on PyTorch. It comes with 20+ well-trained models for different application scenarios and can be used directly after installation. \u3010\u57fa\u4e8e PyTorch/MXNet \u7684\u4e2d\u6587/\u82f1\u6587 OCR Python \u5305\u3002\u3011"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnOCR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hiroi-sora/Umi-OCR",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnOCR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hiroi-sora/Umi-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "breezedeus/CnOCR"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

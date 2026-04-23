@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/base.yml",
       "source_repo": "pq-code-package/mlkem-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native"
     }
   ],
   "term": "Base"

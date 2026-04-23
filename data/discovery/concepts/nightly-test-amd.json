@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Test (AMD)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "Nightly Test (AMD)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate",
+      "text": "Nightly Test (AMD)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "newscast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "sunset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "snore"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Test (AMD)",
+  "concept_id": "nightly-test-amd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightly-test-amd.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Test (AMD)",
+      "sense_id": "nightly-test-amd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

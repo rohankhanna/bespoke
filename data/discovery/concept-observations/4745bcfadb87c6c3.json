@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple API server framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "goapi",
+      "sense_id": "goapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "goapi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "goapi",
+  "observation_id": "4745bcfadb87c6c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "goapi",
+  "source_context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+  "source_file": null,
+  "source_repo": "dbubel/intake",
+  "source_repo_description": "Simple API server framework"
+}

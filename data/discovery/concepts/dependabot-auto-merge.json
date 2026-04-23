@@ -262,6 +262,42 @@
       "source_repo": "anexia/k8s-external-dns-webhook",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "A collection of sample agents built with Agent Development Kit (ADK) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "Publications from Trail of Bits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -382,6 +418,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anexia/k8s-external-dns-webhook",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailofbits/publications",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -553,11 +607,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "anexia/k8s-external-dns-webhook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "trailofbits/publications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/roadmap",
+      "target": "github/feedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/roadmap",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/roadmap",
+      "target": "github-enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/roadmap",
+      "target": "roadmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:09:31.252730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub public roadmap",
+    "fork": false,
+    "full_name": "github/roadmap",
+    "html_url": "https://github.com/github/roadmap",
+    "language": null,
+    "pushed_at": "2024-10-15T17:31:37Z",
+    "stargazers_count": 8701,
+    "topics": [
+      "github",
+      "github-enterprise",
+      "roadmap"
+    ],
+    "updated_at": "2026-04-23T06:34:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/feedback",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ":sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": ":sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-enterprise"
+    },
+    {
+      "context_snippet": ":sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roadmap"
+    }
+  ]
+}

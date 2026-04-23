@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Publishing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Publishing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12175,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "irs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "imprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "interview"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Publishing",
+      "sense_id": "check-publishing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-publishing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-publishing",
+  "observation_id": "39f167580031d693",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check Publishing",
+  "source_context_snippet": "Check Publishing",
+  "source_file": ".github/workflows/check-publishing.yml",
+  "source_repo": "mamoe/mirai",
+  "source_repo_description": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+}

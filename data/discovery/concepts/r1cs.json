@@ -19,6 +19,30 @@
       "source_repo": "arkworks-rs/snark",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">SNARK and Relation Traits</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate-context",
+      "text": "A Rust library for the preprocessing zkSNARK of Groth and Maller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-gm17</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "A Rust library for the Marlin preprocessing zkSNARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Marlin</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "arkworks-rs/snark",
       "status": "candidate",
       "text": "<h1 align=\"center\">SNARK and Relation Traits</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/gm17",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-gm17</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/marlin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Marlin</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/snark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/gm17"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/marlin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/rust-cssparser",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/rust-cssparser",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:21.100982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2209
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust implementation of CSS Syntax Level 3",
+    "fork": false,
+    "full_name": "servo/rust-cssparser",
+    "html_url": "https://github.com/servo/rust-cssparser",
+    "language": "Rust",
+    "pushed_at": "2026-03-16T16:52:26Z",
+    "stargazers_count": 851,
+    "topics": [],
+    "updated_at": "2026-04-23T03:23:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

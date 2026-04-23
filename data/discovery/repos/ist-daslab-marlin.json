@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/marlin",
+      "target": "4bit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/marlin",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/marlin",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:18.622807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FP16xINT4 LLM inference kernel that can achieve near-ideal ~4x speedups up to medium batchsizes of 16-32 tokens.",
+    "fork": false,
+    "full_name": "IST-DASLab/marlin",
+    "html_url": "https://github.com/IST-DASLab/marlin",
+    "language": "Python",
+    "pushed_at": "2024-09-04T13:35:00Z",
+    "stargazers_count": 1059,
+    "topics": [
+      "4bit",
+      "kernel",
+      "llm",
+      "quantization"
+    ],
+    "updated_at": "2026-04-21T07:31:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "4bit"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

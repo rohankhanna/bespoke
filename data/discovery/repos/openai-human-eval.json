@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:50:27.021697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the paper \"Evaluating Large Language Models Trained on Code\"",
+    "fork": false,
+    "full_name": "openai/human-eval",
+    "html_url": "https://github.com/openai/human-eval",
+    "language": "Python",
+    "pushed_at": "2025-01-17T18:22:17Z",
+    "stargazers_count": 3210,
+    "topics": [],
+    "updated_at": "2026-04-23T20:50:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,682 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "regclient/actions/regctl-installer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-udeps",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender",
+      "target": "e2e-builder-playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "regclient/actions/regctl-installer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Container Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender",
+      "target": "taiki-e/install-action@cargo-udeps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "el-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "json-rpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "spammer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashbots/contender",
+      "target": "transaction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:18.815158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2853
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2666
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/builder-playground.yml",
+      "size": 3245
+    },
+    {
+      "path": ".github/workflows/container-release.yml",
+      "size": 4540
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1564
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 10640
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "spam EVM execution nodes over JSON-RPC & run benchmarks",
+    "fork": false,
+    "full_name": "flashbots/contender",
+    "html_url": "https://github.com/flashbots/contender",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T00:58:43Z",
+    "stargazers_count": 132,
+    "topics": [
+      "auth",
+      "benchmark",
+      "builder",
+      "el-node",
+      "eth",
+      "ethereum",
+      "evm",
+      "json-rpc",
+      "spammer",
+      "testing",
+      "transaction"
+    ],
+    "updated_at": "2026-04-21T00:51:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "e2e-builder-playground",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "term": "e2e-builder-playground"
+    },
+    {
+      "context_snippet": "Container Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-release.yml",
+      "term": "Container Release"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auth"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builder"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "el-node"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-rpc"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spammer"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transaction"
+    }
+  ]
+}

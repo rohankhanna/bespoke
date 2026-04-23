@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Improve the debugging experience and add server-side rendering support to styled-components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019327,
+      "status": "candidate",
+      "text": "miniaturization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019326,
+      "status": "candidate",
+      "text": "minimitude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019325,
+      "status": "candidate",
+      "text": "micronisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019324,
+      "status": "candidate",
+      "text": "microminiaturization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019323,
+      "status": "candidate",
+      "text": "microphotograph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minification",
+      "sense_id": "minification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minification",
+  "observation_id": "1d83d187e385741a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "minification",
+  "source_context_snippet": "This plugin is a highly recommended supplement to the base styled-components library, offering some useful features:",
+  "source_file": null,
+  "source_repo": "styled-components/babel-plugin-styled-components",
+  "source_repo_description": "Improve the debugging experience and add server-side rendering support to styled-components"
+}

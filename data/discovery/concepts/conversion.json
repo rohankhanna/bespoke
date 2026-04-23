@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "conversion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "converts nroff man pages to HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029172,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028652,
+      "status": "candidate",
+      "text": "transition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019215,
+      "status": "candidate",
+      "text": "rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030531,
+      "status": "candidate",
+      "text": "extra points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030531,
+      "status": "candidate",
+      "text": "point after"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13055,
+      "status": "candidate",
+      "text": "transition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "spiritual rebirth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5,
+      "status": "candidate",
+      "text": "extra points"
+    }
+  ],
+  "canonical_name": "conversion",
+  "concept_id": "conversion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bagder/roffit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conversion",
+      "sense_id": "conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

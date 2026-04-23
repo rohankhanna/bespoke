@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qwen1-5",
+      "sense_id": "qwen1-5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qwen1-5",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qwen1-5",
+  "observation_id": "5e0271be6d151d45",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "qwen1-5",
+  "source_context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+  "source_file": null,
+  "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+  "source_repo_description": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+}

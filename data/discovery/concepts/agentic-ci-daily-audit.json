@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Agentic CI: Daily Audit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\"Agentic CI: Daily Audit\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "\"Agentic CI: Daily Audit\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10125,
+      "status": "candidate",
+      "text": "androgynous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10125,
+      "status": "candidate",
+      "text": "asocial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9336,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9307,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9307,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Agentic CI: Daily Audit",
+  "concept_id": "agentic-ci-daily-audit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/agentic-ci-daily.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agentic CI: Daily Audit",
+      "sense_id": "agentic-ci-daily-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

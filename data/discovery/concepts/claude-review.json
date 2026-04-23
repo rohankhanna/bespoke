@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Claude review"
+    "Claude review",
+    "Claude Review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Layr-Labs/eigenlayer-contracts",
       "status": "candidate-context",
       "text": "Claude review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "Claude Review"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Layr-Labs/eigenlayer-contracts",
       "status": "candidate",
       "text": "Claude review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "Claude Review"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "Layr-Labs/eigenlayer-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "systemd/systemd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,66 @@
       "source_repo": "morrys/wora",
       "status": "candidate-context",
       "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "status": "candidate-context",
+      "text": "A 3D computer vision development toolkit based on PaddlePaddle. It supports point-cloud object detection, segmentation, and monocular 3D object detection models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "status": "candidate-context",
+      "text": "Paddle3D\u662f\u98de\u6868\u5b98\u65b9\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u6df1\u5ea6\u5b66\u4e603D\u611f\u77e5\u5957\u4ef6\uff0c\u6db5\u76d6\u4e86\u8bb8\u591a\u524d\u6cbf\u548c\u7ecf\u5178\u76843D\u611f\u77e5\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6a21\u6001\u548c\u591a\u79cd\u4efb\u52a1\uff0c\u53ef\u4ee5\u52a9\u529b\u5f00\u53d1\u8005\u4fbf\u6377\u5730\u5b8c\u6210 **\u300e\u81ea\u52a8\u9a7e\u9a76\u300f** \u9886\u57df\u6a21\u578b \u4ece\u8bad\u7ec3\u5230\u90e8\u7f72\u7684\u5168\u6d41\u7a0b\u5e94\u7528\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "status": "candidate-context",
+      "text": "Sentinel Dashboard \u96c6\u6210\u591a\u6570\u636e\u6e90\u7248\u672c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "status": "candidate-context",
+      "text": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "morrys/wora",
       "status": "candidate",
       "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle3D",
+      "status": "candidate",
+      "text": "Paddle3D\u662f\u98de\u6868\u5b98\u65b9\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u6df1\u5ea6\u5b66\u4e603D\u611f\u77e5\u5957\u4ef6\uff0c\u6db5\u76d6\u4e86\u8bb8\u591a\u524d\u6cbf\u548c\u7ecf\u5178\u76843D\u611f\u77e5\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6a21\u6001\u548c\u591a\u79cd\u4efb\u52a1\uff0c\u53ef\u4ee5\u52a9\u529b\u5f00\u53d1\u8005\u4fbf\u6377\u5730\u5b8c\u6210 **\u300e\u81ea\u52a8\u9a7e\u9a76\u300f** \u9886\u57df\u6a21\u578b \u4ece\u8bad\u7ec3\u5230\u90e8\u7f72\u7684\u5168\u6d41\u7a0b\u5e94\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +205,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "morrys/wora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-sse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enisdenjo/graphql-ws"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

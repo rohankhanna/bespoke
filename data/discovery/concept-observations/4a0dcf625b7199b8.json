@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adobe Font Development Kit for OpenType"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AFDKO Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AFDKO Test Suite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11985,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "tent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AFDKO Test Suite",
+      "sense_id": "afdko-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "afdko-test-suite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "afdko-test-suite",
+  "observation_id": "4a0dcf625b7199b8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "AFDKO Test Suite",
+  "source_context_snippet": "AFDKO Test Suite",
+  "source_file": ".github/workflows/testpythonpackage.yml",
+  "source_repo": "adobe-type-tools/afdko",
+  "source_repo_description": "Adobe Font Development Kit for OpenType"
+}

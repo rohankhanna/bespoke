@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc/proposal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "jille/grpc-multi-resolver.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc/grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "grpc-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "hashicorp-raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Jille/raft-grpc-leader-rpc"
+}

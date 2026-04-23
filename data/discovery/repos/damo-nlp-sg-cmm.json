@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/CMM",
+      "target": "damo-nlp-sg/vcd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:23.440341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2728\u2728The Curse of Multi-Modalities (CMM): Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio",
+    "fork": false,
+    "full_name": "DAMO-NLP-SG/CMM",
+    "html_url": "https://github.com/DAMO-NLP-SG/CMM",
+    "language": "Python",
+    "pushed_at": "2025-07-11T16:37:39Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-16T15:47:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/vcd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

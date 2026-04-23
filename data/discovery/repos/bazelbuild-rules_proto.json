@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/rules_proto",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazelbuild/rules_proto",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:48.137084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Protocol buffer rules for Bazel",
+    "fork": false,
+    "full_name": "bazelbuild/rules_proto",
+    "html_url": "https://github.com/bazelbuild/rules_proto",
+    "language": "Starlark",
+    "pushed_at": "2025-07-17T21:17:24Z",
+    "stargazers_count": 170,
+    "topics": [],
+    "updated_at": "2026-04-23T10:52:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

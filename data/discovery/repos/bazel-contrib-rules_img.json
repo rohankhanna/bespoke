@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@083175551ceeceebc757ebee2127fde78840ca77",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@083175551ceeceebc757ebee2127fde78840ca77",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@083175551ceeceebc757ebee2127fde78840ca77",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "bazel-contrib/setup-bazel@083175551ceeceebc757ebee2127fde78840ca77",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:04.399000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23528
+    },
+    {
+      "path": ".github/workflows/.bazelrc.buildbuddy",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4097
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1705
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modern Bazel rules for building OCI container images with advanced performance optimizations",
+    "fork": false,
+    "full_name": "bazel-contrib/rules_img",
+    "html_url": "https://github.com/bazel-contrib/rules_img",
+    "language": "Go",
+    "pushed_at": "2026-04-23T11:34:05Z",
+    "stargazers_count": 113,
+    "topics": [
+      "bazel",
+      "containers",
+      "docker",
+      "kubernetes",
+      "oci"
+    ],
+    "updated_at": "2026-04-23T11:34:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

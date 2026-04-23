@@ -79,6 +79,54 @@
       "source_repo": "absolute-version/commit-and-tag-version",
       "status": "candidate-context",
       "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": ":ship:  semantic-release plugin to publish a npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "absolute-version produces unique absolute prerelease versions with human-helpful and machine-readable metadata from your git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": ":trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate-context",
+      "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "absolute-version/commit-and-tag-version",
       "status": "candidate",
       "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/absolute-version-js",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/absolute-version.svg)](https://www.npmjs.com/package/absolute-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/standard-version",
+      "status": "candidate",
+      "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +322,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/npm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "absolute-version/absolute-version-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/github"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

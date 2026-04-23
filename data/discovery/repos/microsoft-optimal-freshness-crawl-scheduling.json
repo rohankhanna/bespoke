@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:19:27.652125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9911
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dataset and code for three Web crawling-related papers from SIGIR-2019, NeurIPS-2019. and ICML-2020.",
+    "fork": false,
+    "full_name": "microsoft/Optimal-Freshness-Crawl-Scheduling",
+    "html_url": "https://github.com/microsoft/Optimal-Freshness-Crawl-Scheduling",
+    "language": "Python",
+    "pushed_at": "2025-01-07T18:40:45Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-01-09T23:46:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

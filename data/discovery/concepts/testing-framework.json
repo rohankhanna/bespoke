@@ -19,6 +19,18 @@
       "source_repo": "kana/vim-vspec",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/kana/vim-vspec/actions/workflows/ci.yml/badge.svg)](https://github.com/kana/vim-vspec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kana/vim-vspec",
       "status": "candidate",
       "text": "[![CI](https://github.com/kana/vim-vspec/actions/workflows/ci.yml/badge.svg)](https://github.com/kana/vim-vspec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "kana/vim-vspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

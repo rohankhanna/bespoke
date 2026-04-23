@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Execution Result Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Data Schema Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "tj-actions/changed-files@v42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size_validation.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Dataset Size Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Upload to Hugging Face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "source_repo": "camel-ai/loong",
+      "target": "Validate Seed Data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:49:40.089219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7952
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/execute_compare.yml",
+      "size": 1710
+    },
+    {
+      "path": ".github/workflows/schema_check.yml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/size_validation.yml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/upload-to-hf.yml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/validate-seed-data-structure.yml",
+      "size": 462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers.",
+    "fork": false,
+    "full_name": "camel-ai/loong",
+    "html_url": "https://github.com/camel-ai/loong",
+    "language": "Python",
+    "pushed_at": "2026-04-17T06:56:09Z",
+    "stargazers_count": 502,
+    "topics": [],
+    "updated_at": "2026-04-17T06:56:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Execution Result Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/execute_compare.yml",
+      "term": "Execution Result Validation"
+    },
+    {
+      "context_snippet": "Data Schema Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema_check.yml",
+      "term": "Data Schema Validation"
+    },
+    {
+      "context_snippet": "Dataset Size Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size_validation.yml",
+      "term": "Dataset Size Validation"
+    },
+    {
+      "context_snippet": "Upload to Hugging Face",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "term": "Upload to Hugging Face"
+    },
+    {
+      "context_snippet": "Validate Seed Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-seed-data-structure.yml",
+      "term": "Validate Seed Data"
+    }
+  ]
+}

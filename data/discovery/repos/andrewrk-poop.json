@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewrk/poop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewrk/poop",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewrk/poop",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:14.803152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1769
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Performance Optimizer Observation Platform",
+    "fork": false,
+    "full_name": "andrewrk/poop",
+    "html_url": "https://github.com/andrewrk/poop",
+    "language": "Zig",
+    "pushed_at": "2025-10-29T18:17:52Z",
+    "stargazers_count": 1913,
+    "topics": [],
+    "updated_at": "2026-04-18T23:35:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

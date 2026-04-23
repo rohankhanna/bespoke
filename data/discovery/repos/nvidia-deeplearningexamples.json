@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "nvidia/tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "contributor-assistant/github-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "DCO Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "drug-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "recommender-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "tensorflow2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DeepLearningExamples",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:57:55.634928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29463
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 1115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure.",
+    "fork": false,
+    "full_name": "NVIDIA/DeepLearningExamples",
+    "html_url": "https://github.com/NVIDIA/DeepLearningExamples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-12T14:01:29Z",
+    "stargazers_count": 14789,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "drug-discovery",
+      "forecasting",
+      "large-language-models",
+      "mxnet",
+      "nlp",
+      "paddlepaddle",
+      "pytorch",
+      "recommender-systems",
+      "speech-recognition",
+      "speech-synthesis",
+      "tensorflow",
+      "tensorflow2",
+      "translation"
+    ],
+    "updated_at": "2026-04-23T12:42:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/tensorrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"DCO Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "DCO Assistant"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drug-discovery"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forecasting"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-systems"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    },
+    {
+      "context_snippet": "This repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

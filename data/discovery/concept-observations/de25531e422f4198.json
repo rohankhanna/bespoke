@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Execution Result Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Execution Result Validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26323,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24684,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24684,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24660,
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24147,
+      "status": "candidate",
+      "text": "recognition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Execution Result Validation",
+      "sense_id": "execution-result-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "execution-result-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "execution-result-validation",
+  "observation_id": "de25531e422f4198",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Execution Result Validation",
+  "source_context_snippet": "Execution Result Validation",
+  "source_file": ".github/workflows/execute_compare.yml",
+  "source_repo": "camel-ai/loong",
+  "source_repo_description": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+}

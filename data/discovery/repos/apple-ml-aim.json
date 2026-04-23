@@ -1,0 +1,60 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-aim",
+      "target": "large-scale-vision-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/ml-aim",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:02.592854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository provides the code and model checkpoints for AIMv1 and AIMv2 research projects.",
+    "fork": false,
+    "full_name": "apple/ml-aim",
+    "html_url": "https://github.com/apple/ml-aim",
+    "language": "Python",
+    "pushed_at": "2025-08-04T17:58:52Z",
+    "stargazers_count": 1415,
+    "topics": [
+      "jax",
+      "large-scale-vision-models",
+      "mlx",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-21T12:12:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale-vision-models"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

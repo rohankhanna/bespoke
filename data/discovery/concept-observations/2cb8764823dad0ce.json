@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831357,
+      "status": "candidate",
+      "text": "electrical relay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831356,
+      "status": "candidate",
+      "text": "roadhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820855,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794426,
+      "status": "candidate",
+      "text": "conduit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29764604,
+      "status": "candidate",
+      "text": "relais"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "relay",
+      "sense_id": "relay#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "electrical relay"
+    }
+  ],
+  "concept_id": "relay",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "relay",
+  "observation_id": "2cb8764823dad0ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "relay",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "enisdenjo/graphql-ws",
+  "source_repo_description": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+}

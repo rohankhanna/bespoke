@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "darknet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023571,
+      "status": "candidate",
+      "text": "dark web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023570,
+      "status": "candidate",
+      "text": "deep web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023569,
+      "status": "candidate",
+      "text": "darknet market"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023568,
+      "status": "candidate",
+      "text": "deep net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023567,
+      "status": "candidate",
+      "text": "clearnet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "darknet",
+  "concept_id": "darknet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "darknet",
+      "sense_id": "darknet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

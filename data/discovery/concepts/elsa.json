@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "elsa"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27109342,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27016220,
+      "status": "candidate",
+      "text": "listen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26685053,
+      "status": "candidate",
+      "text": "elisa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26681838,
+      "status": "candidate",
+      "text": "eisa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210901,
+      "status": "candidate",
+      "text": "trabajo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "elsa",
+  "concept_id": "elsa",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "elsa-workflows/elsa-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elsa",
+      "sense_id": "elsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

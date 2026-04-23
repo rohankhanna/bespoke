@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hadolint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hadolint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hadolint",
+      "sense_id": "hadolint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hadolint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hadolint",
+  "observation_id": "9e262b79a9c854e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Hadolint",
+  "source_context_snippet": "Hadolint",
+  "source_file": ".github/workflows/hadolint.yml",
+  "source_repo": "dani-garcia/vaultwarden",
+  "source_repo_description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+}

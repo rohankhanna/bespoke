@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Translate Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "Translate Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "Translate Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "after"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "attach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "beepers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "briefcase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "calve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Translate Docs",
+  "concept_id": "translate-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "php/frankenphp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Translate Docs",
+      "sense_id": "translate-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blur-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "blurry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WillBrennan/BlurDetection2",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:49:51.768285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1735
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Blur Detection with OpenCV in Python",
+    "fork": false,
+    "full_name": "WillBrennan/BlurDetection2",
+    "html_url": "https://github.com/WillBrennan/BlurDetection2",
+    "language": "Python",
+    "pushed_at": "2023-02-10T09:23:16Z",
+    "stargazers_count": 386,
+    "topics": [
+      "blur",
+      "blur-detection",
+      "blur-detector",
+      "blurry",
+      "detection",
+      "opencv",
+      "python"
+    ],
+    "updated_at": "2026-04-15T07:54:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blur"
+    },
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blur-detection"
+    },
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blur-detector"
+    },
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blurry"
+    },
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    }
+  ]
+}

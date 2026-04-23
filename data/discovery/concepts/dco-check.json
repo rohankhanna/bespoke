@@ -1,7 +1,8 @@
 {
   "aliases": [
     "dco-check",
-    "DCO check"
+    "DCO check",
+    "DCO Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -26,6 +27,18 @@
       "source_repo": "artemsen/swayimg",
       "status": "candidate-context",
       "text": "DCO check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "DCO Check"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "artemsen/swayimg",
       "status": "candidate",
       "text": "DCO check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "DCO Check"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/DCO.yml",
       "source_repo": "artemsen/swayimg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "defilantech/LLMKube"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

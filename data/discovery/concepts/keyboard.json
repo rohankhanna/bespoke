@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "keyboard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050091,
+      "status": "candidate",
+      "text": "keypad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047318,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046808,
+      "status": "candidate",
+      "text": "typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044416,
+      "status": "candidate",
+      "text": "touch-tone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042658,
+      "status": "candidate",
+      "text": "keyword"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "keyboard",
+  "concept_id": "keyboard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enigo-rs/enigo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keyboard",
+      "sense_id": "keyboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

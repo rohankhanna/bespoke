@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "gpt4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "huggingface-datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "llama-factory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "medical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "minigpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "qwen1-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+}

@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bbatsov/projectile",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bbatsov/projectile",
+      "target": "Close inactive issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bbatsov/projectile",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bbatsov/projectile",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile",
+      "target": "project-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile",
+      "target": "projectile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:25.509116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7908
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 851
+    },
+    {
+      "path": ".github/workflows/unstale.yml",
+      "size": 613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project Interaction Library for Emacs",
+    "fork": false,
+    "full_name": "bbatsov/projectile",
+    "html_url": "https://github.com/bbatsov/projectile",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-10T08:58:58Z",
+    "stargazers_count": 4187,
+    "topics": [
+      "emacs",
+      "emacs-lisp",
+      "project-management",
+      "projectile"
+    ],
+    "updated_at": "2026-04-22T22:51:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close inactive issues and pull requests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-management"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "projectile"
+    }
+  ]
+}

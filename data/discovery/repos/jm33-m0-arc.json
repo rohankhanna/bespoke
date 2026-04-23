@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jm33-m0/arc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jm33-m0/arc",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:15.653134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "arc is a pure Go library for creating, extracting, and managing archives. Based on mholt/archives and inspired by now-deprecated arc in archiver/v3.",
+    "fork": false,
+    "full_name": "jm33-m0/arc",
+    "html_url": "https://github.com/jm33-m0/arc",
+    "language": "Go",
+    "pushed_at": "2026-02-16T02:17:58Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-02-23T18:28:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

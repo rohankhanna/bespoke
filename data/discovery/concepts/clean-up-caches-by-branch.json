@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean Up Caches By Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/rollup",
+      "status": "candidate-context",
+      "text": "Next-generation ES module bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/rollup",
+      "status": "candidate-context",
+      "text": "Clean Up Caches By Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/rollup",
+      "status": "candidate",
+      "text": "Clean Up Caches By Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45718,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37879,
+      "status": "candidate",
+      "text": "cleaned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36318,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36028,
+      "status": "candidate",
+      "text": "scavenge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35918,
+      "status": "candidate",
+      "text": "police"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean Up Caches By Branch",
+  "concept_id": "clean-up-caches-by-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clean-cache.yml",
+      "source_repo": "rollup/rollup"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Up Caches By Branch",
+      "sense_id": "clean-up-caches-by-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

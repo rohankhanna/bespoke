@@ -19,6 +19,42 @@
       "source_repo": "Masterminds/sprig",
       "status": "candidate-context",
       "text": "[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/Masterminds/sprig/v3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "Azure Quickstart Templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "Masterminds/sprig",
       "status": "candidate",
       "text": "[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/Masterminds/sprig/v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "Masterminds/sprig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/templates"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

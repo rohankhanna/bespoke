@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025088,
+      "status": "candidate",
+      "text": "drilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886973,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19883765,
+      "status": "candidate",
+      "text": "tiresome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19882127,
+      "status": "candidate",
+      "text": "wearisome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19877492,
+      "status": "candidate",
+      "text": "deadening"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bors",
+      "sense_id": "bors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bors",
+  "observation_id": "ff22b797c1dc278f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bors",
+  "source_context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+  "source_file": null,
+  "source_repo": "bors-ng/bors-ng",
+  "source_repo_description": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+}

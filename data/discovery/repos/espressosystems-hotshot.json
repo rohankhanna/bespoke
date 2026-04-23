@@ -1,0 +1,682 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "mkroening/rust-toolchain-toml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "mkroening/rust-toolchain-toml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "mkroening/rust-toolchain-toml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "espressosystems/espresso-sequencer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "espressosystems/espresso-systems-common",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "espressosystems/jellyfish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "espressosystems/push-cdn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Choose random assignees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Run Cargo Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "mkroening/rust-toolchain-toml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "taiki-e/install-action@just",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Build without committed Cargo.lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/cachix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Build with Nix Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/cachix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/careful.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/careful.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Careful Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "cachix/cachix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Code Coverage Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "taiki-e/install-action@just",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "EspressoSystems/HotShot",
+      "target": "Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:10:29.249270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5575
+    },
+    {
+      "path": ".github/workflows/assign-reviewers.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 9429
+    },
+    {
+      "path": ".github/workflows/build-without-lockfile.yml",
+      "size": 827
+    },
+    {
+      "path": ".github/workflows/build_nix.yml",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/careful.yml",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1181
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 1251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "EspressoSystems/HotShot",
+    "html_url": "https://github.com/EspressoSystems/HotShot",
+    "language": "Rust",
+    "pushed_at": "2025-02-27T15:42:47Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-03-23T21:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/espresso-sequencer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/espresso-systems-common",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/jellyfish",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/push-cdn",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Choose random assignees",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "term": "Choose random assignees"
+    },
+    {
+      "context_snippet": "Run Cargo Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Run Cargo Audit"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Build without committed Cargo.lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "term": "Build without committed Cargo.lock"
+    },
+    {
+      "context_snippet": "Build with Nix Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_nix.yml",
+      "term": "Build with Nix Workflow"
+    },
+    {
+      "context_snippet": "Careful Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/careful.yml",
+      "term": "Careful Workflow"
+    },
+    {
+      "context_snippet": "Code Coverage Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage Workflow"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "Documentation"
+    }
+  ]
+}

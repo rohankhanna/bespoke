@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "fill-range",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ansi-colors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bash-path",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/braces",
+      "target": "juliangruber/brace-expansion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/braces",
+      "target": "jonschlinkert/to-regex-range",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/braces",
+      "target": "jonschlinkert/micromatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/braces",
+      "target": "verbose/verb-generate-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/braces",
+      "target": "fill-range",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/braces",
+      "target": "ansi-colors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/braces",
+      "target": "bash-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/braces",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/braces",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "micromatch/braces",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "micromatch/braces",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "brace-expansion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "brace-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "brace-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "braces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "expansion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "glob-matcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "glob-pattern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "globbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "minimatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "multimatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "regular-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/braces",
+      "target": "tidelift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:42:39.000111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21290
+    },
+    {
+      "path": "package.json",
+      "size": 1683
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Faster brace expansion for node.js. Besides being faster, braces is not subject to DoS attacks like minimatch, is more accurate, and has more complete support for Bash 4.3.",
+    "fork": false,
+    "full_name": "micromatch/braces",
+    "html_url": "https://github.com/micromatch/braces",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-19T20:06:12Z",
+    "stargazers_count": 246,
+    "topics": [
+      "brace-expansion",
+      "brace-matching",
+      "brace-patterns",
+      "braces",
+      "expansion",
+      "glob",
+      "glob-matcher",
+      "glob-pattern",
+      "globbing",
+      "javascript",
+      "minimatch",
+      "multimatch",
+      "node",
+      "nodejs",
+      "regular-expression",
+      "tidelift"
+    ],
+    "updated_at": "2026-04-13T05:45:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/micromatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/to-regex-range",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliangruber/brace-expansion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb-generate-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brace-expansion"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brace-matching"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brace-patterns"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "braces"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expansion"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob-matcher"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob-pattern"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "globbing"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimatch"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimatch"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    },
+    {
+      "context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tidelift"
+    }
+  ]
+}

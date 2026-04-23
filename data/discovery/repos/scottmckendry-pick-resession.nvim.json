@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AlejandroSuero/selene-linter-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "folke/github/neovim@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "AlejandroSuero/selene-linter-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "folke/github/neovim@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "target": "telescope-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:44.675818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4339
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u23ea Telescope & Snacks pickers for resession.nvim",
+    "fork": false,
+    "full_name": "scottmckendry/pick-resession.nvim",
+    "html_url": "https://github.com/scottmckendry/pick-resession.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-08-23T02:58:41Z",
+    "stargazers_count": 40,
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "telescope-extension"
+    ],
+    "updated_at": "2026-04-04T12:29:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope-extension"
+    }
+  ]
+}

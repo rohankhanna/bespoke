@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-markdown-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-jekyll-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "codejamninja/sphinx-markdown-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "target": "sphinx",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "clayrisser/sphinx-markdown-builder"
+}

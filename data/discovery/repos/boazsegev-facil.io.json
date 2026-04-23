@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boazsegev/facil.io",
+      "target": "facil-io/cstl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boazsegev/facil.io",
+      "target": "techempower/frameworkbenchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "http-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "http-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "redis-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "server-sent-events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "webserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "websocket-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:01:01.317335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Your high performance web application C framework",
+    "fork": false,
+    "full_name": "boazsegev/facil.io",
+    "html_url": "https://github.com/boazsegev/facil.io",
+    "language": "C",
+    "pushed_at": "2026-04-14T06:37:17Z",
+    "stargazers_count": 2382,
+    "topics": [
+      "c",
+      "concurrency",
+      "framework",
+      "http-parser",
+      "http-protocol",
+      "json",
+      "networking",
+      "pubsub",
+      "redis-client",
+      "server-sent-events",
+      "webserver",
+      "websocket-server",
+      "websockets"
+    ],
+    "updated_at": "2026-04-23T17:53:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facil-io/cstl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "techempower/frameworkbenchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-protocol"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-client"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-sent-events"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webserver"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

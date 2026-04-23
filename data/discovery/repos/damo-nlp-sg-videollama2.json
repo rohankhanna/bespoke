@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA2",
+      "target": "damo-nlp-sg/videollama3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA2",
+      "target": "damo-nlp-sg/vcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA2",
+      "target": "damo-nlp-sg/cmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VideoLLaMA2",
+      "target": "damo-nlp-sg/inf-clip",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:11.221212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26287
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1365
+    },
+    {
+      "path": "requirements.txt",
+      "size": 632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+    "fork": false,
+    "full_name": "DAMO-NLP-SG/VideoLLaMA2",
+    "html_url": "https://github.com/DAMO-NLP-SG/VideoLLaMA2",
+    "language": "Python",
+    "pushed_at": "2025-01-23T04:20:22Z",
+    "stargazers_count": 1294,
+    "topics": [],
+    "updated_at": "2026-04-22T04:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/cmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/inf-clip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/vcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/videollama3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

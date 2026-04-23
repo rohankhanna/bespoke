@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR approve GH Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "PR approve GH Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "PR approve GH Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "aar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "codex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "drainage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "fiber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR approve GH Workflows",
+  "concept_id": "pr-approve-gh-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "source_repo": "knative/serving"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR approve GH Workflows",
+      "sense_id": "pr-approve-gh-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

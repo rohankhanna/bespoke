@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/http-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/tool-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/http-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@actions/tool-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "fourmolu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:47.854046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5279
+    },
+    {
+      "path": "package.json",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fourmolu GitHub Action",
+    "fork": false,
+    "full_name": "haskell-actions/run-fourmolu",
+    "html_url": "https://github.com/haskell-actions/run-fourmolu",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-30T16:36:00Z",
+    "stargazers_count": 13,
+    "topics": [
+      "formatting",
+      "fourmolu",
+      "github-actions",
+      "haskell"
+    ],
+    "updated_at": "2026-03-30T16:35:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fourmolu"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

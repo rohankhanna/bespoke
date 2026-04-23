@@ -1,0 +1,12 @@
+{
+  "component": "tecolicom/actions-use-homebrew-tools@v1",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc"
+    }
+  ]
+}

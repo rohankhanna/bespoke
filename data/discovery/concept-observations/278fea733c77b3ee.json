@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950414,
+      "status": "candidate",
+      "text": "nrc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950297,
+      "status": "candidate",
+      "text": "ici"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29789295,
+      "status": "candidate",
+      "text": "heap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29611574,
+      "status": "candidate",
+      "text": "ipf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29404363,
+      "status": "candidate",
+      "text": "ipi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipfs",
+      "sense_id": "ipfs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipfs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipfs",
+  "observation_id": "278fea733c77b3ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ipfs",
+  "source_context_snippet": "[![ipfs](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)",
+  "source_file": null,
+  "source_repo": "ipfs/ipfs-desktop",
+  "source_repo_description": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+}

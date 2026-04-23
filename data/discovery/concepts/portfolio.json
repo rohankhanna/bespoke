@@ -31,6 +31,30 @@
       "source_repo": "coderjojo/creative-profile-readme",
       "status": "candidate-context",
       "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "coderjojo/creative-profile-readme",
       "status": "candidate",
       "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "coderjojo/creative-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

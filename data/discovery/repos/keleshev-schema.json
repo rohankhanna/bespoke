@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "keleshev/schema",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "keleshev/schema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "keleshev/schema",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:44:35.802943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 33186
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 128
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/python-test.yml",
+      "size": 571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Schema validation just got Pythonic",
+    "fork": false,
+    "full_name": "keleshev/schema",
+    "html_url": "https://github.com/keleshev/schema",
+    "language": "Python",
+    "pushed_at": "2026-03-04T20:33:24Z",
+    "stargazers_count": 2944,
+    "topics": [],
+    "updated_at": "2026-04-13T19:35:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

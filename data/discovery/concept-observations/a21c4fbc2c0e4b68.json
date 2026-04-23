@@ -48,7 +48,7 @@
   "normalized_form": "release-plz",
   "observation_id": "a21c4fbc2c0e4b68",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Release-plz",
   "source_context_snippet": "Release-plz",
   "source_file": ".github/workflows/release-plz.yml",

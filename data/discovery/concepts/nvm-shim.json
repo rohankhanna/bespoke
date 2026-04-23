@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nvm-shim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nvm-shim",
+  "concept_id": "nvm-shim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvm-shim",
+      "sense_id": "nvm-shim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

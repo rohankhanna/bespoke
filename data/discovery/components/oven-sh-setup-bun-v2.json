@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -537,6 +537,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-livekit-cf.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pochi-cli.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pochi-npm.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-check.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zloirock/core-js"
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cldf/segments",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cldf/segments",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cldf/segments",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:15.205121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1898
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 81
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unicode Standard tokenization routines and orthography profile segmentation",
+    "fork": false,
+    "full_name": "cldf/segments",
+    "html_url": "https://github.com/cldf/segments",
+    "language": "Python",
+    "pushed_at": "2026-03-07T10:02:01Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-10T23:53:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "term": "tests"
+    }
+  ]
+}

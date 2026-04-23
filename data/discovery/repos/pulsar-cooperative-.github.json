@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:40:30.965657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Organization level documents",
+    "fork": false,
+    "full_name": "pulsar-cooperative/.github",
+    "html_url": "https://github.com/pulsar-cooperative/.github",
+    "language": null,
+    "pushed_at": "2023-12-29T22:31:42Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-03-11T07:21:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

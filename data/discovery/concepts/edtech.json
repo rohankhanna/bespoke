@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "edtech"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "status": "candidate-context",
+      "text": "This repository contains a base networking framework for building a realtime quiz platform with Ably. This project uses VueJS on the client-side and NodeJS on the server-side and is scalable as you need."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991081,
+      "status": "candidate",
+      "text": "technology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991080,
+      "status": "candidate",
+      "text": "e-education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991079,
+      "status": "candidate",
+      "text": "education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991078,
+      "status": "candidate",
+      "text": "tech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991077,
+      "status": "candidate",
+      "text": "eddication"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "edtech",
+  "concept_id": "edtech",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "edtech",
+      "sense_id": "edtech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

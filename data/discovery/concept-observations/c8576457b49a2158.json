@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025982,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025872,
+      "status": "candidate",
+      "text": "storehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022613,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019370,
+      "status": "candidate",
+      "text": "entrepot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961917,
+      "status": "candidate",
+      "text": "memory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "storage",
+      "sense_id": "storage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "entrepot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "storehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "memory board"
+    }
+  ],
+  "concept_id": "storage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "storage",
+  "observation_id": "c8576457b49a2158",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "storage",
+  "source_context_snippet": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)",
+  "source_file": null,
+  "source_repo": "apache/opendal",
+  "source_repo_description": "Apache OpenDAL: One Layer, All Storage."
+}

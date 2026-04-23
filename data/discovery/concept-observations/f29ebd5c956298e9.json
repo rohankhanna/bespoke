@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An elegant PyTorch deep reinforcement learning library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839527,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839526,
+      "status": "candidate",
+      "text": "ladder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839525,
+      "status": "candidate",
+      "text": "tactic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839524,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839523,
+      "status": "candidate",
+      "text": "kinjite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atari",
+      "sense_id": "atari#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "atari",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "atari",
+  "observation_id": "f29ebd5c956298e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "atari",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "thu-ml/tianshou",
+  "source_repo_description": "An elegant PyTorch deep reinforcement learning library."
+}

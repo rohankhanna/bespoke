@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "Check Runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate",
+      "text": "Check Runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "skid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "skidding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11685,
+      "status": "candidate",
+      "text": "retire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Runner",
+  "concept_id": "check-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-runner.yml",
+      "source_repo": "esp-rs/esp-hal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Runner",
+      "sense_id": "check-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

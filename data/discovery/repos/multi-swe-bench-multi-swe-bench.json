@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multi-swe-bench/multi-swe-bench",
+      "target": "swe-bench/swe-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:18.148171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+    "fork": false,
+    "full_name": "multi-swe-bench/multi-swe-bench",
+    "html_url": "https://github.com/multi-swe-bench/multi-swe-bench",
+    "language": "Python",
+    "pushed_at": "2025-12-18T06:27:09Z",
+    "stargazers_count": 332,
+    "topics": [],
+    "updated_at": "2026-04-23T09:22:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Regular review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/org",
+      "status": "candidate-context",
+      "text": "Organisational documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/org",
+      "status": "candidate-context",
+      "text": "Regular review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/org",
+      "status": "candidate",
+      "text": "Regular review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110094976,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110093976,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110092976,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109994965,
+      "status": "candidate",
+      "text": "examinee"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Regular review",
+  "concept_id": "regular-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "NixOS/org"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regular review",
+      "sense_id": "regular-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

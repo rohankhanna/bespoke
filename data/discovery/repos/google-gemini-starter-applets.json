@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/starter-applets",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/starter-applets",
+      "target": "gemini-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/starter-applets",
+      "target": "google",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:41.397815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google AI Studio Starter Apps",
+    "fork": false,
+    "full_name": "google-gemini/starter-applets",
+    "html_url": "https://github.com/google-gemini/starter-applets",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-09T05:34:40Z",
+    "stargazers_count": 1313,
+    "topics": [
+      "ai",
+      "gemini",
+      "gemini-api",
+      "google"
+    ],
+    "updated_at": "2026-04-23T20:50:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the source code for Google AI Studio's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "This repository contains the source code for Google AI Studio's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    },
+    {
+      "context_snippet": "This repository contains the source code for Google AI Studio's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    }
+  ]
+}

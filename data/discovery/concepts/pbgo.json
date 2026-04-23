@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pbgo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pbgo",
+  "concept_id": "pbgo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pbgo",
+      "sense_id": "pbgo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

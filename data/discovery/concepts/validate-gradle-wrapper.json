@@ -31,6 +31,30 @@
       "source_repo": "microsoft/onnxruntime",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "Examples for using ONNX Runtime for machine learning inferencing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/onnxruntime",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espeak-ng/espeak-ng",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "microsoft/onnxruntime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

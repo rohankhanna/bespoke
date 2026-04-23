@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "outline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "A code outline window for skimming and quick navigation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "A code outline window for skimming and quick navigation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031736,
+      "status": "candidate",
+      "text": "delineate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028238,
+      "status": "candidate",
+      "text": "limn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028169,
+      "status": "candidate",
+      "text": "sketch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026758,
+      "status": "candidate",
+      "text": "draw up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025064,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60034,
+      "status": "candidate",
+      "text": "delineate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52053,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47070,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38040,
+      "status": "candidate",
+      "text": "synopsis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35076,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "canonical_name": "outline",
+  "concept_id": "outline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "outline",
+      "sense_id": "outline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

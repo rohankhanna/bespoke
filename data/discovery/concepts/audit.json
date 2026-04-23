@@ -178,6 +178,30 @@
       "source_repo": "chainguard-images/images",
       "status": "candidate-context",
       "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "status": "candidate-context",
+      "text": "A modern, lightweight, descriptor-based wallet library written in Rust! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "Global hotkeys for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "audit"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +288,18 @@
       "source_repo": "chainguard-images/images",
       "status": "candidate",
       "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate",
+      "text": "audit"
     }
   ],
   "candidate_related_terms": [
@@ -449,11 +485,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/global-hotkey"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

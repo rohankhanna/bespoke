@@ -19,6 +19,30 @@
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "status": "candidate-context",
       "text": "SublimeLinter-eslint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "A plugin for Flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "=============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "Naming Convention checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "PEP 8 Naming Conventions"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "status": "candidate",
       "text": "SublimeLinter-eslint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate",
+      "text": "=============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate",
+      "text": "PEP 8 Naming Conventions"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "SublimeLinter/SublimeLinter-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

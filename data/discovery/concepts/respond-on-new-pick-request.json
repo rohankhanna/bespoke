@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Respond on New Pick Request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate-context",
+      "text": "React Native Releases Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate-context",
+      "text": "Respond on New Pick Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate",
+      "text": "Respond on New Pick Request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46676,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45413,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43637,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43504,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35237,
+      "status": "candidate",
+      "text": "reorder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Respond on New Pick Request",
+  "concept_id": "respond-on-new-pick-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/respond-on-new-pick-request.yml",
+      "source_repo": "reactwg/react-native-releases"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Respond on New Pick Request",
+      "sense_id": "respond-on-new-pick-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

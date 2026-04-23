@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment Issue on Triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Comment Issue on Triage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Comment Issue on Triage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24529,
+      "status": "candidate",
+      "text": "assort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24109,
+      "status": "candidate",
+      "text": "sorting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23476,
+      "status": "candidate",
+      "text": "need"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22660,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22660,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment Issue on Triage",
+  "concept_id": "comment-issue-on-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/comment_issue_on_triage.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment Issue on Triage",
+      "sense_id": "comment-issue-on-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

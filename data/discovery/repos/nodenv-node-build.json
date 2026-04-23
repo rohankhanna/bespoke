@@ -1,0 +1,446 @@
+{
+  "components": [
+    {
+      "component": "@nodenv/node-build-update-defs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-mock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/release.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/differential-shellcheck@d965e66ec0b3b2f821f75c8eff9b12442d9a7d1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv/node-build-update-defs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build",
+      "target": "@nodenv/node-build-update-defs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build",
+      "target": "bats-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build",
+      "target": "bats-mock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build",
+      "target": "bats-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/definitions.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/definitions.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "Definitions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv/.github/.github/workflows/release.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "Sync Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "redhat-plumbers-in-action/differential-shellcheck@d965e66ec0b3b2f821f75c8eff9b12442d9a7d1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "nodenv/node-build",
+      "target": "Version Bump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build",
+      "target": "nodenv-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:55.733250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12279
+    },
+    {
+      "path": "package.json",
+      "size": 1973
+    },
+    {
+      "path": ".github/workflows/definitions.yml",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/sync-default-branch.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1971
+    },
+    {
+      "path": ".github/workflows/version.yml",
+      "size": 1514
+    },
+    {
+      "path": ".github/workflows/wiki.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to download, compile, and install Node on Unix-like systems.",
+    "fork": false,
+    "full_name": "nodenv/node-build",
+    "html_url": "https://github.com/nodenv/node-build",
+    "language": "Shell",
+    "pushed_at": "2026-04-16T11:22:56Z",
+    "stargazers_count": 290,
+    "topics": [
+      "build-tool",
+      "nodejs",
+      "nodenv",
+      "nodenv-plugin",
+      "version-manager"
+    ],
+    "updated_at": "2026-04-16T11:22:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/node-build-update-defs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Definitions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/definitions.yml",
+      "term": "Definitions"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "term": "Sync Default Branch"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Version Bump",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yml",
+      "term": "Version Bump"
+    },
+    {
+      "context_snippet": "Download, compile, and install Node on Unix-like systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "Download, compile, and install Node on Unix-like systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Download, compile, and install Node on Unix-like systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv"
+    },
+    {
+      "context_snippet": "Download, compile, and install Node on Unix-like systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv-plugin"
+    },
+    {
+      "context_snippet": "Download, compile, and install Node on Unix-like systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    }
+  ]
+}

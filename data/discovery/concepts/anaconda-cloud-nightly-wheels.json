@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Anaconda Cloud nightly wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate-context",
+      "text": "A next generation Python CMake adaptor and Python API for plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate-context",
+      "text": "Anaconda Cloud nightly wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate",
+      "text": "Anaconda Cloud nightly wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22586,
+      "status": "candidate",
+      "text": "montana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22015,
+      "status": "candidate",
+      "text": "lotto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21164,
+      "status": "candidate",
+      "text": "heaven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21116,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21116,
+      "status": "candidate",
+      "text": "dream"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Anaconda Cloud nightly wheels",
+  "concept_id": "anaconda-cloud-nightly-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightlies.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Anaconda Cloud nightly wheels",
+      "sense_id": "anaconda-cloud-nightly-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

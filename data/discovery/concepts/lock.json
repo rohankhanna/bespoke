@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Lock"
+    "Lock",
+    "lock"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "home-assistant/core",
       "status": "candidate-context",
       "text": "Lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "Simplified distributed locking implementation using Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "home-assistant/core",
       "status": "candidate",
       "text": "Lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/bsm/redislock/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/redislock/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bsm/redislock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

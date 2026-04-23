@@ -1,0 +1,196 @@
+{
+  "aliases": [
+    "test & maybe release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate-context",
+      "text": "Multiformats interface (multihash, multicodec, multibase and CID)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "The Routing V1 HTTP API powered by Helia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate-context",
+      "text": "A client library for the Kubo RPC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate-context",
+      "text": "dag-cbor codec for IPLD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate",
+      "text": "test & maybe release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34586,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34259,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34186,
+      "status": "candidate",
+      "text": "guess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27074,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18917,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "test & maybe release",
+  "concept_id": "test-maybe-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "multiformats/js-multiformats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/helia-remote-pinning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-cbor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test & maybe release",
+      "sense_id": "test-maybe-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

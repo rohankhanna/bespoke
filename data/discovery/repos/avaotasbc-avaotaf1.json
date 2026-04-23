@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:11.810118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AvaotaF1 is a tiny RISC-V 32 Linux SBC based on Allwinner V821",
+    "fork": false,
+    "full_name": "AvaotaSBC/AvaotaF1",
+    "html_url": "https://github.com/AvaotaSBC/AvaotaF1",
+    "language": "HTML",
+    "pushed_at": "2026-03-19T00:16:26Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-20T05:20:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

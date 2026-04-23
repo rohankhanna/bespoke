@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:00:02.206656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Just Add Water direnv support for the nix-shell",
+    "fork": false,
+    "full_name": "nmattia/sorri",
+    "html_url": "https://github.com/nmattia/sorri",
+    "language": "Shell",
+    "pushed_at": "2021-07-14T17:35:21Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-09-19T14:25:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

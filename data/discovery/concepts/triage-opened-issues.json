@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Triage Opened Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "status": "candidate-context",
+      "text": "Sample code illustrating the VS Code extension API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "status": "candidate-context",
+      "text": "Triage Opened Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "status": "candidate",
+      "text": "Triage Opened Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24539,
+      "status": "candidate",
+      "text": "sorting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22565,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "enlisted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "reading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "soldier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Triage Opened Issues",
+  "concept_id": "triage-opened-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "microsoft/vscode-extension-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Triage Opened Issues",
+      "sense_id": "triage-opened-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

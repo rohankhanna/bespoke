@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-run-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "mme-benchmarks/video-mme-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "psunlpgroup/visonlyqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-run-test.yml",
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "gpt-4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "gpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit",
+      "target": "qwen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:24.421749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14568
+    },
+    {
+      "path": "requirements.txt",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/pr-run-test.yml",
+      "size": 5270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",
+    "fork": false,
+    "full_name": "open-compass/VLMEvalKit",
+    "html_url": "https://github.com/open-compass/VLMEvalKit",
+    "language": "Python",
+    "pushed_at": "2026-04-21T10:35:30Z",
+    "stargazers_count": 4076,
+    "topics": [
+      "chatgpt",
+      "claude",
+      "clip",
+      "computer-vision",
+      "evaluation",
+      "gemini",
+      "gpt",
+      "gpt-4v",
+      "gpt4",
+      "large-language-models",
+      "llava",
+      "llm",
+      "multi-modal",
+      "openai",
+      "openai-api",
+      "pytorch",
+      "qwen",
+      "vit",
+      "vqa"
+    ],
+    "updated_at": "2026-04-23T18:44:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mme-benchmarks/video-mme-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psunlpgroup/visonlyqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4v"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "components": [
+    {
+      "component": "boxen",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "date-fns",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "git-repo-name",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "load-json-file",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-escape",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ora",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "frinyvonnick/gitmoji-changelog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "boxen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "date-fns",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "ejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "git-repo-name",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "load-json-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "markdown-escape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "ora",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "Node CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "readme-badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "readme-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "readme-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kefranabg/readme-md-generator",
+      "target": "readme-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:31.228632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6439
+    },
+    {
+      "path": "package.json",
+      "size": 1571
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcc4 CLI that generates beautiful README.md files",
+    "fork": false,
+    "full_name": "kefranabg/readme-md-generator",
+    "html_url": "https://github.com/kefranabg/readme-md-generator",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-20T10:09:51Z",
+    "stargazers_count": 11105,
+    "topics": [
+      "cli",
+      "generator",
+      "readme",
+      "readme-badges",
+      "readme-generator",
+      "readme-md",
+      "readme-template"
+    ],
+    "updated_at": "2026-04-23T15:47:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frinyvonnick/gitmoji-changelog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node CI"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-badges"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-generator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-md"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to readme-md-generator \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-template"
+    }
+  ]
+}

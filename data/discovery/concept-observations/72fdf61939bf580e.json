@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimized Go Compression Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This package provides various compression algorithms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This package provides various compression algorithms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025591,
+      "status": "candidate",
+      "text": "puncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036575,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029064,
+      "status": "candidate",
+      "text": "downsize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027594,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026833,
+      "status": "candidate",
+      "text": "reduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deflate",
+      "sense_id": "deflate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10042,
+      "status": "candidate",
+      "text": "puncture"
+    }
+  ],
+  "concept_id": "deflate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deflate",
+  "observation_id": "72fdf61939bf580e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "deflate",
+  "source_context_snippet": "This package provides various compression algorithms.",
+  "source_file": null,
+  "source_repo": "klauspost/compress",
+  "source_repo_description": "Optimized Go Compression Packages"
+}

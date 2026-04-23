@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "target": "rust-lang/opsem-team",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "target": "Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:55:33.743762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1586
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Forum for discussion about what unsafe code can and can't do",
+    "fork": false,
+    "full_name": "rust-lang/unsafe-code-guidelines",
+    "html_url": "https://github.com/rust-lang/unsafe-code-guidelines",
+    "language": null,
+    "pushed_at": "2025-08-19T12:22:16Z",
+    "stargazers_count": 740,
+    "topics": [],
+    "updated_at": "2026-04-10T18:14:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/opsem-team",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    }
+  ]
+}

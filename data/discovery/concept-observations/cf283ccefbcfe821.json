@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-cloudformation",
+      "sense_id": "aws-cloudformation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-cloudformation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-cloudformation",
+  "observation_id": "cf283ccefbcfe821",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "aws-cloudformation",
+  "source_context_snippet": "[![Build Status](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema.svg?branch=master)](https://travis-ci.com/aws-cloudformation/aws-cloudformation-resource-schema)",
+  "source_file": null,
+  "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+  "source_repo_description": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK."
+}

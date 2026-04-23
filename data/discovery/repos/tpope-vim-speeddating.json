@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:00:27.792651+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "speeddating.vim: use CTRL-A/CTRL-X to increment dates, times, and more",
+    "fork": false,
+    "full_name": "tpope/vim-speeddating",
+    "html_url": "https://github.com/tpope/vim-speeddating",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-14T21:25:50Z",
+    "stargazers_count": 1061,
+    "topics": [],
+    "updated_at": "2026-04-18T20:32:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

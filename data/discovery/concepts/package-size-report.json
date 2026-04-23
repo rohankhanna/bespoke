@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package Size Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Package Size Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Package Size Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19456,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "cartridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "postage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package Size Report",
+  "concept_id": "package-size-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/package-size.yml",
+      "source_repo": "emberjs/ember.js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Size Report",
+      "sense_id": "package-size-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

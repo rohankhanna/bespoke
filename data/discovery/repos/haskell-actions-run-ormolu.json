@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/tool-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@actions/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@actions/tool-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "haskell-actions/run-ormolu",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:32.297396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2717
+    },
+    {
+      "path": "package.json",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ormolu GitHub action",
+    "fork": false,
+    "full_name": "haskell-actions/run-ormolu",
+    "html_url": "https://github.com/haskell-actions/run-ormolu",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-26T20:23:59Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-18T12:22:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

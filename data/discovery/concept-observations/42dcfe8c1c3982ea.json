@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Legacy Webhook Path"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Legacy Webhook Path"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "diary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "gift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "heritage"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Legacy Webhook Path",
+      "sense_id": "legacy-webhook-path#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "legacy-webhook-path",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "legacy-webhook-path",
+  "observation_id": "42dcfe8c1c3982ea",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Legacy Webhook Path",
+  "source_context_snippet": "Legacy Webhook Path",
+  "source_file": ".github/workflows/legacy-webhook-path.yml",
+  "source_repo": "kubernetes-sigs/kubebuilder",
+  "source_repo_description": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+}

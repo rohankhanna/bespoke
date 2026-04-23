@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "onnx/onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_example_tests_runner.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_example_tests_runner.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "nv-gha-runners/setup-proxy-cache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_example_tests_runner.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_example_tests_runner.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Example Tests Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_gate.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_gate.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_pr_gate.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "step-security/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_pr_gate.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "PR Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wait_for_checks.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "poseidon/wait-for-status-checks@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_wait_for_checks.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Wait for checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_uv_lock.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_uv_lock.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_uv_lock.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Bump uv.lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues_pr.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive_issues_pr.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Close inactive issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "trufflesecurity/trufflehog@v3.90.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "Example tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "nv-gha-runners/setup-proxy-cache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "target": "GPU tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "NVIDIA/Model-Optimizer"
+}

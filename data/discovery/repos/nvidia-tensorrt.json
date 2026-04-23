@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-update.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_issue.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "llvm-mirror/clang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "onnx/onnx-tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-update.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-update.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback-update.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "Remove feedback label on comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_issue.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_issue.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "Label New Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "Label and close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:28.669586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18926
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 3179
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/feedback-update.yml",
+      "size": 407
+    },
+    {
+      "path": ".github/workflows/label_issue.yml",
+      "size": 2221
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
+    "fork": false,
+    "full_name": "NVIDIA/TensorRT",
+    "html_url": "https://github.com/NVIDIA/TensorRT",
+    "language": "C++",
+    "pushed_at": "2026-04-13T22:59:10Z",
+    "stargazers_count": 12928,
+    "topics": [
+      "deep-learning",
+      "gpu-acceleration",
+      "inference",
+      "nvidia",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-23T19:57:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm-mirror/clang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onnx/onnx-tensorrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "Remove feedback label on comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback-update.yml",
+      "term": "Remove feedback label on comment"
+    },
+    {
+      "context_snippet": "Label New Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_issue.yml",
+      "term": "Label New Issues"
+    },
+    {
+      "context_snippet": "Label and close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Label and close inactive issues"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Documentation](https://img.shields.io/badge/TensorRT-documentation-brightgreen.svg)](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

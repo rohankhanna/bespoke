@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creasty/defaults",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creasty/defaults",
+      "target": "initialize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creasty/defaults",
+      "target": "nested",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creasty/defaults",
+      "target": "slice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creasty/defaults",
+      "target": "struct",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:44:44.747528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3847
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Initialize structs with default values",
+    "fork": false,
+    "full_name": "creasty/defaults",
+    "html_url": "https://github.com/creasty/defaults",
+    "language": "Go",
+    "pushed_at": "2024-08-13T06:45:40Z",
+    "stargazers_count": 863,
+    "topics": [
+      "golang",
+      "initialize",
+      "map",
+      "nested",
+      "slice",
+      "struct"
+    ],
+    "updated_at": "2026-04-06T14:42:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "initialize"
+    },
+    {
+      "context_snippet": "defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nested"
+    },
+    {
+      "context_snippet": "defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slice"
+    },
+    {
+      "context_snippet": "defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "struct"
+    }
+  ]
+}

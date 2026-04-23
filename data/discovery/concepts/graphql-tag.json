@@ -31,6 +31,18 @@
       "source_repo": "gajus/babel-plugin-graphql-tag",
       "status": "candidate-context",
       "text": "[![GitSpo Mentions](https://gitspo.com/badges/mentions/gajus/babel-plugin-graphql-tag?style=flat-square)](https://gitspo.com/mentions/gajus/babel-plugin-graphql-tag)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evenchange4/graphql.macro",
+      "status": "candidate-context",
+      "text": "Compile GraphQL AST at build-time with babel-plugin-macros."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evenchange4/graphql.macro",
+      "status": "candidate-context",
+      "text": "> Compile GraphQL AST at build-time with babel-plugin-macros."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "gajus/babel-plugin-graphql-tag",
       "status": "candidate",
       "text": "[![GitSpo Mentions](https://gitspo.com/badges/mentions/gajus/babel-plugin-graphql-tag?style=flat-square)](https://gitspo.com/mentions/gajus/babel-plugin-graphql-tag)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evenchange4/graphql.macro",
+      "status": "candidate",
+      "text": "> Compile GraphQL AST at build-time with babel-plugin-macros."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "gajus/babel-plugin-graphql-tag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "evenchange4/graphql.macro"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

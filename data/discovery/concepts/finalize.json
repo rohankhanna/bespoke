@@ -19,12 +19,30 @@
       "source_repo": "ansible/ansible-lint",
       "status": "candidate-context",
       "text": "finalize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "A python package containing functions that help interacting with various versions of Ansible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "finalize"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ansible/ansible-lint",
+      "status": "candidate",
+      "text": "finalize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
       "status": "candidate",
       "text": "finalize"
     }
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/finalize.yml",
       "source_repo": "ansible/ansible-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/finalize.yml",
+      "source_repo": "ansible/ansible-compat"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

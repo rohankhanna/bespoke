@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Impact Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate-context",
+      "text": "A composable and fully extensible C++ execution engine library for data management systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate-context",
+      "text": "Build Impact Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/velox",
+      "status": "candidate",
+      "text": "Build Impact Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17922,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17866,
+      "status": "candidate",
+      "text": "construction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17866,
+      "status": "candidate",
+      "text": "elaborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17866,
+      "status": "candidate",
+      "text": "enlarge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17866,
+      "status": "candidate",
+      "text": "expand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Impact Comment",
+  "concept_id": "build-impact-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-impact-comment.yml",
+      "source_repo": "facebookincubator/velox"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Impact Comment",
+      "sense_id": "build-impact-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

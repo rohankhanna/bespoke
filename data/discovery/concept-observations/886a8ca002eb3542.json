@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Package Manager Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Package Manager Builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26002,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17952,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17930,
+      "status": "candidate",
+      "text": "direction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Manager Builds",
+      "sense_id": "package-manager-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-manager-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-manager-builds",
+  "observation_id": "886a8ca002eb3542",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Package Manager Builds",
+  "source_context_snippet": "Package Manager Builds",
+  "source_file": ".github/workflows/package-manager-builds.yaml",
+  "source_repo": "catchorg/Catch2",
+  "source_repo_description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}

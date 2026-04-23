@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "PR Manager"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate-context",
+      "text": "Only look at releases! This fork of Dawn is use to share precompiled artifacts until upstream shares official builds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate-context",
+      "text": "PR Manager"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "Native WebGPU implementation. Mirror of https://dawn.googlesource.com/dawn. File bugs here: https://crbug.com/dawn/new"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "PR Manager"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate",
+      "text": "PR Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate",
+      "text": "PR Manager"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11791,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10814,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "abbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Manager",
+  "concept_id": "pr-manager",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-manager.yml",
+      "source_repo": "google/dawn"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Manager",
+      "sense_id": "pr-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

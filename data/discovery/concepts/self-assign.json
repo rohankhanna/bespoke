@@ -19,12 +19,30 @@
       "source_repo": "chalk-diagrams/chalk",
       "status": "candidate-context",
       "text": "Self-assign"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "Self-assign"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "chalk-diagrams/chalk",
+      "status": "candidate",
+      "text": "Self-assign"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
       "status": "candidate",
       "text": "Self-assign"
     }
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/selfassign.yml",
       "source_repo": "chalk-diagrams/chalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/selfassign.yml",
+      "source_repo": "chalk-diagrams/chalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/self-assign.yaml",
+      "source_repo": "huggingface/datasets"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

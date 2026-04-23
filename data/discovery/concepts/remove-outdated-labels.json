@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove Outdated Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "SVG icons for popular brands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate-context",
+      "text": "Remove Outdated Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simple-icons/simple-icons",
+      "status": "candidate",
+      "text": "Remove Outdated Labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25484,
+      "status": "candidate",
+      "text": "confuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24696,
+      "status": "candidate",
+      "text": "milliary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22057,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22057,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21937,
+      "status": "candidate",
+      "text": "busboy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove Outdated Labels",
+  "concept_id": "remove-outdated-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "simple-icons/simple-icons"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove Outdated Labels",
+      "sense_id": "remove-outdated-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

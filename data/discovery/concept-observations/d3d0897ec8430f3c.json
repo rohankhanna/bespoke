@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Static code analysis workflow (CodeQL)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Static code analysis workflow (CodeQL)\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32374,
+      "status": "candidate",
+      "text": "liquidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32374,
+      "status": "candidate",
+      "text": "normalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32351,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32351,
+      "status": "candidate",
+      "text": "population"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32325,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static code analysis workflow (CodeQL)",
+      "sense_id": "static-code-analysis-workflow-codeql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-code-analysis-workflow-codeql",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-code-analysis-workflow-codeql",
+  "observation_id": "d3d0897ec8430f3c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Static code analysis workflow (CodeQL)",
+  "source_context_snippet": "\"Static code analysis workflow (CodeQL)\"",
+  "source_file": ".github/workflows/codeql-analysis.yml",
+  "source_repo": "anuraghazra/github-readme-stats",
+  "source_repo_description": ":zap: Dynamically generated stats for your github readmes"
+}

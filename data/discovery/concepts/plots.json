@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "plots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "Visualise Go runtime metrics in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arl/statsviz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017775,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016354,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996752,
+      "status": "candidate",
+      "text": "plat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "plot of ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "secret plan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "plots",
+  "concept_id": "plots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "arl/statsviz"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plots",
+      "sense_id": "plots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

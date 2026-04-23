@@ -103,6 +103,42 @@
       "source_repo": "Watfaq/PowerSession-rs",
       "status": "candidate-context",
       "text": "> Asciinema-compatible terminal session recorder for Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "A command-line installer for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Watfaq/PowerSession",
+      "status": "candidate-context",
+      "text": "Record a Session in PowerShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession",
+      "status": "candidate-context",
+      "text": "> Record a Session in PowerShell."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "Watfaq/PowerSession-rs",
       "status": "candidate",
       "text": "> Asciinema-compatible terminal session recorder for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession",
+      "status": "candidate",
+      "text": "> Record a Session in PowerShell."
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +284,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Watfaq/PowerSession-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

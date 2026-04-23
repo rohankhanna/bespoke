@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:58:54.659207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol for orderflow auctions",
+    "fork": false,
+    "full_name": "flashbots/mev-share",
+    "html_url": "https://github.com/flashbots/mev-share",
+    "language": null,
+    "pushed_at": "2023-07-14T08:23:10Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-02-18T15:12:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

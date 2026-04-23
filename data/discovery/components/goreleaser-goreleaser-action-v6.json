@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@v6",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-pre.yml",
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wader/fq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/act-cli"
     }
   ]
 }

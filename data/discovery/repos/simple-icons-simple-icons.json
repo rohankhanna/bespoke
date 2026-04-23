@@ -1,0 +1,1132 @@
+{
+  "components": [
+    {
+      "component": "@inquirer/prompts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@j178/prek",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "editorconfig-checker",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-headers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fake-diff",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-fuzzy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "get-relative-luminance",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonschema",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "named-html-entities-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-packagejson",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rumdl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spdx-license-ids",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg-path-bbox",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg-path-segments",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svglint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svgo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svgpath",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "simple-icons/labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "mondeja/pr-linked-issues-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "srggrs/assign-one-project-github-action@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "simple-icons/release-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-release.yml"
+    },
+    {
+      "component": "simple-icons/release-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "kceb/git-message-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    },
+    {
+      "component": "mondeja/remove-labels-gh-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    },
+    {
+      "component": "mondeja/remove-labels-gh-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    },
+    {
+      "component": "mondeja/remove-labels-gh-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "gridatek/semantic-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "dzeiocom/simple-icons-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "foo-dogsquared/hugo-mod-simple-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "carstencodes/simplepycons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "@inquirer/prompts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "@j178/prek",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "editorconfig-checker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "eslint-plugin-headers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "fake-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "fast-fuzzy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "get-relative-luminance",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "jsonschema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "named-html-entities-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "prettier-plugin-packagejson",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "rumdl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "spdx-license-ids",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svg-path-bbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svg-path-segments",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svglint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svgo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svgpath",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "simple-icons/labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "mondeja/pr-linked-issues-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels-priority.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "srggrs/assign-one-project-github-action@1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Autocloser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "simple-icons/release-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Create Release Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Potential Duplicate Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "simple-icons/release-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-release.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Merge Release Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "kceb/git-message-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Publish Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "mondeja/remove-labels-gh-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "source_repo": "simple-icons/simple-icons",
+      "target": "Remove Outdated Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "brand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "brand-assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "brand-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "branding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "branding-assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "brands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "company-brands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "design-assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "icon-pack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "icon-packs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "iconset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "logo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "logos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svg-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svg-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simple-icons/simple-icons",
+      "target": "svg-images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:38.531380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22733
+    },
+    {
+      "path": "Dockerfile",
+      "size": 202
+    },
+    {
+      "path": "package.json",
+      "size": 3960
+    },
+    {
+      "path": ".github/workflows/add-labels-priority.yml",
+      "size": 6491
+    },
+    {
+      "path": ".github/workflows/autoclose-issues.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 3776
+    },
+    {
+      "path": ".github/workflows/duplicate-issues.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/merge-release.yml",
+      "size": 550
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 5091
+    },
+    {
+      "path": ".github/workflows/remove-labels.yml",
+      "size": 2096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "SVG icons for popular brands",
+    "fork": false,
+    "full_name": "simple-icons/simple-icons",
+    "html_url": "https://github.com/simple-icons/simple-icons",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T09:11:44Z",
+    "stargazers_count": 24968,
+    "topics": [
+      "brand",
+      "brand-assets",
+      "brand-colors",
+      "branding",
+      "branding-assets",
+      "brands",
+      "company-brands",
+      "design",
+      "design-assets",
+      "icon-pack",
+      "icon-packs",
+      "icons",
+      "iconset",
+      "logo",
+      "logos",
+      "svg",
+      "svg-files",
+      "svg-icons",
+      "svg-images"
+    ],
+    "updated_at": "2026-04-23T22:06:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carstencodes/simplepycons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dzeiocom/simple-icons-astro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foo-dogsquared/hugo-mod-simple-icons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gridatek/semantic-icons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autocloser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-issues.yml",
+      "term": "Autocloser"
+    },
+    {
+      "context_snippet": "Create Release Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release Pull Request"
+    },
+    {
+      "context_snippet": "Potential Duplicate Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-issues.yml",
+      "term": "Potential Duplicate Issues"
+    },
+    {
+      "context_snippet": "Merge Release Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-release.yml",
+      "term": "Merge Release Pull Request"
+    },
+    {
+      "context_snippet": "Publish Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Releases"
+    },
+    {
+      "context_snippet": "Remove Outdated Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-labels.yml",
+      "term": "Remove Outdated Labels"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brand"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brand-assets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brand-colors"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "branding"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "branding-assets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brands"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "company-brands"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-assets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-pack"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-packs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconset"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logo"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-files"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-icons"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-images"
+    }
+  ]
+}

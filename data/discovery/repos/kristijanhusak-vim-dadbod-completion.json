@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "coc.nvim",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "tpope/vim-dadbod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "shougo/ddc.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "saghen/blink.cmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "kristijanhusak/vim-dadbod-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "coc.nvim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "autocompletions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "deoplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "deoplete-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "vim-dadbod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:08:27.077491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4648
+    },
+    {
+      "path": "package.json",
+      "size": 1384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Database autocompletion powered by https://github.com/tpope/vim-dadbod",
+    "fork": false,
+    "full_name": "kristijanhusak/vim-dadbod-completion",
+    "html_url": "https://github.com/kristijanhusak/vim-dadbod-completion",
+    "language": "Vim Script",
+    "pushed_at": "2025-03-19T18:51:21Z",
+    "stargazers_count": 779,
+    "topics": [
+      "autocompletions",
+      "coc",
+      "database",
+      "deoplete",
+      "deoplete-source",
+      "neovim",
+      "neovim-plugin",
+      "nvim-cmp",
+      "vim",
+      "vim-dadbod",
+      "vim-plugin",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-04-21T09:33:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kristijanhusak/vim-dadbod-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saghen/blink.cmp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/ddc.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-dadbod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocompletions"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete-source"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-dadbod"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

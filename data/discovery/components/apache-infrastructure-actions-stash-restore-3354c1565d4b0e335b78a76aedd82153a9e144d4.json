@@ -1,0 +1,12 @@
+{
+  "component": "apache/infrastructure-actions/stash/restore@3354c1565d4b0e335b78a76aedd82153a9e144d4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pyvelox.yml",
+      "source_repo": "facebookincubator/velox"
+    }
+  ]
+}

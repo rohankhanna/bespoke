@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rollup-plugins",
+      "sense_id": "rollup-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rollup-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rollup-plugins",
+  "observation_id": "0f64eb8e9f6a4000",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rollup-plugins",
+  "source_context_snippet": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg",
+  "source_file": null,
+  "source_repo": "rollup/plugins",
+  "source_repo_description": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+}

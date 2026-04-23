@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "tc39/proposal-decorators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "tc39/proposal-import-attributes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "tc39/proposal-duplicate-named-capturing-groups",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:58:48.349840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5366
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 1505
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Esprima .NET (BSD license) is a .NET port of the esprima.org project. It is a standard-compliant ECMAScript parser (also popularly known as JavaScript).",
+    "fork": false,
+    "full_name": "sebastienros/esprima-dotnet",
+    "html_url": "https://github.com/sebastienros/esprima-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-14T10:41:15Z",
+    "stargazers_count": 451,
+    "topics": [],
+    "updated_at": "2026-04-20T13:20:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-decorators",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-duplicate-named-capturing-groups",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-import-attributes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Check"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

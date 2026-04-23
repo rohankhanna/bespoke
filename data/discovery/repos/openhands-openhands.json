@@ -126,28 +126,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/software-agent-sdk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/openhands-cli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/benchmarks",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/openhands-chrome-extension",
+      "target": "openhands/tom-swe",
       "target_type": "repository"
     },
     {
@@ -389,7 +368,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:44:49.239069+00:00",
+  "fetched_at": "2026-04-23T21:48:41.549743+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -441,8 +420,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-04-23T03:50:19Z",
-    "stargazers_count": 71820,
+    "pushed_at": "2026-04-23T21:42:55Z",
+    "stargazers_count": 71929,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -454,27 +433,12 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-04-23T04:33:42Z"
+    "updated_at": "2026-04-23T21:18:06Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openhands/benchmarks",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/openhands-chrome-extension",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/openhands-cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/software-agent-sdk",
+      "full_name": "openhands/tom-swe",
       "source_file": "README.md"
     }
   ],

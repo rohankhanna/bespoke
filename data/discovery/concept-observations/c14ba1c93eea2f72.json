@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038381,
+      "status": "candidate",
+      "text": "polypetalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038279,
+      "status": "candidate",
+      "text": "gamopetalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038271,
+      "status": "candidate",
+      "text": "petalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038512,
+      "status": "candidate",
+      "text": "labellum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024898,
+      "status": "candidate",
+      "text": "honey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "petal",
+      "sense_id": "petal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "petal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "petal",
+  "observation_id": "c14ba1c93eea2f72",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "petal",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/mvp",
+  "source_repo_description": "\ud83d\udcf2 simplest version of the @dwyl app"
+}

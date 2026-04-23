@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributing.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ema2159/centaur-tabs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "tiagovla/scope.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ap/vim-buftabline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "JohnnyMorganz/stylua-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributing.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "amannn/action-semantic-pull-request@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributing.yaml",
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "Semantic Pull Request Subject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "bufferline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:58:45.682568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12623
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2271
+    },
+    {
+      "path": ".github/workflows/contributing.yaml",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A snazzy bufferline for Neovim",
+    "fork": false,
+    "full_name": "akinsho/bufferline.nvim",
+    "html_url": "https://github.com/akinsho/bufferline.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-01-14T16:03:57Z",
+    "stargazers_count": 4295,
+    "topics": [
+      "bufferline",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "vim"
+    ],
+    "updated_at": "2026-04-22T19:03:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ap/vim-buftabline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ema2159/centaur-tabs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiagovla/scope.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Semantic Pull Request Subject",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributing.yaml",
+      "term": "Semantic Pull Request Subject"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bufferline"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

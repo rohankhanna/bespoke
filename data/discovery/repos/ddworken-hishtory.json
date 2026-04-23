@@ -1,0 +1,740 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "datadog/agent-github-action@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@1e07f4398721186383de40550babbdf2b84acfc5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml"
+    },
+    {
+      "component": "actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "Self-Hosting Docker Compose Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "datadog/agent-github-action@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "Go Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "Pre-Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "softprops/action-gh-release@1e07f4398721186383de40550babbdf2b84acfc5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "Server Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory",
+      "target": "SLSA Client Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory",
+      "target": "history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:13:36.894866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18007
+    },
+    {
+      "path": "go.mod",
+      "size": 14620
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/distro-smoke-test.yml",
+      "size": 1909
+    },
+    {
+      "path": ".github/workflows/docker-compose-test.yml",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 4263
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/server-releaser.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/slsa-releaser.yml",
+      "size": 8371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Your shell history: synced, queryable, and in context",
+    "fork": false,
+    "full_name": "ddworken/hishtory",
+    "html_url": "https://github.com/ddworken/hishtory",
+    "language": "Go",
+    "pushed_at": "2026-03-18T23:18:46Z",
+    "stargazers_count": 3073,
+    "topics": [
+      "bash",
+      "cli",
+      "fish",
+      "golang",
+      "history",
+      "shell",
+      "zsh"
+    ],
+    "updated_at": "2026-04-23T05:47:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distro-smoke-test.yml",
+      "term": "Smoke Test"
+    },
+    {
+      "context_snippet": "Self-Hosting Docker Compose Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-compose-test.yml",
+      "term": "Self-Hosting Docker Compose Tests"
+    },
+    {
+      "context_snippet": "Go Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "Go Tests"
+    },
+    {
+      "context_snippet": "Pre-Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-Commit"
+    },
+    {
+      "context_snippet": "Server Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-releaser.yml",
+      "term": "Server Releaser"
+    },
+    {
+      "context_snippet": "SLSA Client Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "term": "SLSA Client Releaser"
+    },
+    {
+      "context_snippet": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "history"
+    },
+    {
+      "context_snippet": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

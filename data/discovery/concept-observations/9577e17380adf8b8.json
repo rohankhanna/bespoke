@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fengshenbang-LM(\u5c01\u795e\u699c\u5927\u6a21\u578b)\u662fIDEA\u7814\u7a76\u9662\u8ba4\u77e5\u8ba1\u7b97\u4e0e\u81ea\u7136\u8bed\u8a00\u7814\u7a76\u4e2d\u5fc3\u4e3b\u5bfc\u7684\u5927\u6a21\u578b\u5f00\u6e90\u4f53\u7cfb\uff0c\u6210\u4e3a\u4e2d\u6587AIGC\u548c\u8ba4\u77e5\u667a\u80fd\u7684\u57fa\u7840\u8bbe\u65bd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretrained-models",
+      "sense_id": "pretrained-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pretrained-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pretrained-models",
+  "observation_id": "9577e17380adf8b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "pretrained-models",
+  "source_context_snippet": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)",
+  "source_file": null,
+  "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+  "source_repo_description": "Fengshenbang-LM(\u5c01\u795e\u699c\u5927\u6a21\u578b)\u662fIDEA\u7814\u7a76\u9662\u8ba4\u77e5\u8ba1\u7b97\u4e0e\u81ea\u7136\u8bed\u8a00\u7814\u7a76\u4e2d\u5fc3\u4e3b\u5bfc\u7684\u5927\u6a21\u578b\u5f00\u6e90\u4f53\u7cfb\uff0c\u6210\u4e3a\u4e2d\u6587AIGC\u548c\u8ba4\u77e5\u667a\u80fd\u7684\u57fa\u7840\u8bbe\u65bd\u3002"
+}

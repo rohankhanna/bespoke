@@ -103,6 +103,18 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "Consul integration for service discovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

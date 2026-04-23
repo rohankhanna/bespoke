@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Custom RTTs and JS interop for Wasm GC structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI for interpreter & tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI for interpreter & tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20993,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17986,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13733,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12983,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12951,
+      "status": "candidate",
+      "text": "irene"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI for interpreter & tests",
+      "sense_id": "ci-for-interpreter-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-for-interpreter-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-for-interpreter-tests",
+  "observation_id": "94c6ca9f5c807df8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI for interpreter & tests",
+  "source_context_snippet": "CI for interpreter & tests",
+  "source_file": ".github/workflows/ci-interpreter.yml",
+  "source_repo": "WebAssembly/custom-descriptors",
+  "source_repo_description": "Custom RTTs and JS interop for Wasm GC structs"
+}

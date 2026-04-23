@@ -1,0 +1,448 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "losisin/helm-docs-github-action@2ccf3e77eb70dc80d62f8cc26f15d0a96b75fef4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-verify.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-verify.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-benchmark.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ca-benchmark.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Cluster Autoscaler Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ca-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ca-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Cluster Autoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart-release.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chart-release.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Release Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "losisin/helm-docs-github-action@2ccf3e77eb70dc80d62f8cc26f15d0a96b75fef4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Verify Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Vertical Pod Autoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Vertical Pod Autoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler",
+      "target": "Vertical Pod Autoscaler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:37.534579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2959
+    },
+    {
+      "path": ".github/workflows/ca-benchmark.yaml",
+      "size": 2409
+    },
+    {
+      "path": ".github/workflows/ca-test.yaml",
+      "size": 981
+    },
+    {
+      "path": ".github/workflows/chart-release.yaml",
+      "size": 2048
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 3055
+    },
+    {
+      "path": ".github/workflows/verify.yaml",
+      "size": 1206
+    },
+    {
+      "path": ".github/workflows/vpa-golangci-lint.yaml",
+      "size": 1232
+    },
+    {
+      "path": ".github/workflows/vpa-test.yaml",
+      "size": 1245
+    },
+    {
+      "path": ".github/workflows/vpa-verify.yaml",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Autoscaling components for Kubernetes",
+    "fork": false,
+    "full_name": "kubernetes/autoscaler",
+    "html_url": "https://github.com/kubernetes/autoscaler",
+    "language": "Go",
+    "pushed_at": "2026-04-23T18:35:14Z",
+    "stargazers_count": 8828,
+    "topics": [],
+    "updated_at": "2026-04-23T16:55:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cluster Autoscaler Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ca-benchmark.yaml",
+      "term": "Cluster Autoscaler Benchmark"
+    },
+    {
+      "context_snippet": "Cluster Autoscaler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ca-test.yaml",
+      "term": "Cluster Autoscaler"
+    },
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chart-release.yaml",
+      "term": "Release Charts"
+    },
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Verify Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "term": "Verify Go"
+    },
+    {
+      "context_snippet": "Vertical Pod Autoscaler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "term": "Vertical Pod Autoscaler"
+    },
+    {
+      "context_snippet": "Vertical Pod Autoscaler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "term": "Vertical Pod Autoscaler"
+    },
+    {
+      "context_snippet": "Vertical Pod Autoscaler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "term": "Vertical Pod Autoscaler"
+    }
+  ]
+}

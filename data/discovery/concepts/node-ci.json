@@ -175,6 +175,90 @@
       "source_repo": "longlho/ts-transform-img",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 CLI that generates beautiful README.md files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "status": "candidate-context",
+      "text": ":vertical_traffic_light: Check your GraphQL query strings against a schema."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypi/warehouse",
+      "status": "candidate-context",
+      "text": "The Python Package Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypi/warehouse",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +343,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "longlho/ts-transform-img",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/decap-cms",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kefranabg/readme-md-generator",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/eslint-plugin-graphql",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypi/warehouse",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -394,11 +520,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "longlho/ts-transform-img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kefranabg/readme-md-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "badgen/badgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "pypi/warehouse"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

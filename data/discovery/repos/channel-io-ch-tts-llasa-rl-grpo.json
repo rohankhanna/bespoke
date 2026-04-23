@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:47:39.172632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3030
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2652
+    },
+    {
+      "path": "requirements.txt",
+      "size": 491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "channel-io/ch-tts-llasa-rl-grpo",
+    "html_url": "https://github.com/channel-io/ch-tts-llasa-rl-grpo",
+    "language": "Python",
+    "pushed_at": "2026-04-20T16:24:34Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-20T16:25:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

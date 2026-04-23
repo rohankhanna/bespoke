@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test checklist consistency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test checklist consistency"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22892,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22238,
+      "status": "candidate",
+      "text": "bioassay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22238,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22238,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22238,
+      "status": "candidate",
+      "text": "reviewing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test checklist consistency",
+      "sense_id": "test-checklist-consistency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-checklist-consistency",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-checklist-consistency",
+  "observation_id": "fc4d3b35b21991a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Test checklist consistency",
+  "source_context_snippet": "Test checklist consistency",
+  "source_file": ".github/workflows/test-checklist.yaml",
+  "source_repo": "ethereum/execution-specs",
+  "source_repo_description": "Specification for the Execution Layer. Tracking network upgrades."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "eventing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661922,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853222,
+      "status": "candidate",
+      "text": "eventer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853221,
+      "status": "candidate",
+      "text": "show jumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853220,
+      "status": "candidate",
+      "text": "horse opera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19853219,
+      "status": "candidate",
+      "text": "equestrianship"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "eventing",
+  "concept_id": "eventing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/eventing"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eventing",
+      "sense_id": "eventing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

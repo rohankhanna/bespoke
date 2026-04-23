@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chai2010/pbgo",
+      "target": "wa-lang/wa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chai2010/pbgo",
+      "target": "chubin/wttr.in",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chai2010/pbgo",
+      "target": "chai2010/pbgo-grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "pbgo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo",
+      "target": "rest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:25.283086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8404
+    },
+    {
+      "path": "go.mod",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf",
+    "fork": false,
+    "full_name": "chai2010/pbgo",
+    "html_url": "https://github.com/chai2010/pbgo",
+    "language": "Go",
+    "pushed_at": "2024-07-22T13:37:03Z",
+    "stargazers_count": 128,
+    "topics": [
+      "gateway",
+      "go",
+      "golang",
+      "grpc",
+      "pbgo",
+      "protobuf",
+      "rest"
+    ],
+    "updated_at": "2025-09-11T08:36:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chai2010/pbgo-grpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chubin/wttr.in",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wa-lang/wa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pbgo"
+    },
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    }
+  ]
+}

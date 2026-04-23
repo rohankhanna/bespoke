@@ -43,6 +43,66 @@
       "source_repo": "jupyterlab/frontends-team-compass",
       "status": "candidate-context",
       "text": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "R kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "Coding assistance for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "The governance process and model for Project Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "The purpose of this repository is to formalize the governance process for Project Jupyter. The governance documents are best viewed at https://jupyter.org/governance. They may also be built from the files in this repository by following the instructions below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "Jupyter Interactive Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "![Github Actions Status](https://github.com/jupyter/notebook/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "Samples for Intel\u00ae oneAPI Toolkits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "jupyterlab/frontends-team-compass",
       "status": "candidate",
       "text": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate",
+      "text": "The purpose of this repository is to formalize the governance process for Project Jupyter. The governance documents are best viewed at https://jupyter.org/governance. They may also be built from the files in this repository by following the instructions below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate",
+      "text": "![Github Actions Status](https://github.com/jupyter/notebook/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +178,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jupyterlab/frontends-team-compass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IRkernel/IRkernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/notebook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

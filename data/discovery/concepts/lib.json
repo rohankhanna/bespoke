@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "lib"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "lib"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate",
+      "text": "lib"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006044,
+      "status": "candidate",
+      "text": "liberal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001456,
+      "status": "candidate",
+      "text": "annex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986302,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984864,
+      "status": "candidate",
+      "text": "library"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lib",
+  "concept_id": "lib",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lib.yml",
+      "source_repo": "microsoft/windows-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lib",
+      "sense_id": "lib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

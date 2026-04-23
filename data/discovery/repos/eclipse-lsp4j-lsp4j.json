@@ -33,13 +33,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eclipse-lsp4j/lsp4j",
-      "target": "microsoft/language-server-protocol",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/junit.yml",
       "source_repo": "eclipse-lsp4j/lsp4j",
@@ -103,7 +96,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:47:16.420552+00:00",
+  "fetched_at": "2026-04-23T20:07:22.684038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,21 +121,15 @@
     "html_url": "https://github.com/eclipse-lsp4j/lsp4j",
     "language": "Java",
     "pushed_at": "2026-04-15T08:49:17Z",
-    "stargazers_count": 711,
+    "stargazers_count": 712,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-04-22T02:20:00Z"
+    "updated_at": "2026-04-23T11:52:43Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/language-server-protocol",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish Unit Test Results",

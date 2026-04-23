@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Signing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate-context",
+      "text": "Release Signing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/yarn",
+      "status": "candidate",
+      "text": "Release Signing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "ended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "signalling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Signing",
+  "concept_id": "release-signing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/signing.yml",
+      "source_repo": "yarnpkg/yarn"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Signing",
+      "sense_id": "release-signing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

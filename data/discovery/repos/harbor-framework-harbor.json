@@ -1,0 +1,446 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1.0.88",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-registry-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/harbor",
+      "target": "harbor-framework/harbor-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harbor-framework/harbor",
+      "target": "laude-institute/terminal-bench-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "anthropics/claude-code-action@v1.0.88",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Adapter Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-registry-format.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-preview.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs-preview.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Deploy Docs Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harbor-framework/harbor",
+      "target": "evals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harbor-framework/harbor",
+      "target": "rl-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harbor-framework/harbor",
+      "target": "terminal-bench",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:40.253874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2564
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3148
+    },
+    {
+      "path": ".github/workflows/adapter-review.yml",
+      "size": 49361
+    },
+    {
+      "path": ".github/workflows/check-registry-format.yml",
+      "size": 1387
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 2972
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2301
+    },
+    {
+      "path": ".github/workflows/deploy-docs-preview.yml",
+      "size": 2921
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 583
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 2222
+    },
+    {
+      "path": ".github/workflows/ruff-format.yml",
+      "size": 805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Harbor is a framework for running agent evaluations and creating and using RL environments.",
+    "fork": false,
+    "full_name": "harbor-framework/harbor",
+    "html_url": "https://github.com/harbor-framework/harbor",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:38:42Z",
+    "stargazers_count": 1616,
+    "topics": [
+      "evals",
+      "rl-environments",
+      "terminal-bench"
+    ],
+    "updated_at": "2026-04-23T21:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harbor-framework/harbor-cookbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/terminal-bench-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Adapter Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adapter-review.yml",
+      "term": "Adapter Review"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Deploy Docs Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs-preview.yml",
+      "term": "Deploy Docs Preview"
+    },
+    {
+      "context_snippet": "PR Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.limes.pink/api/server/https://discord.gg/6xWPKhGDbA)](https://discord.gg/6xWPKhGDbA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evals"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.limes.pink/api/server/https://discord.gg/6xWPKhGDbA)](https://discord.gg/6xWPKhGDbA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rl-environments"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.limes.pink/api/server/https://discord.gg/6xWPKhGDbA)](https://discord.gg/6xWPKhGDbA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-bench"
+    }
+  ]
+}

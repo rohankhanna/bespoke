@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/stylize-datasets",
+      "target": "rgeirhos/stylized-imagenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bethgelab/stylize-datasets",
+      "target": "naoto0804/pytorch-adain",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:45:46.744174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3464
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A script that applies the AdaIN style transfer method to arbitrary datasets",
+    "fork": false,
+    "full_name": "bethgelab/stylize-datasets",
+    "html_url": "https://github.com/bethgelab/stylize-datasets",
+    "language": "Python",
+    "pushed_at": "2021-07-05T17:29:09Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-01-31T16:57:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naoto0804/pytorch-adain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgeirhos/stylized-imagenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

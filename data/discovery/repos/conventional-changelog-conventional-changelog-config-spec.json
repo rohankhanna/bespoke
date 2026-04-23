@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "ajv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog-config-spec",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog-config-spec",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog-config-spec",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog-config-spec",
+      "target": "standard-version",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:50:10.621939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 219
+    },
+    {
+      "path": "package.json",
+      "size": 931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a spec describing the config options supported by conventional-config for upstream tooling",
+    "fork": false,
+    "full_name": "conventional-changelog/conventional-changelog-config-spec",
+    "html_url": "https://github.com/conventional-changelog/conventional-changelog-config-spec",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-08T19:42:16Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-02-25T18:22:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Python Package Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Development Environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Development Environment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53898,
+      "status": "candidate",
+      "text": "developement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53897,
+      "status": "candidate",
+      "text": "developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53896,
+      "status": "candidate",
+      "text": "developers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53895,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53894,
+      "status": "candidate",
+      "text": "environments"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Development Environment",
+      "sense_id": "development-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "development-environment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "development-environment",
+  "observation_id": "018dd3f55a78a84f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Development Environment",
+  "source_context_snippet": "Development Environment",
+  "source_file": ".github/workflows/dev-env-test.yml",
+  "source_repo": "pypi/warehouse",
+  "source_repo_description": "The Python Package Index"
+}

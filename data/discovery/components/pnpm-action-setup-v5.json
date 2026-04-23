@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v5",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "speced/respec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "speced/respec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regressions.yml",
+      "source_repo": "speced/respec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons"
     }
   ]
 }

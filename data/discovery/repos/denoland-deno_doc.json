@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "dsherret/rust-toolchain-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "dsherret/rust-toolchain-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "denoland/deno_doc",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/deno_doc",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/deno_doc",
+      "target": "documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:29.450404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4563
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1952
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2677
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 400
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation generator for Deno",
+    "fork": false,
+    "full_name": "denoland/deno_doc",
+    "html_url": "https://github.com/denoland/deno_doc",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T16:28:53Z",
+    "stargazers_count": 295,
+    "topics": [
+      "deno",
+      "documentation"
+    ],
+    "updated_at": "2026-04-17T16:28:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/deno_doc.svg)](https://crates.io/crates/deno_doc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/crates/v/deno_doc.svg)](https://crates.io/crates/deno_doc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    }
+  ]
+}

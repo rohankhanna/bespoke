@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-meson-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-other-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-other-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-simple-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-manager-builds.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-simple-builds.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Bazel)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-meson-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-meson-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Meson)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Complex)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Basic)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Mac Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Mac Sanitizer Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-manager-builds.yaml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-manager-builds.yaml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Package Manager Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Check header guards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Windows Builds (Basic)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "test-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:47:54.342188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4160
+    },
+    {
+      "path": ".github/workflows/linux-bazel-builds.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/linux-meson-builds.yml",
+      "size": 1201
+    },
+    {
+      "path": ".github/workflows/linux-other-builds.yml",
+      "size": 4557
+    },
+    {
+      "path": ".github/workflows/linux-simple-builds.yml",
+      "size": 2877
+    },
+    {
+      "path": ".github/workflows/mac-builds.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/mac-sanitizer-builds.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/package-manager-builds.yaml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/validate-header-guards.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/windows-simple-builds.yml",
+      "size": 937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "devel",
+    "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+    "fork": false,
+    "full_name": "catchorg/Catch2",
+    "html_url": "https://github.com/catchorg/Catch2",
+    "language": "C++",
+    "pushed_at": "2026-04-14T07:08:29Z",
+    "stargazers_count": 20337,
+    "topics": [
+      "bdd",
+      "cpp",
+      "cpp14",
+      "framework",
+      "no-dependencies",
+      "tdd",
+      "test-framework",
+      "testing"
+    ],
+    "updated_at": "2026-04-23T15:51:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux Builds (Bazel)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "term": "Linux Builds (Bazel)"
+    },
+    {
+      "context_snippet": "Linux Builds (Meson)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-meson-builds.yml",
+      "term": "Linux Builds (Meson)"
+    },
+    {
+      "context_snippet": "Linux Builds (Complex)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "term": "Linux Builds (Complex)"
+    },
+    {
+      "context_snippet": "Linux Builds (Basic)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-simple-builds.yml",
+      "term": "Linux Builds (Basic)"
+    },
+    {
+      "context_snippet": "Mac Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-builds.yml",
+      "term": "Mac Builds"
+    },
+    {
+      "context_snippet": "Mac Sanitizer Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "term": "Mac Sanitizer Builds"
+    },
+    {
+      "context_snippet": "Package Manager Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-manager-builds.yaml",
+      "term": "Package Manager Builds"
+    },
+    {
+      "context_snippet": "Check header guards",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "term": "Check header guards"
+    },
+    {
+      "context_snippet": "Windows Builds (Basic)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-simple-builds.yml",
+      "term": "Windows Builds (Basic)"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-framework"
+    },
+    {
+      "context_snippet": "<a id=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

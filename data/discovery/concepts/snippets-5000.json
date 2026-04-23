@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snippets 5000"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "Sample code referenced by the .NET documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate-context",
+      "text": "'Snippets 5000'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/samples",
+      "status": "candidate",
+      "text": "'Snippets 5000'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10393,
+      "status": "candidate",
+      "text": "quadruplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10393,
+      "status": "candidate",
+      "text": "quintuplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4525,
+      "status": "candidate",
+      "text": "ana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4525,
+      "status": "candidate",
+      "text": "anas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4525,
+      "status": "candidate",
+      "text": "cabbage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snippets 5000",
+  "concept_id": "snippets-5000",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/snippets5000.yml",
+      "source_repo": "dotnet/samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snippets 5000",
+      "sense_id": "snippets-5000#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

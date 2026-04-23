@@ -1,0 +1,573 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamation_demos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamation_demos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/armv7.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/armv7.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/atomic_fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangformat.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangformat.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian-latestcxxstandards.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdutf/simdutf",
+      "target": "cloudflare/workerd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdutf/simdutf",
+      "target": "haskell/text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdutf/simdutf",
+      "target": "fluent/fluent-bit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdutf/simdutf",
+      "target": "lemire/unicode_lipsum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "Ubuntu aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "Alpine Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamation_demos.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amalgamation_demos.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "amalgamation demos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/armv7.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/armv7.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/armv7.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "Ubuntu armv7 (GCC 11)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/atomic_fuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/atomic_fuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "atomic base64 fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangformat.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangformat.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clangformat.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "clang format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian-latestcxxstandards.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "source_repo": "simdutf/simdutf",
+      "target": "Debian pkg-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "avx-512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "ppc64le",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "risc-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "sse2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "transcoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "utf16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf",
+      "target": "utf8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:39:10.903176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 155476
+    },
+    {
+      "path": ".github/workflows/aarch64.yml",
+      "size": 1030
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 793
+    },
+    {
+      "path": ".github/workflows/amalgamation_demos.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/armv7.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/atomic_fuzz.yml",
+      "size": 715
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/clangformat.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/debian-latestcxxstandards.yml",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/debian.yml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun.",
+    "fork": false,
+    "full_name": "simdutf/simdutf",
+    "html_url": "https://github.com/simdutf/simdutf",
+    "language": "C++",
+    "pushed_at": "2026-04-22T17:15:40Z",
+    "stargazers_count": 1802,
+    "topics": [
+      "avx-512",
+      "avx2",
+      "base64",
+      "neon",
+      "ppc64le",
+      "risc-v",
+      "simd",
+      "sse2",
+      "transcoding",
+      "unicode",
+      "utf16",
+      "utf8"
+    ],
+    "updated_at": "2026-04-23T18:46:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/workerd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fluent/fluent-bit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/unicode_lipsum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu aarch64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "term": "Ubuntu aarch64"
+    },
+    {
+      "context_snippet": "Alpine Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "Alpine Linux"
+    },
+    {
+      "context_snippet": "amalgamation demos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amalgamation_demos.yml",
+      "term": "amalgamation demos"
+    },
+    {
+      "context_snippet": "Ubuntu armv7 (GCC 11)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/armv7.yml",
+      "term": "Ubuntu armv7 (GCC 11)"
+    },
+    {
+      "context_snippet": "atomic base64 fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/atomic_fuzz.yml",
+      "term": "atomic base64 fuzz"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "clang format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clangformat.yml",
+      "term": "clang format"
+    },
+    {
+      "context_snippet": "Debian pkg-config",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian.yml",
+      "term": "Debian pkg-config"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx-512"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ppc64le"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "risc-v"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse2"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcoding"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf16"
+    },
+    {
+      "context_snippet": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf8"
+    }
+  ]
+}

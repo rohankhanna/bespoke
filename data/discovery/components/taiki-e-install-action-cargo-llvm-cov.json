@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@cargo-llvm-cov",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "metatensor/metatensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "denoland/deno_doc"
     }
   ]
 }

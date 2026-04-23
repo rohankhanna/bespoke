@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update sites list"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Uptime of all SearXNG public instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Update sites list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate",
+      "text": "Update sites list"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25929,
+      "status": "candidate",
+      "text": "lascaux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18874,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18874,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18849,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18849,
+      "status": "candidate",
+      "text": "eta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update sites list",
+  "concept_id": "update-sites-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update-sites.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update sites list",
+      "sense_id": "update-sites-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,415 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.17.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "thudm/chatglm2-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "Publish Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "pypa/cibuildwheel@v2.17.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "Build Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "chatglm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "chatglm3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "codegeex2-6b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "glm4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-plus/chatglm.cpp",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:18.864658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24011
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1773
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 1578
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1302
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V)",
+    "fork": false,
+    "full_name": "li-plus/chatglm.cpp",
+    "html_url": "https://github.com/li-plus/chatglm.cpp",
+    "language": "C++",
+    "pushed_at": "2024-07-31T06:12:02Z",
+    "stargazers_count": 2961,
+    "topics": [
+      "chatglm",
+      "chatglm2",
+      "chatglm3",
+      "codegeex2-6b",
+      "glm4",
+      "large-language-models",
+      "nlp"
+    ],
+    "updated_at": "2026-04-16T07:59:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm2-6b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Publish Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Publish Docker Image"
+    },
+    {
+      "context_snippet": "Build Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "Build Wheels"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm2"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm3"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegeex2-6b"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glm4"
+    },
+    {
+      "context_snippet": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

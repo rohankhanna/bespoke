@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qhjqhj00/MemoRAG",
+      "target": "microsoft/minference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qhjqhj00/MemoRAG",
+      "target": "long-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qhjqhj00/MemoRAG",
+      "target": "memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:08.978348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24787
+    },
+    {
+      "path": "requirements.txt",
+      "size": 200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Empowering RAG with a memory-based data interface for all-purpose applications!",
+    "fork": false,
+    "full_name": "qhjqhj00/MemoRAG",
+    "html_url": "https://github.com/qhjqhj00/MemoRAG",
+    "language": "Python",
+    "pushed_at": "2025-09-11T08:51:14Z",
+    "stargazers_count": 2240,
+    "topics": [
+      "long-llm",
+      "memory",
+      "rag"
+    ],
+    "updated_at": "2026-04-22T20:40:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/minference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-llm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    }
+  ]
+}

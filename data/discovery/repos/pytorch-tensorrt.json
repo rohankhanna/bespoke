@@ -1,0 +1,488 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assigner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/TensorRT",
+      "target": "nvidia/tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "nvidia/model-optimizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assigner.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assigner.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "Issue Assigner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-linux.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-linux.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-windows.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tensorrt-windows.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64-jetpack.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "Build and test Linux aarch64 wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-linux-x86_64_rtx.yml",
+      "source_repo": "pytorch/TensorRT",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "libtorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:43:59.790272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7101
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9495
+    },
+    {
+      "path": ".github/workflows/assigner.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 3665
+    },
+    {
+      "path": ".github/workflows/build-tensorrt-linux.yml",
+      "size": 8211
+    },
+    {
+      "path": ".github/workflows/build-tensorrt-windows.yml",
+      "size": 8912
+    },
+    {
+      "path": ".github/workflows/build-test-linux-aarch64-jetpack.yml",
+      "size": 3061
+    },
+    {
+      "path": ".github/workflows/build-test-linux-aarch64.yml",
+      "size": 2914
+    },
+    {
+      "path": ".github/workflows/build-test-linux-x86_64.yml",
+      "size": 27638
+    },
+    {
+      "path": ".github/workflows/build-test-linux-x86_64_rtx.yml",
+      "size": 16535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT",
+    "fork": false,
+    "full_name": "pytorch/TensorRT",
+    "html_url": "https://github.com/pytorch/TensorRT",
+    "language": "Python",
+    "pushed_at": "2026-04-23T17:41:27Z",
+    "stargazers_count": 2968,
+    "topics": [
+      "cuda",
+      "deep-learning",
+      "jetson",
+      "libtorch",
+      "machine-learning",
+      "nvidia",
+      "pytorch",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-23T16:15:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/tensorrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/model-optimizer",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Assigner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assigner.yml",
+      "term": "Issue Assigner"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "Build and test Linux aarch64 wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-linux-aarch64.yml",
+      "term": "Build and test Linux aarch64 wheels"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libtorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

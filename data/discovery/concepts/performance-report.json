@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Performance Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/rollup",
+      "status": "candidate-context",
+      "text": "Next-generation ES module bundler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/rollup",
+      "status": "candidate-context",
+      "text": "Performance Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/rollup",
+      "status": "candidate",
+      "text": "Performance Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48452,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48452,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48452,
+      "status": "candidate",
+      "text": "evaluation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48452,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48052,
+      "status": "candidate",
+      "text": "verification"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Performance Report",
+  "concept_id": "performance-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/performance-report.yml",
+      "source_repo": "rollup/rollup"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Report",
+      "sense_id": "performance-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

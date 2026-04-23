@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "charlesq34/pointnet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "williamfalcon/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pointnet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:04.460893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3136
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 646
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of Pointnet2/Pointnet++",
+    "fork": false,
+    "full_name": "erikwijmans/Pointnet2_PyTorch",
+    "html_url": "https://github.com/erikwijmans/Pointnet2_PyTorch",
+    "language": "Python",
+    "pushed_at": "2025-03-21T21:57:06Z",
+    "stargazers_count": 1786,
+    "topics": [
+      "hydra",
+      "point-cloud",
+      "pointnet2",
+      "pytorch",
+      "pytorch-lightning"
+    ],
+    "updated_at": "2026-04-21T08:31:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesq34/pointnet2",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "williamfalcon/pytorch-lightning",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pointnet2/Pointnet++ PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hydra"
+    },
+    {
+      "context_snippet": "Pointnet2/Pointnet++ PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "Pointnet2/Pointnet++ PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnet2"
+    },
+    {
+      "context_snippet": "Pointnet2/Pointnet++ PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Pointnet2/Pointnet++ PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    }
+  ]
+}

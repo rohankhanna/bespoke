@@ -170,6 +170,66 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "Rich is a Python library for rich text and beautiful formatting in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "a golang based cli to run a subset of Actions version v0.3 of act"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Apply black reformatting to Python files only in regions changed since a given commit. For a practical usage example, see the blog post at https://dev.to/akaihola/improving-python-code-incrementally-3f7a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "codespell"
     }
   ],
   "candidate_glosses": [
@@ -250,6 +310,36 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/owl",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate",
+      "text": "codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -347,11 +437,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "camel-ai/owl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "akaihola/darker"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

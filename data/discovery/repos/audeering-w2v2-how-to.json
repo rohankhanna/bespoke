@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "audeering/audonnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "arousal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "dominance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "msp-podcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "speech-emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "transformer-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "valence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "audeering/w2v2-how-to",
+      "target": "wav2vec2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:34.535617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3180
+    },
+    {
+      "path": "requirements.txt",
+      "size": 103
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "How to use our public wav2vec2 dimensional emotion model",
+    "fork": false,
+    "full_name": "audeering/w2v2-how-to",
+    "html_url": "https://github.com/audeering/w2v2-how-to",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-22T13:00:31Z",
+    "stargazers_count": 545,
+    "topics": [
+      "arousal",
+      "deep-learning",
+      "dominance",
+      "msp-podcast",
+      "onnx",
+      "speech-emotion-recognition",
+      "transformer-models",
+      "valence",
+      "wav2vec2"
+    ],
+    "updated_at": "2026-04-20T06:14:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audeering/audonnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arousal"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dominance"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msp-podcast"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-emotion-recognition"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-models"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "valence"
+    },
+    {
+      "context_snippet": "An introduction to our model for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wav2vec2"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/component-model",
+      "target": "webassembly/wasi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/component-model",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/component-model",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:32.644144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1832
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for design and specification of the Component Model",
+    "fork": false,
+    "full_name": "WebAssembly/component-model",
+    "html_url": "https://github.com/WebAssembly/component-model",
+    "language": "WebAssembly",
+    "pushed_at": "2026-04-23T20:36:53Z",
+    "stargazers_count": 1298,
+    "topics": [],
+    "updated_at": "2026-04-22T20:14:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/wasi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

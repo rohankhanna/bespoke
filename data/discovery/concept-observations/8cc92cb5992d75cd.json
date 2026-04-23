@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scalable toolkit for efficient model reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "~monitor a single VM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "~monitor a single VM"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "chap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "factor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "vmware"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "~monitor a single VM",
+      "sense_id": "monitor-a-single-vm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monitor-a-single-vm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monitor-a-single-vm",
+  "observation_id": "8cc92cb5992d75cd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "~monitor a single VM",
+  "source_context_snippet": "~monitor a single VM",
+  "source_file": ".github/workflows/_healthcheck_vm.yml",
+  "source_repo": "NVIDIA-NeMo/RL",
+  "source_repo_description": "Scalable toolkit for efficient model reinforcement"
+}

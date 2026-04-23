@@ -43,6 +43,30 @@
       "source_repo": "songquanpeng/blog",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "Flat file markdown blogging system with filesystem watch and extended markdown support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "songquanpeng/blog",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/blog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "depado/smallblog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

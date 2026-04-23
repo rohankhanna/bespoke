@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ConnectBot's terminal emulator Android Compose component using libvterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal-emulator",
+      "sense_id": "terminal-emulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terminal-emulator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal-emulator",
+  "observation_id": "fe63a0e8bcb804db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "terminal-emulator",
+  "source_context_snippet": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a",
+  "source_file": null,
+  "source_repo": "connectbot/termlib",
+  "source_repo_description": "ConnectBot's terminal emulator Android Compose component using libvterm"
+}

@@ -1,16 +1,71 @@
 {
   "ambiguity_status": "unresolved",
   "candidate_buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitHub Actions runner images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge pull request"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19857,
+      "status": "candidate",
+      "text": "unite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19815,
+      "status": "candidate",
+      "text": "combination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19815,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19815,
+      "status": "candidate",
+      "text": "mixing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19815,
+      "status": "candidate",
+      "text": "uniting"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
-        "workflow-process"
+        "workflow-process",
+        "data-document-artifact"
       ],
       "label": "Merge pull request",
       "sense_id": "merge-pull-request#sense-1",
@@ -22,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "merge-pull-request",
   "observation_id": "00bd155cfdfcdaca",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Merge pull request",
-  "source_context_snippet": null,
+  "source_context_snippet": "Merge pull request",
   "source_file": ".github/workflows/merge_pull_request.yml",
   "source_repo": "actions/runner-images",
-  "source_repo_description": null
+  "source_repo_description": "GitHub Actions runner images"
 }

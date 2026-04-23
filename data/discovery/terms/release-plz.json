@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3"
     }
   ],
   "term": "Release-plz"

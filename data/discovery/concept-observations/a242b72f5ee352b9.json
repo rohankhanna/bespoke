@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005434,
+      "status": "candidate",
+      "text": "curtail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004925,
+      "status": "candidate",
+      "text": "lop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002803,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001201,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999939,
+      "status": "candidate",
+      "text": "cut short"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clip",
+      "sense_id": "clip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28044,
+      "status": "candidate",
+      "text": "trot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17057,
+      "status": "candidate",
+      "text": "crop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17040,
+      "status": "candidate",
+      "text": "curtail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11053,
+      "status": "candidate",
+      "text": "dress"
+    }
+  ],
+  "concept_id": "clip",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clip",
+  "observation_id": "a242b72f5ee352b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "clip",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "mbzuai-oryx/Video-ChatGPT",
+  "source_repo_description": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+}

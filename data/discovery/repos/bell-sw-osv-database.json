@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:56:02.518147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "bell-sw/osv-database",
+    "html_url": "https://github.com/bell-sw/osv-database",
+    "language": null,
+    "pushed_at": "2026-04-23T07:05:35Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-23T07:05:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

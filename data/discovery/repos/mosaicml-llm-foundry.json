@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "databricks/megablocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "databricks/dbrx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "databricks/dbrx.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/llm-foundry",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:08.135586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20948
+    },
+    {
+      "path": "Dockerfile",
+      "size": 841
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 15592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLM training code for Databricks foundation models",
+    "fork": false,
+    "full_name": "mosaicml/llm-foundry",
+    "html_url": "https://github.com/mosaicml/llm-foundry",
+    "language": "Python",
+    "pushed_at": "2026-03-25T17:22:01Z",
+    "stargazers_count": 4399,
+    "topics": [
+      "deep-learning",
+      "llm",
+      "neural-networks",
+      "nlp",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T01:03:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databricks/dbrx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databricks/dbrx.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databricks/megablocks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- SETUPTOOLS_LONG_DESCRIPTION_HIDE_BEGIN -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- SETUPTOOLS_LONG_DESCRIPTION_HIDE_BEGIN -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "<!-- SETUPTOOLS_LONG_DESCRIPTION_HIDE_BEGIN -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

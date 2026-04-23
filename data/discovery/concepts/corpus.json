@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "corpus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "ChatGPT \u4e2d\u6587\u8bed\u6599\u5e93 \u5bf9\u8bdd\u8bed\u6599 \u5c0f\u8bf4\u8bed\u6599 \u5ba2\u670d\u8bed\u6599 \u7528\u4e8e\u8bad\u7ec3\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871860,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907721,
+      "status": "candidate",
+      "text": "principal sum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907720,
+      "status": "candidate",
+      "text": "compendium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901939,
+      "status": "candidate",
+      "text": "scheduling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29897866,
+      "status": "candidate",
+      "text": "grouping"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24082,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "principal sum"
+    }
+  ],
+  "canonical_name": "corpus",
+  "concept_id": "corpus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-corpus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "corpus",
+      "sense_id": "corpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

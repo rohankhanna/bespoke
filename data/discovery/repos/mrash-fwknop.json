@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrash/fwknop",
+      "target": "jp-bennett/fwknop-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrash/fwknop",
+      "target": "jp-bennett/fwknop2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "hmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "port-knocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/fwknop",
+      "target": "zero-trust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:49:20.538665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Single Packet Authorization > Port Knocking",
+    "fork": false,
+    "full_name": "mrash/fwknop",
+    "html_url": "https://github.com/mrash/fwknop",
+    "language": "Perl",
+    "pushed_at": "2025-11-26T20:39:39Z",
+    "stargazers_count": 1349,
+    "topics": [
+      "authentication",
+      "authorization",
+      "firewall",
+      "hmac",
+      "port-knocker",
+      "spa",
+      "zero-trust"
+    ],
+    "updated_at": "2026-04-23T02:55:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jp-bennett/fwknop-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jp-bennett/fwknop2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hmac"
+    },
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "port-knocker"
+    },
+    {
+      "context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-trust"
+    }
+  ]
+}

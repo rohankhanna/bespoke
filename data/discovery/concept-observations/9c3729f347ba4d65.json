@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Global hotkeys for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "global_hotkey lets you register Global HotKeys for Desktop Applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "global_hotkey lets you register Global HotKeys for Desktop Applications."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "coldkeys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "inactive keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "unassigned keys"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hotkeys",
+      "sense_id": "hotkeys#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hotkeys",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hotkeys",
+  "observation_id": "9c3729f347ba4d65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hotkeys",
+  "source_context_snippet": "global_hotkey lets you register Global HotKeys for Desktop Applications.",
+  "source_file": null,
+  "source_repo": "tauri-apps/global-hotkey",
+  "source_repo_description": "Global hotkeys for Desktop Applications."
+}

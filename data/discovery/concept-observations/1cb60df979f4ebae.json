@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Focus on prompting and generating"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker image build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker image build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22329,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "scoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "scooping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22300,
+      "status": "candidate",
+      "text": "screw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker image build",
+      "sense_id": "docker-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-image-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-image-build",
+  "observation_id": "1cb60df979f4ebae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker image build",
+  "source_context_snippet": "Docker image build",
+  "source_file": ".github/workflows/build_container.yml",
+  "source_repo": "lllyasviel/Fooocus",
+  "source_repo_description": "Focus on prompting and generating"
+}

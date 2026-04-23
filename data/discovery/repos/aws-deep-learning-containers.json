@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "aws-samples/sample-vllm-on-eks-with-dlc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - Ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - SGLang EC2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - SGLang SageMaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM EC2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM-Omni",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "source_repo": "aws/deep-learning-containers",
+      "target": "Auto Release - vLLM RayServe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:56.451946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5663
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 140
+    },
+    {
+      "path": "requirements.txt",
+      "size": 11
+    },
+    {
+      "path": ".github/workflows/auto-release-base.yml",
+      "size": 16391
+    },
+    {
+      "path": ".github/workflows/auto-release-ray.yml",
+      "size": 36800
+    },
+    {
+      "path": ".github/workflows/auto-release-sglang-ec2.yml",
+      "size": 8510
+    },
+    {
+      "path": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "size": 8770
+    },
+    {
+      "path": ".github/workflows/auto-release-vllm-ec2.yml",
+      "size": 8244
+    },
+    {
+      "path": ".github/workflows/auto-release-vllm-omni.yml",
+      "size": 20150
+    },
+    {
+      "path": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "size": 9030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " One stop shop for running AI/ML on AWS.",
+    "fork": false,
+    "full_name": "aws/deep-learning-containers",
+    "html_url": "https://github.com/aws/deep-learning-containers",
+    "language": "Python",
+    "pushed_at": "2026-04-23T18:14:55Z",
+    "stargazers_count": 1152,
+    "topics": [
+      "ai",
+      "aws",
+      "ml"
+    ],
+    "updated_at": "2026-04-22T22:47:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/sample-vllm-on-eks-with-dlc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Release - Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-base.yml",
+      "term": "Auto Release - Base"
+    },
+    {
+      "context_snippet": "Auto Release - Ray",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "term": "Auto Release - Ray"
+    },
+    {
+      "context_snippet": "Auto Release - SGLang EC2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-ec2.yml",
+      "term": "Auto Release - SGLang EC2"
+    },
+    {
+      "context_snippet": "Auto Release - SGLang SageMaker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-sglang-sagemaker.yml",
+      "term": "Auto Release - SGLang SageMaker"
+    },
+    {
+      "context_snippet": "Auto Release - vLLM EC2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-ec2.yml",
+      "term": "Auto Release - vLLM EC2"
+    },
+    {
+      "context_snippet": "Auto Release - vLLM-Omni",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-omni.yml",
+      "term": "Auto Release - vLLM-Omni"
+    },
+    {
+      "context_snippet": "Auto Release - vLLM RayServe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release-vllm-rayserve.yml",
+      "term": "Auto Release - vLLM RayServe"
+    }
+  ]
+}

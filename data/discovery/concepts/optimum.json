@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "optimum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "LLM model quantization (compression) toolkit with HW acceleration support for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelCloud/GPTQModel",
+      "status": "candidate",
+      "text": "<p align=center>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998352,
+      "status": "candidate",
+      "text": "optimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996029,
+      "status": "candidate",
+      "text": "best"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998378,
+      "status": "candidate",
+      "text": "ideal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997383,
+      "status": "candidate",
+      "text": "better"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995973,
+      "status": "candidate",
+      "text": "maximal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44041,
+      "status": "candidate",
+      "text": "optimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "best"
+    }
+  ],
+  "canonical_name": "optimum",
+  "concept_id": "optimum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimum",
+      "sense_id": "optimum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

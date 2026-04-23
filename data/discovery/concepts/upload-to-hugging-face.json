@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload to Hugging Face"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "Upload to Hugging Face"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate",
+      "text": "Upload to Hugging Face"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "snowdrop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "clasp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "accept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23324,
+      "status": "candidate",
+      "text": "keep"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload to Hugging Face",
+  "concept_id": "upload-to-hugging-face",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/upload-to-hf.yml",
+      "source_repo": "camel-ai/loong"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload to Hugging Face",
+      "sense_id": "upload-to-hugging-face#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backup to S3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate-context",
+      "text": "Superagent plugin to sign AWS requests and invoke AWS resources protected by IAM roles. It uses the aws4 process to add authentication information to requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate-context",
+      "text": "Backup to S3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certible/superagent-aws-sign",
+      "status": "candidate",
+      "text": "Backup to S3"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "cutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "wilson"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backup to S3",
+  "concept_id": "backup-to-s3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "certible/superagent-aws-sign"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backup to S3",
+      "sense_id": "backup-to-s3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

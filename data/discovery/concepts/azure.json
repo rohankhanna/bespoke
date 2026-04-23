@@ -139,6 +139,54 @@
       "source_repo": "docker/login-action",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "Azure Quickstart Templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "[![Build Status][14]][13]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "Azure Data Exporter for BloodHound"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "The BloodHound data collector for Microsoft Azure"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "Azure Command-Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +255,30 @@
       "source_repo": "docker/login-action",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate",
+      "text": "This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at [azure.com](https://azure.microsoft.com/documentation/templates)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "[![Build Status][14]][13]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate",
+      "text": "The BloodHound data collector for Microsoft Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +436,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-cli"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

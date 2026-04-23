@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build wheels",
-    "Build Wheels"
+    "Build Wheels",
+    "build-wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -104,6 +105,78 @@
       "source_repo": "mxmlnkn/indexed_bzip2",
       "status": "candidate-context",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "build-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Causal depthwise conv1d in CUDA, with a PyTorch interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate-context",
+      "text": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate-context",
+      "text": "Build wheels"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +227,42 @@
       "source_repo": "mxmlnkn/indexed_bzip2",
       "status": "candidate",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate",
+      "text": "build-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "li-plus/chatglm.cpp",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "status": "candidate",
+      "text": "Build wheels"
     }
   ],
   "candidate_related_terms": [
@@ -257,11 +366,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "mxmlnkn/indexed_bzip2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cibuildwheel.yaml",
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "airspeed-velocity/asv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

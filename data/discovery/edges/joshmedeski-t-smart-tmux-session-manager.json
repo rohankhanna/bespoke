@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "joshmedeski/sesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "tmux-plugins/tpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/t-smart-tmux-session-manager",
+      "target": "joshmedeski/tmux-list",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "joshmedeski/t-smart-tmux-session-manager"
+}

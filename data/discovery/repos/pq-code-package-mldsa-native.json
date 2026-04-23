@@ -1,0 +1,565 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baremetal.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baremetal.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "donatj/symlink-check-action@b3c737d0fd4e52752f0b8c71a03f3f775fa015cb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "cheriot-platform/cheriot-pqc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "usnistgov/acvp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "pq-crystals/dilithium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "mjosaarinen/tiny_sha3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baremetal.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baremetal.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Baremetal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "donatj/symlink-check-action@b3c737d0fd4e52752f0b8c71a03f3f775fa015cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_any.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "bench-ec2-any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "bench-ec2-reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbmc.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "CBMC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "Extended",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "machulav/ec2-github-runner@a00f575a87f3a96ec6de9413d16eeb828a3cc0a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ci-ec2-reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "formal-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "ml-dsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "post-quantum-cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pq-code-package/mldsa-native",
+      "target": "post-quantum-signature",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:36:32.655408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13475
+    },
+    {
+      "path": ".github/workflows/all.yml",
+      "size": 2476
+    },
+    {
+      "path": ".github/workflows/baremetal.yml",
+      "size": 2954
+    },
+    {
+      "path": ".github/workflows/base.yml",
+      "size": 11189
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 6814
+    },
+    {
+      "path": ".github/workflows/bench_ec2_any.yml",
+      "size": 2109
+    },
+    {
+      "path": ".github/workflows/bench_ec2_reusable.yml",
+      "size": 9818
+    },
+    {
+      "path": ".github/workflows/cbmc.yml",
+      "size": 2133
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 28697
+    },
+    {
+      "path": ".github/workflows/ci_ec2_container.yml",
+      "size": 9506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Secure, fast, and portable C90 implementation of ML-DSA / FIPS 204",
+    "fork": false,
+    "full_name": "pq-code-package/mldsa-native",
+    "html_url": "https://github.com/pq-code-package/mldsa-native",
+    "language": "Assembly",
+    "pushed_at": "2026-04-23T16:34:42Z",
+    "stargazers_count": 68,
+    "topics": [
+      "formal-verification",
+      "ml-dsa",
+      "post-quantum-cryptography",
+      "post-quantum-signature"
+    ],
+    "updated_at": "2026-04-22T08:09:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheriot-platform/cheriot-pqc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mjosaarinen/tiny_sha3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pq-crystals/dilithium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/acvp-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Baremetal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baremetal.yml",
+      "term": "Baremetal"
+    },
+    {
+      "context_snippet": "Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "term": "Base"
+    },
+    {
+      "context_snippet": "Bench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "Bench"
+    },
+    {
+      "context_snippet": "bench-ec2-any",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_any.yml",
+      "term": "bench-ec2-any"
+    },
+    {
+      "context_snippet": "bench-ec2-reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_ec2_reusable.yml",
+      "term": "bench-ec2-reusable"
+    },
+    {
+      "context_snippet": "CBMC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cbmc.yml",
+      "term": "CBMC"
+    },
+    {
+      "context_snippet": "Extended",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Extended"
+    },
+    {
+      "context_snippet": "ci-ec2-reusable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ec2_container.yml",
+      "term": "ci-ec2-reusable"
+    },
+    {
+      "context_snippet": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-verification"
+    },
+    {
+      "context_snippet": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-dsa"
+    },
+    {
+      "context_snippet": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum-cryptography"
+    },
+    {
+      "context_snippet": "[//]: # (SPDX-License-Identifier: CC-BY-4.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum-signature"
+    }
+  ]
+}

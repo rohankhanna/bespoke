@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/Detectron",
+      "target": "caffe2/caffe2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:40.211775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7031
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet.",
+    "fork": false,
+    "full_name": "facebookresearch/Detectron",
+    "html_url": "https://github.com/facebookresearch/Detectron",
+    "language": "Python",
+    "pushed_at": "2023-11-20T09:13:34Z",
+    "stargazers_count": 26389,
+    "topics": [],
+    "updated_at": "2026-04-23T07:51:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caffe2/caffe2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

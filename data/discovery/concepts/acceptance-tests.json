@@ -32,6 +32,18 @@
       "source_repo": "op-rs/kona",
       "status": "candidate-context",
       "text": "Acceptance Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "React-based frontend for the Plone Content Management System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
+      "status": "candidate-context",
+      "text": "Acceptance Tests"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "op-rs/kona",
+      "status": "candidate",
+      "text": "Acceptance Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/volto",
       "status": "candidate",
       "text": "Acceptance Tests"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/acceptance-tests.yaml",
       "source_repo": "op-rs/kona"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "plone/volto"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

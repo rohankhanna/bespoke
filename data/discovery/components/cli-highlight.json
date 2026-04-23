@@ -1,7 +1,7 @@
 {
   "component": "cli-highlight",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -22,6 +22,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "astefanutti/kubebox"
     }
   ]
 }

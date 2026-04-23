@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "github-actions"
+    "github-actions",
+    "GitHub Actions"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -175,6 +178,126 @@
       "source_repo": "community/community",
       "status": "candidate-context",
       "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "Fourmolu GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Updates README with Todoist Stats of a user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "An unofficial Local GitHub Actions and Azure Pipelines Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate-context",
+      "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "Pre-trained Deep Learning models and demos (high quality and extremely fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate-context",
+      "text": "github-actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -261,9 +384,105 @@
       "source_repo": "community/community",
       "status": "candidate",
       "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/todoist-readme",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/runner.server",
+      "status": "candidate",
+      "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "status": "candidate",
+      "text": "github-actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "acts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "against"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "github-actions",
   "concept_id": "github-actions",
@@ -352,11 +571,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/todoist-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

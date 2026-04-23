@@ -1,0 +1,17 @@
+{
+  "component": "technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_buildx"
+    }
+  ]
+}

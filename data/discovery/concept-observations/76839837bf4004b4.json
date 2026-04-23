@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019187,
+      "status": "candidate",
+      "text": "increase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018945,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019479,
+      "status": "candidate",
+      "text": "increasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018982,
+      "status": "candidate",
+      "text": "growing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018964,
+      "status": "candidate",
+      "text": "augment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "increment",
+      "sense_id": "increment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "increase"
+    }
+  ],
+  "concept_id": "increment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "increment",
+  "observation_id": "76839837bf4004b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "increment",
+  "source_context_snippet": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`",
+  "source_file": null,
+  "source_repo": "jonschlinkert/fill-range",
+  "source_repo_description": "Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use."
+}

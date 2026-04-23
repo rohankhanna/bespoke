@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mcmilk/7-Zip-zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "DLTcollab/sse2neon"
     }
   ]
 }

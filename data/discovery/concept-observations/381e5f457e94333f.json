@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942590,
+      "status": "candidate",
+      "text": "deadbolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908136,
+      "status": "candidate",
+      "text": "thunderbolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901851,
+      "status": "candidate",
+      "text": "run out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39880235,
+      "status": "candidate",
+      "text": "slap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878066,
+      "status": "candidate",
+      "text": "smack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bolt",
+      "sense_id": "bolt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36052,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25042,
+      "status": "candidate",
+      "text": "abscond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12031,
+      "status": "candidate",
+      "text": "slapdash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11032,
+      "status": "candidate",
+      "text": "absquatulate"
+    }
+  ],
+  "concept_id": "bolt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bolt",
+  "observation_id": "381e5f457e94333f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bolt",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "huawei-noah/bolt",
+  "source_repo_description": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+}

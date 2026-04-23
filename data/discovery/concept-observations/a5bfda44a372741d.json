@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "mirai\u76f8\u5173\u9879\u76ee\u548c\u63d2\u4ef6\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qqbot",
+      "sense_id": "qqbot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qqbot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qqbot",
+  "observation_id": "a5bfda44a372741d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "qqbot",
+  "source_context_snippet": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee",
+  "source_file": null,
+  "source_repo": "project-mirai/awesome-mirai",
+  "source_repo_description": "mirai\u76f8\u5173\u9879\u76ee\u548c\u63d2\u4ef6\u6536\u96c6"
+}

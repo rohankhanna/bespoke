@@ -55,6 +55,42 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f\ud83e\udd80 Build modular and scalable LLM Applications in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BerriAI/litellm",
+      "status": "candidate-context",
+      "text": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerriAI/litellm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "intentee/paddler",
       "status": "candidate",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerriAI/litellm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +172,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "long-context"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate-context",
+      "text": "Codes for the paper \"\u221eBench: Extending Long Context Evaluation Beyond 100K Tokens\": https://arxiv.org/abs/2402.13718"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate-context",
+      "text": "LongBench v2 and LongBench (ACL 25'&24')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate-context",
+      "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/InfLLM",
+      "status": "candidate-context",
+      "text": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/InfLLM",
+      "status": "candidate-context",
+      "text": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\" [[pdf]](https://arxiv.org/pdf/2402.04617.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate-context",
+      "text": "Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate",
+      "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/InfLLM",
+      "status": "candidate",
+      "text": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\" [[pdf]](https://arxiv.org/pdf/2402.04617.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "long-context",
+  "concept_id": "long-context",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/InfiniteBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/LongBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/InfLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "long-context",
+      "sense_id": "long-context#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

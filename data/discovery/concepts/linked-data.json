@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "linked-data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "linked-data",
+  "concept_id": "linked-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linked-data",
+      "sense_id": "linked-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

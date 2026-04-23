@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ANTLR Grammar validator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate-context",
+      "text": "ANTLR Grammar validator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/csharpstandard",
+      "status": "candidate",
+      "text": "ANTLR Grammar validator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11364,
+      "status": "candidate",
+      "text": "determiner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "provider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "notary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "agency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ANTLR Grammar validator",
+  "concept_id": "antlr-grammar-validator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/grammar-validator.yaml",
+      "source_repo": "dotnet/csharpstandard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ANTLR Grammar validator",
+      "sense_id": "antlr-grammar-validator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

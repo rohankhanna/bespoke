@@ -271,11 +271,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:30:35.646650+00:00",
+  "fetched_at": "2026-04-23T22:13:54.858751+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 27361
+      "size": 27542
     },
     {
       "path": "Dockerfile",
@@ -307,8 +307,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-04-23T04:40:04Z",
-    "stargazers_count": 43648,
+    "pushed_at": "2026-04-23T10:14:08Z",
+    "stargazers_count": 43664,
     "topics": [
       "ai",
       "ai-agent",
@@ -331,7 +331,7 @@
       "wechat",
       "weixin"
     ],
-    "updated_at": "2026-04-23T06:48:39Z"
+    "updated_at": "2026-04-23T21:02:43Z"
   },
   "repo_links": [
     {

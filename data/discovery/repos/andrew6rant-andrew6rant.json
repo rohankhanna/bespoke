@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Andrew6rant/Andrew6rant",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Andrew6rant/Andrew6rant",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Andrew6rant/Andrew6rant",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Andrew6rant/Andrew6rant",
+      "target": "README build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:46.591077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My personal repository. Calculates my repositories, commits, stars, followers, and total lines of code contributed by me",
+    "fork": false,
+    "full_name": "Andrew6rant/Andrew6rant",
+    "html_url": "https://github.com/Andrew6rant/Andrew6rant",
+    "language": "Python",
+    "pushed_at": "2025-03-03T04:30:06Z",
+    "stargazers_count": 404,
+    "topics": [],
+    "updated_at": "2026-04-22T03:23:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "README build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "README build"
+    }
+  ]
+}

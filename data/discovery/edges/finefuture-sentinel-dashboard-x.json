@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "finefuture/sentinel-apollo-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "finefuture/sentinel-nacos-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "multi-datasource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "nacos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "finefuture/sentinel-dashboard-X",
+      "target": "sentinel",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "finefuture/sentinel-dashboard-X"
+}

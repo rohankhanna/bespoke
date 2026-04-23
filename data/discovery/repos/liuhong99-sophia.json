@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liuhong99/Sophia",
+      "target": "stanford-crfm/levanter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liuhong99/Sophia",
+      "target": "eleutherai/the-pile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liuhong99/Sophia",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liuhong99/Sophia",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liuhong99/Sophia",
+      "target": "optimizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:33.013177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official implementation of \u201cSophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training\u201d",
+    "fork": false,
+    "full_name": "Liuhong99/Sophia",
+    "html_url": "https://github.com/Liuhong99/Sophia",
+    "language": "Python",
+    "pushed_at": "2024-01-30T06:28:27Z",
+    "stargazers_count": 997,
+    "topics": [
+      "deep-learning",
+      "large-language-models",
+      "optimizer"
+    ],
+    "updated_at": "2026-04-22T21:06:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/the-pile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-crfm/levanter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an official implementation of the **Sophia-G** optimizer in the paper [https://arxiv.org/abs/2305.14342](https://arxiv.org/abs/2305.14342) and GPT-2 training scripts. The code is based on [nanoGPT](https://github.com/karpathy/nanoGPT/) and [levanter](https://github.com/s\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is an official implementation of the **Sophia-G** optimizer in the paper [https://arxiv.org/abs/2305.14342](https://arxiv.org/abs/2305.14342) and GPT-2 training scripts. The code is based on [nanoGPT](https://github.com/karpathy/nanoGPT/) and [levanter](https://github.com/s\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This is an official implementation of the **Sophia-G** optimizer in the paper [https://arxiv.org/abs/2305.14342](https://arxiv.org/abs/2305.14342) and GPT-2 training scripts. The code is based on [nanoGPT](https://github.com/karpathy/nanoGPT/) and [levanter](https://github.com/s\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizer"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "PR Watcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate-context",
+      "text": "Only look at releases! This fork of Dawn is use to share precompiled artifacts until upstream shares official builds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate-context",
+      "text": "PR Watcher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "Native WebGPU implementation. Mirror of https://dawn.googlesource.com/dawn. File bugs here: https://crbug.com/dawn/new"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate-context",
+      "text": "PR Watcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/dawn-prebuilt",
+      "status": "candidate",
+      "text": "PR Watcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/dawn",
+      "status": "candidate",
+      "text": "PR Watcher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10409,
+      "status": "candidate",
+      "text": "hdtv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4549,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "abbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4471,
+      "status": "candidate",
+      "text": "amour-propre"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Watcher",
+  "concept_id": "pr-watcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "eliemichel/dawn-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-watcher.yml",
+      "source_repo": "google/dawn"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Watcher",
+      "sense_id": "pr-watcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

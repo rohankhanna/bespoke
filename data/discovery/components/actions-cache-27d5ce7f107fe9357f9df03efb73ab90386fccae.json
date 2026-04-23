@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -232,6 +232,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker/build-push-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agentic-ci-daily.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-notebooks.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-cabal.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-stack.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.tests-matrix.yaml",
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "python-poetry/poetry-plugin-bundle"
     }
   ]
 }

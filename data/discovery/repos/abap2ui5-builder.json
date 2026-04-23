@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@abaplint/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xml2js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5/builder",
+      "target": "abap2ui5/build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5/builder",
+      "target": "abap2ui5-addons/layout-variant-management",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5/builder",
+      "target": "abap2ui5-addons/table-maintenance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5/builder",
+      "target": "abap2ui5-addons/sql-console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5/builder",
+      "target": "@abaplint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5/builder",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5/builder",
+      "target": "xml2js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:28.128751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4363
+    },
+    {
+      "path": "package.json",
+      "size": 1142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create Your Own abap2UI5 Build",
+    "fork": false,
+    "full_name": "abap2UI5/builder",
+    "html_url": "https://github.com/abap2UI5/builder",
+    "language": "JavaScript",
+    "pushed_at": "2025-03-31T12:03:23Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-07-22T03:27:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap2ui5-addons/layout-variant-management",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap2ui5-addons/sql-console",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap2ui5-addons/table-maintenance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap2ui5/build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

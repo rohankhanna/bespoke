@@ -2,27 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Mbed-TLS/mbedtls",
-      "target": "mbed-tls/tf-psa-crypto",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Mbed-TLS/mbedtls",
-      "target": "mbed-tls/mbedtls-framework",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Mbed-TLS/mbedtls",
-      "target": "mbed-tls/mbedtls-test",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Mbed-TLS/mbedtls",
@@ -37,7 +16,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:29:57.019478+00:00",
+  "fetched_at": "2026-04-23T19:36:39.837370+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,7 +32,7 @@
     "full_name": "Mbed-TLS/mbedtls",
     "html_url": "https://github.com/Mbed-TLS/mbedtls",
     "language": "C",
-    "pushed_at": "2026-04-22T17:45:47Z",
+    "pushed_at": "2026-04-23T15:56:07Z",
     "stargazers_count": 6610,
     "topics": [
       "crypto",
@@ -62,25 +41,9 @@
       "ssl",
       "tls"
     ],
-    "updated_at": "2026-04-23T03:43:44Z"
+    "updated_at": "2026-04-23T18:41:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mbed-tls/mbedtls-framework",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mbed-tls/mbedtls-test",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mbed-tls/tf-psa-crypto",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "README for Mbed TLS",

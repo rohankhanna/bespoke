@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "tox"
+    "tox",
+    "Tox"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "ansible/ansible-lint",
       "status": "candidate-context",
       "text": "tox"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "A python package containing functions that help interacting with various versions of Ansible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate-context",
+      "text": "tox"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate-context",
+      "text": "Tox"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +70,18 @@
       "source_repo": "ansible/ansible-lint",
       "status": "candidate",
       "text": "tox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-compat",
+      "status": "candidate",
+      "text": "tox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-spec-tests",
+      "status": "candidate",
+      "text": "Tox"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +155,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/tox.yml",
       "source_repo": "ansible/ansible-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "ansible/ansible-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

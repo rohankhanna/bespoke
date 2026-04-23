@@ -43,6 +43,42 @@
       "source_repo": "hrsh7th/vim-vsnip",
       "status": "candidate-context",
       "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/vimcomplete",
+      "status": "candidate-context",
+      "text": "Async autocompletion for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimcomplete",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"> VimComplete </h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "Snippet plugin for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "Snippet Engine for Neovim written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "hrsh7th/vim-vsnip",
       "status": "candidate",
       "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/vimcomplete",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"> VimComplete </h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate",
+      "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hrsh7th/vim-vsnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "girishji/vimcomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "L3MON4D3/LuaSnip"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

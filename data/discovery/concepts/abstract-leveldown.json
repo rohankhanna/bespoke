@@ -19,6 +19,30 @@
       "source_repo": "Level/leveldown",
       "status": "candidate-context",
       "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. An abstract-leveldown implementation that wraps another store to encode keys and values."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Level/leveldown",
       "status": "candidate",
       "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "Level/leveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/encoding-down"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Level/memdown"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

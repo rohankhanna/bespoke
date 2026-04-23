@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@83a02f7883b12e0e4e1a146174f5e2292a01e601",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-setup-envtest.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "operator-framework/operator-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "github/codeql-action/upload-sarif@83a02f7883b12e0e4e1a146174f5e2292a01e601",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "PR dependabot go modules fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "Upload binaries to release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-setup-envtest.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-setup-envtest.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "Tag setup-envtest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "PR title verifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:19.302813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4582
+    },
+    {
+      "path": "go.mod",
+      "size": 4620
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/ossf-scorecard.yaml",
+      "size": 1957
+    },
+    {
+      "path": ".github/workflows/pr-dependabot.yaml",
+      "size": 1121
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1035
+    },
+    {
+      "path": ".github/workflows/tag-setup-envtest.yaml",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)",
+    "fork": false,
+    "full_name": "kubernetes-sigs/controller-runtime",
+    "html_url": "https://github.com/kubernetes-sigs/controller-runtime",
+    "language": "Go",
+    "pushed_at": "2026-04-18T19:25:44Z",
+    "stargazers_count": 2899,
+    "topics": [
+      "k8s-sig-api-machinery"
+    ],
+    "updated_at": "2026-04-23T12:40:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "operator-framework/operator-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "PR dependabot go modules fix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "term": "PR dependabot go modules fix"
+    },
+    {
+      "context_snippet": "Upload binaries to release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Upload binaries to release"
+    },
+    {
+      "context_snippet": "Tag setup-envtest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-setup-envtest.yaml",
+      "term": "Tag setup-envtest"
+    },
+    {
+      "context_snippet": "PR title verifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "term": "PR title verifier"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/controller-runtime)](https://goreportcard.com/report/sigs.k8s.io/controller-runtime)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    }
+  ]
+}

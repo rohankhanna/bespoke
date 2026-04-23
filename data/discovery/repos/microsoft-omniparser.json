@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/OmniParser",
+      "target": "likaixin2000/screenspot-pro-gui-grounding",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:54.086556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5524
+    },
+    {
+      "path": "requirements.txt",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple screen parsing tool towards pure vision based GUI agent",
+    "fork": false,
+    "full_name": "microsoft/OmniParser",
+    "html_url": "https://github.com/microsoft/OmniParser",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-13T23:45:39Z",
+    "stargazers_count": 24677,
+    "topics": [],
+    "updated_at": "2026-04-23T20:25:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "likaixin2000/screenspot-pro-gui-grounding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

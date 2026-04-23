@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Format",
-    "format"
+    "format",
+    "\ud83d\udc54 Format"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -92,6 +93,30 @@
       "source_repo": "bazel-contrib/rules_jvm",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Example pybind11 module built with a CMake-based build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "Declarative routing for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "\ud83d\udc54 Format"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +161,18 @@
       "source_repo": "bazel-contrib/rules_jvm",
       "status": "candidate",
       "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate",
+      "text": "\ud83d\udc54 Format"
     }
   ],
   "candidate_related_terms": [
@@ -173,6 +210,41 @@
       "score": 20049130,
       "status": "candidate",
       "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrangements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "configuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "description"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "diagram"
     }
   ],
   "candidate_synonyms": [
@@ -299,11 +371,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pybind/cmake_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "remix-run/react-router"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

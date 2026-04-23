@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "gpu-tests"
+    "gpu-tests",
+    "GPU tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "facebookresearch/optimizers",
       "status": "candidate-context",
       "text": "gpu-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate-context",
+      "text": "GPU tests"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "facebookresearch/optimizers",
       "status": "candidate",
       "text": "gpu-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Model-Optimizer",
+      "status": "candidate",
+      "text": "GPU tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "available"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "backup"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "gpu-tests",
   "concept_id": "gpu-tests",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/gpu-tests.yaml",
       "source_repo": "facebookresearch/optimizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gpu_tests.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

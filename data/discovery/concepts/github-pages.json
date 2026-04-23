@@ -173,6 +173,102 @@
       "source_repo": "wavelens/gobgp.nix",
       "status": "candidate-context",
       "text": "\"github pages\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate-context",
+      "text": "kmeans using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of kmeans for utilizing GPU"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb \ud83d\ude04 Add icons to your GitHub profile using this generator  \ud83d\ude04 \ud83d\udccb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "github pages"
     }
   ],
   "candidate_glosses": [
@@ -253,6 +349,54 @@
       "source_repo": "wavelens/gobgp.nix",
       "status": "candidate",
       "text": "\"github pages\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of kmeans for utilizing GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate",
+      "text": "github pages"
     }
   ],
   "candidate_related_terms": [
@@ -392,11 +536,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/gh-pages.yaml",
       "source_repo": "wavelens/gobgp.nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adapter Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adapter Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "acc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "accommodate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Adapter Review",
+      "sense_id": "adapter-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adapter-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adapter-review",
+  "observation_id": "db6f05c7af531c1d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Adapter Review",
+  "source_context_snippet": "Adapter Review",
+  "source_file": ".github/workflows/adapter-review.yml",
+  "source_repo": "harbor-framework/harbor",
+  "source_repo_description": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+}

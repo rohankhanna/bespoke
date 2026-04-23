@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Yq Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "Test Yq Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "Test Yq Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "trial balloon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18639,
+      "status": "candidate",
+      "text": "ping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Yq Action",
+  "concept_id": "test-yq-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-yq.yml",
+      "source_repo": "mikefarah/yq"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Yq Action",
+      "sense_id": "test-yq-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

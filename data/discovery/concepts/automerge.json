@@ -32,6 +32,42 @@
       "source_repo": "Homebrew/homebrew-core",
       "status": "candidate-context",
       "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "An implementation of IPFS in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "Automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate-context",
+      "text": "Automerge"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +82,24 @@
       "source_repo": "Homebrew/homebrew-core",
       "status": "candidate",
       "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate",
+      "text": "Automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espnet/espnet",
+      "status": "candidate",
+      "text": "Automerge"
     }
   ],
   "candidate_related_terms": [],
@@ -65,11 +119,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "ipfs/helia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "espnet/espnet"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

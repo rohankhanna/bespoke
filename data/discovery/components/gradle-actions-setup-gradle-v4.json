@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/setup-gradle@v4",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/llm-android.yml",
       "source_repo": "meta-pytorch/executorch-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
     }
   ]
 }

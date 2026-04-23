@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobile.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Mobile Examples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "microsoft/onnxruntime-inference-examples",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:12:00.213139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/mobile.yml",
+      "size": 13781
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples for using ONNX Runtime for machine learning inferencing.",
+    "fork": false,
+    "full_name": "microsoft/onnxruntime-inference-examples",
+    "html_url": "https://github.com/microsoft/onnxruntime-inference-examples",
+    "language": "C++",
+    "pushed_at": "2026-02-24T00:18:26Z",
+    "stargazers_count": 1634,
+    "topics": [],
+    "updated_at": "2026-04-22T00:40:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Mobile Examples CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobile.yml",
+      "term": "Mobile Examples CI"
+    },
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node.js CI"
+    }
+  ]
+}

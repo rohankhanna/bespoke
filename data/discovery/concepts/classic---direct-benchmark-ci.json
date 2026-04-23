@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Classic - Direct Benchmark CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "Classic - Direct Benchmark CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate",
+      "text": "Classic - Direct Benchmark CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30627,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22721,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20833,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20833,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20833,
+      "status": "candidate",
+      "text": "tie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Classic - Direct Benchmark CI",
+  "concept_id": "classic---direct-benchmark-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classic - Direct Benchmark CI",
+      "sense_id": "classic---direct-benchmark-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

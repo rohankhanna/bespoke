@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "Jimver/cuda-toolkit@v0.2.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "deepseek-ai/DeepGEMM",
+      "target": "Build wheels and deploy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "deepseek-ai/DeepGEMM"
+}

@@ -12,21 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/gpu-puzzles",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/tensor-puzzles",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/llm-training-puzzles",
+      "target": "srush/transformer-puzzles",
       "target_type": "repository"
     },
     {
@@ -44,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:18:06.451710+00:00",
+  "fetched_at": "2026-04-23T18:38:08.931988+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,17 +62,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "srush/gpu-puzzles",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "srush/llm-training-puzzles",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "srush/tensor-puzzles",
+      "full_name": "srush/transformer-puzzles",
       "source_file": "README.md"
     }
   ],

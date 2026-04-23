@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/bimg",
+      "target": "jcupitt/libvips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/bimg",
+      "target": "h2non/imaginary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/bimg",
+      "target": "lovell/sharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/bimg",
+      "target": "libvips/libvips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "crop-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "libvips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "resize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "watermark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/bimg",
+      "target": "webp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:53.397839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10065
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go package for fast high-level image processing powered by libvips C library",
+    "fork": false,
+    "full_name": "h2non/bimg",
+    "html_url": "https://github.com/h2non/bimg",
+    "language": "Go",
+    "pushed_at": "2025-01-23T09:51:09Z",
+    "stargazers_count": 3008,
+    "topics": [
+      "crop",
+      "crop-image",
+      "golang",
+      "image",
+      "jpeg",
+      "libvips",
+      "png",
+      "processing",
+      "resize",
+      "watermark",
+      "webp"
+    ],
+    "updated_at": "2026-04-22T01:01:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2non/imaginary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcupitt/libvips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libvips/libvips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lovell/sharp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop-image"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvips"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processing"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resize"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watermark"
+    },
+    {
+      "context_snippet": "Small [Go](http://golang.org) package for fast high-level image processing using [libvips](https://github.com/jcupitt/libvips) via C bindings, providing a simple [programmatic API](#examples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webp"
+    }
+  ]
+}

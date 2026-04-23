@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Format Check"
+    "Format Check",
+    "format-check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ricky0123/vad",
       "status": "candidate-context",
       "text": "Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "format-check"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ricky0123/vad",
       "status": "candidate",
       "text": "Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate",
+      "text": "format-check"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/format-check.yml",
       "source_repo": "ricky0123/vad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "intel/intel-extension-for-pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:53:10.205000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enhancement Proposals and Architecture Decisions",
+    "fork": false,
+    "full_name": "ai-dynamo/enhancements",
+    "html_url": "https://github.com/ai-dynamo/enhancements",
+    "language": null,
+    "pushed_at": "2026-04-14T22:49:42Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-09T19:12:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

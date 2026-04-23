@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Plone Starter CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "Plone Starter CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate",
+      "text": "Plone Starter CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15184,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15124,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "pole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Plone Starter CI",
+  "concept_id": "plone-starter-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plone Starter CI",
+      "sense_id": "plone-starter-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

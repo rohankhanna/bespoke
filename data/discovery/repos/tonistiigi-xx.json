@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/github-builder-experimental",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "bats-assert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ld.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "source_repo": "tonistiigi/xx",
+      "target": "sdk-extras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx",
+      "target": "alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx",
+      "target": "cross-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx",
+      "target": "dockerfile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:25.529584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27379
+    },
+    {
+      "path": ".github/workflows/.test.yml",
+      "size": 2653
+    },
+    {
+      "path": ".github/workflows/bats-assert.yml",
+      "size": 1230
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4021
+    },
+    {
+      "path": ".github/workflows/ld.yml",
+      "size": 7268
+    },
+    {
+      "path": ".github/workflows/llvm.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/sdk-extras.yml",
+      "size": 753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dockerfile cross-compilation helpers",
+    "fork": false,
+    "full_name": "tonistiigi/xx",
+    "html_url": "https://github.com/tonistiigi/xx",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T01:14:22Z",
+    "stargazers_count": 554,
+    "topics": [
+      "alpine",
+      "cross-compiler",
+      "debian",
+      "docker",
+      "dockerfile"
+    ],
+    "updated_at": "2026-04-19T02:29:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/github-builder-experimental",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bats-assert",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "term": "bats-assert"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "llvm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "sdk-extras",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-extras.yml",
+      "term": "sdk-extras"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compiler"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChenmienTan/RL2",
+      "target": "deepspeedai/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChenmienTan/RL2",
+      "target": "openrlhf/openrlhf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChenmienTan/RL2",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChenmienTan/RL2",
+      "target": "thudm/slime",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:40:54.012034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8480
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ChenmienTan/RL2",
+    "html_url": "https://github.com/ChenmienTan/RL2",
+    "language": "Python",
+    "pushed_at": "2026-02-28T09:57:06Z",
+    "stargazers_count": 1276,
+    "topics": [],
+    "updated_at": "2026-04-23T10:11:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepspeedai/deepspeedexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openrlhf/openrlhf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/slime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Review Bot Trigger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "The Ethereum Improvement Proposal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "Auto Review Bot Trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate",
+      "text": "Auto Review Bot Trigger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28337,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28160,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28160,
+      "status": "candidate",
+      "text": "hydroplane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28050,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28041,
+      "status": "candidate",
+      "text": "linear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Review Bot Trigger",
+  "concept_id": "auto-review-bot-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-review-trigger.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Review Bot Trigger",
+      "sense_id": "auto-review-bot-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

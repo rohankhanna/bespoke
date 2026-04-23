@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Keras GPU Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Keras GPU Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "keratin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "available"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keras GPU Tests",
+      "sense_id": "keras-gpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keras-gpu-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keras-gpu-tests",
+  "observation_id": "9416496fb5d5807d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Keras GPU Tests",
+  "source_context_snippet": "Keras GPU Tests",
+  "source_file": ".github/workflows/gpu_tests.yml",
+  "source_repo": "keras-team/keras",
+  "source_repo_description": "Deep Learning for humans"
+}

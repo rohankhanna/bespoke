@@ -67,6 +67,18 @@
       "source_repo": "emacs-tree-sitter/tree-sitter-langs",
       "status": "candidate-context",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "A lightweight, high-performance Python library for parsing jsonl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "emacs-tree-sitter/tree-sitter-langs",
       "status": "candidate",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "emacs-tree-sitter/tree-sitter-langs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "role-based"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945444,
+      "status": "candidate",
+      "text": "computerbased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945443,
+      "status": "candidate",
+      "text": "rule-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945442,
+      "status": "candidate",
+      "text": "object-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945441,
+      "status": "candidate",
+      "text": "computer-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945440,
+      "status": "candidate",
+      "text": "domain-specific"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "role-based",
+  "concept_id": "role-based",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "role-based",
+      "sense_id": "role-based#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

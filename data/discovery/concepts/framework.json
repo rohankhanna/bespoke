@@ -259,6 +259,126 @@
       "source_repo": "hapijs/hapi",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "Easiest and laziest way for  building multi-agent LLMs applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SvenTiigi/SwiftKit",
+      "status": "candidate-context",
+      "text": "Start your next Open-Source Swift Framework \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenTiigi/SwiftKit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "A Framework for building Themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Simple API server framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate-context",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "Your high performance web application C framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate-context",
+      "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +507,66 @@
       "source_repo": "hapijs/hapi",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyAGI/LazyLLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenTiigi/SwiftKit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbubel/intake",
+      "status": "candidate",
+      "text": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boazsegev/facil.io",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "Rails is a web application framework that includes everything needed to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Logiase/MiraiGo-Template",
+      "status": "candidate",
+      "text": "A template for MiraiGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -622,11 +802,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hapijs/hapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SvenTiigi/SwiftKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chriskempson/base16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dbubel/intake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boazsegev/facil.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rails/rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Logiase/MiraiGo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

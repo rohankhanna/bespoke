@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "45gfg9/mirai-release-watcher-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "985892345/mirai-hotfix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "ac682/arcbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "aimerneige/miraichess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "MiraiForum Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai-console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "mirai-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai",
+      "target": "qqbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:01.841202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10112
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "mirai\u76f8\u5173\u9879\u76ee\u548c\u63d2\u4ef6\u6536\u96c6",
+    "fork": false,
+    "full_name": "project-mirai/awesome-mirai",
+    "html_url": "https://github.com/project-mirai/awesome-mirai",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-14T14:33:22Z",
+    "stargazers_count": 471,
+    "topics": [
+      "bot",
+      "mirai",
+      "mirai-console",
+      "mirai-plugin",
+      "qqbot"
+    ],
+    "updated_at": "2026-04-14T17:13:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "45gfg9/mirai-release-watcher-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "985892345/mirai-hotfix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ac682/arcbot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aimerneige/miraichess",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MiraiForum Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "MiraiForum Sync"
+    },
+    {
+      "context_snippet": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-console"
+    },
+    {
+      "context_snippet": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-plugin"
+    },
+    {
+      "context_snippet": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    }
+  ]
+}

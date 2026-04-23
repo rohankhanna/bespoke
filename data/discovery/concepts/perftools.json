@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "perftools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for the Microsoft Performance ToolKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate-context",
+      "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate",
+      "text": "[![main build status](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml/badge.svg)](https://github.com/microsoft/microsoft-performance-toolkit-sdk/actions/workflows/main_build_status.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "perftools",
+  "concept_id": "perftools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perftools",
+      "sense_id": "perftools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

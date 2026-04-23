@@ -57,6 +57,18 @@
       "source_repo": "OpenHands/OpenHands-CLI",
       "status": "candidate-context",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "Bump Version"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate",
+      "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
       "status": "candidate",
       "text": "Bump Version"
     }
@@ -180,11 +198,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "OpenHands/OpenHands-CLI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

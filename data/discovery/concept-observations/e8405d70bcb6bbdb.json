@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022930,
+      "status": "candidate",
+      "text": "self-referential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022929,
+      "status": "candidate",
+      "text": "self-addressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022928,
+      "status": "candidate",
+      "text": "self-originated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022927,
+      "status": "candidate",
+      "text": "self-correcting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022926,
+      "status": "candidate",
+      "text": "reflecting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-describing",
+      "sense_id": "self-describing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "self-describing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "self-describing",
+  "observation_id": "e8405d70bcb6bbdb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "self-describing",
+  "source_context_snippet": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026",
+  "source_file": null,
+  "source_repo": "filip26/iridium-cbor-ld",
+  "source_repo_description": "Semantic, self-describing binary format for Linked Data"
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "luarocks/luarocks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "L3MON4D3/LuaSnip"
     }
   ],
   "term": "luarocks"

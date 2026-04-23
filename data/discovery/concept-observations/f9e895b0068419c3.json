@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache dubbo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync to Upstream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync to Upstream"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10545,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10545,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "off"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync to Upstream",
+      "sense_id": "sync-to-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-to-upstream",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-to-upstream",
+  "observation_id": "f9e895b0068419c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Sync to Upstream",
+  "source_context_snippet": "Sync to Upstream",
+  "source_file": ".github/workflows/sync-to-upstream.yml",
+  "source_repo": "apache/dubbo-go-pixiu-samples",
+  "source_repo_description": "Apache dubbo"
+}

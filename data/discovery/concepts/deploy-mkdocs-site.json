@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy MkDocs site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "UFO\u00b3: Weaving the Digital Agent Galaxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "Deploy MkDocs site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate",
+      "text": "Deploy MkDocs site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "pull"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy MkDocs site",
+  "concept_id": "deploy-mkdocs-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/document_deploy.yml",
+      "source_repo": "microsoft/UFO"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy MkDocs site",
+      "sense_id": "deploy-mkdocs-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

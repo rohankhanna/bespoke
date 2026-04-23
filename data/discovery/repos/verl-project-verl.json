@@ -261,7 +261,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "bytedance-seed/seed-thinking-v1.5",
+      "target": "eric-haibin-lin/verl-data",
       "target_type": "repository"
     },
     {
@@ -275,14 +275,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "bytedance-seed/seed-coder",
+      "target": "csfufu/revisual-r1",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "bigai-nlco/rulereasoner",
+      "target": "gair-nlp/cognition-engineering",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T06:33:28.069927+00:00",
+  "fetched_at": "2026-04-23T21:47:50.742544+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-23T03:59:40Z",
-    "stargazers_count": 20883,
+    "pushed_at": "2026-04-23T13:03:24Z",
+    "stargazers_count": 20896,
     "topics": [],
-    "updated_at": "2026-04-23T06:28:41Z"
+    "updated_at": "2026-04-23T14:55:47Z"
   },
   "repo_links": [
     {
@@ -596,17 +596,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bigai-nlco/rulereasoner",
+      "full_name": "csfufu/revisual-r1",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bytedance-seed/seed-coder",
+      "full_name": "eric-haibin-lin/verl-data",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bytedance-seed/seed-thinking-v1.5",
+      "full_name": "gair-nlp/cognition-engineering",
       "source_file": "README.md"
     }
   ],

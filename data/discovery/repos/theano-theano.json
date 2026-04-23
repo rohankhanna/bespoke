@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Theano/Theano",
+      "target": "pymc-devs/pytensor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:38:57.849991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 469
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Theano was a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It is being continued as PyTensor: www.github.com/pymc-devs/pytensor",
+    "fork": false,
+    "full_name": "Theano/Theano",
+    "html_url": "https://github.com/Theano/Theano",
+    "language": "Python",
+    "pushed_at": "2024-01-15T03:16:24Z",
+    "stargazers_count": 9990,
+    "topics": [],
+    "updated_at": "2026-04-21T03:57:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pymc-devs/pytensor",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

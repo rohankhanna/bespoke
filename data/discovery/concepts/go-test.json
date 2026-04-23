@@ -70,6 +70,24 @@
       "source_repo": "ipfs/go-cid",
       "status": "candidate-context",
       "text": "Go Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Threshold Signature Scheme, for ECDSA and EDDSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate-context",
+      "text": "Go Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-varint",
+      "status": "candidate-context",
+      "text": "Go Test"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +118,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/go-cid",
+      "status": "candidate",
+      "text": "Go Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tss-lib",
+      "status": "candidate",
+      "text": "Go Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-varint",
       "status": "candidate",
       "text": "Go Test"
     }
@@ -181,11 +211,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/go-test.yml",
       "source_repo": "ipfs/go-cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/tss-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "multiformats/go-varint"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

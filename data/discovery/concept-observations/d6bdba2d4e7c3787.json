@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031239,
+      "status": "candidate",
+      "text": "gregarious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028219,
+      "status": "candidate",
+      "text": "sociable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026723,
+      "status": "candidate",
+      "text": "friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007093,
+      "status": "candidate",
+      "text": "cultural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005618,
+      "status": "candidate",
+      "text": "societal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "social",
+      "sense_id": "social#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40041,
+      "status": "candidate",
+      "text": "friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29042,
+      "status": "candidate",
+      "text": "gregarious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "sociable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16030,
+      "status": "candidate",
+      "text": "interpersonal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7026,
+      "status": "candidate",
+      "text": "societal"
+    }
+  ],
+  "concept_id": "social",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "social",
+  "observation_id": "d6bdba2d4e7c3787",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "social",
+  "source_context_snippet": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)",
+  "source_file": null,
+  "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+  "source_repo_description": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+}

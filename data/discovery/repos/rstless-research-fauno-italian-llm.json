@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RSTLess-research/Fauno-Italian-LLM",
+      "target": "teelinsan/camoscio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RSTLess-research/Fauno-Italian-LLM",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:10.877484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5724
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get ready to meet Fauno - the Italian language model crafted by the RSTLess Research Group from the Sapienza University of Rome.",
+    "fork": false,
+    "full_name": "RSTLess-research/Fauno-Italian-LLM",
+    "html_url": "https://github.com/RSTLess-research/Fauno-Italian-LLM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-08-01T20:24:26Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-03-28T11:43:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teelinsan/camoscio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

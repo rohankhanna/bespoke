@@ -19,6 +19,18 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "> Super-powered JavaScript project management"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boltpkg/bolt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

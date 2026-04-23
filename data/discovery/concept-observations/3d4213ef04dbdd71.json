@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pre-trained Deep Learning models and demos (high quality and extremely fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openvino-model-zoo",
+      "sense_id": "openvino-model-zoo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openvino-model-zoo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openvino-model-zoo",
+  "observation_id": "3d4213ef04dbdd71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "openvino-model-zoo",
+  "source_context_snippet": "> [!NOTE]",
+  "source_file": null,
+  "source_repo": "openvinotoolkit/open_model_zoo",
+  "source_repo_description": "Pre-trained Deep Learning models and demos (high quality and extremely fast)"
+}

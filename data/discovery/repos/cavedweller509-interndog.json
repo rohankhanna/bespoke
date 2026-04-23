@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/InternDog",
+      "target": "bestanhongjun/interndog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/InternDog",
+      "target": "internlm/xtuner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/InternDog",
+      "target": "bestanhongjun/lmdeploy-jetson",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:28.786637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3357
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u57fa\u4e8eInternLM2\u5927\u6a21\u578b\u7684\u79bb\u7ebf\u5177\u8eab\u667a\u80fd\u5bfc\u76f2\u72ac",
+    "fork": false,
+    "full_name": "cavedweller509/InternDog",
+    "html_url": "https://github.com/cavedweller509/InternDog",
+    "language": "Python",
+    "pushed_at": "2024-03-26T11:15:59Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-04-23T16:39:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bestanhongjun/interndog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bestanhongjun/lmdeploy-jetson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/xtuner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

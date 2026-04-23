@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Static Site CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Uptime of all SearXNG public instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate-context",
+      "text": "Static Site CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "searxng/searx-instances-uptime",
+      "status": "candidate",
+      "text": "Static Site CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20332,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17322,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12322,
+      "status": "candidate",
+      "text": "affirmative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12322,
+      "status": "candidate",
+      "text": "leed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12322,
+      "status": "candidate",
+      "text": "non"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Static Site CI",
+  "concept_id": "static-site-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static Site CI",
+      "sense_id": "static-site-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

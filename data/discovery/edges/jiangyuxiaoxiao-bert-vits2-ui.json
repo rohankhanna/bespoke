@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@ant-design/icons-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@highlightjs/vue-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@surely-vue/table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "ant-design-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "unplugin-vue-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vue-timer-hook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "jiangyuxiaoxiao/Bert-VITS2-UI"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release on Chocolatey"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Release on Chocolatey"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Release on Chocolatey"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "plain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "vanilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "bland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "flavorless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "abandonment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release on Chocolatey",
+  "concept_id": "release-on-chocolatey",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-choco.yml",
+      "source_repo": "httpie/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release on Chocolatey",
+      "sense_id": "release-on-chocolatey#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

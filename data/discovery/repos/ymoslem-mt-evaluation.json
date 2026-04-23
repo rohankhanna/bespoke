@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-Evaluation",
+      "target": "bleu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-Evaluation",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/MT-Evaluation",
+      "target": "mt-evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:23.018794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1560
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Machine Translation (MT) Evaluation Scripts",
+    "fork": false,
+    "full_name": "ymoslem/MT-Evaluation",
+    "html_url": "https://github.com/ymoslem/MT-Evaluation",
+    "language": "Python",
+    "pushed_at": "2024-05-19T05:14:23Z",
+    "stargazers_count": 18,
+    "topics": [
+      "bleu",
+      "machine-translation",
+      "mt-evaluation",
+      "wer"
+    ],
+    "updated_at": "2026-01-27T08:37:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Machine Translation (MT) Evaluation Scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bleu"
+    },
+    {
+      "context_snippet": "Machine Translation (MT) Evaluation Scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Machine Translation (MT) Evaluation Scripts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mt-evaluation"
+    }
+  ]
+}

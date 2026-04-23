@@ -19,12 +19,30 @@
       "source_repo": "googlefonts/noto-emoji",
       "status": "candidate-context",
       "text": "Continuous Test + Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notofonts/nototools",
+      "status": "candidate-context",
+      "text": "Noto fonts support tools and scripts plus web site generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notofonts/nototools",
+      "status": "candidate-context",
+      "text": "Continuous Test + Deploy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "googlefonts/noto-emoji",
+      "status": "candidate",
+      "text": "Continuous Test + Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notofonts/nototools",
       "status": "candidate",
       "text": "Continuous Test + Deploy"
     }
@@ -106,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "googlefonts/noto-emoji"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notofonts/nototools"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

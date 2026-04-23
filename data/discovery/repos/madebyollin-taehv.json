@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taehv",
+      "target": "blepping/comfyui-bleh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taehv",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taehv",
+      "target": "kijai/comfyui-wanvideowrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taehv",
+      "target": "guandeh17/self-forcing",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:35:56.456588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8456
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tiny AutoEncoder for Hunyuan Video (and other video models)",
+    "fork": false,
+    "full_name": "madebyollin/taehv",
+    "html_url": "https://github.com/madebyollin/taehv",
+    "language": "Python",
+    "pushed_at": "2026-03-14T18:10:35Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-04-23T12:11:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blepping/comfyui-bleh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guandeh17/self-forcing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-wanvideowrapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

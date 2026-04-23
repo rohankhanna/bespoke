@@ -277,6 +277,144 @@
       "source_repo": "strukturag/libheif",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate-context",
+      "text": "regular expression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate-context",
+      "text": "PROST! a Protocol Buffers implementation for the Rust Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "Multi-format archive and compression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BurntSushi/toml",
+      "status": "candidate-context",
+      "text": "TOML parser for Golang with reflection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/toml",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "Mesh optimization library that makes meshes smaller and faster to render"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -415,6 +553,78 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "strukturag/libheif",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkos/oniguruma",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BurntSushi/toml",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -586,11 +796,95 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "strukturag/libheif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "kkos/oniguruma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "BurntSushi/toml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "util-linux/util-linux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

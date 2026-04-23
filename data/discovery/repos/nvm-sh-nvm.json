@@ -181,13 +181,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
-      "target": "jasongin/nvs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvm-sh/nvm",
       "target": "brigand/fast-nvm-fish",
       "target_type": "repository"
     },
@@ -195,7 +188,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
-      "target": "iamogbz/nvshim",
+      "target": "jorgebucaran/nvm.fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
+      "target": "lukechilds/zsh-nvm",
       "target_type": "repository"
     },
     {
@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:42:31.780284+00:00",
+  "fetched_at": "2026-04-23T22:06:12.406939+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -553,7 +553,7 @@
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
     "pushed_at": "2026-04-04T15:37:46Z",
-    "stargazers_count": 93045,
+    "stargazers_count": 93052,
     "topics": [
       "bash",
       "install",
@@ -569,7 +569,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-04-23T05:49:13Z"
+    "updated_at": "2026-04-23T20:30:40Z"
   },
   "repo_links": [
     {
@@ -584,12 +584,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iamogbz/nvshim",
+      "full_name": "jorgebucaran/nvm.fish",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jasongin/nvs",
+      "full_name": "lukechilds/zsh-nvm",
       "source_file": "README.md"
     }
   ],

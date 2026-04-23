@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:18:17.338697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sapi5 interface for espeak-ng text-to-speech synthesizer",
+    "fork": false,
+    "full_name": "gozaltech/espeak-ng-sapi",
+    "html_url": "https://github.com/gozaltech/espeak-ng-sapi",
+    "language": "C++",
+    "pushed_at": "2026-03-15T11:54:58Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-18T12:35:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Grid UI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "CI - Grid UI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "CI - Grid UI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11858,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11406,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Grid UI",
+  "concept_id": "ci---grid-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "source_repo": "SeleniumHQ/selenium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Grid UI",
+      "sense_id": "ci---grid-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

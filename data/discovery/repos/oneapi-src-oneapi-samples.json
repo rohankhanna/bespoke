@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "habanaai/gaudi-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "intel/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneapi-community/awesome-oneapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "opea-project/genaiexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "github-samples-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "fortran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "oneccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onedal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onednn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onedpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onemkl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "onetbb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "sycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:07:53.973580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8471
+    },
+    {
+      "path": ".github/workflows/github-pages.yml",
+      "size": 2249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples for Intel\u00ae oneAPI Toolkits",
+    "fork": false,
+    "full_name": "oneapi-src/oneAPI-samples",
+    "html_url": "https://github.com/oneapi-src/oneAPI-samples",
+    "language": "C++",
+    "pushed_at": "2026-04-08T08:45:58Z",
+    "stargazers_count": 1139,
+    "topics": [
+      "ai",
+      "cpu",
+      "cuda",
+      "fortran",
+      "fpga",
+      "gpu",
+      "jupyter",
+      "oneapi",
+      "oneccl",
+      "onedal",
+      "onednn",
+      "onedpl",
+      "onemkl",
+      "onetbb",
+      "python",
+      "pytorch",
+      "rendering",
+      "scikit-learn",
+      "sycl",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-13T06:21:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habanaai/gaudi-tutorials",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-community/awesome-oneapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opea-project/genaiexamples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "github-samples-app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "term": "github-samples-app"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fortran"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneccl"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedal"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onednn"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedpl"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onemkl"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onetbb"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    },
+    {
+      "context_snippet": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

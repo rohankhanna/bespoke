@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgrindel/bazel-doc",
+      "target": "starlark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:08.538843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 1380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Helpers for generating Starlark documentation using Stardoc.",
+    "fork": false,
+    "full_name": "cgrindel/bazel-doc",
+    "html_url": "https://github.com/cgrindel/bazel-doc",
+    "language": "Starlark",
+    "pushed_at": "2022-01-03T22:50:01Z",
+    "stargazers_count": 2,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "documentation",
+      "starlark"
+    ],
+    "updated_at": "2023-01-28T04:22:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "__NOTE: The functionality for this repository has moved to [cgrindel/bazel-starlib](https://github.com/cgrindel/bazel-starlib).__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    }
+  ]
+}

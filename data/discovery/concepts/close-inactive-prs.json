@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close inactive PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "'Close inactive PRs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "'Close inactive PRs'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "pagoda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10430,
+      "status": "candidate",
+      "text": "inch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "classified"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close inactive PRs",
+  "concept_id": "close-inactive-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vllm-project/llm-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close inactive PRs",
+      "sense_id": "close-inactive-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

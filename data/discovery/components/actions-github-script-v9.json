@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -202,6 +202,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml",
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-extended.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-status.yml",
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-reminder-bot.yml",
+      "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli"
     }
   ]
 }

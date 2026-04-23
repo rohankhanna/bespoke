@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/winmd",
+      "target": "microsoft/xlang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/winmd",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/winmd",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:12:08.025069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1651
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ winmd parser",
+    "fork": false,
+    "full_name": "microsoft/winmd",
+    "html_url": "https://github.com/microsoft/winmd",
+    "language": "C++",
+    "pushed_at": "2025-01-31T20:31:35Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-02T06:29:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/xlang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

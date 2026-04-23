@@ -1,0 +1,567 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml"
+    },
+    {
+      "component": "anchore/scan-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml"
+    },
+    {
+      "component": "anchore/scan-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml"
+    },
+    {
+      "component": "anchore/scan-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml"
+    },
+    {
+      "component": "anchore/scan-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml"
+    },
+    {
+      "component": "anchore/scan-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions-runner-controller/actions-runner-controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boozallen/goobernetes",
+      "target": "sanderknape/github-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/virtual-environments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/scan-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Build and publish CentOS 7 runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/scan-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Build and publish CentOS 8 runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/scan-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Build and publish Debian Bullseye runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/scan-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Build and publish Debian Buster runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/scan-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Build and publish Ubuntu Focal runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes",
+      "target": "Upload tool cache",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:35:35.981781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7059
+    },
+    {
+      "path": ".github/workflows/build-centos7.yml",
+      "size": 1672
+    },
+    {
+      "path": ".github/workflows/build-centos8.yml",
+      "size": 1662
+    },
+    {
+      "path": ".github/workflows/build-debian-bullseye.yml",
+      "size": 1709
+    },
+    {
+      "path": ".github/workflows/build-debian-buster.yml",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/build-ubuntu-focal.yml",
+      "size": 1683
+    },
+    {
+      "path": ".github/workflows/make-tool-cache.yml",
+      "size": 2080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "On-prem GitHub Actions runners, backed by Kubernetes",
+    "fork": false,
+    "full_name": "boozallen/goobernetes",
+    "html_url": "https://github.com/boozallen/goobernetes",
+    "language": "Dockerfile",
+    "pushed_at": "2022-01-18T09:56:54Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2025-01-09T18:44:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions-runner-controller/actions-runner-controller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/virtual-environments",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanderknape/github-runner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish CentOS 7 runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "term": "Build and publish CentOS 7 runner"
+    },
+    {
+      "context_snippet": "Build and publish CentOS 8 runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "term": "Build and publish CentOS 8 runner"
+    },
+    {
+      "context_snippet": "Build and publish Debian Bullseye runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "term": "Build and publish Debian Bullseye runner"
+    },
+    {
+      "context_snippet": "Build and publish Debian Buster runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "term": "Build and publish Debian Buster runner"
+    },
+    {
+      "context_snippet": "Build and publish Ubuntu Focal runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "term": "Build and publish Ubuntu Focal runner"
+    },
+    {
+      "context_snippet": "Upload tool cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "term": "Upload tool cache"
+    }
+  ]
+}

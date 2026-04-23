@@ -1,0 +1,414 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-wiki.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "Deploy Wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "End to End Tests - master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kubernetes-client/python",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python",
+      "target": "client-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:11:24.982774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16910
+    },
+    {
+      "path": "requirements.txt",
+      "size": 283
+    },
+    {
+      "path": ".github/workflows/deploy-wiki.yaml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/e2e-master.yaml",
+      "size": 1407
+    },
+    {
+      "path": ".github/workflows/e2e-release-11.0.yaml",
+      "size": 1434
+    },
+    {
+      "path": ".github/workflows/e2e-release-12.0.yaml",
+      "size": 1434
+    },
+    {
+      "path": ".github/workflows/e2e-release-17.0.yaml",
+      "size": 1434
+    },
+    {
+      "path": ".github/workflows/e2e-release-18.0.yaml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/e2e-release-26.0.yaml",
+      "size": 1424
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Python client library for kubernetes",
+    "fork": false,
+    "full_name": "kubernetes-client/python",
+    "html_url": "https://github.com/kubernetes-client/python",
+    "language": "Python",
+    "pushed_at": "2026-04-22T02:02:59Z",
+    "stargazers_count": 7549,
+    "topics": [
+      "client-python",
+      "k8s",
+      "k8s-sig-api-machinery",
+      "kubernetes",
+      "library"
+    ],
+    "updated_at": "2026-04-22T14:26:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-wiki.yaml",
+      "term": "Deploy Wiki"
+    },
+    {
+      "context_snippet": "End to End Tests - master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "term": "End to End Tests - master"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client-python"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

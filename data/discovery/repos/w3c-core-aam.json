@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tr-publication.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tr-publication.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tr-publication.yml",
+      "source_repo": "w3c/core-aam",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tr-publication.yml",
+      "source_repo": "w3c/core-aam",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tr-publication.yml",
+      "source_repo": "w3c/core-aam",
+      "target": "Build TR Document",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:40.946199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/tr-publication.yml",
+      "size": 517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Core Accessibility API Mappings",
+    "fork": false,
+    "full_name": "w3c/core-aam",
+    "html_url": "https://github.com/w3c/core-aam",
+    "language": null,
+    "pushed_at": "2026-04-19T15:47:52Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-03-13T00:08:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build TR Document",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tr-publication.yml",
+      "term": "Build TR Document"
+    }
+  ]
+}

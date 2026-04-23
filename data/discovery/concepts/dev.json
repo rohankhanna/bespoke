@@ -92,6 +92,42 @@
       "source_repo": "gulpjs/vinyl",
       "status": "candidate-context",
       "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulpjs/vinyl-fs",
+      "status": "candidate-context",
+      "text": "Vinyl adapter for the file system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/vinyl-fs",
+      "status": "candidate-context",
+      "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate-context",
+      "text": "Apache Arrow Ballista Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate-context",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Python Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Dev"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +172,24 @@
       "source_repo": "gulpjs/vinyl",
       "status": "candidate",
       "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/vinyl-fs",
+      "status": "candidate",
+      "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate",
+      "text": "Dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate",
+      "text": "Dev"
     }
   ],
   "candidate_related_terms": [
@@ -221,11 +275,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "gulpjs/vinyl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-python"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

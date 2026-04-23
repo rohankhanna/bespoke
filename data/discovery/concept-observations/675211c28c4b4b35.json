@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devops-tools",
+      "sense_id": "devops-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "devops-tools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "devops-tools",
+  "observation_id": "675211c28c4b4b35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "devops-tools",
+  "source_context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+  "source_file": null,
+  "source_repo": "get-gah/gah",
+  "source_repo_description": "gah is an GitHub Releases app installer, that does not require sudo"
+}

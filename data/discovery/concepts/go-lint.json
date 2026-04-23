@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Go Lint",
+    "go-lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "Go Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "The operational tool for Seata-Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "go-lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "Go Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate",
+      "text": "go-lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17304,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17184,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17184,
+      "status": "candidate",
+      "text": "whisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17124,
+      "status": "candidate",
+      "text": "tentatively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "brush"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go Lint",
+  "concept_id": "go-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "apache/incubator-seata-ctl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Lint",
+      "sense_id": "go-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

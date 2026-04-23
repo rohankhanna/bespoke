@@ -1,7 +1,7 @@
 {
   "component": "helm/kind-action@v1.14.0",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/chart-test.yaml",
       "source_repo": "davidkarlsen/flyway-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-master.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-11.0.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-12.0.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-17.0.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-18.0.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-release-26.0.yaml",
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "coredns/helm"
     }
   ]
 }

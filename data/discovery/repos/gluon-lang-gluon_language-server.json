@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "vscode-debugadapter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageclient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "vscode-debugadapter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "vscode-languageclient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "@types/vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "gluon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon_language-server",
+      "target": "language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:29.940660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1244
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1322
+    },
+    {
+      "path": "package.json",
+      "size": 3103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Language server providing completion for gluon",
+    "fork": false,
+    "full_name": "gluon-lang/gluon_language-server",
+    "html_url": "https://github.com/gluon-lang/gluon_language-server",
+    "language": "Rust",
+    "pushed_at": "2023-06-21T22:33:02Z",
+    "stargazers_count": 54,
+    "topics": [
+      "debugger",
+      "gluon",
+      "language-server"
+    ],
+    "updated_at": "2026-04-06T23:59:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gluon"
+    },
+    {
+      "context_snippet": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    }
+  ]
+}

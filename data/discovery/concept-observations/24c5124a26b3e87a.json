@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "assessments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "contributions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "customers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "dues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9860957,
+      "status": "candidate",
+      "text": "endowments"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subscriptions",
+      "sense_id": "subscriptions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "subscriptions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "subscriptions",
+  "observation_id": "24c5124a26b3e87a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "subscriptions",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "enisdenjo/graphql-sse",
+  "source_repo_description": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+}

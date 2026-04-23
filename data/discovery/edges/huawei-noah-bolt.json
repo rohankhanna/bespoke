@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huawei-noah/bolt",
+      "target": "liuzechun/bi-real-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huawei-noah/bolt",
+      "target": "liuzechun/reactnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huawei-noah/bolt",
+      "target": "huawei-noah/ghostnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huawei-noah/bolt",
+      "target": "jdai-cv/dabnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-android-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-android-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "linux-android-armv7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-android-armv8.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-android-armv8.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "linux-android-armv8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-android-x86_64.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-x86-avx2.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-x86-avx2.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "linux-x86-avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-x86.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-x86.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "linux-x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-android-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-android-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "macos-android-armv7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-android-armv8.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-android-armv8.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "macos-android-armv8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-android-x86_64.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ios-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ios-armv7.yml",
+      "source_repo": "huawei-noah/bolt",
+      "target": "macos-ios-armv7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "bolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "huawei",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "mali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "noah",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "huawei-noah/bolt"
+}

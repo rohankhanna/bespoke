@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Jittor/jittor",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/jittor",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/jittor",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/jittor",
+      "target": "jittor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:03:04.618908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11367
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jittor is a high-performance deep learning framework based on JIT compiling and meta-operators.",
+    "fork": false,
+    "full_name": "Jittor/jittor",
+    "html_url": "https://github.com/Jittor/jittor",
+    "language": "Python",
+    "pushed_at": "2026-04-14T12:42:17Z",
+    "stargazers_count": 3219,
+    "topics": [
+      "cuda",
+      "deep-learning",
+      "gpu",
+      "jittor",
+      "python"
+    ],
+    "updated_at": "2026-04-21T13:16:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Jittor Logo](https://cg.cs.tsinghua.edu.cn/jittor/favicon_package_v0/JittorLogo_Final1220.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "![Jittor Logo](https://cg.cs.tsinghua.edu.cn/jittor/favicon_package_v0/JittorLogo_Final1220.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Jittor Logo](https://cg.cs.tsinghua.edu.cn/jittor/favicon_package_v0/JittorLogo_Final1220.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jittor"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Development of a Roboto Variable font"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Roboto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Roboto"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "product sans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "droid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "arial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "open sans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "android"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Roboto",
+      "sense_id": "roboto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "roboto",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "roboto",
+  "observation_id": "2208750ec128f023",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Roboto",
+  "source_context_snippet": "Roboto",
+  "source_file": ".github/workflows/build.yaml",
+  "source_repo": "googlefonts/roboto-3-classic",
+  "source_repo_description": "Development of a Roboto Variable font"
+}

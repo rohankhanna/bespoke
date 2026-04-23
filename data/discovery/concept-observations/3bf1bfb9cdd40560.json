@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pre-built ARM/Linux C cross-compilers for MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022343,
+      "status": "candidate",
+      "text": "cross-grade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022342,
+      "status": "candidate",
+      "text": "cross purpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022341,
+      "status": "candidate",
+      "text": "criss-cross"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022340,
+      "status": "candidate",
+      "text": "crossdressing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022339,
+      "status": "candidate",
+      "text": "boarder-cross"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-compiler",
+      "sense_id": "cross-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-compiler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-compiler",
+  "observation_id": "3bf1bfb9cdd40560",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cross-compiler",
+  "source_context_snippet": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026",
+  "source_file": null,
+  "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+  "source_repo_description": "Pre-built ARM/Linux C cross-compilers for MacOS"
+}

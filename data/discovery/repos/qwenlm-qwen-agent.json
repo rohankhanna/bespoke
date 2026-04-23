@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "qwenlm/qwen2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "QwenLM/Qwen-Agent",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:03:39.102786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15110
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen-Agent",
+    "html_url": "https://github.com/QwenLM/Qwen-Agent",
+    "language": "Python",
+    "pushed_at": "2026-03-04T08:15:07Z",
+    "stargazers_count": 16161,
+    "topics": [],
+    "updated_at": "2026-04-23T18:04:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy to GitHub Pages"
+    }
+  ]
+}

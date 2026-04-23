@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "juliaeditorsupport/julia-ts-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "non-jedi/eglot-jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "tpapp/julia-repl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "gcv/julia-snail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "leotaku/elisp-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-emacs",
+      "target": "julialang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:45:39.884540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3168
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia support in Emacs.",
+    "fork": false,
+    "full_name": "JuliaEditorSupport/julia-emacs",
+    "html_url": "https://github.com/JuliaEditorSupport/julia-emacs",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-26T15:42:09Z",
+    "stargazers_count": 315,
+    "topics": [
+      "emacs",
+      "julia",
+      "julia-language",
+      "julialang"
+    ],
+    "updated_at": "2026-03-20T18:19:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcv/julia-snail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaeditorsupport/julia-ts-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "non-jedi/eglot-jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpapp/julia-repl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/julia-mode-badge.svg)](https://melpa.org/#/julia-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    }
+  ]
+}

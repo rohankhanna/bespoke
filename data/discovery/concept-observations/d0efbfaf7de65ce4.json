@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly TypeScript Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly TypeScript Run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "charge sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25364,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24334,
+      "status": "candidate",
+      "text": "lottery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly TypeScript Run",
+      "sense_id": "nightly-typescript-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-typescript-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-typescript-run",
+  "observation_id": "d0efbfaf7de65ce4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Nightly TypeScript Run",
+  "source_context_snippet": "Nightly TypeScript Run",
+  "source_file": ".github/workflows/night-ts.yml",
+  "source_repo": "emberjs/ember.js",
+  "source_repo_description": "Ember.js - A JavaScript framework for creating ambitious web applications"
+}

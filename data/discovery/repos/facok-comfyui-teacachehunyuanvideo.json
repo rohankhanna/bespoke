@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facok/ComfyUI-TeaCacheHunyuanVideo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facok/ComfyUI-TeaCacheHunyuanVideo",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facok/ComfyUI-TeaCacheHunyuanVideo",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:30.775484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 704
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "facok/ComfyUI-TeaCacheHunyuanVideo",
+    "html_url": "https://github.com/facok/ComfyUI-TeaCacheHunyuanVideo",
+    "language": "Python",
+    "pushed_at": "2025-04-05T05:24:59Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-03-15T11:31:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

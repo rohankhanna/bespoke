@@ -31,6 +31,30 @@
       "source_repo": "EdVince/Stable-Diffusion-NCNN",
       "status": "candidate-context",
       "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "stable diffusion webui colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "EdVince/Stable-Diffusion-NCNN",
       "status": "candidate",
       "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +106,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

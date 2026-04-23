@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Netflix/Hystrix",
+      "target": "resilience4j/resilience4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Netflix/Hystrix",
+      "target": "netflix-skunkworks/hystrix-dashboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-ci.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-publish.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nebula-snapshot.yml",
+      "source_repo": "Netflix/Hystrix",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:57:24.652385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11162
+    },
+    {
+      "path": ".github/workflows/nebula-ci.yml",
+      "size": 1324
+    },
+    {
+      "path": ".github/workflows/nebula-publish.yml",
+      "size": 2001
+    },
+    {
+      "path": ".github/workflows/nebula-snapshot.yml",
+      "size": 1145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.",
+    "fork": false,
+    "full_name": "Netflix/Hystrix",
+    "html_url": "https://github.com/Netflix/Hystrix",
+    "language": "Java",
+    "pushed_at": "2025-12-17T03:21:02Z",
+    "stargazers_count": 24460,
+    "topics": [],
+    "updated_at": "2026-04-23T20:44:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netflix-skunkworks/hystrix-dashboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "resilience4j/resilience4j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

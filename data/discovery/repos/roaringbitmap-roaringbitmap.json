@@ -1,0 +1,661 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkascii.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "jivesoftware/miru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "jtablesaw/tablesaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "gchq/gaffer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "jpillora/cloud-torrent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkascii.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkascii.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Check ASCII",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "gradle/actions/wrapper-validation@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Java 8, 11, 17, 21 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Java 21 CI macOS (Apple)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-all-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "dorny/test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-all-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-macos-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "dorny/test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-macos-version.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "bitset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "druid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "lucene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "roaring-bitmaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "roaringbitmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:09:58.771609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30115
+    },
+    {
+      "path": ".github/workflows/checkascii.yml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 215
+    },
+    {
+      "path": ".github/workflows/java-all-versions.yml",
+      "size": 2026
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/post-all-version.yml",
+      "size": 3473
+    },
+    {
+      "path": ".github/workflows/post-macos-version.yml",
+      "size": 3476
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A better compressed bitset in Java: used by Apache Spark, Netflix Atlas, Apache Pinot, Tablesaw, and many others",
+    "fork": false,
+    "full_name": "RoaringBitmap/RoaringBitmap",
+    "html_url": "https://github.com/RoaringBitmap/RoaringBitmap",
+    "language": "Java",
+    "pushed_at": "2026-04-15T02:15:42Z",
+    "stargazers_count": 3853,
+    "topics": [
+      "bitset",
+      "druid",
+      "java",
+      "lucene",
+      "roaring-bitmaps",
+      "roaringbitmap",
+      "spark"
+    ],
+    "updated_at": "2026-04-23T06:34:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gchq/gaffer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jivesoftware/miru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpillora/cloud-torrent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtablesaw/tablesaw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check ASCII",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkascii.yml",
+      "term": "Check ASCII"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Java 8, 11, 17, 21 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "term": "Java 8, 11, 17, 21 CI"
+    },
+    {
+      "context_snippet": "Java 21 CI macOS (Apple)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "Java 21 CI macOS (Apple)"
+    },
+    {
+      "context_snippet": "'Test Report'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-all-version.yml",
+      "term": "Test Report"
+    },
+    {
+      "context_snippet": "'Test Report'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-macos-version.yml",
+      "term": "Test Report"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitset"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "druid"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roaring-bitmaps"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roaringbitmap"
+    },
+    {
+      "context_snippet": "RoaringBitmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

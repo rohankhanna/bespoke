@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "project-template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "project-template",
+  "concept_id": "project-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "project-template",
+      "sense_id": "project-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

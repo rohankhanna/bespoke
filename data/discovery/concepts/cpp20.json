@@ -19,6 +19,30 @@
       "source_repo": "infiniflow/infinity",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate-context",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "infiniflow/infinity",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/thrust",
+      "status": "candidate",
+      "text": ":warning: **The Thrust repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "infiniflow/infinity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/thrust"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

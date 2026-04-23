@@ -19,6 +19,42 @@
       "source_repo": "QwenLM/Qwen",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight] The official CLIP training codebase of Inf-CL: \"Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss\". A super memory-efficiency CLIP training scheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "QwenLM/Qwen",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternEvo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "eclipse-lemminx/lemminx",
       "status": "candidate-context",
       "text": "pr-verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Java Language Support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "pr-verify"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate",
+      "text": "pr-verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
       "status": "candidate",
       "text": "pr-verify"
     }
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pr-verify.yml",
       "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

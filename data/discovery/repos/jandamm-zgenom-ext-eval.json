@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-eval",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-eval",
+      "target": "zgenom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:46:55.495285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluate commands and create ad hoc plugins",
+    "fork": false,
+    "full_name": "jandamm/zgenom-ext-eval",
+    "html_url": "https://github.com/jandamm/zgenom-ext-eval",
+    "language": "Shell",
+    "pushed_at": "2023-05-04T21:11:35Z",
+    "stargazers_count": 4,
+    "topics": [
+      "shell",
+      "zgenom",
+      "zsh"
+    ],
+    "updated_at": "2024-06-14T23:20:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Big thanks to [zoritle](https://github.com/zoritle) for the idea and [initial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "Big thanks to [zoritle](https://github.com/zoritle) for the idea and [initial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    }
+  ]
+}

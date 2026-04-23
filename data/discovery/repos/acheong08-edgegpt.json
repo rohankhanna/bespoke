@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/GHCR.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PyPi.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "bing-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "binggpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "edgegpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:07:41.585576+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 417
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    },
+    {
+      "path": ".github/workflows/GHCR.yml",
+      "size": 3292
+    },
+    {
+      "path": ".github/workflows/PyPi.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Reverse engineered API of Microsoft's Bing Chat AI",
+    "fork": false,
+    "full_name": "acheong08/EdgeGPT",
+    "html_url": "https://github.com/acheong08/EdgeGPT",
+    "language": "Python",
+    "pushed_at": "2023-08-03T13:37:26Z",
+    "stargazers_count": 7902,
+    "topics": [
+      "bing-ai",
+      "binggpt",
+      "chatgpt",
+      "edge",
+      "edgegpt",
+      "gpt",
+      "reverse-engineering"
+    ],
+    "updated_at": "2026-04-23T20:29:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bing-ai"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binggpt"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edgegpt"
+    },
+    {
+      "context_snippet": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2025 D&B] Open-source Multi-agent Poster Generation from Papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045530,
+      "status": "candidate",
+      "text": "placard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995434,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946836,
+      "status": "candidate",
+      "text": "bill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29927490,
+      "status": "candidate",
+      "text": "post horse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918764,
+      "status": "candidate",
+      "text": "card"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "poster",
+      "sense_id": "poster#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "placard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9054,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6062,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3069,
+      "status": "candidate",
+      "text": "bill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "post horse"
+    }
+  ],
+  "concept_id": "poster",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "poster",
+  "observation_id": "ef2fa98a4aba3f44",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "poster",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Paper2Poster/Paper2Poster",
+  "source_repo_description": "[NeurIPS 2025 D&B] Open-source Multi-agent Poster Generation from Papers"
+}

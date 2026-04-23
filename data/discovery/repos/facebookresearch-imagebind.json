@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/ImageBind",
+      "target": "facebookresearch/pytorchvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:21.650911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4729
+    },
+    {
+      "path": "requirements.txt",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ImageBind One Embedding Space to Bind Them All",
+    "fork": false,
+    "full_name": "facebookresearch/ImageBind",
+    "html_url": "https://github.com/facebookresearch/ImageBind",
+    "language": "Python",
+    "pushed_at": "2025-11-21T21:48:14Z",
+    "stargazers_count": 9016,
+    "topics": [],
+    "updated_at": "2026-04-23T17:22:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pytorchvideo",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:51:50.238196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2148
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "How to Train Your Advisor: Steering Black-Box LLMs with Advisor Models",
+    "fork": false,
+    "full_name": "az1326/advisor-models",
+    "html_url": "https://github.com/az1326/advisor-models",
+    "language": "Python",
+    "pushed_at": "2026-02-05T00:37:13Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-04-18T14:56:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

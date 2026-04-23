@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml"
+    },
+    {
+      "component": "actions/github-script@0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    },
+    {
+      "component": "actions/github-script@0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "crazy-max/ghaction-github-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/github-script@0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "thollander/actions-comment-pull-request@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "actions/github-script@0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "batchnorm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "encoding-layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "target": "synchronized-batchnorm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:15.966000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3277
+    },
+    {
+      "path": "Dockerfile",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/sphix_build_master.yml",
+      "size": 1372
+    },
+    {
+      "path": ".github/workflows/sphix_build_pr.yml",
+      "size": 1814
+    },
+    {
+      "path": ".github/workflows/unit_test.yml",
+      "size": 1003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CV toolkit for my papers.",
+    "fork": false,
+    "full_name": "zhanghang1989/PyTorch-Encoding",
+    "html_url": "https://github.com/zhanghang1989/PyTorch-Encoding",
+    "language": "Python",
+    "pushed_at": "2024-12-21T05:04:53Z",
+    "stargazers_count": 2045,
+    "topics": [
+      "batchnorm",
+      "deep-learning",
+      "encoding-layer",
+      "synchronized-batchnorm"
+    ],
+    "updated_at": "2026-04-18T16:06:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batchnorm"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding-layer"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synchronized-batchnorm"
+    }
+  ]
+}

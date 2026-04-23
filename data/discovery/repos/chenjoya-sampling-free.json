@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:45:53.152095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "IEEE TIP: Is heuristic sampling necessary in training deep object detectors? Try sampling-free object detectors!",
+    "fork": false,
+    "full_name": "chenjoya/sampling-free",
+    "html_url": "https://github.com/chenjoya/sampling-free",
+    "language": "Python",
+    "pushed_at": "2021-09-03T04:45:09Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-03-03T01:17:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

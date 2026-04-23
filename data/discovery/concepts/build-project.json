@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Build Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "One stop solution for all Vulkan samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "Build Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "C++ examples for the Vulkan graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "Build Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate",
+      "text": "Build Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate",
+      "text": "Build Project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28054,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "cantilever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "construction"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Project",
+  "concept_id": "build-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SaschaWillems/Vulkan"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Project",
+      "sense_id": "build-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

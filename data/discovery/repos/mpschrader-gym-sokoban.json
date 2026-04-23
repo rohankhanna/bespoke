@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpSchrader/gym-sokoban",
+      "target": "deepmind/boxoban-levels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpSchrader/gym-sokoban",
+      "target": "environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpSchrader/gym-sokoban",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpSchrader/gym-sokoban",
+      "target": "sokoban",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:49:03.334129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "default",
+    "description": "Sokoban environment for OpenAI Gym ",
+    "fork": false,
+    "full_name": "mpSchrader/gym-sokoban",
+    "html_url": "https://github.com/mpSchrader/gym-sokoban",
+    "language": "Python",
+    "pushed_at": "2023-11-08T10:22:29Z",
+    "stargazers_count": 398,
+    "topics": [
+      "environment",
+      "gym",
+      "openai",
+      "python",
+      "reinforcement-learning",
+      "sokoban"
+    ],
+    "updated_at": "2026-04-19T06:15:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/boxoban-levels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment"
+    },
+    {
+      "context_snippet": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[Sokoban](https://en.wikipedia.org/wiki/Sokoban) is Japanese for warehouse keeper and a traditional video game.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sokoban"
+    }
+  ]
+}

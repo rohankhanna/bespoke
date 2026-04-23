@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "0k/shyaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "aws/aws-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "aragozin/jvm-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "alebcay/awesome-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:43.431787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Master the command line, in one page",
+    "fork": false,
+    "full_name": "jlevy/the-art-of-command-line",
+    "html_url": "https://github.com/jlevy/the-art-of-command-line",
+    "language": null,
+    "pushed_at": "2024-06-25T18:13:44Z",
+    "stargazers_count": 160756,
+    "topics": [
+      "bash",
+      "documentation",
+      "linux",
+      "macos",
+      "unix",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T20:16:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0k/shyaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alebcay/awesome-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aragozin/jvm-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    },
+    {
+      "context_snippet": "\ud83c\udf0d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

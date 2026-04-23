@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "rickstaa/top-issues-action@7e8dda5d5ae3087670f9094b9724a9a091fc3ba1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/top-issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "geekan/metagpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "anthropics/anthropic-quickstarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "metauto-ai/agent-as-a-judge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "Environment Corruption Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "PR Diff Summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "Pre-commit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/top-issues.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "rickstaa/top-issues-action@7e8dda5d5ae3087670f9094b9724a9a091fc3ba1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/top-issues.yaml",
+      "source_repo": "FoundationAgents/OpenManus",
+      "target": "Top issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:40:11.867568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8203
+    },
+    {
+      "path": "Dockerfile",
+      "size": 305
+    },
+    {
+      "path": "requirements.txt",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/build-package.yaml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/environment-corrupt-check.yaml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/pr-autodiff.yaml",
+      "size": 5288
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/top-issues.yaml",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "No fortress, purely open ground.  OpenManus is Coming.",
+    "fork": false,
+    "full_name": "FoundationAgents/OpenManus",
+    "html_url": "https://github.com/FoundationAgents/OpenManus",
+    "language": "Python",
+    "pushed_at": "2026-02-11T13:48:00Z",
+    "stargazers_count": 55885,
+    "topics": [],
+    "updated_at": "2026-04-23T18:28:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/anthropic-quickstarts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekan/metagpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metauto-ai/agent-as-a-judge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Environment Corruption Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/environment-corrupt-check.yaml",
+      "term": "Environment Corruption Check"
+    },
+    {
+      "context_snippet": "PR Diff Summarization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "term": "PR Diff Summarization"
+    },
+    {
+      "context_snippet": "Pre-commit checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "Pre-commit checks"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Top issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/top-issues.yaml",
+      "term": "Top issues"
+    }
+  ]
+}

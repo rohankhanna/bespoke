@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Security check - Bandit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Apply black reformatting to Python files only in regions changed since a given commit. For a practical usage example, see the blog post at https://dev.to/akaihola/improving-python-code-incrementally-3f7a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Security check - Bandit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate",
+      "text": "Security check - Bandit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26044,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26026,
+      "status": "candidate",
+      "text": "unscreened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25952,
+      "status": "candidate",
+      "text": "sweep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20614,
+      "status": "candidate",
+      "text": "haul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20614,
+      "status": "candidate",
+      "text": "loot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Security check - Bandit",
+  "concept_id": "security-check---bandit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "akaihola/darker"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security check - Bandit",
+      "sense_id": "security-check---bandit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

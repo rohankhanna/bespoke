@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:21:39.252546+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "tinycrypt is a library of cryptographic algorithms with a focus on small, simple implementation.",
+    "fork": false,
+    "full_name": "intel/tinycrypt",
+    "html_url": "https://github.com/intel/tinycrypt",
+    "language": "C",
+    "pushed_at": "2024-03-05T15:37:08Z",
+    "stargazers_count": 513,
+    "topics": [],
+    "updated_at": "2026-04-21T07:51:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

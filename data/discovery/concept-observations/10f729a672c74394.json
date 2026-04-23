@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repo contains the code for \"VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\" [ICLR 2025]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936492,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39906876,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966954,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963094,
+      "status": "candidate",
+      "text": "inlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962561,
+      "status": "candidate",
+      "text": "packing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedding",
+      "sense_id": "embedding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embedding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embedding",
+  "observation_id": "10f729a672c74394",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "embedding",
+  "source_context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+  "source_file": null,
+  "source_repo": "TIGER-AI-Lab/VLM2Vec",
+  "source_repo_description": "This repo contains the code for \"VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\" [ICLR 2025]"
+}

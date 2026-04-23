@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/kohya-trainer",
+      "target": "linaqruf/sd-notebook-collection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/kohya-trainer",
+      "target": "ddpn08/kohya-sd-scripts-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/kohya-trainer",
+      "target": "camenduru/stable-diffusion-webui-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaqruf/kohya-trainer",
+      "target": "anapnoe/stable-diffusion-webui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:31.171599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37229
+    },
+    {
+      "path": "requirements.txt",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Adapted from https://note.com/kohya_ss/n/nbf7ce8d80f29 for easier cloning",
+    "fork": false,
+    "full_name": "Linaqruf/kohya-trainer",
+    "html_url": "https://github.com/Linaqruf/kohya-trainer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-14T06:25:38Z",
+    "stargazers_count": 1911,
+    "topics": [],
+    "updated_at": "2026-04-20T00:45:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anapnoe/stable-diffusion-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/stable-diffusion-webui-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ddpn08/kohya-sd-scripts-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linaqruf/sd-notebook-collection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

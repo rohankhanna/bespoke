@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x2E/fusion",
+      "target": "mmcdole/gofeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x2E/fusion",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2E/fusion",
+      "target": "rss-aggregator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2E/fusion",
+      "target": "rss-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x2E/fusion",
+      "target": "self-hosted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:00.307027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4322
+    },
+    {
+      "path": "Dockerfile",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3264
+    },
+    {
+      "path": ".github/workflows/frontend.yml",
+      "size": 963
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, self-hosted friendly RSS reader",
+    "fork": false,
+    "full_name": "0x2E/fusion",
+    "html_url": "https://github.com/0x2E/fusion",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T10:07:37Z",
+    "stargazers_count": 2058,
+    "topics": [
+      "rss",
+      "rss-aggregator",
+      "rss-reader",
+      "self-hosted"
+    ],
+    "updated_at": "2026-04-23T14:29:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmcdole/gofeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yml",
+      "term": "frontend"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Fusion</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss-aggregator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Fusion</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss-reader"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Fusion</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    }
+  ]
+}

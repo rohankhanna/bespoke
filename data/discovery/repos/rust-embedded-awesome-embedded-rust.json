@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml"
+    },
+    {
+      "component": "super-linter/super-linter@v8.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "akavel/rumbac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "agalakhov/usbd-hid-device",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "adntio/crispy-bootloader-rp2040-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "ah-/anne-key",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "super-linter/super-linter@v8.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:40:24.350139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 148356
+    },
+    {
+      "path": ".github/workflows/Linting.yml",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Curated list of resources for Embedded and Low-level development in the Rust programming language",
+    "fork": false,
+    "full_name": "rust-embedded/awesome-embedded-rust",
+    "html_url": "https://github.com/rust-embedded/awesome-embedded-rust",
+    "language": null,
+    "pushed_at": "2026-04-22T02:59:34Z",
+    "stargazers_count": 7820,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "embedded",
+      "embedded-systems",
+      "libraries",
+      "rust"
+    ],
+    "updated_at": "2026-04-23T00:18:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adntio/crispy-bootloader-rp2040-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agalakhov/usbd-hid-device",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ah-/anne-key",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akavel/rumbac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libraries"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

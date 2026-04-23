@@ -19,6 +19,42 @@
       "source_repo": "alecthomas/chroma",
       "status": "candidate-context",
       "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate-context",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "alecthomas/chroma",
       "status": "candidate",
       "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "worlpaker/go-syntax",
+      "status": "candidate",
+      "text": "Rich Syntax Highlighting for [Go](https://go.dev/) language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +138,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "worlpaker/go-syntax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/riff"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

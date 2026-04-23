@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-hsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-mumps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "coin-or-tools/thirdparty-asl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Ipopt",
+      "target": "idaes/idaes-ext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:36.989082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable/3.14",
+    "description": "COIN-OR Interior Point Optimizer IPOPT",
+    "fork": false,
+    "full_name": "coin-or/Ipopt",
+    "html_url": "https://github.com/coin-or/Ipopt",
+    "language": "C++",
+    "pushed_at": "2026-03-06T08:54:06Z",
+    "stargazers_count": 1742,
+    "topics": [],
+    "updated_at": "2026-04-23T15:34:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or-tools/thirdparty-asl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or-tools/thirdparty-hsl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or-tools/thirdparty-mumps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idaes/idaes-ext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

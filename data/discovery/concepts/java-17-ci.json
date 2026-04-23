@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Java 17 CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Java 17 CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate",
+      "text": "Java 17 CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13871,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13871,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13871,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13871,
+      "status": "candidate",
+      "text": "tasse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13871,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Java 17 CI",
+  "concept_id": "java-17-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java 17 CI",
+      "sense_id": "java-17-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

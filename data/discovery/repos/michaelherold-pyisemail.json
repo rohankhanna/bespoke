@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "michaelherold/pyIsEmail",
+      "target": "dominicsayers/isemail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "michaelherold/pyIsEmail",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "michaelherold/pyIsEmail",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michaelherold/pyIsEmail",
+      "target": "email-validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michaelherold/pyIsEmail",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:45:29.276984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4588
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2924
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple, robust email validation",
+    "fork": false,
+    "full_name": "michaelherold/pyIsEmail",
+    "html_url": "https://github.com/michaelherold/pyIsEmail",
+    "language": "Python",
+    "pushed_at": "2022-10-25T03:06:09Z",
+    "stargazers_count": 134,
+    "topics": [
+      "email-validation",
+      "hacktoberfest",
+      "python"
+    ],
+    "updated_at": "2026-04-07T13:48:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominicsayers/isemail",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pyIsEmail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email-validation"
+    },
+    {
+      "context_snippet": "pyIsEmail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

@@ -382,6 +382,246 @@
       "source_repo": "peggyrayzis/react-native-create-bridge",
       "status": "candidate-context",
       "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate-context",
+      "text": "Java implementation of Content Identifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate-context",
+      "text": "ConnectBot's SSH library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "A better compressed bitset in Java: used by Apache Spark, Netflix Atlas, Apache Pinot, Tablesaw, and many others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate-context",
+      "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "Native Operating System and Hardware Information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate-context",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "Apache Cordova Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Java Language Support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate-context",
+      "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "A JSON-LD 1.1  (JSON-based Serialization for Linked Data) Processor & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate-context",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "TornadoVM: A practical and efficient heterogeneous programming framework for managed languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "ChatGPT Java SDK\u3002\u652f\u6301 GPT-4o\u3001 GPT-5 API\u3002\u5f00\u7bb1\u5373\u7528\u3002An unofficial Java SDK for seamless integration with ChatGPT's GPT-5 and GPT-4 APIs. Ready-to-use, simple setup, and efficient for building AI-powered applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate-context",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/google-java-format",
+      "status": "candidate-context",
+      "text": "Reformats Java source code to comply with Google Java Style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/google-java-format",
+      "status": "candidate-context",
+      "text": "`google-java-format` is a program that reformats Java source code to comply with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "Soot - A Java optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
     }
   ],
   "candidate_glosses": [
@@ -570,6 +810,126 @@
       "source_repo": "peggyrayzis/react-native-create-bridge",
       "status": "candidate",
       "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/sshlib",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/RoaringBitmap",
+      "status": "candidate",
+      "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oshi/oshi",
+      "status": "candidate",
+      "text": "![OSHI](https://dl.dropboxusercontent.com/s/c82qboyvvudpvdp/oshilogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-android",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate",
+      "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-json-ld",
+      "status": "candidate",
+      "text": "An implementation of the [JSON-LD 1.1](https://www.w3.org/TR/json-ld/) (JSON-based Serialization for Linked Data) specification in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-java",
+      "status": "candidate",
+      "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/google-java-format",
+      "status": "candidate",
+      "text": "`google-java-format` is a program that reformats Java source code to comply with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -825,11 +1185,161 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "peggyrayzis/react-native-create-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipld/java-cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectbot/sshlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oshi/oshi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/google-java-format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "soot-oss/soot"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

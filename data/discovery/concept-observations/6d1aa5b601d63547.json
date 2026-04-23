@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultralytics Docs https://docs.ultralytics.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Submit Sitemaps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Submit Sitemaps"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "antisitemap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "chaotic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "disorganized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "nonsitemap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "abide"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submit Sitemaps",
+      "sense_id": "submit-sitemaps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "submit-sitemaps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "submit-sitemaps",
+  "observation_id": "6d1aa5b601d63547",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Submit Sitemaps",
+  "source_context_snippet": "Submit Sitemaps",
+  "source_file": ".github/workflows/sitemaps.yml",
+  "source_repo": "ultralytics/docs",
+  "source_repo_description": "Ultralytics Docs https://docs.ultralytics.com"
+}

@@ -411,6 +411,66 @@
       "source_repo": "fabio42/sasqwatch",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "Flat file markdown blogging system with filesystem watch and extended markdown support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate-context",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "A base16 builder written in go, focused on convenience for template maintainers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apptainer/sif",
+      "status": "candidate-context",
+      "text": "Singularity Image Format (SIF) reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/sif",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "Optimized Go Compression Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate-context",
+      "text": "Goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -605,6 +665,36 @@
       "source_repo": "fabio42/sasqwatch",
       "status": "candidate",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/smallblog",
+      "status": "candidate",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/sif",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gin-gonic/gin",
+      "status": "candidate",
+      "text": "Goreleaser"
     }
   ],
   "candidate_related_terms": [],
@@ -840,11 +930,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/goreleaser.yml",
       "source_repo": "fabio42/sasqwatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "depado/smallblog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "apptainer/sif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/compress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gin-gonic/gin"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

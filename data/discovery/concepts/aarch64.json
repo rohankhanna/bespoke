@@ -43,6 +43,30 @@
       "source_repo": "ARM-software/ComputeLibrary",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ARM-software/ComputeLibrary",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
     }
   ],
   "candidate_related_terms": [
@@ -117,11 +153,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ARM-software/ComputeLibrary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

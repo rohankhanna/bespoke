@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "nkubala/structure-test-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yaml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yaml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "imjasonh/setup-crane@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "PR unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleContainerTools/container-structure-test",
+      "target": "Create Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:03:17.375233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17774
+    },
+    {
+      "path": "Dockerfile",
+      "size": 118
+    },
+    {
+      "path": "go.mod",
+      "size": 2405
+    },
+    {
+      "path": ".github/workflows/bazel.yaml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 1139
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "validate the structure of your container images",
+    "fork": false,
+    "full_name": "GoogleContainerTools/container-structure-test",
+    "html_url": "https://github.com/GoogleContainerTools/container-structure-test",
+    "language": "Go",
+    "pushed_at": "2026-04-15T19:06:22Z",
+    "stargazers_count": 2471,
+    "topics": [],
+    "updated_at": "2026-04-23T20:50:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nkubala/structure-test-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yaml",
+      "term": "Bazel"
+    },
+    {
+      "context_snippet": "PR unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "PR unit tests"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    }
+  ]
+}

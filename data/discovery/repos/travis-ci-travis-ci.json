@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-ci",
+      "target": "travis-ci/travis-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-ci",
+      "target": "travis-ci/travis-cookbooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-ci",
+      "target": "travis-ci/travis-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-ci",
+      "target": "travis-ci/travis-listener",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:06.592819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Free continuous integration platform for GitHub projects.",
+    "fork": false,
+    "full_name": "travis-ci/travis-ci",
+    "html_url": "https://github.com/travis-ci/travis-ci",
+    "language": null,
+    "pushed_at": "2024-06-04T20:25:10Z",
+    "stargazers_count": 8486,
+    "topics": [],
+    "updated_at": "2026-04-23T04:39:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-cookbooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-listener",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

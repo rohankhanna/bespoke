@@ -235,6 +235,90 @@
       "source_repo": "exaloop/codon",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "Halide is a programming language designed to make it easier to write"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "An extremely fast bundler for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +435,48 @@
       "source_repo": "exaloop/codon",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "Halide is a programming language designed to make it easier to write"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanw/esbuild",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_related_terms": [
@@ -529,11 +655,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "exaloop/codon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "evanw/esbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "markedjs/marked"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

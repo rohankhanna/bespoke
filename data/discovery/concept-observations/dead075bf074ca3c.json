@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "dollar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "krone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Browser-Testing Dependencies (Selenium & Playwright)",
+      "sense_id": "update-browser-testing-dependencies-selenium-playwright#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-browser-testing-dependencies-selenium-playwright",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-browser-testing-dependencies-selenium-playwright",
+  "observation_id": "dead075bf074ca3c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update Browser-Testing Dependencies (Selenium & Playwright)",
+  "source_context_snippet": "\"Update Browser-Testing Dependencies (Selenium & Playwright)\"",
+  "source_file": ".github/workflows/browsertesting-deps-update.lock.yml",
+  "source_repo": "dotnet/aspnetcore",
+  "source_repo_description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+}

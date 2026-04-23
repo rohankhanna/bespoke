@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "akheron/jansson",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "akheron/jansson",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "akheron/jansson",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "akheron/jansson",
+      "target": "oss-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "akheron/jansson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "akheron/jansson",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akheron/jansson",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:00:51.643642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C library for encoding, decoding and manipulating JSON data",
+    "fork": false,
+    "full_name": "akheron/jansson",
+    "html_url": "https://github.com/akheron/jansson",
+    "language": "C",
+    "pushed_at": "2026-03-01T16:43:13Z",
+    "stargazers_count": 3326,
+    "topics": [
+      "c",
+      "json"
+    ],
+    "updated_at": "2026-04-23T14:46:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "oss-fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "oss-fuzz"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Jansson README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deployment Prep"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "Deployment Prep"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate",
+      "text": "Deployment Prep"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11522,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "emplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "expansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "published"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deployment Prep",
+  "concept_id": "deployment-prep",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-prep.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deployment Prep",
+      "sense_id": "deployment-prep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

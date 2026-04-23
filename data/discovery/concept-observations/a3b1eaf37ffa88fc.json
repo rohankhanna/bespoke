@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "API Baseline Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "API Baseline Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24749,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "filming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "microfilm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24231,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24189,
+      "status": "candidate",
+      "text": "command"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Baseline Check",
+      "sense_id": "api-baseline-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "api-baseline-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "api-baseline-check",
+  "observation_id": "a3b1eaf37ffa88fc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "API Baseline Check",
+  "source_context_snippet": "API Baseline Check",
+  "source_file": ".github/workflows/api-baseline-check.yml",
+  "source_repo": "esp-rs/esp-hal",
+  "source_repo_description": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+}

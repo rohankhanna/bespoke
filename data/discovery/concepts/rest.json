@@ -79,6 +79,54 @@
       "source_repo": "OAI/OpenAPI-Specification",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "OAI/OpenAPI-Specification",
       "status": "candidate",
       "text": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +304,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "OAI/OpenAPI-Specification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "httpie/cli"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

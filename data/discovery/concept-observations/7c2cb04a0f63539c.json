@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Speed up your Git workflow. :tropical_fish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946736,
+      "status": "candidate",
+      "text": "keystrokes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946735,
+      "status": "candidate",
+      "text": "keystroke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946734,
+      "status": "candidate",
+      "text": "binds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946733,
+      "status": "candidate",
+      "text": "keyboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946732,
+      "status": "candidate",
+      "text": "hotkey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keybindings",
+      "sense_id": "keybindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keybindings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keybindings",
+  "observation_id": "7c2cb04a0f63539c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "keybindings",
+  "source_context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+  "source_file": null,
+  "source_repo": "joseluisq/gitnow",
+  "source_repo_description": "Speed up your Git workflow. :tropical_fish:"
+}

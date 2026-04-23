@@ -84,7 +84,7 @@
   "normalized_form": "scan-dependencies-for-vulnerabilities-with-pip-audit",
   "observation_id": "5a5f197ac2399d35",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Scan dependencies for vulnerabilities with pip-audit",
   "source_context_snippet": "Scan dependencies for vulnerabilities with pip-audit",
   "source_file": ".github/workflows/pip-audit.yml",

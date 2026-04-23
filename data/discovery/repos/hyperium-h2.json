@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-minimal-versions",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperium/h2",
+      "target": "summerwind/h2spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2",
+      "target": "taiki-e/install-action@cargo-minimal-versions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperium/h2",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperium/h2",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperium/h2",
+      "target": "tokio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:11:00.226826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1309
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2083
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP 2.0 client & server implementation for Rust.",
+    "fork": false,
+    "full_name": "hyperium/h2",
+    "html_url": "https://github.com/hyperium/h2",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T15:50:02Z",
+    "stargazers_count": 1509,
+    "topics": [
+      "http2",
+      "rust",
+      "tokio"
+    ],
+    "updated_at": "2026-04-14T20:58:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "summerwind/h2spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Tokio aware, HTTP/2 client & server implementation for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "A Tokio aware, HTTP/2 client & server implementation for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A Tokio aware, HTTP/2 client & server implementation for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokio"
+    }
+  ]
+}

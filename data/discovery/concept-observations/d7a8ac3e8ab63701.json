@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a simple commandline flasher for Arduino Nano 33 BLE / Sense boards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sam-ba",
+      "sense_id": "sam-ba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sam-ba",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sam-ba",
+  "observation_id": "d7a8ac3e8ab63701",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sam-ba",
+  "source_context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+  "source_file": null,
+  "source_repo": "akavel/rumbac",
+  "source_repo_description": "a simple commandline flasher for Arduino Nano 33 BLE / Sense boards"
+}

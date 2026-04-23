@@ -84,7 +84,7 @@
   "normalized_form": "automated-maintenance-v1",
   "observation_id": "404e9060b4762129",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "Automated Maintenance v1",
   "source_context_snippet": "Automated Maintenance v1",
   "source_file": ".github/workflows/maintenance-v1.yaml",

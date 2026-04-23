@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "amalgamation demos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "amalgamation demos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "amalgamation demos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12126,
+      "status": "candidate",
+      "text": "combination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "angle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "balkans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "bloc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "bowl"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "amalgamation demos",
+  "concept_id": "amalgamation-demos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/amalgamation_demos.yml",
+      "source_repo": "simdutf/simdutf"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "amalgamation demos",
+      "sense_id": "amalgamation-demos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -32,6 +32,30 @@
       "source_repo": "ethpandaops/optimism-package",
       "status": "candidate-context",
       "text": "Check PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "A tool for creating technical documents and web standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
+      "status": "candidate-context",
+      "text": "Check PR title"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speced/respec",
       "status": "candidate",
       "text": "Check PR title"
     }
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/conventional-pr-title-checker.yml",
       "source_repo": "ethpandaops/optimism-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "speced/respec"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

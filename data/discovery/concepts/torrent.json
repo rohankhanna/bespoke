@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "torrent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate-context",
+      "text": "\ud83d\udd78 Simple, robust, BitTorrent DHT implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "Full-featured BitTorrent client package and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-dht",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-dht/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/anacrolix/torrent)](https://pkg.go.dev/github.com/anacrolix/torrent)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974739,
+      "status": "candidate",
+      "text": "waterspout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974655,
+      "status": "candidate",
+      "text": "flood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966548,
+      "status": "candidate",
+      "text": "deluge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961766,
+      "status": "candidate",
+      "text": "cloudburst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959521,
+      "status": "candidate",
+      "text": "downpour"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14033,
+      "status": "candidate",
+      "text": "downpour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13068,
+      "status": "candidate",
+      "text": "flood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8029,
+      "status": "candidate",
+      "text": "cloudburst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "waterspout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "soaker"
+    }
+  ],
+  "canonical_name": "torrent",
+  "concept_id": "torrent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-dht"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/torrent"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torrent",
+      "sense_id": "torrent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen3-VL-Embedding",
+      "target": "tiger-ai-lab/vlm2vec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:39:57.123640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22320
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "QwenLM/Qwen3-VL-Embedding",
+    "html_url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+    "language": "Python",
+    "pushed_at": "2026-04-08T05:01:00Z",
+    "stargazers_count": 1198,
+    "topics": [],
+    "updated_at": "2026-04-23T03:34:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiger-ai-lab/vlm2vec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

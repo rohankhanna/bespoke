@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@v1",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -377,6 +377,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-task-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "espeak-ng/espeak-ng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-general.yml",
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-label.yaml",
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Boulaouaney/timmx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin"
     }
   ]
 }

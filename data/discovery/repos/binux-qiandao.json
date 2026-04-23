@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binux/qiandao",
+      "target": "qiandao-today/qiandao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "binux/qiandao",
+      "target": "acgotaku/getcookies",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:03:50.399457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1449
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u7b7e\u5230",
+    "fork": false,
+    "full_name": "binux/qiandao",
+    "html_url": "https://github.com/binux/qiandao",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-24T22:51:49Z",
+    "stargazers_count": 3447,
+    "topics": [],
+    "updated_at": "2026-04-21T08:40:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acgotaku/getcookies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiandao-today/qiandao",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

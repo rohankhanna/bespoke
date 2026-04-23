@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/diffusion",
+      "target": "mosaicml/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "mosaicml/diffusion",
+      "target": "pytorch/vision",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:06.452905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7972
+    },
+    {
+      "path": "Dockerfile",
+      "size": 681
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 34336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mosaicml/diffusion",
+    "html_url": "https://github.com/mosaicml/diffusion",
+    "language": "Python",
+    "pushed_at": "2026-04-08T07:11:41Z",
+    "stargazers_count": 719,
+    "topics": [],
+    "updated_at": "2026-03-25T20:07:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/vision",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

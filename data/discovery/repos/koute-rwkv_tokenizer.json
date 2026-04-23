@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:11:40.195566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 503
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "koute/rwkv_tokenizer",
+    "html_url": "https://github.com/koute/rwkv_tokenizer",
+    "language": "Python",
+    "pushed_at": "2023-05-01T13:06:42Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-01-11T08:32:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

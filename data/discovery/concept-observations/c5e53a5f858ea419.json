@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Source Release Draft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Source Release Draft"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43473,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43306,
+      "status": "candidate",
+      "text": "keg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27888,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27801,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27766,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Source Release Draft",
+      "sense_id": "build-source-release-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-source-release-draft",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-source-release-draft",
+  "observation_id": "c5e53a5f858ea419",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build Source Release Draft",
+  "source_context_snippet": "Build Source Release Draft",
+  "source_file": ".github/workflows/source-release-draft.yml",
+  "source_repo": "apache/casbin",
+  "source_repo_description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC."
+}

@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-file-contents.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copybara-pr-handler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-python",
+      "target": "google/adk-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-python",
+      "target": "google-a2a/a2a",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-python",
+      "target": "a2aproject/a2a-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-python",
+      "target": "google/adk-python-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "source_repo": "google/adk-python",
+      "target": "webfactory/ssh-agent@v0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-file-contents.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-file-contents.yml",
+      "source_repo": "google/adk-python",
+      "target": "Check file contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copybara-pr-handler.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copybara-pr-handler.yml",
+      "source_repo": "google/adk-python",
+      "target": "Copybara PR Handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_answering.yml",
+      "source_repo": "google/adk-python",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discussion_answering.yml",
+      "source_repo": "google/adk-python",
+      "target": "ADK Answering Agent for Discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "google/adk-python",
+      "target": "Check sorting of imports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-monitor.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-monitor.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-monitor.yml",
+      "source_repo": "google/adk-python",
+      "target": "ADK Issue Monitoring Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "source_repo": "google/adk-python",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "source_repo": "google/adk-python",
+      "target": "Mypy New Error Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "google/adk-python",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "google/adk-python",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "google/adk-python",
+      "target": "Mypy Type Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "agents-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "aiagentframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "genai-chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "multi-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-python",
+      "target": "multi-agents-collaboration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:13.839723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8302
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9640
+    },
+    {
+      "path": ".github/workflows/analyze-releases-for-adk-docs-updates.yml",
+      "size": 2521
+    },
+    {
+      "path": ".github/workflows/check-file-contents.yml",
+      "size": 5045
+    },
+    {
+      "path": ".github/workflows/copybara-pr-handler.yml",
+      "size": 4780
+    },
+    {
+      "path": ".github/workflows/discussion_answering.yml",
+      "size": 1864
+    },
+    {
+      "path": ".github/workflows/isort.yml",
+      "size": 2006
+    },
+    {
+      "path": ".github/workflows/issue-monitor.yml",
+      "size": 1920
+    },
+    {
+      "path": ".github/workflows/mypy-new-errors.yml",
+      "size": 2317
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "fork": false,
+    "full_name": "google/adk-python",
+    "html_url": "https://github.com/google/adk-python",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:25:35Z",
+    "stargazers_count": 19219,
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "agents-sdk",
+      "ai",
+      "ai-agents",
+      "aiagentframework",
+      "genai",
+      "genai-chatbot",
+      "llm",
+      "llms",
+      "multi-agent",
+      "multi-agent-systems",
+      "multi-agents",
+      "multi-agents-collaboration"
+    ],
+    "updated_at": "2026-04-23T21:25:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2aproject/a2a-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-a2a/a2a",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-python-community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check file contents\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-file-contents.yml",
+      "term": "Check file contents"
+    },
+    {
+      "context_snippet": "Copybara PR Handler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copybara-pr-handler.yml",
+      "term": "Copybara PR Handler"
+    },
+    {
+      "context_snippet": "ADK Answering Agent for Discussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discussion_answering.yml",
+      "term": "ADK Answering Agent for Discussions"
+    },
+    {
+      "context_snippet": "Check sorting of imports",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort.yml",
+      "term": "Check sorting of imports"
+    },
+    {
+      "context_snippet": "ADK Issue Monitoring Agent",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-monitor.yml",
+      "term": "ADK Issue Monitoring Agent"
+    },
+    {
+      "context_snippet": "Mypy New Error Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy-new-errors.yml",
+      "term": "Mypy New Error Check"
+    },
+    {
+      "context_snippet": "Mypy Type Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Mypy Type Check"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agents-sdk"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiagentframework"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai-chatbot"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents-collaboration"
+    }
+  ]
+}

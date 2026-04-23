@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Task Absolute Paths"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate-context",
+      "text": "Check Task Absolute Paths"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/terminal-bench",
+      "status": "candidate",
+      "text": "Check Task Absolute Paths"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33472,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33472,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28745,
+      "status": "candidate",
+      "text": "guided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28452,
+      "status": "candidate",
+      "text": "monopoly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28447,
+      "status": "candidate",
+      "text": "ownership"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Task Absolute Paths",
+  "concept_id": "check-task-absolute-paths",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Task Absolute Paths",
+      "sense_id": "check-task-absolute-paths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

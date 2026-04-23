@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009751,
+      "status": "candidate",
+      "text": "dynamical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008507,
+      "status": "candidate",
+      "text": "ever-changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006122,
+      "status": "candidate",
+      "text": "changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999256,
+      "status": "candidate",
+      "text": "self-propelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998164,
+      "status": "candidate",
+      "text": "self-propelled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic",
+      "sense_id": "dynamic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "impulsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "kinetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13027,
+      "status": "candidate",
+      "text": "renascent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "resurgent"
+    }
+  ],
+  "concept_id": "dynamic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dynamic",
+  "observation_id": "81ec7379aaedc4ac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "dynamic",
+  "source_context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+  "source_file": null,
+  "source_repo": "anuraghazra/github-readme-stats",
+  "source_repo_description": ":zap: Dynamically generated stats for your github readmes"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "bazel-contrib/rules_distroless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_img"
     }
   ],
   "term": "Publish to BCR"

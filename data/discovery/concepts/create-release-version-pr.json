@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Release Version PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "Create Release Version PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "Create Release Version PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32934,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32934,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29433,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27035,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26652,
+      "status": "candidate",
+      "text": "beta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Release Version PR",
+  "concept_id": "create-release-version-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-version-pr.yml",
+      "source_repo": "yeoman/yo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Release Version PR",
+      "sense_id": "create-release-version-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

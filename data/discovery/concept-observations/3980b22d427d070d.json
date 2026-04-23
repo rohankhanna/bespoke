@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933229,
+      "status": "candidate",
+      "text": "programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957046,
+      "status": "candidate",
+      "text": "timetable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955237,
+      "status": "candidate",
+      "text": "agenda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955011,
+      "status": "candidate",
+      "text": "listing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954533,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scheduling",
+      "sense_id": "scheduling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36,
+      "status": "candidate",
+      "text": "programming"
+    }
+  ],
+  "concept_id": "scheduling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scheduling",
+  "observation_id": "3980b22d427d070d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "scheduling",
+  "source_context_snippet": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png",
+  "source_file": null,
+  "source_repo": "spotify/luigi",
+  "source_repo_description": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+}

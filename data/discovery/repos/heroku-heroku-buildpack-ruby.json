@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_ruby_version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document_ruby_version.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "Hatchet app cleaner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "buildpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "heroku-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:08:34.620223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2216
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/document_ruby_version.yml",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/hatchet_app_cleaner.yml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heroku's classic buildpack for Ruby applications.",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-ruby",
+    "html_url": "https://github.com/heroku/heroku-buildpack-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-21T22:18:58Z",
+    "stargazers_count": 787,
+    "topics": [
+      "buildpack",
+      "heroku",
+      "heroku-languages",
+      "ruby"
+    ],
+    "updated_at": "2026-04-21T22:18:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Hatchet app cleaner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "term": "Hatchet app cleaner"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildpack"
+    },
+    {
+      "context_snippet": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    },
+    {
+      "context_snippet": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

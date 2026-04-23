@@ -1,7 +1,8 @@
 {
   "aliases": [
     "docs",
-    "Docs"
+    "Docs",
+    "\ud83d\udcda Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -592,6 +593,144 @@
       "source_repo": "thanos-io/thanos",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3b1b/manim",
+      "status": "candidate-context",
+      "text": "Animation engine for explanatory math videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3b1b/manim",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Emacs :heart: Debug Adapter Protocol "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem-devtools",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate-context",
+      "text": "Documentation for ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate-context",
+      "text": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "Declarative routing for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "Ultralytics Docs https://docs.ultralytics.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate-context",
+      "text": "kmeans using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of kmeans for utilizing GPU"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate-context",
+      "text": "Secure key generation for deposits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "sphinx builder that outputs jekyll compatible markdown files with frontmatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
     }
   ],
   "candidate_glosses": [
@@ -882,6 +1021,78 @@
       "source_repo": "thanos-io/thanos",
       "status": "candidate",
       "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3b1b/manim",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/dap-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diem/diem-devtools",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/AspNetCore.Docs",
+      "status": "candidate",
+      "text": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-java",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remix-run/react-router",
+      "status": "candidate",
+      "text": "\ud83d\udcda Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subhadarship/kmeans_pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of kmeans for utilizing GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethstaker/ethstaker-deposit-cli",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry-docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-jekyll-builder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
     }
   ],
   "candidate_related_terms": [
@@ -912,6 +1123,41 @@
       "score": 20048789,
       "status": "candidate",
       "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "hmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "mds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "med"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "gpo"
     }
   ],
   "candidate_synonyms": [],
@@ -1254,11 +1500,107 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "thanos-io/thanos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "3b1b/manim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "diem/diem-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "remix-run/react-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "subhadarship/kmeans_pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ethstaker/ethstaker-deposit-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

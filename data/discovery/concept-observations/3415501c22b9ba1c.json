@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "3415501c22b9ba1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)",
+  "source_file": null,
+  "source_repo": "raviqqe/muffet",
+  "source_repo_description": "Fast website link checker in Go"
+}

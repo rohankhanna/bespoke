@@ -205,6 +205,30 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "DAMO-ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate-context",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -303,6 +327,18 @@
       "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI",
+      "status": "candidate",
+      "text": "[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 \"Get your own page views count badge on badges.toozhao.com\") ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +448,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/DAMO-ConvAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

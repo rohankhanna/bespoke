@@ -259,6 +259,18 @@
       "source_repo": "FabioAntunes/base16-fish-shell",
       "status": "candidate-context",
       "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "FabioAntunes/base16-fish-shell",
       "status": "candidate",
       "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +610,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "FabioAntunes/base16-fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

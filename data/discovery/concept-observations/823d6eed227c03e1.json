@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove feedback label on comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove feedback label on comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29547,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29463,
+      "status": "candidate",
+      "text": "recede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29463,
+      "status": "candidate",
+      "text": "receding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29295,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29258,
+      "status": "candidate",
+      "text": "discharge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove feedback label on comment",
+      "sense_id": "remove-feedback-label-on-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-feedback-label-on-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-feedback-label-on-comment",
+  "observation_id": "823d6eed227c03e1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Remove feedback label on comment",
+  "source_context_snippet": "Remove feedback label on comment",
+  "source_file": ".github/workflows/feedback-update.yml",
+  "source_repo": "NVIDIA/TensorRT",
+  "source_repo_description": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+}

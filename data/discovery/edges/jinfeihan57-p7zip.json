@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "mcmilk/zstdmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "jinfeihan57/p7zip_test_utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "lz4/lz4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "inikep/lz5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "p7zip-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "macos-p7zip-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "p7zip-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "jinfeihan57/p7zip",
+      "target": "mac-p7zip-release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "jinfeihan57/p7zip"
+}

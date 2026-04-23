@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ClusterFuzzLite fuzzing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ClusterFuzzLite fuzzing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "cop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "defuzzing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite fuzzing",
+      "sense_id": "clusterfuzzlite-fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clusterfuzzlite-fuzzing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clusterfuzzlite-fuzzing",
+  "observation_id": "39ca128644f26994",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ClusterFuzzLite fuzzing",
+  "source_context_snippet": "ClusterFuzzLite fuzzing",
+  "source_file": ".github/workflows/cflite_scheduled.yml",
+  "source_repo": "aws-powertools/powertools-lambda-python",
+  "source_repo_description": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+}

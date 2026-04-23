@@ -19,6 +19,18 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate-context",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

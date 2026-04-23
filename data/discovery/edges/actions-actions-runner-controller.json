@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-publish-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Publish ARC Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-publish.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-publish.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Publish ARC Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-release-runners.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-release-runners.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-release-runners.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Release ARC Runner Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-update-runners-scheduled.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-update-runners-scheduled.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Runner Updates Check (Scheduled Job)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Validate Helm Chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arc-validate-runners.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arc-validate-runners.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "Validate ARC Runners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-e2e-tests.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-e2e-tests.yaml",
+      "source_repo": "actions/actions-runner-controller",
+      "target": "peter-murray/workflow-application-token-action@d17e3a9a36850ea89f35db16c1067dd2b68ee343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller",
+      "target": "operator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "actions/actions-runner-controller"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Graph library for building GraphQL-based dapps in a decentralized way.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "thegraph-client-monorepo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "thegraph-client-monorepo"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thegraph",
+      "sense_id": "thegraph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "thegraph",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "thegraph",
+  "observation_id": "b667b1ec011ca56f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "thegraph",
+  "source_context_snippet": "thegraph-client-monorepo",
+  "source_file": null,
+  "source_repo": "graphprotocol/graph-client",
+  "source_repo_description": "The Graph library for building GraphQL-based dapps in a decentralized way.  "
+}

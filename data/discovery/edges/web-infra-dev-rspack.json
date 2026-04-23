@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "parcel-bundler/parcel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "jantimon/html-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "pmmmwh/react-refresh-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "aackerman/circular-dependency-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "@rslint/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "@rstest/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "@taplo/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "check-dependency-version-consistency",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "heading-case",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "is-ci",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "zx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-binding.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-binding.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-binding.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "Bench Binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-rust.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-rust.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-rust.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-rust.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "Bench Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-diff.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-diff.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "web-infra-dev/rsdoctor-action@d3a7ae073bc63dcc4a16fba339414cbf4f9c476c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-diff.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CI Diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dylint.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dylint.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CI-Dylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "crate-ci/typos@02ea592e44b3a53c302f697cddca7641cd051c3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CI-Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rust.yaml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "CI-Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rspack",
+      "target": "rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem_ci_per_commit@1345990b3128d94ee37afbb7607f9ddc9feadb49",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "bundler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "loaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "module-bundler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "rspack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "rstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "web-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "web-infra-dev/rspack"
+}

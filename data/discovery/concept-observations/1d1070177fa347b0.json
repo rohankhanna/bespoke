@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e\u6807\u8d1d\u6570\u636e\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u672c\u7684FastSpeech2\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941113,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924738,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915879,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911820,
+      "status": "candidate",
+      "text": "talking to"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39888750,
+      "status": "candidate",
+      "text": "delivery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech",
+      "sense_id": "speech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43060,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8070,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6063,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "concept_id": "speech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech",
+  "observation_id": "1d1070177fa347b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "speech",
+  "source_context_snippet": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f",
+  "source_file": null,
+  "source_repo": "Executedone/Chinese-FastSpeech2",
+  "source_repo_description": "\u57fa\u4e8e\u6807\u8d1d\u6570\u636e\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u672c\u7684FastSpeech2\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+}

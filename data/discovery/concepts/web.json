@@ -43,6 +43,18 @@
       "source_repo": "axodotdev/axolotlsay",
       "status": "candidate-context",
       "text": "Web"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgeos/geos",
+      "status": "candidate-context",
+      "text": "Geometry Engine, Open Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgeos/geos",
+      "status": "candidate-context",
+      "text": "'Web'"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "axodotdev/axolotlsay",
       "status": "candidate",
       "text": "Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgeos/geos",
+      "status": "candidate",
+      "text": "'Web'"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/web.yml",
       "source_repo": "axodotdev/axolotlsay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "libgeos/geos"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

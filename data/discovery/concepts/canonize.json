@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "canonize"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "Deterministic JSON serialization and canonical equality. RFC 8785 JCS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate-context",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/titanium-jcs",
+      "status": "candidate",
+      "text": "[![Java 21 CI](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml/badge.svg)](https://github.com/filip26/titanium-jcs/actions/workflows/java21-build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049083,
+      "status": "candidate",
+      "text": "saint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976685,
+      "status": "candidate",
+      "text": "beatify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049270,
+      "status": "candidate",
+      "text": "recanonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049269,
+      "status": "candidate",
+      "text": "canonise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049268,
+      "status": "candidate",
+      "text": "consecrate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5054,
+      "status": "candidate",
+      "text": "saint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "beatify"
+    }
+  ],
+  "canonical_name": "canonize",
+  "concept_id": "canonize",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/titanium-jcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canonize",
+      "sense_id": "canonize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

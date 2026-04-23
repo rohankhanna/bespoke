@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Prettier Smoke Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "\"Prettier Smoke Test\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "\"Prettier Smoke Test\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23349,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22389,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22389,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22359,
+      "status": "candidate",
+      "text": "aim"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prettier Smoke Test",
+  "concept_id": "prettier-smoke-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/glimmer-syntax-prettier-smoke-test.yml",
+      "source_repo": "emberjs/ember.js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prettier Smoke Test",
+      "sense_id": "prettier-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

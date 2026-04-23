@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969282,
+      "status": "candidate",
+      "text": "movable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39874084,
+      "status": "candidate",
+      "text": "outboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826275,
+      "status": "candidate",
+      "text": "take-away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39822311,
+      "status": "candidate",
+      "text": "takeout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969508,
+      "status": "candidate",
+      "text": "transportable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "portable",
+      "sense_id": "portable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "takeout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "outboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "take-away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1038,
+      "status": "candidate",
+      "text": "movable"
+    }
+  ],
+  "concept_id": "portable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "portable",
+  "observation_id": "9e79e6dd1287c689",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "portable",
+  "source_context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+  "source_file": null,
+  "source_repo": "bdwgc/bdwgc",
+  "source_repo_description": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+}

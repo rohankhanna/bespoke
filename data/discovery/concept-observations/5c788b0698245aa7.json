@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Database Sharding for ActiveRecord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Database Sharding for ActiveRecord"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Database Sharding for ActiveRecord"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959412,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39865926,
+      "status": "candidate",
+      "text": "sherd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962828,
+      "status": "candidate",
+      "text": "splinter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962735,
+      "status": "candidate",
+      "text": "sliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951537,
+      "status": "candidate",
+      "text": "outburst"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sharding",
+      "sense_id": "sharding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sharding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sharding",
+  "observation_id": "5c788b0698245aa7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "sharding",
+  "source_context_snippet": "Database Sharding for ActiveRecord",
+  "source_file": null,
+  "source_repo": "thiagopradi/octopus",
+  "source_repo_description": "Database Sharding for ActiveRecord"
+}

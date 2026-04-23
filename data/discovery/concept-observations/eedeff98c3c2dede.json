@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Close inactive PRs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Close inactive PRs'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "pagoda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14308,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10430,
+      "status": "candidate",
+      "text": "inch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "classified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close inactive PRs",
+      "sense_id": "close-inactive-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-inactive-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-inactive-prs",
+  "observation_id": "eedeff98c3c2dede",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Close inactive PRs",
+  "source_context_snippet": "'Close inactive PRs'",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "vllm-project/llm-compressor",
+  "source_repo_description": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+}

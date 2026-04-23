@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Compute Node of Dria Knowledge Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rocm hotfix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rocm hotfix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "check-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "coldfix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "markup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "overhaul"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rocm hotfix",
+      "sense_id": "rocm-hotfix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rocm-hotfix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rocm-hotfix",
+  "observation_id": "faf3fd7259a75bcb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rocm hotfix",
+  "source_context_snippet": "rocm hotfix",
+  "source_file": ".github/workflows/rocm-hotfix.yml",
+  "source_repo": "firstbatchxyz/dkn-compute-node",
+  "source_repo_description": "Compute Node of Dria Knowledge Network."
+}

@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "mckaywrigley/chatbot-ui",
+      "target": "yidadaa/chatgpt-next-web",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "jina-ai/auto-gpt-web",
+      "target": "zhayujie/chatgpt-on-wechat",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:43:09.779024+00:00",
+  "fetched_at": "2026-04-23T22:07:04.537543+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,17 +76,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jina-ai/auto-gpt-web",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "logspace-ai/langflow",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mckaywrigley/chatbot-ui",
+      "full_name": "yidadaa/chatgpt-next-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhayujie/chatgpt-on-wechat",
       "source_file": "README.md"
     }
   ],

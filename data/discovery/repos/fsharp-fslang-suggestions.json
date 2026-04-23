@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:57:16.876257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The place to make suggestions, discuss and vote on F# language and core library features",
+    "fork": false,
+    "full_name": "fsharp/fslang-suggestions",
+    "html_url": "https://github.com/fsharp/fslang-suggestions",
+    "language": null,
+    "pushed_at": "2025-02-27T11:39:14Z",
+    "stargazers_count": 369,
+    "topics": [],
+    "updated_at": "2026-04-02T22:07:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

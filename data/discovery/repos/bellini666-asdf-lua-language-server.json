@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "asdf-vm/actions/plugin-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "asdf-vm/actions/install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "target": "lua-language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:42.135395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1831
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "lua-language-server plugin for the asdf version manager.",
+    "fork": false,
+    "full_name": "bellini666/asdf-lua-language-server",
+    "html_url": "https://github.com/bellini666/asdf-lua-language-server",
+    "language": "Shell",
+    "pushed_at": "2023-03-12T21:33:59Z",
+    "stargazers_count": 9,
+    "topics": [
+      "asdf",
+      "asdf-plugin",
+      "lua-language-server"
+    ],
+    "updated_at": "2026-01-14T14:38:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-language-server"
+    }
+  ]
+}

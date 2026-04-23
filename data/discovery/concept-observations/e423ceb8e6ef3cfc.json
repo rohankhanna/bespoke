@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An assembler, code formatter, language server and debug adapter for the MOS 6502 CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/datatrash/mos/master/docs/src/.vuepress/public/mos.png\" align=\"right\" alt=\"MOS logo\" width=\"200\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/datatrash/mos/master/docs/src/.vuepress/public/mos.png\" align=\"right\" alt=\"MOS logo\" width=\"200\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-lang",
+      "sense_id": "rust-lang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-lang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-lang",
+  "observation_id": "e423ceb8e6ef3cfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "rust-lang",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/datatrash/mos/master/docs/src/.vuepress/public/mos.png\" align=\"right\" alt=\"MOS logo\" width=\"200\">",
+  "source_file": null,
+  "source_repo": "datatrash/mos",
+  "source_repo_description": "An assembler, code formatter, language server and debug adapter for the MOS 6502 CPU."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fuzzing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fuzzing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700164,
+      "status": "candidate",
+      "text": "hair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39681038,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39649096,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39648601,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39601505,
+      "status": "candidate",
+      "text": "tomentum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fuzzing",
+      "sense_id": "fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fuzzing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzzing",
+  "observation_id": "32db690a62ca3be1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "fuzzing",
+  "source_context_snippet": "fuzzing",
+  "source_file": ".github/workflows/fuzzing.yml",
+  "source_repo": "espeak-ng/espeak-ng",
+  "source_repo_description": "eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents."
+}

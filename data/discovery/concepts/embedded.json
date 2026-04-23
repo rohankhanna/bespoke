@@ -103,6 +103,78 @@
       "source_repo": "objectbox/objectbox-go",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "Curated list of resources for Embedded and Low-level development in the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "ObjectBox Generator based on FlatBuffers schema files (fbs) for C and C++ (more languages in the future)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate-context",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "Swift database - fast, simple and lightweight (iOS, macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf JSON library for Arduino and embedded C++. Simple and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +225,42 @@
       "source_repo": "objectbox/objectbox-go",
       "status": "candidate",
       "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-generator",
+      "status": "candidate",
+      "text": "<img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bblanchon/ArduinoJson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -259,11 +367,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "objectbox/objectbox-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-hal"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

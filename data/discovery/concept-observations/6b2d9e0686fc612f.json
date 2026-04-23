@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build Graph Nets in Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "graphical record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "chart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "charts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "clouds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "curves"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphs",
+      "sense_id": "graphs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphs",
+  "observation_id": "6b2d9e0686fc612f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "graphs",
+  "source_context_snippet": "![Graph Nets DeepMind shortest path](https://github.com/deepmind/graph_nets/raw/master/images/graph-nets-deepmind-shortest-path0.gif)",
+  "source_file": null,
+  "source_repo": "google-deepmind/graph_nets",
+  "source_repo_description": "Build Graph Nets in Tensorflow"
+}

@@ -67,6 +67,30 @@
       "source_repo": "diesel-rs/diesel",
       "status": "candidate-context",
       "text": "[![diesel logo](https://diesel.rs/assets/images/diesel_logo_stacked_black.png)](https://diesel.rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Easy full stack backup operations on UNIX-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">SQLx</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "diesel-rs/diesel",
       "status": "candidate",
       "text": "[![diesel logo](https://diesel.rs/assets/images/diesel_logo_stacked_black.png)](https://diesel.rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchbadge/sqlx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">SQLx</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +214,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "launchbadge/sqlx"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

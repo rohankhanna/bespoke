@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "admiral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "refinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "strainer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "steelmaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "naphtha"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "refiner",
+      "sense_id": "refiner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "refiner",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "refiner",
+  "observation_id": "75e4bc4c0c5a6a2e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "refiner",
+  "source_context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+  "source_file": null,
+  "source_repo": "walles/riff",
+  "source_repo_description": "A syntax highter for diffs, clarifying which parts of lines have changed"
+}

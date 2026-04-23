@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Determine known CVEs through `govulncheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Determine known CVEs through `govulncheck`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "Determine known CVEs through `govulncheck`"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34179,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33779,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33779,
+      "status": "candidate",
+      "text": "naming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33708,
+      "status": "candidate",
+      "text": "will"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33592,
+      "status": "candidate",
+      "text": "reveal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Determine known CVEs through `govulncheck",
+  "concept_id": "determine-known-cves-through-govulncheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Determine known CVEs through `govulncheck",
+      "sense_id": "determine-known-cves-through-govulncheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

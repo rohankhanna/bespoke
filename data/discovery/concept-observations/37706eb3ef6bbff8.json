@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Changelog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Changelog"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "stability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "status quo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "unchanged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "constancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "amend"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Changelog",
+      "sense_id": "update-changelog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-changelog",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-changelog",
+  "observation_id": "37706eb3ef6bbff8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update Changelog",
+  "source_context_snippet": "Update Changelog",
+  "source_file": ".github/workflows/update-changelog.yml",
+  "source_repo": "cookiecutter/cookiecutter-django",
+  "source_repo_description": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+}

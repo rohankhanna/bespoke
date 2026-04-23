@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joseluisq/gitnow",
+      "target": "jamiew/git-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joseluisq/gitnow",
+      "target": "joseluisq/paket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joseluisq/gitnow",
+      "target": "joseluisq/git-cheat-sheet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joseluisq/gitnow",
+      "target": "joseluisq/git-useful-aliases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joseluisq/gitnow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joseluisq/gitnow",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "fish-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "fish-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "git-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "keybindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow",
+      "target": "semver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:12.493209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14775
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Speed up your Git workflow. :tropical_fish:",
+    "fork": false,
+    "full_name": "joseluisq/gitnow",
+    "html_url": "https://github.com/joseluisq/gitnow",
+    "language": "Shell",
+    "pushed_at": "2025-09-17T04:34:05Z",
+    "stargazers_count": 476,
+    "topics": [
+      "bitbucket",
+      "fish-packages",
+      "fish-shell",
+      "git",
+      "git-workflow",
+      "github",
+      "keybindings",
+      "semver",
+      "ssh"
+    ],
+    "updated_at": "2026-04-23T06:21:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamiew/git-friendly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseluisq/git-cheat-sheet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseluisq/git-useful-aliases",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseluisq/paket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-packages"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-shell"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-workflow"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keybindings"
+    },
+    {
+      "context_snippet": "> Speed up your Git workflow. \ud83d\udc20",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semver"
+    }
+  ]
+}

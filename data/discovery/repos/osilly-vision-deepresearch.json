@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "Osilly/Vision-DeepResearch",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:54:58.314707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13034
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multimodal deep-research MLLM and benchmark. The first long-horizon multimodal deep-research MLLM, extending the number of reasoning turns to dozens and the number of search-engine interactions to hundreds.",
+    "fork": false,
+    "full_name": "Osilly/Vision-DeepResearch",
+    "html_url": "https://github.com/Osilly/Vision-DeepResearch",
+    "language": "Python",
+    "pushed_at": "2026-03-13T16:00:23Z",
+    "stargazers_count": 619,
+    "topics": [],
+    "updated_at": "2026-04-23T07:33:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy static content to Pages"
+    }
+  ]
+}

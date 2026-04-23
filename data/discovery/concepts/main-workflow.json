@@ -43,6 +43,18 @@
       "source_repo": "starship/starship",
       "status": "candidate-context",
       "text": "Main workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocurrent/ocluster",
+      "status": "candidate-context",
+      "text": "Distribute CI builds to worker nodes over Cap'n Proto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocluster",
+      "status": "candidate-context",
+      "text": "Main workflow"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "starship/starship",
+      "status": "candidate",
+      "text": "Main workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocluster",
       "status": "candidate",
       "text": "Main workflow"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/workflow.yml",
       "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/ocluster"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

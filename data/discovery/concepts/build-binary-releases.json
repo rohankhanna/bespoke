@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build binary releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "Build binary releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "Build binary releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34233,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34233,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "busbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "groupoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "storage device"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build binary releases",
+  "concept_id": "build-binary-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build binary releases",
+      "sense_id": "build-binary-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

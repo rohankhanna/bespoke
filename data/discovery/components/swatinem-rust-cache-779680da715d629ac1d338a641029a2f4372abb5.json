@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/metrics.yml",
       "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages"
     }
   ]
 }

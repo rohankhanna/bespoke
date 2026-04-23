@@ -43,6 +43,30 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "[![Build Status][14]][13]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "apache/casbin",
       "status": "candidate",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "[![Build Status][14]][13]"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions@1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/app",
+      "target": "dwyl/product-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/app",
+      "target": "dwyl/learn-flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/app",
+      "target": "dwyl/flutter-bloc-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/app",
+      "target": "ideaq/time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app",
+      "target": "superfly/flyctl-actions@1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app",
+      "target": "Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app",
+      "target": "Deploy Web (GitHub Pages)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:26.685006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4383
+    },
+    {
+      "path": "Dockerfile",
+      "size": 110
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2424
+    },
+    {
+      "path": ".github/workflows/deploy_web.yml",
+      "size": 850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clear your mind. Organise your life. Ignore distractions. Focus on what matters.",
+    "fork": false,
+    "full_name": "dwyl/app",
+    "html_url": "https://github.com/dwyl/app",
+    "language": "Dart",
+    "pushed_at": "2024-01-03T18:52:18Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-13T18:22:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/flutter-bloc-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-flutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/product-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideaq/time",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build & Test"
+    },
+    {
+      "context_snippet": "Deploy Web (GitHub Pages)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "term": "Deploy Web (GitHub Pages)"
+    }
+  ]
+}

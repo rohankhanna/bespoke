@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lambda-functions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/mquery",
+      "status": "candidate-context",
+      "text": "Multi-platform (manifest list/OCI index) registry image query utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/mquery",
+      "status": "candidate-context",
+      "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/mquery",
+      "status": "candidate",
+      "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lambda-functions",
+  "concept_id": "lambda-functions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "estesp/mquery"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lambda-functions",
+      "sense_id": "lambda-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "siderolabs/conform@6380738b7fdfc68b208ce0674c4ac1ba314ba600",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    }
+  ]
+}

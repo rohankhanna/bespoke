@@ -19,6 +19,30 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate-context",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate-context",
+      "text": "A Spotify player in the terminal with full feature parity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/ftop",
+      "status": "candidate-context",
+      "text": "Finformative top for finding fiery processes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/ftop",
+      "status": "candidate-context",
+      "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aome510/spotify-player",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/ftop",
+      "status": "candidate",
+      "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "hpjansson/chafa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/ftop"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

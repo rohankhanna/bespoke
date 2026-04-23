@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Testbuild for Linux (aarch64)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yquake2/ref_vk",
+      "status": "candidate-context",
+      "text": "Optional Vulkan renderer lib for Yamagi Quake II"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yquake2/ref_vk",
+      "status": "candidate-context",
+      "text": "Testbuild for Linux (aarch64)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yquake2/ref_vk",
+      "status": "candidate",
+      "text": "Testbuild for Linux (aarch64)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "beatrix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Testbuild for Linux (aarch64)",
+  "concept_id": "testbuild-for-linux-aarch64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux_aarch64.yml",
+      "source_repo": "yquake2/ref_vk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Testbuild for Linux (aarch64)",
+      "sense_id": "testbuild-for-linux-aarch64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

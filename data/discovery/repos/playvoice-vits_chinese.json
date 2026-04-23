@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "maxmax2016/vits_chinese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "wenet-e2e/wetextprocessing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "tensorspeech/tensorflowtts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "wenet-e2e/wetts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "aishell3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "bert-vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "bert-vits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "naturalspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese",
+      "target": "vits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:22.210640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10058
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "bert_vits",
+    "description": "Best practice TTS based on BERT and VITS with some Natural Speech Features Of Microsoft; Support ONNX streaming out!",
+    "fork": false,
+    "full_name": "PlayVoice/vits_chinese",
+    "html_url": "https://github.com/PlayVoice/vits_chinese",
+    "language": "Python",
+    "pushed_at": "2024-02-05T03:54:40Z",
+    "stargazers_count": 1230,
+    "topics": [
+      "aishell3",
+      "bert",
+      "bert-vits",
+      "bert-vits2",
+      "naturalspeech",
+      "tts",
+      "vits"
+    ],
+    "updated_at": "2026-04-22T00:34:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxmax2016/vits_chinese",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorspeech/tensorflowtts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wetextprocessing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wetts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aishell3"
+    },
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-vits"
+    },
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-vits2"
+    },
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "naturalspeech"
+    },
+    {
+      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    }
+  ]
+}

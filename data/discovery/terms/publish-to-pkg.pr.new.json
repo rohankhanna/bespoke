@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish-to-pkg-pr-new.yml",
       "source_repo": "webpack/webpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/eslint-plugin-svelte"
     }
   ],
   "term": "Publish to pkg.pr.new"

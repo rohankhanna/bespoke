@@ -1,0 +1,641 @@
+{
+  "components": [
+    {
+      "component": "bdougie/take-action@v1.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_issue.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup-cli@v0.68.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "openvinotoolkit/openvino/.github/actions/openvino_provider@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "akashchi/download-artifact@d59a9c15fec3fdb7c9adf09464124d00f9c11415",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml"
+    },
+    {
+      "component": "akladiev/labeler@eeac5941e7fb6f980d47e038ac0665168851c874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "openvinotoolkit/openvino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "openvinotoolkit/openvino_tokenizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "bdougie/take-action@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "Take Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "github/gh-aw/actions/setup@ce1794953e0ec42adc41b6fca05e02ab49ee21c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "CI Failure Doctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "Cleanup caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "github/gh-aw/actions/setup-cli@v0.68.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "openvinotoolkit/openvino/.github/actions/openvino_provider@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "akashchi/download-artifact@d59a9c15fec3fdb7c9adf09464124d00f9c11415",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "Deploy Docs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "akladiev/labeler@eeac5941e7fb6f980d47e038ac0665168851c874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:15.093078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7027
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2575
+    },
+    {
+      "path": ".github/workflows/assign_issue.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/ci-doctor.lock.yml",
+      "size": 78428
+    },
+    {
+      "path": ".github/workflows/ci-doctor.md",
+      "size": 17073
+    },
+    {
+      "path": ".github/workflows/cleanup_caches.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 7269
+    },
+    {
+      "path": ".github/workflows/deploy_gh_pages.yml",
+      "size": 1410
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime",
+    "fork": false,
+    "full_name": "openvinotoolkit/openvino.genai",
+    "html_url": "https://github.com/openvinotoolkit/openvino.genai",
+    "language": "C++",
+    "pushed_at": "2026-04-23T16:03:32Z",
+    "stargazers_count": 494,
+    "topics": [],
+    "updated_at": "2026-04-23T16:03:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/openvino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/openvino_tokenizers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Take Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "term": "Take Issue"
+    },
+    {
+      "context_snippet": "\"CI Failure Doctor\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "term": "CI Failure Doctor"
+    },
+    {
+      "context_snippet": "Cleanup caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "term": "Cleanup caches"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Deploy Docs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_gh_pages.yml",
+      "term": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-readme",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "languages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "underscore",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "6/stopwords-json",
+      "target": "carrot2/carrot2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "6/stopwords-json",
+      "target": "vcl/cue.language",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "6/stopwords-json",
+      "target": "dohliam/more-stoplists",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "grunt-readme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "jsonlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "languages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "6/stopwords-json",
+      "target": "underscore",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:30.820758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3662
+    },
+    {
+      "path": "package.json",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stopwords for 50 languages in JSON format",
+    "fork": false,
+    "full_name": "6/stopwords-json",
+    "html_url": "https://github.com/6/stopwords-json",
+    "language": "JavaScript",
+    "pushed_at": "2023-05-04T08:13:42Z",
+    "stargazers_count": 430,
+    "topics": [],
+    "updated_at": "2026-04-02T21:40:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrot2/carrot2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dohliam/more-stoplists",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vcl/cue.language",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

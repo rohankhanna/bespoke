@@ -301,6 +301,90 @@
       "source_repo": "micromatch/micromatch",
       "status": "candidate-context",
       "text": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "create-dmg/create-dmg",
+      "status": "candidate-context",
+      "text": "A shell script to build fancy DMGs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "create-dmg/create-dmg",
+      "status": "candidate-context",
+      "text": "create-dmg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "Master the command line, in one page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d"
     }
   ],
   "candidate_glosses": [
@@ -447,6 +531,48 @@
       "source_repo": "micromatch/micromatch",
       "status": "candidate",
       "text": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "create-dmg/create-dmg",
+      "status": "candidate",
+      "text": "create-dmg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate",
+      "text": "\ud83c\udf0d"
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +832,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "create-dmg/create-dmg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

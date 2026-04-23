@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "webgpu.h - C version of the JS API, for both native and Wasm. A multi-vendor standard between Dawn/Emdawnwebgpu and wgpu-native. Designed primarily for binding into higher-level languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gen-check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gen-check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gen-check",
+      "sense_id": "gen-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gen-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gen-check",
+  "observation_id": "39cacd45d8d53aab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "gen-check",
+  "source_context_snippet": "gen-check",
+  "source_file": ".github/workflows/gen-check.yml",
+  "source_repo": "webgpu-native/webgpu-headers",
+  "source_repo_description": "webgpu.h - C version of the JS API, for both native and Wasm. A multi-vendor standard between Dawn/Emdawnwebgpu and wgpu-native. Designed primarily for binding into higher-level languages."
+}

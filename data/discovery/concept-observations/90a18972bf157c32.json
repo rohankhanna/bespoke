@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multilingual BLS12-381 signature library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eth2",
+      "sense_id": "eth2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eth2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eth2",
+  "observation_id": "90a18972bf157c32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "eth2",
+  "source_context_snippet": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026",
+  "source_file": null,
+  "source_repo": "supranational/blst",
+  "source_repo_description": "Multilingual BLS12-381 signature library"
+}

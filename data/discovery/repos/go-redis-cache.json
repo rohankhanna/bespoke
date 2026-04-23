@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-redis/cache",
+      "target": "uptrace/uptrace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-redis/cache",
+      "target": "vmihailenco/msgpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-redis/cache",
+      "target": "vmihailenco/go-tinylfu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-redis/cache",
+      "target": "vmihailenco/go-cache-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/cache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/cache",
+      "target": "go-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/cache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-redis/cache",
+      "target": "redis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:56:09.359129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3136
+    },
+    {
+      "path": "go.mod",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v9",
+    "description": "Cache library with Redis backend for Golang",
+    "fork": false,
+    "full_name": "go-redis/cache",
+    "html_url": "https://github.com/go-redis/cache",
+    "language": "Go",
+    "pushed_at": "2024-06-05T13:52:49Z",
+    "stargazers_count": 817,
+    "topics": [
+      "cache",
+      "go-redis",
+      "golang",
+      "redis"
+    ],
+    "updated_at": "2026-04-10T06:15:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uptrace/uptrace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmihailenco/go-cache-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmihailenco/go-tinylfu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmihailenco/msgpack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-redis"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/go-redis/cache.svg)](https://travis-ci.org/go-redis/cache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    }
+  ]
+}

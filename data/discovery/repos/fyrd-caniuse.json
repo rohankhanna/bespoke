@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Fyrd/caniuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Fyrd/caniuse",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Fyrd/caniuse",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:26.544700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1305
+    },
+    {
+      "path": "package.json",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Raw browser/feature support data from caniuse.com",
+    "fork": false,
+    "full_name": "Fyrd/caniuse",
+    "html_url": "https://github.com/Fyrd/caniuse",
+    "language": "JSON",
+    "pushed_at": "2026-04-22T05:28:07Z",
+    "stargazers_count": 5830,
+    "topics": [],
+    "updated_at": "2026-04-23T12:51:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

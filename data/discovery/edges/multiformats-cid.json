@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "multiformats/cid",
-      "target": "ipld/ipld",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "multiformats/cid",
       "target": "ipld/cid",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "multiformats/cid",
-      "target": "ipld/java-cid",
+      "target": "multiformats/rust-cid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "multiformats/cid",
-      "target": "multiformats/js-multiformats",
+      "target": "pinnaculum/py-multiformats-cid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/cid",
+      "target": "nocursor/ex-cid",
       "target_type": "repository"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "multiformats/cid"
 }

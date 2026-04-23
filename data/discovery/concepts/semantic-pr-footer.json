@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Semantic PR footer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate-context",
+      "text": "Semantic PR footer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate",
+      "text": "Semantic PR footer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17456,
+      "status": "candidate",
+      "text": "antonym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "cephalopod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "horsepower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9635,
+      "status": "candidate",
+      "text": "monroe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9582,
+      "status": "candidate",
+      "text": "lexeme"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Semantic PR footer",
+  "concept_id": "semantic-pr-footer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/semantic-pr-footer.yml",
+      "source_repo": "dequelabs/axe-core-npm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic PR footer",
+      "sense_id": "semantic-pr-footer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

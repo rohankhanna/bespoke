@@ -115,6 +115,42 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "Automatically find issues in image datasets and practice data-centric computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Meituan-AutoML/Twins",
+      "status": "candidate-context",
+      "text": "Two simple and effective designs of vision transformer, which is on par with the Swin transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meituan-AutoML/Twins",
+      "status": "candidate-context",
+      "text": "[![NeurIPS](https://img.shields.io/badge/NeurIPS2021-5kTlVBkzSRx-%238c1b13)](https://openreview.net/forum?id=5kTlVBkzSRx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meituan-AutoML/Twins",
+      "status": "candidate",
+      "text": "[![NeurIPS](https://img.shields.io/badge/NeurIPS2021-5kTlVBkzSRx-%238c1b13)](https://openreview.net/forum?id=5kTlVBkzSRx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Swin-Transformer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/swin-transformer-v2-scaling-up-capacity-and/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=swin-transformer-v2-scaling-up-capacity-and)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +292,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Meituan-AutoML/Twins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Swin-Transformer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

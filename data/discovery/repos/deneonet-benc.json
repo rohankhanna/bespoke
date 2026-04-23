@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deneonet/benc",
+      "target": "alecthomas/go_serialization_benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "deneonet/benc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "deneonet/benc",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "deneonet/benc",
+      "target": "golangci/golangci-lint-action@v3.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "deneonet/benc",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deneonet/benc",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deneonet/benc",
+      "target": "serializer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:16.383735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1206
+    },
+    {
+      "path": "go.mod",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benc is the fastest serializer in pure Golang supporting code generation and forward/backward compatibility.",
+    "fork": false,
+    "full_name": "deneonet/benc",
+    "html_url": "https://github.com/deneonet/benc",
+    "language": "Go",
+    "pushed_at": "2025-05-17T15:57:46Z",
+    "stargazers_count": 42,
+    "topics": [
+      "golang",
+      "serializer"
+    ],
+    "updated_at": "2026-03-17T19:35:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alecthomas/go_serialization_benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serializer"
+    }
+  ]
+}

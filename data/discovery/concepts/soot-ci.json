@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Soot CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "Soot - A Java optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate-context",
+      "text": "Soot CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soot-oss/soot",
+      "status": "candidate",
+      "text": "Soot CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10625,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6244,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5924,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5924,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5924,
+      "status": "candidate",
+      "text": "pasticcio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Soot CI",
+  "concept_id": "soot-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Soot CI",
+      "sense_id": "soot-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

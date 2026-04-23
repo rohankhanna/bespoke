@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "opennmt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "status": "candidate-context",
+      "text": "Neural Machine Translation (NMT) tutorial. Data preprocessing, model training, evaluation, and deployment. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "status": "candidate-context",
+      "text": "Neural Machine Translation (NMT) tutorial with [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). Data preprocessing, model training, evaluation, and deployment."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymoslem/OpenNMT-Tutorial",
+      "status": "candidate",
+      "text": "Neural Machine Translation (NMT) tutorial with [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). Data preprocessing, model training, evaluation, and deployment."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "opennmt",
+  "concept_id": "opennmt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ymoslem/OpenNMT-Tutorial"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opennmt",
+      "sense_id": "opennmt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

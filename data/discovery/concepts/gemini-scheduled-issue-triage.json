@@ -31,6 +31,18 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate-context",
       "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "A collection of sample agents built with Agent Development Kit (ADK) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
+      "status": "candidate-context",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-samples",
       "status": "candidate",
       "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/gemini-scheduled-triage.yml",
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

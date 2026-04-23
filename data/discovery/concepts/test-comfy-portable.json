@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83e\uddea Test Comfy Portable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "Animation oriented nodes pack for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Test Comfy Portable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate",
+      "text": "\ud83e\uddea Test Comfy Portable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19625,
+      "status": "candidate",
+      "text": "sedan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12206,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "comfortable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "nestle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11952,
+      "status": "candidate",
+      "text": "snug"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83e\uddea Test Comfy Portable",
+  "concept_id": "test-comfy-portable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test_embedded.yml",
+      "source_repo": "melMass/comfy_mtb"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83e\uddea Test Comfy Portable",
+      "sense_id": "test-comfy-portable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

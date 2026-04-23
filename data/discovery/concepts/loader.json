@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "loader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Babel loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate-context",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate-context",
+      "text": "TypeScript loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/ts-loader.svg)](https://www.npmjs.com/package/ts-loader)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/ts-loader.svg)](https://www.npmjs.com/package/ts-loader)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891859,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891117,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889963,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884380,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880652,
+      "status": "candidate",
+      "text": "docker"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "longshoreman"
+    }
+  ],
+  "canonical_name": "loader",
+  "concept_id": "loader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "TypeStrong/ts-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/tsx"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loader",
+      "sense_id": "loader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

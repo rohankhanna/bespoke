@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003981,
+      "status": "candidate",
+      "text": "underlining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003976,
+      "status": "candidate",
+      "text": "underscoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003865,
+      "status": "candidate",
+      "text": "underline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996368,
+      "status": "candidate",
+      "text": "citing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988681,
+      "status": "candidate",
+      "text": "labelling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "highlighting",
+      "sense_id": "highlighting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23038,
+      "status": "candidate",
+      "text": "highlight"
+    }
+  ],
+  "concept_id": "highlighting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "highlighting",
+  "observation_id": "83e796476ad78f13",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "highlighting",
+  "source_context_snippet": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)",
+  "source_file": null,
+  "source_repo": "highlightjs/highlight.js",
+  "source_repo_description": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+}

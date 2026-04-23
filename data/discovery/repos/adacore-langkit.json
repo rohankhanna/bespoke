@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/langkit",
+      "target": "adacore/gnatcoll-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/langkit",
+      "target": "adacore/gnatcoll-bindings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/langkit",
+      "target": "adacore/prettier-ada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/langkit",
+      "target": "adacore/adasat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:18.507212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4746
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Language creation framework.",
+    "fork": false,
+    "full_name": "AdaCore/langkit",
+    "html_url": "https://github.com/AdaCore/langkit",
+    "language": "Ada",
+    "pushed_at": "2026-04-22T12:05:55Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-22T12:06:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/adasat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/gnatcoll-bindings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/gnatcoll-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/prettier-ada",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

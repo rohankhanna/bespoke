@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An unofficial Local GitHub Actions and Azure Pipelines Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NPM Audit Fix with TypeScript Auto-Fix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NPM Audit Fix with TypeScript Auto-Fix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36749,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36749,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36611,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36611,
+      "status": "candidate",
+      "text": "controller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36611,
+      "status": "candidate",
+      "text": "pedal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NPM Audit Fix with TypeScript Auto-Fix",
+      "sense_id": "npm-audit-fix-with-typescript-auto-fix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "npm-audit-fix-with-typescript-auto-fix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "npm-audit-fix-with-typescript-auto-fix",
+  "observation_id": "ade84b00e70a15d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "NPM Audit Fix with TypeScript Auto-Fix",
+  "source_context_snippet": "NPM Audit Fix with TypeScript Auto-Fix",
+  "source_file": ".github/workflows/npm-audit-typescript.yml",
+  "source_repo": "ChristopherHX/runner.server",
+  "source_repo_description": "An unofficial Local GitHub Actions and Azure Pipelines Emulator"
+}

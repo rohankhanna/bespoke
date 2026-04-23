@@ -454,6 +454,150 @@
       "source_repo": "google/go-github",
       "status": "candidate-context",
       "text": "linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "GitHub Actions runner images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "A plugin for Flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "=============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "Very fast link checker for CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "The code linting framework for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "SublimeLinter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "Small Clojure interpreter, linter and formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate-context",
+      "text": "A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/pyupgrade/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pyupgrade/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "Coding assistance for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Fast Link Checker for Markdown and HTML in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate-context",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "Linter"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +822,78 @@
       "source_repo": "google/go-github",
       "status": "candidate",
       "text": "linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/runner-images",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate",
+      "text": "=============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate",
+      "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate",
+      "text": "SublimeLinter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "candid82/joker",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/882970/48048842-a0224080-e151-11e8-8855-642cf5ef3fdd.png\" width=\"117px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/pyupgrade",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/pyupgrade/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pyupgrade/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/liche",
+      "status": "candidate",
+      "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate",
+      "text": "[![GitHub Action](https://img.shields.io/github/actions/workflow/status/raviqqe/muffet/test.yaml?branch=main&style=flat-square)](https://github.com/raviqqe/muffet/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "Linter"
     }
   ],
   "candidate_related_terms": [
@@ -1021,11 +1237,119 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "google/go-github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "candid82/joker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "asottile/pyupgrade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "raviqqe/liche"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

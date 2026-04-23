@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "chemistry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "Message Passing Neural Networks for Molecule Property Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034536,
+      "status": "candidate",
+      "text": "chemical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034536,
+      "status": "candidate",
+      "text": "interpersonal chemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034535,
+      "status": "candidate",
+      "text": "chem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032543,
+      "status": "candidate",
+      "text": "alchemy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032422,
+      "status": "candidate",
+      "text": "chemical"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "chemical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "interpersonal chemistry"
+    }
+  ],
+  "canonical_name": "chemistry",
+  "concept_id": "chemistry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chemprop/chemprop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chemistry",
+      "sense_id": "chemistry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

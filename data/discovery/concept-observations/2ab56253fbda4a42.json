@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042960,
+      "status": "candidate",
+      "text": "wedge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20033952,
+      "status": "candidate",
+      "text": "washer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017681,
+      "status": "candidate",
+      "text": "attachment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999974,
+      "status": "candidate",
+      "text": "bilge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995384,
+      "status": "candidate",
+      "text": "thrust"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shim",
+      "sense_id": "shim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shim",
+  "observation_id": "2ab56253fbda4a42",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "shim",
+  "source_context_snippet": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)",
+  "source_file": null,
+  "source_repo": "iamogbz/nvshim",
+  "source_repo_description": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+}

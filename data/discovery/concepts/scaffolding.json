@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "scaffolding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "yo \u2014 CLI tool for running Yeoman generators"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954615,
+      "status": "candidate",
+      "text": "shelf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954412,
+      "status": "candidate",
+      "text": "canopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952451,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901851,
+      "status": "candidate",
+      "text": "studio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901362,
+      "status": "candidate",
+      "text": "tower"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scaffolding",
+  "concept_id": "scaffolding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yeoman/yo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scaffolding",
+      "sense_id": "scaffolding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "serialization-libraries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KonanM/tser",
+      "status": "candidate-context",
+      "text": "tser - tiny serialization for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KonanM/tser",
+      "status": "candidate-context",
+      "text": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KonanM/tser",
+      "status": "candidate",
+      "text": "<img src=\"tser.png\" height=\"300\" align=\"center\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "serialization-libraries",
+  "concept_id": "serialization-libraries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "KonanM/tser"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serialization-libraries",
+      "sense_id": "serialization-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

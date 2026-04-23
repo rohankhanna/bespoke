@@ -1,0 +1,671 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "siderolabs/conform@6380738b7fdfc68b208ce0674c4ac1ba314ba600",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "hadolint/hadolint-action@2332a7b74a6de0dda2e2221d575162eba76ba5e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "adguardteam/adguardhome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "Scorecard Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "siderolabs/conform@6380738b7fdfc68b208ce0674c4ac1ba314ba600",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "hadolint/hadolint-action@2332a7b74a6de0dda2e2221d575162eba76ba5e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "external-dns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:15.552255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8979
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1032
+    },
+    {
+      "path": "go.mod",
+      "size": 3744
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1006
+    },
+    {
+      "path": ".github/workflows/dependency_review.yml",
+      "size": 493
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2782
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1767
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "size": 4282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "External DNS webhook provider for Adguard",
+    "fork": false,
+    "full_name": "muhlba91/external-dns-provider-adguard",
+    "html_url": "https://github.com/muhlba91/external-dns-provider-adguard",
+    "language": "Go",
+    "pushed_at": "2026-04-22T18:53:55Z",
+    "stargazers_count": 73,
+    "topics": [
+      "adguard",
+      "external-dns",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-22T18:53:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/adguardhome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Dependency Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Scorecard Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard Security"
+    },
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "external-dns"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

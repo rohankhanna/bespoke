@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Classic - Publish to PyPI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate-context",
+      "text": "Classic - Publish to PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "status": "candidate",
+      "text": "Classic - Publish to PyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "classicise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "classicize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "essex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "royal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Classic - Publish to PyPI",
+  "concept_id": "classic---publish-to-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Classic - Publish to PyPI",
+      "sense_id": "classic---publish-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

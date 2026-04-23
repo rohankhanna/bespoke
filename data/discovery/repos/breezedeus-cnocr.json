@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/CnOCR",
+      "target": "breezedeus/cnstd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnOCR",
+      "target": "chinese-character-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnOCR",
+      "target": "english-character-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnOCR",
+      "target": "ocr-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/CnOCR",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:53.604141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19114
+    },
+    {
+      "path": "Dockerfile",
+      "size": 467
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CnOCR: Awesome Chinese/English OCR Python toolkits based on PyTorch. It comes with 20+ well-trained models for different application scenarios and can be used directly after installation. \u3010\u57fa\u4e8e PyTorch/MXNet \u7684\u4e2d\u6587/\u82f1\u6587 OCR Python \u5305\u3002\u3011",
+    "fork": true,
+    "full_name": "breezedeus/CnOCR",
+    "html_url": "https://github.com/breezedeus/CnOCR",
+    "language": "Python",
+    "pushed_at": "2026-02-07T09:33:07Z",
+    "stargazers_count": 3748,
+    "topics": [
+      "chinese-character-recognition",
+      "english-character-recognition",
+      "ocr",
+      "ocr-python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T21:26:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/cnstd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-character-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english-character-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-python"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

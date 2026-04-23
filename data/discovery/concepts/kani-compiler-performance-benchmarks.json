@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Kani Compiler Performance Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Kani Compiler Performance Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate",
+      "text": "Kani Compiler Performance Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23153,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21698,
+      "status": "candidate",
+      "text": "business index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21633,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20199,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20199,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Kani Compiler Performance Benchmarks",
+  "concept_id": "kani-compiler-performance-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bench-compiler.yml",
+      "source_repo": "model-checking/kani"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kani Compiler Performance Benchmarks",
+      "sense_id": "kani-compiler-performance-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

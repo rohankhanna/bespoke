@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "CI - RBE"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "A browser automation framework and ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate-context",
+      "text": "CI - RBE"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeleniumHQ/selenium",
+      "status": "candidate",
+      "text": "CI - RBE"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "absorbance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "absorbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "absorption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "absorptions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - RBE",
+  "concept_id": "ci---rbe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci-rbe.yml",
+      "source_repo": "SeleniumHQ/selenium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - RBE",
+      "sense_id": "ci---rbe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

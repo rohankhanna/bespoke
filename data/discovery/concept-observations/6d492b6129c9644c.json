@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-configuration",
+      "sense_id": "dynamic-configuration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dynamic-configuration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dynamic-configuration",
+  "observation_id": "6d492b6129c9644c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "dynamic-configuration",
+  "source_context_snippet": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)",
+  "source_file": null,
+  "source_repo": "mit-ll-responsible-ai/hydra-zen",
+  "source_repo_description": "Create powerful Hydra applications without the yaml files and boilerplate code."
+}

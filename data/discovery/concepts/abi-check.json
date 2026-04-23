@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ABI Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "ABI Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "ABI Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "dam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "help"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "listen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ABI Check",
+  "concept_id": "abi-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/abi-check.yml",
+      "source_repo": "ada-url/ada"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ABI Check",
+      "sense_id": "abi-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

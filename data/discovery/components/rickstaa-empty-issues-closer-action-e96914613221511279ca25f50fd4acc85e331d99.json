@@ -1,0 +1,12 @@
+{
+  "component": "rickstaa/empty-issues-closer-action@e96914613221511279ca25f50fd4acc85e331d99",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ]
+}

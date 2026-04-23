@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "hashnuke/heroku-buildpack-elixir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "gjaldon/heroku-buildpack-phoenix-static",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "elixir-ecto/postgrex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "bors-ng/dockerize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "helm/chart-testing-action@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bors-ng/bors-ng",
+      "target": "helm/kind-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "appveyor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "bors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:54:44.403736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21187
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2010
+    },
+    {
+      "path": "package.json",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83d\udc41 A merge bot for GitHub Pull Requests",
+    "fork": false,
+    "full_name": "bors-ng/bors-ng",
+    "html_url": "https://github.com/bors-ng/bors-ng",
+    "language": "Elixir",
+    "pushed_at": "2024-04-04T12:24:44Z",
+    "stargazers_count": 1531,
+    "topics": [
+      "appveyor",
+      "bors",
+      "continuous-integration",
+      "elixir",
+      "github",
+      "travis-ci"
+    ],
+    "updated_at": "2026-04-16T21:16:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-ecto/postgrex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gjaldon/heroku-buildpack-phoenix-static",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashnuke/heroku-buildpack-elixir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bors-ng/dockerize",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appveyor"
+    },
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bors"
+    },
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

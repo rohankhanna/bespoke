@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "delphi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Python 3 embeddable for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate-context",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python3-embeddable",
+      "status": "candidate",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19829585,
+      "status": "candidate",
+      "text": "soothsayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19829584,
+      "status": "candidate",
+      "text": "oracle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19829583,
+      "status": "candidate",
+      "text": "pythia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19829582,
+      "status": "candidate",
+      "text": "sibyl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19829581,
+      "status": "candidate",
+      "text": "prophet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "delphi",
+  "concept_id": "delphi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delphi",
+      "sense_id": "delphi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

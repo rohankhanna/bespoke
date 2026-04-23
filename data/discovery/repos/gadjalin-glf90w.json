@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:43:14.077722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fortran bindings for GLFW 3.4+.",
+    "fork": false,
+    "full_name": "gadjalin/glf90w",
+    "html_url": "https://github.com/gadjalin/glf90w",
+    "language": "Fortran",
+    "pushed_at": "2025-10-09T13:59:30Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-13T01:01:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

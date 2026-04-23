@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:50:28.115481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48784
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "apple/ToolSandbox",
+    "html_url": "https://github.com/apple/ToolSandbox",
+    "language": "Python",
+    "pushed_at": "2025-11-07T07:38:13Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-04-23T12:26:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

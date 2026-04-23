@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto Close PRs"
+    "Auto Close PRs",
+    "Auto-close PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "community/community",
       "status": "candidate-context",
       "text": "Auto Close PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "The Chrome DevTools UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "Auto-close PRs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "community/community",
       "status": "candidate",
       "text": "Auto Close PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate",
+      "text": "Auto-close PRs"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,34 @@
       "score": 10060,
       "status": "candidate",
       "text": "created"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "abwehr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "advisory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "archival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "auditing"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +123,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/auto-close-pr.yml",
       "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Action for checking out a repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish test-ubuntu-git Container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish test-ubuntu-git Container"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12029,
+      "status": "candidate",
+      "text": "release"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish test-ubuntu-git Container",
+      "sense_id": "publish-test-ubuntu-git-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-test-ubuntu-git-container",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-test-ubuntu-git-container",
+  "observation_id": "4e74b252aff98b16",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Publish test-ubuntu-git Container",
+  "source_context_snippet": "Publish test-ubuntu-git Container",
+  "source_file": ".github/workflows/update-test-ubuntu-git.yml",
+  "source_repo": "actions/checkout",
+  "source_repo_description": "Action for checking out a repo"
+}

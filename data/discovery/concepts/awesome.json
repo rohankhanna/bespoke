@@ -271,6 +271,90 @@
       "source_repo": "Level/awesome",
       "status": "candidate-context",
       "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate-context",
+      "text": "An Awesome List of projects using the pyproject.toml Python configuration file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate-context",
+      "text": "![logo](https://repository-images.githubusercontent.com/226840558/aff71800-2fd4-11ea-99ed-8e6a645dd5fe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "Curated list of resources for Embedded and Low-level development in the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdm-project/awesome-pdm",
+      "status": "candidate-context",
+      "text": "A curated list of awesome PDM plugins and resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/awesome-pdm",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "ChatGPT \u4e2d\u6587\u8bed\u6599\u5e93 \u5bf9\u8bdd\u8bed\u6599 \u5c0f\u8bf4\u8bed\u6599 \u5ba2\u670d\u8bed\u6599 \u7528\u4e8e\u8bad\u7ec3\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +483,48 @@
       "source_repo": "Level/awesome",
       "status": "candidate",
       "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carlosperate/awesome-pyproject",
+      "status": "candidate",
+      "text": "![logo](https://repository-images.githubusercontent.com/226840558/aff71800-2fd4-11ea-99ed-8e6a645dd5fe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/awesome-embedded-rust",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/awesome-pdm",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "status": "candidate",
+      "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
     }
   ],
   "candidate_related_terms": [
@@ -622,11 +748,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Level/awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "carlosperate/awesome-pyproject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded/awesome-embedded-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pdm-project/awesome-pdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-corpus"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

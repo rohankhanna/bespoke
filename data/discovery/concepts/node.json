@@ -370,6 +370,114 @@
       "source_repo": "debug-js/debug",
       "status": "candidate-context",
       "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate-context",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/braces",
+      "status": "candidate-context",
+      "text": "Faster brace expansion for node.js. Besides being faster, braces is not subject to DoS attacks like minimatch, is more accurate, and has more complete support for Bash 4.3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/braces",
+      "status": "candidate-context",
+      "text": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate-context",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "NodeSource Node.js Binary Distributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "A changelog generator for gitmoji \ud83d\ude1c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate-context",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +660,60 @@
       "source_repo": "debug-js/debug",
       "status": "candidate",
       "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/clone-deep",
+      "status": "candidate",
+      "text": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/braces",
+      "status": "candidate",
+      "text": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-brackets",
+      "status": "candidate",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate",
+      "text": "![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
     }
   ],
   "candidate_related_terms": [
@@ -859,11 +1021,83 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodesource/distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "frinyvonnick/gitmoji-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "graphile/crystal"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

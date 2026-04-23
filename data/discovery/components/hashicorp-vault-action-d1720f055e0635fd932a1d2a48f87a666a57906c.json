@@ -1,0 +1,12 @@
+{
+  "component": "hashicorp/vault-action@d1720f055e0635fd932a1d2a48f87a666a57906c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault"
+    }
+  ]
+}

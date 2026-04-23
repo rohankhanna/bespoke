@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scorecard Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scorecard Security"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14767,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "bogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "lineup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scorecard Security",
+      "sense_id": "scorecard-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scorecard-security",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scorecard-security",
+  "observation_id": "e1289701d4d5bf13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Scorecard Security",
+  "source_context_snippet": "Scorecard Security",
+  "source_file": ".github/workflows/scorecard.yml",
+  "source_repo": "muhlba91/external-dns-provider-adguard",
+  "source_repo_description": "External DNS webhook provider for Adguard"
+}

@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "docling-project/docling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "icip-cas/pptagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "force1ess/python-pptx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "poster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "pptx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Paper2Poster/Paper2Poster",
+      "target": "task-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:49:53.675678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10013
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1633
+    },
+    {
+      "path": "requirements.txt",
+      "size": 10939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025 D&B] Open-source Multi-agent Poster Generation from Papers",
+    "fork": false,
+    "full_name": "Paper2Poster/Paper2Poster",
+    "html_url": "https://github.com/Paper2Poster/Paper2Poster",
+    "language": "Python",
+    "pushed_at": "2025-12-21T09:58:48Z",
+    "stargazers_count": 3641,
+    "topics": [
+      "agent",
+      "multi-agent-systems",
+      "paper",
+      "poster",
+      "pptx",
+      "task-automation"
+    ],
+    "updated_at": "2026-04-23T12:23:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docling-project/docling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icip-cas/pptagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "force1ess/python-pptx",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "poster"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pptx"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-automation"
+    }
+  ]
+}

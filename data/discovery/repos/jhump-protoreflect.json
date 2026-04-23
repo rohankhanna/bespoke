@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhump/protoreflect",
+      "target": "grpc/grpc-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jhump/protoreflect",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jhump/protoreflect",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jhump/protoreflect",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect",
+      "target": "reflection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:11.889348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7746
+    },
+    {
+      "path": "go.mod",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reflection (Rich Descriptors) for Go Protocol Buffers",
+    "fork": false,
+    "full_name": "jhump/protoreflect",
+    "html_url": "https://github.com/jhump/protoreflect",
+    "language": "Go",
+    "pushed_at": "2026-01-21T14:35:59Z",
+    "stargazers_count": 1480,
+    "topics": [
+      "go",
+      "golang",
+      "grpc",
+      "protobuf",
+      "protocol-buffers",
+      "reflection"
+    ],
+    "updated_at": "2026-04-13T21:04:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    }
+  ]
+}

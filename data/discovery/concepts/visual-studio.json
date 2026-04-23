@@ -45,6 +45,42 @@
       "source_repo": "microsoft/vssetup.powershell",
       "status": "candidate-context",
       "text": "Visual Studio Setup PowerShell Module"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate-context",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +101,24 @@
       "source_repo": "microsoft/vssetup.powershell",
       "status": "candidate",
       "text": "Visual Studio Setup PowerShell Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/CRoaring",
+      "status": "candidate",
+      "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +144,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/vssetup.powershell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/CRoaring"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "rubygems/configure-rubygems-credentials@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-index.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-index.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-grid-ui.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-grid-ui.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "raven-actions/actionlint@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "google/google-java-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "ruby/debug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "rubygems/configure-rubygems-credentials@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-index.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-index.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build-index.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - Build Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - Grid UI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-java.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - Java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "raven-actions/actionlint@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rbe.yml",
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "CI - RBE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "selenium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SeleniumHQ/selenium",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:07:56.527978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23117
+    },
+    {
+      "path": "package.json",
+      "size": 631
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 11423
+    },
+    {
+      "path": ".github/workflows/ci-build-index.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/ci-dotnet.yml",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/ci-grid-ui.yml",
+      "size": 804
+    },
+    {
+      "path": ".github/workflows/ci-java.yml",
+      "size": 2350
+    },
+    {
+      "path": ".github/workflows/ci-lint.yml",
+      "size": 3348
+    },
+    {
+      "path": ".github/workflows/ci-python.yml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/ci-rbe.yml",
+      "size": 887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "A browser automation framework and ecosystem.",
+    "fork": false,
+    "full_name": "SeleniumHQ/selenium",
+    "html_url": "https://github.com/SeleniumHQ/selenium",
+    "language": "Java",
+    "pushed_at": "2026-04-23T15:36:32Z",
+    "stargazers_count": 34054,
+    "topics": [
+      "dotnet",
+      "java",
+      "javascript",
+      "python",
+      "ruby",
+      "rust",
+      "selenium",
+      "webdriver"
+    ],
+    "updated_at": "2026-04-23T17:36:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-java-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby/debug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel"
+    },
+    {
+      "context_snippet": "CI - Build Index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build-index.yml",
+      "term": "CI - Build Index"
+    },
+    {
+      "context_snippet": "CI - .NET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "term": "CI - .NET"
+    },
+    {
+      "context_snippet": "CI - Grid UI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-grid-ui.yml",
+      "term": "CI - Grid UI"
+    },
+    {
+      "context_snippet": "CI - Java",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-java.yml",
+      "term": "CI - Java"
+    },
+    {
+      "context_snippet": "CI - Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "term": "CI - Lint"
+    },
+    {
+      "context_snippet": "CI - RBE",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rbe.yml",
+      "term": "CI - RBE"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate ARC Runners"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Validate ARC Runners"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "Validate ARC Runners"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "beep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "cashier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "pickup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19041,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19012,
+      "status": "candidate",
+      "text": "balk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate ARC Runners",
+  "concept_id": "validate-arc-runners",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/arc-validate-runners.yaml",
+      "source_repo": "actions/actions-runner-controller"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate ARC Runners",
+      "sense_id": "validate-arc-runners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

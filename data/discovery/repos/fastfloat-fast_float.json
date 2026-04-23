@@ -1,0 +1,594 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate-ubuntu24.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_format_check.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@3a18028048f01a66653b4e3bf8d968d2e7e2cb8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/risc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastfloat/fast_float",
+      "target": "chromium/chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastfloat/fast_float",
+      "target": "adacore/vss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastfloat/fast_float",
+      "target": "aldanor/fast-float-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastfloat/fast_float",
+      "target": "carlverret/csfastfloat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "Alpine Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate-ubuntu24.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_format_check.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_format_check.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "jidicula/clang-format-action@3a18028048f01a66653b4e3bf8d968d2e7e2cb8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_and_format_check.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "Lint and format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "MSYS2-CLANG-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "MSYS2-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-release.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "On Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/risc.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/risc.yml",
+      "source_repo": "fastfloat/fast_float",
+      "target": "Ubuntu RISC-V rvv VLEN=128 (clang 17)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "sse2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:03.948441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23888
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 1082
+    },
+    {
+      "path": ".github/workflows/amalgamate-ubuntu24.yml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/emscripten.yml",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/lint_and_format_check.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/msys2-clang.yml",
+      "size": 1012
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/on-release.yml",
+      "size": 997
+    },
+    {
+      "path": ".github/workflows/risc.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari",
+    "fork": false,
+    "full_name": "fastfloat/fast_float",
+    "html_url": "https://github.com/fastfloat/fast_float",
+    "language": "C++",
+    "pushed_at": "2026-04-20T00:10:00Z",
+    "stargazers_count": 2040,
+    "topics": [
+      "cpp-library",
+      "cpp11",
+      "cpp17",
+      "freebsd",
+      "high-performance",
+      "linux",
+      "macos",
+      "neon",
+      "simd",
+      "sse2",
+      "visual-studio"
+    ],
+    "updated_at": "2026-04-21T08:35:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/vss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aldanor/fast-float-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlverret/csfastfloat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromium/chromium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alpine Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "Alpine Linux"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Lint and format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_and_format_check.yml",
+      "term": "Lint and format"
+    },
+    {
+      "context_snippet": "MSYS2-CLANG-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "term": "MSYS2-CLANG-CI"
+    },
+    {
+      "context_snippet": "MSYS2-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "MSYS2-CI"
+    },
+    {
+      "context_snippet": "On Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-release.yml",
+      "term": "On Release"
+    },
+    {
+      "context_snippet": "Ubuntu RISC-V rvv VLEN=128 (clang 17)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/risc.yml",
+      "term": "Ubuntu RISC-V rvv VLEN=128 (clang 17)"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-library"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse2"
+    },
+    {
+      "context_snippet": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    }
+  ]
+}

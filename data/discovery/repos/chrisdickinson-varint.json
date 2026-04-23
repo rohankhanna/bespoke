@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chrisdickinson/varint",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:48.043620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1975
+    },
+    {
+      "path": "package.json",
+      "size": 511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "use msb to create integer values of varying sizes",
+    "fork": false,
+    "full_name": "chrisdickinson/varint",
+    "html_url": "https://github.com/chrisdickinson/varint",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-03T09:40:22Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-03-31T11:46:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

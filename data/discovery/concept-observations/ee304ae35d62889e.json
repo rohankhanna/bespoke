@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check bad links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check bad links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28064,
+      "status": "candidate",
+      "text": "nsf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27281,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25984,
+      "status": "candidate",
+      "text": "stumer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19341,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18339,
+      "status": "candidate",
+      "text": "contacts"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check bad links",
+      "sense_id": "check-bad-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-bad-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-bad-links",
+  "observation_id": "ee304ae35d62889e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check bad links",
+  "source_context_snippet": "Check bad links",
+  "source_file": ".github/workflows/xrefcheck-validate-markdown-links.yml",
+  "source_repo": "NVIDIA/thrust",
+  "source_repo_description": "[ARCHIVED] The C++ parallel algorithms library. See https://github.com/NVIDIA/cccl"
+}

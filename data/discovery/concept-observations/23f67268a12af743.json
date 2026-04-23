@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "4D Spatio-Temporal Semantic Segmentation on a 3D video (a sequence of 3D scans)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-vision",
+      "sense_id": "3d-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-vision",
+  "observation_id": "23f67268a12af743",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "3d-vision",
+  "source_context_snippet": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/",
+  "source_file": null,
+  "source_repo": "chrischoy/SpatioTemporalSegmentation",
+  "source_repo_description": "4D Spatio-Temporal Semantic Segmentation on a 3D video (a sequence of 3D scans)"
+}

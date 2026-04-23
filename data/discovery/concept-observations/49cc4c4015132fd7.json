@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997204,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993254,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39775332,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008098,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008097,
+      "status": "candidate",
+      "text": "validated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "validation",
+      "sense_id": "validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10016,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proof"
+    }
+  ],
+  "concept_id": "validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validation",
+  "observation_id": "49cc4c4015132fd7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "validation",
+  "source_context_snippet": "validation",
+  "source_file": ".github/workflows/validation.yaml",
+  "source_repo": "google/adk-js",
+  "source_repo_description": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+}

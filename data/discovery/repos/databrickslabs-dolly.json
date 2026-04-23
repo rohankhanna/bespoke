@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/dolly",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/dolly",
+      "target": "databricks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/dolly",
+      "target": "dolly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:54.997888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Databricks\u2019 Dolly, a large language model trained on the Databricks Machine Learning Platform",
+    "fork": false,
+    "full_name": "databrickslabs/dolly",
+    "html_url": "https://github.com/databrickslabs/dolly",
+    "language": "Python",
+    "pushed_at": "2023-06-30T18:36:16Z",
+    "stargazers_count": 10791,
+    "topics": [
+      "chatbot",
+      "databricks",
+      "dolly",
+      "gpt"
+    ],
+    "updated_at": "2026-04-23T18:09:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "databricks"
+    },
+    {
+      "context_snippet": "Databricks\u2019 [Dolly](https://huggingface.co/databricks/dolly-v2-12b) is an instruction-following large language model trained on the Databricks machine learning platform",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dolly"
+    }
+  ]
+}

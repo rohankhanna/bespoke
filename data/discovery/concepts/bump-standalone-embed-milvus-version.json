@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Standalone Embed Milvus Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Bump Standalone Embed Milvus Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "Bump Standalone Embed Milvus Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30870,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30721,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30721,
+      "status": "candidate",
+      "text": "smack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30534,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22271,
+      "status": "candidate",
+      "text": "animate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Standalone Embed Milvus Version",
+  "concept_id": "bump-standalone-embed-milvus-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-version-only-for-standalone-embed-milvus.yaml",
+      "source_repo": "milvus-io/milvus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Standalone Embed Milvus Version",
+      "sense_id": "bump-standalone-embed-milvus-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

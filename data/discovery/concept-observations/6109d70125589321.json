@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Uptime of all SearXNG public instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update sites list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update sites list"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25929,
+      "status": "candidate",
+      "text": "lascaux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18874,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18874,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18849,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18849,
+      "status": "candidate",
+      "text": "eta"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update sites list",
+      "sense_id": "update-sites-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-sites-list",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-sites-list",
+  "observation_id": "6109d70125589321",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update sites list",
+  "source_context_snippet": "Update sites list",
+  "source_file": ".github/workflows/update-sites.yml",
+  "source_repo": "searxng/searx-instances-uptime",
+  "source_repo_description": "Uptime of all SearXNG public instances"
+}

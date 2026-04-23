@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gajus/conventional-changelog-lint-config-canonical",
+      "target": "marionebl/conventional-changelog-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gajus/conventional-changelog-lint-config-canonical",
+      "target": "gajus/canonical",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:33:18.336632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1027
+    },
+    {
+      "path": "package.json",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A shareable conventional-changelog-lint configuration for Canonical commit convention.",
+    "fork": false,
+    "full_name": "gajus/conventional-changelog-lint-config-canonical",
+    "html_url": "https://github.com/gajus/conventional-changelog-lint-config-canonical",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-31T00:32:37Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-03-05T00:20:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gajus/canonical",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marionebl/conventional-changelog-lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

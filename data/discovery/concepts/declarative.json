@@ -19,6 +19,18 @@
       "source_repo": "facebook/react",
       "status": "candidate-context",
       "text": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "facebook/react",
       "status": "candidate",
       "text": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/opa",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/open-policy-agent/opa/workflows/Post%20Merge/badge.svg)](https://github.com/open-policy-agent/opa/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/open-policy-agent/opa)](https://goreportcard.com/report/github.com/open-pol\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/opa"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

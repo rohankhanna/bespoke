@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-and-push-pds-ghcr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluesky-social/atproto",
+      "status": "candidate-context",
+      "text": "Social networking technology created by Bluesky"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/atproto",
+      "status": "candidate-context",
+      "text": "build-and-push-pds-ghcr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/atproto",
+      "status": "candidate",
+      "text": "build-and-push-pds-ghcr"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-and-push-pds-ghcr",
+  "concept_id": "build-and-push-pds-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-and-push-pds-ghcr.yaml",
+      "source_repo": "bluesky-social/atproto"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-and-push-pds-ghcr",
+      "sense_id": "build-and-push-pds-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

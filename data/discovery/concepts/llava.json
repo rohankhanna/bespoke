@@ -19,6 +19,54 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate-context",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "haotian-liu/LLaVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternEvo"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

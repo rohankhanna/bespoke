@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "auto-merge HEAD to BASE"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "Spark RAPIDS plugin - accelerate Apache Spark with GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate-context",
+      "text": "auto-merge HEAD to BASE"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/spark-rapids",
+      "status": "candidate",
+      "text": "auto-merge HEAD to BASE"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47966,
+      "status": "candidate",
+      "text": "latrine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28460,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28432,
+      "status": "candidate",
+      "text": "pileum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28366,
+      "status": "candidate",
+      "text": "lore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28060,
+      "status": "candidate",
+      "text": "cao"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "auto-merge HEAD to BASE",
+  "concept_id": "auto-merge-head-to-base",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "NVIDIA/spark-rapids"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "auto-merge HEAD to BASE",
+      "sense_id": "auto-merge-head-to-base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

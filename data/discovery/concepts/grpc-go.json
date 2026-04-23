@@ -31,6 +31,54 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate-context",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "Example code for how to get hashicorp/raft running with gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate-context",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate-context",
+      "text": "Send gRPCs to your Raft leader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate-context",
+      "text": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "Make hashicorp/raft communicate over gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate-context",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jille/raftadmin",
+      "status": "candidate-context",
+      "text": "gRPC wrapper for Hashicorp's raft.Raft object"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raftadmin",
+      "status": "candidate-context",
+      "text": "RaftAdmin is a gRPC service to invoke methods on https://godoc.org/github.com/hashicorp/raft#Raft. It only works with [Hashicorp's Raft implementation](https://github.com/hashicorp/raft)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "apache/dubbo-go-pixiu",
       "status": "candidate",
       "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-example",
+      "status": "candidate",
+      "text": "This is some example code for how to use [Hashicorp's Raft implementation](https://github.com/hashicorp/raft) with gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-leader-rpc",
+      "status": "candidate",
+      "text": "Send gRPCs to your [Raft](https://github.com/hashicorp/raft) leader."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raft-grpc-transport",
+      "status": "candidate",
+      "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jille/raftadmin",
+      "status": "candidate",
+      "text": "RaftAdmin is a gRPC service to invoke methods on https://godoc.org/github.com/hashicorp/raft#Raft. It only works with [Hashicorp's Raft implementation](https://github.com/hashicorp/raft)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo-go-pixiu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-leader-rpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raft-grpc-transport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Jille/raftadmin"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

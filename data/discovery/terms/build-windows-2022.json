@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-windows-2022.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    }
+  ],
+  "term": "Build Windows 2022"
+}

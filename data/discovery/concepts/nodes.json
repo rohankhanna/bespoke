@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nodes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "Animation oriented nodes pack for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051346,
+      "status": "candidate",
+      "text": "knob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9977349,
+      "status": "candidate",
+      "text": "guest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9939856,
+      "status": "candidate",
+      "text": "lymph gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936333,
+      "status": "candidate",
+      "text": "lymph node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9897669,
+      "status": "candidate",
+      "text": "client"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nodes",
+  "concept_id": "nodes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodes",
+      "sense_id": "nodes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

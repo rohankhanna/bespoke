@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pytorch/extension-cpp",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pytorch/extension-cpp",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:17.291034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1318
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ extensions in PyTorch",
+    "fork": false,
+    "full_name": "pytorch/extension-cpp",
+    "html_url": "https://github.com/pytorch/extension-cpp",
+    "language": "Python",
+    "pushed_at": "2026-01-13T16:13:29Z",
+    "stargazers_count": 1185,
+    "topics": [],
+    "updated_at": "2026-04-18T15:29:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

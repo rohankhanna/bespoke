@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:40:56.928005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Qt implementation of freedesktop.org xdg specs",
+    "fork": false,
+    "full_name": "lxqt/libqtxdg",
+    "html_url": "https://github.com/lxqt/libqtxdg",
+    "language": "C++",
+    "pushed_at": "2026-04-20T07:04:58Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-04-20T06:59:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

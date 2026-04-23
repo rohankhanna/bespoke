@@ -91,6 +91,30 @@
       "source_repo": "docker-library/docker",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/libsass",
+      "status": "candidate-context",
+      "text": "A C/C++ implementation of a Sass compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/libsass",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
@@ -139,6 +163,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker-library/docker",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/libsass",
       "status": "candidate",
       "text": "GitHub CI"
     }
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker-library/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "m2e-code-quality/m2e-code-quality"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "sass/libsass"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

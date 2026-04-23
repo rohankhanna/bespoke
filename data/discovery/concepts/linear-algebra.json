@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "linear-algebra"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "linear-algebra",
+  "concept_id": "linear-algebra",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linear-algebra",
+      "sense_id": "linear-algebra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

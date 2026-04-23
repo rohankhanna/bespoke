@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024369,
+      "status": "candidate",
+      "text": "multiplatform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024274,
+      "status": "candidate",
+      "text": "multi-platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954433,
+      "status": "candidate",
+      "text": "platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024702,
+      "status": "candidate",
+      "text": "platform-independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024701,
+      "status": "candidate",
+      "text": "monoplatform"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-platform",
+      "sense_id": "cross-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-platform",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-platform",
+  "observation_id": "eada655291ff3b0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cross-platform",
+  "source_context_snippet": "[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)",
+  "source_file": null,
+  "source_repo": "cjpais/Handy",
+  "source_repo_description": "A free, open source, and extensible speech-to-text application that works completely offline."
+}

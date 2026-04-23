@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check header guards"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate-context",
+      "text": "Check header guards"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catchorg/Catch2",
+      "status": "candidate",
+      "text": "Check header guards"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20111,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811,
+      "status": "candidate",
+      "text": "razor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19519,
+      "status": "candidate",
+      "text": "joystick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check header guards",
+  "concept_id": "check-header-guards",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check header guards",
+      "sense_id": "check-header-guards#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

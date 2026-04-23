@@ -1,0 +1,12 @@
+{
+  "component": "akashchi/download-artifact@d59a9c15fec3fdb7c9adf09464124d00f9c11415",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    }
+  ]
+}

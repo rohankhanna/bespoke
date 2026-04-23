@@ -1,0 +1,668 @@
+{
+  "components": [
+    {
+      "component": "@apollo/client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@iconify/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@next/eslint-plugin-next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "classnames",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "headroom.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nouislider",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-datetime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-easy-emoji",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-headroom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-lottie",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-reveal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-typist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "reactstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sharp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/babel__core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/headroom.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-lottie",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-next",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "appfigures/react-easy-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "kyleamathews/react-headroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "lokesh/color-thief",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "1hanzla100/hanzla-portfolio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@apollo/client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@iconify/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@next/eslint-plugin-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "classnames",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "headroom.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "nouislider",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-datetime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-easy-emoji",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-headroom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-lottie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-reveal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-typist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "reactstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@types/babel__core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@types/headroom.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "@types/react-lottie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "eslint-config-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "bootstrap-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "developer-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "personal-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "portfolio-site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "portfolio-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "portfolio-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "react-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "reactjs-portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "reactjs-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "resume-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1hanzla100/developer-portfolio",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:10:02.577547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4393
+    },
+    {
+      "path": "Dockerfile",
+      "size": 704
+    },
+    {
+      "path": "package.json",
+      "size": 1659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+    "fork": false,
+    "full_name": "1hanzla100/developer-portfolio",
+    "html_url": "https://github.com/1hanzla100/developer-portfolio",
+    "language": "TypeScript",
+    "pushed_at": "2024-04-09T11:02:08Z",
+    "stargazers_count": 798,
+    "topics": [
+      "bootstrap-4",
+      "developer-portfolio",
+      "personal-portfolio",
+      "portfolio",
+      "portfolio-site",
+      "portfolio-template",
+      "portfolio-website",
+      "react",
+      "react-portfolio",
+      "reactjs",
+      "reactjs-portfolio",
+      "reactjs-template",
+      "resume-website",
+      "template"
+    ],
+    "updated_at": "2026-04-21T21:40:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appfigures/react-easy-emoji",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyleamathews/react-headroom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lokesh/color-thief",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1hanzla100/hanzla-portfolio",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-4"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio-site"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio-template"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio-website"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs-portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs-template"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resume-website"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Welcome to developer-portfolio \ud83d\udc4b</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

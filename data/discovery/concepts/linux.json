@@ -700,6 +700,306 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate-context",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "a small build system with a focus on speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, HarmonyOS, WebAssembly, watchOS, tvOS, visionOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "rapidocr onnx cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Simple text to phones converter for multiple languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "Produce redistributable builds of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "syzkaller is an unsupervised coverage-guided kernel fuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate-context",
+      "text": "Command line interface to the freedesktop.org trashcan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate-context",
+      "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, MySQL, Chromium, Redis and WebKit/Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate-context",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": ":atom: The hackable text editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "NodeSource Node.js Binary Distributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate-context",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Run commands on your host from inside your toolbox or flatpak sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": "Cross-platform lib for process and system monitoring in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "Primary and community-submitted packages for webinstall.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate-context",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "Master the command line, in one page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_glosses": [
@@ -1050,6 +1350,156 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doctest/doctest",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/syzkaller",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate",
+      "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastfloat/fast_float",
+      "status": "candidate",
+      "text": "[![Ubuntu 22.04 CI (GCC 11)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml/badge.svg)](https://github.com/fastfloat/fast_float/actions/workflows/ubuntu22.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodesource/distributions",
+      "status": "candidate",
+      "text": "[![NodeSource Distributions banner](https://github.com/user-attachments/assets/9c9a9712-2d70-4b96-b59f-a5aeca4b97e5)](https://nodesource.com/products/distributions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate",
+      "text": "Run commands on your host machine from inside your flatpak sandbox, [toolbox](https://github.com/containers/toolbox) or [distrobox](https://github.com/89luca89/distrobox) containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/pyroscope",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate",
+      "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webinstall/webi-installers",
+      "status": "candidate",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_related_terms": [
@@ -1501,11 +1951,185 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testing-linux.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodesource/distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "1player/host-spawn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/px"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

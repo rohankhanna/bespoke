@@ -1,0 +1,12 @@
+{
+  "component": "lee-dohm/no-response@9bb0a4b5e6a45046f00353d5de7d90fb8bd773bb",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "redhat-developer/vscode-java"
+    }
+  ]
+}

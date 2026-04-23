@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google HTTP Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "auto-merge-readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "auto-merge-readme"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "auto-merge-readme",
+      "sense_id": "auto-merge-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-merge-readme",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-merge-readme",
+  "observation_id": "f84940545def6280",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "auto-merge-readme",
+  "source_context_snippet": "auto-merge-readme",
+  "source_file": ".github/workflows/approve-readme.yaml",
+  "source_repo": "googleapis/google-http-java-client",
+  "source_repo_description": "Google HTTP Client Library for Java"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:14:39.666437+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IEEE TII 2023] Collaborative Discrepancy Optimization for Reliable Image Anomaly Localization",
+    "fork": false,
+    "full_name": "caoyunkang/CDO",
+    "html_url": "https://github.com/caoyunkang/CDO",
+    "language": "Python",
+    "pushed_at": "2025-03-05T07:55:13Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-01T02:22:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

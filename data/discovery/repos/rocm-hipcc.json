@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/HIPCC",
-      "target": "rocm/llvm-project",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-23T06:33:55.639620+00:00",
+  "edges": [],
+  "fetched_at": "2026-04-23T22:07:51.258995+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -30,12 +22,6 @@
     "topics": [],
     "updated_at": "2026-03-04T14:13:16Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/llvm-project",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/broken-link-check-full.yml",
       "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
     }
   ]
 }

@@ -25,6 +25,18 @@
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
       "status": "candidate-context",
       "text": "Approve Test Queue"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "Approve Test Queue"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
+      "status": "candidate",
+      "text": "Approve Test Queue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
       "status": "candidate",
       "text": "Approve Test Queue"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cicd-approve-test-queue.yml",
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cicd-approve-test-queue.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

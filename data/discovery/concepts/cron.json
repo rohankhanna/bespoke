@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cron"
+    "cron",
+    "Cron"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,30 @@
       "source_repo": "1set/cronrange",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate-context",
+      "text": "Cron"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +90,18 @@
       "source_repo": "1set/cronrange",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Cron"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +187,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "emberjs/ember.js"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

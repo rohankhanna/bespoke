@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight, high-performance Python library for parsing jsonl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928948,
+      "status": "candidate",
+      "text": "zip up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928947,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928946,
+      "status": "candidate",
+      "text": "export"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928945,
+      "status": "candidate",
+      "text": "generify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928944,
+      "status": "candidate",
+      "text": "containerize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gzip",
+      "sense_id": "gzip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gzip",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gzip",
+  "observation_id": "f2d7e03d1b8e5112",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "gzip",
+  "source_context_snippet": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026",
+  "source_file": null,
+  "source_repo": "umarbutler/orjsonl",
+  "source_repo_description": "A lightweight, high-performance Python library for parsing jsonl files."
+}

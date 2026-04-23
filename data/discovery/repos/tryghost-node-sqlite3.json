@@ -76,13 +76,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TryGhost/node-sqlite3",
-      "target": "yarnpkg/yarn",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TryGhost/node-sqlite3",
       "target": "rogerwang/node-webkit",
       "target_type": "repository"
     },
@@ -185,7 +178,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T08:44:43.016021+00:00",
+  "fetched_at": "2026-04-23T21:07:59.617174+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,11 +221,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rogerwang/nw-gyp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yarnpkg/yarn",
       "source_file": "README.md"
     }
   ],

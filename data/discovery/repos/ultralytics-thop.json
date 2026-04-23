@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "ultralytics/actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "ultralytics/actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "Ultralytics Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "slackapi/slack-github-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "flops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "flops-counter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "parameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "rtdetr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "ultralytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/thop",
+      "target": "yolov5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:15:00.346743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13163
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 1625
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 5999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage.",
+    "fork": true,
+    "full_name": "ultralytics/thop",
+    "html_url": "https://github.com/ultralytics/thop",
+    "language": "Python",
+    "pushed_at": "2026-04-23T08:39:54Z",
+    "stargazers_count": 138,
+    "topics": [
+      "ai",
+      "cnn",
+      "computer-vision",
+      "flops",
+      "flops-counter",
+      "llm",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "object-detection",
+      "parameters",
+      "rtdetr",
+      "transformers",
+      "ultralytics",
+      "yolo",
+      "yolo11",
+      "yolov5"
+    ],
+    "updated_at": "2026-04-23T12:21:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLA Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "Ultralytics Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Ultralytics Actions"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flops"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flops-counter"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parameters"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtdetr"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultralytics"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    }
+  ]
+}

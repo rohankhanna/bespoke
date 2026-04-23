@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "textual"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037560,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037519,
+      "status": "candidate",
+      "text": "verbal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035962,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034288,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033103,
+      "status": "candidate",
+      "text": "editorial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "textual",
+  "concept_id": "textual",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SWE-agent/mini-swe-agent"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "textual",
+      "sense_id": "textual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

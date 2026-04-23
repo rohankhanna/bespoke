@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "model-checking/kani",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "rust-bitcoin/rust-bitcoincore-rpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "crev-dev/cargo-crev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-issues.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-failure-issues.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "CI Failure Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/cache@a7833574556fa59680c1b7cb190c1735db73ebf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "dtolnay/rust-toolchain@5d458579430fc14a04a08a1e7d3694f545e91ce6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-kani.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-kani.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "model-checking/kani-github-action@f838096619a707b0f6b2118cf435eaccfa33e51f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-kani.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Kani CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-cargo-mutants.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-cargo-mutants.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "taiki-e/install-action@81ee1d48d9194cdcab880cbdc7d36e87d39874cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-cargo-mutants.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-cargo-mutants.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Weekly cargo-mutants",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-rustfmt.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-rustfmt.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "rust-bitcoin/rust-bitcoin-maintainer-tools/.github/actions/setup-rbmt@64715bab0d6fa1f3ebd6f9be336c4c5089bb5eb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-rustfmt.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-rustfmt.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Nightly rustfmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-cargo-semver-checks.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-cargo-semver-checks.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-update-cargo-semver-checks.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Update cargo-semver-checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin",
+      "target": "Update Nightly rustc",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "rust-bitcoin/rust-bitcoin"
+}

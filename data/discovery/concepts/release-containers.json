@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Containers"
+    "Release Containers",
+    "release-containers"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate-context",
       "text": "Release Containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "release-containers"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate",
       "text": "Release Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate",
+      "text": "release-containers"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/push-and-package.yml",
       "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-containers.yaml",
+      "source_repo": "gleam-lang/gleam"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "doom"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "Vulkan DOOM 3 port based on DOOM 3 BFG Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986728,
+      "status": "candidate",
+      "text": "condemn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919297,
+      "status": "candidate",
+      "text": "doomsday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39914182,
+      "status": "candidate",
+      "text": "day of reckoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903799,
+      "status": "candidate",
+      "text": "fate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898267,
+      "status": "candidate",
+      "text": "destine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33041,
+      "status": "candidate",
+      "text": "condemn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16032,
+      "status": "candidate",
+      "text": "designate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "sentence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "doomsday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "destine"
+    }
+  ],
+  "canonical_name": "doom",
+  "concept_id": "doom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "doom",
+      "sense_id": "doom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

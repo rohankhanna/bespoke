@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -116,6 +116,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "anexia/k8s-external-dns-webhook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "trailofbits/publications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/fiber"
     }
   ],
   "term": "Dependabot Auto Merge"

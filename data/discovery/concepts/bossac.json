@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bossac"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akavel/rumbac",
+      "status": "candidate-context",
+      "text": "a simple commandline flasher for Arduino Nano 33 BLE / Sense boards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rumbac",
+      "status": "candidate-context",
+      "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akavel/rumbac",
+      "status": "candidate",
+      "text": "`rumbac` is a simple commandline tool for uploading .bin files with compiled"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bossac",
+  "concept_id": "bossac",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akavel/rumbac"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bossac",
+      "sense_id": "bossac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

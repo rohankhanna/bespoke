@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "olafurpg/setup-scala@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "scalacenter/sbt-dependency-submission@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "creativescala/doodle",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "olafurpg/setup-scala@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "Doodle Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "scalacenter/sbt-dependency-submission@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "creativescala/doodle",
+      "target": "Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativescala/doodle",
+      "target": "creative-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativescala/doodle",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativescala/doodle",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creativescala/doodle",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:37:56.710063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1940
+    },
+    {
+      "path": "package.json",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 215
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 8493
+    },
+    {
+      "path": ".github/workflows/clean.yml",
+      "size": 2337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compositional vector graphics in Scala / Scala.JS",
+    "fork": false,
+    "full_name": "creativescala/doodle",
+    "html_url": "https://github.com/creativescala/doodle",
+    "language": "Scala",
+    "pushed_at": "2026-03-25T22:06:17Z",
+    "stargazers_count": 347,
+    "topics": [
+      "creative-coding",
+      "hacktoberfest",
+      "scala",
+      "visualization"
+    ],
+    "updated_at": "2026-03-11T07:19:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Doodle Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Doodle Build"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Clean",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "term": "Clean"
+    },
+    {
+      "context_snippet": "Copyright [Noel Welsh](http://noelwelsh.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creative-coding"
+    },
+    {
+      "context_snippet": "Copyright [Noel Welsh](http://noelwelsh.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Copyright [Noel Welsh](http://noelwelsh.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "Copyright [Noel Welsh](http://noelwelsh.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BC Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BC Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "chou"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "ovid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10458,
+      "status": "candidate",
+      "text": "sappho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10396,
+      "status": "candidate",
+      "text": "canto"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BC Lint",
+      "sense_id": "bc-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bc-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bc-lint",
+  "observation_id": "6672dc377de0a0fd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "BC Lint",
+  "source_context_snippet": "BC Lint",
+  "source_file": ".github/workflows/bc-lint.yml",
+  "source_repo": "LDLINGLINGLING/vllm",
+  "source_repo_description": "Solve the problem of inability to infer on vllm after minicpm training or awq quantization"
+}

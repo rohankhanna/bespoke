@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bytecodealliance/actions/wasmtime/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cross",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "bitshifter/mathbench-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "kvark/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "google/zerocopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "nfrechette/rtm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "cargo-deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "bytecodealliance/actions/wasmtime/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "taiki-e/install-action@cross",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitshifter/glam-rs",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitshifter/glam-rs",
+      "target": "3d-math-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitshifter/glam-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitshifter/glam-rs",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitshifter/glam-rs",
+      "target": "sse2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:09:12.394382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11220
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3756
+    },
+    {
+      "path": ".github/workflows/cargo-deny.yml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3968
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple and fast linear algebra library for games and graphics",
+    "fork": false,
+    "full_name": "bitshifter/glam-rs",
+    "html_url": "https://github.com/bitshifter/glam-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-01T11:27:18Z",
+    "stargazers_count": 1943,
+    "topics": [
+      "3d-math-libraries",
+      "rust",
+      "simd",
+      "sse2"
+    ],
+    "updated_at": "2026-04-23T05:23:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitshifter/mathbench-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/zerocopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvark/mint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nfrechette/rtm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cargo-deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "term": "cargo-deny"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-math-libraries"
+    },
+    {
+      "context_snippet": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![Build Status]][github-ci] [![Coverage Status]][coveralls.io]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse2"
+    }
+  ]
+}

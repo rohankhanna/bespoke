@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Compare"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "Compare"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate",
+      "text": "Compare"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020806,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020766,
+      "status": "candidate",
+      "text": "liken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020511,
+      "status": "candidate",
+      "text": "comparability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019638,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019487,
+      "status": "candidate",
+      "text": "equate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7040,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6035,
+      "status": "candidate",
+      "text": "equate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "liken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "comparability"
+    }
+  ],
+  "canonical_name": "Compare",
+  "concept_id": "compare",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/compare-results.yml",
+      "source_repo": "adobe/spectrum-css"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compare",
+      "sense_id": "compare#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

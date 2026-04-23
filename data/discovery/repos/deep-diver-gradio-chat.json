@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:52.971330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HuggingChat like UI in Gradio",
+    "fork": false,
+    "full_name": "deep-diver/gradio-chat",
+    "html_url": "https://github.com/deep-diver/gradio-chat",
+    "language": "Python",
+    "pushed_at": "2023-05-23T02:35:34Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-03-28T22:02:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Buf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Buf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate",
+      "text": "Buf"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023693,
+      "status": "candidate",
+      "text": "int"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023692,
+      "status": "candidate",
+      "text": "addr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023691,
+      "status": "candidate",
+      "text": "const"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023690,
+      "status": "candidate",
+      "text": "struct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023689,
+      "status": "candidate",
+      "text": "bool"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Buf",
+  "concept_id": "buf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "bufbuild/protovalidate-go"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Buf",
+      "sense_id": "buf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

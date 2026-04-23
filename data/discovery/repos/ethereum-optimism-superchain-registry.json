@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/superchain-registry",
+      "target": "ethereum-optimism/op-geth",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:53.484736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An index of chains which serves as the source of truth for who\u2019s in the Superchain Ecosystem",
+    "fork": false,
+    "full_name": "ethereum-optimism/superchain-registry",
+    "html_url": "https://github.com/ethereum-optimism/superchain-registry",
+    "language": "Go",
+    "pushed_at": "2026-04-01T15:09:00Z",
+    "stargazers_count": 216,
+    "topics": [],
+    "updated_at": "2026-04-21T09:43:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/op-geth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

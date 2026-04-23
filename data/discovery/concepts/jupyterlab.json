@@ -31,6 +31,18 @@
       "source_repo": "jupyterlab/frontends-team-compass",
       "status": "candidate-context",
       "text": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "Coding assistance for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jupyterlab/frontends-team-compass",
       "status": "candidate",
       "text": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jupyterlab/frontends-team-compass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

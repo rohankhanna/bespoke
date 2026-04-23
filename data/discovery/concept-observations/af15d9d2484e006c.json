@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Datacenter Scale Distributed Inference Serving Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build, Test, and Copy Framework Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build, Test, and Copy Framework Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55598,
+      "status": "candidate",
+      "text": "reproduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54931,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54835,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54264,
+      "status": "candidate",
+      "text": "imaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54225,
+      "status": "candidate",
+      "text": "plate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build, Test, and Copy Framework Image",
+      "sense_id": "build-test-and-copy-framework-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-test-and-copy-framework-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-test-and-copy-framework-image",
+  "observation_id": "af15d9d2484e006c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build, Test, and Copy Framework Image",
+  "source_context_snippet": "Build, Test, and Copy Framework Image",
+  "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+  "source_repo": "ai-dynamo/dynamo",
+  "source_repo_description": "A Datacenter Scale Distributed Inference Serving Framework"
+}

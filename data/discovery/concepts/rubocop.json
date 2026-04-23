@@ -1,7 +1,8 @@
 {
   "aliases": [
     "rubocop",
-    "Rubocop"
+    "Rubocop",
+    "RuboCop"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "rails/webpacker",
       "status": "candidate-context",
       "text": "Rubocop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "RuboCop"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +61,12 @@
       "source_repo": "rails/webpacker",
       "status": "candidate",
       "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "RuboCop"
     }
   ],
   "candidate_related_terms": [],
@@ -67,11 +86,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/rubocop.yml",
       "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "ruby/gem_rbs_collection"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

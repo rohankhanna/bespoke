@@ -334,6 +334,66 @@
       "source_repo": "actions/create-github-app-token",
       "status": "candidate-context",
       "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f\ud83e\udd80 Build modular and scalable LLM Applications in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anishkny/webgif",
+      "status": "candidate-context",
+      "text": "Easily generate animated GIFs from websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishkny/webgif",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"logo\" src=\"https://rawgit.com/anishkny/webgif/master/logo.svg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "UFO\u00b3: Weaving the Digital Agent Galaxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -492,6 +552,36 @@
       "source_repo": "actions/create-github-app-token",
       "status": "candidate",
       "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/enigo-rs/enigo/build.yml?branch=main)](https://github.com/enigo-rs/enigo/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anishkny/webgif",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"logo\" src=\"https://rawgit.com/anishkny/webgif/master/logo.svg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -768,11 +858,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "actions/create-github-app-token"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xPlaygrounds/rig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enigo-rs/enigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anishkny/webgif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UFO"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Docker images",
-    "docker-images"
+    "docker-images",
+    "Docker Images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -22,6 +23,18 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate-context",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "Rust full node implementation of the Fuel v2 protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate-context",
+      "text": "Docker Images"
     }
   ],
   "candidate_glosses": [
@@ -30,9 +43,51 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate",
+      "text": "Docker Images"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13695,
+      "status": "candidate",
+      "text": "loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9157,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9157,
+      "status": "candidate",
+      "text": "lumper"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Docker images",
   "concept_id": "docker-images",
@@ -49,11 +104,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "FuelLabs/fuel-core"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -367,6 +367,66 @@
       "source_repo": "aquasecurity/vim-tfsec",
       "status": "candidate-context",
       "text": "Vim plugin for tfsec to install and run tfsec."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "status": "candidate-context",
+      "text": "Real modules.tf demo (updated May 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "status": "candidate-context",
+      "text": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "status": "candidate-context",
+      "text": "serverless.tf playground for examples and experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "status": "candidate-context",
+      "text": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform provider for executing shell commands and saving output to state file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform Provider Shell"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +609,36 @@
       "source_repo": "aquasecurity/vim-tfsec",
       "status": "candidate",
       "text": "Vim plugin for tfsec to install and run tfsec."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/modules.tf-demo",
+      "status": "candidate",
+      "text": "This repository contains Terraform configuration files which were automatically generated from blueprint created using [Cloudcraft](https://www.cloudcraft.co)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "status": "candidate",
+      "text": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate",
+      "text": "Terraform Provider Shell"
     }
   ],
   "candidate_related_terms": [
@@ -772,11 +862,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aquasecurity/vim-tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottwinkler/terraform-provider-shell"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

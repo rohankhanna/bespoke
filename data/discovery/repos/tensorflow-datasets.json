@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-optional.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-template.yml"
+    },
+    {
+      "component": "nick-fields/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-template.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-optional.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-template.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-template.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "nick-fields/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "Unittests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "Publish tfds-nightly to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorflow/datasets",
+      "target": "Publish tensorflow-datasets to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:10.141935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4082
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 106
+    },
+    {
+      "path": ".github/workflows/pytest-optional.yml",
+      "size": 1475
+    },
+    {
+      "path": ".github/workflows/pytest-template.yml",
+      "size": 4169
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 3813
+    },
+    {
+      "path": ".github/workflows/release-nightly.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ...",
+    "fork": false,
+    "full_name": "tensorflow/datasets",
+    "html_url": "https://github.com/tensorflow/datasets",
+    "language": "Python",
+    "pushed_at": "2026-03-27T23:40:01Z",
+    "stargazers_count": 4558,
+    "topics": [
+      "data",
+      "dataset",
+      "datasets",
+      "jax",
+      "machine-learning",
+      "numpy",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-22T22:40:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Unittests"
+    },
+    {
+      "context_snippet": "Publish tfds-nightly to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "term": "Publish tfds-nightly to PyPI"
+    },
+    {
+      "context_snippet": "Publish tensorflow-datasets to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish tensorflow-datasets to PyPI"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

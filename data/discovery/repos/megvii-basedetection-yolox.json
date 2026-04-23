@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "megengine/yolox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "feigechuanshu/ncnn-android-yolox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "ar-ray-code/yolox-ros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "deftruth/lite.ai.toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "megengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "target": "yolox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:47.779610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13038
+    },
+    {
+      "path": "requirements.txt",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1274
+    },
+    {
+      "path": ".github/workflows/format_check.sh",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/",
+    "fork": false,
+    "full_name": "Megvii-BaseDetection/YOLOX",
+    "html_url": "https://github.com/Megvii-BaseDetection/YOLOX",
+    "language": "Python",
+    "pushed_at": "2025-06-08T03:52:54Z",
+    "stargazers_count": 10437,
+    "topics": [
+      "deep-learning",
+      "megengine",
+      "ncnn",
+      "object-detection",
+      "onnx",
+      "openvino",
+      "pytorch",
+      "tensorrt",
+      "yolo",
+      "yolov3",
+      "yolox"
+    ],
+    "updated_at": "2026-04-23T21:55:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ar-ray-code/yolox-ros",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/lite.ai.toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feigechuanshu/ncnn-android-yolox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megengine/yolox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megengine"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolox"
+    }
+  ]
+}

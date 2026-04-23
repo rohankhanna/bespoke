@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml"
+    },
+    {
+      "component": "xu-cheng/latex-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    },
+    {
+      "component": "manim-kindergarten/manim_action_renderer@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "manim-kindergarten/manim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "cigar666/my_manim_projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "pdcxs/manimprojects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "136108haumea/my-manim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "xu-cheng/latex-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "Build Common Problems Document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "manim-kindergarten/manim_action_renderer@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renderer.yml",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "Render videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "bilibili",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "manim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "target": "manim-kindergarten",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:00.690613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7662
+    },
+    {
+      "path": ".github/workflows/latex-compile.yml",
+      "size": 1364
+    },
+    {
+      "path": ".github/workflows/renderer.yml",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "manim-kindergarten's communal repository",
+    "fork": false,
+    "full_name": "manim-kindergarten/manim_sandbox",
+    "html_url": "https://github.com/manim-kindergarten/manim_sandbox",
+    "language": "Python",
+    "pushed_at": "2022-08-02T16:03:32Z",
+    "stargazers_count": 509,
+    "topics": [
+      "animation",
+      "bilibili",
+      "manim",
+      "manim-kindergarten",
+      "python"
+    ],
+    "updated_at": "2026-04-03T07:17:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "136108haumea/my-manim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cigar666/my_manim_projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manim-kindergarten/manim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdcxs/manimprojects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Common Problems Document",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latex-compile.yml",
+      "term": "Build Common Problems Document"
+    },
+    {
+      "context_snippet": "Render videos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renderer.yml",
+      "term": "Render videos"
+    },
+    {
+      "context_snippet": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bilibili"
+    },
+    {
+      "context_snippet": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    },
+    {
+      "context_snippet": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim-kindergarten"
+    }
+  ]
+}

@@ -19,6 +19,78 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate-context",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "Very fast link checker for CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate-context",
+      "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inikep/lizard",
+      "status": "candidate-context",
+      "text": "Lizard is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at fast decompression speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inikep/lizard",
+      "status": "candidate-context",
+      "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate-context",
+      "text": "FPC - Fast Prefix Coder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate-context",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +99,42 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "untitaker/hyperlink",
+      "status": "candidate",
+      "text": "A command-line tool to find broken links in your static site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badgen/badgen",
+      "status": "candidate",
+      "text": "[![npm version][npm-src]][npm-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inikep/lizard",
+      "status": "candidate",
+      "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +220,47 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "badgen/badgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kagiannis/FPC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

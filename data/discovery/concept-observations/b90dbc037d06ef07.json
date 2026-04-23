@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "amalgamation demos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "amalgamation demos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12126,
+      "status": "candidate",
+      "text": "combination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "angle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "balkans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "bloc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12005,
+      "status": "candidate",
+      "text": "bowl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "amalgamation demos",
+      "sense_id": "amalgamation-demos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "amalgamation-demos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "amalgamation-demos",
+  "observation_id": "b90dbc037d06ef07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "amalgamation demos",
+  "source_context_snippet": "amalgamation demos",
+  "source_file": ".github/workflows/amalgamation_demos.yml",
+  "source_repo": "simdutf/simdutf",
+  "source_repo_description": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+}

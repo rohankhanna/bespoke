@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Theme Readme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "Generate Theme Readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate",
+      "text": "Generate Theme Readme"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18679,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10437,
+      "status": "candidate",
+      "text": "aaron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10437,
+      "status": "candidate",
+      "text": "abraham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10437,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "notepad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Theme Readme",
+  "concept_id": "generate-theme-readme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Theme Readme",
+      "sense_id": "generate-theme-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Base Test Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Base Test Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26071,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26007,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25976,
+      "status": "candidate",
+      "text": "spaceport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22542,
+      "status": "candidate",
+      "text": "hypothesis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base Test Workflow",
+      "sense_id": "base-test-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "base-test-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "base-test-workflow",
+  "observation_id": "d81f26fd0ad3f5ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Base Test Workflow",
+  "source_context_snippet": "Base Test Workflow",
+  "source_file": ".github/workflows/test-base.yml",
+  "source_repo": "graphile/crystal",
+  "source_repo_description": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+}

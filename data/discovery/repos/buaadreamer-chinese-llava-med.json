@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "gpt4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "huggingface-datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "llama-factory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "medical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "minigpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "qwen1-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:26.647115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine",
+    "fork": false,
+    "full_name": "BUAADreamer/Chinese-LLaVA-Med",
+    "html_url": "https://github.com/BUAADreamer/Chinese-LLaVA-Med",
+    "language": "Python",
+    "pushed_at": "2024-05-22T11:25:13Z",
+    "stargazers_count": 107,
+    "topics": [
+      "ai",
+      "chinese",
+      "gpt4v",
+      "huggingface-datasets",
+      "llama-factory",
+      "llava",
+      "medical",
+      "minigpt4",
+      "mllm",
+      "multimodal",
+      "qwen1-5",
+      "transformers"
+    ],
+    "updated_at": "2026-03-24T12:17:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4v"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-datasets"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-factory"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minigpt4"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen1-5"
+    },
+    {
+      "context_snippet": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

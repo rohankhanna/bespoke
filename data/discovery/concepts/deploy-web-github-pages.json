@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Web (GitHub Pages)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/app",
+      "status": "candidate-context",
+      "text": "Clear your mind. Organise your life. Ignore distractions. Focus on what matters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/app",
+      "status": "candidate-context",
+      "text": "Deploy Web (GitHub Pages)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/app",
+      "status": "candidate",
+      "text": "Deploy Web (GitHub Pages)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12748,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12363,
+      "status": "candidate",
+      "text": "ploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11999,
+      "status": "candidate",
+      "text": "beam"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Web (GitHub Pages)",
+  "concept_id": "deploy-web-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy_web.yml",
+      "source_repo": "dwyl/app"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Web (GitHub Pages)",
+      "sense_id": "deploy-web-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

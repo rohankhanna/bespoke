@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/go-cmp",
+      "target": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/go-cmp",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/go-cmp",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-cmp",
+      "target": "equality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-cmp",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:42.827672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1690
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package for comparing Go values in tests",
+    "fork": false,
+    "full_name": "google/go-cmp",
+    "html_url": "https://github.com/google/go-cmp",
+    "language": "Go",
+    "pushed_at": "2026-03-10T22:00:54Z",
+    "stargazers_count": 4618,
+    "topics": [
+      "equality",
+      "go",
+      "testing"
+    ],
+    "updated_at": "2026-04-23T19:36:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "equality"
+    },
+    {
+      "context_snippet": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)][godev]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

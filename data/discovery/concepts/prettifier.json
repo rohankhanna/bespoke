@@ -19,6 +19,18 @@
       "source_repo": "haskell/stylish-haskell",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "haskell/stylish-haskell",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "haskell/stylish-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

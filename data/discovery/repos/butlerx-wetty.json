@@ -506,20 +506,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "butlerx/wetty",
-      "target": "nginx-proxy/nginx-proxy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "butlerx/wetty",
-      "target": "xtermjs/xterm.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "butlerx/wetty",
       "target": "all-contributors/all-contributors",
       "target_type": "repository"
     },
@@ -1315,7 +1301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:35:46.442513+00:00",
+  "fetched_at": "2026-04-23T19:37:54.150473+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1364,7 +1350,7 @@
     "html_url": "https://github.com/butlerx/wetty",
     "language": "TypeScript",
     "pushed_at": "2026-04-02T08:58:14Z",
-    "stargazers_count": 5248,
+    "stargazers_count": 5249,
     "topics": [
       "ajaxterm",
       "anyterm",
@@ -1376,22 +1362,12 @@
       "xterm-js",
       "xtermjs"
     ],
-    "updated_at": "2026-04-22T19:45:07Z"
+    "updated_at": "2026-04-23T07:43:27Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nginx-proxy/nginx-proxy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xtermjs/xterm.js",
       "source_file": "README.md"
     }
   ],

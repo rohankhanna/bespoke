@@ -454,6 +454,228 @@
       "source_repo": "powturbo/TurboBench",
       "status": "candidate-context",
       "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate-context",
+      "text": "airspeed velocity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "A high-performance, lightweight, and cross-platform QUIC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logic-star-ai/swt-bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] Evaluation harness for SWT-Bench, a benchmark for evaluating LLM repository-level test-generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logic-star-ai/swt-bench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate-context",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate-context",
+      "text": "Statistics-driven benchmarking library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd-benches",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate-context",
+      "text": "This repo contains the code for \"VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\" [ICLR 2025]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate-context",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "SWE-bench: Can Language Models Resolve Real-world Github Issues?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u8a00\u7406\u89e3\u6d4b\u8bc4\u57fa\u51c6 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate-context",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate-context",
+      "text": "Codes for the paper \"\u221eBench: Extending Long Context Evaluation Beyond 100K Tokens\": https://arxiv.org/abs/2402.13718"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate-context",
+      "text": "LongBench v2 and LongBench (ACL 25'&24')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate-context",
+      "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "OpenMMLab Pose Estimation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +900,120 @@
       "source_repo": "powturbo/TurboBench",
       "status": "candidate",
       "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airspeed-velocity/asv",
+      "status": "candidate",
+      "text": "airspeed velocity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/tquic",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beir-cellar/beir",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logic-star-ai/swt-bench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumWars",
+      "status": "candidate",
+      "text": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "![Test Status](https://github.com/flashbots/contender/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd-benches",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUE",
+      "status": "candidate",
+      "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/InfiniteBench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongBench",
+      "status": "candidate",
+      "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "Benchmark"
     }
   ],
   "candidate_related_terms": [
@@ -1029,11 +1365,143 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "powturbo/TurboBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "airspeed-velocity/asv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tquic-benchmark.yml",
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "logic-star-ai/swt-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "Nugine/simd-benches"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/InfiniteBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/LongBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "gofiber/fiber"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

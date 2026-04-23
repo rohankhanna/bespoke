@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Legacy Webhook Path"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Legacy Webhook Path"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "Legacy Webhook Path"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "diary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "gift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "heritage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Legacy Webhook Path",
+  "concept_id": "legacy-webhook-path",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/legacy-webhook-path.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Legacy Webhook Path",
+      "sense_id": "legacy-webhook-path#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

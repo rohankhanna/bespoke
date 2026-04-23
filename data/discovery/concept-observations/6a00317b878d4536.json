@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ember.js - A JavaScript framework for creating ambitious web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable CI Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable CI Jobs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12938,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12326,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12284,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12284,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12284,
+      "status": "candidate",
+      "text": "eve"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable CI Jobs",
+      "sense_id": "reusable-ci-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-ci-jobs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-ci-jobs",
+  "observation_id": "6a00317b878d4536",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Reusable CI Jobs",
+  "source_context_snippet": "Reusable CI Jobs",
+  "source_file": ".github/workflows/ci-jobs.yml",
+  "source_repo": "emberjs/ember.js",
+  "source_repo_description": "Ember.js - A JavaScript framework for creating ambitious web applications"
+}

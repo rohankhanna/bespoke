@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-dist.yml",
       "source_repo": "docker/build-push-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "Mic92/direnv-instant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-single.yml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-licenses.yaml",
+      "source_repo": "python-poetry/poetry-core"
     }
   ]
 }

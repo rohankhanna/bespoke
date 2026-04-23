@@ -1,0 +1,17 @@
+{
+  "component": "diem/actions/comment@a5fa31ff2b54a544cd88ac912cda469742592e6c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dep-summaries.yml",
+      "source_repo": "diem/diem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dep-update-review.yml",
+      "source_repo": "diem/diem"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/elixir"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_notifications.yml",
+      "source_repo": "elixir-lang/elixir"
+    }
+  ]
+}

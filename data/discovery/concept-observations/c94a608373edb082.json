@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Scala library for controlling/interacting with Isabelle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19316678,
+      "status": "candidate",
+      "text": "cathy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19316507,
+      "status": "candidate",
+      "text": "isobel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19316434,
+      "status": "candidate",
+      "text": "isadora"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19316234,
+      "status": "candidate",
+      "text": "isabella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19316171,
+      "status": "candidate",
+      "text": "isabel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "isabelle",
+      "sense_id": "isabelle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "isabelle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "isabelle",
+  "observation_id": "c94a608373edb082",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "isabelle",
+  "source_context_snippet": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "dominique-unruh/scala-isabelle",
+  "source_repo_description": "A Scala library for controlling/interacting with Isabelle"
+}

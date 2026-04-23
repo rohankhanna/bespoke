@@ -1,0 +1,541 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml"
+    },
+    {
+      "component": "docker://europe-west4-docker.pkg.dev/production-ai-template/starter-pack/e2e-tests",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-samples",
+      "target": "google/adk-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-samples",
+      "target": "google/adk-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-samples",
+      "target": "google/adk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-samples",
+      "target": "google/adk-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "google/adk-samples",
+      "target": "Dependabot Auto-Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/adk-samples",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "source_repo": "google/adk-samples",
+      "target": "\ud83d\udcac Gemini CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "source_repo": "google/adk-samples",
+      "target": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/create-github-app-token@67018539274d69449ef7c02e8e71183d1719ab42",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples",
+      "target": "\ud83e\uddd0 Gemini Pull Request Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples",
+      "target": "reviewdog/action-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples",
+      "target": "\u2705 Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples",
+      "target": "docker://europe-west4-docker.pkg.dev/production-ai-template/starter-pack/e2e-tests",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "source_repo": "google/adk-samples",
+      "target": "checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-samples",
+      "target": "agent-samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:34.045018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3830
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 7921
+    },
+    {
+      "path": ".github/workflows/gemini-cli.yml",
+      "size": 15476
+    },
+    {
+      "path": ".github/workflows/gemini-issue-automated-triage.yml",
+      "size": 5053
+    },
+    {
+      "path": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "size": 4575
+    },
+    {
+      "path": ".github/workflows/gemini-pr-review.yml",
+      "size": 24551
+    },
+    {
+      "path": ".github/workflows/ruff-checks.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/test_templated_agent.yaml",
+      "size": 6408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of sample agents built with Agent Development Kit (ADK) ",
+    "fork": false,
+    "full_name": "google/adk-samples",
+    "html_url": "https://github.com/google/adk-samples",
+    "language": "Python",
+    "pushed_at": "2026-04-21T22:52:45Z",
+    "stargazers_count": 8947,
+    "topics": [
+      "adk",
+      "agent-samples",
+      "agents"
+    ],
+    "updated_at": "2026-04-23T17:04:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot Auto-Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot Auto-Merge"
+    },
+    {
+      "context_snippet": "'\ud83d\udcac Gemini CLI'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-cli.yml",
+      "term": "\ud83d\udcac Gemini CLI"
+    },
+    {
+      "context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "term": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "term": "\ud83d\udccb Gemini Scheduled Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83e\uddd0 Gemini Pull Request Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "term": "\ud83e\uddd0 Gemini Pull Request Review"
+    },
+    {
+      "context_snippet": "\u2705 Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "term": "\u2705 Checks"
+    },
+    {
+      "context_snippet": "checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_templated_agent.yaml",
+      "term": "checks"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-samples"
+    }
+  ]
+}

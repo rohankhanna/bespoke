@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build wheels in a container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Causal depthwise conv1d in CUDA, with a PyTorch interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate-context",
+      "text": "Build wheels in a container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "status": "candidate",
+      "text": "Build wheels in a container"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26601,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26201,
+      "status": "candidate",
+      "text": "escaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26102,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26102,
+      "status": "candidate",
+      "text": "escape valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26102,
+      "status": "candidate",
+      "text": "relief valve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build wheels in a container",
+  "concept_id": "build-wheels-in-a-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build wheels in a container",
+      "sense_id": "build-wheels-in-a-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

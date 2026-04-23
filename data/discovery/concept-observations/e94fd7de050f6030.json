@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "How to use our public wav2vec2 dimensional emotion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An introduction to our model for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041154,
+      "status": "candidate",
+      "text": "foreplay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032836,
+      "status": "candidate",
+      "text": "rousing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029757,
+      "status": "candidate",
+      "text": "stimulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037023,
+      "status": "candidate",
+      "text": "excited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036779,
+      "status": "candidate",
+      "text": "excitement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arousal",
+      "sense_id": "arousal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "rousing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "foreplay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7031,
+      "status": "candidate",
+      "text": "stimulation"
+    }
+  ],
+  "concept_id": "arousal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arousal",
+  "observation_id": "e94fd7de050f6030",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "arousal",
+  "source_context_snippet": "An introduction to our model for",
+  "source_file": null,
+  "source_repo": "audeering/w2v2-how-to",
+  "source_repo_description": "How to use our public wav2vec2 dimensional emotion model"
+}

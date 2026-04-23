@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "helia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "Ready-to-run Helia examples for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "helia",
+  "concept_id": "helia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia-remote-pinning"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helia",
+      "sense_id": "helia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

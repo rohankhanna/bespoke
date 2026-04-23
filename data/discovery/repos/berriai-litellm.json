@@ -1,0 +1,548 @@
+{
+  "components": [
+    {
+      "component": "prism-react-renderer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prisma",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-copy-to-clipboard",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-copy-to-clipboard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_price_and_context_window.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_price_and_context_window.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-schema-sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "prism-react-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "prisma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "react-copy-to-clipboard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "@types/react-copy-to-clipboard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BerriAI/litellm",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-unit-services-base.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_price_and_context_window.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_price_and_context_window.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-schema-sync.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-schema-sync.yml",
+      "source_repo": "BerriAI/litellm",
+      "target": "Check Schema Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "ai-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "azure-openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "litellm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "llm-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "mcp-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "openai-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerriAI/litellm",
+      "target": "vertex-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:32.400358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27799
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4144
+    },
+    {
+      "path": "package.json",
+      "size": 472
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7610
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 1012
+    },
+    {
+      "path": ".github/workflows/_test-unit-base.yml",
+      "size": 4037
+    },
+    {
+      "path": ".github/workflows/_test-unit-services-base.yml",
+      "size": 5996
+    },
+    {
+      "path": ".github/workflows/auto_update_price_and_context_window.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/auto_update_price_and_context_window_file.py",
+      "size": 6300
+    },
+    {
+      "path": ".github/workflows/check-schema-sync.yml",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "litellm_internal_staging",
+    "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+    "fork": false,
+    "full_name": "BerriAI/litellm",
+    "html_url": "https://github.com/BerriAI/litellm",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:42:21Z",
+    "stargazers_count": 44463,
+    "topics": [
+      "ai-gateway",
+      "anthropic",
+      "azure-openai",
+      "bedrock",
+      "gateway",
+      "langchain",
+      "litellm",
+      "llm",
+      "llm-gateway",
+      "llmops",
+      "mcp-gateway",
+      "openai",
+      "openai-proxy",
+      "vertex-ai"
+    ],
+    "updated_at": "2026-04-23T21:27:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Schema Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-schema-sync.yml",
+      "term": "Check Schema Sync"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-gateway"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-openai"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litellm"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-gateway"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-gateway"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-proxy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vertex-ai"
+    }
+  ]
+}

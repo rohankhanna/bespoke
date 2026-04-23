@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast handcraft svg badge generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version][npm-src]][npm-href]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version][npm-src]][npm-href]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012287,
+      "status": "candidate",
+      "text": "insignia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009412,
+      "status": "candidate",
+      "text": "laissez-passer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008176,
+      "status": "candidate",
+      "text": "regimental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008174,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007265,
+      "status": "candidate",
+      "text": "policeman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "badge",
+      "sense_id": "badge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "badge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "badge",
+  "observation_id": "d932b1a8e1fddafd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "badge",
+  "source_context_snippet": "[![npm version][npm-src]][npm-href]",
+  "source_file": null,
+  "source_repo": "badgen/badgen",
+  "source_repo_description": "Fast handcraft svg badge generator."
+}

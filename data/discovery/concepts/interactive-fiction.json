@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "interactive-fiction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "The core software distribution for the Inform 7 programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "A learning environment for man-made Interactive Fiction games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "interactive-fiction",
+  "concept_id": "interactive-fiction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ganelson/inform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/jericho"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interactive-fiction",
+      "sense_id": "interactive-fiction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

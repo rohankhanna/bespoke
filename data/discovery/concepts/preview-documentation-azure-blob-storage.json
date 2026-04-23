@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Preview Documentation (Azure Blob Storage)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Preview Documentation (Azure Blob Storage)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate",
+      "text": "Preview Documentation (Azure Blob Storage)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17917,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17917,
+      "status": "candidate",
+      "text": "weighing machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "badge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "blurring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Preview Documentation (Azure Blob Storage)",
+  "concept_id": "preview-documentation-azure-blob-storage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Preview Documentation (Azure Blob Storage)",
+      "sense_id": "preview-documentation-azure-blob-storage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "kaste/sublimelinter-addon-toggler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "kaste/sublimelinter-addon-goto-flash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "kaste/sublimelinter-any-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "fredcallaway/sublimelinter-contrib-mypy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "TrueBrain/actions-flake8@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "SublimeText/UnitTesting/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "SublimeText/UnitTesting/actions/run-tests@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "SublimeText/UnitTesting/actions/run-syntax-tests@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "kaste/upgrade-messages-test-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "target": "sublimelinter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "SublimeLinter/SublimeLinter"
+}

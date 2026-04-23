@@ -31,6 +31,18 @@
       "source_repo": "alibaba/EasyNLP",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/EasyTransfer",
+      "status": "candidate-context",
+      "text": "EasyTransfer is designed to make the development of transfer learning in NLP applications easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyTransfer",
+      "status": "candidate-context",
+      "text": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alibaba/EasyNLP",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyTransfer",
+      "status": "candidate",
+      "text": "The literature has witnessed the success of applying deep Transfer Learning (TL) for many real-world NLP applications, yet it is not easy to build an easy-to-use TL toolkit to achieve such a goal. To bridge this gap, EasyTransfer is designed to facilitate users leveraging deep T\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alibaba/EasyNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/EasyTransfer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -115,6 +115,54 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate-context",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate-context",
+      "text": "Halide is a programming language designed to make it easier to write"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "Image processing and computer vision library in pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanvision-examples",
+      "status": "candidate-context",
+      "text": "Notebooks demonstrating example applications of the cleanvision library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision-examples",
+      "status": "candidate-context",
+      "text": "The notebooks in this repository demonstrate example applications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halide/Halide",
+      "status": "candidate",
+      "text": "Halide is a programming language designed to make it easier to write"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanvision-examples",
+      "status": "candidate",
+      "text": "The notebooks in this repository demonstrate example applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +304,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "trufanov-nok/minidjvu-mod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanvision-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

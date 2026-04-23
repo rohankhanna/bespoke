@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Async autocompletion for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h2 align=\"center\"> VimComplete </h2>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"> VimComplete </h2>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936122,
+      "status": "candidate",
+      "text": "snipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9934687,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "chunks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "clippings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snippets",
+      "sense_id": "snippets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snippets",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snippets",
+  "observation_id": "d25f5368a018fdd7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "snippets",
+  "source_context_snippet": "<h2 align=\"center\"> VimComplete </h2>",
+  "source_file": null,
+  "source_repo": "girishji/vimcomplete",
+  "source_repo_description": "Async autocompletion for Vim."
+}

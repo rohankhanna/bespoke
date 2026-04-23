@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Enhancement Closer (no milestone)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Official repository for the Microsoft C/C++ extension for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate-context",
+      "text": "Enhancement Closer (no milestone)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cpptools",
+      "status": "candidate",
+      "text": "Enhancement Closer (no milestone)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11746,
+      "status": "candidate",
+      "text": "better"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11746,
+      "status": "candidate",
+      "text": "further"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11746,
+      "status": "candidate",
+      "text": "mat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11746,
+      "status": "candidate",
+      "text": "more"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11746,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Enhancement Closer (no milestone)",
+  "concept_id": "enhancement-closer-no-milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/enhancement-closer-no-milestone.yml",
+      "source_repo": "microsoft/vscode-cpptools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enhancement Closer (no milestone)",
+      "sense_id": "enhancement-closer-no-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

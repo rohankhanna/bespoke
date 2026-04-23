@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "absolute-version/commit-and-tag-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-native-community/releases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaab/gitchangelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "frinyvonnick/gitmoji-changelog"
     }
   ],
   "term": "Changelog"

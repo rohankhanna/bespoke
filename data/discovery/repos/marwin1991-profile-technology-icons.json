@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/lang-html",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@dnd-kit/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@dnd-kit/sortable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@dnd-kit/utilities",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@emotion/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@emotion/styled",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mui/icons-material",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mui/material",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@uiw/codemirror-theme-darcula",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@uiw/react-codemirror",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby-link",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby-plugin-manifest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby-plugin-material-ui",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby-plugin-smoothscroll",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gatsby-plugin-styled-components",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-copy-to-clipboard",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styled-components",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "lucabubi/star-history",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@codemirror/lang-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@dnd-kit/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@dnd-kit/sortable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@dnd-kit/utilities",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@emotion/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@emotion/styled",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@mui/icons-material",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@mui/material",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@uiw/codemirror-theme-darcula",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "@uiw/react-codemirror",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby-link",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby-plugin-manifest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby-plugin-material-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby-plugin-smoothscroll",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gatsby-plugin-styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "react-copy-to-clipboard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons",
+      "target": "profile-readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:13.703330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 94633
+    },
+    {
+      "path": "package.json",
+      "size": 1507
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udccb \ud83d\ude04 Add icons to your GitHub profile using this generator  \ud83d\ude04 \ud83d\udccb",
+    "fork": false,
+    "full_name": "marwin1991/profile-technology-icons",
+    "html_url": "https://github.com/marwin1991/profile-technology-icons",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T13:14:26Z",
+    "stargazers_count": 973,
+    "topics": [
+      "generator",
+      "github",
+      "icons",
+      "profile",
+      "profile-readme"
+    ],
+    "updated_at": "2026-04-23T17:25:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucabubi/star-history",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile"
+    },
+    {
+      "context_snippet": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    }
+  ]
+}

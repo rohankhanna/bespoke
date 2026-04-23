@@ -19,6 +19,18 @@
       "source_repo": "ethereum-optimism/optimism",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ethereum-optimism/optimism",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ethereum-optimism/optimism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rollup/plugins"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

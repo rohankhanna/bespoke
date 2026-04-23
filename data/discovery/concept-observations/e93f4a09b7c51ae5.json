@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "End-to-End Speech Processing Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952998,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952997,
+      "status": "candidate",
+      "text": "enchainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952996,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952995,
+      "status": "candidate",
+      "text": "shackler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952994,
+      "status": "candidate",
+      "text": "fetter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chainer",
+      "sense_id": "chainer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chainer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chainer",
+  "observation_id": "e93f4a09b7c51ae5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "chainer",
+  "source_context_snippet": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>",
+  "source_file": null,
+  "source_repo": "espnet/espnet",
+  "source_repo_description": "End-to-End Speech Processing Toolkit"
+}

@@ -67,6 +67,30 @@
       "source_repo": "grafana/grafana",
       "status": "candidate-context",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "GPU Accelerated t-SNE for CUDA with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "grafana/grafana",
       "status": "candidate",
       "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/superset",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CannyLab/tsne-cuda"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

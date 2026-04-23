@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On-prem GitHub Actions runners, backed by Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish CentOS 8 runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish CentOS 8 runner"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17693,
+      "status": "candidate",
+      "text": "fable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17004,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16995,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16965,
+      "status": "candidate",
+      "text": "footing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16902,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish CentOS 8 runner",
+      "sense_id": "build-and-publish-centos-8-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-centos-8-runner",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-centos-8-runner",
+  "observation_id": "75b8859f00c155c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build and publish CentOS 8 runner",
+  "source_context_snippet": "Build and publish CentOS 8 runner",
+  "source_file": ".github/workflows/build-centos8.yml",
+  "source_repo": "boozallen/goobernetes",
+  "source_repo_description": "On-prem GitHub Actions runners, backed by Kubernetes"
+}

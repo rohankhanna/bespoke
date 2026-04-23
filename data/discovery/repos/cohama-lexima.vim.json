@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cohama/lexima.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cohama/lexima.vim",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:55.813738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4775
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auto close parentheses and repeat by dot dot dot...",
+    "fork": false,
+    "full_name": "cohama/lexima.vim",
+    "html_url": "https://github.com/cohama/lexima.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-05-15T15:23:28Z",
+    "stargazers_count": 1118,
+    "topics": [],
+    "updated_at": "2026-04-11T07:52:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

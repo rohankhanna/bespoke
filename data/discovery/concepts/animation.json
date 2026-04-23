@@ -31,6 +31,42 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate-context",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3b1b/manim",
+      "status": "candidate-context",
+      "text": "Animation engine for explanatory math videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3b1b/manim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "manim-kindergarten's communal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate-context",
+      "text": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "Animation oriented nodes pack for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3b1b/manim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_sandbox",
+      "status": "candidate",
+      "text": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melMass/comfy_mtb",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "3b1b/manim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_sandbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "melMass/comfy_mtb"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

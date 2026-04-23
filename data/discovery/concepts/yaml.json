@@ -103,6 +103,42 @@
       "source_repo": "urfave/cli-altsrc",
       "status": "candidate-context",
       "text": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate-context",
+      "text": "Canonical source repository for LibYAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate-context",
+      "text": "dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate-context",
+      "text": "Language Server for YAML Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "urfave/cli-altsrc",
       "status": "candidate",
       "text": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaml/libyaml",
+      "status": "candidate",
+      "text": "dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/yaml-language-server",
+      "status": "candidate",
+      "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +298,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "urfave/cli-altsrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yaml/libyaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/yaml-language-server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "atari"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/tianshou",
+      "status": "candidate-context",
+      "text": "An elegant PyTorch deep reinforcement learning library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/tianshou",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/tianshou",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839527,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839526,
+      "status": "candidate",
+      "text": "ladder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839525,
+      "status": "candidate",
+      "text": "tactic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839524,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839523,
+      "status": "candidate",
+      "text": "kinjite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "atari",
+  "concept_id": "atari",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atari",
+      "sense_id": "atari#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

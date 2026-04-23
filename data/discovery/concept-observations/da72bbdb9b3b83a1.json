@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12376,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "crate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Publish",
+      "sense_id": "docker-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-publish",
+  "observation_id": "da72bbdb9b3b83a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Docker Publish",
+  "source_context_snippet": "Docker Publish",
+  "source_file": ".github/workflows/docker.yml",
+  "source_repo": "PyO3/maturin",
+  "source_repo_description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+}

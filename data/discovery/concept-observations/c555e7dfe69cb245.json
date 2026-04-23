@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Chrome DevTools UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- [START badges] -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- [START badges] -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027169,
+      "status": "candidate",
+      "text": "instrumentality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027521,
+      "status": "candidate",
+      "text": "instrument"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917128,
+      "status": "candidate",
+      "text": "enactment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915205,
+      "status": "candidate",
+      "text": "operationalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912794,
+      "status": "candidate",
+      "text": "device"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instrumentation",
+      "sense_id": "instrumentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32,
+      "status": "candidate",
+      "text": "instrumentality"
+    }
+  ],
+  "concept_id": "instrumentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instrumentation",
+  "observation_id": "c555e7dfe69cb245",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "instrumentation",
+  "source_context_snippet": "<!-- [START badges] -->",
+  "source_file": null,
+  "source_repo": "ChromeDevTools/devtools-frontend",
+  "source_repo_description": "The Chrome DevTools UI"
+}

@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "vectorspacelab/omnigen2.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "image-edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorSpaceLab/OmniGen",
+      "target": "multi-task",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:11.848803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10048
+    },
+    {
+      "path": "requirements.txt",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340",
+    "fork": false,
+    "full_name": "VectorSpaceLab/OmniGen",
+    "html_url": "https://github.com/VectorSpaceLab/OmniGen",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-04T15:59:12Z",
+    "stargazers_count": 4315,
+    "topics": [
+      "diffusion",
+      "image",
+      "image-edit",
+      "image-generation",
+      "multi-modal",
+      "multi-task"
+    ],
+    "updated_at": "2026-04-23T06:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorspacelab/omnigen2.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-edit"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OmniGen: Unified Image Generation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task"
+    }
+  ]
+}

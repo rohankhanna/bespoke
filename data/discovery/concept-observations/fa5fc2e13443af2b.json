@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An implementation of the Debug Adapter Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "round-robin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "round-robin"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948483,
+      "status": "candidate",
+      "text": "cyclical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29935539,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994050,
+      "status": "candidate",
+      "text": "roundtable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994049,
+      "status": "candidate",
+      "text": "around the clock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994048,
+      "status": "candidate",
+      "text": "round-trip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "round-robin",
+      "sense_id": "round-robin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "round-robin",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "round-robin",
+  "observation_id": "fa5fc2e13443af2b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "round-robin",
+  "source_context_snippet": "round-robin",
+  "source_file": ".github/workflows/round-robin.yml",
+  "source_repo": "microsoft/debugpy",
+  "source_repo_description": "An implementation of the Debug Adapter Protocol for Python"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "akladiev/labeler@eeac5941e7fb6f980d47e038ac0665168851c874",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "bnjbvr/cargo-machete@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aome510/spotify-player",
+      "target": "librespot-org/librespot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aome510/spotify-player",
+      "target": "ramsayleung/rspotify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aome510/spotify-player",
+      "target": "rigellute/spotify-tui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aome510/spotify-player",
+      "target": "hrkfdn/ncspot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "bnjbvr/cargo-machete@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "Docker Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "aome510/spotify-player",
+      "target": "Build on Cargo.lock Change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "music-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "spotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "spotify-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "spotify-tui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aome510/spotify-player",
+      "target": "terminal-based",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:58:52.289726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25229
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 791
+    },
+    {
+      "path": "Dockerfile",
+      "size": 448
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 2213
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2298
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 801
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Spotify player in the terminal with full feature parity",
+    "fork": false,
+    "full_name": "aome510/spotify-player",
+    "html_url": "https://github.com/aome510/spotify-player",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T13:53:16Z",
+    "stargazers_count": 6618,
+    "topics": [
+      "cli",
+      "music",
+      "music-player",
+      "player",
+      "rust",
+      "spotify",
+      "spotify-api",
+      "spotify-tui",
+      "terminal",
+      "terminal-based",
+      "tui",
+      "vim"
+    ],
+    "updated_at": "2026-04-23T18:07:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrkfdn/ncspot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "librespot-org/librespot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ramsayleung/rspotify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rigellute/spotify-tui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Deploy"
+    },
+    {
+      "context_snippet": "Build on Cargo.lock Change",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Build on Cargo.lock Change"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-player"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "player"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify-api"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify-tui"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-based"
+    }
+  ]
+}

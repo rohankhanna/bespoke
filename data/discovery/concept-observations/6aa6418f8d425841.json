@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenMMLab FewShot Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "test-mim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "test-mim"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-mim",
+      "sense_id": "test-mim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-mim",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-mim",
+  "observation_id": "6aa6418f8d425841",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "test-mim",
+  "source_context_snippet": "test-mim",
+  "source_file": ".github/workflows/test_mim.yml",
+  "source_repo": "open-mmlab/mmfewshot",
+  "source_repo_description": "OpenMMLab FewShot Learning Toolbox and Benchmark"
+}

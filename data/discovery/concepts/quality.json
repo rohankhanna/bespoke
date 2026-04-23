@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Quality"
+    "Quality",
+    "quality"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate-context",
       "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "A collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate-context",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "simd-lite/simd-json",
       "status": "candidate",
       "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m2e-code-quality/m2e-code-quality",
+      "status": "candidate",
+      "text": "This project provides Eclipse plugins that bridge the Maven and"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +157,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/quality.yaml",
       "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "m2e-code-quality/m2e-code-quality"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

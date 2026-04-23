@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "programming-typeface"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate-context",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "status": "candidate",
+      "text": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "programming-typeface",
+  "concept_id": "programming-typeface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "programming-typeface",
+      "sense_id": "programming-typeface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

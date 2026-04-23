@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "parallel-stl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate-context",
+      "text": "Lower-latency OpenMP-style minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in Rust and C++, avoiding memory allocations, mutexes, CAS-primitives, and false-sharing on the hot path \ud83c\udf74"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate-context",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ForkUnion",
+      "status": "candidate",
+      "text": "Fork Union is arguably the lowest-latency OpenMP-style NUMA-aware minimalistic scoped thread-pool designed for 'Fork-Join' parallelism in C++, C, and Rust, avoiding \u00d7 [mutexes & system calls](#locks-and-mutexes), \u00d7 [dynamic memory allocations](#memory-allocations), \u00d7 [CAS-primit\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "parallel-stl",
+  "concept_id": "parallel-stl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parallel-stl",
+      "sense_id": "parallel-stl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

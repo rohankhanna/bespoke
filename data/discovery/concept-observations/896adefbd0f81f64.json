@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9922356,
+      "status": "candidate",
+      "text": "dhp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15002,
+      "status": "candidate",
+      "text": "nypl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15001,
+      "status": "candidate",
+      "text": "related"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14999,
+      "status": "candidate",
+      "text": "are"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gles",
+      "sense_id": "gles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gles",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gles",
+  "observation_id": "896adefbd0f81f64",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "gles",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "bkaradzic/bgfx",
+  "source_repo_description": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library."
+}

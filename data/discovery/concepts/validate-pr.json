@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "validate-pr"
+    "validate-pr",
+    "Validate PR"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "docker/cli",
       "status": "candidate-context",
       "text": "validate-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "\"Validate PR\""
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "docker/cli",
       "status": "candidate",
       "text": "validate-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate",
+      "text": "\"Validate PR\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "ink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "validate-pr",
   "concept_id": "validate-pr",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/validate-pr.yml",
       "source_repo": "docker/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

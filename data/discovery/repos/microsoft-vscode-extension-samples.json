@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "microsoft/vscode-extension-samples",
+      "target": "Triage Opened Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:22.734974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18493
+    },
+    {
+      "path": "package.json",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 251
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 2054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample code illustrating the VS Code extension API.",
+    "fork": false,
+    "full_name": "microsoft/vscode-extension-samples",
+    "html_url": "https://github.com/microsoft/vscode-extension-samples",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-12T11:54:46Z",
+    "stargazers_count": 10039,
+    "topics": [],
+    "updated_at": "2026-04-23T01:23:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Triage Opened Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Triage Opened Issues"
+    }
+  ]
+}

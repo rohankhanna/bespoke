@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Chrome DevTools UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tag commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tag commits"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "tagger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "achilles tendon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "antibody"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag commits",
+      "sense_id": "tag-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-commits",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-commits",
+  "observation_id": "6300f88883a04460",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Tag commits",
+  "source_context_snippet": "Tag commits",
+  "source_file": ".github/workflows/tag.yml",
+  "source_repo": "ChromeDevTools/devtools-frontend",
+  "source_repo_description": "The Chrome DevTools UI"
+}

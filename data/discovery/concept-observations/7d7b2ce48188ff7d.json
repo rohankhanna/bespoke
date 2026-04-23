@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gems - Bump Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gems - Bump Version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18191,
+      "status": "candidate",
+      "text": "lapidary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18096,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18060,
+      "status": "candidate",
+      "text": "paste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18060,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18001,
+      "status": "candidate",
+      "text": "rough"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gems - Bump Version",
+      "sense_id": "gems---bump-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gems---bump-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gems---bump-version",
+  "observation_id": "7d7b2ce48188ff7d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Gems - Bump Version",
+  "source_context_snippet": "Gems - Bump Version",
+  "source_file": ".github/workflows/gems-bump-version.yml",
+  "source_repo": "dependabot/dependabot-core",
+  "source_repo_description": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+}

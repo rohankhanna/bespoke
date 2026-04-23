@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "vite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "coding-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "coding-typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "programming-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "programming-typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigilnikolajsen/commit-mono",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:01:40.778569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 741
+    },
+    {
+      "path": "package.json",
+      "size": 420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Commit Mono is an anonymous and neutral programming typeface.",
+    "fork": false,
+    "full_name": "eigilnikolajsen/commit-mono",
+    "html_url": "https://github.com/eigilnikolajsen/commit-mono",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-24T12:10:17Z",
+    "stargazers_count": 2022,
+    "topics": [
+      "coding-font",
+      "coding-typeface",
+      "font",
+      "programming-font",
+      "programming-typeface",
+      "typeface"
+    ],
+    "updated_at": "2026-04-23T17:43:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-font"
+    },
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-typeface"
+    },
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-font"
+    },
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-typeface"
+    },
+    {
+      "context_snippet": "Commit Mono is an anonymous and neutral programming typeface focused on creating a better reading experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

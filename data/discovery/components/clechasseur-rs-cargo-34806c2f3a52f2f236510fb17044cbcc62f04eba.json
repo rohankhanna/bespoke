@@ -1,0 +1,12 @@
+{
+  "component": "clechasseur/rs-cargo@34806c2f3a52f2f236510fb17044cbcc62f04eba",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gleam-lang/gleam"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIDC-AI/Parrot",
+      "target": "qwenlm/qwen1.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Parrot",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Parrot",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Parrot",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Parrot",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:00.001885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10723
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1243
+    },
+    {
+      "path": "requirements.txt",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf89 The code repository for \"Parrot: Multilingual Visual Instruction Tuning\" in PyTorch.",
+    "fork": false,
+    "full_name": "AIDC-AI/Parrot",
+    "html_url": "https://github.com/AIDC-AI/Parrot",
+    "language": "Python",
+    "pushed_at": "2025-06-12T02:38:36Z",
+    "stargazers_count": 77,
+    "topics": [
+      "mixture-of-experts",
+      "multilingual",
+      "multimodal-large-language-models",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-01-15T06:29:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen1.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

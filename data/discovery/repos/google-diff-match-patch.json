@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/diff-match-patch",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/diff-match-patch",
+      "target": "difference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/diff-match-patch",
+      "target": "match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/diff-match-patch",
+      "target": "patch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/diff-match-patch",
+      "target": "text-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:20.804340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Diff Match Patch is a high-performance library in multiple languages that manipulates plain text.",
+    "fork": false,
+    "full_name": "google/diff-match-patch",
+    "html_url": "https://github.com/google/diff-match-patch",
+    "language": "Python",
+    "pushed_at": "2024-05-22T22:13:22Z",
+    "stargazers_count": 8101,
+    "topics": [
+      "diff",
+      "difference",
+      "match",
+      "patch",
+      "text-processing"
+    ],
+    "updated_at": "2026-04-22T14:51:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Diff Match and Patch libraries offer robust algorithms to perform the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "The Diff Match and Patch libraries offer robust algorithms to perform the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "difference"
+    },
+    {
+      "context_snippet": "The Diff Match and Patch libraries offer robust algorithms to perform the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "match"
+    },
+    {
+      "context_snippet": "The Diff Match and Patch libraries offer robust algorithms to perform the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patch"
+    },
+    {
+      "context_snippet": "The Diff Match and Patch libraries offer robust algorithms to perform the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-processing"
+    }
+  ]
+}

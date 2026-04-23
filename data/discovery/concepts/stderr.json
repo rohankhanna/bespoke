@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "stderr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform provider for executing shell commands and saving output to state file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform Provider Shell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate",
+      "text": "Terraform Provider Shell"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024480,
+      "status": "candidate",
+      "text": "stdout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024479,
+      "status": "candidate",
+      "text": "stdin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024478,
+      "status": "candidate",
+      "text": "suberror"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024477,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024476,
+      "status": "candidate",
+      "text": "error message"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "stderr",
+  "concept_id": "stderr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottwinkler/terraform-provider-shell"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stderr",
+      "sense_id": "stderr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

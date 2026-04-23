@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "dogewbx/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-LLM",
+      "target": "turboderp/exllamav2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:46.157083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23237
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepSeek LLM: Let there be answers",
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-LLM",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-LLM",
+    "language": "Makefile",
+    "pushed_at": "2024-02-04T12:22:16Z",
+    "stargazers_count": 6825,
+    "topics": [],
+    "updated_at": "2026-04-23T16:28:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogewbx/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp/exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

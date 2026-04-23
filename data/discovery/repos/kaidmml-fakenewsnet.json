@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:50:03.603932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11283
+    },
+    {
+      "path": "requirements.txt",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a dataset for fake news detection research",
+    "fork": false,
+    "full_name": "KaiDMML/FakeNewsNet",
+    "html_url": "https://github.com/KaiDMML/FakeNewsNet",
+    "language": "Python",
+    "pushed_at": "2022-12-08T04:54:39Z",
+    "stargazers_count": 1317,
+    "topics": [],
+    "updated_at": "2026-04-13T00:57:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

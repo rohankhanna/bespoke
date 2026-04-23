@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "damo-nlp-sg/videollama2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "m-bain/webvid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "facebookresearch/imagebind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "blip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "cross-modal-pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "minigpt4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "multi-modal-chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "video-language-pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Video-LLaMA",
+      "target": "vision-language-pretraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:00.581890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2023 Demo] Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+    "fork": false,
+    "full_name": "DAMO-NLP-SG/Video-LLaMA",
+    "html_url": "https://github.com/DAMO-NLP-SG/Video-LLaMA",
+    "language": "Python",
+    "pushed_at": "2024-06-04T07:06:41Z",
+    "stargazers_count": 3140,
+    "topics": [
+      "blip2",
+      "cross-modal-pretraining",
+      "large-language-models",
+      "llama",
+      "minigpt4",
+      "multi-modal-chatgpt",
+      "video-language-pretraining",
+      "vision-language-pretraining"
+    ],
+    "updated_at": "2026-04-22T12:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/videollama2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/imagebind",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "m-bain/webvid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blip2"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-modal-pretraining"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minigpt4"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal-chatgpt"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-language-pretraining"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-pretraining"
+    }
+  ]
+}

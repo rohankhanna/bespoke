@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "BetaHuhn/do-spaces-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "BetaHuhn/do-spaces-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "BetaHuhn/do-spaces-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "embarcadero/p4d-data-sciences",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "delphi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "embed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "python4delphi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:32.413643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/build_android.yml",
+      "size": 2605
+    },
+    {
+      "path": ".github/workflows/build_linux.yml",
+      "size": 1869
+    },
+    {
+      "path": ".github/workflows/build_windows.yml",
+      "size": 2157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python 3 embeddable for Windows, Linux, MacOS and Android",
+    "fork": false,
+    "full_name": "lmbelo/python3-embeddable",
+    "html_url": "https://github.com/lmbelo/python3-embeddable",
+    "language": "Python",
+    "pushed_at": "2024-11-14T13:06:38Z",
+    "stargazers_count": 30,
+    "topics": [
+      "delphi",
+      "embed",
+      "multiplatform",
+      "python3",
+      "python4delphi"
+    ],
+    "updated_at": "2026-02-17T08:23:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarcadero/p4d-data-sciences",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_android.yml",
+      "term": "Build Android"
+    },
+    {
+      "context_snippet": "Build Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "term": "Build Linux"
+    },
+    {
+      "context_snippet": "Build Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "term": "Build Windows"
+    },
+    {
+      "context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delphi"
+    },
+    {
+      "context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embed"
+    },
+    {
+      "context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplatform"
+    },
+    {
+      "context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python4delphi"
+    }
+  ]
+}

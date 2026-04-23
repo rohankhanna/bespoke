@@ -79,6 +79,18 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "Python package wrapping llama.cpp for on-device LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "intentee/paddler",
       "status": "candidate",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddh0/easy-llama",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

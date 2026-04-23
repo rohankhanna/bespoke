@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "is-plain-object",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "kind-of",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shallow-clone",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "jonschlinkert/is-plain-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "jonschlinkert/isobject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "jonschlinkert/kind-of",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "jonschlinkert/shallow-clone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "is-plain-object",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "kind-of",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "shallow-clone",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "clone-deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "deep-clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "deep-copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/clone-deep",
+      "target": "object",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:35.225016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4783
+    },
+    {
+      "path": "package.json",
+      "size": 1567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!",
+    "fork": false,
+    "full_name": "jonschlinkert/clone-deep",
+    "html_url": "https://github.com/jonschlinkert/clone-deep",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-09T23:45:49Z",
+    "stargazers_count": 318,
+    "topics": [
+      "clone",
+      "clone-deep",
+      "copy",
+      "deep",
+      "deep-clone",
+      "deep-copy",
+      "javascript",
+      "jonschlinkert",
+      "js",
+      "node",
+      "nodejs",
+      "object"
+    ],
+    "updated_at": "2026-03-03T21:55:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-plain-object",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/isobject",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/kind-of",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/shallow-clone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clone"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clone-deep"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "copy"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-clone"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-copy"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    }
+  ]
+}

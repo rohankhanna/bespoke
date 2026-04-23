@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010813,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993168,
+      "status": "candidate",
+      "text": "molecule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930310,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39866330,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020652,
+      "status": "candidate",
+      "text": "atomic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atom",
+      "sense_id": "atom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18042,
+      "status": "candidate",
+      "text": "mote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11036,
+      "status": "candidate",
+      "text": "speck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3047,
+      "status": "candidate",
+      "text": "particle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1062,
+      "status": "candidate",
+      "text": "molecule"
+    }
+  ],
+  "concept_id": "atom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "atom",
+  "observation_id": "79893b67b1fb82b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "atom",
+  "source_context_snippet": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)",
+  "source_file": null,
+  "source_repo": "Glavin001/atom-beautify",
+  "source_repo_description": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+}

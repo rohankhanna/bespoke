@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Skip Duplicate Workflow Runs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "Skip Duplicate Workflow Runs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate",
+      "text": "Skip Duplicate Workflow Runs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31732,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31719,
+      "status": "candidate",
+      "text": "babble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31719,
+      "status": "candidate",
+      "text": "crossing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31270,
+      "status": "candidate",
+      "text": "running"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26062,
+      "status": "candidate",
+      "text": "gunboat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Skip Duplicate Workflow Runs",
+  "concept_id": "skip-duplicate-workflow-runs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/skip_duplicate_workflow_runs.yml",
+      "source_repo": "puma/puma"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Skip Duplicate Workflow Runs",
+      "sense_id": "skip-duplicate-workflow-runs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

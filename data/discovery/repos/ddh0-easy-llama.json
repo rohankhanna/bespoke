@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddh0/easy-llama",
+      "target": "text-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:10:32.487269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8845
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python package wrapping llama.cpp for on-device LLM inference",
+    "fork": false,
+    "full_name": "ddh0/easy-llama",
+    "html_url": "https://github.com/ddh0/easy-llama",
+    "language": "Python",
+    "pushed_at": "2026-04-02T03:03:06Z",
+    "stargazers_count": 105,
+    "topics": [
+      "llama",
+      "llamacpp",
+      "llm",
+      "llms",
+      "text-generation"
+    ],
+    "updated_at": "2026-04-20T14:20:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/easy-llama)](https://pypi.org/project/easy-llama/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    }
+  ]
+}

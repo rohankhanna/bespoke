@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is the standard portfolio which elaborate about my skills and knowledge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the standard portfolio which elaborate about my skills and knowledge."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the standard portfolio which elaborate about my skills and knowledge."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028459,
+      "status": "candidate",
+      "text": "html"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028458,
+      "status": "candidate",
+      "text": "hypertext markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028457,
+      "status": "candidate",
+      "text": "dhtml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028456,
+      "status": "candidate",
+      "text": "whatwg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028455,
+      "status": "candidate",
+      "text": "mhtml"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html5",
+      "sense_id": "html5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "html5",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "html5",
+  "observation_id": "3672152d03a324e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "html5",
+  "source_context_snippet": "This is the standard portfolio which elaborate about my skills and knowledge.",
+  "source_file": null,
+  "source_repo": "AnamuddinAhmad/Portfolio_1",
+  "source_repo_description": "This is the standard portfolio which elaborate about my skills and knowledge."
+}

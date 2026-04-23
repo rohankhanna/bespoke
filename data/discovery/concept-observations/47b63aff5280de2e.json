@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Benc is the fastest serializer in pure Golang supporting code generation and forward/backward compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024601,
+      "status": "candidate",
+      "text": "serial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024600,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024599,
+      "status": "candidate",
+      "text": "title"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024598,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024597,
+      "status": "candidate",
+      "text": "livraison"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serializer",
+      "sense_id": "serializer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serializer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serializer",
+  "observation_id": "47b63aff5280de2e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "serializer",
+  "source_context_snippet": "![go workflow](https://github.com/deneonet/benc/actions/workflows/go.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "deneonet/benc",
+  "source_repo_description": "Benc is the fastest serializer in pure Golang supporting code generation and forward/backward compatibility."
+}

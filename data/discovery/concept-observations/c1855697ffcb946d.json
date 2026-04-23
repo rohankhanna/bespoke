@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928948,
+      "status": "candidate",
+      "text": "zip up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928947,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928946,
+      "status": "candidate",
+      "text": "export"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928945,
+      "status": "candidate",
+      "text": "generify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928944,
+      "status": "candidate",
+      "text": "containerize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gzip",
+      "sense_id": "gzip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gzip",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gzip",
+  "observation_id": "c1855697ffcb946d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "gzip",
+  "source_context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+  "source_file": null,
+  "source_repo": "mholt/archives",
+  "source_repo_description": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+}

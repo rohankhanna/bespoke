@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "carlosperate/awesome-pyproject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "advanced-roadmaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "atlassian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "bamboo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "confluence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "crowd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "jira-service-desk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "tempo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:37.864562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7916
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 19353
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2825
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian",
+    "fork": false,
+    "full_name": "atlassian-api/atlassian-python-api",
+    "html_url": "https://github.com/atlassian-api/atlassian-python-api",
+    "language": "Python",
+    "pushed_at": "2026-04-01T07:37:15Z",
+    "stargazers_count": 1644,
+    "topics": [
+      "advanced-roadmaps",
+      "api",
+      "atlassian",
+      "bamboo",
+      "bitbucket",
+      "confluence",
+      "crowd",
+      "hacktoberfest",
+      "jira",
+      "jira-service-desk",
+      "portfolio",
+      "python",
+      "rest",
+      "tempo",
+      "wrapper",
+      "xray"
+    ],
+    "updated_at": "2026-04-23T01:34:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlosperate/awesome-pyproject",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advanced-roadmaps"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atlassian"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bamboo"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluence"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crowd"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jira"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jira-service-desk"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tempo"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    },
+    {
+      "context_snippet": "============================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    }
+  ]
+}

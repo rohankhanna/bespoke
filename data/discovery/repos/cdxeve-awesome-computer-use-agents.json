@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "andelf/axcli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "microsoft/ufo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdxeve/awesome-computer-use-agents",
+      "target": "microsoft/omniparser",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:09.977151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of papers, tools, and benchmarks on LLM-based computer-use agents, covering both terminal/CLI and GUI approaches.",
+    "fork": false,
+    "full_name": "cdxeve/awesome-computer-use-agents",
+    "html_url": "https://github.com/cdxeve/awesome-computer-use-agents",
+    "language": null,
+    "pushed_at": "2026-04-14T03:17:18Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-15T06:18:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andelf/axcli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/omniparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ufo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

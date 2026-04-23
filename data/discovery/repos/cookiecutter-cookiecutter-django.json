@@ -1,0 +1,615 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-issue-checker.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-issue-checker.yml"
+    },
+    {
+      "component": "tiangolo/issue-manager@0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "anymail/django-anymail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "axllent/mailpit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "andrew-chen-wang/cookiecutter-django-ecs-github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/align-versions.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "align versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-uv-lock.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "Django Issue Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "tiangolo/issue-manager@0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "Issue Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "Pre-commit auto-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "Update Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "Update Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "celery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "cookiecutter-django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "django-cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "target": "project-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:13.659302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13958
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3261
+    },
+    {
+      "path": ".github/workflows/align-versions.yml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3719
+    },
+    {
+      "path": ".github/workflows/dependabot-uv-lock.yml",
+      "size": 903
+    },
+    {
+      "path": ".github/workflows/django-issue-checker.yml",
+      "size": 775
+    },
+    {
+      "path": ".github/workflows/issue-manager.yml",
+      "size": 1502
+    },
+    {
+      "path": ".github/workflows/pre-commit-autoupdate.yml",
+      "size": 1359
+    },
+    {
+      "path": ".github/workflows/update-changelog.yml",
+      "size": 752
+    },
+    {
+      "path": ".github/workflows/update-contributors.yml",
+      "size": 871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.",
+    "fork": false,
+    "full_name": "cookiecutter/cookiecutter-django",
+    "html_url": "https://github.com/cookiecutter/cookiecutter-django",
+    "language": "Python",
+    "pushed_at": "2026-04-23T09:20:51Z",
+    "stargazers_count": 13494,
+    "topics": [
+      "boilerplate",
+      "celery",
+      "cookiecutter",
+      "cookiecutter-django",
+      "django",
+      "django-cookiecutter",
+      "docker",
+      "hacktoberfest",
+      "heroku",
+      "project-template",
+      "python"
+    ],
+    "updated_at": "2026-04-23T09:17:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrew-chen-wang/cookiecutter-django-ecs-github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anymail/django-anymail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axllent/mailpit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "align versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/align-versions.yml",
+      "term": "align versions"
+    },
+    {
+      "context_snippet": "Django Issue Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-issue-checker.yml",
+      "term": "Django Issue Checker"
+    },
+    {
+      "context_snippet": "Issue Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "term": "Issue Manager"
+    },
+    {
+      "context_snippet": "Pre-commit auto-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "term": "Pre-commit auto-update"
+    },
+    {
+      "context_snippet": "Update Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "term": "Update Changelog"
+    },
+    {
+      "context_snippet": "Update Contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "term": "Update Contributors"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boilerplate"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celery"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-django"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django-cookiecutter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-template"
+    }
+  ]
+}

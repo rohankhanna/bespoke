@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "aesalazar/asteroidswasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "achievedowner/componentbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "abpframework/abp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "aboudoux/blazoranimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-crud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-port",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "blazor-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "microsoft-blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "razor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "razor-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdrienTorris/awesome-blazor",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:56:32.380714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 177816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.",
+    "fork": false,
+    "full_name": "AdrienTorris/awesome-blazor",
+    "html_url": "https://github.com/AdrienTorris/awesome-blazor",
+    "language": null,
+    "pushed_at": "2025-08-14T14:08:38Z",
+    "stargazers_count": 9330,
+    "topics": [
+      "asp-net-core",
+      "aspnetcore",
+      "awesome",
+      "awesome-list",
+      "blazor",
+      "blazor-application",
+      "blazor-component",
+      "blazor-crud",
+      "blazor-interop",
+      "blazor-master",
+      "blazor-port",
+      "blazor-sample",
+      "blazor-web",
+      "csharp",
+      "dotnet-core",
+      "microsoft",
+      "microsoft-blazor",
+      "razor",
+      "razor-components",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-22T19:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aboudoux/blazoranimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abpframework/abp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "achievedowner/componentbuilder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aesalazar/asteroidswasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-application"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-component"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-crud"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-interop"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-master"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-port"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-sample"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor-web"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-blazor"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "razor"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "razor-components"
+    },
+    {
+      "context_snippet": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "dbubel/intake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "dbubel/intake",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "api-rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "framwork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "goapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbubel/intake",
+      "target": "middleware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:59:30.617908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9567
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple API server framework",
+    "fork": false,
+    "full_name": "dbubel/intake",
+    "html_url": "https://github.com/dbubel/intake",
+    "language": "Go",
+    "pushed_at": "2026-01-29T01:54:19Z",
+    "stargazers_count": 1,
+    "topics": [
+      "api-rest",
+      "framework",
+      "framwork",
+      "go",
+      "goapi",
+      "golang",
+      "http",
+      "middleware"
+    ],
+    "updated_at": "2026-01-29T01:54:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-rest"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framwork"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goapi"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "Intake is a lightweight, flexible HTTP router for Go applications with middleware support. It provides a simple API for defining routes, handling requests, and applying middleware.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    }
+  ]
+}

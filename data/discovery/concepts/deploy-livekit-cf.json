@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Deploy Livekit CF"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate-context",
+      "text": "Deploy Livekit CF"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/pochi",
+      "status": "candidate",
+      "text": "Deploy Livekit CF"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "absent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "estivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "frock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "insphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "present"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Livekit CF",
+  "concept_id": "deploy-livekit-cf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-livekit-cf.yml",
+      "source_repo": "TabbyML/pochi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Livekit CF",
+      "sense_id": "deploy-livekit-cf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

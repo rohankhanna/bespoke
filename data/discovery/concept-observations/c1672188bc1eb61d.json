@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Check labels that prevent merge\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Check labels that prevent merge\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33434,
+      "status": "candidate",
+      "text": "throttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26447,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25978,
+      "status": "candidate",
+      "text": "antimalarial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25955,
+      "status": "candidate",
+      "text": "detent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21969,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check labels that prevent merge",
+      "sense_id": "check-labels-that-prevent-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-labels-that-prevent-merge",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-labels-that-prevent-merge",
+  "observation_id": "c1672188bc1eb61d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check labels that prevent merge",
+  "source_context_snippet": "\"Check labels that prevent merge\"",
+  "source_file": ".github/workflows/do-not-merge-label-check.yml",
+  "source_repo": "dotnet/csharpstandard",
+  "source_repo_description": "Working space for ECMA-TC49-TG2, the C# standard committee."
+}

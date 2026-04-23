@@ -19,12 +19,30 @@
       "source_repo": "vega/vega-lite",
       "status": "candidate-context",
       "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Configure AWS credential environment variables for use in other GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "Dependabot auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
       "status": "candidate",
       "text": "Dependabot auto-approve"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/approve-dependabot.yml",
       "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dependabot-autoapprove.yml",
+      "source_repo": "aws-actions/configure-aws-credentials"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "fpga"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "Samples for Intel\u00ae oneAPI Toolkits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate-context",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate-context",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/oneAPI-samples",
+      "status": "candidate",
+      "text": "The oneAPI-samples repository contains samples for the [Intel\u00ae oneAPI Toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "status": "candidate",
+      "text": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020493,
+      "status": "candidate",
+      "text": "reconfigurable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020492,
+      "status": "candidate",
+      "text": "fpgas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020491,
+      "status": "candidate",
+      "text": "xilinx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020490,
+      "status": "candidate",
+      "text": "vhdl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020489,
+      "status": "candidate",
+      "text": "verilog"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fpga",
+  "concept_id": "fpga",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "oneapi-src/oneAPI-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fpga",
+      "sense_id": "fpga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

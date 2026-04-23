@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml"
+    },
+    {
+      "component": "ssciwr/doxygen-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-check.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-check.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen-check.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "gen-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "ssciwr/doxygen-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "source_repo": "webgpu-native/webgpu-headers",
+      "target": "gen-docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:40.319071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3697
+    },
+    {
+      "path": "go.mod",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/gen-check.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/gen-docs.yml",
+      "size": 1189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "webgpu.h - C version of the JS API, for both native and Wasm. A multi-vendor standard between Dawn/Emdawnwebgpu and wgpu-native. Designed primarily for binding into higher-level languages.",
+    "fork": false,
+    "full_name": "webgpu-native/webgpu-headers",
+    "html_url": "https://github.com/webgpu-native/webgpu-headers",
+    "language": "C++",
+    "pushed_at": "2026-03-31T08:13:55Z",
+    "stargazers_count": 556,
+    "topics": [],
+    "updated_at": "2026-04-23T07:09:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "compile"
+    },
+    {
+      "context_snippet": "gen-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen-check.yml",
+      "term": "gen-check"
+    },
+    {
+      "context_snippet": "gen-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen-docs.yml",
+      "term": "gen-docs"
+    }
+  ]
+}

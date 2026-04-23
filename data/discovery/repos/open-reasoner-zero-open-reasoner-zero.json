@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:51:51.346611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12640
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Repo for Open-Reasoner-Zero",
+    "fork": false,
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "html_url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "language": "Python",
+    "pushed_at": "2025-06-02T16:36:00Z",
+    "stargazers_count": 2091,
+    "topics": [],
+    "updated_at": "2026-04-16T06:37:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu - Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarcCote/downward",
+      "status": "candidate-context",
+      "text": "The Fast Downward domain-independent classical planning system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/downward",
+      "status": "candidate-context",
+      "text": "Ubuntu - Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcCote/downward",
+      "status": "candidate",
+      "text": "Ubuntu - Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13004,
+      "status": "candidate",
+      "text": "zulu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6994,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6994,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6994,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4498,
+      "status": "candidate",
+      "text": "individualism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu - Tests",
+  "concept_id": "ubuntu---tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "MarcCote/downward"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu - Tests",
+      "sense_id": "ubuntu---tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Building iodine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Building iodine"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12843,
+      "status": "candidate",
+      "text": "iodide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12843,
+      "status": "candidate",
+      "text": "iodize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12843,
+      "status": "candidate",
+      "text": "iodoform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12602,
+      "status": "candidate",
+      "text": "iodinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12602,
+      "status": "candidate",
+      "text": "salt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Building iodine",
+      "sense_id": "building-iodine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "building-iodine",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "building-iodine",
+  "observation_id": "20066a06f5e814b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Building iodine",
+  "source_context_snippet": "Building iodine",
+  "source_file": ".github/workflows/ruby.yml",
+  "source_repo": "boazsegev/iodine",
+  "source_repo_description": "iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:38:33.667915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "camp3",
+    "description": "LLM&VLM Tutorial",
+    "fork": false,
+    "full_name": "InternLM/Tutorial",
+    "html_url": "https://github.com/InternLM/Tutorial",
+    "language": "Python",
+    "pushed_at": "2026-04-22T08:39:08Z",
+    "stargazers_count": 1951,
+    "topics": [],
+    "updated_at": "2026-04-23T04:59:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

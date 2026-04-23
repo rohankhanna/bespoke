@@ -31,6 +31,18 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate-context",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate-context",
+      "text": "Modern Dark-Themed Portfolio Template for Developers & Designers | Built with React | Dynamic JSON-based content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate-context",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnshulGora/portfolio_template_v1",
+      "status": "candidate",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AnshulGora/portfolio_template_v1"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

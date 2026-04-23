@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "playing cards in unicode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "fonts on macintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "embedded opentype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "computer font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "glyph bitmap distribution format"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentype",
+      "sense_id": "opentype#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opentype",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opentype",
+  "observation_id": "e86f20fec090ceb2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "opentype",
+  "source_context_snippet": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)",
+  "source_file": null,
+  "source_repo": "adobe-fonts/source-han-sans",
+  "source_repo_description": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515"
+}

@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "@aws-sdk/client-sts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/credential-providers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aws4",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antfu/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "superagent",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "certible/.github/.github/workflows/backup.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "ladjs/superagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "@aws-sdk/client-sts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "@aws-sdk/credential-providers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "aws4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "@antfu/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "superagent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "certible/.github/.github/workflows/backup.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "Backup to S3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "certible/superagent-aws-sign",
+      "target": "release-please",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:50:00.348341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3495
+    },
+    {
+      "path": "package.json",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/backup.yml",
+      "size": 212
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Superagent plugin to sign AWS requests and invoke AWS resources protected by IAM roles. It uses the aws4 process to add authentication information to requests.",
+    "fork": false,
+    "full_name": "certible/superagent-aws-sign",
+    "html_url": "https://github.com/certible/superagent-aws-sign",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-22T19:00:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-17T13:03:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ladjs/superagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backup to S3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup.yml",
+      "term": "Backup to S3"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release-please"
+    }
+  ]
+}

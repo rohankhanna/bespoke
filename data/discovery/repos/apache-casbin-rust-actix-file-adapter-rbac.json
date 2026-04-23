@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac",
+      "target": "casbin/casbin-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:55:21.137893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 709
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "apache/casbin-rust-actix-file-adapter-rbac",
+    "html_url": "https://github.com/apache/casbin-rust-actix-file-adapter-rbac",
+    "language": "Rust",
+    "pushed_at": "2022-08-22T01:31:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-12T12:14:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin/casbin-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

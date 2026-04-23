@@ -1,0 +1,12 @@
+{
+  "component": "cbrgm/semver-bump-action@c04892bc502bfc686ae119698c9eb606388d6ec4",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "cbrgm/githubevents"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A small test framework to write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "test-framework",
+      "sense_id": "test-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-framework",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-framework",
+  "observation_id": "f1271ec9e911d44f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "test-framework",
+  "source_context_snippet": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026",
+  "source_file": null,
+  "source_repo": "LukasKalbertodt/libtest-mimic",
+  "source_repo_description": "A small test framework to write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`"
+}

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-smoke.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-smoke.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-smoke.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-smoke.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "CI Smoke Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-nightly.yml",
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "DockerHub Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "easy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "flask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "huggingface-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "sentence-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "OpenBMB/UltraRAG"
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "ably"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "Centrifugo is an open-source scalable real-time messaging server. Centrifugo can instantly deliver messages to application online users connected over supported transports (WebSocket, HTTP-streaming, Server-Sent Events (aka EventSource), GRPC, WebTransport). Centrifugo has the c\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984755,
+      "status": "candidate",
+      "text": "capably"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984497,
+      "status": "candidate",
+      "text": "competently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983692,
+      "status": "candidate",
+      "text": "aptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984923,
+      "status": "candidate",
+      "text": "with competence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984922,
+      "status": "candidate",
+      "text": "proficiently"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7026,
+      "status": "candidate",
+      "text": "aptly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "competently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3018,
+      "status": "candidate",
+      "text": "capably"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3,
+      "status": "candidate",
+      "text": "with competence"
+    }
+  ],
+  "canonical_name": "ably",
+  "concept_id": "ably",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "centrifugal/centrifugo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ably",
+      "sense_id": "ably#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -121,6 +121,54 @@
       "source_repo": "BlinkDL/RWKV-LM",
       "status": "candidate-context",
       "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "Set Your Goals, AI Achieves Them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MILVLG/prophet",
+      "status": "candidate-context",
+      "text": "Implementation of CVPR 2023 paper \"Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MILVLG/prophet",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hendrycks/test",
+      "status": "candidate-context",
+      "text": "Measuring Massive Multitask Language Understanding | ICLR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/test",
+      "status": "candidate-context",
+      "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FMInference/H2O",
+      "status": "candidate-context",
+      "text": "[NeurIPS'23] H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/H2O",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +225,30 @@
       "source_repo": "BlinkDL/RWKV-LM",
       "status": "candidate",
       "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate",
+      "text": "**Set Your Goals, AI Achieves Them.** You can set up the initial role and goals for your AI buddy, without human's supervision, it will automatically leverage all of the resources it has to achieve your goal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MILVLG/prophet",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/prompting-large-language-models-with-answer/visual-question-answering-on-a-okvqa)](https://paperswithcode.com/sota/visual-question-answering-on-a-okvqa?p=prompting-large-language-models-with-answer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/test",
+      "status": "candidate",
+      "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FMInference/H2O",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +382,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/auto-gpt-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MILVLG/prophet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hendrycks/test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/H2O"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

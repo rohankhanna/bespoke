@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Title Format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "Pull Request Title Format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate",
+      "text": "Pull Request Title Format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28883,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28694,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28516,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28516,
+      "status": "candidate",
+      "text": "horse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28310,
+      "status": "candidate",
+      "text": "diagram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Title Format",
+  "concept_id": "pull-request-title-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "rollup/plugins"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Title Format",
+      "sense_id": "pull-request-title-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

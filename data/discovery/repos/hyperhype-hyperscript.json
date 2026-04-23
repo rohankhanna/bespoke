@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "browser-split",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "class-list",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html-element",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "observable",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ispy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simulate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "raynos/mercury",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "akeemmclennon/dom2hscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "ohanhi/hyperscript-helpers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "mlmorg/react-hyperscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "browser-split",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "class-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "html-element",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "observable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "ispy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyperhype/hyperscript",
+      "target": "simulate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperhype/hyperscript",
+      "target": "hyperscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyperhype/hyperscript",
+      "target": "templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:45:16.584222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5060
+    },
+    {
+      "path": "package.json",
+      "size": 1028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create HyperText with JavaScript.",
+    "fork": false,
+    "full_name": "hyperhype/hyperscript",
+    "html_url": "https://github.com/hyperhype/hyperscript",
+    "language": "HTML",
+    "pushed_at": "2021-05-28T02:59:49Z",
+    "stargazers_count": 2746,
+    "topics": [
+      "hyperscript",
+      "templating"
+    ],
+    "updated_at": "2026-04-22T14:50:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akeemmclennon/dom2hscript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlmorg/react-hyperscript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ohanhi/hyperscript-helpers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raynos/mercury",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create HyperText with JavaScript, on client or server.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperscript"
+    },
+    {
+      "context_snippet": "Create HyperText with JavaScript, on client or server.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templating"
+    }
+  ]
+}

@@ -55,6 +55,42 @@
       "source_repo": "conda-forge/spacy-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/pybind11-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for pybind11."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pybind11-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/ultralytics-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for ultralytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/ultralytics-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/cccl-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for cccl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/cccl-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +115,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/spacy-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pybind11-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/ultralytics-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/cccl-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/spacy-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pybind11-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/ultralytics-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/cccl-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bindings Lua CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate-context",
+      "text": "Bindings Lua CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/opendal",
+      "status": "candidate",
+      "text": "Bindings Lua CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "any"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "burgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "burgeoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14067,
+      "status": "candidate",
+      "text": "butt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bindings Lua CI",
+  "concept_id": "bindings-lua-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci_bindings_lua.yml",
+      "source_repo": "apache/opendal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings Lua CI",
+      "sense_id": "bindings-lua-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

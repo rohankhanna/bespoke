@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reminder-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tile-ai/tilelang",
+      "target": "tile-ai/tilelang-ascend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tile-ai/tilelang",
+      "target": "tile-ai/tilelang-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tile-ai/tilelang",
+      "target": "microsoft/bitblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tile-ai/tilelang",
+      "target": "microsoft/attentionengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "pypa/cibuildwheel@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "Dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "Performance Regression Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reminder-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-reminder-bot.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "PR Reminder Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "tile-ai/tilelang",
+      "target": "Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:38.784271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13567
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8487
+    },
+    {
+      "path": "requirements.txt",
+      "size": 252
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 21058
+    },
+    {
+      "path": ".github/workflows/dist.yml",
+      "size": 9788
+    },
+    {
+      "path": ".github/workflows/pr-regression-test-bot.yml",
+      "size": 11245
+    },
+    {
+      "path": ".github/workflows/pr-reminder-bot.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 1914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+    "fork": false,
+    "full_name": "tile-ai/tilelang",
+    "html_url": "https://github.com/tile-ai/tilelang",
+    "language": "Python",
+    "pushed_at": "2026-04-23T16:10:52Z",
+    "stargazers_count": 5596,
+    "topics": [],
+    "updated_at": "2026-04-23T21:40:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/attentionengine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/bitblas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tile-ai/tilelang-ascend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tile-ai/tilelang-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "term": "Dist"
+    },
+    {
+      "context_snippet": "Performance Regression Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-regression-test-bot.yml",
+      "term": "Performance Regression Bot"
+    },
+    {
+      "context_snippet": "PR Reminder Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-reminder-bot.yml",
+      "term": "PR Reminder Bot"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Documentation"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release snapshot"
+    "Release snapshot",
+    "Release Snapshot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,60 @@
       "source_repo": "aquasecurity/trivy-operator",
       "status": "candidate-context",
       "text": "Release snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "The standard CSS implementation of the Spectrum design language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate-context",
+      "text": "Release Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Release snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "status": "candidate-context",
+      "text": "Release snapshot"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate",
+      "text": "Release snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-css",
+      "status": "candidate",
+      "text": "Release Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "Release snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
       "status": "candidate",
       "text": "Release snapshot"
     }
@@ -76,11 +125,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-snapshot.yaml",
       "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-snapshot.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

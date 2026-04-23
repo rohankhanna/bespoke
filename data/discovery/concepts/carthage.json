@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "carthage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate-context",
+      "text": "A simple, decentralized dependency manager for Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate-context",
+      "text": "![](Logo/PNG/header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Carthage/Carthage",
+      "status": "candidate",
+      "text": "![](Logo/PNG/header.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036667,
+      "status": "candidate",
+      "text": "tunis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004754,
+      "status": "candidate",
+      "text": "cartagena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29553197,
+      "status": "candidate",
+      "text": "colton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29490204,
+      "status": "candidate",
+      "text": "cartago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036808,
+      "status": "candidate",
+      "text": "tunisia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "carthage",
+  "concept_id": "carthage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Carthage/Carthage"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carthage",
+      "sense_id": "carthage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

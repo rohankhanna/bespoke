@@ -1,7 +1,7 @@
 {
   "component": "nopt",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -22,6 +22,21 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nwjs/nw-gyp"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gotwarlost/istanbul"
     }
   ]
 }

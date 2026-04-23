@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udfe2 auth_plug lets you seamlessly add authentication to your Phoenix App with ONE Environment Variable\u2122  in less than 2 minutes! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001296,
+      "status": "candidate",
+      "text": "panacea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000952,
+      "status": "candidate",
+      "text": "vitriol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000279,
+      "status": "candidate",
+      "text": "cure-all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994794,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973357,
+      "status": "candidate",
+      "text": "paregoric"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elixir",
+      "sense_id": "elixir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elixir",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elixir",
+  "observation_id": "6dc5557aeb26f77d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "elixir",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/auth_plug",
+  "source_repo_description": "\ud83d\udfe2 auth_plug lets you seamlessly add authentication to your Phoenix App with ONE Environment Variable\u2122  in less than 2 minutes! \ud83d\ude80"
+}

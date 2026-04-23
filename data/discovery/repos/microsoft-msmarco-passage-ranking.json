@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Passage-Ranking",
+      "target": "microsoft/msmarco-openkp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Passage-Ranking",
+      "target": "microsoft/msmarco-conversational-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Passage-Ranking",
+      "target": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/MSMARCO-Passage-Ranking",
+      "target": "dfcf93/msmarcov2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:11.797183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MS MARCO(Microsoft Machine Reading Comprehension) is a large scale dataset focused on machine reading comprehension, question answering, and passage ranking. A variant of this task will be the part of TREC and AFIRM 2019. For Updates about TREC 2019 please follow This Repository  Passage Reranking task Task Given a query q and a the 1000 most relevant passages P = p1, p2, p3,... p1000, as retrieved by BM25 a succeful system is expected to rerank the most relevant passage as high as possible. For this task not all 1000 relevant items have a human labeled relevant passage. Evaluation will be done using MRR",
+    "fork": false,
+    "full_name": "microsoft/MSMARCO-Passage-Ranking",
+    "html_url": "https://github.com/microsoft/MSMARCO-Passage-Ranking",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-12T18:21:59Z",
+    "stargazers_count": 341,
+    "topics": [],
+    "updated_at": "2026-04-09T21:28:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfcf93/msmarcov2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/msmarco-conversational-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/msmarco-openkp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

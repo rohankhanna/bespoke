@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scifact",
+      "target": "dwadden/multivers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:56.880857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8661
+    },
+    {
+      "path": "requirements.txt",
+      "size": 559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Data and models for the SciFact verification task.",
+    "fork": false,
+    "full_name": "allenai/scifact",
+    "html_url": "https://github.com/allenai/scifact",
+    "language": "Python",
+    "pushed_at": "2023-10-15T18:32:12Z",
+    "stargazers_count": 256,
+    "topics": [],
+    "updated_at": "2026-04-21T16:46:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwadden/multivers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

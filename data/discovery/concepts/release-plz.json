@@ -103,6 +103,30 @@
       "source_repo": "agentclientprotocol/symposium-acp",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "status": "candidate-context",
+      "text": "Tooling to develop and emulate verifyable programs compatible with Optimism Cannon and the OP Stack \ud83e\udd80\ud83c\udf86"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Plonky3/Plonky3",
+      "status": "candidate-context",
+      "text": "A toolkit for polynomial IOPs (PIOPs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Plonky3/Plonky3",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agentclientprotocol/symposium-acp",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BadBoiLabs/Cannon-rs",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Plonky3/Plonky3",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -232,11 +268,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/mousefood"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

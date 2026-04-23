@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mirai-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate-context",
+      "text": "mirai\u76f8\u5173\u9879\u76ee\u548c\u63d2\u4ef6\u6536\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate-context",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/awesome-mirai",
+      "status": "candidate",
+      "text": "\u672c\u4ed3\u5e93\u7528\u4e8e\u6536\u96c6 mirai \u76f8\u5173\u793e\u533a\u5e94\u7528\uff0c\u4f8b\u5982\u57fa\u4e8e mirai \u7684 bot\uff0cmirai-console \u7684\u63d2\u4ef6\u4ee5\u53ca\u4f7f\u7528\u4e86\u5176\u4ed6\u8bed\u8a00 SDK \u7684\u9879\u76ee"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mirai-plugin",
+  "concept_id": "mirai-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "project-mirai/awesome-mirai"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirai-plugin",
+      "sense_id": "mirai-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

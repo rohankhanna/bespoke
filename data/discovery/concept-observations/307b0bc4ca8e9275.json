@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28643091,
+      "status": "candidate",
+      "text": "buckler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28628931,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28584880,
+      "status": "candidate",
+      "text": "harbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28584369,
+      "status": "candidate",
+      "text": "harbour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18650156,
+      "status": "candidate",
+      "text": "coats"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shields",
+      "sense_id": "shields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shields",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shields",
+  "observation_id": "307b0bc4ca8e9275",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "shields",
+  "source_context_snippet": "<p align='center'>",
+  "source_file": null,
+  "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+  "source_repo_description": ":octocat: Improve your README.md profile with these amazing badges."
+}

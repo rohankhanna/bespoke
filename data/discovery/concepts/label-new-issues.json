@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label New Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate-context",
+      "text": "Label New Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "Label New Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "merchant bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label New Issues",
+  "concept_id": "label-new-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/label_issue.yml",
+      "source_repo": "NVIDIA/TensorRT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label New Issues",
+      "sense_id": "label-new-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

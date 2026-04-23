@@ -1,0 +1,987 @@
+{
+  "components": [
+    {
+      "component": "@axe-core/playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@spectrum-web-components/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@spectrum-web-components/stylelint-header-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsonc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-lit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-lit-a11y",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-mdx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-notice",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-simple-import-sort",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-storybook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-wc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonc-eslint-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "replace-in-file",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "start-server-and-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-declaration-strict-value",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-order",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic-vrt.yml"
+    },
+    {
+      "component": "chromaui/action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic-vrt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "reviewdog/action-stylelint@v1.30.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "reviewdog/action-eslint@v1.33.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@axe-core/playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@spectrum-web-components/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@spectrum-web-components/stylelint-header-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-jsonc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-lit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-lit-a11y",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-mdx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-notice",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-simple-import-sort",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-storybook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "eslint-plugin-wc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "jsonc-eslint-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "npm-run-all2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "prettier-plugin-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "replace-in-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "start-server-and-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "stylelint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "stylelint-declaration-strict-value",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "stylelint-order",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Browser Performance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic-vrt.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic-vrt.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "chromaui/action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chromatic-vrt.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Visual regression testing with Chromatic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Coveralls Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "step-security/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "reviewdog/action-stylelint@v1.30.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "reviewdog/action-eslint@v1.33.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Preview Documentation (Azure Blob Storage)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Publish 2nd-Gen Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs-site.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs-site.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Publish Documentation Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "Publish Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "adobe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "spectrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/spectrum-web-components",
+      "target": "webcomponents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:50:33.234737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 610
+    },
+    {
+      "path": "package.json",
+      "size": 5151
+    },
+    {
+      "path": ".github/workflows/browser-tests.yml",
+      "size": 3398
+    },
+    {
+      "path": ".github/workflows/chromatic-vrt.yml",
+      "size": 1656
+    },
+    {
+      "path": ".github/workflows/coveralls.yml",
+      "size": 809
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 4605
+    },
+    {
+      "path": ".github/workflows/preview-docs.yml",
+      "size": 9285
+    },
+    {
+      "path": ".github/workflows/publish-2ndgen-docs.yml",
+      "size": 1864
+    },
+    {
+      "path": ".github/workflows/publish-docs-site.yml",
+      "size": 1929
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 12202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spectrum Web Components",
+    "fork": false,
+    "full_name": "adobe/spectrum-web-components",
+    "html_url": "https://github.com/adobe/spectrum-web-components",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T18:45:27Z",
+    "stargazers_count": 1504,
+    "topics": [
+      "adobe",
+      "spectrum",
+      "webcomponents"
+    ],
+    "updated_at": "2026-04-23T17:49:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Browser Performance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "term": "Browser Performance Tests"
+    },
+    {
+      "context_snippet": "Visual regression testing with Chromatic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chromatic-vrt.yml",
+      "term": "Visual regression testing with Chromatic"
+    },
+    {
+      "context_snippet": "Coveralls Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coveralls.yml",
+      "term": "Coveralls Code Coverage"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Preview Documentation (Azure Blob Storage)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "term": "Preview Documentation (Azure Blob Storage)"
+    },
+    {
+      "context_snippet": "Publish 2nd-Gen Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "term": "Publish 2nd-Gen Documentation"
+    },
+    {
+      "context_snippet": "Publish Documentation Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs-site.yml",
+      "term": "Publish Documentation Site"
+    },
+    {
+      "context_snippet": "Publish Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Packages"
+    },
+    {
+      "context_snippet": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adobe"
+    },
+    {
+      "context_snippet": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectrum"
+    },
+    {
+      "context_snippet": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcomponents"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release as Standalone Linux Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Release as Standalone Linux Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Release as Standalone Linux Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32403,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31556,
+      "status": "candidate",
+      "text": "spark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31556,
+      "status": "candidate",
+      "text": "sparking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31491,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31491,
+      "status": "candidate",
+      "text": "discharged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release as Standalone Linux Package",
+  "concept_id": "release-as-standalone-linux-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release as Standalone Linux Package",
+      "sense_id": "release-as-standalone-linux-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

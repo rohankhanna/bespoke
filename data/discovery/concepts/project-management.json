@@ -19,6 +19,42 @@
       "source_repo": "agent-sh/drift-detect",
       "status": "candidate-context",
       "text": "Deep repository analysis to realign project plans with actual code reality."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate-context",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "Project Interaction Library for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate-context",
+      "text": "Manage the release notes for your project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate-context",
+      "text": "Hear ye, hear ye, says the ``towncrier``"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "agent-sh/drift-detect",
       "status": "candidate",
       "text": "Deep repository analysis to realign project plans with actual code reality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boltpkg/bolt",
+      "status": "candidate",
+      "text": "> Super-powered JavaScript project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/projectile",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twisted/towncrier",
+      "status": "candidate",
+      "text": "Hear ye, hear ye, says the ``towncrier``"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "agent-sh/drift-detect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "twisted/towncrier"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "linter-flake8"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "A plugin for Flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate-context",
+      "text": "=============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "Naming Convention checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "PEP 8 Naming Conventions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8-bugbear",
+      "status": "candidate",
+      "text": "=============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate",
+      "text": "PEP 8 Naming Conventions"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "linter-flake8",
+  "concept_id": "linter-flake8",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8-bugbear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linter-flake8",
+      "sense_id": "linter-flake8#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

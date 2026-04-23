@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_src_artifact.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-fortran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire/arrayfire-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_src_artifact.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unix_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "DoozyX/clang-format-lint-action@v0.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "arrayfire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "gpgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arrayfire/arrayfire",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:11:21.522332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8961
+    },
+    {
+      "path": ".github/workflows/release_src_artifact.yml",
+      "size": 4061
+    },
+    {
+      "path": ".github/workflows/unix_cpu_build.yml",
+      "size": 8912
+    },
+    {
+      "path": ".github/workflows/win_cpu_build.yml",
+      "size": 2907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ArrayFire: a general purpose GPU library.",
+    "fork": false,
+    "full_name": "arrayfire/arrayfire",
+    "html_url": "https://github.com/arrayfire/arrayfire",
+    "language": "C++",
+    "pushed_at": "2026-03-07T03:06:52Z",
+    "stargazers_count": 4882,
+    "topics": [
+      "arrayfire",
+      "c",
+      "c-plus-plus",
+      "cpp",
+      "cuda",
+      "gpgpu",
+      "gpu",
+      "hpc",
+      "opencl",
+      "performance",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-23T19:04:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrayfire/arrayfire-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrayfire/arrayfire-fortran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrayfire/arrayfire-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrayfire/arrayfire-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrayfire"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpgpu"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StarsfieldAI/R1-V",
+      "target": "chenllliang/g1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StarsfieldAI/R1-V",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StarsfieldAI/R1-V",
+      "target": "huggingface/open-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StarsfieldAI/R1-V",
+      "target": "evolvinglmms-lab/open-r1-multimodal",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "StarsfieldAI/R1-V"
+}

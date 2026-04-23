@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "dvlab-research/longlora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "epfml/landmark-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "dachengli1/longchat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "fine-tuning-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "target": "lora",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:18:47.571970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26716
+    },
+    {
+      "path": "requirements.txt",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)",
+    "fork": false,
+    "full_name": "JIA-Lab-research/LongLoRA",
+    "html_url": "https://github.com/JIA-Lab-research/LongLoRA",
+    "language": "Python",
+    "pushed_at": "2024-08-14T12:48:54Z",
+    "stargazers_count": 2693,
+    "topics": [
+      "fine-tuning-llm",
+      "large-language-models",
+      "llm",
+      "long-context",
+      "lora"
+    ],
+    "updated_at": "2026-04-23T11:16:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dachengli1/longchat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/longlora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "epfml/landmark-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning-llm"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    }
+  ]
+}

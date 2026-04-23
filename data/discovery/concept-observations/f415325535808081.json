@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scalable toolkit for efficient model reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Automodel Integration and Submodule Checks\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Automodel Integration and Submodule Checks\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18527,
+      "status": "candidate",
+      "text": "functional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18455,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10364,
+      "status": "candidate",
+      "text": "accusative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10364,
+      "status": "candidate",
+      "text": "element"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10364,
+      "status": "candidate",
+      "text": "enzyme"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automodel Integration and Submodule Checks",
+      "sense_id": "automodel-integration-and-submodule-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automodel-integration-and-submodule-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automodel-integration-and-submodule-checks",
+  "observation_id": "f415325535808081",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Automodel Integration and Submodule Checks",
+  "source_context_snippet": "\"Automodel Integration and Submodule Checks\"",
+  "source_file": ".github/workflows/automodel-submodule-checks.yml",
+  "source_repo": "NVIDIA-NeMo/RL",
+  "source_repo_description": "Scalable toolkit for efficient model reinforcement"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Attempt CBMC update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Attempt CBMC update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "debriefing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "modernized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "rearm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Attempt CBMC update",
+      "sense_id": "attempt-cbmc-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "attempt-cbmc-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "attempt-cbmc-update",
+  "observation_id": "ff149db6f6f0c450",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Attempt CBMC update",
+  "source_context_snippet": "Attempt CBMC update",
+  "source_file": ".github/workflows/cbmc-update.yml",
+  "source_repo": "model-checking/kani",
+  "source_repo_description": "Kani Rust Verifier"
+}

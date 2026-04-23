@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roxma/nvim-yarp",
+      "target": "roxma/vim-hug-neovim-rpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roxma/nvim-yarp",
+      "target": "callmekohei/quickdebug",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:05:28.926053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3424
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet Another Remote Plugin Framework for Neovim",
+    "fork": false,
+    "full_name": "roxma/nvim-yarp",
+    "html_url": "https://github.com/roxma/nvim-yarp",
+    "language": "Vim script",
+    "pushed_at": "2022-06-08T03:27:56Z",
+    "stargazers_count": 230,
+    "topics": [],
+    "updated_at": "2026-01-23T03:29:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "callmekohei/quickdebug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roxma/vim-hug-neovim-rpc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

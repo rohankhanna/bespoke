@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-config-files",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-config-files",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-template-config-files",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:34:57.255733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1808
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A template for starting a new allennlp project using config files and `allennlp train`",
+    "fork": false,
+    "full_name": "allenai/allennlp-template-config-files",
+    "html_url": "https://github.com/allenai/allennlp-template-config-files",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:49:45Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2024-09-01T23:39:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

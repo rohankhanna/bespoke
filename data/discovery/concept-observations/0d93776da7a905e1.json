@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_formerly pyo3-pack_"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_formerly pyo3-pack_"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041053,
+      "status": "candidate",
+      "text": "steering wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039022,
+      "status": "candidate",
+      "text": "wheel around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037132,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033082,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032167,
+      "status": "candidate",
+      "text": "cycle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wheels",
+      "sense_id": "wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wheels",
+  "observation_id": "0d93776da7a905e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "wheels",
+  "source_context_snippet": "_formerly pyo3-pack_",
+  "source_file": null,
+  "source_repo": "PyO3/maturin",
+  "source_repo_description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+}

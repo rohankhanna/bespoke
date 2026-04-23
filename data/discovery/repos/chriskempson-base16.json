@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16",
+      "target": "alexmirrington/base16-spectrum-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16",
+      "target": "atom/atom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16",
+      "target": "atelierbram/c-tiles16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16",
+      "target": "andreyvpng/just-colors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/base16",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/base16",
+      "target": "colour-schemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/base16",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/base16",
+      "target": "guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/base16",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:29.002608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Framework for building Themes",
+    "fork": false,
+    "full_name": "chriskempson/base16",
+    "html_url": "https://github.com/chriskempson/base16",
+    "language": null,
+    "pushed_at": "2023-10-12T02:42:54Z",
+    "stargazers_count": 918,
+    "topics": [
+      "base16",
+      "colour-schemes",
+      "framework",
+      "guidelines",
+      "themes"
+    ],
+    "updated_at": "2026-04-19T03:21:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmirrington/base16-spectrum-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreyvpng/just-colors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atelierbram/c-tiles16",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atom/atom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colour-schemes"
+    },
+    {
+      "context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guidelines"
+    },
+    {
+      "context_snippet": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Label Manager"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Label Manager"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18239,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18198,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18156,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18156,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18156,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Label Manager",
+      "sense_id": "pr-label-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-label-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-label-manager",
+  "observation_id": "4afc6f99808b1b51",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "PR Label Manager",
+  "source_context_snippet": "PR Label Manager",
+  "source_file": ".github/workflows/pr-label-status.yml",
+  "source_repo": "puma/puma",
+  "source_repo_description": "A Ruby/Rack web server built for parallelism"
+}

@@ -454,6 +454,282 @@
       "source_repo": "matter-labs/zksync",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowplow-incubator/cla-bot",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "A unified evaluation library for multiple machine learning libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "OpenMMLab FewShot Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "A library to create small, reusable CSS that scales as your website grows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaIPFS documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "status": "candidate-context",
+      "text": "Forum for discussion about what unsafe code can and can't do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtolnay/cxx",
+      "status": "candidate-context",
+      "text": "Safe interop between Rust and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cxx",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "Set Your Goals, AI Achieves Them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "OpenMMLab Semantic Segmentation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Packages for Typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate-context",
+      "text": "The fastest and safest AV1 encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "The governance process and model for Project Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "OpenMMLab optical flow toolbox and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "MMGeneration is a powerful toolkit for generative models, based on PyTorch and MMCV. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "status": "candidate-context",
+      "text": "Code for Gym documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/servo.org",
+      "status": "candidate-context",
+      "text": "Servo project website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo.org",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab 3D Human Parametric Model Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "OpenMMLab Pose Estimation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +954,150 @@
       "source_repo": "matter-labs/zksync",
       "status": "candidate",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowplow-incubator/cla-bot",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acss-io/atomizer",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/unsafe-code-guidelines",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cxx",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/auto-gpt-web",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/rav1e",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmgeneration",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/opencompass",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/gym-docs",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo.org",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpose",
+      "status": "candidate",
+      "text": "deploy"
     }
   ],
   "candidate_related_terms": [
@@ -955,11 +1375,173 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "matter-labs/zksync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "snowplow-incubator/cla-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmeval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmfewshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "acss-io/atomizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/unsafe-code-guidelines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "dtolnay/cxx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmsegmentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/new_site.yml",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "dequelabs/axe-core-npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmgeneration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Farama-Foundation/gym-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "servo/servo.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmhuman3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmpose"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

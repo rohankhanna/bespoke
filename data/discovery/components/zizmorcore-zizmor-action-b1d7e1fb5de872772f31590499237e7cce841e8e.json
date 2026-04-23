@@ -1,7 +1,7 @@
 {
   "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
     }
   ]
 }

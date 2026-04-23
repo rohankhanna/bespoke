@@ -19,12 +19,30 @@
       "source_repo": "badges/shields",
       "status": "candidate-context",
       "text": "Coveralls Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
+      "status": "candidate-context",
+      "text": "Coveralls Code Coverage"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "Coveralls Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe/spectrum-web-components",
       "status": "candidate",
       "text": "Coveralls Code Coverage"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/coveralls-code-coverage.yml",
       "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "adobe/spectrum-web-components"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

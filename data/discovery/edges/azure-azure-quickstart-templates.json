@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ValidateSampleDeployments.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Validate ARM Deployments via ADX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/setup-dotnet@v1.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Auto Fix Sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "microsoft/security-devops-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summarize-pr.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Summarize PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-samples.yml",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "Validate Sample Contributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "arm-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "bicep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "bicep-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-quickstart-templates",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Azure/azure-quickstart-templates"
+}

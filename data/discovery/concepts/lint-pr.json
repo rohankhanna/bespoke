@@ -79,6 +79,18 @@
       "source_repo": "simonmclean/triptych.nvim",
       "status": "candidate-context",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate-context",
+      "text": "Lint PR"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "simonmclean/triptych.nvim",
       "status": "candidate",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/modelexpress",
+      "status": "candidate",
+      "text": "Lint PR"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "simonmclean/triptych.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "ai-dynamo/modelexpress"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

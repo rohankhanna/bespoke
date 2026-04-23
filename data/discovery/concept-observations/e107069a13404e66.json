@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bazel rules for apko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "no-ghaudit-default-permissions",
+      "sense_id": "no-ghaudit-default-permissions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "no-ghaudit-default-permissions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "no-ghaudit-default-permissions",
+  "observation_id": "e107069a13404e66",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "no-ghaudit-default-permissions",
+  "source_context_snippet": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel.",
+  "source_file": null,
+  "source_repo": "chainguard-dev/rules_apko",
+  "source_repo_description": "Bazel rules for apko"
+}

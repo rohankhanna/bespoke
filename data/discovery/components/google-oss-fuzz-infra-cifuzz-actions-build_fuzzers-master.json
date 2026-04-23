@@ -1,7 +1,7 @@
 {
   "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "strukturag/libheif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "kkos/oniguruma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oss-fuzz.yml",
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fastfloat/fast_float"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libarchive/libarchive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "akheron/jansson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "BurntSushi/toml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "util-linux/util-linux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "systemd/systemd"
     }
   ]
 }

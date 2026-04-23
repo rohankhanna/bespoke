@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validating the Building of Public Assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Validating the Building of Public Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Validating the Building of Public Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35327,
+      "status": "candidate",
+      "text": "hall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34613,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34613,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34554,
+      "status": "candidate",
+      "text": "dedicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34514,
+      "status": "candidate",
+      "text": "authentication"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validating the Building of Public Assets",
+  "concept_id": "validating-the-building-of-public-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/assets_validation.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validating the Building of Public Assets",
+      "sense_id": "validating-the-building-of-public-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lock issues and pull requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lock issues and pull requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27412,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27357,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27357,
+      "status": "candidate",
+      "text": "seize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27341,
+      "status": "candidate",
+      "text": "pick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27309,
+      "status": "candidate",
+      "text": "tackle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock issues and pull requests",
+      "sense_id": "lock-issues-and-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lock-issues-and-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lock-issues-and-pull-requests",
+  "observation_id": "9b247e6d2197a6c4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Lock issues and pull requests",
+  "source_context_snippet": "Lock issues and pull requests",
+  "source_file": ".github/workflows/lock.yml",
+  "source_repo": "fastlane/fastlane",
+  "source_repo_description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+}

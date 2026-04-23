@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release & Environment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Release & Environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate",
+      "text": "Release & Environment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11647,
+      "status": "candidate",
+      "text": "media"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11647,
+      "status": "candidate",
+      "text": "withdraw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11621,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "setting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release & Environment",
+  "concept_id": "release-environment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release-environment.yml",
+      "source_repo": "lz4/lz4"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release & Environment",
+      "sense_id": "release-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

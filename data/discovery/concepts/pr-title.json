@@ -49,6 +49,18 @@
       "source_repo": "shakacode/package_json",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "Navigate your code with search labels, enhanced character motions and Treesitter integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "shakacode/package_json",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
       "status": "candidate",
       "text": "PR Title"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/title.yml",
       "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/flash.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

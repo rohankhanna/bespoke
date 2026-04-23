@@ -1,0 +1,699 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "codecov/test-results-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "codecov/test-results-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "significant-gravitas/gravitasml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "significant-gravitas/autogpt-code-ability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "codecov/test-results-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - AutoGPT CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-cache-clean.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - AutoGPT Docker CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - AutoGPT Docker Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - Agent smoke tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - Direct Benchmark CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "codecov/test-results-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "Classic - Forge CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Significant-Gravitas/AutoGPT",
+      "target": "llama-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:07:16.642806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11725
+    },
+    {
+      "path": ".github/workflows/classic-autogpt-ci.yml",
+      "size": 3346
+    },
+    {
+      "path": ".github/workflows/classic-autogpt-docker-cache-clean.yml",
+      "size": 1813
+    },
+    {
+      "path": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "size": 5578
+    },
+    {
+      "path": ".github/workflows/classic-autogpt-docker-release.yml",
+      "size": 2981
+    },
+    {
+      "path": ".github/workflows/classic-autogpts-ci.yml",
+      "size": 1863
+    },
+    {
+      "path": ".github/workflows/classic-benchmark-ci.yml",
+      "size": 4994
+    },
+    {
+      "path": ".github/workflows/classic-benchmark_publish_package.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/classic-forge-ci.yml",
+      "size": 2996
+    },
+    {
+      "path": ".github/workflows/classic-python-checks.yml",
+      "size": 2920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "fork": false,
+    "full_name": "Significant-Gravitas/AutoGPT",
+    "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "language": "Python",
+    "pushed_at": "2026-04-23T20:23:26Z",
+    "stargazers_count": 183694,
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "claude",
+      "gpt",
+      "llama-api",
+      "llm",
+      "openai",
+      "python"
+    ],
+    "updated_at": "2026-04-23T21:46:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "significant-gravitas/autogpt-code-ability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "significant-gravitas/gravitasml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Classic - AutoGPT CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "term": "Classic - AutoGPT CI"
+    },
+    {
+      "context_snippet": "Classic - AutoGPT Docker CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "term": "Classic - AutoGPT Docker CI"
+    },
+    {
+      "context_snippet": "Classic - AutoGPT Docker Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpt-docker-release.yml",
+      "term": "Classic - AutoGPT Docker Release"
+    },
+    {
+      "context_snippet": "Classic - Agent smoke tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-autogpts-ci.yml",
+      "term": "Classic - Agent smoke tests"
+    },
+    {
+      "context_snippet": "Classic - Direct Benchmark CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "term": "Classic - Direct Benchmark CI"
+    },
+    {
+      "context_snippet": "Classic - Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-benchmark_publish_package.yml",
+      "term": "Classic - Publish to PyPI"
+    },
+    {
+      "context_snippet": "Classic - Forge CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "term": "Classic - Forge CI"
+    },
+    {
+      "context_snippet": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-api"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/artwork",
+      "target": "opencontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/artwork",
+      "target": "runc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:36:21.978430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCI artwork and logos",
+    "fork": false,
+    "full_name": "opencontainers/artwork",
+    "html_url": "https://github.com/opencontainers/artwork",
+    "language": null,
+    "pushed_at": "2021-10-20T18:40:18Z",
+    "stargazers_count": 189,
+    "topics": [
+      "oci",
+      "opencontainers",
+      "runc"
+    ],
+    "updated_at": "2026-02-04T15:13:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains OCI artwork and logos in a variety of formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencontainers"
+    },
+    {
+      "context_snippet": "This repository contains OCI artwork and logos in a variety of formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runc"
+    }
+  ]
+}

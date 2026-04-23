@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Homebrew E2E Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate-context",
+      "text": "Homebrew E2E Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiKrice/homebrew-badgetizr",
+      "status": "candidate",
+      "text": "Homebrew E2E Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "ale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11114,
+      "status": "candidate",
+      "text": "equipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "aided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "classy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Homebrew E2E Test",
+  "concept_id": "homebrew-e2e-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/homebrew-e2e.yml",
+      "source_repo": "aiKrice/homebrew-badgetizr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Homebrew E2E Test",
+      "sense_id": "homebrew-e2e-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

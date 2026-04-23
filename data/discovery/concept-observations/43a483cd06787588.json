@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Keras model of NSFW detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and release packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and release packages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19381,
+      "status": "candidate",
+      "text": "parcel post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and release packages",
+      "sense_id": "build-and-release-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-release-packages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-release-packages",
+  "observation_id": "43a483cd06787588",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build and release packages",
+  "source_context_snippet": "Build and release packages",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "GantMan/nsfw_model",
+  "source_repo_description": "Keras model of NSFW detector"
+}

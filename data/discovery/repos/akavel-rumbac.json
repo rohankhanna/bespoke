@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akavel/rumbac",
+      "target": "shumatech/bossa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "arduino-nano-33-ble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "arduino-nano-33-ble-sense",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "bossa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "bossac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "flash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "nrf52840",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akavel/rumbac",
+      "target": "sam-ba",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:23:31.301610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2334
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a simple commandline flasher for Arduino Nano 33 BLE / Sense boards",
+    "fork": false,
+    "full_name": "akavel/rumbac",
+    "html_url": "https://github.com/akavel/rumbac",
+    "language": "Rust",
+    "pushed_at": "2025-04-20T11:23:53Z",
+    "stargazers_count": 3,
+    "topics": [
+      "arduino-nano-33-ble",
+      "arduino-nano-33-ble-sense",
+      "bossa",
+      "bossac",
+      "flash",
+      "nrf52840",
+      "sam-ba"
+    ],
+    "updated_at": "2026-02-18T11:44:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shumatech/bossa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-nano-33-ble"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-nano-33-ble-sense"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bossa"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bossac"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrf52840"
+    },
+    {
+      "context_snippet": "`rumbac` is a simple commandline tool for uploading .bin files with compiled",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sam-ba"
+    }
+  ]
+}

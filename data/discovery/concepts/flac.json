@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "flac"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017961,
+      "status": "candidate",
+      "text": "flic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023169,
+      "status": "candidate",
+      "text": "aiff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023168,
+      "status": "candidate",
+      "text": "cd-da"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023167,
+      "status": "candidate",
+      "text": "nicam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023166,
+      "status": "candidate",
+      "text": "alsa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "flac",
+  "concept_id": "flac",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flac",
+      "sense_id": "flac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

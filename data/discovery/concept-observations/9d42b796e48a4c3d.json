@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump Milvus Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump Milvus Version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23109,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "glede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bonk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bounce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Milvus Version",
+      "sense_id": "bump-milvus-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-milvus-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-milvus-version",
+  "observation_id": "9d42b796e48a4c3d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bump Milvus Version",
+  "source_context_snippet": "Bump Milvus Version",
+  "source_file": ".github/workflows/bump-version.yaml",
+  "source_repo": "milvus-io/milvus",
+  "source_repo_description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+}

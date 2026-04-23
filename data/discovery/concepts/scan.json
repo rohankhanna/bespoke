@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "A code generator for array-based code on CPUs and GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate-context",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/loopy",
+      "status": "candidate",
+      "text": "Loopy: Transformation-Based Generation of High-Performance CPU/GPU Code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036454,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998401,
+      "status": "candidate",
+      "text": "run down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990590,
+      "status": "candidate",
+      "text": "glance over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962578,
+      "status": "candidate",
+      "text": "skim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39849578,
+      "status": "candidate",
+      "text": "rake"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22045,
+      "status": "candidate",
+      "text": "skim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11056,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3012,
+      "status": "candidate",
+      "text": "glance over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "run down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "rake"
+    }
+  ],
+  "canonical_name": "scan",
+  "concept_id": "scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "inducer/loopy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scan",
+      "sense_id": "scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

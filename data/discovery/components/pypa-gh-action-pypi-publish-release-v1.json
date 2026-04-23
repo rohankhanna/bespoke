@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -717,6 +717,226 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-to-pypi.yml",
       "source_repo": "autodistill/autodistill-clip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "halide/Halide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "ISEEKYAN/mbridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "LazyAGI/LazyLLM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yaml",
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/cmake_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/python_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cleanlab/cleanvision"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "adobe-type-tools/afdko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_publish.yml",
+      "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev_package.yml",
+      "source_repo": "milvus-io/pymilvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_on_release.yml",
+      "source_repo": "milvus-io/pymilvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yml",
+      "source_repo": "cloudpipe/cloudpickle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mitsuba-renderer/drjit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cumulo-autumn/StreamDiffusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "David-OConnor/pyflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "vinlyx/mgzip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pkg.yml",
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "twisted/towncrier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pycompression/xopen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ada-url/ada-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "assignUser/delocate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anymail/django-anymail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "abersheeran/pdm-version"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andriykohut/pdm-readiness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px"
     }
   ]
 }

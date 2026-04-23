@@ -43,6 +43,18 @@
       "source_repo": "Cle2ment/CherryStudio_themes",
       "status": "candidate-context",
       "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "A Framework for building Themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate-context",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Cle2ment/CherryStudio_themes",
       "status": "candidate",
       "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/base16",
+      "status": "candidate",
+      "text": "Not a theme, but a framework for building [Tomorrow](https://github.com/chriskempson/tomorrow-theme) styled themes using a base of sixteen colours. Since _August 2012_, Base16 has provided a minimal set of guidelines that explain how to [style syntax](https://github.com/chriskem\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chriskempson/base16"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

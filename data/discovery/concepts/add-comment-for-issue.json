@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add Comment for issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Add Comment for issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "Add Comment for issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "dilate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "expound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "footnote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "glosa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18126,
+      "status": "candidate",
+      "text": "gloss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add Comment for issue",
+  "concept_id": "add-comment-for-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/check-issue.yaml",
+      "source_repo": "milvus-io/milvus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Comment for issue",
+      "sense_id": "add-comment-for-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

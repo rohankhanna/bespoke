@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShadeCloak/ADORA",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:08.875865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ShadeCloak/ADORA",
+    "html_url": "https://github.com/ShadeCloak/ADORA",
+    "language": "Python",
+    "pushed_at": "2025-04-09T13:19:12Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-01-14T03:58:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

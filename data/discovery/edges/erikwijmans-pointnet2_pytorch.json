@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "charlesq34/pointnet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "williamfalcon/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pointnet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikwijmans/Pointnet2_PyTorch",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "erikwijmans/Pointnet2_PyTorch"
+}

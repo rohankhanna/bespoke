@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "casbin-rs/actix-casbin-auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "casbin-rs/actix-casbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "casbin-rs/actix-casbin-auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "casbin-rs/actix-casbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:55:24.229280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1689
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1182
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "apache/casbin-rust-actix-middleware-example",
+    "html_url": "https://github.com/apache/casbin-rust-actix-middleware-example",
+    "language": "Rust",
+    "pushed_at": "2022-08-31T17:06:18Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-12T12:14:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin-auth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin-auth",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

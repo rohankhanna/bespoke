@@ -103,6 +103,90 @@
       "source_repo": "daniilrobnikov/vits2",
       "status": "candidate-context",
       "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "Implementation of WaveGrad high-fidelity vocoder from Google Brain in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate-context",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": ":robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate-context",
+      "text": "WaveNet vocoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes for different datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate-context",
+      "text": "* NumPy >= 1.11.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u6807\u8d1d\u6570\u636e\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u672c\u7684FastSpeech2\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +237,48 @@
       "source_repo": "daniilrobnikov/vits2",
       "status": "candidate",
       "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanvovk/WaveGrad",
+      "status": "candidate",
+      "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/TTS",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png\" data-canonical-src=\"![TTS banner](https://user-images.githubusercontent.com/1402048/104139991-3fd15e00-53af-11eb-8640-3a78a64641dd.png =250x250)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/wavenet_vocoder",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS-recipes",
+      "status": "candidate",
+      "text": "\ud83d\udc38TTS recipes intended to host bash scripts running all the necessary steps to train a TTS model with a particular dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/tacotron",
+      "status": "candidate",
+      "text": "* NumPy >= 1.11.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Executedone/Chinese-FastSpeech2",
+      "status": "candidate",
+      "text": "\u57fa\u4e8e[\u6807\u8d1d\u4e2d\u6587\u6807\u51c6\u5973\u58f0\u6570\u636e](https://www.data-baker.com/data/index/TNtts)\u7ee7\u7eed\u8bad\u7ec3\uff0c\u540c\u65f6\u5bf9\u539f\u8bba\u6587\u7684[FastSpeech2](https://github.com/ming024/FastSpeech2)\u6a21\u578b\u505a\u4e86\u6539\u8fdb\uff0c\u5f15\u5165\u4e86\u97f5\u5f8b\u8868\u5f81\u4ee5\u53ca\u97f5\u5f8b\u9884\u6d4b\u6a21\u5757\uff0c\u4f7f\u4e2d\u6587\u53d1\u97f3\u66f4\u751f\u52a8\u4e14\u5bcc\u6709\u8282\u594f"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +406,59 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "daniilrobnikov/vits2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ivanvovk/WaveGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/wavenet_vocoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/tacotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Executedone/Chinese-FastSpeech2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

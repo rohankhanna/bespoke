@@ -19,6 +19,18 @@
       "source_repo": "Teradata/kylo",
       "status": "candidate-context",
       "text": "[![alt Kylo](https://cloud.githubusercontent.com/assets/5693584/22863033/4976d7d2-f0ee-11e6-95ec-3a30e2162a3c.png)](http://kylo.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Teradata/kylo",
       "status": "candidate",
       "text": "[![alt Kylo](https://cloud.githubusercontent.com/assets/5693584/22863033/4976d7d2-f0ee-11e6-95ec-3a30e2162a3c.png)](http://kylo.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Teradata/kylo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "spotify/luigi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

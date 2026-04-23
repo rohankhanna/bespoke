@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v2",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "gulpjs/vinyl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-tool-cache.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode.yml",
+      "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "Chatie/tsconfig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rose-pine/rose-pine-palette"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonschlinkert/fill-range"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "gulpjs/vinyl-fs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/semistandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jonaskello/tsconfig-paths-webpack-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joaomoreno/gulp-vinyl-zip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/compilation-hints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "karma-runner/karma-coverage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "karma-runner/karma-coverage"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "worker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019533,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017779,
+      "status": "candidate",
+      "text": "proletarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016820,
+      "status": "candidate",
+      "text": "prole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013050,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043626,
+      "status": "candidate",
+      "text": "labourer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20047,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9033,
+      "status": "candidate",
+      "text": "proletarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8031,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7030,
+      "status": "candidate",
+      "text": "prole"
+    }
+  ],
+  "canonical_name": "worker",
+  "concept_id": "worker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "php/frankenphp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "worker",
+      "sense_id": "worker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

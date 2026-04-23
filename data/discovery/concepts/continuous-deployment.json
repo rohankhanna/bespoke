@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Continuous Deployment"
+    "Continuous Deployment",
+    "continuous-deployment"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,42 @@
       "source_repo": "ent/ent",
       "status": "candidate-context",
       "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "status": "candidate-context",
+      "text": "Scripts to ingest MDN compat data in RemoteSettings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate-context",
+      "text": "A portable guitar training tool & DIY kit \ud83c\udf9b\ufe0f\ud83c\udfb8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +120,24 @@
       "source_repo": "ent/ent",
       "status": "candidate",
       "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/tuitar",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
     }
   ],
   "candidate_related_terms": [
@@ -141,11 +198,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "ent/ent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/tuitar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

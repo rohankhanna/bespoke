@@ -55,6 +55,30 @@
       "source_repo": "justinfx/olric-nats-plugin",
       "status": "candidate-context",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "Consul integration for service discovery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate-context",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "justinfx/olric-nats-plugin",
       "status": "candidate",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric-consul-plugin",
+      "status": "candidate",
+      "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "justinfx/olric-nats-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric-consul-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

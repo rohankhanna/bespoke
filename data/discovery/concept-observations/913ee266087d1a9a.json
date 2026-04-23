@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elixir is a dynamic, functional language for building scalable and maintainable applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License Compliance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License Compliance"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "allow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "allowance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "dismissed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10601,
+      "status": "candidate",
+      "text": "freedom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License Compliance",
+      "sense_id": "license-compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-compliance",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-compliance",
+  "observation_id": "913ee266087d1a9a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "License Compliance",
+  "source_context_snippet": "License Compliance",
+  "source_file": ".github/workflows/license_compliance.yml",
+  "source_repo": "elixir-lang/elixir",
+  "source_repo_description": "Elixir is a dynamic, functional language for building scalable and maintainable applications"
+}

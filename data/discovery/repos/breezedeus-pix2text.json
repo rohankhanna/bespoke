@@ -1,0 +1,225 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "breezedeus/cnocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "jaidedai/easyocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "breezedeus/cnstd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "breezedeus/pix2text-mac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "image-to-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "latex-pdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "layout-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "math-formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "math-formula-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "math-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "mathpix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "breezedeus/Pix2Text",
+      "target": "table-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:16.413314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14549
+    },
+    {
+      "path": "requirements.txt",
+      "size": 8283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open-Source Python3 tool with SMALL models for recognizing layouts, tables, math formulas (LaTeX), and text in images, converting them into Markdown format. A free alternative to Mathpix, empowering seamless conversion of visual content into text-based representations. 80+ languages are supported.",
+    "fork": false,
+    "full_name": "breezedeus/Pix2Text",
+    "html_url": "https://github.com/breezedeus/Pix2Text",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-07T11:13:23Z",
+    "stargazers_count": 3102,
+    "topics": [
+      "image-to-markdown",
+      "latex",
+      "latex-pdf",
+      "layout-analysis",
+      "math-formula",
+      "math-formula-recognition",
+      "math-ocr",
+      "mathpix",
+      "ocr",
+      "python",
+      "pytorch",
+      "table-ocr"
+    ],
+    "updated_at": "2026-04-22T07:46:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/cnocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/cnstd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/pix2text-mac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaidedai/easyocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-markdown"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex-pdf"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-ocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathpix"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-ocr"
+    }
+  ]
+}

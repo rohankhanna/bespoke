@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
+      "target": "ethereum/evmone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
+      "target": "ethereum/evmc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
+      "target": "chfast/intx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmone",
+      "target": "chfast/ethash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone",
+      "target": "ethereum-virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone",
+      "target": "evmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:38:59.364809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5076
+    },
+    {
+      "path": "Dockerfile",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Ethereum Virtual Machine implementation",
+    "fork": false,
+    "full_name": "ipsilon/evmone",
+    "html_url": "https://github.com/ipsilon/evmone",
+    "language": "C++",
+    "pushed_at": "2026-04-22T16:25:12Z",
+    "stargazers_count": 974,
+    "topics": [
+      "blockchain",
+      "ethereum",
+      "ethereum-virtual-machine",
+      "evm",
+      "evmc",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-19T18:57:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chfast/ethash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chfast/intx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/evmc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/evmone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![ethereum badge]][ethereum]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![ethereum badge]][ethereum]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![ethereum badge]][ethereum]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-virtual-machine"
+    },
+    {
+      "context_snippet": "[![ethereum badge]][ethereum]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evmc"
+    },
+    {
+      "context_snippet": "[![ethereum badge]][ethereum]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

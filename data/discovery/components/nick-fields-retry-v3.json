@@ -1,7 +1,7 @@
 {
   "component": "nick-fields/retry@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unit-tests.yml",
       "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-ete-test.yml",
+      "source_repo": "open-compass/opencompass"
     }
   ]
 }

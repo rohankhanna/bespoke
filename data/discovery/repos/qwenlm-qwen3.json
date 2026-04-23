@@ -16,14 +16,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "QwenLM/Qwen3",
-      "target": "alibaba/mnn",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QwenLM/Qwen3",
-      "target": "ml-explore/mlx-lm",
+      "target": "openaccess-ai-collective/axolotl",
       "target_type": "repository"
     },
     {
@@ -62,7 +55,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:19:13.037931+00:00",
+  "fetched_at": "2026-04-23T22:08:42.924988+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,16 +76,11 @@
     "html_url": "https://github.com/QwenLM/Qwen3",
     "language": "Python",
     "pushed_at": "2026-01-09T03:05:47Z",
-    "stargazers_count": 27147,
+    "stargazers_count": 27160,
     "topics": [],
-    "updated_at": "2026-04-22T15:01:21Z"
+    "updated_at": "2026-04-23T19:02:18Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba/mnn",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "hiyouga/llama-factory",
@@ -100,12 +88,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ml-explore/mlx-lm",
+      "full_name": "modelscope/swift",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "modelscope/swift",
+      "full_name": "openaccess-ai-collective/axolotl",
       "source_file": "README.md"
     }
   ],

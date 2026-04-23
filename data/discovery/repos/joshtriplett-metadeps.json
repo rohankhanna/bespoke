@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:42:37.463962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 669
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Run pkg-config from declarative dependencies in Cargo.toml",
+    "fork": false,
+    "full_name": "joshtriplett/metadeps",
+    "html_url": "https://github.com/joshtriplett/metadeps",
+    "language": "Rust",
+    "pushed_at": "2021-06-30T07:13:26Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-03-19T13:55:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

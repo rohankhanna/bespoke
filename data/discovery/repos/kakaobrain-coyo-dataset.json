@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/coyo-dataset",
+      "target": "bhky/opennsfw2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/coyo-dataset",
+      "target": "gantman/nsfw_model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/coyo-dataset",
+      "target": "google/cld3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/coyo-dataset",
+      "target": "kakaobrain/coyo-vit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:42.733623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "COYO-700M: Large-scale Image-Text Pair Dataset",
+    "fork": false,
+    "full_name": "kakaobrain/coyo-dataset",
+    "html_url": "https://github.com/kakaobrain/coyo-dataset",
+    "language": "Python",
+    "pushed_at": "2022-11-30T06:54:50Z",
+    "stargazers_count": 1253,
+    "topics": [],
+    "updated_at": "2026-04-20T07:49:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhky/opennsfw2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gantman/nsfw_model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/cld3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaobrain/coyo-vit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

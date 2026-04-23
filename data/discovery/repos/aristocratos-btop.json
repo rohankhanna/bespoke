@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-netbsd.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-netbsd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-openbsd.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-openbsd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-linux.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/btop",
+      "target": "aristocratos/btop4win",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/btop",
+      "target": "aristocratos/bashtop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/btop",
+      "target": "aristocratos/bpytop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/btop",
+      "target": "nvidia/open-gpu-kernel-modules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "FreeBSD CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-linux.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-linux.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "Linux CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "macOS CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-netbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-netbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-netbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "NetBSD CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-openbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-openbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-openbsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "OpenBSD CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "Continuous Build FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-gpu.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-gpu.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "Continuous Build Gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-linux.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-linux.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-linux.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "Continuous Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "source_repo": "aristocratos/btop",
+      "target": "Continuous Build MacOS",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:03.633052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52804
+    },
+    {
+      "path": ".github/workflows/cmake-freebsd.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/cmake-linux.yml",
+      "size": 1860
+    },
+    {
+      "path": ".github/workflows/cmake-macos.yml",
+      "size": 1446
+    },
+    {
+      "path": ".github/workflows/cmake-netbsd.yml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/cmake-openbsd.yml",
+      "size": 1246
+    },
+    {
+      "path": ".github/workflows/continuous-build-freebsd.yml",
+      "size": 1652
+    },
+    {
+      "path": ".github/workflows/continuous-build-gpu.yml",
+      "size": 1034
+    },
+    {
+      "path": ".github/workflows/continuous-build-linux.yml",
+      "size": 2885
+    },
+    {
+      "path": ".github/workflows/continuous-build-macos.yml",
+      "size": 1625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A monitor of resources",
+    "fork": false,
+    "full_name": "aristocratos/btop",
+    "html_url": "https://github.com/aristocratos/btop",
+    "language": "C++",
+    "pushed_at": "2026-04-13T08:38:34Z",
+    "stargazers_count": 31799,
+    "topics": [],
+    "updated_at": "2026-04-23T19:47:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aristocratos/bashtop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aristocratos/bpytop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aristocratos/btop4win",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/open-gpu-kernel-modules",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FreeBSD CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-freebsd.yml",
+      "term": "FreeBSD CMake"
+    },
+    {
+      "context_snippet": "Linux CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-linux.yml",
+      "term": "Linux CMake"
+    },
+    {
+      "context_snippet": "macOS CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-macos.yml",
+      "term": "macOS CMake"
+    },
+    {
+      "context_snippet": "NetBSD CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-netbsd.yml",
+      "term": "NetBSD CMake"
+    },
+    {
+      "context_snippet": "OpenBSD CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-openbsd.yml",
+      "term": "OpenBSD CMake"
+    },
+    {
+      "context_snippet": "Continuous Build FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-freebsd.yml",
+      "term": "Continuous Build FreeBSD"
+    },
+    {
+      "context_snippet": "Continuous Build Gpu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-gpu.yml",
+      "term": "Continuous Build Gpu"
+    },
+    {
+      "context_snippet": "Continuous Build Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-linux.yml",
+      "term": "Continuous Build Linux"
+    },
+    {
+      "context_snippet": "Continuous Build MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build-macos.yml",
+      "term": "Continuous Build MacOS"
+    }
+  ]
+}

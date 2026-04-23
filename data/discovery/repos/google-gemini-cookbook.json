@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "github/issue-metrics@4f29f34d9d831fe224cbc6c8a0d711415ebd01b1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "actions/labeler@ac9175f8a1f3625fd0d4fb234536d26811351594",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_examples_links_in_table_of_content.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_examples_links_in_table_of_content.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml"
+    },
+    {
+      "component": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-gemini/cookbook",
+      "target": "google-gemini/gemini-api-quickstart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-gemini/cookbook",
+      "target": "google-gemini/multimodal-live-api-web-console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-gemini/cookbook",
+      "target": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-gemini/cookbook",
+      "target": "google-gemini/starter-applets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "github/issue-metrics@4f29f34d9d831fe224cbc6c8a0d711415ebd01b1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "Issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "actions/labeler@ac9175f8a1f3625fd0d4fb234536d26811351594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_examples_links_in_table_of_content.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_examples_links_in_table_of_content.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks.yaml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks.yaml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "Notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "google-gemini/cookbook",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/cookbook",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/cookbook",
+      "target": "gemini-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:25.825121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15341
+    },
+    {
+      "path": ".github/workflows/issue-metrics.yml",
+      "size": 1468
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/new_examples_links_in_table_of_content.yml",
+      "size": 2372
+    },
+    {
+      "path": ".github/workflows/notebooks.yaml",
+      "size": 3852
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples and guides for using the Gemini API",
+    "fork": false,
+    "full_name": "google-gemini/cookbook",
+    "html_url": "https://github.com/google-gemini/cookbook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-22T16:05:38Z",
+    "stargazers_count": 17074,
+    "topics": [
+      "gemini",
+      "gemini-api"
+    ],
+    "updated_at": "2026-04-23T15:08:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-gemini/gemini-api-quickstart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-gemini/multimodal-live-api-web-console",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-gemini/starter-applets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "term": "Issue metrics"
+    },
+    {
+      "context_snippet": "\"PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "Notebooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks.yaml",
+      "term": "Notebooks"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "This cookbook provides a structured learning path for using the Gemini API, focusing on hands-on tutorials and practical examples.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "This cookbook provides a structured learning path for using the Gemini API, focusing on hands-on tutorials and practical examples.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    }
+  ]
+}

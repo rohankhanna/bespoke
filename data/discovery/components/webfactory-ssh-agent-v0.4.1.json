@@ -1,0 +1,22 @@
+{
+  "component": "webfactory/ssh-agent@v0.4.1",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/allennlp-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CommentResponder.yml",
+      "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matt-gardner/allennlp"
+    }
+  ]
+}

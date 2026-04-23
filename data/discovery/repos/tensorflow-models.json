@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/stale@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tensorflow/models",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tensorflow/models",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "tensorflow/models",
+      "target": "actions/stale@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "tensorflow/models",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:29.983060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4923
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 3261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Models and examples built with TensorFlow",
+    "fork": false,
+    "full_name": "tensorflow/models",
+    "html_url": "https://github.com/tensorflow/models",
+    "language": "Python",
+    "pushed_at": "2026-04-23T16:35:48Z",
+    "stargazers_count": 77668,
+    "topics": [],
+    "updated_at": "2026-04-23T16:37:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues and PRs"
+    }
+  ]
+}

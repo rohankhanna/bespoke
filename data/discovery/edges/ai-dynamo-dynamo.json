@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/enhancements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/modelexpress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/grove",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "ai-dynamo/aiconfigurator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allure-report.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Allure Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build Framework Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend-image.yaml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend-image.yaml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build Frontend Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-on-demand.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build On Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor-matrix.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Framework Matrix Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-distribute-flavor.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "Build, Test, and Copy Framework Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ai-dynamo/dynamo",
+      "target": "CodeQL",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ai-dynamo/dynamo"
+}

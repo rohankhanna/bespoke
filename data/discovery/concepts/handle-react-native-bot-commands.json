@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Handle @react-native-bot commands"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate-context",
+      "text": "React Native Releases Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate-context",
+      "text": "Handle @react-native-bot commands"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactwg/react-native-releases",
+      "status": "candidate",
+      "text": "Handle @react-native-bot commands"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11993,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11993,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11249,
+      "status": "candidate",
+      "text": "biddable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11249,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11249,
+      "status": "candidate",
+      "text": "command line"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Handle @react-native-bot commands",
+  "concept_id": "handle-react-native-bot-commands",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/react-native-bot-merger.yml",
+      "source_repo": "reactwg/react-native-releases"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle @react-native-bot commands",
+      "sense_id": "handle-react-native-bot-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

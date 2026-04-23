@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Helm Chart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Validate Helm Chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "Validate Helm Chart"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "acoustic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19263,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Helm Chart",
+  "concept_id": "validate-helm-chart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/arc-validate-chart.yaml",
+      "source_repo": "actions/actions-runner-controller"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Helm Chart",
+      "sense_id": "validate-helm-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

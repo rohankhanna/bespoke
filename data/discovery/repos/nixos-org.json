@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "serokell/xrefcheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/org",
+      "target": "serokell/xrefcheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/org",
+      "target": "cachix/install-nix-action@v26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "NixOS/org",
+      "target": "cachix/install-nix-action@v26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "NixOS/org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "NixOS/org",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "NixOS/org",
+      "target": "Regular review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:38.204815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/review.yml",
+      "size": 1321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Organisational documentation",
+    "fork": false,
+    "full_name": "NixOS/org",
+    "html_url": "https://github.com/NixOS/org",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T14:22:24Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-04-23T06:34:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Regular review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "term": "Regular review"
+    }
+  ]
+}

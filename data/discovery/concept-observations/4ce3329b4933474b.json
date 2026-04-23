@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sentinel Dashboard \u96c6\u6210\u591a\u6570\u636e\u6e90\u7248\u672c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036532,
+      "status": "candidate",
+      "text": "phoebus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39538247,
+      "status": "candidate",
+      "text": "phoebus apollo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037747,
+      "status": "candidate",
+      "text": "adonis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036584,
+      "status": "candidate",
+      "text": "helios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894401,
+      "status": "candidate",
+      "text": "champ"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apollo",
+      "sense_id": "apollo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phoebus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phoebus apollo"
+    }
+  ],
+  "concept_id": "apollo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apollo",
+  "observation_id": "4ce3329b4933474b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "apollo",
+  "source_context_snippet": "\u8fd9\u91cc\u96c6\u6210\u4e86\u591a\u6570\u636e\u6e90\uff0c\u6bd4\u5982Nacos\u3001Apollo\u4ee5\u53ca\u672c\u5730\u5b58\u50a8\u901a\u8fc7SentinelApiClient\u53d1\u9001\u53d8\u5316\u7ed9\u5ba2\u6237\u7aef\u7684\u65b9\u5f0f\uff0c\u5177\u4f53\u4fee\u6539\u53c2\u89c1transport\u5305\u4e2dfetch\u3001publish\u5305\uff0c",
+  "source_file": null,
+  "source_repo": "finefuture/sentinel-dashboard-X",
+  "source_repo_description": "Sentinel Dashboard \u96c6\u6210\u591a\u6570\u636e\u6e90\u7248\u672c"
+}

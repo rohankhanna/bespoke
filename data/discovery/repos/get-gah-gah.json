@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ietf-tools/semver-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "mingjun97/file-regex-replace@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "requarks/changelog-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "get-gah/gah",
+      "target": "get-gah/gah-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "get-gah/gah",
+      "target": "get-gah/setup-gah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "\ud83e\uddea Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "ietf-tools/semver-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "mingjun97/file-regex-replace@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "requarks/changelog-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "\ud83d\udce6 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "\ud83e\uddea Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "get-gah/gah",
+      "target": "\ud83e\uddea Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah",
+      "target": "devops-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah",
+      "target": "github-releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "get-gah/gah",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:16.884067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10984
+    },
+    {
+      "path": ".github/workflows/integration-tests.yaml",
+      "size": 2309
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1952
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gah is an GitHub Releases app installer, that does not require sudo",
+    "fork": false,
+    "full_name": "get-gah/gah",
+    "html_url": "https://github.com/get-gah/gah",
+    "language": "Shell",
+    "pushed_at": "2026-02-03T22:38:04Z",
+    "stargazers_count": 288,
+    "topics": [
+      "bash",
+      "cli",
+      "devops-tools",
+      "github-releases",
+      "installer",
+      "tools"
+    ],
+    "updated_at": "2026-04-23T15:26:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "get-gah/gah-db",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "get-gah/setup-gah",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\uddea Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "term": "\ud83e\uddea Integration Tests"
+    },
+    {
+      "context_snippet": "\ud83d\udce6 Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "\ud83d\udce6 Release"
+    },
+    {
+      "context_snippet": "\ud83e\uddea Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "\ud83e\uddea Test"
+    },
+    {
+      "context_snippet": "\ud83e\uddea Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "term": "\ud83e\uddea Unit Tests"
+    },
+    {
+      "context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops-tools"
+    },
+    {
+      "context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-releases"
+    },
+    {
+      "context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "![gah! logo](./_static/logo-256x128.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

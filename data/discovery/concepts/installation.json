@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Installation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "Installation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "Installation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005813,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003156,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986839,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964900,
+      "status": "candidate",
+      "text": "facility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011004,
+      "status": "candidate",
+      "text": "installing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19071,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16044,
+      "status": "candidate",
+      "text": "facility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "installing"
+    }
+  ],
+  "canonical_name": "Installation",
+  "concept_id": "installation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Installation",
+      "sense_id": "installation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

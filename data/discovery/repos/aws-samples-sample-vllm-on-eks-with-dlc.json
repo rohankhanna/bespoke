@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:42:01.093406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws-samples/sample-vllm-on-eks-with-dlc",
+    "html_url": "https://github.com/aws-samples/sample-vllm-on-eks-with-dlc",
+    "language": "Shell",
+    "pushed_at": "2025-10-01T19:58:46Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-21T18:00:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

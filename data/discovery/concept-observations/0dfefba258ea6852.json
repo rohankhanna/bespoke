@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867990,
+      "status": "candidate",
+      "text": "natural philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39850491,
+      "status": "candidate",
+      "text": "physical science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923095,
+      "status": "candidate",
+      "text": "geophysical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905078,
+      "status": "candidate",
+      "text": "chemistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882905,
+      "status": "candidate",
+      "text": "par"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "physics",
+      "sense_id": "physics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "natural philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "physical science"
+    }
+  ],
+  "concept_id": "physics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "physics",
+  "observation_id": "0dfefba258ea6852",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "physics",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "mayhemantt/mayhemantt",
+  "source_repo_description": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+}

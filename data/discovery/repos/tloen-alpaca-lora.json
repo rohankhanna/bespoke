@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "deep-diver/alpaca-lora-serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "gururise/alpacadatacleaned",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "databrickslabs/dolly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tloen/alpaca-lora",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:49.346118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16840
+    },
+    {
+      "path": "Dockerfile",
+      "size": 635
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 161
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Instruct-tune LLaMA on consumer hardware",
+    "fork": false,
+    "full_name": "tloen/alpaca-lora",
+    "html_url": "https://github.com/tloen/alpaca-lora",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-29T13:37:49Z",
+    "stargazers_count": 18945,
+    "topics": [],
+    "updated_at": "2026-04-23T13:47:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databrickslabs/dolly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-diver/alpaca-lora-serve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gururise/alpacadatacleaned",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

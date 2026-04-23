@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specification for the Execution Layer. Tracking network upgrades."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manage stale issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manage stale issues and PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21420,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17518,
+      "status": "candidate",
+      "text": "commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "bibliographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "departmental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17479,
+      "status": "candidate",
+      "text": "dos"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage stale issues and PRs",
+      "sense_id": "manage-stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manage-stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manage-stale-issues-and-prs",
+  "observation_id": "354a4c27a0c07859",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Manage stale issues and PRs",
+  "source_context_snippet": "Manage stale issues and PRs",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "ethereum/execution-specs",
+  "source_repo_description": "Specification for the Execution Layer. Tracking network upgrades."
+}

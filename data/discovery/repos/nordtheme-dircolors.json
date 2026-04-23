@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "@svengreb/eslint-config-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@svengreb/remark-preset-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-sh",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "@svengreb/eslint-config-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "@svengreb/remark-preset-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "prettier-plugin-sh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/dircolors",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "dircolors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "nord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:20.166690+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An arctic, north-bluish clean and elegant dircolors theme.",
+    "fork": false,
+    "full_name": "nordtheme/dircolors",
+    "html_url": "https://github.com/nordtheme/dircolors",
+    "language": "JavaScript",
+    "pushed_at": "2023-05-31T18:47:33Z",
+    "stargazers_count": 537,
+    "topics": [
+      "bash",
+      "cli",
+      "colors",
+      "dircolors",
+      "hacktoberfest",
+      "ls",
+      "nord",
+      "shell",
+      "terminal",
+      "zsh"
+    ],
+    "updated_at": "2026-03-24T15:54:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dircolors"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nord"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_domains.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_domains.yml"
+    },
+    {
+      "component": "ultralytics/actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "ultralytics/actions/retry@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links_local.yml"
+    },
+    {
+      "component": "ultralytics/actions/retry@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links_local.yml"
+    },
+    {
+      "component": "ultralytics/actions/retry@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links_local.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ultralytics/docs",
+      "target": "ultralytics/llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_domains.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_domains.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "slackapi/slack-github-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_domains.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Check Domains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download_websites.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Download Websites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "ultralytics/actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Ultralytics Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "ultralytics/actions/retry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "slackapi/slack-github-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Website links and spellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links_local.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links_local.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "ultralytics/actions/retry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links_local.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Check Broken Repo links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Submit Sitemaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/docs",
+      "target": "Tag and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "guides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "quickstart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "ultralytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolo26",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolov10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/docs",
+      "target": "yolov9",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:14:46.979589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10977
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    },
+    {
+      "path": ".github/workflows/check_domains.yml",
+      "size": 4159
+    },
+    {
+      "path": ".github/workflows/download_websites.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 12016
+    },
+    {
+      "path": ".github/workflows/links_local.yml",
+      "size": 3332
+    },
+    {
+      "path": ".github/workflows/sitemaps.yml",
+      "size": 5870
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2460
+    },
+    {
+      "path": ".github/workflows/tag.yml",
+      "size": 2386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ultralytics Docs https://docs.ultralytics.com",
+    "fork": false,
+    "full_name": "ultralytics/docs",
+    "html_url": "https://github.com/ultralytics/docs",
+    "language": "Python",
+    "pushed_at": "2026-04-23T21:09:57Z",
+    "stargazers_count": 115,
+    "topics": [
+      "docs",
+      "documentation",
+      "guides",
+      "hub",
+      "quickstart",
+      "tutorials",
+      "ultralytics",
+      "yolo",
+      "yolo11",
+      "yolo26",
+      "yolov10",
+      "yolov8",
+      "yolov9"
+    ],
+    "updated_at": "2026-04-20T11:52:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultralytics/llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Domains",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_domains.yml",
+      "term": "Check Domains"
+    },
+    {
+      "context_snippet": "Download Websites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download_websites.yml",
+      "term": "Download Websites"
+    },
+    {
+      "context_snippet": "Ultralytics Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Ultralytics Actions"
+    },
+    {
+      "context_snippet": "Website links and spellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Website links and spellcheck"
+    },
+    {
+      "context_snippet": "Check Broken Repo links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links_local.yml",
+      "term": "Check Broken Repo links"
+    },
+    {
+      "context_snippet": "Submit Sitemaps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sitemaps.yml",
+      "term": "Submit Sitemaps"
+    },
+    {
+      "context_snippet": "Close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Tag and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "term": "Tag and Release"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guides"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickstart"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultralytics"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo26"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov10"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov9"
+    }
+  ]
+}

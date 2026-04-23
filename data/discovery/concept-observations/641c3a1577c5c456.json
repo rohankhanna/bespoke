@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Lite Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Lite Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20876,
+      "status": "candidate",
+      "text": "diet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20336,
+      "status": "candidate",
+      "text": "lute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20321,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20254,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20254,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Lite Package",
+      "sense_id": "publish-lite-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-lite-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-lite-package",
+  "observation_id": "641c3a1577c5c456",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Publish Lite Package",
+  "source_context_snippet": "Publish Lite Package",
+  "source_file": ".github/workflows/Publish Lite Package.yml",
+  "source_repo": "qd-today/qd",
+  "source_repo_description": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+}

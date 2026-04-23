@@ -1,7 +1,8 @@
 {
   "aliases": [
     "publish pypi",
-    "Publish PyPI"
+    "Publish PyPI",
+    "publish-pypi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -26,6 +27,18 @@
       "source_repo": "llamastack/llama-stack-client-python",
       "status": "candidate-context",
       "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "Post-training with Tinker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate-context",
+      "text": "publish-pypi"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "llamastack/llama-stack-client-python",
       "status": "candidate",
       "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinking-machines-lab/tinker-cookbook",
+      "status": "candidate",
+      "text": "publish-pypi"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "thinking-machines-lab/tinker-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Submodule Fast-Forward Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate-context",
+      "text": "Scalable toolkit for efficient model reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate-context",
+      "text": "\"Submodule Fast-Forward Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/RL",
+      "status": "candidate",
+      "text": "\"Submodule Fast-Forward Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "actuality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "intension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "interrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Submodule Fast-Forward Check",
+  "concept_id": "submodule-fast-forward-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_submodule_check.yml",
+      "source_repo": "NVIDIA-NeMo/RL"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submodule Fast-Forward Check",
+      "sense_id": "submodule-fast-forward-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

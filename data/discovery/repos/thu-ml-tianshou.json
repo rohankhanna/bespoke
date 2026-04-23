@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/tianshou",
+      "target": "conda-forge/tianshou-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/tianshou",
+      "target": "dlr-rm/stable-baselines3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/tianshou",
+      "target": "deepmind/acme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/tianshou",
+      "target": "alex-petrenko/sample-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "Ubuntu GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "atari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "ddpg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "double-dqn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "policy-gradient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "transferlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/tianshou",
+      "target": "trpo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:20.968446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28585
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1459
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9452
+    },
+    {
+      "path": ".github/workflows/extra_sys.yml",
+      "size": 2107
+    },
+    {
+      "path": ".github/workflows/gputest.yml",
+      "size": 1847
+    },
+    {
+      "path": ".github/workflows/lint_and_docs.yml",
+      "size": 1968
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 3444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An elegant PyTorch deep reinforcement learning library.",
+    "fork": false,
+    "full_name": "thu-ml/tianshou",
+    "html_url": "https://github.com/thu-ml/tianshou",
+    "language": "Python",
+    "pushed_at": "2026-04-03T21:34:47Z",
+    "stargazers_count": 10589,
+    "topics": [
+      "a2c",
+      "atari",
+      "bcq",
+      "cql",
+      "ddpg",
+      "double-dqn",
+      "dqn",
+      "drl",
+      "imitation-learning",
+      "mujoco",
+      "npg",
+      "policy-gradient",
+      "ppo",
+      "pytorch",
+      "rl",
+      "sac",
+      "td3",
+      "transferlab",
+      "trpo"
+    ],
+    "updated_at": "2026-04-23T21:02:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex-petrenko/sample-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/tianshou-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/acme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlr-rm/stable-baselines3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gputest.yml",
+      "term": "Ubuntu GPU"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atari"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddpg"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "double-dqn"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "policy-gradient"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transferlab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trpo"
+    }
+  ]
+}

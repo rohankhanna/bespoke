@@ -44,6 +44,18 @@
       "source_repo": "exo-explore/exo",
       "status": "candidate-context",
       "text": "ci-pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "Build and run containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate-context",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "exo-explore/exo",
       "status": "candidate",
       "text": "ci-pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pipeline.yml",
       "source_repo": "exo-explore/exo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

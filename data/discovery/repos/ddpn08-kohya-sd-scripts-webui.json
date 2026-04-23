@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "colab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "dreambooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "finetune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:53.960537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gradio wrapper for sd-scripts by kohya",
+    "fork": false,
+    "full_name": "ddPn08/kohya-sd-scripts-webui",
+    "html_url": "https://github.com/ddPn08/kohya-sd-scripts-webui",
+    "language": "Python",
+    "pushed_at": "2023-06-08T23:46:03Z",
+    "stargazers_count": 170,
+    "topics": [
+      "colab-notebook",
+      "dreambooth",
+      "finetune",
+      "lora",
+      "stable-diffusion",
+      "stable-diffusion-webui-plugin"
+    ],
+    "updated_at": "2026-04-16T07:58:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab-notebook"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dreambooth"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetune"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    }
+  ]
+}

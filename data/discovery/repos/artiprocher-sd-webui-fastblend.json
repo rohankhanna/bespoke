@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Artiprocher/sd-webui-fastblend",
+      "target": "qiuyu96/codef",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:42:08.328742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make videos smooth!",
+    "fork": false,
+    "full_name": "Artiprocher/sd-webui-fastblend",
+    "html_url": "https://github.com/Artiprocher/sd-webui-fastblend",
+    "language": "Python",
+    "pushed_at": "2024-08-14T13:33:31Z",
+    "stargazers_count": 397,
+    "topics": [],
+    "updated_at": "2026-03-27T13:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuyu96/codef",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

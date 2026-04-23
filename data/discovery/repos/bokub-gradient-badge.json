@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "badgen",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bokub/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-svg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lyo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokub/gradient-badge",
+      "target": "emibcn/badge-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "badgen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "@bokub/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "is-svg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "lyo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bokub/gradient-badge",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "badgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "gradient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "readme-badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/gradient-badge",
+      "target": "shield",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:20:51.013246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3226
+    },
+    {
+      "path": "package.json",
+      "size": 1287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf6d Badge generator with color gradient support",
+    "fork": false,
+    "full_name": "bokub/gradient-badge",
+    "html_url": "https://github.com/bokub/gradient-badge",
+    "language": "JavaScript",
+    "pushed_at": "2024-09-06T07:49:41Z",
+    "stargazers_count": 82,
+    "topics": [
+      "badge",
+      "badgen",
+      "gradient",
+      "readme",
+      "readme-badges",
+      "shield"
+    ],
+    "updated_at": "2026-01-11T21:32:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emibcn/badge-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badgen"
+    },
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient"
+    },
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-badges"
+    },
+    {
+      "context_snippet": "[![npm][version]](https://www.npmjs.com/package/gradient-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shield"
+    }
+  ]
+}

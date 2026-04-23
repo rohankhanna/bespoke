@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpoint_converter.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dapo.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_eval_aime24.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer_megatron.yml",
+      "source_repo": "langfengQ/DrMAS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "langfengQ/DrMAS"
+}

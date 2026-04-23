@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "latest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "latest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "latest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012844,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008146,
+      "status": "candidate",
+      "text": "up-to-date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000063,
+      "status": "candidate",
+      "text": "up-to-the-minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994062,
+      "status": "candidate",
+      "text": "modern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932451,
+      "status": "candidate",
+      "text": "current"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13039,
+      "status": "candidate",
+      "text": "modern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11024,
+      "status": "candidate",
+      "text": "up-to-date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "newest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "up-to-the-minute"
+    }
+  ],
+  "canonical_name": "latest",
+  "concept_id": "latest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/latest.yaml",
+      "source_repo": "ollama/ollama"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "latest",
+      "sense_id": "latest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

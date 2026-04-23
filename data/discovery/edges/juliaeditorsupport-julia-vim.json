@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "nathom/filetype.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "valloric/youcompleteme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "shougo/neocomplcache.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "shougo/neocomplete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "JuliaEditorSupport/julia-vim"
+}

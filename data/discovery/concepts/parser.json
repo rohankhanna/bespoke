@@ -91,6 +91,66 @@
       "source_repo": "tree-sitter/tree-sitter",
       "status": "candidate-context",
       "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "A lightweight, high-performance Python library for parsing jsonl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "tree-sitter/tree-sitter",
       "status": "candidate",
       "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umarbutler/orjsonl",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/orjsonl/\" alt=\"PyPI Version\"><img src=\"https://img.shields.io/pypi/v/orjsonl\"></a> <a href=\"https://github.com/umarbutler/orjsonl/actions/workflows/ci.yml\" alt=\"Build Status\"><img src=\"https://img.shields.io/github/actions/workflow/status/umarbu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ada-url/ada/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ada-url/ada)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate",
+      "text": "Fast [WHATWG URL Specification](https://url.spec.whatwg.org) compliant URL parser for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +310,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "tree-sitter/tree-sitter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "umarbutler/orjsonl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mmcdole/gofeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "markedjs/marked"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

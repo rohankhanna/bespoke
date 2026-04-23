@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:13:59.409567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "p7zip test suite",
+    "fork": false,
+    "full_name": "jinfeihan57/p7zip_test_utils",
+    "html_url": "https://github.com/jinfeihan57/p7zip_test_utils",
+    "language": "Shell",
+    "pushed_at": "2022-08-21T13:13:05Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-04-16T19:32:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

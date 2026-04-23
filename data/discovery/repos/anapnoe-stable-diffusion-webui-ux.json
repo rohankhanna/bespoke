@@ -1,0 +1,418 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "anapnoe/sd-webui-ux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "chainner-org/spandrel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "doggettx/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "birch-san/diffusers-play",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "Pull requests can't target master branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "latent-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "txt2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "uiux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "target": "upscaling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:38.918288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20096
+    },
+    {
+      "path": "package.json",
+      "size": 185
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 841
+    },
+    {
+      "path": "requirements.txt",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 1231
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/warns_merge_master.yml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stable Diffusion web UI UX",
+    "fork": true,
+    "full_name": "anapnoe/stable-diffusion-webui-ux",
+    "html_url": "https://github.com/anapnoe/stable-diffusion-webui-ux",
+    "language": "Python",
+    "pushed_at": "2026-03-08T17:35:40Z",
+    "stargazers_count": 1122,
+    "topics": [
+      "ai",
+      "deep-learning",
+      "generative-art",
+      "image-generation",
+      "img2img",
+      "latent-diffusion",
+      "machine-learning",
+      "pytorch",
+      "stable-diffusion",
+      "torch",
+      "txt2img",
+      "uiux",
+      "upscaling"
+    ],
+    "updated_at": "2026-04-21T07:02:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anapnoe/sd-webui-ux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birch-san/diffusers-play",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainner-org/spandrel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doggettx/stable-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Pull requests can't target master branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "term": "Pull requests can't target master branch"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2img"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-diffusion"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "txt2img"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uiux"
+    },
+    {
+      "context_snippet": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Creates a changelog from git log history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "============"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "============"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956695,
+      "status": "candidate",
+      "text": "constructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920768,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968313,
+      "status": "candidate",
+      "text": "manufacturer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968276,
+      "status": "candidate",
+      "text": "business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967704,
+      "status": "candidate",
+      "text": "scheduler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "developer",
+      "sense_id": "developer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1039,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "constructor"
+    }
+  ],
+  "concept_id": "developer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "developer",
+  "observation_id": "55db74c6f0b5301a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "developer",
+  "source_context_snippet": "============",
+  "source_file": null,
+  "source_repo": "vaab/gitchangelog",
+  "source_repo_description": "Creates a changelog from git log history."
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Deploy Sphinx with GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Learn to use WebGPU for native graphic applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx with GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "An advanced literate programming tool for writing incremental programming courses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx with GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate",
+      "text": "Deploy Sphinx with GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate",
+      "text": "Deploy Sphinx with GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10559,
+      "status": "candidate",
+      "text": "tent caterpillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "lion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "monster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Sphinx with GitHub Pages",
+  "concept_id": "deploy-sphinx-with-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Sphinx with GitHub Pages",
+      "sense_id": "deploy-sphinx-with-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Autoscaling components for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vertical Pod Autoscaler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vertical Pod Autoscaler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11602,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11602,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11540,
+      "status": "candidate",
+      "text": "pylon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10710,
+      "status": "candidate",
+      "text": "backboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10710,
+      "status": "candidate",
+      "text": "camber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vertical Pod Autoscaler",
+      "sense_id": "vertical-pod-autoscaler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vertical-pod-autoscaler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vertical-pod-autoscaler",
+  "observation_id": "74fc7e6c63f810ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Vertical Pod Autoscaler",
+  "source_context_snippet": "Vertical Pod Autoscaler",
+  "source_file": ".github/workflows/vpa-verify.yaml",
+  "source_repo": "kubernetes/autoscaler",
+  "source_repo_description": "Autoscaling components for Kubernetes"
+}

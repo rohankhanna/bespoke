@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "pypa/cibuildwheel@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibw-cc.yaml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "CIBW cross-compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "conda-incubator/setup-miniconda@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "Conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "Pip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "astral-sh/setup-uv@v8.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "pypa/cibuildwheel@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pybind/scikit_build_example",
+      "target": "Wheels",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "pybind/scikit_build_example"
+}

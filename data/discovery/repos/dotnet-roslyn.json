@@ -1,0 +1,509 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/csharplang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/vblang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "roslyn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "visual-basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:34:26.272787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10969
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 979
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 2941
+    },
+    {
+      "path": ".github/workflows/labeler-cache-retention.yml",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/labeler-predict-issues.yml",
+      "size": 2009
+    },
+    {
+      "path": ".github/workflows/labeler-predict-pulls.yml",
+      "size": 5764
+    },
+    {
+      "path": ".github/workflows/labeler-promote.yml",
+      "size": 1708
+    },
+    {
+      "path": ".github/workflows/labeler-train.yml",
+      "size": 6042
+    },
+    {
+      "path": ".github/workflows/labeler.md",
+      "size": 1347
+    },
+    {
+      "path": ".github/workflows/pr-validation.yml",
+      "size": 16309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
+    "fork": false,
+    "full_name": "dotnet/roslyn",
+    "html_url": "https://github.com/dotnet/roslyn",
+    "language": "C#",
+    "pushed_at": "2026-04-23T18:17:15Z",
+    "stargazers_count": 20381,
+    "topics": [
+      "csharp",
+      "hacktoberfest",
+      "roslyn",
+      "visual-basic",
+      "visual-studio"
+    ],
+    "updated_at": "2026-04-23T18:14:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/csharplang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/vblang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "\"Labeler: Cache Retention\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "term": "Labeler: Cache Retention"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Issues)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "term": "Labeler: Predict (Issues)"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Pulls)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "term": "Labeler: Predict (Pulls)"
+    },
+    {
+      "context_snippet": "\"Labeler: Promotion\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "term": "Labeler: Promotion"
+    },
+    {
+      "context_snippet": "\"Labeler: Training\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "term": "Labeler: Training"
+    },
+    {
+      "context_snippet": "PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "term": "PR Validation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roslyn"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-basic"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    }
+  ]
+}

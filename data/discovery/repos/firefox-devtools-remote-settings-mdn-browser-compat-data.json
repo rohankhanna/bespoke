@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "btoa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mozilla/remote-settings/.github/workflows/ingestion-job-publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "target": "btoa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "target": "mozilla/remote-settings/.github/workflows/ingestion-job-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+      "target": "Continuous Deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:50:51.769586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1045
+    },
+    {
+      "path": "Dockerfile",
+      "size": 261
+    },
+    {
+      "path": "package.json",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/cd.yaml",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scripts to ingest MDN compat data in RemoteSettings",
+    "fork": false,
+    "full_name": "firefox-devtools/remote-settings-mdn-browser-compat-data",
+    "html_url": "https://github.com/firefox-devtools/remote-settings-mdn-browser-compat-data",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-13T14:50:23Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-06-13T14:39:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "term": "Continuous Deployment"
+    }
+  ]
+}

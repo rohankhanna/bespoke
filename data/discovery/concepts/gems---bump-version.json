@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gems - Bump Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "Gems - Bump Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "Gems - Bump Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18191,
+      "status": "candidate",
+      "text": "lapidary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18096,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18060,
+      "status": "candidate",
+      "text": "paste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18060,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18001,
+      "status": "candidate",
+      "text": "rough"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gems - Bump Version",
+  "concept_id": "gems---bump-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gems - Bump Version",
+      "sense_id": "gems---bump-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

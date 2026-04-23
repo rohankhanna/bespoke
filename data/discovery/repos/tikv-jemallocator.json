@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tikv/jemallocator",
+      "target": "gnzlbg/jemallocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tikv/jemallocator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:57:11.360849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust allocator using jemalloc as a backend",
+    "fork": true,
+    "full_name": "tikv/jemallocator",
+    "html_url": "https://github.com/tikv/jemallocator",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T03:04:01Z",
+    "stargazers_count": 501,
+    "topics": [],
+    "updated_at": "2026-04-21T04:00:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnzlbg/jemallocator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

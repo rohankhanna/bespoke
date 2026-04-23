@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release as Standalone Linux Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release as Standalone Linux Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32403,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31556,
+      "status": "candidate",
+      "text": "spark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31556,
+      "status": "candidate",
+      "text": "sparking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31491,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31491,
+      "status": "candidate",
+      "text": "discharged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release as Standalone Linux Package",
+      "sense_id": "release-as-standalone-linux-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-as-standalone-linux-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-as-standalone-linux-package",
+  "observation_id": "ddf054efc04e40d6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Release as Standalone Linux Package",
+  "source_context_snippet": "Release as Standalone Linux Package",
+  "source_file": ".github/workflows/release-linux-standalone.yml",
+  "source_repo": "httpie/cli",
+  "source_repo_description": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+}

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@530d4feaa9c62aaab2d250371e2061eb7a172363",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    }
+  ]
+}

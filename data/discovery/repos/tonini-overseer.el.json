@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonini/overseer.el",
+      "target": "rejeep/ert-runner.el",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:48.163898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ert-runner Integration Into Emacs",
+    "fork": false,
+    "full_name": "tonini/overseer.el",
+    "html_url": "https://github.com/tonini/overseer.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-01-09T08:00:08Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-14T14:43:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/ert-runner.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

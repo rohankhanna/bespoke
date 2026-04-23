@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-bazel-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Bazel)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-meson-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-meson-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Meson)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-other-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Complex)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Linux Builds (Basic)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Mac Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac-sanitizer-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Mac Sanitizer Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-manager-builds.yaml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-manager-builds.yaml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Package Manager Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-header-guards.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Check header guards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-simple-builds.yml",
+      "source_repo": "catchorg/Catch2",
+      "target": "Windows Builds (Basic)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "test-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "catchorg/Catch2"
+}

@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/luigi",
+      "target": "rh-marketingops/rh-mo-scc-luigi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/luigi",
+      "target": "pharmbio/sciluigi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/luigi",
+      "target": "houzz/hubot-luigi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotify/luigi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotify/luigi",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotify/luigi",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotify/luigi",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotify/luigi",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/luigi",
+      "target": "hadoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/luigi",
+      "target": "luigi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/luigi",
+      "target": "orchestration-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/luigi",
+      "target": "scheduling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:11:31.525682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12986
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5090
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2518
+    },
+    {
+      "path": ".github/workflows/pythonbuild.yml",
+      "size": 6252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. ",
+    "fork": false,
+    "full_name": "spotify/luigi",
+    "html_url": "https://github.com/spotify/luigi",
+    "language": "Python",
+    "pushed_at": "2026-04-10T11:58:23Z",
+    "stargazers_count": 18704,
+    "topics": [
+      "hadoop",
+      "luigi",
+      "orchestration-framework",
+      "python",
+      "scheduling"
+    ],
+    "updated_at": "2026-04-22T23:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "houzz/hubot-luigi",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pharmbio/sciluigi",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rh-marketingops/rh-mo-scc-luigi",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hadoop"
+    },
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luigi"
+    },
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration-framework"
+    },
+    {
+      "context_snippet": ".. figure:: https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduling"
+    }
+  ]
+}

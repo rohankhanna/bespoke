@@ -43,6 +43,42 @@
       "source_repo": "petuum/adaptdl",
       "status": "candidate-context",
       "text": "Release Helm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate-context",
+      "text": "Fengshenbang-LM(\u5c01\u795e\u699c\u5927\u6a21\u578b)\u662fIDEA\u7814\u7a76\u9662\u8ba4\u77e5\u8ba1\u7b97\u4e0e\u81ea\u7136\u8bed\u8a00\u7814\u7a76\u4e2d\u5fc3\u4e3b\u5bfc\u7684\u5927\u6a21\u578b\u5f00\u6e90\u4f53\u7cfb\uff0c\u6210\u4e3a\u4e2d\u6587AIGC\u548c\u8ba4\u77e5\u667a\u80fd\u7684\u57fa\u7840\u8bbe\u65bd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3e OAT: A research-friendly framework for LLM online alignment, including reinforcement learning, preference learning, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "Collective communications library with various primitives for multi-machine training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "petuum/adaptdl",
       "status": "candidate",
       "text": "Release Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/oat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/gloo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "petuum/adaptdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/oat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

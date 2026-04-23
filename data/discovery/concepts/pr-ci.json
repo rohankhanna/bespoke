@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "PR CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 simplest version of the @dwyl app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate-context",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for the Microsoft Performance ToolKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate-context",
+      "text": "'PR CI'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/mvp",
+      "status": "candidate",
+      "text": "PR CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk",
+      "status": "candidate",
+      "text": "'PR CI'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "lab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR CI",
+  "concept_id": "pr-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/microsoft-performance-toolkit-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR CI",
+      "sense_id": "pr-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

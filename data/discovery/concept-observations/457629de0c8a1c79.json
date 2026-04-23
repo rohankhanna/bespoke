@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"DCO Assistant\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"DCO Assistant\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "banker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "neatness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "angler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "ann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "bib"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DCO Assistant",
+      "sense_id": "dco-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dco-assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dco-assistant",
+  "observation_id": "457629de0c8a1c79",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "DCO Assistant",
+  "source_context_snippet": "\"DCO Assistant\"",
+  "source_file": ".github/workflows/cla.yml",
+  "source_repo": "NVIDIA/DeepLearningExamples",
+  "source_repo_description": "State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure."
+}

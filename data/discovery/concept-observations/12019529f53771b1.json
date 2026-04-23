@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go Implementation For Seata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11550,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "dds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10613,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10546,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "allow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License checker",
+      "sense_id": "license-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-checker",
+  "observation_id": "12019529f53771b1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "License checker",
+  "source_context_snippet": "License checker",
+  "source_file": ".github/workflows/license.yml",
+  "source_repo": "apache/incubator-seata-go",
+  "source_repo_description": "Go Implementation For Seata"
+}

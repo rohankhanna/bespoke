@@ -67,6 +67,30 @@
       "source_repo": "markdown-it/markdown-it",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "markdown-it/markdown-it",
       "status": "candidate",
       "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/motion-markdown-it.svg)](http://badge.fury.io/rb/motion-markdown-it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "<a href=\"https://marked.js.org\">"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +178,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "markdown-it/markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "markedjs/marked"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023458,
+      "status": "candidate",
+      "text": "regexp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023457,
+      "status": "candidate",
+      "text": "grep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023456,
+      "status": "candidate",
+      "text": "subexpression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023455,
+      "status": "candidate",
+      "text": "syntax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023454,
+      "status": "candidate",
+      "text": "subexpressions"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "regex",
+      "sense_id": "regex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regex",
+  "observation_id": "4f40ea80f9fde1f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "regex",
+  "source_context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+  "source_file": null,
+  "source_repo": "micromatch/expand-brackets",
+  "source_repo_description": "Expand POSIX bracket expressions (character classes) in glob patterns."
+}

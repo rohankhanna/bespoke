@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "swiftlang/sourcekit-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "apple/swift-llbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_dependency_check.yaml",
+      "source_repo": "swiftlang/swift-package-manager",
+      "target": "swiftlang/github-workflows/.github/workflows/github_actions_dependencies.yml@0.0.11",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "swiftlang/swift-package-manager"
+}

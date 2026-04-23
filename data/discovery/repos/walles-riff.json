@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-homebrew-bump-formula@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/riff",
+      "target": "dawidd6/action-homebrew-bump-formula@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/riff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/riff",
+      "target": "Continuous Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "walles/riff",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "console-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "console-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "git-diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "refiner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walles/riff",
+      "target": "riff",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:59.025637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8990
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1833
+    },
+    {
+      "path": ".github/workflows/deployment.yml",
+      "size": 490
+    },
+    {
+      "path": ".github/workflows/linux-ci.yml",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/windows-ci.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A syntax highter for diffs, clarifying which parts of lines have changed",
+    "fork": false,
+    "full_name": "walles/riff",
+    "html_url": "https://github.com/walles/riff",
+    "language": "Rust",
+    "pushed_at": "2026-01-31T13:28:57Z",
+    "stargazers_count": 509,
+    "topics": [
+      "console-color",
+      "console-tool",
+      "diff",
+      "git-diff",
+      "highlighting",
+      "refiner",
+      "riff"
+    ],
+    "updated_at": "2026-04-22T19:44:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Delivery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "term": "Continuous Delivery"
+    },
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-color"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-tool"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-diff"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refiner"
+    },
+    {
+      "context_snippet": "Riff is a wrapper around `diff` that highlights which parts of lines have changed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riff"
+    }
+  ]
+}

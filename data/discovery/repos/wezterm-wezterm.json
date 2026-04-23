@@ -263,20 +263,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wezterm/wezterm",
-      "target": "wez/finl_unicode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wezterm/wezterm",
-      "target": "wezterm/xcb-imdkit-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fmt.yml",
       "source_repo": "wezterm/wezterm",
@@ -683,7 +669,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:40:06.533000+00:00",
+  "fetched_at": "2026-04-23T20:53:47.405167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -736,7 +722,7 @@
     "html_url": "https://github.com/wezterm/wezterm",
     "language": "Rust",
     "pushed_at": "2026-04-23T00:58:26Z",
-    "stargazers_count": 25686,
+    "stargazers_count": 25689,
     "topics": [
       "rust",
       "serial",
@@ -745,20 +731,9 @@
       "terminal-emulator",
       "terminal-emulators"
     ],
-    "updated_at": "2026-04-23T07:39:15Z"
+    "updated_at": "2026-04-23T17:35:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wez/finl_unicode",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wezterm/xcb-imdkit-rs",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "fmt",

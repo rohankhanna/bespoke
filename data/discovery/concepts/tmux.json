@@ -67,6 +67,18 @@
       "source_repo": "27medkamal/tmux-session-wizard",
       "status": "candidate-context",
       "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "27medkamal/tmux-session-wizard",
       "status": "candidate",
       "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "27medkamal/tmux-session-wizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

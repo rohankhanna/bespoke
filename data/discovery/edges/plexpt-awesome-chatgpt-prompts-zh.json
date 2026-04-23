@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "plexpt/chatgpt-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "plexpt/chatgpt-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "f/awesome-chatgpt-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chat-gpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "target": "chatgpt4",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "PlexPt/awesome-chatgpt-prompts-zh"
+}

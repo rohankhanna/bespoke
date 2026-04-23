@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Update Docker Hub Description"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Generate files from docker container meta-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Update Docker Hub Description"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate",
+      "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate",
+      "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate",
+      "text": "Update Docker Hub Description"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17755,
+      "status": "candidate",
+      "text": "newspaperman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17254,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17224,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17224,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17224,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Docker Hub Description",
+  "concept_id": "update-docker-hub-description",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/docker-gen"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Docker Hub Description",
+      "sense_id": "update-docker-hub-description#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

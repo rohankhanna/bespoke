@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ABI Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ABI Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "dam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "help"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "listen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ABI Check",
+      "sense_id": "abi-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abi-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abi-check",
+  "observation_id": "77d21ac346dc6398",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ABI Check",
+  "source_context_snippet": "ABI Check",
+  "source_file": ".github/workflows/abi-check.yml",
+  "source_repo": "ada-url/ada",
+  "source_repo_description": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+}

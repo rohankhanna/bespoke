@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kelvinxu/arctic-captions",
+      "target": "tylin/coco-caption",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:32.070158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "kelvinxu/arctic-captions",
+    "html_url": "https://github.com/kelvinxu/arctic-captions",
+    "language": "Python",
+    "pushed_at": "2023-09-25T14:16:34Z",
+    "stargazers_count": 967,
+    "topics": [],
+    "updated_at": "2026-04-09T04:30:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tylin/coco-caption",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

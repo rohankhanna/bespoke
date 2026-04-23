@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Linux Builds (Basic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Linux Builds (Basic)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10931,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10807,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "xubuntu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Builds (Basic)",
+      "sense_id": "linux-builds-basic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux-builds-basic",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux-builds-basic",
+  "observation_id": "3550d40dce84b28d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Linux Builds (Basic)",
+  "source_context_snippet": "Linux Builds (Basic)",
+  "source_file": ".github/workflows/linux-simple-builds.yml",
+  "source_repo": "catchorg/Catch2",
+  "source_repo_description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}

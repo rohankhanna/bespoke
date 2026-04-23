@@ -313,6 +313,114 @@
       "source_repo": "GoogleCloudPlatform/generative-ai",
       "status": "candidate-context",
       "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the Gemini API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "This cookbook provides a structured learning path for using the Gemini API, focusing on hands-on tutorials and practical examples."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate-context",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate-context",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "status": "candidate-context",
+      "text": "Get up and running with the Gemini API in under 5 minutes (with Python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "status": "candidate-context",
+      "text": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "status": "candidate-context",
+      "text": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "status": "candidate-context",
+      "text": "This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/live-api-web-console",
+      "status": "candidate-context",
+      "text": "A react-based starter app for using the Live API over websockets with Gemini"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/live-api-web-console",
+      "status": "candidate-context",
+      "text": "This repository contains a react-based starter app for using the [Live API](<[https://ai.google.dev/gemini-api](https://ai.google.dev/api/multimodal-live)>) over a websocket. It provides modules for streaming audio playback, recording user media such as from a microphone, webcam\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/starter-applets",
+      "status": "candidate-context",
+      "text": "Google AI Studio Starter Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/starter-applets",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-go",
+      "status": "candidate-context",
+      "text": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-go",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/agents-cli",
+      "status": "candidate-context",
+      "text": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/agents-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -465,6 +573,60 @@
       "source_repo": "GoogleCloudPlatform/generative-ai",
       "status": "candidate",
       "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate",
+      "text": "This cookbook provides a structured learning path for using the Gemini API, focusing on hands-on tutorials and practical examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/pypi/v/agent-starter-pack?color=blue) [![1-Minute Video Overview](https://img.shields.io/badge/1--Minute%20Overview-gray)](https://youtu.be/jHt-ZVD660g) [![Docs](https://img.shields.io/badge/Documentation-gray)](https://googlecloudplatform.githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/VLMEvalKit",
+      "status": "candidate",
+      "text": "![LOGO](https://opencompass.openxlab.space/utils/MMLB.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "status": "candidate",
+      "text": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "status": "candidate",
+      "text": "This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/live-api-web-console",
+      "status": "candidate",
+      "text": "This repository contains a react-based starter app for using the [Live API](<[https://ai.google.dev/gemini-api](https://ai.google.dev/api/multimodal-live)>) over a websocket. It provides modules for streaming audio playback, recording user media such as from a microphone, webcam\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/starter-applets",
+      "status": "candidate",
+      "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-go",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/agents-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -840,11 +1002,95 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/VLMEvalKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-api-quickstart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-fullstack-langgraph-quickstart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/live-api-web-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/starter-applets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/adk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/agents-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

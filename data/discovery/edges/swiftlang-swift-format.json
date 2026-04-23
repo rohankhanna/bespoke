@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/sourcekit-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/swift-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-format",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_update_version.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_update_version.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "Update PrintVersion on release branch creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format",
+      "target": "Pull request",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "swiftlang/swift-format"
+}

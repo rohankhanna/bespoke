@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI - Linux x64 clang debug"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI - Linux x64 clang debug"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9532,
+      "status": "candidate",
+      "text": "nurse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Linux x64 clang debug",
+      "sense_id": "ci---linux-x64-clang-debug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci---linux-x64-clang-debug",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci---linux-x64-clang-debug",
+  "observation_id": "8690875a0cf9ea38",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CI - Linux x64 clang debug",
+  "source_context_snippet": "CI - Linux x64 clang debug",
+  "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",
+  "source_repo": "iree-org/iree",
+  "source_repo_description": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+}

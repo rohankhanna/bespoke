@@ -1,0 +1,12 @@
+{
+  "component": "morrisoncole/pr-lint-action@51f3cfabaf5d46f94e54524214e45685f0401b2a",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
+    }
+  ]
+}

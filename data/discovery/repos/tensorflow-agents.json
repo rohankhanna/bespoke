@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/agents",
+      "target": "deepmind/reverb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "bandits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "contextual-bandits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "multi-armed-bandits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "rl-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/agents",
+      "target": "tf-agents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:14:14.217380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TF-Agents: A reliable, scalable and easy to use TensorFlow library for Contextual Bandits and Reinforcement Learning.",
+    "fork": false,
+    "full_name": "tensorflow/agents",
+    "html_url": "https://github.com/tensorflow/agents",
+    "language": "Python",
+    "pushed_at": "2026-01-16T22:49:15Z",
+    "stargazers_count": 3007,
+    "topics": [
+      "bandits",
+      "contextual-bandits",
+      "dqn",
+      "multi-armed-bandits",
+      "reinforcement-learning",
+      "rl-algorithms",
+      "tensorflow",
+      "tf-agents"
+    ],
+    "updated_at": "2026-04-19T16:37:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/reverb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bandits"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contextual-bandits"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-armed-bandits"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rl-algorithms"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tf-agents"
+    }
+  ]
+}

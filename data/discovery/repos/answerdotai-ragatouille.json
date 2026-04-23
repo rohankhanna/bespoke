@@ -7,30 +7,9 @@
       "source_repo": "AnswerDotAI/RAGatouille",
       "target": "bclavie/ragatouille",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AnswerDotAI/RAGatouille",
-      "target": "stanford-futuredata/colbert",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AnswerDotAI/RAGatouille",
-      "target": "intellabs/fastrag",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AnswerDotAI/RAGatouille",
-      "target": "run-llama/llama_index",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T07:33:49.530147+00:00",
+  "fetched_at": "2026-04-23T22:19:06.927566+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -59,21 +38,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bclavie/ragatouille",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intellabs/fastrag",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "run-llama/llama_index",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stanford-futuredata/colbert",
       "source_file": "README.md"
     }
   ],

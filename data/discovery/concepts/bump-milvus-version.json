@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Milvus Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate-context",
+      "text": "Bump Milvus Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milvus-io/milvus",
+      "status": "candidate",
+      "text": "Bump Milvus Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23109,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "glede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bonk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713,
+      "status": "candidate",
+      "text": "bounce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Milvus Version",
+  "concept_id": "bump-milvus-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bump-version.yaml",
+      "source_repo": "milvus-io/milvus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Milvus Version",
+      "sense_id": "bump-milvus-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

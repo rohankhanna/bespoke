@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pdm plugin to check if your project dependencies support specific Python version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "dollar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "krone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update dependencies",
+      "sense_id": "update-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-dependencies",
+  "observation_id": "6e53a9b01e6b0fa0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update dependencies",
+  "source_context_snippet": "Update dependencies",
+  "source_file": ".github/workflows/update-dependencies.yml",
+  "source_repo": "andriykohut/pdm-readiness",
+  "source_repo_description": "A pdm plugin to check if your project dependencies support specific Python version."
+}

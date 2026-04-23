@@ -1,0 +1,618 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dateformat",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "keepalive-workflow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "promise-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "random-seed",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rss-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "start-server-and-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "gkr-bot/gkr-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dexters-hub/dexters-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "gautamkrishnar/gautamkrishnar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dateformat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "keepalive-workflow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "promise-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "random-seed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "start-server-and-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "dorny/test-reporter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Publish release to GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "Version bump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blog-posts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "blogging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "ghost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "github-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-feed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "rss-feed-urls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackexchange",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoveflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoverflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "stackoverflow-activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "wordpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/blog-post-workflow",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:51.584647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 103720
+    },
+    {
+      "path": "package.json",
+      "size": 2502
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/release-to-github.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/version-bump.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed",
+    "fork": false,
+    "full_name": "gautamkrishnar/blog-post-workflow",
+    "html_url": "https://github.com/gautamkrishnar/blog-post-workflow",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-16T22:42:05Z",
+    "stargazers_count": 3387,
+    "topics": [
+      "activity",
+      "blog",
+      "blog-posts",
+      "blogging",
+      "ghost",
+      "github-actions",
+      "github-profile",
+      "github-workflow",
+      "hacktoberfest",
+      "profile-readme",
+      "rss",
+      "rss-feed",
+      "rss-feed-urls",
+      "stackexchange",
+      "stackoveflow",
+      "stackoverflow",
+      "stackoverflow-activity",
+      "wordpress",
+      "workflow",
+      "youtube"
+    ],
+    "updated_at": "2026-04-22T11:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dexters-hub/dexters-hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gautamkrishnar/gautamkrishnar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gkr-bot/gkr-bot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Publish release to GitHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-github.yml",
+      "term": "Publish release to GitHub"
+    },
+    {
+      "context_snippet": "Version bump",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "Version bump"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activity"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog-posts"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blogging"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghost"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-workflow"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss-feed"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss-feed-urls"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackexchange"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackoveflow"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackoverflow"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackoverflow-activity"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordpress"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtube"
+    }
+  ]
+}

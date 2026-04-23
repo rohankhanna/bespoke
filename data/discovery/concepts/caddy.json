@@ -43,6 +43,18 @@
       "source_repo": "caddyserver/xcaddy",
       "status": "candidate-context",
       "text": "`xcaddy` - Custom Caddy Builder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "caddyserver/xcaddy",
       "status": "candidate",
       "text": "`xcaddy` - Custom Caddy Builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "caddyserver/xcaddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "php/frankenphp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

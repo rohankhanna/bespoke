@@ -1,0 +1,17 @@
+{
+  "component": "actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-stagnate-bot.yml",
+      "source_repo": "ethereum/EIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ]
+}

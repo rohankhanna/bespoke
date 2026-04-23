@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -257,6 +257,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "anexia/k8s-external-dns-webhook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Amtrend/ssh-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-release.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_tag.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bats-assert.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "libgeos/geos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-edge.yml",
+      "source_repo": "axllent/mailpit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "axllent/mailpit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-dispatch.yml",
+      "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "nginx-proxy/docker-gen"
     }
   ]
 }

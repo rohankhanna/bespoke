@@ -1,7 +1,7 @@
 {
   "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yaml",
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protobuf-es"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-es"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-java"
     }
   ]
 }

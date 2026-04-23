@@ -1,0 +1,237 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "amshaker/mobile-videogpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "mbzuai-oryx/videogpt-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "mulit-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "vicuna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "video-chatboat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "video-conversation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "vision-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/Video-ChatGPT",
+      "target": "vision-language-pretraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:43.890216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13823
+    },
+    {
+      "path": "requirements.txt",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2024 \ud83d\udd25] Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation. We also introduce a rigorous 'Quantitative Evaluation Benchmarking' for video-based conversational models.",
+    "fork": false,
+    "full_name": "mbzuai-oryx/Video-ChatGPT",
+    "html_url": "https://github.com/mbzuai-oryx/Video-ChatGPT",
+    "language": "Python",
+    "pushed_at": "2025-08-05T01:07:25Z",
+    "stargazers_count": 1498,
+    "topics": [
+      "chatbot",
+      "clip",
+      "gpt-4",
+      "llama",
+      "llava",
+      "mulit-modal",
+      "vicuna",
+      "video-chatboat",
+      "video-conversation",
+      "vision-language",
+      "vision-language-pretraining"
+    ],
+    "updated_at": "2026-04-20T05:59:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amshaker/mobile-videogpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbzuai-oryx/videogpt-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mulit-modal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vicuna"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-chatboat"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-conversation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-pretraining"
+    }
+  ]
+}

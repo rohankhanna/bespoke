@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-platform-tests/rfcs",
+      "target": "web-platform-tests/wpt-notes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:56.467317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "web-platform-tests RFCs",
+    "fork": false,
+    "full_name": "web-platform-tests/rfcs",
+    "html_url": "https://github.com/web-platform-tests/rfcs",
+    "language": null,
+    "pushed_at": "2026-04-07T15:14:50Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-13T04:28:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "web-platform-tests/wpt-notes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

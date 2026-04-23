@@ -31,6 +31,30 @@
       "source_repo": "asciinema/asciinema",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "Web player for terminal session recordings and streams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml/badge.svg)](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "asciinema/asciinema",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml/badge.svg)](https://github.com/asciinema/asciinema-player/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "asciinema/asciinema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/asciinema-player"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

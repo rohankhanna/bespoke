@@ -1,7 +1,7 @@
 {
   "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ipld/ipld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/java-cid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/js-multiformats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/java-multibase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/unsigned-varint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/helia-remote-pinning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/devgrants"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/rust-cid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-blockcodec-to-ipld-format"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-cbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/go-varint"
     }
   ]
 }

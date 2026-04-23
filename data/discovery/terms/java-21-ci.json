@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    }
+  ],
+  "term": "Java 21 CI"
+}

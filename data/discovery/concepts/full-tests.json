@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Full Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate-context",
+      "text": "Full Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate",
+      "text": "Full Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12950,
+      "status": "candidate",
+      "text": "scrutiny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12732,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12491,
+      "status": "candidate",
+      "text": "assert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12491,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12491,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Full Tests",
+  "concept_id": "full-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full Tests",
+      "sense_id": "full-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

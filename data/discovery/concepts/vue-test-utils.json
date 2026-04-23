@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vue-test-utils"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate-context",
+      "text": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/buefy-shop",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vue-test-utils",
+  "concept_id": "vue-test-utils",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "14nrv/buefy-shop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vue-test-utils",
+      "sense_id": "vue-test-utils#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

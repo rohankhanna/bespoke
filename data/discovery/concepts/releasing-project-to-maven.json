@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Releasing Project to maven"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "The CloudFormation Resource Schema defines the shape and semantic for resources provisioned by CloudFormation. It is used by provider developers using the CloudFormation RPDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate-context",
+      "text": "Releasing Project to maven"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema",
+      "status": "candidate",
+      "text": "Releasing Project to maven"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19299,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19233,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "comet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "ideology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "meteorite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Releasing Project to maven",
+  "concept_id": "releasing-project-to-maven",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Releasing Project to maven",
+      "sense_id": "releasing-project-to-maven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

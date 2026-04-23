@@ -43,6 +43,30 @@
       "source_repo": "kubernetes/client-go",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/apiextensions-apiserver",
+      "status": "candidate-context",
+      "text": "API server for API extensions like CustomResourceDefinitions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/apiextensions-apiserver",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/sample-apiserver",
+      "status": "candidate-context",
+      "text": "Reference implementation of an apiserver for a custom Kubernetes API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/sample-apiserver",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubernetes/client-go",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/apiextensions-apiserver",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/sample-apiserver",
       "status": "candidate",
       "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
     }
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes/client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/apiextensions-apiserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/sample-apiserver"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

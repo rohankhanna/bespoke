@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Debugging functionality for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protocol"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910687,
+      "status": "candidate",
+      "text": "communications protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910686,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906227,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29902481,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29896209,
+      "status": "candidate",
+      "text": "procedure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protocol",
+      "sense_id": "protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "communications protocol"
+    }
+  ],
+  "concept_id": "protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protocol",
+  "observation_id": "fa58bcf578fa0ecc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Protocol",
+  "source_context_snippet": "Protocol",
+  "source_file": ".github/workflows/protocol.yml",
+  "source_repo": "ruby/debug",
+  "source_repo_description": "Debugging functionality for Ruby"
+}

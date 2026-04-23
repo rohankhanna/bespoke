@@ -1,0 +1,12 @@
+{
+  "component": "cbrgm/mastodon-github-action@fc8b40e2ec9e8208654b0bd8695e03ecc3364d7d",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "cbrgm/githubevents"
+    }
+  ]
+}

@@ -38,20 +38,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/ms-swift",
-      "target": "modelscope/evalscope",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/ms-swift",
-      "target": "modelscope/modelscope-classroom",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/citest.yaml",
       "source_repo": "modelscope/ms-swift",
@@ -255,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:34:52.071610+00:00",
+  "fetched_at": "2026-04-23T21:48:21.221477+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -295,8 +281,8 @@
     "full_name": "modelscope/ms-swift",
     "html_url": "https://github.com/modelscope/ms-swift",
     "language": "Python",
-    "pushed_at": "2026-04-23T05:49:22Z",
-    "stargazers_count": 13866,
+    "pushed_at": "2026-04-23T14:37:55Z",
+    "stargazers_count": 13875,
     "topics": [
       "deepseek-r1",
       "embedding",
@@ -319,20 +305,9 @@
       "reranker",
       "sft"
     ],
-    "updated_at": "2026-04-23T06:12:50Z"
+    "updated_at": "2026-04-23T12:29:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/evalscope",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/modelscope-classroom",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "citest",

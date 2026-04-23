@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "abhishekmaira10/covid-19-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "abhishekmaira10/deldrone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "github-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbhishekMaira10/AbhishekMaira10",
+      "target": "readme-md",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "AbhishekMaira10/AbhishekMaira10"
+}

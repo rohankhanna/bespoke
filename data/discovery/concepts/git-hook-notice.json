@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Git Hook Notice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "Azure Command-Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate-context",
+      "text": "Git Hook Notice"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-cli",
+      "status": "candidate",
+      "text": "Git Hook Notice"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24461,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24429,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24429,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22472,
+      "status": "candidate",
+      "text": "extension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22472,
+      "status": "candidate",
+      "text": "file name extension"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Git Hook Notice",
+  "concept_id": "git-hook-notice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/GitHookNotice.yml",
+      "source_repo": "Azure/azure-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Git Hook Notice",
+      "sense_id": "git-hook-notice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "target": "ouyanghuiyu/chineseocr_lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "target": "tencent/tnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:13:11.218678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2434
+    },
+    {
+      "path": "Dockerfile",
+      "size": 960
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "onnx",
+    "description": "\u8d85\u8f7b\u91cf\u7ea7\u4e2d\u6587ocr\uff0c\u652f\u6301\u7ad6\u6392\u6587\u5b57\u8bc6\u522b, \u652f\u6301ncnn\u3001mnn\u3001tnn\u63a8\u7406 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) \u603b\u6a21\u578b\u4ec54.7M ",
+    "fork": false,
+    "full_name": "DayBreak-u/chineseocr_lite",
+    "html_url": "https://github.com/DayBreak-u/chineseocr_lite",
+    "language": "C++",
+    "pushed_at": "2023-08-14T21:55:50Z",
+    "stargazers_count": 12280,
+    "topics": [
+      "ncnn",
+      "ocr",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T01:18:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ouyanghuiyu/chineseocr_lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/tnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- python3.6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "- python3.6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

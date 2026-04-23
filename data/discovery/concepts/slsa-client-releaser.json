@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SLSA Client Releaser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "SLSA Client Releaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "SLSA Client Releaser"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12738,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12738,
+      "status": "candidate",
+      "text": "pope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10750,
+      "status": "candidate",
+      "text": "acceptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10750,
+      "status": "candidate",
+      "text": "blocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10750,
+      "status": "candidate",
+      "text": "catalytic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SLSA Client Releaser",
+  "concept_id": "slsa-client-releaser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/slsa-releaser.yml",
+      "source_repo": "ddworken/hishtory"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SLSA Client Releaser",
+      "sense_id": "slsa-client-releaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -39,6 +39,18 @@
       "source_repo": "cmdjulian/mopy",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +71,12 @@
       "source_repo": "cmdjulian/mopy",
       "status": "candidate",
       "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cmdjulian/mopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "docker/setup-buildx-action"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

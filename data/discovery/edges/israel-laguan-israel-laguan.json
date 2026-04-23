@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "grommet/grommet-designer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "bahamon94/covid-global-visualization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "erick2418/vue-axios-vuex-jwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "collinsugwu/microverse201-enumerable-methods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Israel-Laguan/Israel-Laguan"
+}

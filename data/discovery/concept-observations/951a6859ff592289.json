@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalistic large language model 3D-parallelism training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Quality"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28485,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12265,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12265,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12265,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12265,
+      "status": "candidate",
+      "text": "dash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Quality",
+      "sense_id": "code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-quality",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-quality",
+  "observation_id": "951a6859ff592289",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Code Quality",
+  "source_context_snippet": "Code Quality",
+  "source_file": ".github/workflows/code_quality.yaml",
+  "source_repo": "huggingface/nanotron",
+  "source_repo_description": "Minimalistic large language model 3D-parallelism training"
+}

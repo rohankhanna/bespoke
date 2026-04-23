@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mholt/archives",
+      "target": "klauspost/compress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mholt/archives",
+      "target": "jm33-m0/arc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archives",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "archives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "extract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "gzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "lzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "snappy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "streams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "zlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archives",
+      "target": "zstandard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:09.032532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12429
+    },
+    {
+      "path": "go.mod",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/macos-latest.yml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/ubuntu-latest.yml",
+      "size": 383
+    },
+    {
+      "path": ".github/workflows/windows-latest.yml",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats",
+    "fork": false,
+    "full_name": "mholt/archives",
+    "html_url": "https://github.com/mholt/archives",
+    "language": "Go",
+    "pushed_at": "2025-12-10T21:19:34Z",
+    "stargazers_count": 403,
+    "topics": [
+      "7zip",
+      "archives",
+      "brotli",
+      "bzip2",
+      "compression",
+      "extract",
+      "fs",
+      "go",
+      "golang",
+      "gzip",
+      "lz4",
+      "lzip",
+      "rar",
+      "snappy",
+      "streams",
+      "tar",
+      "xz",
+      "zip",
+      "zlib",
+      "zstandard"
+    ],
+    "updated_at": "2026-04-22T18:54:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jm33-m0/arc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klauspost/compress",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "term": "Mac"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7zip"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archives"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzip"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snappy"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streams"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib"
+    },
+    {
+      "context_snippet": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    }
+  ]
+}

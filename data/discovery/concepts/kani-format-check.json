@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Kani Format Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate-context",
+      "text": "Kani Format Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "model-checking/kani",
+      "status": "candidate",
+      "text": "Kani Format Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "carol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14630,
+      "status": "candidate",
+      "text": "enquirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14630,
+      "status": "candidate",
+      "text": "hearst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14329,
+      "status": "candidate",
+      "text": "charlie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14329,
+      "status": "candidate",
+      "text": "noon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Kani Format Check",
+  "concept_id": "kani-format-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "model-checking/kani"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kani Format Check",
+      "sense_id": "kani-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

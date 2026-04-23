@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update dist files on main branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Configure AWS credential environment variables for use in other GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate-context",
+      "text": "Update dist files on main branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/configure-aws-credentials",
+      "status": "candidate",
+      "text": "Update dist files on main branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45011,
+      "status": "candidate",
+      "text": "clearinghouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43233,
+      "status": "candidate",
+      "text": "feeder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41718,
+      "status": "candidate",
+      "text": "cent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37499,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36090,
+      "status": "candidate",
+      "text": "ramification"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update dist files on main branch",
+  "concept_id": "update-dist-files-on-main-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/package-dist.yml",
+      "source_repo": "aws-actions/configure-aws-credentials"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update dist files on main branch",
+      "sense_id": "update-dist-files-on-main-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

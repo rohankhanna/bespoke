@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:05.241808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "look4u-ok/video-slicer",
+    "html_url": "https://github.com/look4u-ok/video-slicer",
+    "language": "Python",
+    "pushed_at": "2024-06-18T11:52:44Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-05T14:26:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

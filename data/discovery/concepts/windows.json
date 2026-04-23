@@ -508,6 +508,240 @@
       "source_repo": "microsoft/react-native-winrt",
       "status": "candidate-context",
       "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "a small build system with a focus on speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, HarmonyOS, WebAssembly, watchOS, tvOS, visionOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "rapidocr onnx cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Simple text to phones converter for multiple languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "Audio playback and capture library written in C, in a single source file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "Produce redistributable builds of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "The Go implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/gof",
+      "status": "candidate-context",
+      "text": "Go Fuzzy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "A command-line installer for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": ":atom: The hackable text editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "Rust for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/libs/*\", \"crates/samples/*/*\", \"crates/targets/*\", \"crates/tests/*/*\", \"crates/tools/*\", ] exclude = [ \"crates/targets/baseline\", ] [profile.dev.package.\"*\"] opt-level = 2 [workspace.lints.rust] unexpected_cfgs = { level = \"warn\", c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": "Cross-platform lib for process and system monitoring in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpu/kenlm",
+      "status": "candidate-context",
+      "text": "KenLM: Faster and Smaller Language Model Queries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpu/kenlm",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "UFO\u00b3: Weaving the Digital Agent Galaxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "Master the command line, in one page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "Full-featured BitTorrent client package and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "Modern, scalable tools. Exceptional developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate-context",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "Windows"
     }
   ],
   "candidate_glosses": [
@@ -762,6 +996,126 @@
       "source_repo": "microsoft/react-native-winrt",
       "status": "candidate",
       "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninja-build/ninja",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/opencv-mobile",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidOcrOnnx",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mackron/miniaudio",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/gof",
+      "status": "candidate",
+      "text": "Go Fuzzy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/windows-rs",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/libs/*\", \"crates/samples/*/*\", \"crates/targets/*\", \"crates/tests/*/*\", \"crates/tools/*\", ] exclude = [ \"crates/targets/baseline\", ] [profile.dev.package.\"*\"] opt-level = 2 [workspace.lints.rust] unexpected_cfgs = { level = \"warn\", c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate",
+      "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpu/kenlm",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UFO",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlevy/the-art-of-command-line",
+      "status": "candidate",
+      "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/torrent",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rnx-kit",
+      "status": "candidate",
+      "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate",
+      "text": "Windows"
     }
   ],
   "candidate_related_terms": [
@@ -1129,11 +1483,149 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "microsoft/react-native-winrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mattn/gof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kpu/kenlm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UFO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "anacrolix/torrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node-windows.yml",
+      "source_repo": "rollup/plugins"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

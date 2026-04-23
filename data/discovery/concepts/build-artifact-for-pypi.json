@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build artifact for PyPI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "Build artifact for PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Build artifact for PyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11863,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11620,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11620,
+      "status": "candidate",
+      "text": "fabric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11620,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11558,
+      "status": "candidate",
+      "text": "toy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build artifact for PyPI",
+  "concept_id": "build-artifact-for-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build artifact for PyPI",
+      "sense_id": "build-artifact-for-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

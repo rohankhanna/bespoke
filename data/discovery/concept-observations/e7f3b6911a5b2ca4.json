@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A framework to study AI models in Reasoning, Alignment, and use of Memory (RAM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "headers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "headers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9944460,
+      "status": "candidate",
+      "text": "cope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9922734,
+      "status": "candidate",
+      "text": "lintel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9920058,
+      "status": "candidate",
+      "text": "coping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "capitals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "caption"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "headers",
+      "sense_id": "headers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "headers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "headers",
+  "observation_id": "e7f3b6911a5b2ca4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "headers",
+  "source_context_snippet": "headers",
+  "source_file": ".github/workflows/headers.yml",
+  "source_repo": "facebookresearch/RAM",
+  "source_repo_description": "A framework to study AI models in Reasoning, Alignment, and use of Memory (RAM)."
+}

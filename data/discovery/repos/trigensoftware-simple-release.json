@@ -206,13 +206,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TrigenSoftware/simple-release",
-      "target": "trigensoftware/simple-release-action",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "TrigenSoftware/simple-release",
       "target": "trigensoftware/simple-release-tools",
@@ -471,7 +464,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:47:53.920532+00:00",
+  "fetched_at": "2026-04-23T21:13:00.939840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -511,17 +504,12 @@
     "full_name": "TrigenSoftware/simple-release",
     "html_url": "https://github.com/TrigenSoftware/simple-release",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T16:44:09Z",
+    "pushed_at": "2026-04-23T16:40:06Z",
     "stargazers_count": 19,
     "topics": [],
     "updated_at": "2026-03-29T18:52:38Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "trigensoftware/simple-release-action",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "trigensoftware/simple-release-tools",

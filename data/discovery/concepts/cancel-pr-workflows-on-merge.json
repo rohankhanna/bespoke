@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "SGLang is a fast serving framework for large language models and vision language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate-context",
+      "text": "Cancel PR Workflows on Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate",
+      "text": "Cancel PR Workflows on Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31238,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21382,
+      "status": "candidate",
+      "text": "blend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21380,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21293,
+      "status": "candidate",
+      "text": "cam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21293,
+      "status": "candidate",
+      "text": "formation"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Cancel PR Workflows on Merge",
   "concept_id": "cancel-pr-workflows-on-merge",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
       "source_repo": "sgl-project/sglang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "source_repo": "LDLINGLINGLING/sglang"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

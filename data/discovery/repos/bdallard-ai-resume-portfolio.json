@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "@iconify/json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@langchain/groq",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxt/fonts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxt/ui-pro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/google-fonts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/seo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "langchain",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pdfjs-dist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue3-lottie",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@dargmuesli/nuxt-cookie-control",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxtjs/i18n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cookie-control",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "groq-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ioredis",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt-aos",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt-rate-limit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "minio/minio-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@iconify/json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@langchain/groq",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@nuxt/fonts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@nuxt/ui-pro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@nuxtjs/google-fonts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@nuxtjs/seo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "langchain",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "nuxt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "pdfjs-dist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "vue3-lottie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@dargmuesli/nuxt-cookie-control",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "@nuxtjs/i18n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "cookie-control",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "groq-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "ioredis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "minio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "nuxt-aos",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bdallard/ai-resume-portfolio",
+      "target": "nuxt-rate-limit",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:10:15.971463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2842
+    },
+    {
+      "path": "Dockerfile",
+      "size": 415
+    },
+    {
+      "path": "package.json",
+      "size": 883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nuxt resume template with AI cover letter generator \ud83e\udd16",
+    "fork": false,
+    "full_name": "bdallard/ai-resume-portfolio",
+    "html_url": "https://github.com/bdallard/ai-resume-portfolio",
+    "language": "Vue",
+    "pushed_at": "2024-09-20T12:57:16Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-02-04T15:55:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minio/minio-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TeleType"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035152,
+      "status": "candidate",
+      "text": "privy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034983,
+      "status": "candidate",
+      "text": "nonpublic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034572,
+      "status": "candidate",
+      "text": "confidential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034396,
+      "status": "candidate",
+      "text": "secret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033171,
+      "status": "candidate",
+      "text": "secluded"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "private",
+      "sense_id": "private#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25042,
+      "status": "candidate",
+      "text": "individual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24044,
+      "status": "candidate",
+      "text": "privy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "sequestered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21042,
+      "status": "candidate",
+      "text": "personal"
+    }
+  ],
+  "concept_id": "private",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "private",
+  "observation_id": "29effd8b536b70ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "private",
+  "source_context_snippet": "TeleType",
+  "source_file": null,
+  "source_repo": "akshaykmr/teletype",
+  "source_repo_description": "Stream and share terminals over the web. Show off mad cli-fu, help a colleague, teach, or troubleshoot. end-to-end encrypted \ud83d\udee1"
+}

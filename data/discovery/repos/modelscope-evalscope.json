@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/evalscope",
+      "target": "sierra-research/tau-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "CI Tests Lite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test_full.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test_full.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "CI Tests Full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "modelscope/evalscope",
+      "target": "Lint Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/evalscope",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/evalscope",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/evalscope",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:33.993933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3311
+    },
+    {
+      "path": ".github/workflows/ci_test.yaml",
+      "size": 1712
+    },
+    {
+      "path": ".github/workflows/ci_test_full.yaml",
+      "size": 1716
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.",
+    "fork": false,
+    "full_name": "modelscope/evalscope",
+    "html_url": "https://github.com/modelscope/evalscope",
+    "language": "Python",
+    "pushed_at": "2026-04-23T12:48:19Z",
+    "stargazers_count": 2713,
+    "topics": [
+      "evaluation",
+      "llm",
+      "performance",
+      "rag",
+      "vlm"
+    ],
+    "updated_at": "2026-04-23T14:00:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sierra-research/tau-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Tests Lite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yaml",
+      "term": "CI Tests Lite"
+    },
+    {
+      "context_snippet": "CI Tests Full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test_full.yaml",
+      "term": "CI Tests Full"
+    },
+    {
+      "context_snippet": "Lint Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Test"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

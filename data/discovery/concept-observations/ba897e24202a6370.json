@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Python package installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update documentation redirects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update documentation redirects"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17769,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11209,
+      "status": "candidate",
+      "text": "tosser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "pleistocene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "sun"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update documentation redirects",
+      "sense_id": "update-documentation-redirects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-documentation-redirects",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-documentation-redirects",
+  "observation_id": "ba897e24202a6370",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Update documentation redirects",
+  "source_context_snippet": "Update documentation redirects",
+  "source_file": ".github/workflows/update-rtd-redirects.yml",
+  "source_repo": "pypa/pip",
+  "source_repo_description": "The Python package installer"
+}

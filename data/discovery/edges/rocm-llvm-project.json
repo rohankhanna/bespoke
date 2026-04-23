@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-checks.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Bazel Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-tooling.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Build CI Tooling Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Build Windows CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Build CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-libc-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Build libc Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "ROCm/llvm-project",
+      "target": "Build Metrics Container",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ROCm/llvm-project"
+}

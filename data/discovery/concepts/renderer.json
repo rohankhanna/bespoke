@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "renderer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate",
+      "text": "Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012843,
+      "status": "candidate",
+      "text": "processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955955,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020503,
+      "status": "candidate",
+      "text": "rerouter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020502,
+      "status": "candidate",
+      "text": "redirector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020501,
+      "status": "candidate",
+      "text": "recaster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "renderer",
+  "concept_id": "renderer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "a-e-k/canvas_ity"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "renderer",
+      "sense_id": "renderer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

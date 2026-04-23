@@ -127,6 +127,54 @@
       "source_repo": "privatenumber/esbuild-loader",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Babel loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate-context",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate-context",
+      "text": "TypeScript loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/ts-loader.svg)](https://www.npmjs.com/package/ts-loader)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate-context",
+      "text": "esbuild-loader examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate-context",
+      "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "privatenumber/esbuild-loader",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-loader",
+      "status": "candidate",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-loader",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/ts-loader.svg)](https://www.npmjs.com/package/ts-loader)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader-examples",
+      "status": "candidate",
+      "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "privatenumber/esbuild-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "TypeStrong/ts-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspack"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

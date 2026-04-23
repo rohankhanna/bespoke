@@ -1,0 +1,349 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espnet/espnet",
+      "target": "espnet/notebook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espnet/espnet",
+      "target": "espnet/interspeech2019-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espnet/espnet",
+      "target": "asteroid-team/asteroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espnet/espnet",
+      "target": "espnet/espnet_model_zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "espnet/espnet",
+      "target": "reitermarkus/automerge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "espnet/espnet",
+      "target": "Automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel_workflows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "styfle/cancel-workflow-action@0.13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel_workflows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "cancel workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_centos7_yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_centos7_yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_centos7_yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "ci on centos7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_debian11.yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_debian11.yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_debian11.yml.eol",
+      "source_repo": "espnet/espnet",
+      "target": "ci on debian11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_debian12.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_debian12.yml",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_debian12.yml",
+      "source_repo": "espnet/espnet",
+      "target": "ci on debian12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_macos.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_macos.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_macos.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_macos.yml",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_macos.yml",
+      "source_repo": "espnet/espnet",
+      "target": "ci on macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_ubuntu.yml",
+      "source_repo": "espnet/espnet",
+      "target": "ci on ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_windows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_windows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_windows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_on_windows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "joerick/pr-labels-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_on_windows.yml",
+      "source_repo": "espnet/espnet",
+      "target": "ci on windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "chainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "kaldi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speech-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "spoken-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espnet/espnet",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "espnet/espnet"
+}

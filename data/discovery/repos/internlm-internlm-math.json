@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/InternLM-Math",
+      "target": "open-compass/mathbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/InternLM-Math",
+      "target": "open-compass/opencompass",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:54.367042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "State-of-the-art bilingual open-sourced Math reasoning LLMs.",
+    "fork": false,
+    "full_name": "InternLM/InternLM-Math",
+    "html_url": "https://github.com/InternLM/InternLM-Math",
+    "language": "Python",
+    "pushed_at": "2024-10-22T16:18:00Z",
+    "stargazers_count": 543,
+    "topics": [],
+    "updated_at": "2026-04-13T05:34:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/mathbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/opencompass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "cruft/cruft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "cookicutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "python3-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aviksaikat/cookiecutter-pdm-pypackage",
+      "target": "virtualenv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:02.860476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+    "fork": false,
+    "full_name": "Aviksaikat/cookiecutter-pdm-pypackage",
+    "html_url": "https://github.com/Aviksaikat/cookiecutter-pdm-pypackage",
+    "language": "Python",
+    "pushed_at": "2024-05-31T18:28:52Z",
+    "stargazers_count": 7,
+    "topics": [
+      "cookicutter",
+      "pdm",
+      "pip",
+      "python3",
+      "python3-project",
+      "python3-template",
+      "virtualenv"
+    ],
+    "updated_at": "2025-05-24T12:25:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cruft/cruft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookicutter"
+    },
+    {
+      "context_snippet": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3-project"
+    },
+    {
+      "context_snippet": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3-template"
+    },
+    {
+      "context_snippet": "Cookiecutter template for a cutting-edge Python package: pdm, ruff, mypy, GitHub Actions and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualenv"
+    }
+  ]
+}

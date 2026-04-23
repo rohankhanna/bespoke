@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artidoro/qlora",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:24.906446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10936
+    },
+    {
+      "path": "requirements.txt",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "fork": false,
+    "full_name": "artidoro/qlora",
+    "html_url": "https://github.com/artidoro/qlora",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-10T19:20:16Z",
+    "stargazers_count": 10889,
+    "topics": [],
+    "updated_at": "2026-04-23T11:50:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

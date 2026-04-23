@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "julialang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/Julia-sublime",
+      "target": "sublime-text",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "JuliaEditorSupport/Julia-sublime"
+}

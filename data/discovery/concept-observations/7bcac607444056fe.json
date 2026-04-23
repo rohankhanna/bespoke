@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "goku"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tien shinhan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "master roshi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "mr. satan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gohan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bulma",
+      "sense_id": "bulma#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bulma",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bulma",
+  "observation_id": "7bcac607444056fe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bulma",
+  "source_context_snippet": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)",
+  "source_file": null,
+  "source_repo": "14nrv/buefy-shop",
+  "source_repo_description": "A sample shop built with Nuxt, Stripe, Firebase and Serverless Functions"
+}

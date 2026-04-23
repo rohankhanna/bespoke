@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Blur Detection with OpenCV in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blur-detection",
+      "sense_id": "blur-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blur-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blur-detection",
+  "observation_id": "791c18f657af53b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "blur-detection",
+  "source_context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+  "source_file": null,
+  "source_repo": "WillBrennan/BlurDetection2",
+  "source_repo_description": "Blur Detection with OpenCV in Python"
+}

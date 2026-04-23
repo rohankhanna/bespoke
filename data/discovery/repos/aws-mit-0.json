@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:21:40.843954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The \"MIT No Attribution\" (MIT-0) License",
+    "fork": false,
+    "full_name": "aws/mit-0",
+    "html_url": "https://github.com/aws/mit-0",
+    "language": null,
+    "pushed_at": "2022-05-16T16:11:09Z",
+    "stargazers_count": 308,
+    "topics": [],
+    "updated_at": "2026-04-23T16:48:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

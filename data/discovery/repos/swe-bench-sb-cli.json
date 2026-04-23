@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "swe-bench/experiments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "swe-bench/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "swe-bench/swe-smith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "fastapi/typer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/sb-cli",
+      "target": "Deploy MkDocs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:26.072952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1092
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run SWE-bench evaluations remotely",
+    "fork": false,
+    "full_name": "SWE-bench/sb-cli",
+    "html_url": "https://github.com/SWE-bench/sb-cli",
+    "language": "Python",
+    "pushed_at": "2025-08-14T20:32:57Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-04T11:47:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/experiments",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-smith",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastapi/typer",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy MkDocs"
+    }
+  ]
+}

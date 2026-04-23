@@ -67,6 +67,42 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate-context",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names for Python (IDNA 2008 and UTS #46)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names in Applications (IDNA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate-context",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate-context",
+      "text": "Vim support for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate",
+      "text": "Internationalized Domain Names in Applications (IDNA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdutf/simdutf",
+      "status": "candidate",
+      "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaEditorSupport/julia-vim",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JuliaEditorSupport/julia-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

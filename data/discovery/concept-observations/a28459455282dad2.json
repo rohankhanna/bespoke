@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Superset is a Data Visualization and Data Exploration Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cancel Duplicates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cancel Duplicates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11215,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11077,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10971,
+      "status": "candidate",
+      "text": "duplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10971,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10971,
+      "status": "candidate",
+      "text": "matrix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cancel Duplicates",
+      "sense_id": "cancel-duplicates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cancel-duplicates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cancel-duplicates",
+  "observation_id": "a28459455282dad2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Cancel Duplicates",
+  "source_context_snippet": "Cancel Duplicates",
+  "source_file": ".github/workflows/cancel_duplicates.yml",
+  "source_repo": "apache/superset",
+  "source_repo_description": "Apache Superset is a Data Visualization and Data Exploration Platform"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Primary and community-submitted packages for webinstall.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [webi](https://webinstall.dev) is how developers install their tools"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025334,
+      "status": "candidate",
+      "text": "brewage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947828,
+      "status": "candidate",
+      "text": "steep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835583,
+      "status": "candidate",
+      "text": "infuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026173,
+      "status": "candidate",
+      "text": "beverage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026104,
+      "status": "candidate",
+      "text": "ferment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brew",
+      "sense_id": "brew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19044,
+      "status": "candidate",
+      "text": "infuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13043,
+      "status": "candidate",
+      "text": "steep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "brewage"
+    }
+  ],
+  "concept_id": "brew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brew",
+  "observation_id": "dc168b5cbbc7068b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "brew",
+  "source_context_snippet": "> [webi](https://webinstall.dev) is how developers install their tools",
+  "source_file": null,
+  "source_repo": "webinstall/webi-installers",
+  "source_repo_description": "Primary and community-submitted packages for webinstall.dev"
+}

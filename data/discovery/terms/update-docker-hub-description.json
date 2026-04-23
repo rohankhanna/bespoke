@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/DockerHub-Description.yml",
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "nginx-proxy/docker-gen"
+    }
+  ],
+  "term": "Update Docker Hub Description"
+}

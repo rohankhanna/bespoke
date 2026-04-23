@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " One stop shop for running AI/ML on AWS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Release - Ray"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Release - Ray"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17992,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17956,
+      "status": "candidate",
+      "text": "oilcan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "blinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "rally"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Release - Ray",
+      "sense_id": "auto-release---ray#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-release---ray",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-release---ray",
+  "observation_id": "56caea1289d40864",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Auto Release - Ray",
+  "source_context_snippet": "Auto Release - Ray",
+  "source_file": ".github/workflows/auto-release-ray.yml",
+  "source_repo": "aws/deep-learning-containers",
+  "source_repo_description": " One stop shop for running AI/ML on AWS."
+}

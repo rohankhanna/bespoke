@@ -131,13 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gobackup/gobackup",
-      "target": "backup/backup",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gobackup/gobackup",
       "target": "huacnlee/gobackup",
       "target_type": "repository"
     },
@@ -387,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:36:48.492793+00:00",
+  "fetched_at": "2026-04-23T22:23:37.996871+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -436,7 +429,7 @@
     "html_url": "https://github.com/gobackup/gobackup",
     "language": "Go",
     "pushed_at": "2026-04-09T14:50:52Z",
-    "stargazers_count": 2675,
+    "stargazers_count": 2676,
     "topics": [
       "backup",
       "cli",
@@ -445,14 +438,9 @@
       "postgresql",
       "redis"
     ],
-    "updated_at": "2026-04-21T17:37:23Z"
+    "updated_at": "2026-04-23T14:39:00Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "backup/backup",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "huacnlee/gobackup",

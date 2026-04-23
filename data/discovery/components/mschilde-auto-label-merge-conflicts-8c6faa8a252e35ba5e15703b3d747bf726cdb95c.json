@@ -1,0 +1,12 @@
+{
+  "component": "mschilde/auto-label-merge-conflicts@8c6faa8a252e35ba5e15703b3d747bf726cdb95c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conflictDetector.yaml",
+      "source_repo": "redhat-developer/vscode-java"
+    }
+  ]
+}

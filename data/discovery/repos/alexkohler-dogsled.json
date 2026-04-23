@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/dogsled",
+      "target": "alexkohler/prealloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/dogsled",
+      "target": "alexkohler/nakedret",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/dogsled",
+      "target": "alexkohler/identypo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/dogsled",
+      "target": "alexkohler/unimport",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:39.695159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dogsled is a Go static analysis tool to find assignments/declarations with too many blank identifiers.",
+    "fork": false,
+    "full_name": "alexkohler/dogsled",
+    "html_url": "https://github.com/alexkohler/dogsled",
+    "language": "Go",
+    "pushed_at": "2024-03-29T14:12:07Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-13T05:55:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/identypo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/nakedret",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/prealloc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/unimport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

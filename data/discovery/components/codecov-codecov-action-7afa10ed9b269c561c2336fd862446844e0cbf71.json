@@ -1,0 +1,12 @@
+{
+  "component": "codecov/codecov-action@7afa10ed9b269c561c2336fd862446844e0cbf71",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

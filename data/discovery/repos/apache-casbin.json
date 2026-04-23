@@ -36,16 +36,6 @@
       "source_file": ".github/workflows/default.yml"
     },
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml"
-    },
-    {
-      "component": "actions/setup-node@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml"
-    },
-    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/golangci-lint.yml"
@@ -79,6 +69,26 @@
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/performance-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml"
     }
   ],
   "edges": [
@@ -146,20 +156,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml",
-      "source_repo": "apache/casbin",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/default.yml",
-      "source_repo": "apache/casbin",
-      "target": "actions/setup-node@v3",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/default.yml",
       "source_repo": "apache/casbin",
@@ -220,6 +216,48 @@
       "source_file": ".github/workflows/performance-pr.yml",
       "source_repo": "apache/casbin",
       "target": "Performance Comparison for Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin",
+      "target": "Build Source Release Draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "source_repo": "apache/casbin",
+      "target": "Build Source Snapshot",
       "target_type": "term"
     },
     {
@@ -321,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:38:33.192587+00:00",
+  "fetched_at": "2026-04-23T20:54:35.392677+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -337,7 +375,7 @@
     },
     {
       "path": ".github/workflows/default.yml",
-      "size": 1161
+      "size": 678
     },
     {
       "path": ".github/workflows/golangci-lint.yml",
@@ -346,6 +384,14 @@
     {
       "path": ".github/workflows/performance-pr.yml",
       "size": 2872
+    },
+    {
+      "path": ".github/workflows/source-release-draft.yml",
+      "size": 4694
+    },
+    {
+      "path": ".github/workflows/source-snapshot.yml",
+      "size": 4778
     }
   ],
   "related_repositories": [],
@@ -357,8 +403,8 @@
     "full_name": "apache/casbin",
     "html_url": "https://github.com/apache/casbin",
     "language": "Go",
-    "pushed_at": "2026-04-20T02:44:56Z",
-    "stargazers_count": 20028,
+    "pushed_at": "2026-04-23T16:58:54Z",
+    "stargazers_count": 20030,
     "topics": [
       "abac",
       "access-control",
@@ -379,7 +425,7 @@
       "saml",
       "sso"
     ],
-    "updated_at": "2026-04-23T02:54:55Z"
+    "updated_at": "2026-04-23T17:43:59Z"
   },
   "repo_links": [
     {
@@ -427,6 +473,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/performance-pr.yml",
       "term": "Performance Comparison for Pull Requests"
+    },
+    {
+      "context_snippet": "Build Source Release Draft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "term": "Build Source Release Draft"
+    },
+    {
+      "context_snippet": "Build Source Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-snapshot.yml",
+      "term": "Build Source Snapshot"
     },
     {
       "context_snippet": "Casbin",

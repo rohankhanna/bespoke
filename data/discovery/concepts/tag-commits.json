@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "Tag commits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "The Chrome DevTools UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate-context",
+      "text": "Tag commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/devtools-frontend",
+      "status": "candidate",
+      "text": "Tag commits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "tagger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "achilles tendon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "antibody"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag commits",
+  "concept_id": "tag-commits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ChromeDevTools/devtools-frontend"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag commits",
+      "sense_id": "tag-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,30 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate-context",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate-context",
+      "text": ":diamond_shape_with_a_dot_inside: Single-file glTF 2.0 loader and writer written in C99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate-context",
+      "text": "**Single-file/stb-style C glTF loader and writer**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "Mesh optimization library that makes meshes smaller and faster to render"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "When a GPU renders triangle meshes, various stages of the GPU pipeline have to process vertex and index data. The efficiency of these stages depends on the data you feed to them; this library provides algorithms to help optimize meshes for these stages, as well as algorithms to \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate",
+      "text": "**Single-file/stb-style C glTF loader and writer**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate",
+      "text": "When a GPU renders triangle meshes, various stages of the GPU pipeline have to process vertex and index data. The efficiency of these stages depends on the data you feed to them; this library provides algorithms to help optimize meshes for these stages, as well as algorithms to \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jkuhlmann/cgltf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zeux/meshoptimizer"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

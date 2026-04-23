@@ -1,0 +1,12 @@
+{
+  "component": "pozil/auto-assign-issue@39c06395cbac76e79afc4ad4e5c5c6db6ecfdd2e",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/vulndb"
+    }
+  ]
+}

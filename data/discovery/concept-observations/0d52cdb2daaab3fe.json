@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains the my profile. I'm always open to feedback and suggestions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Collect Activity Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Collect Activity Data"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34706,
+      "status": "candidate",
+      "text": "buffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34706,
+      "status": "candidate",
+      "text": "buffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34667,
+      "status": "candidate",
+      "text": "again"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34585,
+      "status": "candidate",
+      "text": "spade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34585,
+      "status": "candidate",
+      "text": "spades"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Collect Activity Data",
+      "sense_id": "collect-activity-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "collect-activity-data",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "collect-activity-data",
+  "observation_id": "0d52cdb2daaab3fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Collect Activity Data",
+  "source_context_snippet": "Collect Activity Data",
+  "source_file": ".github/workflows/profile.yml",
+  "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+  "source_repo_description": "This repository contains the my profile. I'm always open to feedback and suggestions."
+}

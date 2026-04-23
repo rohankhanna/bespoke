@@ -2585,6 +2585,948 @@
       "source_repo": "powturbo/TurboBench",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowplow-incubator/cla-bot",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "OpenMMLab FewShot Learning Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "okotaku/diffengine",
+      "status": "candidate-context",
+      "text": "Diffusers training with mmengine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okotaku/diffengine",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/gym",
+      "status": "candidate-context",
+      "text": "A toolkit for developing and comparing reinforcement learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/gym",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope-classroom",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/rapids-logger",
+      "status": "candidate-context",
+      "text": "A logging interface for RAPIDS built on spdlog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rapids-logger",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/blst",
+      "status": "candidate-context",
+      "text": "Multilingual BLS12-381 signature library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/blst",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaIPFS documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate-context",
+      "text": "Cross platform .NET bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adams85/acornima",
+      "status": "candidate-context",
+      "text": "Acornima is a standard-compliant JavaScript parser for .NET. It is a fork of Esprima.NET combined with the .NET port of the acornjs parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adams85/acornima",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate-context",
+      "text": "Esprima .NET (BSD license) is a .NET port of the esprima.org project. It is a standard-compliant ECMAScript parser (also popularly known as JavaScript)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebastienros/jint",
+      "status": "candidate-context",
+      "text": "Javascript Interpreter for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/jint",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "The source for the Dart website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6548\u7387 QQ \u673a\u5668\u4eba\u652f\u6301\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/sdb",
+      "status": "candidate-context",
+      "text": "A command line client for the Mono soft debugger."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/sdb",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate-context",
+      "text": "Graphical user interface for Selenoid project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "The operational tool for Seata-Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "status": "candidate-context",
+      "text": "Samples for seata-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-k8s",
+      "status": "candidate-context",
+      "text": "Seata Kubernetes Operations Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-k8s",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/xcb-imdkit-rs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Bicep is a declarative language for describing and deploying Azure resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Helpers for generating Starlark documentation using Stardoc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel_shlib",
+      "status": "candidate-context",
+      "text": "Bazel project that contains shared/common shell functions and binaries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel_shlib",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/luamake",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate-context",
+      "text": "lua-language-server plugin for the asdf version manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fannheyward/coc-xml",
+      "status": "candidate-context",
+      "text": "XML extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-xml",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "TextMate support in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": ":cake: Cake (C# Make) is a cross platform build automation system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d node-ignore is the manager and filter for .gitignore rules, the one used by eslint, prettier and many others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tj/commander.js",
+      "status": "candidate-context",
+      "text": "node.js command-line interfaces made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tj/commander.js",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate-context",
+      "text": "Dockerfile cross-compilation helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "The governance process and model for Project Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "Jupyter Interactive Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "A free, open source, and extensible speech-to-text application that works completely offline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Run commands on your host from inside your toolbox or flatpak sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "Web player for terminal session recordings and streams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10   Lightweight internationalization plugin for Vue.js 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/clip",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/clip",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "A C++ library to create desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/observable",
+      "status": "candidate-context",
+      "text": "Observer pattern and signals/slots for C++11 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/observable",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/undo",
+      "status": "candidate-context",
+      "text": "C++ library to implement non-linear undo/redo functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/undo",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Thin multiplatform wrappers for graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/vault",
+      "status": "candidate-context",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/vault",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "\u03bcWebSockets for Node.js back-ends :metal:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": "Cross-platform lib for process and system monitoring in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate-context",
+      "text": "Docker images for compiling static Rust binaries using musl-cross"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "Azure Data Exporter for BloodHound"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate-context",
+      "text": "C# Data Collector for BloodHound"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "JSON Schema format validation for Ajv v8+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "Internationalised error messages for Ajv JSON schema validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "Additional JSON-Schema keywords for Ajv JSON validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "status": "candidate-context",
+      "text": "A daemon that automatically manages the performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ergochat/readline",
+      "status": "candidate-context",
+      "text": "A readline implementation in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergochat/readline",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "OpenMMLab optical flow toolbox and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate-context",
+      "text": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Python Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Python bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "LightSeq: A High Performance Library for Sequence Processing and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "CID in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate-context",
+      "text": ":diamond_shape_with_a_dot_inside: Single-file glTF 2.0 loader and writer written in C99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "Mesh optimization library that makes meshes smaller and faster to render"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab 3D Human Parametric Model Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/vision_transformer",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -3881,6 +4823,498 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "powturbo/TurboBench",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowplow-incubator/cla-bot",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmfewshot",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "okotaku/diffengine",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/gym",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/modelscope-classroom",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rapids-logger",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/blst",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amerkoleci/Alimer.Bindings",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adams85/acornima",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/esprima-dotnet",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastienros/jint",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clayrisser/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamoe/mirai",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/sdb",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-ctl",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-go-samples",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-k8s",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/xcb-imdkit-rs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-doc",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel_shlib",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/luamake",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bellini666/asdf-lua-language-server",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-xml",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-tm4e/tm4e",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/luigi",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-build/cake",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaelzhang/node-ignore",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tj/commander.js",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/governance",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjpais/Handy",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1player/host-spawn",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema-player",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/vue-next-i18n",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/clip",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/laf",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/observable",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/undo",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-manes/caffeine",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/vault",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets.js",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giampaolo/psutil",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/AzureHound",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHound",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-formats",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-i18n",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv-keywords",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/k8s-node-collector",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ergochat/readline",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmflow",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/ada-python",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkuhlmann/cgltf",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmhuman3d",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/vision_transformer",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
       "status": "candidate",
       "text": "build"
     }
@@ -5401,11 +6835,587 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "powturbo/TurboBench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "snowplow-incubator/cla-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmfewshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "okotaku/diffengine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openai/gym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "modelscope/modelscope-classroom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_build.yaml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/blst"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amerkoleci/Alimer.Bindings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adams85/acornima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sebastienros/esprima-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sebastienros/jint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart-lang/site-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mamoe/mirai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mono/sdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/incubator-seata-go-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "wezterm/xcb-imdkit-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel-doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "cgrindel/bazel_shlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "actboy168/luamake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bellini666/asdf-lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fannheyward/coc-xml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pythonbuild.yml",
+      "source_repo": "spotify/luigi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "kaelzhang/node-ignore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tj/commander.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/notebook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "enigo-rs/enigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "1player/host-spawn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asciinema/asciinema-player"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/clip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/laf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/observable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/undo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DataDog/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "uNetworking/uWebSockets.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/SharpHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-formats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ergochat/readline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "anthropics/claude-quickstarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ada-url/ada-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/ucxx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_check.yml",
+      "source_repo": "bytedance/lightseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "multiformats/rust-cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jkuhlmann/cgltf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mmhuman3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-research/vision_transformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

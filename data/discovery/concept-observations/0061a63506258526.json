@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cookiecutter-plone",
+      "sense_id": "cookiecutter-plone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cookiecutter-plone",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cookiecutter-plone",
+  "observation_id": "0061a63506258526",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "cookiecutter-plone",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "collective/cookiecutter-plone-starter",
+  "source_repo_description": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly."
+}

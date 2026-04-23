@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26538187,
+      "status": "candidate",
+      "text": "app"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24561045,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16540754,
+      "status": "candidate",
+      "text": "applications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16540752,
+      "status": "candidate",
+      "text": "apple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16540751,
+      "status": "candidate",
+      "text": "appleberry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apps",
+      "sense_id": "apps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apps",
+  "observation_id": "db72e43dc4a44283",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "apps",
+  "source_context_snippet": "<h3 align=\"center\">",
+  "source_file": null,
+  "source_repo": "fastlane/fastlane",
+  "source_repo_description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+}

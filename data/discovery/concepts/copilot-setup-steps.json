@@ -127,6 +127,138 @@
       "source_repo": "Azure/azure-sdk-for-rust",
       "status": "candidate-context",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate-context",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "A learning environment for man-made Interactive Fiction games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate-context",
+      "text": "A next generation Python CMake adaptor and Python API for plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -189,6 +321,72 @@
       "source_repo": "Azure/azure-sdk-for-rust",
       "status": "candidate",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/markdown-it-py",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "status": "candidate",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-build/scikit-build-core",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elsa-workflows/elsa-core",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +496,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "Azure/azure-sdk-for-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/fluentui-system-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/jericho"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "scikit-build/scikit-build-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

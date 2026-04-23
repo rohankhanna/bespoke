@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Badgetizr on Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Badgetizr on Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26104,
+      "status": "candidate",
+      "text": "operate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "fill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "heart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "obey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18501,
+      "status": "candidate",
+      "text": "pray"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Badgetizr on Pull Requests",
+      "sense_id": "run-badgetizr-on-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-badgetizr-on-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-badgetizr-on-pull-requests",
+  "observation_id": "0f175a60e678f98c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Run Badgetizr on Pull Requests",
+  "source_context_snippet": "Run Badgetizr on Pull Requests",
+  "source_file": ".github/workflows/badgetizr.yml",
+  "source_repo": "aiKrice/homebrew-badgetizr",
+  "source_repo_description": "Badgetizr is a tool to allow custom badges automatically added and updated according the content of your pull request."
+}

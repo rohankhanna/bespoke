@@ -1,12 +1,22 @@
 {
   "component": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "pypa/auditwheel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "twisted/towncrier"
     }
   ]
 }

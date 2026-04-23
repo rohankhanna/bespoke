@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clear Actions Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Clear Actions Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "Clear Actions Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21291,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20761,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20667,
+      "status": "candidate",
+      "text": "reserves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20642,
+      "status": "candidate",
+      "text": "follow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20632,
+      "status": "candidate",
+      "text": "quantity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clear Actions Cache",
+  "concept_id": "clear-actions-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "PyO3/maturin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear Actions Cache",
+      "sense_id": "clear-actions-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

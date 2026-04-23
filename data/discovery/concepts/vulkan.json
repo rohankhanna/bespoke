@@ -175,6 +175,138 @@
       "source_repo": "ash-rs/ash",
       "status": "candidate-context",
       "text": "A very lightweight wrapper around Vulkan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Easy to integrate Vulkan memory allocation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate-context",
+      "text": "Easy to integrate Vulkan memory allocation library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "One stop solution for all Vulkan samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate-context",
+      "text": "\"build Antora documentation\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Thin multiplatform wrappers for graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "A testing framework for automatically finding and simplifying bugs in graphics shader compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "Vulkan best practice for mobile developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "Vulkan DOOM 3 port based on DOOM 3 BFG Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "C++ examples for the Vulkan graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +393,72 @@
       "source_repo": "ash-rs/ash",
       "status": "candidate",
       "text": "A very lightweight wrapper around Vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "status": "candidate",
+      "text": "Easy to integrate Vulkan memory allocation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate",
+      "text": "\"build Antora documentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConfettiFX/The-Forge",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SaschaWillems/Vulkan",
+      "status": "candidate",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
     }
   ],
   "candidate_related_terms": [
@@ -379,11 +577,77 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/vulkan_best_practice_for_mobile_developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "SaschaWillems/Vulkan"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

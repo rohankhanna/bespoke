@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:05:43.521846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Test bitstreams and reference decoded images for conformance testing",
+    "fork": false,
+    "full_name": "libjxl/conformance",
+    "html_url": "https://github.com/libjxl/conformance",
+    "language": "Python",
+    "pushed_at": "2025-08-06T16:35:30Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-01-26T07:18:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

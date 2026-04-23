@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "docker://pandoc/core:2.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "docker://pandoc/core:2.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "docker://pandoc/core:2.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "emacs-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/dap-mode",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:29.403422+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 918
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs :heart: Debug Adapter Protocol ",
+    "fork": false,
+    "full_name": "emacs-lsp/dap-mode",
+    "html_url": "https://github.com/emacs-lsp/dap-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-08T14:03:57Z",
+    "stargazers_count": 1375,
+    "topics": [
+      "cpp",
+      "debug",
+      "debugger",
+      "emacs",
+      "emacs-lsp",
+      "go",
+      "java",
+      "javascript",
+      "lsp",
+      "lua",
+      "php",
+      "powershell",
+      "ruby",
+      "rust",
+      "swift",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T02:45:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lsp"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

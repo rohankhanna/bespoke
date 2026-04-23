@@ -1,0 +1,494 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-graalvm-and-polyglot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-jdks21.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/docker-tornado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/gpullama3.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/kfusion-tornadovm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "vinhixus/tornadovm-ray-tracer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-graalvm-and-polyglot.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-jdks21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "levelzero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "multi-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "parallel-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "spirv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:52.367652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12101
+    },
+    {
+      "path": ".github/workflows/1-prepare-release-jdk21.yml",
+      "size": 14336
+    },
+    {
+      "path": ".github/workflows/1-prepare-release-jdk25.yml",
+      "size": 14249
+    },
+    {
+      "path": ".github/workflows/2-finalize-release-jdk21.yml",
+      "size": 6651
+    },
+    {
+      "path": ".github/workflows/2-finalize-release-jdk25.yml",
+      "size": 6403
+    },
+    {
+      "path": ".github/workflows/backport-pr-to-jdk25.yml",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/build-test-jdk21.yml",
+      "size": 7264
+    },
+    {
+      "path": ".github/workflows/build-test-jdk25.yml",
+      "size": 5668
+    },
+    {
+      "path": ".github/workflows/build-test-with-graalvm-and-polyglot.yml",
+      "size": 6870
+    },
+    {
+      "path": ".github/workflows/build-test-with-jdks21.yml",
+      "size": 3241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TornadoVM: A practical and efficient heterogeneous programming framework for managed languages",
+    "fork": false,
+    "full_name": "beehive-lab/TornadoVM",
+    "html_url": "https://github.com/beehive-lab/TornadoVM",
+    "language": "Java",
+    "pushed_at": "2026-04-16T10:18:03Z",
+    "stargazers_count": 1448,
+    "topics": [
+      "ai",
+      "cuda",
+      "gpu-acceleration",
+      "gpu-computing",
+      "gpus",
+      "graalvm",
+      "java",
+      "levelzero",
+      "multi-core",
+      "opencl",
+      "parallel-computing",
+      "parallel-programming",
+      "spirv"
+    ],
+    "updated_at": "2026-04-22T11:40:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehive-lab/docker-tornado",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehive-lab/gpullama3.java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehive-lab/kfusion-tornadovm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinhixus/tornadovm-ray-tracer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpus"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "levelzero"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-core"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-programming"
+    },
+    {
+      "context_snippet": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    }
+  ]
+}

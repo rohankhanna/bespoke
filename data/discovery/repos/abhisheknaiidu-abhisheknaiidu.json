@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "athul/waka-readme@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-stats.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-todoist.yml"
+    },
+    {
+      "component": "abhisheknaiidu/todoist-readme@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-todoist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-stats.yml",
+      "source_repo": "abhisheknaiidu/abhisheknaiidu",
+      "target": "athul/waka-readme@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-stats.yml",
+      "source_repo": "abhisheknaiidu/abhisheknaiidu",
+      "target": "Waka Readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-todoist.yml",
+      "source_repo": "abhisheknaiidu/abhisheknaiidu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-todoist.yml",
+      "source_repo": "abhisheknaiidu/abhisheknaiidu",
+      "target": "abhisheknaiidu/todoist-readme@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-todoist.yml",
+      "source_repo": "abhisheknaiidu/abhisheknaiidu",
+      "target": "Todoist Readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:04:39.730931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/update-stats.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/update-todoist.yml",
+      "size": 390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc40",
+    "fork": false,
+    "full_name": "abhisheknaiidu/abhisheknaiidu",
+    "html_url": "https://github.com/abhisheknaiidu/abhisheknaiidu",
+    "language": null,
+    "pushed_at": "2026-04-22T20:39:45Z",
+    "stargazers_count": 446,
+    "topics": [],
+    "updated_at": "2026-04-23T03:37:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Waka Readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-stats.yml",
+      "term": "Waka Readme"
+    },
+    {
+      "context_snippet": "Todoist Readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-todoist.yml",
+      "term": "Todoist Readme"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Module Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "Module Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "Module Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29166,
+      "status": "candidate",
+      "text": "ielts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13060,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13060,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13049,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13007,
+      "status": "candidate",
+      "text": "vehicle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Module Test",
+  "concept_id": "module-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/module_test.yml",
+      "source_repo": "fastlane/fastlane"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Module Test",
+      "sense_id": "module-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

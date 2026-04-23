@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "paddlepaddle/paddle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "paddlepaddle/x2paddle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "paddlepaddle/paddle-lite-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "baidu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "mali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "mobile-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle-Lite",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:52.955435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09",
+    "fork": false,
+    "full_name": "PaddlePaddle/Paddle-Lite",
+    "html_url": "https://github.com/PaddlePaddle/Paddle-Lite",
+    "language": "C++",
+    "pushed_at": "2025-05-22T12:07:25Z",
+    "stargazers_count": 7248,
+    "topics": [
+      "arm",
+      "baidu",
+      "deep-learning",
+      "embedded",
+      "fpga",
+      "mali",
+      "mdl",
+      "mobile",
+      "mobile-deep-learning",
+      "neural-network"
+    ],
+    "updated_at": "2026-04-23T19:56:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddle-lite-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/x2paddle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baidu"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mali"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-deep-learning"
+    },
+    {
+      "context_snippet": "[English](README_en.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    }
+  ]
+}

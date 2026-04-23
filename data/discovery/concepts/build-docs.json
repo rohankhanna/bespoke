@@ -2,7 +2,8 @@
   "aliases": [
     "Build docs",
     "Build Docs",
-    "build-docs"
+    "build-docs",
+    "build docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -135,6 +136,138 @@
       "source_repo": "mlc-ai/mlc-llm",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate-context",
+      "text": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate-context",
+      "text": "A CV toolkit for my papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "SWE-bench: Can Language Models Resolve Real-world Github Issues?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +334,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/mini-swe-agent",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-agent",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhanghang1989/PyTorch-Encoding",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-bench",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-bench/SWE-smith",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -318,11 +517,83 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/documentation.yaml",
       "source_repo": "mlc-ai/mlc-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/mini-swe-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sphix_build_master.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sphix_build_pr.yml",
+      "source_repo": "zhanghang1989/PyTorch-Encoding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/doc_build.yml",
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-bench/SWE-smith"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "google/adk-docs"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

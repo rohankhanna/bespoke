@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/conventional-commit.yml",
       "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "bazel-contrib/rules_d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/ethereum-package"
     }
   ]
 }

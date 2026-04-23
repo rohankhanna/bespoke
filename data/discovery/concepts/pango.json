@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pango"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "harfbuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "panorama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "freetype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "gettext"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "poedit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pango",
+  "concept_id": "pango",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ManimCommunity/ManimPango"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pango",
+      "sense_id": "pango#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

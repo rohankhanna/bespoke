@@ -133,13 +133,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "harfbuzz/harfbuzz",
-      "target": "harfbuzz/uharfbuzz",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm.yml",
       "source_repo": "harfbuzz/harfbuzz",
@@ -427,7 +420,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T04:48:18.490296+00:00",
+  "fetched_at": "2026-04-23T22:15:25.231778+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -479,8 +472,8 @@
     "full_name": "harfbuzz/harfbuzz",
     "html_url": "https://github.com/harfbuzz/harfbuzz",
     "language": "C++",
-    "pushed_at": "2026-04-19T01:54:55Z",
-    "stargazers_count": 5561,
+    "pushed_at": "2026-04-23T09:19:14Z",
+    "stargazers_count": 5580,
     "topics": [
       "aat",
       "c",
@@ -494,15 +487,9 @@
       "unicode",
       "variable-fonts"
     ],
-    "updated_at": "2026-04-19T04:26:26Z"
+    "updated_at": "2026-04-23T21:16:14Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "harfbuzz/uharfbuzz",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "arm",

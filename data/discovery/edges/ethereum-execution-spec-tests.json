@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "ethereum/evmone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "hyperledger/besu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "status-im/nimbus-eth1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "spencer-tb/ethereum-spec-evm-resolver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_eip_versions.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Check EIP Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Check Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "addnab/docker-run-action@4f65fabd2431ebc8d299f8e5a018d79a769ae185",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Evmone Coverage Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_deploy.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_deploy.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_deploy.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "softprops/action-gh-release@c95fe1489396fe8a9eb87c0abf8aa5b2ef267fda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fixtures.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Build and Package Fixtures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures_feature.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures_feature.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fixtures_feature.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "softprops/action-gh-release@c95fe1489396fe8a9eb87c0abf8aa5b2ef267fda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox_verify.yaml",
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "Tox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/execution-spec-tests",
+      "target": "ethereum",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ethereum/execution-spec-tests"
+}

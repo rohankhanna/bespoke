@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "mahmoudnafifi/deep_white_balance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "coarse-to-fine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "exposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "low-light-enhance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "low-light-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "multi-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "overexposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Exposure_Correction",
+      "target": "underexposure-correction",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "mahmoudnafifi/Exposure_Correction"
+}

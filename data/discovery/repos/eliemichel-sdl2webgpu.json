@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "eliemichel/webgpu-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "eliemichel/sdl3webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/sdl2webgpu",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:30.295664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3974
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 3078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension for the SDL2 library for using WebGPU native.",
+    "fork": false,
+    "full_name": "eliemichel/sdl2webgpu",
+    "html_url": "https://github.com/eliemichel/sdl2webgpu",
+    "language": "C",
+    "pushed_at": "2025-04-18T21:15:32Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-20T02:19:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/sdl3webgpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliemichel/webgpu-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    }
+  ]
+}

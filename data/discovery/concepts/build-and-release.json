@@ -104,6 +104,36 @@
       "source_repo": "haskell/haskell-language-server",
       "status": "candidate-context",
       "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Amtrend/ssh-manager",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate-context",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Zero-dependency, HTTP/1 safe, simple, GraphQL over Server-Sent Events Protocol server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
+      "status": "candidate-context",
+      "text": "Build and release"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +182,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Amtrend/ssh-manager",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-http",
+      "status": "candidate",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-sse",
       "status": "candidate",
       "text": "Build and release"
     }
@@ -245,11 +293,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Amtrend/ssh-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "enisdenjo/graphql-sse"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -169,6 +169,102 @@
       "source_repo": "Igorbek/typescript-plugin-styled-components",
       "status": "candidate-context",
       "text": "This is a TypeScript transformer that improves development experience of [`styled-components`](https://www.styled-components.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/FasterTransformer",
+      "status": "candidate-context",
+      "text": "Transformer related optimization, including BERT, GPT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/FasterTransformer",
+      "status": "candidate-context",
+      "text": "**Note: FasterTransformer development has transitioned to [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/release/0.5.0). All developers are encouraged to leverage TensorRT-LLM to get the latest improvements on LLM Inference. The NVIDIA/FasterTransformer repo will sta\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "OpenMMLab Semantic Segmentation Toolbox and Benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate-context",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "LightSeq: A High Performance Library for Sequence Processing and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate-context",
+      "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "an open-source implementation of sequence-to-sequence based speech processing engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +345,54 @@
       "source_repo": "Igorbek/typescript-plugin-styled-components",
       "status": "candidate",
       "text": "This is a TypeScript transformer that improves development experience of [`styled-components`](https://www.styled-components.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/FasterTransformer",
+      "status": "candidate",
+      "text": "**Note: FasterTransformer development has transitioned to [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/release/0.5.0). All developers are encouraged to leverage TensorRT-LLM to get the latest improvements on LLM Inference. The NVIDIA/FasterTransformer repo will sta\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmsegmentation",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Efficient-AI-Backbones",
+      "status": "candidate",
+      "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lightseq",
+      "status": "candidate",
+      "text": "![logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +556,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Igorbek/typescript-plugin-styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/FasterTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmsegmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/lightseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athena-team/athena"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

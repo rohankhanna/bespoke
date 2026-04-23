@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "target": "discussion-board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "target": "proposals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "target": "react-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:42:07.614357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Discussions and proposals related to the main React Native project",
+    "fork": false,
+    "full_name": "react-native-community/discussions-and-proposals",
+    "html_url": "https://github.com/react-native-community/discussions-and-proposals",
+    "language": null,
+    "pushed_at": "2025-09-26T13:26:02Z",
+    "stargazers_count": 1815,
+    "topics": [
+      "discussion-board",
+      "proposals",
+      "react-native",
+      "rfc"
+    ],
+    "updated_at": "2026-04-20T01:28:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Do you have an idea on how to make React Native better?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussion-board"
+    },
+    {
+      "context_snippet": "Do you have an idea on how to make React Native better?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposals"
+    },
+    {
+      "context_snippet": "Do you have an idea on how to make React Native better?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    }
+  ]
+}

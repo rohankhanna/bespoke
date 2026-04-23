@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/GPTQ-for-LLaMa",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/GPTQ-for-LLaMa",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/GPTQ-for-LLaMa",
+      "target": "fpgaminer/gptq-triton",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:07:47.362024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11732
+    },
+    {
+      "path": "requirements.txt",
+      "size": 170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "triton",
+    "description": "4 bits quantization of LLaMA using GPTQ",
+    "fork": false,
+    "full_name": "qwopqwop200/GPTQ-for-LLaMa",
+    "html_url": "https://github.com/qwopqwop200/GPTQ-for-LLaMa",
+    "language": "Python",
+    "pushed_at": "2024-07-13T04:45:28Z",
+    "stargazers_count": 3072,
+    "topics": [],
+    "updated_at": "2026-04-17T04:16:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fpgaminer/gptq-triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

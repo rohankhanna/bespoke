@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "ably",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve-static",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "srushtika/multiplayer-games-scalable-networking-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "srushtika/realtime-quiz-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "ably",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "serve-static",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "edtech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "realtime-quiz-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "vuejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:53:02.525737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13808
+    },
+    {
+      "path": "package.json",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This repository contains a base networking framework for building a realtime quiz platform with Ably. This project uses VueJS on the client-side and NodeJS on the server-side and is scalable as you need.",
+    "fork": false,
+    "full_name": "ably-labs/realtime-quiz-framework",
+    "html_url": "https://github.com/ably-labs/realtime-quiz-framework",
+    "language": "Vue",
+    "pushed_at": "2026-03-06T17:44:20Z",
+    "stargazers_count": 78,
+    "topics": [
+      "demo",
+      "edtech",
+      "node-js",
+      "pubsub",
+      "realtime",
+      "realtime-quiz-framework",
+      "vuejs",
+      "websockets"
+    ],
+    "updated_at": "2026-03-06T17:44:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srushtika/multiplayer-games-scalable-networking-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srushtika/realtime-quiz-framework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edtech"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime-quiz-framework"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

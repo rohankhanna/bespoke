@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Agentic CI: Health Probe\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Agentic CI: Health Probe\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10148,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10148,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10128,
+      "status": "candidate",
+      "text": "passive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10127,
+      "status": "candidate",
+      "text": "ask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10127,
+      "status": "candidate",
+      "text": "assay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agentic CI: Health Probe",
+      "sense_id": "agentic-ci-health-probe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agentic-ci-health-probe",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agentic-ci-health-probe",
+  "observation_id": "597d404d46381e79",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Agentic CI: Health Probe",
+  "source_context_snippet": "\"Agentic CI: Health Probe\"",
+  "source_file": ".github/workflows/agentic-ci-health-probe.yml",
+  "source_repo": "NVIDIA-NeMo/DataDesigner",
+  "source_repo_description": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+}

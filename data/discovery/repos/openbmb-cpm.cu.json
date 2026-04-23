@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM.cu",
+      "target": "ai9stars/specmquant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM.cu",
+      "target": "thunlp/fr-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM.cu",
+      "target": "safeailab/eagle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM.cu",
+      "target": "mit-han-lab/block-sparse-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:04.635427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11926
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CPM.cu is a lightweight, high-performance CUDA implementation for LLMs, optimized for end-device inference and featuring cutting-edge techniques in sparse architecture, speculative sampling and quantization.",
+    "fork": false,
+    "full_name": "OpenBMB/CPM.cu",
+    "html_url": "https://github.com/OpenBMB/CPM.cu",
+    "language": "Cuda",
+    "pushed_at": "2026-01-14T09:34:08Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-20T10:22:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai9stars/specmquant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/block-sparse-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "safeailab/eagle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/fr-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

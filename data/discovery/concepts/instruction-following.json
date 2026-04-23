@@ -19,6 +19,18 @@
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate-context",
+      "text": "Code and documentation to train Stanford's Alpaca models, and generate the data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/stanford_alpaca"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

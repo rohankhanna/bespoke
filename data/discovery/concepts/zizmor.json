@@ -1,7 +1,8 @@
 {
   "aliases": [
     "zizmor",
-    "Zizmor \ud83c\udf08"
+    "Zizmor \ud83c\udf08",
+    "Zizmor"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +69,42 @@
       "source_repo": "docker/login-action",
       "status": "candidate-context",
       "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "Produce redistributable builds of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate-context",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Bazel rules for apko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Zizmor"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +137,24 @@
       "source_repo": "docker/login-action",
       "status": "candidate",
       "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/python-build-standalone",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate",
+      "text": "Zizmor"
     }
   ],
   "candidate_related_terms": [],
@@ -137,11 +192,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/zizmor.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

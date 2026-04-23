@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-no-response.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "objectbox/objectbox-swift-spm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "objectbox/objectbox-swift-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "local",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "offline-first",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "sustainable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift",
+      "target": "sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:11.906579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11319
+    },
+    {
+      "path": ".github/workflows/close-no-response.yml",
+      "size": 1268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Swift database - fast, simple and lightweight (iOS, macOS)",
+    "fork": false,
+    "full_name": "objectbox/objectbox-swift",
+    "html_url": "https://github.com/objectbox/objectbox-swift",
+    "language": "Swift",
+    "pushed_at": "2026-04-08T08:04:41Z",
+    "stargazers_count": 604,
+    "topics": [
+      "database",
+      "edge",
+      "embedded",
+      "ios",
+      "local",
+      "mobile",
+      "nosql",
+      "offline-first",
+      "storage",
+      "sustainable",
+      "swift",
+      "sync"
+    ],
+    "updated_at": "2026-04-21T15:57:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-swift-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-swift-spm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline-first"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sustainable"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sync"
+    }
+  ]
+}

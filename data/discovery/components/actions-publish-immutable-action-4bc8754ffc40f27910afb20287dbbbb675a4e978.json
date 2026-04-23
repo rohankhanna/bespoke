@@ -1,7 +1,7 @@
 {
   "component": "actions/publish-immutable-action@4bc8754ffc40f27910afb20287dbbbb675a4e978",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "docker/setup-buildx-action"
     }
   ]
 }

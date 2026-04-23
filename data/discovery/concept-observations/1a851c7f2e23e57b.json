@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Specs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033975,
+      "status": "candidate",
+      "text": "eyeglasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033832,
+      "status": "candidate",
+      "text": "spectacles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033989,
+      "status": "candidate",
+      "text": "glasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033943,
+      "status": "candidate",
+      "text": "sunglasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033886,
+      "status": "candidate",
+      "text": "goggles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Specs",
+      "sense_id": "specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "eyeglasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "glasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "spectacles"
+    }
+  ],
+  "concept_id": "specs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "specs",
+  "observation_id": "1a851c7f2e23e57b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Specs",
+  "source_context_snippet": "Specs",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "dependabot/dependabot-core",
+  "source_repo_description": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+}

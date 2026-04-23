@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "docker://orrosenblatt/validate-json-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gururise/AlpacaDataCleaned",
+      "target": "manyoso/haltt4llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gururise/AlpacaDataCleaned",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "gururise/AlpacaDataCleaned",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "gururise/AlpacaDataCleaned",
+      "target": "docker://orrosenblatt/validate-json-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "gururise/AlpacaDataCleaned",
+      "target": "Validate JSONs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:59.719412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9578
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/validate.yaml",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Alpaca dataset from Stanford, cleaned and curated",
+    "fork": false,
+    "full_name": "gururise/AlpacaDataCleaned",
+    "html_url": "https://github.com/gururise/AlpacaDataCleaned",
+    "language": "Python",
+    "pushed_at": "2026-03-07T14:15:41Z",
+    "stargazers_count": 1588,
+    "topics": [],
+    "updated_at": "2026-04-21T10:09:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manyoso/haltt4llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate JSONs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "term": "Validate JSONs"
+    }
+  ]
+}

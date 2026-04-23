@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -832,6 +832,136 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/renovate-custom-hooks.yaml",
       "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-python-package.yml",
+      "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-systems.yml",
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypa/pip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-rtd-redirects.yml",
+      "source_repo": "pypa/pip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.md",
+      "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "python-poetry/install.python-poetry.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-licenses.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "python-poetry/poetry-plugin-bundle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "systemd/systemd"
     }
   ]
 }

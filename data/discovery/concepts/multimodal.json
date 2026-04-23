@@ -163,6 +163,90 @@
       "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
       "status": "candidate-context",
       "text": "*An All-in-One Demo for Image Chat, Segmentation and Generation/Editing.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate-context",
+      "text": "Fengshenbang-LM(\u5c01\u795e\u699c\u5927\u6a21\u578b)\u662fIDEA\u7814\u7a76\u9662\u8ba4\u77e5\u8ba1\u7b97\u4e0e\u81ea\u7136\u8bed\u8a00\u7814\u7a76\u4e2d\u5fc3\u4e3b\u5bfc\u7684\u5927\u6a21\u578b\u5f00\u6e90\u4f53\u7cfb\uff0c\u6210\u4e3a\u4e2d\u6587AIGC\u548c\u8ba4\u77e5\u667a\u80fd\u7684\u57fa\u7840\u8bbe\u65bd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u533b\u5b66\u591a\u6a21\u6001\u5927\u6a21\u578b Large Chinese Language-and-Vision Assistant for BioMedicine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate-context",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate-context",
+      "text": "[GitHub Trending #2] A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "A novel Multimodal Large Language Model (MLLM) architecture, designed to structurally align visual and textual embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "A Next-Generation Training Engine Built for Ultra-Large MoE Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate-context",
+      "text": "This repo contains the code for \"VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\" [ICLR 2025]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate-context",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +327,48 @@
       "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
       "status": "candidate",
       "text": "*An All-in-One Demo for Image Chat, Segmentation and Generation/Editing.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/DataDesigner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/NVIDIA-NeMo/DataDesigner/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](./README.md) | [**English**](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
+      "status": "candidate",
+      "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraRAG",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIDC-AI/Ovis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "status": "candidate",
+      "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +502,65 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/DataDesigner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/xtuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

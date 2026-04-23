@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Mistral OCR Plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chunzhimoe/mistral.ai_umi_plugin",
+      "status": "candidate-context",
+      "text": "umi ocr using mistral.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chunzhimoe/mistral.ai_umi_plugin",
+      "status": "candidate-context",
+      "text": "Release Mistral OCR Plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chunzhimoe/mistral.ai_umi_plugin",
+      "status": "candidate",
+      "text": "Release Mistral OCR Plugin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16124,
+      "status": "candidate",
+      "text": "wind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "djvu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "bise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "handout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "releasing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Mistral OCR Plugin",
+  "concept_id": "release-mistral-ocr-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chunzhimoe/mistral.ai_umi_plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Mistral OCR Plugin",
+      "sense_id": "release-mistral-ocr-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "usnistgov/acvp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "dotnet/orleans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "dotnet/orleans.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "orleanscontrib/orleansdashboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "acvp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "acvp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "cryptographic-algorithm-validations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "nist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "nist-approved-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "usnistgov/ACVP-Server",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:35.117636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol.",
+    "fork": false,
+    "full_name": "usnistgov/ACVP-Server",
+    "html_url": "https://github.com/usnistgov/ACVP-Server",
+    "language": "C#",
+    "pushed_at": "2026-04-16T20:54:29Z",
+    "stargazers_count": 106,
+    "topics": [
+      "acvp",
+      "acvp-server",
+      "cryptographic-algorithm-validations",
+      "cryptography",
+      "nist",
+      "nist-approved-algorithms",
+      "protocol"
+    ],
+    "updated_at": "2026-04-23T15:35:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/orleans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/orleans.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orleanscontrib/orleansdashboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/acvp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acvp"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acvp-server"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptographic-algorithm-validations"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nist"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nist-approved-algorithms"
+    },
+    {
+      "context_snippet": "This project contains the code used by the National Institute of Standards and Technology (NIST) Cryptographic Algorithm Validation Program (CAVP) to generate and validate test vectors for Federal Information Processing Standard (FIPS) 140.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

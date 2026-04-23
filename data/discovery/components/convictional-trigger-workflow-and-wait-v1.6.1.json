@@ -1,0 +1,17 @@
+{
+  "component": "convictional/trigger-workflow-and-wait@v1.6.1",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-branch.yml",
+      "source_repo": "civitai/civitai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-stage.yml",
+      "source_repo": "civitai/civitai"
+    }
+  ]
+}

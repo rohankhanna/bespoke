@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WebTorrent, the streaming torrent client. For the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030229,
+      "status": "candidate",
+      "text": "torrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030228,
+      "status": "candidate",
+      "text": "file sharing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030227,
+      "status": "candidate",
+      "text": "swarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030226,
+      "status": "candidate",
+      "text": "file transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030225,
+      "status": "candidate",
+      "text": "seedbox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bittorrent",
+      "sense_id": "bittorrent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bittorrent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bittorrent",
+  "observation_id": "bd5f602bb9389e08",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bittorrent",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "webtorrent/webtorrent-cli",
+  "source_repo_description": "WebTorrent, the streaming torrent client. For the command line."
+}

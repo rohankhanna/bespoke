@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047948,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039837,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033639,
+      "status": "candidate",
+      "text": "contour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939114,
+      "status": "candidate",
+      "text": "constellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049268,
+      "status": "candidate",
+      "text": "shaping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "configuration",
+      "sense_id": "configuration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "constellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10050,
+      "status": "candidate",
+      "text": "contour"
+    }
+  ],
+  "concept_id": "configuration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "configuration",
+  "observation_id": "623a9a2983e1d719",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "configuration",
+  "source_context_snippet": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)",
+  "source_file": null,
+  "source_repo": "mit-ll-responsible-ai/hydra-zen",
+  "source_repo_description": "Create powerful Hydra applications without the yaml files and boilerplate code."
+}

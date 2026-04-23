@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "R2E-Gym/R2E-Gym",
+      "target": "swe-bench/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "R2E-Gym/R2E-Gym",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "R2E-Gym/R2E-Gym",
+      "target": "coding-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "R2E-Gym/R2E-Gym",
+      "target": "llm-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:14.698715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12814
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[COLM 2025] Official repository for R2E-Gym: Procedural Environment Generation and Hybrid Verifiers for Scaling Open-Weights SWE Agents",
+    "fork": false,
+    "full_name": "R2E-Gym/R2E-Gym",
+    "html_url": "https://github.com/R2E-Gym/R2E-Gym",
+    "language": "Python",
+    "pushed_at": "2025-07-13T04:53:01Z",
+    "stargazers_count": 264,
+    "topics": [
+      "agents",
+      "coding-agents",
+      "llm",
+      "llm-code",
+      "swe"
+    ],
+    "updated_at": "2026-04-21T14:27:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swe-bench/swe-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> R2E-Gym: Procedural Environment Generation and Hybrid Verifiers for Scaling Open-Weights SWE Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-agents"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> R2E-Gym: Procedural Environment Generation and Hybrid Verifiers for Scaling Open-Weights SWE Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-code"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "superfly/flyctl-actions/setup-flyctl@master",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cleanup-review-apps.yml",
       "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bencherdev/bencher"
     }
   ]
 }

@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml"
+    },
+    {
+      "component": "morrisoncole/pr-lint-action@51f3cfabaf5d46f94e54524214e45685f0401b2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/protovalidate-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "Emergency review bypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "Approval bypass notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "morrisoncole/pr-lint-action@51f3cfabaf5d46f94e54524214e45685f0401b2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "PR Hygiene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "bufbuild/buf-action@fd21066df7214747548607aaa45548ba2b9bc1ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bufbuild/protovalidate-java",
+      "target": "Gradle Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:57:58.418970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5027
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/conformance.yaml",
+      "size": 1259
+    },
+    {
+      "path": ".github/workflows/emergency-review-bypass.yaml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/notify-approval-bypass.yaml",
+      "size": 278
+    },
+    {
+      "path": ".github/workflows/pr-hygiene.yaml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol Buffer Validation for Java.",
+    "fork": false,
+    "full_name": "bufbuild/protovalidate-java",
+    "html_url": "https://github.com/bufbuild/protovalidate-java",
+    "language": "Java",
+    "pushed_at": "2026-04-23T20:00:36Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-23T20:00:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bufbuild/protovalidate-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "Conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "term": "Conformance"
+    },
+    {
+      "context_snippet": "Emergency review bypass",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "term": "Emergency review bypass"
+    },
+    {
+      "context_snippet": "Approval bypass notifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "term": "Approval bypass notifier"
+    },
+    {
+      "context_snippet": "PR Hygiene",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-hygiene.yaml",
+      "term": "PR Hygiene"
+    },
+    {
+      "context_snippet": "Gradle Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Gradle Publish"
+    }
+  ]
+}

@@ -7,8 +7,34 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/kyber",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/kyber.svg?branch=master)](https://travis-ci.org/pq-crystals/kyber)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-crystals/dilithium",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "post-quantum",
@@ -20,12 +46,26 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "PiQrypt/aiss-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/kyber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pq-crystals/dilithium"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

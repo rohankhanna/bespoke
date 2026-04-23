@@ -1,0 +1,12 @@
+{
+  "component": "haskell-actions/hlint-setup@fe9cd1cd1af94a23900c06738e73f6ddb092966a",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    }
+  ]
+}

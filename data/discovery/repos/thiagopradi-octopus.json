@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus",
+      "target": "ruby-on-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thiagopradi/octopus",
+      "target": "sharding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:08:48.355192+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Database Sharding for ActiveRecord",
+    "fork": false,
+    "full_name": "thiagopradi/octopus",
+    "html_url": "https://github.com/thiagopradi/octopus",
+    "language": "Ruby",
+    "pushed_at": "2024-02-16T15:24:07Z",
+    "stargazers_count": 2552,
+    "topics": [
+      "activerecord",
+      "ruby",
+      "ruby-on-rails",
+      "sharding"
+    ],
+    "updated_at": "2026-04-19T03:55:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Database Sharding for ActiveRecord",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": "Database Sharding for ActiveRecord",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Database Sharding for ActiveRecord",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-on-rails"
+    },
+    {
+      "context_snippet": "Database Sharding for ActiveRecord",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharding"
+    }
+  ]
+}

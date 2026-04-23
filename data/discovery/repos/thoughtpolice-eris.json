@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtpolice/eris",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtpolice/eris",
+      "target": "cachix/install-nix-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtpolice/eris",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtpolice/eris",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtpolice/eris",
+      "target": "perl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:07.217657+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serve your /nix/store directory over the internet :sparkles:",
+    "fork": false,
+    "full_name": "thoughtpolice/eris",
+    "html_url": "https://github.com/thoughtpolice/eris",
+    "language": "Perl",
+    "pushed_at": "2022-02-09T17:34:33Z",
+    "stargazers_count": 92,
+    "topics": [
+      "http",
+      "nix",
+      "perl"
+    ],
+    "updated_at": "2026-02-20T13:18:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl"
+    }
+  ]
+}

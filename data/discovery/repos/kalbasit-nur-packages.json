@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalbasit/nur-packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalbasit/nur-packages",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalbasit/nur-packages",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalbasit/nur-packages",
+      "target": "Build and populate cache",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:59:53.956269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NUR - https://github.com/nix-community/NUR",
+    "fork": false,
+    "full_name": "kalbasit/nur-packages",
+    "html_url": "https://github.com/kalbasit/nur-packages",
+    "language": "Nix",
+    "pushed_at": "2026-03-23T05:52:23Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-12-08T20:58:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build and populate cache\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and populate cache"
+    }
+  ]
+}

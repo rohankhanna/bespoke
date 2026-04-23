@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "ganelson/inform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "microsoft/jericho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "marccote/downward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "davidkinder/git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "PEP8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "pypa/cibuildwheel@v2.22.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "Build and upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "Test from PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MarcCote/TextWorld",
+      "target": "Run tests and coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:39:45.764821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8103
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1747
+    },
+    {
+      "path": "requirements.txt",
+      "size": 181
+    },
+    {
+      "path": ".github/workflows/pep8.yml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3504
+    },
+    {
+      "path": ".github/workflows/test_pypi.yml",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u200bTextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games.",
+    "fork": true,
+    "full_name": "MarcCote/TextWorld",
+    "html_url": "https://github.com/MarcCote/TextWorld",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-08T11:16:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-08T11:16:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/git",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganelson/inform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marccote/downward",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/jericho",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PEP8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pep8.yml",
+      "term": "PEP8"
+    },
+    {
+      "context_snippet": "Build and upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and upload to PyPI"
+    },
+    {
+      "context_snippet": "\"Test from PyPi\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pypi.yml",
+      "term": "Test from PyPi"
+    },
+    {
+      "context_snippet": "\"Run tests and coverage\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests and coverage"
+    }
+  ]
+}

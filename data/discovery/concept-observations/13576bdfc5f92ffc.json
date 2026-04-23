@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create release candidate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create release candidate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "nominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17944,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17944,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17927,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release candidate",
+      "sense_id": "create-release-candidate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-release-candidate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-release-candidate",
+  "observation_id": "13576bdfc5f92ffc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Create release candidate",
+  "source_context_snippet": "Create release candidate",
+  "source_file": ".github/workflows/create-release-candidate.yml",
+  "source_repo": "dequelabs/axe-core-npm",
+  "source_repo_description": null
+}

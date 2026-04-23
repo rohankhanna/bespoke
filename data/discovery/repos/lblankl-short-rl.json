@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lblankl/Short-RL",
+      "target": "agentica-project/deepscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lblankl/Short-RL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:55:08.038488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Short RL",
+    "fork": false,
+    "full_name": "lblankl/Short-RL",
+    "html_url": "https://github.com/lblankl/Short-RL",
+    "language": "Python",
+    "pushed_at": "2026-04-16T06:14:51Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-16T06:14:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentica-project/deepscaler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

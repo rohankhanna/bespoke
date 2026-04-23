@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides a strong typed .NET API for the Big List of Naughty Strings https://github.com/minimaxir/big-list-of-naughty-strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "merge-dependabot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "merge-dependabot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "merge-dependabot",
+      "sense_id": "merge-dependabot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-dependabot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-dependabot",
+  "observation_id": "75787ea074e0af1f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "merge-dependabot",
+  "source_context_snippet": "merge-dependabot",
+  "source_file": ".github/workflows/merge-dependabot.yml",
+  "source_repo": "SimonCropp/NaughtyStrings",
+  "source_repo_description": "Provides a strong typed .NET API for the Big List of Naughty Strings https://github.com/minimaxir/big-list-of-naughty-strings"
+}

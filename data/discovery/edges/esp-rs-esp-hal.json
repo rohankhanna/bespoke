@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "esp-rs/esp-idf-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "rust-embedded/wg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "esp-rs/xtensa-toolchain@v1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-baseline-check.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "API Baseline Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "esp-rs/xtensa-toolchain@v1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-baseline-generation.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "API Baseline Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignee-reminder.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignee-reminder.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assignee-reminder.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Assignee inactivity reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "korthout/backport-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Backport merged PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "esp-rs/xtensa-toolchain@v1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "carlosperate/bloaty-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Binary Size Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-jury-labeler.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-jury-labeler.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-jury-labeler.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Bug Jury labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "dangoslen/changelog-enforcer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-runner.yml",
+      "source_repo": "esp-rs/esp-hal",
+      "target": "Check Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-hal",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-hal",
+      "target": "embedded-hal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-hal",
+      "target": "esp32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-hal",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "esp-rs/esp-hal"
+}

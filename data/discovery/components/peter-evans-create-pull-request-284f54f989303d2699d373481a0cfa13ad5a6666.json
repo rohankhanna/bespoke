@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pull-request.yaml",
+      "source_repo": "Azure/azure-workload-identity"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-chi/chi",
+      "target": "go-chi/docgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-chi/chi",
+      "target": "go-chi/cors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-chi/chi",
+      "target": "armon/go-radix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-chi/chi",
+      "target": "99designs/gqlgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/chi",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/chi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/chi",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-chi/chi",
+      "target": "router",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:26.247250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23313
+    },
+    {
+      "path": "go.mod",
+      "size": 149
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lightweight, idiomatic and composable router for building Go HTTP services",
+    "fork": false,
+    "full_name": "go-chi/chi",
+    "html_url": "https://github.com/go-chi/chi",
+    "language": "Go",
+    "pushed_at": "2026-02-19T13:13:31Z",
+    "stargazers_count": 22042,
+    "topics": [
+      "api",
+      "context",
+      "go",
+      "golang",
+      "http",
+      "microservices",
+      "middleware",
+      "rest-api",
+      "router"
+    ],
+    "updated_at": "2026-04-23T20:48:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "99designs/gqlgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "armon/go-radix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-chi/cors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-chi/docgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "[![GoDoc Widget]][GoDoc]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    }
+  ]
+}

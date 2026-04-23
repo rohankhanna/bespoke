@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6 Babel loader for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This README is for babel-loader v8/v9/v10 with Babel v7"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891859,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891117,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889963,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884380,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880652,
+      "status": "candidate",
+      "text": "docker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loader",
+      "sense_id": "loader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "longshoreman"
+    }
+  ],
+  "concept_id": "loader",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "loader",
+  "observation_id": "ca8dc5493bcd3c5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "loader",
+  "source_context_snippet": "> This README is for babel-loader v8/v9/v10 with Babel v7",
+  "source_file": null,
+  "source_repo": "babel/babel-loader",
+  "source_repo_description": "\ud83d\udce6 Babel loader for webpack"
+}

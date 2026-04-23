@@ -31,6 +31,18 @@
       "source_repo": "caddyserver/certmagic",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/acmez",
+      "status": "candidate-context",
+      "text": "Premier ACME client library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/acmez",
+      "status": "candidate-context",
+      "text": "acmez - ACME client library for Go"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "caddyserver/certmagic",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/acmez",
+      "status": "candidate",
+      "text": "acmez - ACME client library for Go"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "caddyserver/certmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mholt/acmez"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

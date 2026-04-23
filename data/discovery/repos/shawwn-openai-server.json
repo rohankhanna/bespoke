@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawwn/openai-server",
+      "target": "shawwn/tensorfork-openai-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:06.567991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenAI API webserver",
+    "fork": false,
+    "full_name": "shawwn/openai-server",
+    "html_url": "https://github.com/shawwn/openai-server",
+    "language": "Python",
+    "pushed_at": "2021-11-30T22:46:56Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-13T06:56:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shawwn/tensorfork-openai-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

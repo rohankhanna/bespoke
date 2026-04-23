@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-lcov-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "A/textr",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "A/textr",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "A/textr",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "A/textr",
+      "target": "mocha-lcov-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "A/textr",
+      "target": "should",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:36.393439+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modular typographic framework",
+    "fork": false,
+    "full_name": "A/textr",
+    "html_url": "https://github.com/A/textr",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-05T13:41:25Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-02-16T00:45:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

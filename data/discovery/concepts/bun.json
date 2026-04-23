@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "bun"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "bun"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate",
+      "text": "bun"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39762662,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968722,
+      "status": "candidate",
+      "text": "muffin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968721,
+      "status": "candidate",
+      "text": "biscuit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968658,
+      "status": "candidate",
+      "text": "sandwich"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968646,
+      "status": "candidate",
+      "text": "cake"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "canonical_name": "bun",
+  "concept_id": "bun",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bun.yaml",
+      "source_repo": "bufbuild/protobuf-es"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bun",
+      "sense_id": "bun#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

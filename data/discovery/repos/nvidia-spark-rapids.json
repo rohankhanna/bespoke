@@ -1,0 +1,482 @@
+{
+  "components": [
+    {
+      "component": "NVIDIA/spark-rapids-common/add-to-project@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/.github/workflows/auto-merge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-header-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/license-header-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-header-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links-check.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/pr-description-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shell-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/shell-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shell-check.yml"
+    },
+    {
+      "component": "NVIDIA/spark-rapids-common/signoff-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signoff-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "nvidia/spark-rapids-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/add-to-project@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/.github/workflows/auto-merge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "auto-merge HEAD to BASE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-header-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-header-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/license-header-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-header-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "license header check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-links-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mvn-verify-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/pr-description-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "pr description check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shell-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shell-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/shell-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signoff-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "NVIDIA/spark-rapids-common/signoff-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signoff-check.yml",
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "signoff check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "rapids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/spark-rapids",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:48:41.025147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3380
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 1024
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 5177
+    },
+    {
+      "path": ".github/workflows/license-header-check.yml",
+      "size": 1758
+    },
+    {
+      "path": ".github/workflows/markdown-links-check.yml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/mvn-verify-check.yml",
+      "size": 16947
+    },
+    {
+      "path": ".github/workflows/pr-description-check.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/shell-check.yml",
+      "size": 1006
+    },
+    {
+      "path": ".github/workflows/signoff-check.yml",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spark RAPIDS plugin - accelerate Apache Spark with GPUs",
+    "fork": false,
+    "full_name": "NVIDIA/spark-rapids",
+    "html_url": "https://github.com/NVIDIA/spark-rapids",
+    "language": "Scala",
+    "pushed_at": "2026-04-23T06:27:02Z",
+    "stargazers_count": 974,
+    "topics": [
+      "big-data",
+      "gpu",
+      "rapids",
+      "spark"
+    ],
+    "updated_at": "2026-04-23T06:27:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/spark-rapids-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-merge HEAD to BASE",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "auto-merge HEAD to BASE"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "license header check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-header-check.yml",
+      "term": "license header check"
+    },
+    {
+      "context_snippet": "pr description check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-description-check.yml",
+      "term": "pr description check"
+    },
+    {
+      "context_snippet": "signoff check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signoff-check.yml",
+      "term": "signoff check"
+    },
+    {
+      "context_snippet": "NOTE: For the latest stable [README.md](https://github.com/nvidia/spark-rapids/blob/main/README.md) ensure you are on the main branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "NOTE: For the latest stable [README.md](https://github.com/nvidia/spark-rapids/blob/main/README.md) ensure you are on the main branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rapids"
+    },
+    {
+      "context_snippet": "NOTE: For the latest stable [README.md](https://github.com/nvidia/spark-rapids/blob/main/README.md) ensure you are on the main branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

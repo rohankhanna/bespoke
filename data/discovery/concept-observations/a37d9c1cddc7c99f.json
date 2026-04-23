@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Attempt cargo update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Attempt cargo update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18313,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18313,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18313,
+      "status": "candidate",
+      "text": "moves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18256,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18228,
+      "status": "candidate",
+      "text": "strike"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Attempt cargo update",
+      "sense_id": "attempt-cargo-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "attempt-cargo-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "attempt-cargo-update",
+  "observation_id": "a37d9c1cddc7c99f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Attempt cargo update",
+  "source_context_snippet": "Attempt cargo update",
+  "source_file": ".github/workflows/cargo-update.yml",
+  "source_repo": "model-checking/kani",
+  "source_repo_description": "Kani Rust Verifier"
+}

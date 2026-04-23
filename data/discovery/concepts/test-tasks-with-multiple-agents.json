@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Tasks with Multiple Agents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "A benchmark for LLMs on complicated tasks in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate-context",
+      "text": "Test Tasks with Multiple Agents"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Danau5tin/terminal-bench-fork",
+      "status": "candidate",
+      "text": "Test Tasks with Multiple Agents"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33601,
+      "status": "candidate",
+      "text": "multitasking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33426,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "chief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27559,
+      "status": "candidate",
+      "text": "commander"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Tasks with Multiple Agents",
+  "concept_id": "test-tasks-with-multiple-agents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-tasks.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Tasks with Multiple Agents",
+      "sense_id": "test-tasks-with-multiple-agents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

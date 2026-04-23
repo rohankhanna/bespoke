@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "guides"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "Ultralytics Docs https://docs.ultralytics.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/docs",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044529,
+      "status": "candidate",
+      "text": "usher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044325,
+      "status": "candidate",
+      "text": "pathfinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043669,
+      "status": "candidate",
+      "text": "conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040418,
+      "status": "candidate",
+      "text": "maneuver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040266,
+      "status": "candidate",
+      "text": "scout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "guides",
+  "concept_id": "guides",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guides",
+      "sense_id": "guides#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

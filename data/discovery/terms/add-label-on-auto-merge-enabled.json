@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/add_label_automerge.yml",
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
     }
   ],
   "term": "Add label on auto-merge enabled"

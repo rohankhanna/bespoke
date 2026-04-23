@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd_fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd_kick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lib.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lib.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "clippy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd_fmt.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd_kick.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "gen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lib.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lib.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lib.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "microsoft/windows-rs",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/windows-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/windows-rs",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:48.820651+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 2770
+    },
+    {
+      "path": ".github/workflows/clippy.yml",
+      "size": 1427
+    },
+    {
+      "path": ".github/workflows/cmd_fmt.yml",
+      "size": 2163
+    },
+    {
+      "path": ".github/workflows/cmd_kick.yml",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/cross.yml",
+      "size": 3224
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 1385
+    },
+    {
+      "path": ".github/workflows/fmt.yml",
+      "size": 853
+    },
+    {
+      "path": ".github/workflows/gen.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/lib.yml",
+      "size": 3024
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust for Windows",
+    "fork": false,
+    "full_name": "microsoft/windows-rs",
+    "html_url": "https://github.com/microsoft/windows-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T20:28:18Z",
+    "stargazers_count": 12127,
+    "topics": [
+      "rust",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T20:30:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clippy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "term": "clippy"
+    },
+    {
+      "context_snippet": "cross",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "term": "cross"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "fmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "term": "fmt"
+    },
+    {
+      "context_snippet": "gen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen.yml",
+      "term": "gen"
+    },
+    {
+      "context_snippet": "lib",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lib.yml",
+      "term": "lib"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/libs/*\", \"crates/samples/*/*\", \"crates/targets/*\", \"crates/tests/*/*\", \"crates/tools/*\", ] exclude = [ \"crates/targets/baseline\", ] [profile.dev.package.\"*\"] opt-level = 2 [workspace.lints.rust] unexpected_cfgs = { level = \"warn\", c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/libs/*\", \"crates/samples/*/*\", \"crates/targets/*\", \"crates/tests/*/*\", \"crates/tools/*\", ] exclude = [ \"crates/targets/baseline\", ] [profile.dev.package.\"*\"] opt-level = 2 [workspace.lints.rust] unexpected_cfgs = { level = \"warn\", c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

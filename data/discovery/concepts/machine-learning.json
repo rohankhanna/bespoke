@@ -949,6 +949,378 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate-context",
+      "text": "Supercharge Your Model Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "Message Passing Neural Networks for Molecule Property Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "A unified evaluation library for multiple machine learning libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of ReBias (Learning De-biased Representations with Biased Representations), ICML 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "Large-scale LLM inference engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a fast open framework for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate-context",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Jupyter notebook tutorials for OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zekunhao1995/DualSDF",
+      "status": "candidate-context",
+      "text": "DualSDF: Semantic Shape Manipulation using a Two-Level Representation. CVPR'20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zekunhao1995/DualSDF",
+      "status": "candidate-context",
+      "text": "This repo contains an implementation of the CVPR 2020 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate-context",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "A Python package for extending the official PyTorch that can easily obtain performance on Intel platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate-context",
+      "text": "All-in-one desktop app for running LLMs locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "Profile PyTorch models for FLOPs and parameters, helping to evaluate computational efficiency and memory usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate-context",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TFDS is a collection of datasets ready to use with TensorFlow, Jax, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate-context",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate-context",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "Keras model of NSFW detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate-context",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "Optax is a gradient processing and optimization library for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
     }
   ],
   "candidate_glosses": [
@@ -1419,6 +1791,192 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/composer",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/175231607?s=200&v=4\" alt=\"\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chemprop/chemprop",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmeval",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/rebias",
+      "status": "candidate",
+      "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/TensorRT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BVLC/caffe",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "1. [Useful Resources](#useful-resources)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree",
+      "status": "candidate",
+      "text": "<p><img src=\"docs/website/docs/assets/images/IREE_Logo_Icon_Color.svg\" width=\"48px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensorflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino_notebooks",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md) | [\u65e5\u672c\u8a9e](README_ja.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zekunhao1995/DualSDF",
+      "status": "candidate",
+      "text": "This repo contains an implementation of the CVPR 2020 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keithito/tacotron",
+      "status": "candidate",
+      "text": "An implementation of Tacotron speech synthesis in TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-pytorch",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cztomsik/ava",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/thop",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/SimCLR",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/effective_transformer",
+      "status": "candidate",
+      "text": "Running BERT without Padding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosecorg/mosec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleanlab/cleanlab",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/datasets",
+      "status": "candidate",
+      "text": "TensorFlow Datasets provides many public datasets as `tf.data.Datasets`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JaidedAI/EasyOCR",
+      "status": "candidate",
+      "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GantMan/nsfw_model",
+      "status": "candidate",
+      "text": "![NSFW Detector logo](https://github.com/GantMan/nsfw_model/blob/master/_art/nsfw_detection.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate",
+      "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
     }
   ],
   "candidate_related_terms": [],
@@ -1984,11 +2542,251 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chemprop/chemprop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmeval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/rebias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/TensorRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "BVLC/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zekunhao1995/DualSDF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "keithito/tacotron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cztomsik/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sthalles/SimCLR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/effective_transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JaidedAI/EasyOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "GantMan/nsfw_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

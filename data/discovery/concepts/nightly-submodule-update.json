@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Submodule Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "status": "candidate-context",
+      "text": "Data recipes and robust infrastructure for training AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "status": "candidate-context",
+      "text": "Nightly Submodule Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thoughts/OpenThoughts-Agent",
+      "status": "candidate",
+      "text": "Nightly Submodule Update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10139,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10139,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10139,
+      "status": "candidate",
+      "text": "noctuary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10139,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10095,
+      "status": "candidate",
+      "text": "newscast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Submodule Update",
+  "concept_id": "nightly-submodule-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/submodules-nightly.yml",
+      "source_repo": "open-thoughts/OpenThoughts-Agent"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Submodule Update",
+      "sense_id": "nightly-submodule-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

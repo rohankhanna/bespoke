@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Implementation Library CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/wil",
+      "status": "candidate-context",
+      "text": "Windows Implementation Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/wil",
+      "status": "candidate-context",
+      "text": "Windows Implementation Library CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/wil",
+      "status": "candidate",
+      "text": "Windows Implementation Library CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16777,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16744,
+      "status": "candidate",
+      "text": "timing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16714,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16709,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Implementation Library CI",
+  "concept_id": "windows-implementation-library-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/wil"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Implementation Library CI",
+      "sense_id": "windows-implementation-library-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

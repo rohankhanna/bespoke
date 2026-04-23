@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "fennel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "Neovim's answer to the mouse \ud83e\udd98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046485,
+      "status": "candidate",
+      "text": "finocchio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046224,
+      "status": "candidate",
+      "text": "florence fennel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046514,
+      "status": "candidate",
+      "text": "common fennel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046207,
+      "status": "candidate",
+      "text": "dill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046541,
+      "status": "candidate",
+      "text": "anise"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "common fennel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "finocchio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "florence fennel"
+    }
+  ],
+  "canonical_name": "fennel",
+  "concept_id": "fennel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/leap.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fennel",
+      "sense_id": "fennel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

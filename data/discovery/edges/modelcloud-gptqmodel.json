@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "modelcloud/defuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "modelcloud/logbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "microsoft/bitblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "modelcloud/evalution",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Ruff Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Test Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setuptools_compatibility_reusable.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Setuptools Compatibility Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_reusable.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests_reusable.yml",
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "Unit Tests Reusable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "gptq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "optimum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "peft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "sglang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelCloud/GPTQModel",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ModelCloud/GPTQModel"
+}

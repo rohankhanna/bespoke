@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bulk branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "Bulk branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate",
+      "text": "Bulk branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12186,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12142,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12131,
+      "status": "candidate",
+      "text": "all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12131,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12131,
+      "status": "candidate",
+      "text": "extend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bulk branch",
+  "concept_id": "bulk-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Bulk.yml",
+      "source_repo": "bioconda/bioconda-recipes"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bulk branch",
+      "sense_id": "bulk-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

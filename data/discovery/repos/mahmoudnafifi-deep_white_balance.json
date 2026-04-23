@@ -1,0 +1,333 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/wb_srgb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/wb_color_augmenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "mahmoudnafifi/interactive_wb_correction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "auto-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "auto-white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-constancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "color-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "deep-white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "multitask-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "white-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoudnafifi/Deep_White_Balance",
+      "target": "whitebalance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:47.021962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference code for the paper: Deep White-Balance Editing (CVPR 2020). Our method is a deep learning multi-task framework for white-balance editing.",
+    "fork": false,
+    "full_name": "mahmoudnafifi/Deep_White_Balance",
+    "html_url": "https://github.com/mahmoudnafifi/Deep_White_Balance",
+    "language": "Python",
+    "pushed_at": "2023-07-05T19:01:01Z",
+    "stargazers_count": 615,
+    "topics": [
+      "auto-encoder",
+      "auto-white-balance",
+      "autoencoder",
+      "color-constancy",
+      "color-correction",
+      "color-enhancement",
+      "color-manipulation",
+      "color-processing",
+      "computational-photography",
+      "cvpr-2020",
+      "cvpr20",
+      "cvpr2020",
+      "deep-white-balance",
+      "deeplearning",
+      "image-enhancement",
+      "image-manipulation",
+      "multitask-learning",
+      "white-balance",
+      "whitebalance"
+    ],
+    "updated_at": "2026-04-22T12:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/interactive_wb_correction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_color_augmenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/wb_srgb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-encoder"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-white-balance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoencoder"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-constancy"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-correction"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-enhancement"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-manipulation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-processing"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-photography"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-2020"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr20"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-white-balance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enhancement"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multitask-learning"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "white-balance"
+    },
+    {
+      "context_snippet": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1,2</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whitebalance"
+    }
+  ]
+}

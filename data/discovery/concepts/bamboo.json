@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "bamboo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "============================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "============================"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985236,
+      "status": "candidate",
+      "text": "woody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010051,
+      "status": "candidate",
+      "text": "wood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920889,
+      "status": "candidate",
+      "text": "whisker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29802314,
+      "status": "candidate",
+      "text": "dart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29612473,
+      "status": "candidate",
+      "text": "bam"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1049,
+      "status": "candidate",
+      "text": "woody"
+    }
+  ],
+  "canonical_name": "bamboo",
+  "concept_id": "bamboo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atlassian-api/atlassian-python-api"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bamboo",
+      "sense_id": "bamboo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

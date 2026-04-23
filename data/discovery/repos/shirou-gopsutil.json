@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml"
+    },
+    {
+      "component": "advanced-security/sbom-generator-action@6fe43abf522b2e7a19bc769aec1e6c848614b517",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shirou/gopsutil",
+      "target": "dagwieers/dstat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shirou/gopsutil",
+      "target": "cloudfoundry/gosigar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shirou/gopsutil",
+      "target": "c9s/goprocinfo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shirou/gopsutil",
+      "target": "bosun-monitor/bosun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "advanced-security/sbom-generator-action@6fe43abf522b2e7a19bc769aec1e6c848614b517",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "SBOM Generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shirou/gopsutil",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shirou/gopsutil",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shirou/gopsutil",
+      "target": "system-information",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:01:48.806311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15458
+    },
+    {
+      "path": "go.mod",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 449
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 3719
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/sbom_generator.yml",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "psutil for golang",
+    "fork": false,
+    "full_name": "shirou/gopsutil",
+    "html_url": "https://github.com/shirou/gopsutil",
+    "language": "Go",
+    "pushed_at": "2026-04-23T13:38:56Z",
+    "stargazers_count": 11791,
+    "topics": [
+      "go",
+      "golang",
+      "system-information"
+    ],
+    "updated_at": "2026-04-23T17:37:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bosun-monitor/bosun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c9s/goprocinfo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/gosigar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dagwieers/dstat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Build Test"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Golangci-lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "SBOM Generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbom_generator.yml",
+      "term": "SBOM Generator"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "Shellcheck"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil/v4.svg)](https://pkg.go.dev/github.com/shirou/gopsutil/v4) [![Ca\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil/v4.svg)](https://pkg.go.dev/github.com/shirou/gopsutil/v4) [![Ca\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-information"
+    }
+  ]
+}

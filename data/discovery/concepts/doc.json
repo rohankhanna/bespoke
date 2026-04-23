@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "doc"
+    "doc",
+    "Doc"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate-context",
       "text": "doc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Simple text to phones converter for multiple languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate-context",
+      "text": "Doc"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate",
       "text": "doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootphon/phonemizer",
+      "status": "candidate",
+      "text": "Doc"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +110,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/doc.yml",
       "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/doc.yaml",
+      "source_repo": "bootphon/phonemizer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

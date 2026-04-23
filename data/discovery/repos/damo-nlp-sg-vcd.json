@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VCD",
+      "target": "xiangli1999/contrastivedecoding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DAMO-NLP-SG/VCD",
+      "target": "qwenlm/qwen-vl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:28.551000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6386
+    },
+    {
+      "path": "requirements.txt",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2024 Highlight] Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding",
+    "fork": false,
+    "full_name": "DAMO-NLP-SG/VCD",
+    "html_url": "https://github.com/DAMO-NLP-SG/VCD",
+    "language": "Python",
+    "pushed_at": "2024-10-07T07:32:49Z",
+    "stargazers_count": 399,
+    "topics": [],
+    "updated_at": "2026-04-23T06:23:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen-vl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiangli1999/contrastivedecoding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-powertools/powertools-lambda-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-powertools/powertools-lambda-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-powertools/powertools-lambda-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-samples/aws-serverless-airline-booking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-cdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-powertools/actions/.github/actions/cached-node-modules@828e78a26eee3554dc2e1d96048004548fbb169f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "Region Bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_changelog.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "Build changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_scheduled.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@884713a6c30a92e5e8544c39945cd7cb630abcd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_scheduled.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@884713a6c30a92e5e8544c39945cd7cb630abcd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_scheduled.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "ClusterFuzzLite fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "github/codeql-action/init@f31a31c052207cc13b328d6295c5b728bb49568c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "github/codeql-action/analyze@f31a31c052207cc13b328d6295c5b728bb49568c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "Layer Deployment (GovCloud)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud_python313.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud_python313.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_govcloud_python313.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "aws-powertools/powertools-lambda-python"
+}

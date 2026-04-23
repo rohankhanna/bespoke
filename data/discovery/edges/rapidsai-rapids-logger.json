@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/gha-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "rapidsai/rapids-logger"
+}

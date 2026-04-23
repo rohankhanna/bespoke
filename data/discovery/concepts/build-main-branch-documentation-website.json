@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build main branch documentation website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate-context",
+      "text": "Build main branch documentation website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Build main branch documentation website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57749,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44727,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44327,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44327,
+      "status": "candidate",
+      "text": "leh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43396,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build main branch documentation website",
+  "concept_id": "build-main-branch-documentation-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs-build-dev.yml",
+      "source_repo": "Farama-Foundation/Gymnasium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build main branch documentation website",
+      "sense_id": "build-main-branch-documentation-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

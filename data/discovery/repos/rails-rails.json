@@ -1,0 +1,487 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/more-info-needed.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rail_inspector.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rail_inspector.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml"
+    },
+    {
+      "component": "zzak/action-discord@4cd181470664aa174b7252e5afb2ecf896001817",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails_releaser_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails_releaser_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rubygems/configure-rubygems-credentials@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-shellcheck.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-shellcheck.yml",
+      "source_repo": "rails/rails",
+      "target": "Devcontainer Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails",
+      "target": "devcontainers/ci@8bf61b26e9c3a98f69cb6ce2f88d24ff59b785c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "source_repo": "rails/rails",
+      "target": "Devcontainer smoke test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rails/rails",
+      "target": "rails-bot: Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/more-info-needed.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/more-info-needed.yml",
+      "source_repo": "rails/rails",
+      "target": "rails-bot: More Info Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "source_repo": "rails/rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "source_repo": "rails/rails",
+      "target": "Rail Inspector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails",
+      "target": "zzak/action-discord@4cd181470664aa174b7252e5afb2ecf896001817",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails",
+      "target": "rails-new-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "source_repo": "rails/rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "source_repo": "rails/rails",
+      "target": "Rails releaser tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails",
+      "target": "rubygems/configure-rubygems-credentials@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rails/rails",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "activejob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rails/rails",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:08:40.916261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4798
+    },
+    {
+      "path": "package.json",
+      "size": 102
+    },
+    {
+      "path": ".github/workflows/devcontainer-shellcheck.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/devcontainer-smoke-test.yml",
+      "size": 3785
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/more-info-needed.yml",
+      "size": 862
+    },
+    {
+      "path": ".github/workflows/rail_inspector.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/rails-new-docker.yml",
+      "size": 1327
+    },
+    {
+      "path": ".github/workflows/rails_releaser_tests.yml",
+      "size": 557
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby on Rails",
+    "fork": false,
+    "full_name": "rails/rails",
+    "html_url": "https://github.com/rails/rails",
+    "language": "Ruby",
+    "pushed_at": "2026-04-22T06:12:58Z",
+    "stargazers_count": 58367,
+    "topics": [
+      "activejob",
+      "activerecord",
+      "framework",
+      "html",
+      "mvc",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-23T20:52:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Devcontainer Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-shellcheck.yml",
+      "term": "Devcontainer Shellcheck"
+    },
+    {
+      "context_snippet": "Devcontainer smoke test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-smoke-test.yml",
+      "term": "Devcontainer smoke test"
+    },
+    {
+      "context_snippet": "\"rails-bot: Label PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "rails-bot: Label PRs"
+    },
+    {
+      "context_snippet": "\"rails-bot: More Info Needed\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/more-info-needed.yml",
+      "term": "rails-bot: More Info Needed"
+    },
+    {
+      "context_snippet": "Rail Inspector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rail_inspector.yml",
+      "term": "Rail Inspector"
+    },
+    {
+      "context_snippet": "rails-new-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "term": "rails-new-docker"
+    },
+    {
+      "context_snippet": "Rails releaser tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rails_releaser_tests.yml",
+      "term": "Rails releaser tests"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activejob"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "Rails is a web application framework that includes everything needed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@f31a31c052207cc13b328d6295c5b728bb49568c",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    }
+  ]
+}

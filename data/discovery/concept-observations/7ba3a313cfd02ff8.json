@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Blur Detection with OpenCV in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blur Detection works using the total variance of the laplacian of an"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021344,
+      "status": "candidate",
+      "text": "blear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016189,
+      "status": "candidate",
+      "text": "smutch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015215,
+      "status": "candidate",
+      "text": "smudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014797,
+      "status": "candidate",
+      "text": "glaze over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013193,
+      "status": "candidate",
+      "text": "smear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blur",
+      "sense_id": "blur#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91039,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33049,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21041,
+      "status": "candidate",
+      "text": "slur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18025,
+      "status": "candidate",
+      "text": "blear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13045,
+      "status": "candidate",
+      "text": "smear"
+    }
+  ],
+  "concept_id": "blur",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blur",
+  "observation_id": "7ba3a313cfd02ff8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "blur",
+  "source_context_snippet": "Blur Detection works using the total variance of the laplacian of an",
+  "source_file": null,
+  "source_repo": "WillBrennan/BlurDetection2",
+  "source_repo_description": "Blur Detection with OpenCV in Python"
+}

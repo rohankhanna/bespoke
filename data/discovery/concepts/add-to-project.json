@@ -116,6 +116,18 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate-context",
       "text": "Add to Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Add to Project"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Add to Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
       "status": "candidate",
       "text": "Add to Project"
     }
@@ -269,11 +287,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

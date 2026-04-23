@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "otsu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "Image processing and computer vision library in pure C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate-context",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/FlatCV",
+      "status": "candidate",
+      "text": "FROM gcc:14 COPY . . RUN make --always-make flatcv # Keep container alive for `docker cp` CMD [\"true\"]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023154,
+      "status": "candidate",
+      "text": "surd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023153,
+      "status": "candidate",
+      "text": "assonantal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023152,
+      "status": "candidate",
+      "text": "assonantic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023151,
+      "status": "candidate",
+      "text": "satem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023150,
+      "status": "candidate",
+      "text": "sonant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "otsu",
+  "concept_id": "otsu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ad-si/FlatCV"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "otsu",
+      "sense_id": "otsu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

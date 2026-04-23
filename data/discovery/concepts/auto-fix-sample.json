@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Fix Sample"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "Azure Quickstart Templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate-context",
+      "text": "Auto Fix Sample"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-quickstart-templates",
+      "status": "candidate",
+      "text": "Auto Fix Sample"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "limousine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "showed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17973,
+      "status": "candidate",
+      "text": "garage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Fix Sample",
+  "concept_id": "auto-fix-sample",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "Azure/azure-quickstart-templates"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Fix Sample",
+      "sense_id": "auto-fix-sample#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

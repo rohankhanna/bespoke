@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml"
+    },
+    {
+      "component": "Jerome1337/gofmt-action@v1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "Jerome1337/gofmt-action@v1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "Go-fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnb-chain/tss-lib",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:59:48.479409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9543
+    },
+    {
+      "path": "go.mod",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/gofmt.yml",
+      "size": 231
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Threshold Signature Scheme, for ECDSA and EDDSA",
+    "fork": false,
+    "full_name": "bnb-chain/tss-lib",
+    "html_url": "https://github.com/bnb-chain/tss-lib",
+    "language": "Go",
+    "pushed_at": "2026-04-09T13:36:58Z",
+    "stargazers_count": 1009,
+    "topics": [
+      "blockchain",
+      "cryptography",
+      "golang",
+      "tss"
+    ],
+    "updated_at": "2026-04-18T02:56:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go-fmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gofmt.yml",
+      "term": "Go-fmt"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "[![MIT licensed][1]][2] [![GoDoc][3]][4] [![Go Report Card][5]][6]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

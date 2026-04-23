@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030714,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030552,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030260,
+      "status": "candidate",
+      "text": "reload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023825,
+      "status": "candidate",
+      "text": "uplink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997018,
+      "status": "candidate",
+      "text": "send"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "upload",
+      "sense_id": "upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload",
+  "observation_id": "fd5f6bad47d2781b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "upload",
+  "source_context_snippet": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026",
+  "source_file": null,
+  "source_repo": "ipshipyard/ipfs-deploy-action",
+  "source_repo_description": "Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs"
+}

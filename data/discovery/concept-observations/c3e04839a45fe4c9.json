@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google OAuth Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Louhi Release Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Louhi Release Tag"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "pohjola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9520,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9496,
+      "status": "candidate",
+      "text": "licence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Louhi Release Tag",
+      "sense_id": "louhi-release-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "louhi-release-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "louhi-release-tag",
+  "observation_id": "c3e04839a45fe4c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Louhi Release Tag",
+  "source_context_snippet": "Louhi Release Tag",
+  "source_file": ".github/workflows/louhi-tag-release.yaml",
+  "source_repo": "googleapis/google-oauth-java-client",
+  "source_repo_description": "Google OAuth Client Library for Java"
+}

@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1427,6 +1427,261 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "dtolnay/proc-macro2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/readonly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/ref-cast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paradigmxyz/mev-share-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "paradigmxyz/mev-share-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/stylo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buck2.yml",
+      "source_repo": "dtolnay/cxx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cxx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/tokio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-extended.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "freenet/freenet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hyperium/h2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/mio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/op-alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "BadBoiLabs/Cannon-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder-playground.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Plonky3/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Plonky3/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paolodamico/ruint-uniffi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "tauri-apps/global-hotkey"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/global-hotkey"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "romanz/electrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/quote"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andelf/axcli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andelf/axcli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoincore-rpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-linux.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rocm-hotfix.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-unit-tests.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dupekit-wheels.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "anacrolix/torrent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ADNTIO/crispy-bootloader-rp2040-rs"
     }
   ]
 }

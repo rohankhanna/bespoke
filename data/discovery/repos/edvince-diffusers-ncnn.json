@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EdVince/diffusers-ncnn",
+      "target": "tencent/ncnn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:05:55.669440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "EdVince/diffusers-ncnn",
+    "html_url": "https://github.com/EdVince/diffusers-ncnn",
+    "language": "C++",
+    "pushed_at": "2023-03-02T11:40:29Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/ncnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

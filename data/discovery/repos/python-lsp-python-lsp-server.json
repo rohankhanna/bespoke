@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "hhatto/autopep8",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "google/yapf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "chantera/python-lsp-isort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "PyLS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "Static code analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "Linux tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "Mac tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "python-lsp/python-lsp-server",
+      "target": "Windows tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:06:17.542149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8510
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5003
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1534
+    },
+    {
+      "path": ".github/workflows/test-linux.yml",
+      "size": 1459
+    },
+    {
+      "path": ".github/workflows/test-mac.yml",
+      "size": 1432
+    },
+    {
+      "path": ".github/workflows/test-win.yml",
+      "size": 1131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Fork of the python-language-server project, maintained by the Spyder IDE team and the community",
+    "fork": false,
+    "full_name": "python-lsp/python-lsp-server",
+    "html_url": "https://github.com/python-lsp/python-lsp-server",
+    "language": "Python",
+    "pushed_at": "2025-12-06T16:12:43Z",
+    "stargazers_count": 2536,
+    "topics": [],
+    "updated_at": "2026-04-23T17:54:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chantera/python-lsp-isort",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/yapf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhatto/autopep8",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyLS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "PyLS Release"
+    },
+    {
+      "context_snippet": "Static code analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Static code analysis"
+    },
+    {
+      "context_snippet": "Linux tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "term": "Linux tests"
+    },
+    {
+      "context_snippet": "Mac tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mac.yml",
+      "term": "Mac tests"
+    },
+    {
+      "context_snippet": "Windows tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "term": "Windows tests"
+    }
+  ]
+}

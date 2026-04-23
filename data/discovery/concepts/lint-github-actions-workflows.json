@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Lint GitHub Actions Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/vault",
+      "status": "candidate-context",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/vault",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/vault",
+      "status": "candidate",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "Lint GitHub Actions Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "confluence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "corrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "flowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "fluvialist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "inflow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint GitHub Actions Workflows",
+  "concept_id": "lint-github-actions-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "DataDog/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint GitHub Actions Workflows",
+      "sense_id": "lint-github-actions-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,54 @@
       "source_repo": "EdVince/Stable-Diffusion-NCNN",
       "status": "candidate-context",
       "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "status": "candidate-context",
+      "text": "\u8d85\u8f7b\u91cf\u7ea7\u4e2d\u6587ocr\uff0c\u652f\u6301\u7ad6\u6392\u6587\u5b57\u8bc6\u522b, \u652f\u6301ncnn\u3001mnn\u3001tnn\u63a8\u7406 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) \u603b\u6a21\u578b\u4ec54.7M "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "status": "candidate-context",
+      "text": "- python3.6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile\u3001desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "EdVince/Stable-Diffusion-NCNN",
       "status": "candidate",
       "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/chineseocr_lite",
+      "status": "candidate",
+      "text": "- python3.6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Megvii-BaseDetection/YOLOX",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"assets/logo.png\" width=\"350\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/TNN",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Megvii-BaseDetection/YOLOX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/TNN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

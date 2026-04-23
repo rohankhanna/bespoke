@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/bike-kem",
+      "target": "bike",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:23.400791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)",
+    "fork": false,
+    "full_name": "awslabs/bike-kem",
+    "html_url": "https://github.com/awslabs/bike-kem",
+    "language": "C",
+    "pushed_at": "2024-04-11T20:51:24Z",
+    "stargazers_count": 53,
+    "topics": [
+      "bike"
+    ],
+    "updated_at": "2026-03-12T17:18:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bike"
+    }
+  ]
+}

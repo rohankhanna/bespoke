@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "PR Diff Summarization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationAgents/OpenManus",
+      "status": "candidate-context",
+      "text": "No fortress, purely open ground.  OpenManus is Coming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/OpenManus",
+      "status": "candidate-context",
+      "text": "PR Diff Summarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "status": "candidate-context",
+      "text": "PR Diff Summarization"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationAgents/OpenManus",
+      "status": "candidate",
+      "text": "PR Diff Summarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mannaandpoem/OpenManus_Archive",
+      "status": "candidate",
+      "text": "PR Diff Summarization"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21304,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21304,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21304,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14704,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14704,
+      "status": "candidate",
+      "text": "addend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Diff Summarization",
+  "concept_id": "pr-diff-summarization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "FoundationAgents/OpenManus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-autodiff.yaml",
+      "source_repo": "mannaandpoem/OpenManus_Archive"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Diff Summarization",
+      "sense_id": "pr-diff-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

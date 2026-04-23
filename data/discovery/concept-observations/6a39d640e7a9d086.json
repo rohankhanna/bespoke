@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Range library for C++14/17/20, basis for C++20's std::ranges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030412,
+      "status": "candidate",
+      "text": "alliterator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030411,
+      "status": "candidate",
+      "text": "reiterator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030410,
+      "status": "candidate",
+      "text": "interpolator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030409,
+      "status": "candidate",
+      "text": "repeater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030408,
+      "status": "candidate",
+      "text": "irritator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iterator",
+      "sense_id": "iterator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iterator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iterator",
+  "observation_id": "6a39d640e7a9d086",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "iterator",
+  "source_context_snippet": "[![range-v3 CI](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml/badge.svg)](https://github.com/ericniebler/range-v3/actions/workflows/range-v3-ci.yml)",
+  "source_file": null,
+  "source_repo": "ericniebler/range-v3",
+  "source_repo_description": "Range library for C++14/17/20, basis for C++20's std::ranges"
+}

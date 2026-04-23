@@ -43,6 +43,54 @@
       "source_repo": "dotnet/sourcelink",
       "status": "candidate-context",
       "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +109,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/sourcelink",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/aspnetcore",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate",
       "text": "Backport PR to branch"
     }
@@ -124,11 +196,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "dotnet/sourcelink"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/roslyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/aspnetcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "OrchardCMS/OrchardCore"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

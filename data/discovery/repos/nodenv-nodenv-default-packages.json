@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "@nodenv/nodenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-mock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shellcheck",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/release.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv/homebrew-nodenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "rbenv/rbenv-default-gems",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "@nodenv/nodenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "bats-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "bats-mock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "bats-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "shellcheck",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv/.github/.github/workflows/release.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "Sync Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "nodenv-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-default-packages",
+      "target": "npm-packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:53:03.115915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4215
+    },
+    {
+      "path": "package.json",
+      "size": 1288
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/sync-default-branch.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A nodenv plugin that installs a set of npm packages every time you install a new version of Node.",
+    "fork": false,
+    "full_name": "nodenv/nodenv-default-packages",
+    "html_url": "https://github.com/nodenv/nodenv-default-packages",
+    "language": "Shell",
+    "pushed_at": "2026-02-09T12:32:43Z",
+    "stargazers_count": 40,
+    "topics": [
+      "nodejs",
+      "nodenv",
+      "nodenv-plugin",
+      "npm-packages"
+    ],
+    "updated_at": "2026-02-09T12:32:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/homebrew-nodenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbenv/rbenv-default-gems",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "term": "Sync Default Branch"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv-plugin"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-packages"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Single Packet Authorization > Port Knocking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023681,
+      "status": "candidate",
+      "text": "md5"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023797,
+      "status": "candidate",
+      "text": "chap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023796,
+      "status": "candidate",
+      "text": "haxm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023795,
+      "status": "candidate",
+      "text": "hkma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023794,
+      "status": "candidate",
+      "text": "haccp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hmac",
+      "sense_id": "hmac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hmac",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hmac",
+  "observation_id": "c06e9914b20ff377",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hmac",
+  "source_context_snippet": "fwknop implements an authorization scheme known as Single Packet Authorization",
+  "source_file": null,
+  "source_repo": "mrash/fwknop",
+  "source_repo_description": "Single Packet Authorization > Port Knocking"
+}

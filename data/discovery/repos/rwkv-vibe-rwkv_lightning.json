@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV-Vibe/rwkv_lightning",
+      "target": "sparckles/robyn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV-Vibe/rwkv_lightning",
+      "target": "triang-jyed-driung/rapid-sampling",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:11:30.202970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RWKV Batch infer backend \u26a1Base on albatross https://github.com/BlinkDL/Albatross \ud83d\udd4a\ufe0f",
+    "fork": false,
+    "full_name": "RWKV-Vibe/rwkv_lightning",
+    "html_url": "https://github.com/RWKV-Vibe/rwkv_lightning",
+    "language": "Python",
+    "pushed_at": "2026-04-16T13:13:28Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-22T12:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sparckles/robyn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triang-jyed-driung/rapid-sampling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

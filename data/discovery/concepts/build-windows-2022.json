@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Windows 2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate-context",
+      "text": "Build Windows 2022"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB",
+      "status": "candidate",
+      "text": "Build Windows 2022"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "accept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "asl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10321,
+      "status": "candidate",
+      "text": "binary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "lvi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9718,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Windows 2022",
+  "concept_id": "build-windows-2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build-windows-2022.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows 2022",
+      "sense_id": "build-windows-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

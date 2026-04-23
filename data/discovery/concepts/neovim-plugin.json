@@ -295,6 +295,162 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate-context",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate-context",
+      "text": "Neovim Lua plugin for Base16 colorscheme creation. Part of 'mini.nvim' library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-base16_readme.png?raw=true\" alt=\"mini.base16\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "A snazzy bufferline for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate-context",
+      "text": "Neovim Lua plugin to animate common Neovim actions. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-animate_readme.png?raw=true\" alt=\"mini.animate\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "Find, Filter, Preview, Pick. All lua, all the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "\u23ea Telescope & Snacks pickers for resession.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate-context",
+      "text": "Database autocompletion powered by https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate-context",
+      "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "Navigate your code with search labels, enhanced character motions and Treesitter integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "`flash.nvim` lets you navigate your code with search labels,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "Neovim's answer to the mouse \ud83e\udd98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate-context",
+      "text": "Debug Adapter Protocol client implementation for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate-context",
+      "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "Snippet plugin for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +597,84 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-base16_readme.png?raw=true\" alt=\"mini.base16\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-animate_readme.png?raw=true\" alt=\"mini.animate\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate",
+      "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate",
+      "text": "`flash.nvim` lets you navigate your code with search labels,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate",
+      "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +844,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.base16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.animate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "folke/flash.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/leap.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

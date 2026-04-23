@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "aim-uofa/adelaidet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "malongtech/research-fad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "hrnet/hrnet-fcos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "lausannen/nas-fcos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "anchor-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "fcos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "one-stage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/FCOS",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:45:55.224527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12696
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19)",
+    "fork": false,
+    "full_name": "tianzhi0549/FCOS",
+    "html_url": "https://github.com/tianzhi0549/FCOS",
+    "language": "Python",
+    "pushed_at": "2023-12-09T17:32:02Z",
+    "stargazers_count": 3345,
+    "topics": [
+      "anchor-free",
+      "computer-vision",
+      "fcos",
+      "iccv2019",
+      "object-detection",
+      "one-stage",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T23:57:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-uofa/adelaidet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-fcos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lausannen/nas-fcos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "malongtech/research-fad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anchor-free"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fcos"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-stage"
+    },
+    {
+      "context_snippet": "This project hosts the code for implementing the FCOS algorithm for object detection, as presented in our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

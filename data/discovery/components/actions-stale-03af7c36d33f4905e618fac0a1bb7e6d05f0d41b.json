@@ -1,0 +1,12 @@
+{
+  "component": "actions/stale@03af7c36d33f4905e618fac0a1bb7e6d05f0d41b",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ethereum/EIPs"
+    }
+  ]
+}

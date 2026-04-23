@@ -1,0 +1,12 @@
+{
+  "component": "wow-actions/use-app-token@9e8487c993ab4085b2dd8cb90ab446b6a18cf834",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "pypi/warehouse"
+    }
+  ]
+}

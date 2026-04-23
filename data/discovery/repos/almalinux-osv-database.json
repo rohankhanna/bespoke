@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlmaLinux/osv-database",
+      "target": "almalinux/errata2osv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:01.711420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "AlmaLinux/osv-database",
+    "html_url": "https://github.com/AlmaLinux/osv-database",
+    "language": null,
+    "pushed_at": "2026-04-23T12:52:43Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-21T10:40:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "almalinux/errata2osv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:13:23.258633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4f7f\u7528Python\u8c03\u7528\u5fae\u4fe1\u672c\u5730ocr\u670d\u52a1",
+    "fork": false,
+    "full_name": "kanadeblisst00/wechat_ocr",
+    "html_url": "https://github.com/kanadeblisst00/wechat_ocr",
+    "language": "Python",
+    "pushed_at": "2023-11-15T09:07:15Z",
+    "stargazers_count": 487,
+    "topics": [],
+    "updated_at": "2026-04-15T23:06:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

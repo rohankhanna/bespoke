@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnamuddinAhmad/Portfolio_1",
+      "target": "api-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnamuddinAhmad/Portfolio_1",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnamuddinAhmad/Portfolio_1",
+      "target": "tailwind-css",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:10:09.171137+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the standard portfolio which elaborate about my skills and knowledge.",
+    "fork": false,
+    "full_name": "AnamuddinAhmad/Portfolio_1",
+    "html_url": "https://github.com/AnamuddinAhmad/Portfolio_1",
+    "language": "HTML",
+    "pushed_at": "2024-08-16T07:04:22Z",
+    "stargazers_count": 8,
+    "topics": [
+      "api-forms",
+      "css",
+      "html5",
+      "javascript",
+      "tailwind-css"
+    ],
+    "updated_at": "2025-07-01T11:58:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the standard portfolio which elaborate about my skills and knowledge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-forms"
+    },
+    {
+      "context_snippet": "This is the standard portfolio which elaborate about my skills and knowledge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "This is the standard portfolio which elaborate about my skills and knowledge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwind-css"
+    }
+  ]
+}

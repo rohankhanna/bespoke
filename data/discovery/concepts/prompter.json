@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "prompter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate",
+      "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889364,
+      "status": "candidate",
+      "text": "autocue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29925629,
+      "status": "candidate",
+      "text": "theater prompter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29925628,
+      "status": "candidate",
+      "text": "reader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913646,
+      "status": "candidate",
+      "text": "teleprompter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29845048,
+      "status": "candidate",
+      "text": "blower"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "autocue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "theater prompter"
+    }
+  ],
+  "canonical_name": "prompter",
+  "concept_id": "prompter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "terkelg/prompts"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompter",
+      "sense_id": "prompter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

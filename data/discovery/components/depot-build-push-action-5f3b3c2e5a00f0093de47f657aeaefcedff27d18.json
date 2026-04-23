@@ -1,7 +1,7 @@
 {
   "component": "depot/build-push-action@5f3b3c2e5a00f0093de47f657aeaefcedff27d18",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_docker-release.yml",
       "source_repo": "coder/mux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypi/warehouse"
     }
   ]
 }

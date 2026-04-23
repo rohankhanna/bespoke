@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doraemonkeys/paddleocr",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doraemonkeys/paddleocr",
+      "target": "paddle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:08:05.481441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1101
+    },
+    {
+      "path": "go.mod",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple wrapper for hiroi-sora/PaddleOCR-json implemented in Go language.",
+    "fork": false,
+    "full_name": "doraemonkeys/paddleocr",
+    "html_url": "https://github.com/doraemonkeys/paddleocr",
+    "language": "Go",
+    "pushed_at": "2026-01-29T02:28:55Z",
+    "stargazers_count": 33,
+    "topics": [
+      "golang",
+      "ocr",
+      "paddle"
+    ],
+    "updated_at": "2026-04-19T11:18:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "English|[\u4e2d\u6587](/README-ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "English|[\u4e2d\u6587](/README-ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddle"
+    }
+  ]
+}

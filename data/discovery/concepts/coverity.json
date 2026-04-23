@@ -92,6 +92,36 @@
       "source_repo": "FreeRDP/FreeRDP",
       "status": "candidate-context",
       "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate-context",
+      "text": "Vim - the text editor - for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "The systemd System and Service Manager "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
+      "status": "candidate-context",
+      "text": "Coverity"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +164,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macvim-dev/macvim",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "util-linux/util-linux",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "systemd/systemd",
       "status": "candidate",
       "text": "Coverity"
     }
@@ -221,11 +269,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "FreeRDP/FreeRDP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "macvim-dev/macvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "util-linux/util-linux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "systemd/systemd"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

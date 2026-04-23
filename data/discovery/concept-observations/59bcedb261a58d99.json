@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049168,
+      "status": "candidate",
+      "text": "providing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049004,
+      "status": "candidate",
+      "text": "supply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043554,
+      "status": "candidate",
+      "text": "purvey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041376,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039197,
+      "status": "candidate",
+      "text": "planning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "provisioning",
+      "sense_id": "provisioning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "provisioning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "provisioning",
+  "observation_id": "59bcedb261a58d99",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "provisioning",
+  "source_context_snippet": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)",
+  "source_file": null,
+  "source_repo": "robur-coop/albatross",
+  "source_repo_description": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+}

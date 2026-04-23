@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/pretrain-gnns",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/pretrain-gnns",
+      "target": "graph-representation-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:39.464080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3315
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Strategies for Pre-training Graph Neural Networks",
+    "fork": false,
+    "full_name": "snap-stanford/pretrain-gnns",
+    "html_url": "https://github.com/snap-stanford/pretrain-gnns",
+    "language": "Python",
+    "pushed_at": "2023-07-29T06:21:39Z",
+    "stargazers_count": 1057,
+    "topics": [
+      "graph-neural-networks",
+      "graph-representation-learning"
+    ],
+    "updated_at": "2026-04-22T08:15:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a Pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-representation-learning"
+    }
+  ]
+}

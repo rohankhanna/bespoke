@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fuzz and run valgrind"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate-context",
+      "text": "Fuzz and run valgrind"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simdjson/simdjson",
+      "status": "candidate",
+      "text": "Fuzz and run valgrind"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15253,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15243,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14273,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14273,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14273,
+      "status": "candidate",
+      "text": "fur"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fuzz and run valgrind",
+  "concept_id": "fuzz-and-run-valgrind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fuzz and run valgrind",
+      "sense_id": "fuzz-and-run-valgrind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

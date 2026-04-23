@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nroff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "converts nroff man pages to HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate",
+      "text": "A command line tool that reads nroff and outputs HTML"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017181,
+      "status": "candidate",
+      "text": "roneo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017180,
+      "status": "candidate",
+      "text": "roffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017179,
+      "status": "candidate",
+      "text": "r0x0r"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017178,
+      "status": "candidate",
+      "text": "rendrynge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017176,
+      "status": "candidate",
+      "text": "rendryng"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nroff",
+  "concept_id": "nroff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bagder/roffit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nroff",
+      "sense_id": "nroff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

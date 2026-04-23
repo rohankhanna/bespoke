@@ -55,6 +55,18 @@
       "source_repo": "VDOO-Connected-Trust/ghidra-pyi-generator",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "Reverse engineered API of Microsoft's Bing Chat AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "VDOO-Connected-Trust/ghidra-pyi-generator",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate",
+      "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "acheong08/EdgeGPT"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

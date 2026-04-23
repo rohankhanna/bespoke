@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add project application to project board"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet-foundation/projects",
+      "status": "candidate-context",
+      "text": "This repository is used for onboarding new projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-foundation/projects",
+      "status": "candidate-context",
+      "text": "Add project application to project board"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet-foundation/projects",
+      "status": "candidate",
+      "text": "Add project application to project board"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43255,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33171,
+      "status": "candidate",
+      "text": "strat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27357,
+      "status": "candidate",
+      "text": "tack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27356,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27356,
+      "status": "candidate",
+      "text": "sticks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add project application to project board",
+  "concept_id": "add-project-application-to-project-board",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/add-new-projects-to-board.yml",
+      "source_repo": "dotnet-foundation/projects"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add project application to project board",
+      "sense_id": "add-project-application-to-project-board#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

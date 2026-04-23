@@ -19,6 +19,18 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate-context",
       "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/rootlesskit",
+      "status": "candidate-context",
+      "text": "Linux-native \"fake root\" for implementing rootless containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/rootlesskit",
+      "status": "candidate-context",
+      "text": "RootlessKit is a Linux-native implementation of \"fake root\" using [`user_namespaces(7)`](http://man7.org/linux/man-pages/man7/user_namespaces.7.html)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate",
       "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/rootlesskit",
+      "status": "candidate",
+      "text": "RootlessKit is a Linux-native implementation of \"fake root\" using [`user_namespaces(7)`](http://man7.org/linux/man-pages/man7/user_namespaces.7.html)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "containers/podman-compose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rootless-containers/rootlesskit"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

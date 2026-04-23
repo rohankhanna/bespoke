@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/asterisc",
+      "target": "ethereum-optimism/superchain-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/asterisc",
+      "target": "ethereum-optimism/cannon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:36:51.971011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10308
+    },
+    {
+      "path": "go.mod",
+      "size": 11134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISC-V interactive fault proof tech",
+    "fork": false,
+    "full_name": "ethereum-optimism/asterisc",
+    "html_url": "https://github.com/ethereum-optimism/asterisc",
+    "language": "Go",
+    "pushed_at": "2025-12-02T10:39:58Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-18T22:03:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/cannon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/superchain-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

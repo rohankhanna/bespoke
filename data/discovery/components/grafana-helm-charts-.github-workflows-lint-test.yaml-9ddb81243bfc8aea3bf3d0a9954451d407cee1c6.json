@@ -1,0 +1,12 @@
+{
+  "component": "grafana/helm-charts/.github/workflows/lint-test.yaml@9ddb81243bfc8aea3bf3d0a9954451d407cee1c6",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm-ci.yml",
+      "source_repo": "grafana/pyroscope"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/the-pile",
+      "target": "eleutherai/github-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/the-pile",
+      "target": "deepmind/pg19",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/the-pile",
+      "target": "deepmind/mathematics_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/the-pile",
+      "target": "eleutherai/hn-scraper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:19:58.126475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "EleutherAI/the-pile",
+    "html_url": "https://github.com/EleutherAI/the-pile",
+    "language": "Python",
+    "pushed_at": "2023-04-27T21:00:48Z",
+    "stargazers_count": 1645,
+    "topics": [],
+    "updated_at": "2026-04-21T11:19:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mathematics_dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/pg19",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/github-downloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/hn-scraper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

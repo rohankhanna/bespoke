@@ -43,6 +43,18 @@
       "source_repo": "filip26/copper-multicodec",
       "status": "candidate-context",
       "text": "A multicodec is a **self-describing** format: encoded data always begins"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": " A command-line utility for processing JSON-LD, RDF, RDFC, JCS, CBOR-LD, and multiformats with native executables for Ubuntu, macOS, and Windows - completely free of JVM dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate-context",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "filip26/copper-multicodec",
       "status": "candidate",
       "text": "A multicodec is a **self-describing** format: encoded data always begins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/ld-cli",
+      "status": "candidate",
+      "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "filip26/copper-multicodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/ld-cli"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

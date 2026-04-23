@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Data Schema Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Loong: Synthesize Long CoTs at Scale through Verifiers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate-context",
+      "text": "Data Schema Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/loong",
+      "status": "candidate",
+      "text": "Data Schema Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "afterthought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25539,
+      "status": "candidate",
+      "text": "scalogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22952,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Data Schema Validation",
+  "concept_id": "data-schema-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/schema_check.yml",
+      "source_repo": "camel-ai/loong"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Data Schema Validation",
+      "sense_id": "data-schema-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

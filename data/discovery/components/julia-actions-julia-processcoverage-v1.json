@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/julia-processcoverage@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quinnj/JSON3.jl"
     }
   ]
 }

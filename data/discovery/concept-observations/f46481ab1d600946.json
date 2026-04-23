@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gradio wrapper for sd-scripts by kohya"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19315226,
+      "status": "candidate",
+      "text": "laura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18266120,
+      "status": "candidate",
+      "text": "leigh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18109463,
+      "status": "candidate",
+      "text": "raider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9315378,
+      "status": "candidate",
+      "text": "lorraine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9315376,
+      "status": "candidate",
+      "text": "lorie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lora",
+      "sense_id": "lora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lora",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lora",
+  "observation_id": "f46481ab1d600946",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "lora",
+  "source_context_snippet": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)",
+  "source_file": null,
+  "source_repo": "ddPn08/kohya-sd-scripts-webui",
+  "source_repo_description": "Gradio wrapper for sd-scripts by kohya"
+}

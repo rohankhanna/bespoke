@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "queue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "through",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "through2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl-fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yauzl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yazl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "temp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "thejoshwolfe/yazl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "thejoshwolfe/yauzl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "through",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "through2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "vinyl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "vinyl-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "yauzl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "yazl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "temp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joaomoreno/gulp-vinyl-zip",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:51:24.232637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1658
+    },
+    {
+      "path": "package.json",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Streaming vinyl adapter for zip archives",
+    "fork": false,
+    "full_name": "joaomoreno/gulp-vinyl-zip",
+    "html_url": "https://github.com/joaomoreno/gulp-vinyl-zip",
+    "language": "JavaScript",
+    "pushed_at": "2022-04-03T07:03:31Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2024-05-06T03:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejoshwolfe/yauzl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejoshwolfe/yazl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

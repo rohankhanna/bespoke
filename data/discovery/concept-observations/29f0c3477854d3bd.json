@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11708,
+      "status": "candidate",
+      "text": "clearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11708,
+      "status": "candidate",
+      "text": "fresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11708,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11708,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "adl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Release",
+      "sense_id": "daily-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-release",
+  "observation_id": "29f0c3477854d3bd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Daily Release",
+  "source_context_snippet": "Daily Release",
+  "source_file": ".github/workflows/daily-release.yml",
+  "source_repo": "milvus-io/milvus",
+  "source_repo_description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+}

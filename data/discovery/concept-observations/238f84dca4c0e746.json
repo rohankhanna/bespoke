@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf10   Lightweight internationalization plugin for Vue.js 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "docs-deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "docs-deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docs-deploy",
+      "sense_id": "docs-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docs-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docs-deploy",
+  "observation_id": "238f84dca4c0e746",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "docs-deploy",
+  "source_context_snippet": "docs-deploy",
+  "source_file": ".github/workflows/docs-deploy.yml",
+  "source_repo": "aaronlamz/vue-next-i18n",
+  "source_repo_description": "\ud83c\udf10   Lightweight internationalization plugin for Vue.js 3"
+}

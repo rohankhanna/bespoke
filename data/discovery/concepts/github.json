@@ -211,6 +211,198 @@
       "source_repo": "community/community",
       "status": "candidate-context",
       "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "A Commitizen adapter for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate-context",
+      "text": "![Banner][icon-banner]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "Awesome Github Profile Readme. Github ReadMe Github Profile Readme Dynamic Github ReadMe Dynamic Github Profile ReadMe. Please Star and Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate-context",
+      "text": "About me and my tools!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate-context",
+      "text": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate-context",
+      "text": "Use zgenom and gh to download releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate-context",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "Speed up your Git workflow. :tropical_fish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate-context",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "\ud83d\udc41 A merge bot for GitHub Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate-context",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate-context",
+      "text": "HTTP Round Tripper for GitHub Apps - Authenticate as an Installation Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradleyfalzon/ghinstallation/v2.svg)](https://pkg.go.dev/github.com/bradleyfalzon/ghinstallation/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Go :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate-context",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/roadmap",
+      "status": "candidate-context",
+      "text": "GitHub public roadmap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/roadmap",
+      "status": "candidate-context",
+      "text": ":sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb \ud83d\ude04 Add icons to your GitHub profile using this generator  \ud83d\ude04 \ud83d\udccb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate-context",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": ":octocat: Improve your README.md profile with these amazing and dynamic badges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate-context",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate-context",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +507,102 @@
       "source_repo": "community/community",
       "status": "candidate",
       "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndemolShineGroup/cz-github",
+      "status": "candidate",
+      "text": "![Banner][icon-banner]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayhemantt/mayhemantt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Israel-Laguan/Israel-Laguan",
+      "status": "candidate",
+      "text": "I started as a data engineer due to my Mathematics background, and then concentrated on web development, working for small and medium-sized companies. Lately, I have been working in international SCRUM teams and mentoring others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/gitnow",
+      "status": "candidate",
+      "text": "> Speed up your Git workflow. \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bors-ng/bors-ng",
+      "status": "candidate",
+      "text": "**Deprecation notice**: Though I'll still merge bug fixes if they're provided, new features will not be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradleyfalzon/ghinstallation",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/bradleyfalzon/ghinstallation/v2.svg)](https://pkg.go.dev/github.com/bradleyfalzon/ghinstallation/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbrgm/githubevents",
+      "status": "candidate",
+      "text": "<img src=\".img/gopher.png\" width=\"150px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/roadmap",
+      "status": "candidate",
+      "text": ":sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate",
+      "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate",
+      "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
+      "status": "candidate",
+      "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitalk/gitalk",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +778,107 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EndemolShineGroup/cz-github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mayhemantt/mayhemantt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Israel-Laguan/Israel-Laguan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/gitnow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bors-ng/bors-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bradleyfalzon/ghinstallation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "github/roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "marwin1991/profile-technology-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gitalk/gitalk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

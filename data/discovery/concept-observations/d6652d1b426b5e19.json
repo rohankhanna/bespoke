@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Post-training with Tinker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "downstream-compat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "downstream-compat"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "downstream-compat",
+      "sense_id": "downstream-compat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "downstream-compat",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "downstream-compat",
+  "observation_id": "d6652d1b426b5e19",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "downstream-compat",
+  "source_context_snippet": "downstream-compat",
+  "source_file": ".github/workflows/downstream-compat.yaml",
+  "source_repo": "thinking-machines-lab/tinker-cookbook",
+  "source_repo_description": "Post-training with Tinker"
+}

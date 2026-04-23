@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/apiextensions-apiserver",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:42.892759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1237
+    },
+    {
+      "path": "go.mod",
+      "size": 5939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "API server for API extensions like CustomResourceDefinitions",
+    "fork": false,
+    "full_name": "kubernetes/apiextensions-apiserver",
+    "html_url": "https://github.com/kubernetes/apiextensions-apiserver",
+    "language": "Go",
+    "pushed_at": "2026-04-23T11:46:29Z",
+    "stargazers_count": 258,
+    "topics": [
+      "k8s-staging"
+    ],
+    "updated_at": "2026-04-23T11:46:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

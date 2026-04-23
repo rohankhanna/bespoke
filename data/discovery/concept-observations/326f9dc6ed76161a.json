@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kani Rust Verifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Kani Format Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Kani Format Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22340,
+      "status": "candidate",
+      "text": "carol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14630,
+      "status": "candidate",
+      "text": "enquirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14630,
+      "status": "candidate",
+      "text": "hearst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14329,
+      "status": "candidate",
+      "text": "charlie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14329,
+      "status": "candidate",
+      "text": "noon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kani Format Check",
+      "sense_id": "kani-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kani-format-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kani-format-check",
+  "observation_id": "326f9dc6ed76161a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Kani Format Check",
+  "source_context_snippet": "Kani Format Check",
+  "source_file": ".github/workflows/format-check.yml",
+  "source_repo": "model-checking/kani",
+  "source_repo_description": "Kani Rust Verifier"
+}

@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inherits",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readable-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "strip-ansi",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "text-table",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/snazzy",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "feross/snazzy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "inherits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "standard-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "strip-ansi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "text-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/snazzy",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "standard/snazzy",
+      "target": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "snazzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/snazzy",
+      "target": "style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:46:53.222235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1663
+    },
+    {
+      "path": "package.json",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Format JavaScript Standard Style as Stylish (i.e. snazzy) output",
+    "fork": false,
+    "full_name": "standard/snazzy",
+    "html_url": "https://github.com/standard/snazzy",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-16T07:31:18Z",
+    "stargazers_count": 421,
+    "topics": [
+      "browser",
+      "development",
+      "ecmascript",
+      "eslint",
+      "formatter",
+      "javascript",
+      "lint",
+      "nodejs",
+      "snazzy",
+      "standard",
+      "style"
+    ],
+    "updated_at": "2025-11-20T14:50:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/standard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/snazzy",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snazzy"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/feross/snazzy/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    }
+  ]
+}

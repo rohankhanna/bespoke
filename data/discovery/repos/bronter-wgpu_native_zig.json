@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bronter/wgpu_native_zig",
+      "target": "bronter/wgpu-native-zig-windows-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bronter/wgpu_native_zig",
+      "target": "samdauwe/webgpu-native-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bronter/wgpu_native_zig",
+      "target": "webgpu-native/webgpu-headers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bronter/wgpu_native_zig",
+      "target": "wgpu-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bronter/wgpu_native_zig",
+      "target": "zig-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:56:57.808090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zig bindings for wgpu-native",
+    "fork": false,
+    "full_name": "bronter/wgpu_native_zig",
+    "html_url": "https://github.com/bronter/wgpu_native_zig",
+    "language": "Zig",
+    "pushed_at": "2025-08-18T13:26:05Z",
+    "stargazers_count": 118,
+    "topics": [
+      "wgpu-native",
+      "zig-package"
+    ],
+    "updated_at": "2026-04-20T14:45:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bronter/wgpu-native-zig-windows-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samdauwe/webgpu-native-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webgpu-native/webgpu-headers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Zig bindings for [wgpu-native](https://github.com/gfx-rs/wgpu-native)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wgpu-native"
+    },
+    {
+      "context_snippet": "Zig bindings for [wgpu-native](https://github.com/gfx-rs/wgpu-native)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-package"
+    }
+  ]
+}

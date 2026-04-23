@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raviqqe/liche",
+      "target": "raviqqe/muffet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/liche",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/liche",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raviqqe/liche",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:01:11.358031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3585
+    },
+    {
+      "path": "Dockerfile",
+      "size": 214
+    },
+    {
+      "path": "go.mod",
+      "size": 462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Link Checker for Markdown and HTML in Go",
+    "fork": false,
+    "full_name": "raviqqe/liche",
+    "html_url": "https://github.com/raviqqe/liche",
+    "language": "Go",
+    "pushed_at": "2024-05-20T21:58:14Z",
+    "stargazers_count": 126,
+    "topics": [
+      "go",
+      "html",
+      "linter",
+      "markdown"
+    ],
+    "updated_at": "2025-08-08T00:34:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raviqqe/muffet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

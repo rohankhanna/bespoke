@@ -46,6 +46,30 @@
       "source_repo": "cpm-cmake/CPM.cmake",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c  An ecosystem of Vim/Neovim which allows developers to write cross-platform plugins in Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "status": "candidate-context",
+      "text": "mirai\u9879\u76ee\u7684\u8d5e\u52a9\u900f\u660e\u5316\uff0c\u91d1\u989d\u6d41\u5411\u516c\u793a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "status": "candidate-context",
+      "text": "update"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +90,18 @@
       "source_repo": "cpm-cmake/CPM.cmake",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-sponsor",
+      "status": "candidate",
+      "text": "update"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +163,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "cpm-cmake/CPM.cmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "project-mirai/mirai-sponsor"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

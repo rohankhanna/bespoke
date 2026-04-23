@@ -14,6 +14,18 @@
       "source_repo": "ethstaker/ethstaker-guides",
       "status": "candidate-context",
       "text": "Deploy Github Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/RAM",
+      "status": "candidate-context",
+      "text": "A framework to study AI models in Reasoning, Alignment, and use of Memory (RAM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/RAM",
+      "status": "candidate-context",
+      "text": "Deploy GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -22,6 +34,12 @@
       "source_repo": "ethstaker/ethstaker-guides",
       "status": "candidate",
       "text": "Deploy Github Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/RAM",
+      "status": "candidate",
+      "text": "Deploy GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -83,11 +101,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ethstaker/ethstaker-guides"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "facebookresearch/RAM"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

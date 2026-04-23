@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a language for fast, portable data-parallel computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ecosystem"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ecosystem"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998360,
+      "status": "candidate",
+      "text": "habitat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998347,
+      "status": "candidate",
+      "text": "ecological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998255,
+      "status": "candidate",
+      "text": "ecology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995888,
+      "status": "candidate",
+      "text": "species"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29897890,
+      "status": "candidate",
+      "text": "environment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ecosystem",
+      "sense_id": "ecosystem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecosystem",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecosystem",
+  "observation_id": "dc29b57b6bbd6d8c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Ecosystem",
+  "source_context_snippet": "Ecosystem",
+  "source_file": ".github/workflows/testing-ecosystem.yml",
+  "source_repo": "halide/Halide",
+  "source_repo_description": "a language for fast, portable data-parallel computation"
+}

@@ -1,36 +1,11 @@
 {
-  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "koalaman/shellcheck"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "alrra/dotfiles"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "starship/starship"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "bash-lsp/bash-language-server"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ajeetdsouza/zoxide"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "gitui-org/gitui"
+      "source_repo": "mikefarah/yq"
     },
     {
       "discovered_via": "repo-topic",
@@ -40,27 +15,32 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "federicotdn/flymake-shellcheck"
+      "source_repo": "nordtheme/dircolors"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "faressoft/terminalizer"
+      "source_repo": "abs-lang/abs"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "0ghny/shellx"
+      "source_repo": "create-dmg/create-dmg"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "reujab/silver"
+      "source_repo": "ddworken/hishtory"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "micromatch/micromatch"
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
     }
   ],
   "term": "bash"

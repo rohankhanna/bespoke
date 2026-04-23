@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger basic downstream CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger basic downstream CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22753,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22753,
+      "status": "candidate",
+      "text": "drifting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22174,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22162,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22093,
+      "status": "candidate",
+      "text": "support"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger basic downstream CI",
+      "sense_id": "trigger-basic-downstream-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-basic-downstream-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-basic-downstream-ci",
+  "observation_id": "73044885278c6b04",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Trigger basic downstream CI",
+  "source_context_snippet": "Trigger basic downstream CI",
+  "source_file": ".github/workflows/downstream-basic.yml",
+  "source_repo": "open-quantum-safe/liboqs",
+  "source_repo_description": "C library for prototyping and experimenting with quantum-resistant cryptography"
+}

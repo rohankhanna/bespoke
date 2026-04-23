@@ -1,0 +1,540 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_bot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_offline.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_offline.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino_nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino_nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "openvinotoolkit/openvino.genai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Build PR documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Security Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_bot.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_bot.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Style Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_offline.yaml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_offline.yaml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_offline.yaml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "Offline - Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_openvino.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "OpenVINO - Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino_nightly.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_openvino_nightly.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_openvino_nightly.yml",
+      "source_repo": "huggingface/optimum-intel",
+      "target": "OpenVINO - Nightly Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-intel",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:33:44.842504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4619
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 1480
+    },
+    {
+      "path": ".github/workflows/quality.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/style_bot.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/test_offline.yaml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/test_openvino.yml",
+      "size": 2765
+    },
+    {
+      "path": ".github/workflows/test_openvino_nightly.yml",
+      "size": 3969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools",
+    "fork": false,
+    "full_name": "huggingface/optimum-intel",
+    "html_url": "https://github.com/huggingface/optimum-intel",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-23T16:55:10Z",
+    "stargazers_count": 572,
+    "topics": [
+      "diffusers",
+      "distillation",
+      "inference",
+      "intel",
+      "onnx",
+      "openvino",
+      "optimization",
+      "pruning",
+      "quantization",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T16:46:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/openvino.genai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR documentation"
+    },
+    {
+      "context_snippet": "Quality Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "term": "Quality Checks"
+    },
+    {
+      "context_snippet": "Security Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security Checks"
+    },
+    {
+      "context_snippet": "Style Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_bot.yml",
+      "term": "Style Bot"
+    },
+    {
+      "context_snippet": "Offline - Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_offline.yaml",
+      "term": "Offline - Test"
+    },
+    {
+      "context_snippet": "OpenVINO - Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_openvino.yml",
+      "term": "OpenVINO - Test"
+    },
+    {
+      "context_snippet": "OpenVINO - Nightly Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_openvino_nightly.yml",
+      "term": "OpenVINO - Nightly Test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distillation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022391,
+      "status": "candidate",
+      "text": "openmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022390,
+      "status": "candidate",
+      "text": "mdct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022389,
+      "status": "candidate",
+      "text": "multiprecision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022388,
+      "status": "candidate",
+      "text": "ocaml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022387,
+      "status": "candidate",
+      "text": "rtti"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simd",
+      "sense_id": "simd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "simd",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simd",
+  "observation_id": "d457cc083491c1e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "simd",
+  "source_context_snippet": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)",
+  "source_file": null,
+  "source_repo": "Tencent/ncnn",
+  "source_repo_description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+}

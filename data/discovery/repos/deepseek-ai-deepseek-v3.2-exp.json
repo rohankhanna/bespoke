@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "target": "tile-ai/tilelang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "target": "deepseek-ai/deepgemm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:43:17.072711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-V3.2-Exp",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+    "language": "Python",
+    "pushed_at": "2025-11-18T02:57:11Z",
+    "stargazers_count": 1571,
+    "topics": [],
+    "updated_at": "2026-04-23T14:45:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepseek-ai/deepgemm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tile-ai/tilelang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

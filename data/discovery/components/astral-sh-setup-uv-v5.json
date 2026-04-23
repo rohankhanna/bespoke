@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeflash.yml",
       "source_repo": "albumentations-team/albumentations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/RL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-task-absolute-path.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "Danau5tin/terminal-bench-fork"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-tasks-to-supabase.yml",
+      "source_repo": "Danau5tin/terminal-bench-fork"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruff-checks.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ad-si/FlatCV"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "marin-community/marin"
     }
   ]
 }

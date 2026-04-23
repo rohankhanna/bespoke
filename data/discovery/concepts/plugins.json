@@ -91,6 +91,18 @@
       "source_repo": "matryer/xbar-plugins",
       "status": "candidate-context",
       "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "\ud83c\udf63  The one-stop shop for official Rollup plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate-context",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "matryer/xbar-plugins",
       "status": "candidate",
       "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rollup/plugins",
+      "status": "candidate",
+      "text": "[cover]: https://codecov.io/gh/rollup/plugins/branch/master/graph/badge.svg"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "matryer/xbar-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "rollup/plugins"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

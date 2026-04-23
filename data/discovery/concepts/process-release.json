@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Process release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "Process release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "Process release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28221,
+      "status": "candidate",
+      "text": "exergonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11958,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11958,
+      "status": "candidate",
+      "text": "annihilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11958,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11958,
+      "status": "candidate",
+      "text": "breakup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Process release",
+  "concept_id": "process-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/announce_release.yml",
+      "source_repo": "fastlane/fastlane"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process release",
+      "sense_id": "process-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

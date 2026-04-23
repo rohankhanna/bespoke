@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfworld/alfworld",
+      "target": "nvidia/nvidia-docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:04.701539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8657
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1643
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 88
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "fork": false,
+    "full_name": "alfworld/alfworld",
+    "html_url": "https://github.com/alfworld/alfworld",
+    "language": "Python",
+    "pushed_at": "2026-02-08T15:40:09Z",
+    "stargazers_count": 721,
+    "topics": [],
+    "updated_at": "2026-04-22T06:04:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nvidia-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

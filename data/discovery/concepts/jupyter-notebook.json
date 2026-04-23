@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "jupyter-notebook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "R kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate-context",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "Coding assistance for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "Jupyter Interactive Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate-context",
+      "text": "![Github Actions Status](https://github.com/jupyter/notebook/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IRkernel/IRkernel",
+      "status": "candidate",
+      "text": "[b-CI]: https://github.com/IRkernel/IRkernel/actions/workflows/r.yml/badge.svg \"Build status\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/notebook",
+      "status": "candidate",
+      "text": "![Github Actions Status](https://github.com/jupyter/notebook/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jupyter-notebook",
+  "concept_id": "jupyter-notebook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "IRkernel/IRkernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/notebook"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jupyter-notebook",
+      "sense_id": "jupyter-notebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

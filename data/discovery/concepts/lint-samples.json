@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Samples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Kubebuilder - SDK for building Kubernetes APIs using CRDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate-context",
+      "text": "Lint Samples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubebuilder",
+      "status": "candidate",
+      "text": "Lint Samples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11618,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10589,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10589,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10589,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Samples",
+  "concept_id": "lint-samples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Samples",
+      "sense_id": "lint-samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

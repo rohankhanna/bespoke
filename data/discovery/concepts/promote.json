@@ -19,12 +19,30 @@
       "source_repo": "nektos/act",
       "status": "candidate-context",
       "text": "promote"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "a golang based cli to run a subset of Actions version v0.3 of act"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
+      "status": "candidate-context",
+      "text": "promote"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-oss/act-cli",
       "status": "candidate",
       "text": "promote"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/promote.yml",
       "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "actions-oss/act-cli"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

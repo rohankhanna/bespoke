@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanha/git-publish",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanha/git-publish",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanha/git-publish",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:25:09.915457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2146
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Prepare and store patch revisions as git tags",
+    "fork": false,
+    "full_name": "stefanha/git-publish",
+    "html_url": "https://github.com/stefanha/git-publish",
+    "language": "Python",
+    "pushed_at": "2025-09-18T13:23:53Z",
+    "stargazers_count": 149,
+    "topics": [],
+    "updated_at": "2025-11-05T20:19:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    }
+  ]
+}

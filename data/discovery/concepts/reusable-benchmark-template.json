@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable Benchmark Template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate-context",
+      "text": "An embedded key/value database for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate-context",
+      "text": "Reusable Benchmark Template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/bbolt",
+      "status": "candidate",
+      "text": "Reusable Benchmark Template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17972,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17972,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "kast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "last"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable Benchmark Template",
+  "concept_id": "reusable-benchmark-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/benchmark-template.yaml",
+      "source_repo": "etcd-io/bbolt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Benchmark Template",
+      "sense_id": "reusable-benchmark-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

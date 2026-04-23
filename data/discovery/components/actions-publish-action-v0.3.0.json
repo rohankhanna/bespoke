@@ -1,7 +1,7 @@
 {
   "component": "actions/publish-action@v0.3.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-new-action-version.yml",
       "source_repo": "actions/upload-artifact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-new-action-version.yml",
+      "source_repo": "actions/download-artifact"
     }
   ]
 }

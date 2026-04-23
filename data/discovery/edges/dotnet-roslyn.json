@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/csharplang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/vblang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "dotnet/roslyn",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "roslyn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "visual-basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/roslyn",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dotnet/roslyn"
+}

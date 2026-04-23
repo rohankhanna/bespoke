@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nested"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "Initialize structs with default values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate-context",
+      "text": "defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creasty/defaults",
+      "status": "candidate",
+      "text": "defaults"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013746,
+      "status": "candidate",
+      "text": "imbricated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007454,
+      "status": "candidate",
+      "text": "intertwined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998849,
+      "status": "candidate",
+      "text": "interlace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980527,
+      "status": "candidate",
+      "text": "interrelated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967337,
+      "status": "candidate",
+      "text": "settled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nested",
+  "concept_id": "nested",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "creasty/defaults"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nested",
+      "sense_id": "nested#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "Proofs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GaloisInc/BLST-Verification",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:58:52.970052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7292
+    },
+    {
+      "path": "Dockerfile",
+      "size": 862
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2227
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BLST-Verification",
+    "fork": false,
+    "full_name": "GaloisInc/BLST-Verification",
+    "html_url": "https://github.com/GaloisInc/BLST-Verification",
+    "language": "Python",
+    "pushed_at": "2026-04-22T02:14:23Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-21T20:52:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Proofs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Proofs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

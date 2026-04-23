@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate-context",
+      "text": "New PR Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hmellor/vllm",
+      "status": "candidate",
+      "text": "New PR Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15925,
+      "status": "candidate",
+      "text": "bott"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15425,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15425,
+      "status": "candidate",
+      "text": "young"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15184,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15184,
+      "status": "candidate",
+      "text": "release"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "New PR Bot",
   "concept_id": "new-pr-bot",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/new_pr_bot.yml",
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/new_pr_bot.yml",
+      "source_repo": "hmellor/vllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

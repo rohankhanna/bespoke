@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:05:22.505081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "AdaCore/AdaSAT",
+    "html_url": "https://github.com/AdaCore/AdaSAT",
+    "language": "Ada",
+    "pushed_at": "2025-11-28T13:09:36Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-01-28T01:17:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/compileflow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/compileflow",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "bpmn2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "halo-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "process-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow",
+      "target": "spring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:44:43.983947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7427
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce",
+    "fork": false,
+    "full_name": "alibaba/compileflow",
+    "html_url": "https://github.com/alibaba/compileflow",
+    "language": "Java",
+    "pushed_at": "2025-10-05T09:40:42Z",
+    "stargazers_count": 1976,
+    "topics": [
+      "alibaba",
+      "bpmn2",
+      "compile",
+      "flow",
+      "halo-platform",
+      "java",
+      "process",
+      "process-engine",
+      "spring"
+    ],
+    "updated_at": "2026-04-20T23:59:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bpmn2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compile"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "halo-platform"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-engine"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    }
+  ]
+}

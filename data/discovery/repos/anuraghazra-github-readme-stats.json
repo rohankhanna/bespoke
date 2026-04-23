@@ -1,0 +1,877 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emoji-name-map",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "github-username-regex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "word-wrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/eslintrc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@uppercod/css-to-object",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios-mock-adapter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color-contrast-checker",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hjson",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.snakecase",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parse-diff",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@46a6823b81f2d7c67ddf123851eea88365bc8a67",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@46a6823b81f2d7c67ddf123851eea88365bc8a67",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prep.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prep.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml"
+    },
+    {
+      "component": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml"
+    },
+    {
+      "component": "rickstaa/empty-issues-closer-action@e96914613221511279ca25f50fd4acc85e331d99",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml"
+    },
+    {
+      "component": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml"
+    },
+    {
+      "component": "skx/github-action-tester@e29768ff4ff67be9d1fdbccd8836ab83233bebb1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@fdcae64e1484d349b3366718cdfef3d404390e85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml"
+    },
+    {
+      "component": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml"
+    },
+    {
+      "component": "bahmutov/npm-install@3e063b974f0d209807684aa23e534b3dde517fd9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "emoji-name-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "github-username-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "word-wrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@eslint/eslintrc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@testing-library/dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "@uppercod/css-to-object",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "axios-mock-adapter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "color-contrast-checker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "hjson",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "jest-environment-jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "lodash.snakecase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "parse-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "github/codeql-action/init@46a6823b81f2d7c67ddf123851eea88365bc8a67",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "github/codeql-action/analyze@46a6823b81f2d7c67ddf123851eea88365bc8a67",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Static code analysis workflow (CodeQL)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prep.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prep.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prep.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Deployment Prep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Test Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "rickstaa/empty-issues-closer-action@e96914613221511279ca25f50fd4acc85e331d99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Close empty issues and templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "skx/github-action-tester@e29768ff4ff67be9d1fdbccd8836ab83233bebb1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Generate Theme Readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "github/codeql-action/upload-sarif@fdcae64e1484d349b3366718cdfef3d404390e85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "OSSF Scorecard analysis workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "bahmutov/npm-install@3e063b974f0d209807684aa23e534b3dde517fd9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "Theme preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "dynamic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "readme-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "readme-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuraghazra/github-readme-stats",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:09:40.970244+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/deploy-prep.py",
+      "size": 188
+    },
+    {
+      "path": ".github/workflows/deploy-prep.yml",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/e2e-test.yml",
+      "size": 1146
+    },
+    {
+      "path": ".github/workflows/empty-issues-closer.yml",
+      "size": 1451
+    },
+    {
+      "path": ".github/workflows/generate-theme-doc.yml",
+      "size": 1452
+    },
+    {
+      "path": ".github/workflows/label-pr.yml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/ossf-analysis.yml",
+      "size": 1493
+    },
+    {
+      "path": ".github/workflows/preview-theme.yml",
+      "size": 1217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":zap: Dynamically generated stats for your github readmes",
+    "fork": false,
+    "full_name": "anuraghazra/github-readme-stats",
+    "html_url": "https://github.com/anuraghazra/github-readme-stats",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-31T00:50:07Z",
+    "stargazers_count": 79134,
+    "topics": [
+      "dynamic",
+      "profile-readme",
+      "readme-generator",
+      "readme-stats",
+      "serverless"
+    ],
+    "updated_at": "2026-04-23T17:32:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Static code analysis workflow (CodeQL)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Static code analysis workflow (CodeQL)"
+    },
+    {
+      "context_snippet": "Deployment Prep",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prep.yml",
+      "term": "Deployment Prep"
+    },
+    {
+      "context_snippet": "Test Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "term": "Test Deployment"
+    },
+    {
+      "context_snippet": "Close empty issues and templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/empty-issues-closer.yml",
+      "term": "Close empty issues and templates"
+    },
+    {
+      "context_snippet": "Generate Theme Readme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-theme-doc.yml",
+      "term": "Generate Theme Readme"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "OSSF Scorecard analysis workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-analysis.yml",
+      "term": "OSSF Scorecard analysis workflow"
+    },
+    {
+      "context_snippet": "Theme preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "term": "Theme preview"
+    },
+    {
+      "context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic"
+    },
+    {
+      "context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    },
+    {
+      "context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-generator"
+    },
+    {
+      "context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-stats"
+    },
+    {
+      "context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

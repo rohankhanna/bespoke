@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "posix-character-classes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "regex-not",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "snapdragon",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "to-regex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bash-match",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "helper-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multimatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "jonschlinkert/posix-character-classes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "micromatch/extglob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "micromatch/nanomatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "verbose/verb-generate-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "posix-character-classes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "regex-not",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "snapdragon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "to-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "bash-match",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "helper-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "multimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-brackets",
+      "target": "yargs-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "character-class",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "globbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "micromatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "posix-brackets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "regexp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets",
+      "target": "regular-expression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:42:47.992573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10362
+    },
+    {
+      "path": "package.json",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Expand POSIX bracket expressions (character classes) in glob patterns.",
+    "fork": false,
+    "full_name": "micromatch/expand-brackets",
+    "html_url": "https://github.com/micromatch/expand-brackets",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-04T10:08:35Z",
+    "stargazers_count": 27,
+    "topics": [
+      "character-class",
+      "glob",
+      "globbing",
+      "javascript",
+      "micromatch",
+      "node",
+      "nodejs",
+      "posix",
+      "posix-brackets",
+      "regex",
+      "regexp",
+      "regular-expression"
+    ],
+    "updated_at": "2024-04-08T12:53:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/posix-character-classes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micromatch/extglob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micromatch/nanomatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb-generate-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-class"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "globbing"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micromatch"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix-brackets"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regexp"
+    },
+    {
+      "context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    }
+  ]
+}

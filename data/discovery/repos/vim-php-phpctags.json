@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vim-php/phpctags",
-      "target": "nikic/php-parser",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vim-php/phpctags",
       "target": "techlivezheng/tagbar-phpctags",
       "target_type": "repository"
     },
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:24:13.286089+00:00",
+  "fetched_at": "2026-04-23T18:58:20.021529+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,11 +57,6 @@
     "updated_at": "2025-09-17T03:21:13Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nikic/php-parser",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "techlivezheng/tagbar-phpctags",

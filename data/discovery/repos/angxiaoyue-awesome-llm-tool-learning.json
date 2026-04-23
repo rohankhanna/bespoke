@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ailab-cvc/gpt4tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ber666/toolkengpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "ask-03/reverse-chain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AngxiaoYue/awesome-llm-tool-learning",
+      "target": "adriantheuma/llama2-raven",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:50:26.863935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A list of awesome papers on LLM tool learning.",
+    "fork": false,
+    "full_name": "AngxiaoYue/awesome-llm-tool-learning",
+    "html_url": "https://github.com/AngxiaoYue/awesome-llm-tool-learning",
+    "language": null,
+    "pushed_at": "2024-07-24T14:20:17Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-01-28T09:17:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adriantheuma/llama2-raven",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailab-cvc/gpt4tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ask-03/reverse-chain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ber666/toolkengpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

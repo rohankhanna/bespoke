@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BVLC/caffe",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BVLC/caffe",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BVLC/caffe",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:05.839729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Caffe: a fast open framework for deep learning.",
+    "fork": false,
+    "full_name": "BVLC/caffe",
+    "html_url": "https://github.com/BVLC/caffe",
+    "language": "C++",
+    "pushed_at": "2024-07-31T23:10:28Z",
+    "stargazers_count": 34627,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "vision"
+    ],
+    "updated_at": "2026-04-23T11:42:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

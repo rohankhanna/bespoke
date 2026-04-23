@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "conda"
+    "conda",
+    "Conda"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,42 @@
       "source_repo": "fastai/docker-containers",
       "status": "candidate-context",
       "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Example pybind11 module built with a CMake-based build system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate-context",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/scikit_build_example",
+      "status": "candidate-context",
+      "text": "An example combining scikit-build and pybind11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/scikit_build_example",
+      "status": "candidate-context",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "Conda recipes for the bioconda channel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +102,24 @@
       "source_repo": "fastai/docker-containers",
       "status": "candidate",
       "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/cmake_example",
+      "status": "candidate",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/scikit_build_example",
+      "status": "candidate",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bioconda/bioconda-recipes",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/bioconda/bioconda-recipes/master/logo/bioconda_monochrome_small.png"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +145,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fastai/docker-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/cmake_example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "pybind/scikit_build_example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bioconda/bioconda-recipes"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

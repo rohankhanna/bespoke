@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "disaggregated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "aggregated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "allocated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "apportioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "arranged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "based"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "disaggregated",
+  "concept_id": "disaggregated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disaggregated",
+      "sense_id": "disaggregated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

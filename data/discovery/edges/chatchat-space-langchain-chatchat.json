@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "ganymedenil/document.ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "qwenlm/qwen2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "meta-llama/llama3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "streamlit/streamlit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "test-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "hugoalh/disk-space-optimizer-ghaction@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "docker-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "chatchat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "faiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "fastchat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "langchain-chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "milvus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "streamlit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "xinference",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "chatchat-space/Langchain-Chatchat"
+}

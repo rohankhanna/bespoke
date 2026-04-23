@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Uring Kernel Version Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "Uring Kernel Version Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate",
+      "text": "Uring Kernel Version Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31498,
+      "status": "candidate",
+      "text": "heart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26577,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25777,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17606,
+      "status": "candidate",
+      "text": "nut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Uring Kernel Version Test",
+  "concept_id": "uring-kernel-version-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/uring-kernel-version-test.yml",
+      "source_repo": "tokio-rs/tokio"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Uring Kernel Version Test",
+      "sense_id": "uring-kernel-version-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

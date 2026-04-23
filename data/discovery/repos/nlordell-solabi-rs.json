@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nlordell/solabi-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nlordell/solabi-rs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "nlordell/solabi-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "nlordell/solabi-rs",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:37:51.817454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2276
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 671
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 272
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust Implementation of the Solidity ABI",
+    "fork": false,
+    "full_name": "nlordell/solabi-rs",
+    "html_url": "https://github.com/nlordell/solabi-rs",
+    "language": "Rust",
+    "pushed_at": "2025-09-06T21:44:37Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2025-09-06T21:43:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

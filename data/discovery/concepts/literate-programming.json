@@ -19,6 +19,18 @@
       "source_repo": "gzuidhof/starboard-notebook",
       "status": "candidate-context",
       "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "An advanced literate programming tool for writing incremental programming courses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate-context",
+      "text": "Sphinx Literate"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gzuidhof/starboard-notebook",
       "status": "candidate",
       "text": "[![NPM badge](https://img.shields.io/npm/v/starboard-notebook)](https://www.npmjs.com/package/starboard-notebook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/sphinx_literate",
+      "status": "candidate",
+      "text": "Sphinx Literate"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "gzuidhof/starboard-notebook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/sphinx_literate"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

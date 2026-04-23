@@ -1,7 +1,7 @@
 {
   "component": "prettier-plugin-packagejson",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -32,6 +32,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "blockprotocol/blockprotocol"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "simple-icons/simple-icons"
     }
   ]
 }

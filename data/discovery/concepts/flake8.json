@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "flake8",
+    "Flake8"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "The code linting framework for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "flake8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "Naming Convention checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate-context",
+      "text": "PEP 8 Naming Conventions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Apply black reformatting to Python files only in regions changed since a given commit. For a practical usage example, see the blog post at https://dev.to/akaihola/improving-python-code-incrementally-3f7a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate-context",
+      "text": "Flake8"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate",
+      "text": "flake8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pep8-naming",
+      "status": "candidate",
+      "text": "PEP 8 Naming Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akaihola/darker",
+      "status": "candidate",
+      "text": "Flake8"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "flake8",
+  "concept_id": "flake8",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "SublimeLinter/SublimeLinter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "akaihola/darker"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "flake8",
+      "sense_id": "flake8#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

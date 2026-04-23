@@ -1,0 +1,32 @@
+{
+  "component": "anchore/scan-action@main",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-centos7.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-centos8.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-bullseye.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-debian-buster.yml",
+      "source_repo": "boozallen/goobernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu-focal.yml",
+      "source_repo": "boozallen/goobernetes"
+    }
+  ]
+}

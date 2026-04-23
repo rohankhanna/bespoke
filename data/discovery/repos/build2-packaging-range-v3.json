@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:55:47.397937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "build2 package of range-v3 library",
+    "fork": false,
+    "full_name": "build2-packaging/range-v3",
+    "html_url": "https://github.com/build2-packaging/range-v3",
+    "language": null,
+    "pushed_at": "2022-08-09T16:07:53Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-10T13:13:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

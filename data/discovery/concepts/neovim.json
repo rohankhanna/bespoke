@@ -559,6 +559,306 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate-context",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate-context",
+      "text": ":heart: Slim, Fast and Hackable Completion Framework for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate-context",
+      "text": "Ncm2 is a slim, async and hackable completion framework for neovim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate-context",
+      "text": "Neovim Lua plugin for Base16 colorscheme creation. Part of 'mini.nvim' library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-base16_readme.png?raw=true\" alt=\"mini.base16\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc (coc.nvim) extension to lint CloudFormation via cfn-python-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate-context",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "A snazzy bufferline for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate-context",
+      "text": "Neovim Lua plugin to animate common Neovim actions. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-animate_readme.png?raw=true\" alt=\"mini.animate\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for nvim-cmp and nvim-compe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate-context",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "A vim plugin for communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate-context",
+      "text": "async completion in pure vim script for vim8 and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate-context",
+      "text": "asyncomplete.vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1a  Neovim package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate-context",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "Find, Filter, Preview, Pick. All lua, all the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate-context",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "status": "candidate-context",
+      "text": "Visual git plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "An interactive and powerful Git interface for Neovim, inspired by Magit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "\u23ea Telescope & Snacks pickers for resession.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for a code outline window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate-context",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate-context",
+      "text": "Database autocompletion powered by https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate-context",
+      "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c  An ecosystem of Vim/Neovim which allows developers to write cross-platform plugins in Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "Navigate your code with search labels, enhanced character motions and Treesitter integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "`flash.nvim` lets you navigate your code with search labels,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "Neovim's answer to the mouse \ud83e\udd98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate-context",
+      "text": "Debug Adapter Protocol client implementation for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate-context",
+      "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "Snippet plugin for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate-context",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "Snippet Engine for Neovim written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate-context",
+      "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate-context",
+      "text": "Vim integration for the Elixir formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate-context",
+      "text": "Elixir 1.6 introduced the formatter: `mix format`. This plugin makes it easy to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": ":sparkles: A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate-context",
+      "text": "A (Neo)vim plugin for formatting code."
     }
   ],
   "candidate_glosses": [
@@ -837,6 +1137,156 @@
       "source_repo": "justinmk/vim-sneak",
       "status": "candidate",
       "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncm2/ncm2",
+      "status": "candidate",
+      "text": "Ncm2 is a slim, async and hackable completion framework for neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.base16",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-base16_readme.png?raw=true\" alt=\"mini.base16\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joenye/coc-cfn-lint",
+      "status": "candidate",
+      "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akinsho/bufferline.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml/badge.svg)](https://github.com/akinsho/bufferline.nvim/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.animate",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-animate_readme.png?raw=true\" alt=\"mini.animate\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andersevenrud/cmp-tmux",
+      "status": "candidate",
+      "text": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/asyncomplete.vim",
+      "status": "candidate",
+      "text": "asyncomplete.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "savq/paq-nvim",
+      "status": "candidate",
+      "text": "Paq is a Neovim package manager written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/Conni2461/telescope.nvim?logo=lua&color=purple)](https://luarocks.org/modules/Conni2461/telescope.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "status": "candidate",
+      "text": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/aerial.nvim",
+      "status": "candidate",
+      "text": "A code outline window for skimming and quick navigation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-completion",
+      "status": "candidate",
+      "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate",
+      "text": "`flash.nvim` lets you navigate your code with search labels,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/leap.nvim",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap",
+      "status": "candidate",
+      "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/nvim-snippy",
+      "status": "candidate",
+      "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L3MON4D3/LuaSnip",
+      "status": "candidate",
+      "text": "[![LuaSnip](https://img.shields.io/matrix/luasnip:matrix.org?label=Matrix&logo=matrix)](https://matrix.to/#/%23luasnip:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-mix-format",
+      "status": "candidate",
+      "text": "Elixir 1.6 introduced the formatter: `mix format`. This plugin makes it easy to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbdchd/neoformat",
+      "status": "candidate",
+      "text": "A (Neo)vim plugin for formatting code."
     }
   ],
   "candidate_related_terms": [],
@@ -1150,11 +1600,167 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.base16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.animate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/asyncomplete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tanvirtin/vgit.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/aerial.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-completion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "folke/flash.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/leap.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dcampos/nvim-snippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "L3MON4D3/LuaSnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-mix-format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "sbdchd/neoformat"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

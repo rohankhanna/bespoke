@@ -19,6 +19,18 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate-context",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "Modern Job Scheduler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajvb/kala",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ajvb/kala"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

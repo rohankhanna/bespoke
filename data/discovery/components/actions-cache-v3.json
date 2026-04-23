@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -537,6 +537,211 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-lint-example-app.yml",
       "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "CodeClash-ai/CodeClash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox-rl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-upstream.yml",
+      "source_repo": "servo/stylo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/win_cpu_build.yml",
+      "source_repo": "arrayfire/arrayfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-base-image.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-cluster-image.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-lint.yml",
+      "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integrate-test.yml",
+      "source_repo": "apache/incubator-seata-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "benchsci/rules_nodejs_gazelle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "benchsci/rules_nodejs_gazelle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/algebra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "SunDoge/simdjson-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extra_sys.yml",
+      "source_repo": "thu-ml/tianshou"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "thu-ml/tianshou"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "thu-ml/tianshou"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "thu-ml/tianshou"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yaml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pettingllms-ai/PettingLLMs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "team-acaisia/php-varint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "rollup/plugins"
     }
   ]
 }

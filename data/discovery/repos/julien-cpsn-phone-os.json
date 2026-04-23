@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:38:56.823448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 808
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modern phone OS for ESP32 CYD",
+    "fork": false,
+    "full_name": "Julien-cpsn/Phone-OS",
+    "html_url": "https://github.com/Julien-cpsn/Phone-OS",
+    "language": "Rust",
+    "pushed_at": "2025-09-06T21:31:26Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-03-30T19:15:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

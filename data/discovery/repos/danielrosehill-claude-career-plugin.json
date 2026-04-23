@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:48:37.133912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: career planning workflow \u2014 /log-role, /compare-offer, /track-application, /salary-benchmark primitives, with planning/job-search/salary variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Career-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Career-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T13:13:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T13:13:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

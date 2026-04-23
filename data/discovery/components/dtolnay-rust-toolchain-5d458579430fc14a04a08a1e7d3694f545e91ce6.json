@@ -1,0 +1,12 @@
+{
+  "component": "dtolnay/rust-toolchain@5d458579430fc14a04a08a1e7d3694f545e91ce6",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin"
+    }
+  ]
+}

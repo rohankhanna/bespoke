@@ -847,6 +847,210 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate-context",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "Kubernetes controller for GitHub Actions self-hosted runners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate-context",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "\u2388\u274f Terminal and Web console for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "Official Python client library for kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "External-DNS Webhook to manage IONOS DNS Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate-context",
+      "text": "[![Build Status][14]][13]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "Superseded by https://github.com/aquasecurity/trivy-operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate-context",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "An interactive kubernetes client featuring auto-complete."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "Modern Bazel rules for building OCI container images with advanced performance optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "status": "candidate-context",
+      "text": "A jsonnet library that implements most of the kustomize operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "status": "candidate-context",
+      "text": "This repo contains [`kustomize.libsonnet`](https://github.com/anguslees/kustomize-libsonnet/blob/master/kustomize.libsonnet) - a jsonnet library that re-implements the core transformation operations of the Kubernetes [kustomize](https://kustomize.io/) tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
     }
   ],
   "candidate_glosses": [
@@ -1269,6 +1473,108 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/actions-runner-controller",
+      "status": "candidate",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6061/badge)](https://bestpractices.coreinfrastructure.org/projects/6061)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "_Secure event processing and discovery with CloudEvents_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/serving)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/consul",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-client/python",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate",
+      "text": "ExternalDNS is a Kubernetes add-on for automatically managing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/muhlba91/external-dns-provider-adguard?style=for-the-badge)](LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-workload-identity",
+      "status": "candidate",
+      "text": "[![Build Status][14]][13]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "We've announced our plans to discontinue Starboard and merge it into [Trivy](https://github.com/aquasecurity/trivy)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anguslees/kustomize-libsonnet",
+      "status": "candidate",
+      "text": "This repo contains [`kustomize.libsonnet`](https://github.com/anguslees/kustomize-libsonnet/blob/master/kustomize.libsonnet) - a jsonnet library that re-implements the core transformation operations of the Kubernetes [kustomize](https://kustomize.io/) tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
     }
   ],
   "candidate_related_terms": [
@@ -1792,11 +2098,125 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "actions/actions-runner-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-workload-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/starboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/kube-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "anguslees/kustomize-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ai-dynamo/grove"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

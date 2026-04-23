@@ -1,0 +1,12 @@
+{
+  "component": "docker/setup-buildx-action@6a58db7e0d21ca03e6c44877909e80e45217eed2",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "redhat-developer/yaml-language-server"
+    }
+  ]
+}

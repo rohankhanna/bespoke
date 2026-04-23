@@ -163,6 +163,114 @@
       "source_repo": "p7zip-project/p7zip",
       "status": "candidate-context",
       "text": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Cross-platform library to create & extract archives, compress & decompress files, and walk virtual file systems across various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate-context",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inikep/lizard",
+      "status": "candidate-context",
+      "text": "Lizard is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at fast decompression speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inikep/lizard",
+      "status": "candidate-context",
+      "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate-context",
+      "text": "LZ4 - Extremely fast compression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate-context",
+      "text": "FPC - Fast Prefix Coder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate-context",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "Semantic, self-describing binary format for Linked Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate-context",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "Mesh optimization library that makes meshes smaller and faster to render"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate-context",
+      "text": "When a GPU renders triangle meshes, various stages of the GPU pipeline have to process vertex and index data. The efficiency of these stages depends on the data you feed to them; this library provides algorithms to help optimize meshes for these stages, as well as algorithms to \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "Optimized Go Compression Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate-context",
+      "text": "This package provides various compression algorithms."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +351,60 @@
       "source_repo": "p7zip-project/p7zip",
       "status": "candidate",
       "text": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archives",
+      "status": "candidate",
+      "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inikep/lizard",
+      "status": "candidate",
+      "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4",
+      "status": "candidate",
+      "text": "LZ4 - Extremely fast compression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kagiannis/FPC",
+      "status": "candidate",
+      "text": "FPC is a FAST entropy coder that uses prefix codes (huffman) and has higher compression ratio than many AC or ANS implementations for non-skewed probability distributions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/iridium-cbor-ld",
+      "status": "candidate",
+      "text": "CBOR-LD is a **self-describing** binary format that encodes Linked Data expressed in JSON-LD into a compact form. Its primary purpose is to compress the verbose textual representation of JSON-LD into just a few bytes; small enough to embed in a QR code, barcode, or any other con\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/meshoptimizer",
+      "status": "candidate",
+      "text": "When a GPU renders triangle meshes, various stages of the GPU pipeline have to process vertex and index data. The efficiency of these stages depends on the data you feed to them; this library provides algorithms to help optimize meshes for these stages, as well as algorithms to \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/compress",
+      "status": "candidate",
+      "text": "This package provides various compression algorithms."
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +562,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "p7zip-project/p7zip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "lz4/lz4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kagiannis/FPC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zeux/meshoptimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "klauspost/compress"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

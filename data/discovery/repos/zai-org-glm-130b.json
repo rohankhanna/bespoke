@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-130B",
-      "target": "nvidia/fastertransformer",
+      "target": "thudm/glm-130b",
       "target_type": "repository"
     },
     {
@@ -26,11 +26,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-130B",
-      "target": "thudm/glm",
+      "target": "thudm/multilingual-glm",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T06:33:58.421453+00:00",
+  "fetched_at": "2026-04-23T22:07:52.661524+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,11 +58,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nvidia/fastertransformer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "thudm/chatglm-6b",
       "source_file": "README.md"
     },
@@ -73,7 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thudm/glm",
+      "full_name": "thudm/glm-130b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/multilingual-glm",
       "source_file": "README.md"
     }
   ],

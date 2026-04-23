@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gleam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f A friendly language for building type-safe, scalable systems!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gleam-lang/gleam",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992457,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992289,
+      "status": "candidate",
+      "text": "glimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992240,
+      "status": "candidate",
+      "text": "glisten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991989,
+      "status": "candidate",
+      "text": "glitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991607,
+      "status": "candidate",
+      "text": "shine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25036,
+      "status": "candidate",
+      "text": "glimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23042,
+      "status": "candidate",
+      "text": "glow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15023,
+      "status": "candidate",
+      "text": "gleaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "shine"
+    }
+  ],
+  "canonical_name": "gleam",
+  "concept_id": "gleam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gleam-lang/gleam"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gleam",
+      "sense_id": "gleam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

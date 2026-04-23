@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/publications",
+      "target": "ethereum/eips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/publications",
+      "target": "cryptonomic/tezori",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/publications",
+      "target": "ethstaker/ethstaker-deposit-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/publications",
+      "target": "binance-chain/tss-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "trailofbits/publications",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "trailofbits/publications",
+      "target": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "trailofbits/publications",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "trailofbits/publications",
+      "target": "dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "trailofbits/publications",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/publications",
+      "target": "academic-papers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/publications",
+      "target": "conference-presentations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/publications",
+      "target": "security-reviews",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:53:15.667528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 136415
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2567
+    },
+    {
+      "path": ".github/workflows/dependabot-automerge.yml",
+      "size": 743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Publications from Trail of Bits",
+    "fork": false,
+    "full_name": "trailofbits/publications",
+    "html_url": "https://github.com/trailofbits/publications",
+    "language": "Python",
+    "pushed_at": "2026-04-22T05:16:58Z",
+    "stargazers_count": 1819,
+    "topics": [
+      "academic-papers",
+      "conference-presentations",
+      "security-reviews"
+    ],
+    "updated_at": "2026-04-23T08:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binance-chain/tss-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryptonomic/tezori",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/eips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethstaker/ethstaker-deposit-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "- [Publications from Trail of Bits](#publications-from-trail-of-bits)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "academic-papers"
+    },
+    {
+      "context_snippet": "- [Publications from Trail of Bits](#publications-from-trail-of-bits)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conference-presentations"
+    },
+    {
+      "context_snippet": "- [Publications from Trail of Bits](#publications-from-trail-of-bits)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-reviews"
+    }
+  ]
+}

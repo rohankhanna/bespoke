@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/opsem-team",
+      "target": "rust-lang/lang-team",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:02:15.034403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home of the operational semantics team, used primarily for procedural items",
+    "fork": false,
+    "full_name": "rust-lang/opsem-team",
+    "html_url": "https://github.com/rust-lang/opsem-team",
+    "language": null,
+    "pushed_at": "2025-01-04T18:22:07Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-11-07T12:43:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/lang-team",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

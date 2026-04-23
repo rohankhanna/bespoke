@@ -31,6 +31,42 @@
       "source_repo": "fishaudio/Bert-VITS2",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate-context",
+      "text": "Best practice TTS based on BERT and VITS with some Natural Speech Features Of Microsoft; Support ONNX streaming out!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate-context",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hcy71o/TransferTTS",
+      "status": "candidate-context",
+      "text": "TransferTTS (Zero-Shot learning of VITS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/TransferTTS",
+      "status": "candidate-context",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate-context",
+      "text": "VITS-based zero-shot TTS system varying with diverse style/speaker conditioning methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate-context",
+      "text": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "fishaudio/Bert-VITS2",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/TransferTTS",
+      "status": "candidate",
+      "text": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SC-VITS",
+      "status": "candidate",
+      "text": "[VITS](https://arxiv.org/abs/2106.06103): Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +147,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fishaudio/Bert-VITS2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hcy71o/TransferTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hcy71o/SC-VITS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

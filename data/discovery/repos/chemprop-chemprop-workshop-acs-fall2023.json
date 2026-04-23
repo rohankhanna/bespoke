@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chemprop/chemprop-workshop-acs-fall2023",
+      "target": "kevingreenman/chemprop-workshop-acs-fall2023",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:43:35.157499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notebooks and datasets for ACS Fall 2023 CATL workshop",
+    "fork": false,
+    "full_name": "chemprop/chemprop-workshop-acs-fall2023",
+    "html_url": "https://github.com/chemprop/chemprop-workshop-acs-fall2023",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-08-21T21:11:59Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-07-12T15:07:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kevingreenman/chemprop-workshop-acs-fall2023",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

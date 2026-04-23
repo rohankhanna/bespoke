@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:10:07.598573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).",
+    "fork": false,
+    "full_name": "joan2937/pigpio",
+    "html_url": "https://github.com/joan2937/pigpio",
+    "language": "C",
+    "pushed_at": "2024-06-24T15:18:29Z",
+    "stargazers_count": 1587,
+    "topics": [],
+    "updated_at": "2026-04-22T08:37:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

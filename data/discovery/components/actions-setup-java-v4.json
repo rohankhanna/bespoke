@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -267,6 +267,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integ.yml",
+      "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yaml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LaurenzV/krilla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java-all-versions.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yml",
+      "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/iridium-cbor-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy-coverage.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java21-build.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-jcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java17-build.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-publish.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "filip26/titanium-json-ld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/google-java-format"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/google-java-format"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soot-oss/soot"
     }
   ]
 }

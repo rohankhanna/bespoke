@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "Spell Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "style-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/clojure-style-guide",
+      "target": "styleguide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:52:40.412564+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/spell_checking.yml",
+      "size": 1013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A community coding style guide for the Clojure programming language",
+    "fork": false,
+    "full_name": "bbatsov/clojure-style-guide",
+    "html_url": "https://github.com/bbatsov/clojure-style-guide",
+    "language": null,
+    "pushed_at": "2026-04-15T08:05:32Z",
+    "stargazers_count": 4087,
+    "topics": [
+      "clojure",
+      "style-guide",
+      "styleguide"
+    ],
+    "updated_at": "2026-04-22T08:59:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "term": "Spell Checking"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:55:08.710263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MetroHash v1: Exceptionally fast and statistically robust hash functions",
+    "fork": false,
+    "full_name": "jandrewrogers/MetroHash",
+    "html_url": "https://github.com/jandrewrogers/MetroHash",
+    "language": "C++",
+    "pushed_at": "2022-08-30T20:33:18Z",
+    "stargazers_count": 371,
+    "topics": [],
+    "updated_at": "2026-04-07T13:56:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

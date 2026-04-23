@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JSON for Humans (ES6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.com/d3x0r/JSON6.svg?branch=master)](https://travis-ci.com/d3x0r/JSON6)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/d3x0r/JSON6.svg?branch=master)](https://travis-ci.com/d3x0r/JSON6)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022791,
+      "status": "candidate",
+      "text": "ecmascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022790,
+      "status": "candidate",
+      "text": "cbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022789,
+      "status": "candidate",
+      "text": "javascripting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022788,
+      "status": "candidate",
+      "text": "jsni"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json",
+      "sense_id": "json#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "json",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "json",
+  "observation_id": "9f40e37e96ea32f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "json",
+  "source_context_snippet": "[![Build Status](https://travis-ci.com/d3x0r/JSON6.svg?branch=master)](https://travis-ci.com/d3x0r/JSON6)",
+  "source_file": null,
+  "source_repo": "d3x0r/JSON6",
+  "source_repo_description": "JSON for Humans (ES6)"
+}

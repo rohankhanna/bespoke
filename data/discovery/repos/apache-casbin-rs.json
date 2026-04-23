@@ -131,6 +131,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/casbin-rs",
+      "target": "casbin/casbin-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-rs",
       "target": "casbin/casbin",
       "target_type": "repository"
     },
@@ -146,13 +153,6 @@
       "source_file": "README.md",
       "source_repo": "apache/casbin-rs",
       "target": "casbin/casbin-cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/casbin-rs",
-      "target": "casbin-rs/examples",
       "target_type": "repository"
     },
     {
@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:38:50.813313+00:00",
+  "fetched_at": "2026-04-23T20:54:59.362050+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,17 +423,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "casbin-rs/examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "casbin/casbin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "casbin/casbin-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin/casbin-rs",
       "source_file": "README.md"
     }
   ],

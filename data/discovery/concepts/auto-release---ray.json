@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Release - Ray"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate-context",
+      "text": " One stop shop for running AI/ML on AWS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate-context",
+      "text": "Auto Release - Ray"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/deep-learning-containers",
+      "status": "candidate",
+      "text": "Auto Release - Ray"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17992,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17956,
+      "status": "candidate",
+      "text": "oilcan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "blinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "rally"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Release - Ray",
+  "concept_id": "auto-release---ray",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/auto-release-ray.yml",
+      "source_repo": "aws/deep-learning-containers"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Release - Ray",
+      "sense_id": "auto-release---ray#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

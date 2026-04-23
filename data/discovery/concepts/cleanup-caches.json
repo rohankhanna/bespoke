@@ -19,12 +19,30 @@
       "source_repo": "mpv-player/mpv",
       "status": "candidate-context",
       "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Run Generative AI models with simple C++/Python API and using OpenVINO Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate-context",
+      "text": "Cleanup caches"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mpv-player/mpv",
+      "status": "candidate",
+      "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino.genai",
       "status": "candidate",
       "text": "Cleanup caches"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cleanup_caches.yml",
       "source_repo": "mpv-player/mpv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "openvinotoolkit/openvino.genai"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

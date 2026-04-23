@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "vaab/colour",
+      "target": "vaab/gitchangelog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:38:01.294391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python color representations manipulation library (RGB, HSL, web, ...)",
+    "fork": false,
+    "full_name": "vaab/colour",
+    "html_url": "https://github.com/vaab/colour",
+    "language": "Python",
+    "pushed_at": "2023-07-30T17:24:17Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-03-24T20:32:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaab/gitchangelog",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

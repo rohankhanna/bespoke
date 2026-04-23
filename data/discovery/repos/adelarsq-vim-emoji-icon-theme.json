@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/neoline.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/vim-pomodoro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/vim-devicons-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "adelarsq/neovcs.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "blacklivesmatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "nowar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:11.920000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emoji/Unicode Icons Theme for Vim and Neovim with support for 40+ plugins and 380+ filetypes \ud83c\udfa8\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a",
+    "fork": false,
+    "full_name": "adelarsq/vim-emoji-icon-theme",
+    "html_url": "https://github.com/adelarsq/vim-emoji-icon-theme",
+    "language": "Vim Script",
+    "pushed_at": "2026-02-17T01:22:51Z",
+    "stargazers_count": 91,
+    "topics": [
+      "blacklivesmatter",
+      "emoji",
+      "neovim",
+      "nowar",
+      "theme",
+      "vim"
+    ],
+    "updated_at": "2026-04-21T18:32:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelarsq/neoline.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelarsq/neovcs.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelarsq/vim-devicons-emoji",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelarsq/vim-pomodoro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blacklivesmatter"
+    },
+    {
+      "context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nowar"
+    },
+    {
+      "context_snippet": "This plugin uses emojis to represent filetypes, signs and symbols for many plugins. So there is no need for overrided fonts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

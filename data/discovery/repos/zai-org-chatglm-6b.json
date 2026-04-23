@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "jittor/jittorllms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "imclumsypanda/langchain-chatglm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/ChatGLM-6B",
+      "target": "l15y/wenda",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:41:53.557779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16990
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatGLM-6B: An Open Bilingual Dialogue Language Model | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+    "fork": false,
+    "full_name": "zai-org/ChatGLM-6B",
+    "html_url": "https://github.com/zai-org/ChatGLM-6B",
+    "language": "Python",
+    "pushed_at": "2024-06-27T04:05:25Z",
+    "stargazers_count": 41154,
+    "topics": [],
+    "updated_at": "2026-04-23T16:50:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imclumsypanda/langchain-chatglm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jittor/jittorllms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l15y/wenda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

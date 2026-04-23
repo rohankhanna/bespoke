@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ec4db0b4ddc65acdf4bff5fa45ac92d78b56bdf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_base.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "Build Base Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "Lint & Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "pypa/gh-action-pypi-publish@ec4db0b4ddc65acdf4bff5fa45ac92d78b56bdf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eole-nlp/eole",
+      "target": "Deploy Docs & Publish to PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eole-nlp/eole",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eole-nlp/eole",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:11:50.736422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10169
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/build_base.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 18587
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 906
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open language modeling toolkit based on PyTorch",
+    "fork": false,
+    "full_name": "eole-nlp/eole",
+    "html_url": "https://github.com/eole-nlp/eole",
+    "language": "Python",
+    "pushed_at": "2026-04-23T14:29:08Z",
+    "stargazers_count": 182,
+    "topics": [
+      "ai",
+      "language-model",
+      "nlp",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T14:29:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Docker Images"
+    },
+    {
+      "context_snippet": "Build Base Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_base.yml",
+      "term": "Build Base Docker Image"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Lint & Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Lint & Tests"
+    },
+    {
+      "context_snippet": "Deploy Docs & Publish to PyPi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Deploy Docs & Publish to PyPi"
+    },
+    {
+      "context_snippet": "[Screencast from 2026-03-15 14-04-56.webm](https://github.com/user-attachments/assets/206632fd-a0a0-4189-a899-ba32343181fb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[Screencast from 2026-03-15 14-04-56.webm](https://github.com/user-attachments/assets/206632fd-a0a0-4189-a899-ba32343181fb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

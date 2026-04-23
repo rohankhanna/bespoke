@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "All-in-One Development Tool based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Develop Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Develop Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14195,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "abstract of title"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "beepers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "calve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "charles fourier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Develop Docs",
+      "sense_id": "develop-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "develop-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "develop-docs",
+  "observation_id": "018fd454241376a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Develop Docs",
+  "source_context_snippet": "Develop Docs",
+  "source_file": ".github/workflows/deploy_docs.yml",
+  "source_repo": "PaddlePaddle/PaddleX",
+  "source_repo_description": "All-in-One Development Tool based on PaddlePaddle"
+}

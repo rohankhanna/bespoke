@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build mycelo image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Previous official repository for the golang Celo Blockchain, for current see op-geth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate-context",
+      "text": "Build mycelo image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-blockchain",
+      "status": "candidate",
+      "text": "Build mycelo image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "blueprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11677,
+      "status": "candidate",
+      "text": "dream"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build mycelo image",
+  "concept_id": "build-mycelo-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mycelo-docker-image.yaml",
+      "source_repo": "celo-org/celo-blockchain"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build mycelo image",
+      "sense_id": "build-mycelo-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

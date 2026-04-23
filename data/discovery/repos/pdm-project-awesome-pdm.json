@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "abersheeran/pdm-version",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "abersheeran/pdm-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "andriykohut/pdm-readiness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "aviksaikat/cookiecutter-pdm-pypackage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pdm-project/awesome-pdm",
+      "target": "awesome-list",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:41:10.791243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome PDM plugins and resources",
+    "fork": false,
+    "full_name": "pdm-project/awesome-pdm",
+    "html_url": "https://github.com/pdm-project/awesome-pdm",
+    "language": null,
+    "pushed_at": "2025-05-23T02:01:32Z",
+    "stargazers_count": 386,
+    "topics": [
+      "awesome",
+      "awesome-list"
+    ],
+    "updated_at": "2026-03-25T06:55:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abersheeran/pdm-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abersheeran/pdm-version",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andriykohut/pdm-readiness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aviksaikat/cookiecutter-pdm-pypackage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    }
+  ]
+}

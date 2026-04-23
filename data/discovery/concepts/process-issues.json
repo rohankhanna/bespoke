@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Process issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "Process issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "Process issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12266,
+      "status": "candidate",
+      "text": "administration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12266,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12266,
+      "status": "candidate",
+      "text": "between"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12266,
+      "status": "candidate",
+      "text": "competitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12266,
+      "status": "candidate",
+      "text": "conditions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Process issues",
+  "concept_id": "process-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "fastlane/fastlane"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Process issues",
+      "sense_id": "process-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

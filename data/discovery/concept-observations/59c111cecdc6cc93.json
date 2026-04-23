@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CPU tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CPU tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11171,
+      "status": "candidate",
+      "text": "microcontroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11006,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10884,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10840,
+      "status": "candidate",
+      "text": "bars"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPU tests",
+      "sense_id": "cpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cpu-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cpu-tests",
+  "observation_id": "59c111cecdc6cc93",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "CPU tests",
+  "source_context_snippet": "CPU tests",
+  "source_file": ".github/workflows/cpu-tests.yml",
+  "source_repo": "Lightning-AI/litgpt",
+  "source_repo_description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+}

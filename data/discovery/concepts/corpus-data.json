@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "corpus-data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "ChatGPT \u4e2d\u6587\u8bed\u6599\u5e93 \u5bf9\u8bdd\u8bed\u6599 \u5c0f\u8bf4\u8bed\u6599 \u5ba2\u670d\u8bed\u6599 \u7528\u4e8e\u8bad\u7ec3\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate-context",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlexPt/chatgpt-corpus",
+      "status": "candidate",
+      "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "corpus-data",
+  "concept_id": "corpus-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PlexPt/chatgpt-corpus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "corpus-data",
+      "sense_id": "corpus-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

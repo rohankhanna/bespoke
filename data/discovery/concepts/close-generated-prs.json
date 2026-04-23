@@ -319,6 +319,228 @@
       "source_repo": "sigp/rust-libp2p",
       "status": "candidate-context",
       "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "An implementation of IPFS in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaIPFS documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate-context",
+      "text": "A frontend for an IPFS Kubo and IPFS Desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate-context",
+      "text": "Java implementation of Content Identifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate-context",
+      "text": "Multiformats interface (multihash, multicodec, multibase and CID)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/java-multibase",
+      "status": "candidate-context",
+      "text": "A Java implementation of multibase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/java-multibase",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/unsigned-varint",
+      "status": "candidate-context",
+      "text": "unsigned varint in use in multiformat specs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/unsigned-varint",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "Ready-to-run Helia examples for Node.js and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "The Routing V1 HTTP API powered by Helia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Run Helia NodeJS in a Docker Container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/devgrants",
+      "status": "candidate-context",
+      "text": "The IPFS Grant platform connects funding organizations with builders and researchers in the IPFS community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/devgrants",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate-context",
+      "text": "A client library for the Kubo RPC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "CID in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-blockcodec-to-ipld-format",
+      "status": "candidate-context",
+      "text": "Convert a BlockCodec from the multiformats module to an IPLD format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-blockcodec-to-ipld-format",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate-context",
+      "text": "dag-cbor codec for IPLD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-varint",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
     }
   ],
   "candidate_glosses": [
@@ -475,6 +697,120 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sigp/rust-libp2p",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-docs",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-webui",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/java-cid",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-multiformats",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/java-multibase",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/unsigned-varint",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/helia-examples",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-remote-pinning",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/devgrants",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipshipyard/ipfs-deploy-action",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-desktop",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/rust-cid",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-blockcodec-to-ipld-format",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-cbor",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/go-varint",
       "status": "candidate",
       "text": "Close Generated PRs"
     }
@@ -688,11 +1024,131 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/java-cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/js-multiformats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/java-multibase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/unsigned-varint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-examples/helia-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia-delegated-routing-v1-http-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/helia-remote-pinning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/devgrants"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/rust-cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-blockcodec-to-ipld-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-dag-cbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/go-varint"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

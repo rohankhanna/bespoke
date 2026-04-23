@@ -19,6 +19,30 @@
       "source_repo": "fwcd/tree-sitter-kotlin",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "JavaScript syntax highlighter with language auto-detection and zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate-context",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "fwcd/tree-sitter-kotlin",
       "status": "candidate",
       "text": "[![Build](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highlightjs/highlight.js",
+      "status": "candidate",
+      "text": "[![latest version](https://badgen.net/npm/v/highlight.js?label=latest)](https://www.npmjs.com/package/highlight.js)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "fwcd/tree-sitter-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

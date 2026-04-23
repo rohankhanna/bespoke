@@ -31,6 +31,18 @@
       "source_repo": "deepspeedai/DeepSpeed",
       "status": "candidate-context",
       "text": "amd-mi200"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "status": "candidate-context",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "status": "candidate-context",
+      "text": "amd-mi200"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate",
+      "text": "amd-mi200"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/DeepSpeed",
       "status": "candidate",
       "text": "amd-mi200"
     }
@@ -64,11 +82,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/amd-mi200.yml",
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "HabanaAI/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

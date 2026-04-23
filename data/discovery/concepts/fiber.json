@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "fiber"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39539879,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29697803,
+      "status": "candidate",
+      "text": "fibre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29697803,
+      "status": "candidate",
+      "text": "vulcanized fiber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29697802,
+      "status": "candidate",
+      "text": "textile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29696446,
+      "status": "candidate",
+      "text": "lint"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6039,
+      "status": "candidate",
+      "text": "fibre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "vulcanized fiber"
+    }
+  ],
+  "canonical_name": "fiber",
+  "concept_id": "fiber",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/fiber"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fiber",
+      "sense_id": "fiber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

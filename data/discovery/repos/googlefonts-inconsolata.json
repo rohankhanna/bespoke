@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/Inconsolata",
+      "target": "googlefonts/fontmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/Inconsolata",
+      "target": "google/fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googlefonts/Inconsolata",
+      "target": "google-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googlefonts/Inconsolata",
+      "target": "inconsolata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googlefonts/Inconsolata",
+      "target": "inconsolata-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:51.681708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8259
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development repo of Inconsolata Fonts by Raph Levien",
+    "fork": false,
+    "full_name": "googlefonts/Inconsolata",
+    "html_url": "https://github.com/googlefonts/Inconsolata",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T21:11:24Z",
+    "stargazers_count": 1541,
+    "topics": [
+      "google-fonts",
+      "inconsolata",
+      "inconsolata-fonts"
+    ],
+    "updated_at": "2026-04-23T04:24:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/fontmake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-fonts"
+    },
+    {
+      "context_snippet": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inconsolata"
+    },
+    {
+      "context_snippet": "Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inconsolata-fonts"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "trashcan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate-context",
+      "text": "Command line interface to the freedesktop.org trashcan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate-context",
+      "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreafrancia/trash-cli",
+      "status": "candidate",
+      "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019425,
+      "status": "candidate",
+      "text": "wastebasket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019424,
+      "status": "candidate",
+      "text": "trash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019423,
+      "status": "candidate",
+      "text": "trashcans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019422,
+      "status": "candidate",
+      "text": "dumpster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019421,
+      "status": "candidate",
+      "text": "garbage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "trashcan",
+  "concept_id": "trashcan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "andreafrancia/trash-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trashcan",
+      "sense_id": "trashcan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

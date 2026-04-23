@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/blazor-issue-processing.yml",
+      "source_repo": "dotnet/AspNetCore.Docs"
+    }
+  ],
+  "term": "Issue processing"
+}

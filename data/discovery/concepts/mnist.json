@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "mnist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate-context",
+      "text": "This repo contains a PyTorch implementation of the paper: \"Evidential Deep Learning to Quantify Classification Uncertainty\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate-context",
+      "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "GPU Accelerated t-SNE for CUDA with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "status": "candidate",
+      "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CannyLab/tsne-cuda",
+      "status": "candidate",
+      "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "nist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "umist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "nigms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "dcnn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "njit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mnist",
+  "concept_id": "mnist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CannyLab/tsne-cuda"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mnist",
+      "sense_id": "mnist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

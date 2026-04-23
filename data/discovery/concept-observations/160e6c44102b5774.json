@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flat file markdown blogging system with filesystem watch and extended markdown support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027579,
+      "status": "candidate",
+      "text": "blog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993148,
+      "status": "candidate",
+      "text": "codification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19860448,
+      "status": "candidate",
+      "text": "filing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027586,
+      "status": "candidate",
+      "text": "blogs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027585,
+      "status": "candidate",
+      "text": "weblogging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blogging",
+      "sense_id": "blogging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blogging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blogging",
+  "observation_id": "160e6c44102b5774",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "blogging",
+  "source_context_snippet": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)",
+  "source_file": null,
+  "source_repo": "depado/smallblog",
+  "source_repo_description": "Flat file markdown blogging system with filesystem watch and extended markdown support"
+}

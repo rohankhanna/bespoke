@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-support-matrix.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-support-matrix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Cherry-pick to Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Copyright Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-charts.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Create Sanity Check Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-support-matrix-release.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Daily Support Matrix Update (Release)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-support-matrix.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-support-matrix.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-support-matrix.yml",
+      "source_repo": "ai-dynamo/aiconfigurator",
+      "target": "Daily Support Matrix Update (Main)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:05.870512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22741
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5216
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/cherry-pick.yml",
+      "size": 4548
+    },
+    {
+      "path": ".github/workflows/common.ps1",
+      "size": 13196
+    },
+    {
+      "path": ".github/workflows/copyright-check.ps1",
+      "size": 10935
+    },
+    {
+      "path": ".github/workflows/copyright-checks.yml",
+      "size": 766
+    },
+    {
+      "path": ".github/workflows/create-charts.yml",
+      "size": 4631
+    },
+    {
+      "path": ".github/workflows/daily-support-matrix-release.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/daily-support-matrix.yml",
+      "size": 5485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Offline optimization of your disaggregated Dynamo graph",
+    "fork": false,
+    "full_name": "ai-dynamo/aiconfigurator",
+    "html_url": "https://github.com/ai-dynamo/aiconfigurator",
+    "language": "Python",
+    "pushed_at": "2026-04-23T19:16:06Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-04-23T19:13:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build and Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Cherry-pick to Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "term": "Cherry-pick to Release Branch"
+    },
+    {
+      "context_snippet": "Copyright Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-checks.yml",
+      "term": "Copyright Checks"
+    },
+    {
+      "context_snippet": "Create Sanity Check Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-charts.yml",
+      "term": "Create Sanity Check Charts"
+    },
+    {
+      "context_snippet": "\"Daily Support Matrix Update (Release)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-support-matrix-release.yml",
+      "term": "Daily Support Matrix Update (Release)"
+    },
+    {
+      "context_snippet": "\"Daily Support Matrix Update (Main)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-support-matrix.yml",
+      "term": "Daily Support Matrix Update (Main)"
+    }
+  ]
+}

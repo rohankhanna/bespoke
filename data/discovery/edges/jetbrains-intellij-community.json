@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "jetbrains/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle_wrappers_validation.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle_wrappers_validation.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gradle_wrappers_validation.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "Gradle Wrappers Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IntelliJ_IDEA.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "IntelliJ IDEA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PyCharm.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "PyCharm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "JetBrains/qodana-action@v2024.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "Qodana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ide_build_and_upload.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ide_build_and_upload.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/upload-artifact@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ide_build_and_upload.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/download-artifact@v4.1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ide_build_and_upload.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "IDE Build and Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "mikepenz/action-junit-report@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community",
+      "target": "Jewel Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-community",
+      "target": "code-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-community",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-community",
+      "target": "intellij-community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-community",
+      "target": "intellij-platform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "JetBrains/intellij-community"
+}

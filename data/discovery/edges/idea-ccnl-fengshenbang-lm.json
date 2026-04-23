@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "cluebenchmark/clue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "idea-ccnl/stable-diffusion-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-CCNL/Fengshenbang-LM",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "IDEA-CCNL/Fengshenbang-LM"
+}

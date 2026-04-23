@@ -1,0 +1,666 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-check-markdown.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-check-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-brew.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-brew.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-choco.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "peter-evans/find-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "httpie/cli",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "httpie/cli",
+      "target": "Code Style Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content.yml",
+      "source_repo": "httpie/cli",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/content.yml",
+      "source_repo": "httpie/cli",
+      "target": "Update Generated Content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "httpie/cli",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-check-markdown.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-check-markdown.yml",
+      "source_repo": "httpie/cli",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "httpie/cli",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-brew.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-brew.yml",
+      "source_repo": "httpie/cli",
+      "target": "mislav/bump-homebrew-formula-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-brew.yml",
+      "source_repo": "httpie/cli",
+      "target": "Release on Homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-choco.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-choco.yml",
+      "source_repo": "httpie/cli",
+      "target": "Release on Chocolatey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "source_repo": "httpie/cli",
+      "target": "Release as Standalone Linux Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "api-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "httpie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "httpie/cli",
+      "target": "usability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:04:56.108715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4883
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/code-style.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/content.yml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/docs-check-markdown.yml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/docs-deploy.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/release-brew.yml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/release-choco.yml",
+      "size": 1945
+    },
+    {
+      "path": ".github/workflows/release-linux-standalone.yml",
+      "size": 2407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
+    "fork": false,
+    "full_name": "httpie/cli",
+    "html_url": "https://github.com/httpie/cli",
+    "language": "Python",
+    "pushed_at": "2024-12-17T17:30:35Z",
+    "stargazers_count": 37986,
+    "topics": [
+      "api",
+      "api-client",
+      "api-testing",
+      "cli",
+      "client",
+      "curl",
+      "debugging",
+      "developer-tools",
+      "development",
+      "devops",
+      "http",
+      "http-client",
+      "httpie",
+      "json",
+      "python",
+      "rest",
+      "rest-api",
+      "terminal",
+      "usability",
+      "web"
+    ],
+    "updated_at": "2026-04-23T20:39:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Code Style Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "term": "Code Style Check"
+    },
+    {
+      "context_snippet": "Update Generated Content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/content.yml",
+      "term": "Update Generated Content"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "term": "Deploy Documentation"
+    },
+    {
+      "context_snippet": "Release on Homebrew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-brew.yml",
+      "term": "Release on Homebrew"
+    },
+    {
+      "context_snippet": "Release on Chocolatey",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-choco.yml",
+      "term": "Release on Chocolatey"
+    },
+    {
+      "context_snippet": "Release as Standalone Linux Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-linux-standalone.yml",
+      "term": "Release as Standalone Linux Package"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-client"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-testing"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "httpie"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usability"
+    }
+  ]
+}

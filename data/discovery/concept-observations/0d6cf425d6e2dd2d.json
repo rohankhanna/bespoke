@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021902,
+      "status": "candidate",
+      "text": "blog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021965,
+      "status": "candidate",
+      "text": "mastodon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021964,
+      "status": "candidate",
+      "text": "moodle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021963,
+      "status": "candidate",
+      "text": "mysqler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021962,
+      "status": "candidate",
+      "text": "mainspace"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wordpress",
+      "sense_id": "wordpress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wordpress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wordpress",
+  "observation_id": "0d6cf425d6e2dd2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "wordpress",
+  "source_context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+  "source_file": null,
+  "source_repo": "gautamkrishnar/blog-post-workflow",
+  "source_repo_description": "Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed"
+}

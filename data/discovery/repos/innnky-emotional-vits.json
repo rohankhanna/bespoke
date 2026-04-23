@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/emotional-vits",
+      "target": "audeering/w2v2-how-to",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/emotional-vits",
+      "target": "cjangcjengh/moegoe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:48.333170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2246
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u65e0\u9700\u60c5\u611f\u6807\u6ce8\u7684\u60c5\u611f\u53ef\u63a7\u8bed\u97f3\u5408\u6210\u6a21\u578b\uff0c\u57fa\u4e8eVITS",
+    "fork": false,
+    "full_name": "innnky/emotional-vits",
+    "html_url": "https://github.com/innnky/emotional-vits",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-03-30T11:10:17Z",
+    "stargazers_count": 1396,
+    "topics": [],
+    "updated_at": "2026-04-23T14:47:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audeering/w2v2-how-to",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjangcjengh/moegoe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

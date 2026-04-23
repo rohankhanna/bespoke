@@ -493,6 +493,114 @@
       "source_repo": "nodenv/nodenv",
       "status": "candidate-context",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf44 Automagically use the correct version of node with nvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate-context",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jandamm/zgenom-ext-eval",
+      "status": "candidate-context",
+      "text": "Evaluate commands and create ad hoc plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-eval",
+      "status": "candidate-context",
+      "text": "Big thanks to [zoritle](https://github.com/zoritle) for the idea and [initial"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate-context",
+      "text": "Use zgenom and gh to download releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate-context",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate-context",
+      "text": "`$ mdsh` # a markdown shell pre-processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant dircolors theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate-context",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform provider for executing shell commands and saving output to state file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate-context",
+      "text": "Terraform Provider Shell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "Your shell history: synced, queryable, and in context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate-context",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "Typer, build great CLIs. Easy to code. Based on Python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -735,6 +843,60 @@
       "source_repo": "nodenv/nodenv",
       "status": "candidate",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamogbz/nvshim",
+      "status": "candidate",
+      "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-eval",
+      "status": "candidate",
+      "text": "Big thanks to [zoritle](https://github.com/zoritle) for the idea and [initial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom-ext-release",
+      "status": "candidate",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zimbatm/mdsh",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml/badge.svg)](https://github.com/zimbatm/mdsh/actions/workflows/ci.yaml?branch=master) [![crates.io](https://img.shields.io/crates/v/mdsh.svg)](https://crates.io/crates/mdsh)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/dircolors",
+      "status": "candidate",
+      "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottwinkler/terraform-provider-shell",
+      "status": "candidate",
+      "text": "Terraform Provider Shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddworken/hishtory",
+      "status": "candidate",
+      "text": "`hishtory` is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. All of th\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1114,11 +1276,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "iamogbz/nvshim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom-ext-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zimbatm/mdsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/dircolors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottwinkler/terraform-provider-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sentry's documentation (and tools to build it)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enforce License Compliance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enforce License Compliance"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34321,
+      "status": "candidate",
+      "text": "impose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26293,
+      "status": "candidate",
+      "text": "respect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26166,
+      "status": "candidate",
+      "text": "wring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18032,
+      "status": "candidate",
+      "text": "coerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "government"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce License Compliance",
+      "sense_id": "enforce-license-compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-license-compliance",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-license-compliance",
+  "observation_id": "50f156f02f246e1e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Enforce License Compliance",
+  "source_context_snippet": "Enforce License Compliance",
+  "source_file": ".github/workflows/enforce-license-compliance.yml",
+  "source_repo": "getsentry/sentry-docs",
+  "source_repo_description": "Sentry's documentation (and tools to build it)"
+}

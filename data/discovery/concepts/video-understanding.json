@@ -43,6 +43,18 @@
       "source_repo": "Cogito2012/DEAR",
       "status": "candidate-context",
       "text": ":boom:**Update**:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boheumd/MA-LMM",
+      "status": "candidate-context",
+      "text": "(2024CVPR) MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boheumd/MA-LMM",
+      "status": "candidate-context",
+      "text": "The official repository of our paper \"**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**\"."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Cogito2012/DEAR",
       "status": "candidate",
       "text": ":boom:**Update**:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boheumd/MA-LMM",
+      "status": "candidate",
+      "text": "The official repository of our paper \"**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**\"."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Cogito2012/DEAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "boheumd/MA-LMM"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

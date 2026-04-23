@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "andreasbriese/iplocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "ajvb/kala",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "abhigupta912/mbuckets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/bbolt",
+      "target": "anacrolix/torrent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-pr.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Benchmarks on PRs (AMD64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-releases.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Nightly Benchmarks against last release (AMD64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Reusable Benchmark Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-arch-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-arch-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-arch-template.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Reusable Cross-Platform Build Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-arch-test.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Cross-Platform Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failpoint_test.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failpoint_test.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failpoint_test.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Failpoint test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Approve GitHub Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "etcd-io/bbolt"
+}

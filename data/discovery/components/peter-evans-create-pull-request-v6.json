@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs_release_auto_sync_pr.yml",
       "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-support-matrix.yml",
+      "source_repo": "ai-dynamo/aiconfigurator"
     }
   ]
 }

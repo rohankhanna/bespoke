@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -437,6 +437,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gh-workflow-approve.yaml",
       "source_repo": "kubernetes-sigs/metrics-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-gh-workflow-approve.yaml",
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-on-pr-rollback.yml",
+      "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-pr-review.yml",
+      "source_repo": "google/adk-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-failure-issues.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new_pr_bot.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "hmellor/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ComunidadAylas/PackSquash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "huggingface/datatrove"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-redirects-on-rename.yml",
+      "source_repo": "getsentry/sentry-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reminder_comment.yml",
+      "source_repo": "LDLINGLINGLING/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "systemd/systemd"
     }
   ]
 }

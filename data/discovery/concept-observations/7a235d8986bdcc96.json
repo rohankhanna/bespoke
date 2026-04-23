@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core Accessibility API Mappings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build TR Document"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build TR Document"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34337,
+      "status": "candidate",
+      "text": "jerry-build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26319,
+      "status": "candidate",
+      "text": "overbuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26319,
+      "status": "candidate",
+      "text": "upbuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25802,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18776,
+      "status": "candidate",
+      "text": "permit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build TR Document",
+      "sense_id": "build-tr-document#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-tr-document",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-tr-document",
+  "observation_id": "7a235d8986bdcc96",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build TR Document",
+  "source_context_snippet": "Build TR Document",
+  "source_file": ".github/workflows/tr-publication.yml",
+  "source_repo": "w3c/core-aam",
+  "source_repo_description": "Core Accessibility API Mappings"
+}

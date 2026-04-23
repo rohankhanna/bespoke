@@ -68,6 +68,42 @@
       "source_repo": "safe-global/safe-deployments",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate-context",
+      "text": "Formatting technology for Swift source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate-context",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Carrot2: Text Clustering Algorithms and Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "A community-maintained Python framework for creating mathematical animations. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +134,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "safe-global/safe-deployments",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-format",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrot2/carrot2",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/manim",
       "status": "candidate",
       "text": "Publish Release"
     }
@@ -179,11 +233,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "safe-global/safe-deployments"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "carrot2/carrot2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ManimCommunity/manim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

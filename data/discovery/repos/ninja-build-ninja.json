@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-musl.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-musl.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-musl.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "ci-linux-musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja",
+      "target": "Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:38:04.393829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/linux-musl.yml",
+      "size": 1857
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 6720
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1480
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a small build system with a focus on speed",
+    "fork": false,
+    "full_name": "ninja-build/ninja",
+    "html_url": "https://github.com/ninja-build/ninja",
+    "language": "C++",
+    "pushed_at": "2026-04-12T16:45:24Z",
+    "stargazers_count": 12895,
+    "topics": [],
+    "updated_at": "2026-04-23T09:03:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ci-linux-musl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-musl.yml",
+      "term": "ci-linux-musl"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    }
+  ]
+}

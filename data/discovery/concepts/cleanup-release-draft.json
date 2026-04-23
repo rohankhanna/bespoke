@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Release Draft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Express inspired web framework written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate-context",
+      "text": "Cleanup Release Draft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "Cleanup Release Draft"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21271,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21237,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21158,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20706,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20706,
+      "status": "candidate",
+      "text": "projects"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Release Draft",
+  "concept_id": "cleanup-release-draft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/cleanup-release-draft.yml",
+      "source_repo": "gofiber/fiber"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Release Draft",
+      "sense_id": "cleanup-release-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

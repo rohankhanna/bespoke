@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gnzlbg/jemallocator",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:03:25.687254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5476
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust allocator using jemalloc as a backend",
+    "fork": false,
+    "full_name": "gnzlbg/jemallocator",
+    "html_url": "https://github.com/gnzlbg/jemallocator",
+    "language": "Rust",
+    "pushed_at": "2021-12-21T17:51:17Z",
+    "stargazers_count": 429,
+    "topics": [],
+    "updated_at": "2026-04-09T10:29:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

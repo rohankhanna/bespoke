@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "eliemichel/sphinx_literate"
+    }
+  ],
+  "term": "Deploy Sphinx with GitHub Pages"
+}

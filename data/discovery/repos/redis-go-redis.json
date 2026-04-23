@@ -101,28 +101,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/go-redis",
-      "target": "redis/go-redis-entraid",
+      "target": "redis/redis-specifications",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/go-redis",
-      "target": "bsm/redislock",
+      "target": "uptrace/go-clickhouse",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/go-redis",
-      "target": "go-redis/cache",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/go-redis",
-      "target": "go-redis/redis_rate",
+      "target": "uptrace/uptrace",
       "target_type": "repository"
     },
     {
@@ -322,7 +315,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:39:07.710353+00:00",
+  "fetched_at": "2026-04-23T20:56:24.085478+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -374,8 +367,8 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-04-22T17:08:33Z",
-    "stargazers_count": 22055,
+    "pushed_at": "2026-04-23T18:38:28Z",
+    "stargazers_count": 22058,
     "topics": [
       "go",
       "golang",
@@ -383,27 +376,22 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-04-23T03:02:25Z"
+    "updated_at": "2026-04-23T18:38:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bsm/redislock",
+      "full_name": "redis/redis-specifications",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-redis/cache",
+      "full_name": "uptrace/go-clickhouse",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-redis/redis_rate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/go-redis-entraid",
+      "full_name": "uptrace/uptrace",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,366 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commit-check.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-java",
+      "target": "google/adk-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-java",
+      "target": "enola-dev/learningadk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/adk-java",
+      "target": "google/a2a",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commit-check.yml",
+      "source_repo": "google/adk-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commit-check.yml",
+      "source_repo": "google/adk-java",
+      "target": "PR Commit Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google/adk-java",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "google/adk-java",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "google/adk-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "google/adk-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "google/adk-java",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "google/adk-java",
+      "target": "validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "agentic-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "agents-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "aiagentframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "genai-chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "multi-agent-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "multi-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/adk-java",
+      "target": "multi-agents-collaboration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:55.439359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4876
+    },
+    {
+      "path": ".github/workflows/pr-commit-check.yml",
+      "size": 3225
+    },
+    {
+      "path": ".github/workflows/release-please.yaml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/validation.yml",
+      "size": 1243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "fork": false,
+    "full_name": "google/adk-java",
+    "html_url": "https://github.com/google/adk-java",
+    "language": "Java",
+    "pushed_at": "2026-04-23T20:34:30Z",
+    "stargazers_count": 1499,
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "agents-sdk",
+      "ai",
+      "ai-agents",
+      "aiagentframework",
+      "genai",
+      "genai-chatbot",
+      "llm",
+      "llms",
+      "multi-agent",
+      "multi-agent-system",
+      "multi-agent-systems",
+      "multi-agents",
+      "multi-agents-collaboration"
+    ],
+    "updated_at": "2026-04-23T12:51:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enola-dev/learningadk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/a2a",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/adk-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'PR Commit Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commit-check.yml",
+      "term": "PR Commit Check"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validation.yml",
+      "term": "validation"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-workflow"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agents-sdk"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiagentframework"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai-chatbot"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-system"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents-collaboration"
+    }
+  ]
+}

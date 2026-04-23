@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml"
+    },
+    {
+      "component": "bruceadams/get-release@v1.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml"
+    },
+    {
+      "component": "csexton/release-asset-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "bruceadams/get-release@v1.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "csexton/release-asset-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "source_repo": "lanthale/LibHeifFX",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:59.377770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4014
+    },
+    {
+      "path": ".github/workflows/maven-publish.yml",
+      "size": 1603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This installs the native lib libheif as a JavaFX Image format provider similar to imageIO before on Swing",
+    "fork": false,
+    "full_name": "lanthale/LibHeifFX",
+    "html_url": "https://github.com/lanthale/LibHeifFX",
+    "language": "Java",
+    "pushed_at": "2025-11-03T21:10:35Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-11-03T21:10:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-publish.yml",
+      "term": "Java CI with Maven"
+    }
+  ]
+}

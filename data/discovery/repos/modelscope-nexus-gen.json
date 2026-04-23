@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/Nexus-Gen",
+      "target": "mmmu-benchmark/mmmu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/Nexus-Gen",
+      "target": "djghosh13/geneval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:49.136029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10050
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "modelscope/Nexus-Gen",
+    "html_url": "https://github.com/modelscope/Nexus-Gen",
+    "language": "Python",
+    "pushed_at": "2025-07-29T05:50:23Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-04-14T11:17:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djghosh13/geneval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmmu-benchmark/mmmu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

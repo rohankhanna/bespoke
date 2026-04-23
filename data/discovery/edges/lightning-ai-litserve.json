@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "lightning-ai/litgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-typing.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-schema.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-package.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Lightning-AI/utilities/.github/workflows/check-docs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "General checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-minimal-dependency-check.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Minimal dependency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-parity.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "Run parity tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "CI testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "PyPI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe",
+      "target": "serving",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "Lightning-AI/LitServe"
+}

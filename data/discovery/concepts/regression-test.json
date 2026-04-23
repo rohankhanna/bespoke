@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Regression Test"
+    "Regression Test",
+    "regression test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "regression test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "regression test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39608,
+      "status": "candidate",
+      "text": "regression analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39607,
+      "status": "candidate",
+      "text": "regression line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39606,
+      "status": "candidate",
+      "text": "test run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39605,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39604,
+      "status": "candidate",
+      "text": "testing ground"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Regression Test",
   "concept_id": "regression-test",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/regression-test.yml",
+      "source_repo": "ChristopherHX/github-act-runner"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

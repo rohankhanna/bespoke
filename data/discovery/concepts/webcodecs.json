@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "webcodecs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "pear-rec is a free and open-source cross platform software for recording, recording, and taking screenshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "A web-based Video Editing SDK built on WebCodecs. \u57fa\u4e8e WebCodecs \u6784\u5efa\u7684\u7f51\u9875\u89c6\u9891\u7f16\u8f91 SDK\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate-context",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "027xiguapi/pear-rec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAV-Tech/WebAV",
+      "status": "candidate",
+      "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webcodecs",
+  "concept_id": "webcodecs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "027xiguapi/pear-rec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "WebAV-Tech/WebAV"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webcodecs",
+      "sense_id": "webcodecs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

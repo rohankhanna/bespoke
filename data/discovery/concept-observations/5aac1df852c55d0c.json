@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Git-based CMS for Static Site Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate Sponsors README"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate Sponsors README"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10446,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "aaron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "abraham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "notepad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Sponsors README",
+      "sense_id": "generate-sponsors-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-sponsors-readme",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-sponsors-readme",
+  "observation_id": "5aac1df852c55d0c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Generate Sponsors README",
+  "source_context_snippet": "Generate Sponsors README",
+  "source_file": ".github/workflows/sponsors.yml",
+  "source_repo": "decaporg/decap-cms",
+  "source_repo_description": "A Git-based CMS for Static Site Generators"
+}

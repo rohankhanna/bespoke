@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yaml",
       "source_repo": "cowprotocol/ethcontract-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-file-adapter-rbac"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-middleware-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-actix-postgresql-simple"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/casbin-rust-axum-middleware-example"
     }
   ]
 }

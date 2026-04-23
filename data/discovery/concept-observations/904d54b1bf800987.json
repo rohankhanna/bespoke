@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Working space for ECMA-TC49-TG2, the C# standard committee."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Convert to Smart Quotes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Convert to Smart Quotes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21198,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeemed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "redeeming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Convert to Smart Quotes",
+      "sense_id": "convert-to-smart-quotes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "convert-to-smart-quotes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "convert-to-smart-quotes",
+  "observation_id": "904d54b1bf800987",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Convert to Smart Quotes",
+  "source_context_snippet": "Convert to Smart Quotes",
+  "source_file": ".github/workflows/smart-quotes.yaml",
+  "source_repo": "dotnet/csharpstandard",
+  "source_repo_description": "Working space for ECMA-TC49-TG2, the C# standard committee."
+}

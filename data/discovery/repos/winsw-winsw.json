@@ -28,34 +28,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "dotnet/core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "jenkinsci/winsw-maven-packaging",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "birkett/srvany-ng",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "winsw/winsw",
-      "target": "mtkennerly/shawl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog-management.yml",
       "source_repo": "winsw/winsw",
@@ -147,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:25:33.165623+00:00",
+  "fetched_at": "2026-04-23T19:00:34.717694+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -176,7 +148,7 @@
     "html_url": "https://github.com/winsw/winsw",
     "language": "C#",
     "pushed_at": "2026-04-23T01:23:53Z",
-    "stargazers_count": 13889,
+    "stargazers_count": 13896,
     "topics": [
       "csharp",
       "dotnet",
@@ -185,30 +157,9 @@
       "windows-service",
       "windows-service-wrapper"
     ],
-    "updated_at": "2026-04-22T17:32:50Z"
+    "updated_at": "2026-04-23T17:27:27Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "birkett/srvany-ng",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dotnet/core",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jenkinsci/winsw-maven-packaging",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mtkennerly/shawl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Changelog Management",

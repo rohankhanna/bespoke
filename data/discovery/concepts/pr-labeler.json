@@ -152,6 +152,42 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate-context",
       "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the Gemini API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "Navigate your code with search labels, enhanced character motions and Treesitter integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "Harbor is a framework for running agent evaluations and creating and using RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
+      "status": "candidate-context",
+      "text": "PR Labeler"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +260,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/cookbook",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/flash.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harbor-framework/harbor",
       "status": "candidate",
       "text": "PR Labeler"
     }
@@ -401,11 +455,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/flash.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

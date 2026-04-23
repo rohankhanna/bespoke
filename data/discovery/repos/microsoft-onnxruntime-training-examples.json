@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/onnxruntime-training-examples",
+      "target": "microsoft/huggingface-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:12:03.480627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples for using ONNX Runtime for model training.",
+    "fork": false,
+    "full_name": "microsoft/onnxruntime-training-examples",
+    "html_url": "https://github.com/microsoft/onnxruntime-training-examples",
+    "language": "C#",
+    "pushed_at": "2024-10-23T17:45:38Z",
+    "stargazers_count": 364,
+    "topics": [],
+    "updated_at": "2026-04-22T02:44:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/huggingface-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

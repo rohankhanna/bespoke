@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "larsrh/libisabelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "dominique-unruh/qrhl-tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "albertqjiang/pisa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "scala-isabelle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "isabelle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominique-unruh/scala-isabelle",
+      "target": "theorem-proving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:50.116231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Scala library for controlling/interacting with Isabelle",
+    "fork": false,
+    "full_name": "dominique-unruh/scala-isabelle",
+    "html_url": "https://github.com/dominique-unruh/scala-isabelle",
+    "language": "Scala",
+    "pushed_at": "2026-03-09T21:57:27Z",
+    "stargazers_count": 43,
+    "topics": [
+      "isabelle",
+      "scala",
+      "theorem-proving"
+    ],
+    "updated_at": "2026-03-21T04:38:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albertqjiang/pisa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominique-unruh/qrhl-tool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larsrh/libisabelle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "scala-isabelle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "scala-isabelle"
+    },
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isabelle"
+    },
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "[![Build status](https://img.shields.io/github/checks-status/dominique-unruh/scala-isabelle/master?label=build)](https://github.com/dominique-unruh/scala-isabelle/actions/workflows/test.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-proving"
+    }
+  ]
+}

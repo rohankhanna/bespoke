@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:47:21.649623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shellx plugins for Arch linux oriented distros",
+    "fork": false,
+    "full_name": "0ghny/shellx-plugins-arch",
+    "html_url": "https://github.com/0ghny/shellx-plugins-arch",
+    "language": "Shell",
+    "pushed_at": "2022-10-24T08:25:15Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-05T02:34:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

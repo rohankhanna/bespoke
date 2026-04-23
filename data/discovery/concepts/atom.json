@@ -43,6 +43,42 @@
       "source_repo": "atom/ide-java",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": ":atom: The hackable text editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate-context",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "Parse RSS, Atom and JSON feeds in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "atom/ide-java",
       "status": "candidate",
       "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/atom",
+      "status": "candidate",
+      "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmcdole/gofeed",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmcdole/gofeed.svg?branch=master)](https://travis-ci.org/mmcdole/gofeed) [![Coverage Status](https://coveralls.io/repos/github/mmcdole/gofeed/badge.svg?branch=master)](https://coveralls.io/github/mmcdole/gofeed?branch=master) [![Go Report C\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +207,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "mmcdole/gofeed"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

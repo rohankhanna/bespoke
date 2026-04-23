@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/bake-action/subaction/matrix@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/bake-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crazy-max/.github/.github/actions/container-logs-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "alpinelinux/aports",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "docker/github-builder/.github/workflows/bake.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "crazy-max/ghaction-github-runtime@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "docker/bake-action/subaction/matrix@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "docker/bake-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "crazy-max/.github/.github/actions/container-logs-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tonistiigi/binfmt",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/binfmt",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonistiigi/binfmt",
+      "target": "qemu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:21.285084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3247
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6355
+    },
+    {
+      "path": "go.mod",
+      "size": 569
+    },
+    {
+      "path": ".github/workflows/.build.yml",
+      "size": 11030
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7542
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform emulator collection distributed with Docker images.",
+    "fork": false,
+    "full_name": "tonistiigi/binfmt",
+    "html_url": "https://github.com/tonistiigi/binfmt",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:06:26Z",
+    "stargazers_count": 1454,
+    "topics": [
+      "docker",
+      "qemu"
+    ],
+    "updated_at": "2026-04-23T08:25:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpinelinux/aports",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qemu"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-native-bot-merger.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-native-bot-merger.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respond-on-new-pick-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-native-bot-merger.yml",
+      "source_repo": "reactwg/react-native-releases",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-native-bot-merger.yml",
+      "source_repo": "reactwg/react-native-releases",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react-native-bot-merger.yml",
+      "source_repo": "reactwg/react-native-releases",
+      "target": "Handle @react-native-bot commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respond-on-new-pick-request.yml",
+      "source_repo": "reactwg/react-native-releases",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/respond-on-new-pick-request.yml",
+      "source_repo": "reactwg/react-native-releases",
+      "target": "Respond on New Pick Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:42:14.029391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2428
+    },
+    {
+      "path": ".github/workflows/react-native-bot-merger.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/respond-on-new-pick-request.yml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "React Native Releases Working Group",
+    "fork": false,
+    "full_name": "reactwg/react-native-releases",
+    "html_url": "https://github.com/reactwg/react-native-releases",
+    "language": null,
+    "pushed_at": "2026-03-16T16:22:39Z",
+    "stargazers_count": 425,
+    "topics": [],
+    "updated_at": "2026-04-20T01:28:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Handle @react-native-bot commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react-native-bot-merger.yml",
+      "term": "Handle @react-native-bot commands"
+    },
+    {
+      "context_snippet": "Respond on New Pick Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/respond-on-new-pick-request.yml",
+      "term": "Respond on New Pick Request"
+    }
+  ]
+}

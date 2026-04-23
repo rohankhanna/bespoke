@@ -1,0 +1,17 @@
+{
+  "component": "erisu/license-checker-action@99cffa11264fe545fd0baa6c13bca5a00ae608f2",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-audit.yml",
+      "source_repo": "apache/cordova-ios"
+    }
+  ]
+}

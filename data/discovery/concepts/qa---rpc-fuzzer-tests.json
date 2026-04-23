@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "QA - RPC Fuzzer Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erigontech/silkworm",
+      "status": "candidate-context",
+      "text": "C++ implementation of the Ethereum protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/silkworm",
+      "status": "candidate-context",
+      "text": "QA - RPC Fuzzer Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/silkworm",
+      "status": "candidate",
+      "text": "QA - RPC Fuzzer Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "acceptability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "agitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "budget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "choreograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "flagpole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "QA - RPC Fuzzer Tests",
+  "concept_id": "qa---rpc-fuzzer-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rpc-fuzzer-tests.yml",
+      "source_repo": "erigontech/silkworm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QA - RPC Fuzzer Tests",
+      "sense_id": "qa---rpc-fuzzer-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

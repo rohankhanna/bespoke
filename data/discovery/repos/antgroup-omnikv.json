@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antgroup/OmniKV",
+      "target": "thunlp/infllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antgroup/OmniKV",
+      "target": "fminference/h2o",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antgroup/OmniKV",
+      "target": "openbmb/infinitebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antgroup/OmniKV",
+      "target": "thudm/longbench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:43:20.567505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dynamic Context Selection for Efficient Long-Context LLMs",
+    "fork": false,
+    "full_name": "antgroup/OmniKV",
+    "html_url": "https://github.com/antgroup/OmniKV",
+    "language": "Python",
+    "pushed_at": "2025-05-20T13:00:37Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-13T07:48:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fminference/h2o",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/infinitebench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/longbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/infllm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

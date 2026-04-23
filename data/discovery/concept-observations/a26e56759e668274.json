@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014735,
+      "status": "candidate",
+      "text": "soca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014647,
+      "status": "candidate",
+      "text": "stp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013921,
+      "status": "candidate",
+      "text": "tps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946613,
+      "status": "candidate",
+      "text": "subcommittee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9935403,
+      "status": "candidate",
+      "text": "nav"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spts",
+      "sense_id": "spts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spts",
+  "observation_id": "a26e56759e668274",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "spts",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "open-mmlab/mmocr",
+  "source_repo_description": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+}

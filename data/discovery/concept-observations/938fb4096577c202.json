@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990461,
+      "status": "candidate",
+      "text": "ringlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985207,
+      "status": "candidate",
+      "text": "curl up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984144,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975265,
+      "status": "candidate",
+      "text": "curlicue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974805,
+      "status": "candidate",
+      "text": "whorl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "curl",
+      "sense_id": "curl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22080,
+      "status": "candidate",
+      "text": "wave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20056,
+      "status": "candidate",
+      "text": "coil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20052,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "whorl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "concept_id": "curl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "curl",
+  "observation_id": "938fb4096577c202",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "curl",
+  "source_context_snippet": "<h2 align=\"center\">",
+  "source_file": null,
+  "source_repo": "httpie/cli",
+  "source_repo_description": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+}

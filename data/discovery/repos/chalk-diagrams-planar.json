@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:38:02.243834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 3994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chalk-diagrams/planar",
+    "html_url": "https://github.com/chalk-diagrams/planar",
+    "language": "Python",
+    "pushed_at": "2024-06-14T09:27:48Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-06-14T09:27:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

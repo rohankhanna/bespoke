@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "dessant/repo-lockdown@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lockdown.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "qemu/qemu",
+      "target": "stefanha/git-publish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "qemu/qemu",
+      "target": "dessant/repo-lockdown@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "qemu/qemu",
+      "target": "Repo Lockdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemu/qemu",
+      "target": "emulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemu/qemu",
+      "target": "qemu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemu/qemu",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:41:53.521342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5579
+    },
+    {
+      "path": ".github/workflows/lockdown.yml",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are disabled. Please only use release tarballs from the QEMU website.",
+    "fork": false,
+    "full_name": "qemu/qemu",
+    "html_url": "https://github.com/qemu/qemu",
+    "language": "C",
+    "pushed_at": "2026-04-23T17:52:35Z",
+    "stargazers_count": 13038,
+    "topics": [
+      "emulation",
+      "qemu",
+      "virtualization"
+    ],
+    "updated_at": "2026-04-23T13:43:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stefanha/git-publish",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Repo Lockdown'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lockdown.yml",
+      "term": "Repo Lockdown"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulation"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qemu"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    }
+  ]
+}

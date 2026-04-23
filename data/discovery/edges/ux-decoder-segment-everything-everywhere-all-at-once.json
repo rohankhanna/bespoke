@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once",
+      "target": "microsoft/focalnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once",
+      "target": "dingmyu/davit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once",
+      "target": "idea-research/openseed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once",
+      "target": "jumpat/segmentanythingin3d",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once"
+}

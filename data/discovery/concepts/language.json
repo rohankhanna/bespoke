@@ -91,6 +91,54 @@
       "source_repo": "ziglang/zig",
       "status": "candidate-context",
       "text": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "A static, type inferred and embeddable language written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "The source for the Dart website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "[![Build Status SVG][]][Repo on GitHub Actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022] \ud83d\uded2WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate-context",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "ziglang/zig",
       "status": "candidate",
       "text": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gluon-lang/gluon",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/gluon-lang/gluon/actions/workflows/rust.yml/badge.svg)](https://github.com/gluon-lang/gluon/actions) [![crates.io](https://meritbadge.herokuapp.com/gluon)](https://crates.io/crates/gluon) [![Documentation](https://docs.rs/gluon/badge.svg)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate",
+      "text": "[![Build Status SVG][]][Repo on GitHub Actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-nlp/WebShop",
+      "status": "candidate",
+      "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/site-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "princeton-nlp/WebShop"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

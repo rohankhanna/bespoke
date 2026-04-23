@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@997185467fa4f803885201cee163a9f38240193d",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/close-no-response.yml",
       "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vllm-project/llm-compressor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "hmellor/vllm"
     }
   ]
 }

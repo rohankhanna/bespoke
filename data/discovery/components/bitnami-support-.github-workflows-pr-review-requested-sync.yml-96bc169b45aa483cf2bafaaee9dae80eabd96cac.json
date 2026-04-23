@@ -1,0 +1,12 @@
+{
+  "component": "bitnami/support/.github/workflows/pr-review-requested-sync.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews-requested.yml",
+      "source_repo": "bitnami/vulndb"
+    }
+  ]
+}

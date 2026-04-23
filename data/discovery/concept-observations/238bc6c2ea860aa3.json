@@ -1,0 +1,72 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ examples for the Vulkan graphics API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "built"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4999,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulkan",
+      "sense_id": "vulkan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulkan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulkan",
+  "observation_id": "238bc6c2ea860aa3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "vulkan",
+  "source_context_snippet": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos.",
+  "source_file": null,
+  "source_repo": "SaschaWillems/Vulkan",
+  "source_repo_description": "C++ examples for the Vulkan graphics API"
+}

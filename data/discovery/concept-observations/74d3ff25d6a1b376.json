@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":ship:  semantic-release plugin to publish a npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973722,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974770,
+      "status": "candidate",
+      "text": "enrollment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974649,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974554,
+      "status": "candidate",
+      "text": "enrolment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974334,
+      "status": "candidate",
+      "text": "registration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "registry",
+      "sense_id": "registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18072,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "concept_id": "registry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "registry",
+  "observation_id": "74d3ff25d6a1b376",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "registry",
+  "source_context_snippet": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package.",
+  "source_file": null,
+  "source_repo": "semantic-release/npm",
+  "source_repo_description": ":ship:  semantic-release plugin to publish a npm package"
+}

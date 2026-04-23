@@ -92,6 +92,30 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate-context",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate-context",
+      "text": "MLX: An array framework for Apple silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate-context",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rose-pine/rose-pine-site",
+      "status": "candidate-context",
+      "text": "The Ros\u00e9 Pine garden"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-site",
+      "status": "candidate-context",
+      "text": "Nightly build"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +154,18 @@
       "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-site",
+      "status": "candidate",
+      "text": "Nightly build"
     }
   ],
   "candidate_related_terms": [
@@ -215,11 +251,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/building_nightly.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "rltakashige/mlx-jaccl-fix-small-recv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rose-pine/rose-pine-site"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/building_nightly.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

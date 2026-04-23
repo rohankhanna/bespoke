@@ -19,6 +19,30 @@
       "source_repo": "dokku/dokku",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Ruby applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate-context",
+      "text": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dokku/dokku",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/dokku/dokku/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/dokku/dokku/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-ruby",
+      "status": "candidate",
+      "text": "![ruby](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-ruby.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-ruby"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

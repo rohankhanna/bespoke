@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T18:44:07.920376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Low-precision matrix multiplication",
+    "fork": false,
+    "full_name": "google/gemmlowp",
+    "html_url": "https://github.com/google/gemmlowp",
+    "language": "C++",
+    "pushed_at": "2024-01-29T14:40:32Z",
+    "stargazers_count": 1840,
+    "topics": [],
+    "updated_at": "2026-04-22T17:30:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

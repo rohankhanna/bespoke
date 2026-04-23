@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "agent-sh/drift-detect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "boltpkg/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/projectile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "twisted/towncrier"
     }
   ],
   "term": "project-management"

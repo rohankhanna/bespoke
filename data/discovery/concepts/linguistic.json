@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "linguistic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github-linguist/linguist",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39664341,
+      "status": "candidate",
+      "text": "lingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913924,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913753,
+      "status": "candidate",
+      "text": "langue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913688,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913383,
+      "status": "candidate",
+      "text": "philology"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1037,
+      "status": "candidate",
+      "text": "lingual"
+    }
+  ],
+  "canonical_name": "linguistic",
+  "concept_id": "linguistic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linguistic",
+      "sense_id": "linguistic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -221,6 +221,106 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/react-native-winrt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ninja-build/ninja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/opencv-mobile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "RapidAI/RapidOcrOnnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "bootphon/phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/gof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kpu/kenlm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UFO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "anacrolix/torrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node-windows.yml",
+      "source_repo": "rollup/plugins"
     }
   ],
   "term": "Windows"

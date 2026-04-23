@@ -70,6 +70,54 @@
       "source_repo": "grafana-community/helm-charts",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "All-in-One Development Tool based on PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "an open-source implementation of sequence-to-sequence based speech processing engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate-context",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +150,30 @@
       "source_repo": "grafana-community/helm-charts",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleX",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastlane/fastlane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate",
+      "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athena-team/athena",
+      "status": "candidate",
+      "text": "*Athena* is an open-source implementation of end-to-end speech processing engine. Our vision is to empower both industrial application and academic research on end-to-end models for speech processing. To make speech processing available to everyone, we're also releasing example \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +247,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "fastlane/fastlane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "robur-coop/albatross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "athena-team/athena"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

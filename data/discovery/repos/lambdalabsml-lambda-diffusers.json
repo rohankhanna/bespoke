@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LambdaLabsML/lambda-diffusers",
+      "target": "lambdalabsml/distributed-training-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LambdaLabsML/lambda-diffusers",
+      "target": "justinpinkney/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LambdaLabsML/lambda-diffusers",
+      "target": "lambdalabsml/examples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:20.049225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6510
+    },
+    {
+      "path": "Dockerfile",
+      "size": 324
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "LambdaLabsML/lambda-diffusers",
+    "html_url": "https://github.com/LambdaLabsML/lambda-diffusers",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-18T05:11:12Z",
+    "stargazers_count": 577,
+    "topics": [],
+    "updated_at": "2026-02-26T18:04:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalabsml/distributed-training-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalabsml/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

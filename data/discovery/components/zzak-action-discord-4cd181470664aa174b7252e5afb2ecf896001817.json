@@ -1,0 +1,12 @@
+{
+  "component": "zzak/action-discord@4cd181470664aa174b7252e5afb2ecf896001817",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rails-new-docker.yml",
+      "source_repo": "rails/rails"
+    }
+  ]
+}

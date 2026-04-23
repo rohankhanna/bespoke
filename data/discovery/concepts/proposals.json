@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "proposals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Discussions and proposals related to the main React Native project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate-context",
+      "text": "Do you have an idea on how to make React Native better?"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "Standard Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/discussions-and-proposals",
+      "status": "candidate",
+      "text": "Do you have an idea on how to make React Native better?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zloirock/core-js",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "advice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "advised"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "proposals",
+  "concept_id": "proposals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/discussions-and-proposals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "zloirock/core-js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proposals",
+      "sense_id": "proposals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

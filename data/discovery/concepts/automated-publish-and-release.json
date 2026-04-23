@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automated Publish and Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Infleqtion/client-superstaq",
+      "status": "candidate-context",
+      "text": "https://superstaq.readthedocs.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infleqtion/client-superstaq",
+      "status": "candidate-context",
+      "text": "Automated Publish and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infleqtion/client-superstaq",
+      "status": "candidate",
+      "text": "Automated Publish and Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34488,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20692,
+      "status": "candidate",
+      "text": "menu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20097,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20097,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20097,
+      "status": "candidate",
+      "text": "pressed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automated Publish and Release",
+  "concept_id": "automated-publish-and-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/automated_publish_release.yml",
+      "source_repo": "Infleqtion/client-superstaq"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated Publish and Release",
+      "sense_id": "automated-publish-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

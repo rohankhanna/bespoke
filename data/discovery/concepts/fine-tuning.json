@@ -139,6 +139,30 @@
       "source_repo": "AGI-Arena/MARS",
       "status": "candidate-context",
       "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Easy and lightning fast training of \ud83e\udd17 Transformers on Habana Gaudi processor (HPU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate-context",
+      "text": "A powerful tool for creating datasets for LLM fine-tuning \u3001RAG and Eval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "AGI-Arena/MARS",
       "status": "candidate",
       "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConardLi/easy-dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +358,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ConardLi/easy-dataset"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

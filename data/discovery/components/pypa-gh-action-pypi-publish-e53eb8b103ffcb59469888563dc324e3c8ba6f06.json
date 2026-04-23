@@ -1,0 +1,17 @@
+{
+  "component": "pypa/gh-action-pypi-publish@e53eb8b103ffcb59469888563dc324e3c8ba6f06",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual-testpypi.yml",
+      "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build-publish.yml",
+      "source_repo": "cleanlab/cleanlab"
+    }
+  ]
+}

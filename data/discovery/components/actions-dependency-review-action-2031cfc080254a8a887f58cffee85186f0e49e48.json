@@ -1,7 +1,7 @@
 {
   "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yaml",
       "source_repo": "awslabs/amazon-eks-ami"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ada-url/ada"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
     }
   ]
 }

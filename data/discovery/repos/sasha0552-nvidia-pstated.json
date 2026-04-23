@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "Jimver/cuda-toolkit@v0.2.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sasha0552/nvidia-pstated",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:19.934431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7716
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A daemon that automatically manages the performance states of NVIDIA GPUs.",
+    "fork": false,
+    "full_name": "sasha0552/nvidia-pstated",
+    "html_url": "https://github.com/sasha0552/nvidia-pstated",
+    "language": "C",
+    "pushed_at": "2026-02-24T17:38:15Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-23T10:10:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

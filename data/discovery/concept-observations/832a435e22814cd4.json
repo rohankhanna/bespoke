@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011033,
+      "status": "candidate",
+      "text": "hopeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010052,
+      "status": "candidate",
+      "text": "hope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009202,
+      "status": "candidate",
+      "text": "confidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007566,
+      "status": "candidate",
+      "text": "complacency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007255,
+      "status": "candidate",
+      "text": "encouraging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimism",
+      "sense_id": "optimism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimism",
+  "observation_id": "832a435e22814cd4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "optimism",
+  "source_context_snippet": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>",
+  "source_file": null,
+  "source_repo": "alloy-rs/op-alloy",
+  "source_repo_description": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+}

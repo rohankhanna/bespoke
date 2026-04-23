@@ -1,0 +1,407 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.35.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.35.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/gin",
+      "target": "gin-gonic/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/gin",
+      "target": "gin-gonic/contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/gin",
+      "target": "fnproject/fn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gin-gonic/gin",
+      "target": "distribworks/dkron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gin.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "Goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "aquasecurity/trivy-action@0.35.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "source_repo": "gin-gonic/gin",
+      "target": "Trivy Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin",
+      "target": "router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gin-gonic/gin",
+      "target": "server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:22:21.169109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11756
+    },
+    {
+      "path": "go.mod",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1561
+    },
+    {
+      "path": ".github/workflows/gin.yml",
+      "size": 1967
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 890
+    },
+    {
+      "path": ".github/workflows/trivy-scan.yml",
+      "size": 1410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+    "fork": false,
+    "full_name": "gin-gonic/gin",
+    "html_url": "https://github.com/gin-gonic/gin",
+    "language": "Go",
+    "pushed_at": "2026-04-22T22:32:49Z",
+    "stargazers_count": 88359,
+    "topics": [
+      "framework",
+      "gin",
+      "go",
+      "middleware",
+      "performance",
+      "router",
+      "server"
+    ],
+    "updated_at": "2026-04-23T21:22:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "distribworks/dkron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/fn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gin-gonic/contrib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gin-gonic/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gin.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "Goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "Goreleaser"
+    },
+    {
+      "context_snippet": "Trivy Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy-scan.yml",
+      "term": "Trivy Security Scan"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    }
+  ]
+}

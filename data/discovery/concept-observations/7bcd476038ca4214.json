@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Release Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Release Packages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19381,
+      "status": "candidate",
+      "text": "parcel post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19318,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Release Packages",
+      "sense_id": "build-release-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-release-packages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-release-packages",
+  "observation_id": "7bcd476038ca4214",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build Release Packages",
+  "source_context_snippet": "Build Release Packages",
+  "source_file": ".github/workflows/build_package.yml",
+  "source_repo": "iree-org/iree",
+  "source_repo_description": "A retargetable MLIR-based machine learning compiler and runtime toolkit."
+}

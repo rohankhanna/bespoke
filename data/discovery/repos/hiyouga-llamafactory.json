@@ -121,28 +121,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "astramind-ai/mixture-of-depths",
+      "target": "dvlab-research/longlora",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "artidoro/qlora",
+      "target": "facebookresearch/llama",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "bitsandbytes-foundation/bitsandbytes",
+      "target": "conardli/easy-dataset",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "buaadreamer/chinese-llava-med",
+      "target": "deepseek-ai/deepseek-llm",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:34:45.311859+00:00",
+  "fetched_at": "2026-04-23T19:33:11.987820+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -460,8 +460,8 @@
     "full_name": "hiyouga/LlamaFactory",
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
-    "pushed_at": "2026-04-22T11:44:01Z",
-    "stargazers_count": 70495,
+    "pushed_at": "2026-04-23T09:29:06Z",
+    "stargazers_count": 70524,
     "topics": [
       "agent",
       "ai",
@@ -484,27 +484,27 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-04-23T06:28:56Z"
+    "updated_at": "2026-04-23T19:05:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "artidoro/qlora",
+      "full_name": "conardli/easy-dataset",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "astramind-ai/mixture-of-depths",
+      "full_name": "deepseek-ai/deepseek-llm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bitsandbytes-foundation/bitsandbytes",
+      "full_name": "dvlab-research/longlora",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "buaadreamer/chinese-llava-med",
+      "full_name": "facebookresearch/llama",
       "source_file": "README.md"
     }
   ],

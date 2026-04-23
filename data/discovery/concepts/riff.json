@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "riff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "A syntax highter for diffs, clarifying which parts of lines have changed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate-context",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/riff",
+      "status": "candidate",
+      "text": "Riff is a wrapper around `diff` that highlights which parts of lines have changed."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29738089,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29737635,
+      "status": "candidate",
+      "text": "flip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29652111,
+      "status": "candidate",
+      "text": "thumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29611614,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29483737,
+      "status": "candidate",
+      "text": "riffian"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23039,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9055,
+      "status": "candidate",
+      "text": "thumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4072,
+      "status": "candidate",
+      "text": "leaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "flip"
+    }
+  ],
+  "canonical_name": "riff",
+  "concept_id": "riff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/riff"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "riff",
+      "sense_id": "riff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

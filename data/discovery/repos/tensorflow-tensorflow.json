@@ -1,0 +1,415 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-cd.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-cd.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    },
+    {
+      "component": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-on-pr-rollback.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-on-pr-rollback.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "tensorflow/build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "tensorflow/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "tensorflow/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "tensorflow/tensorboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-cd.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-cd.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "ARM CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "ARM CI Extended C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci-extended.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci-extended.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "ARM CI Extended",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "ARM CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "Reusable Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "cffconvert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-on-pr-rollback.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-on-pr-rollback.yml",
+      "source_repo": "tensorflow/tensorflow",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorflow/tensorflow",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:47:27.281518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11912
+    },
+    {
+      "path": ".github/workflows/arm-cd.yml",
+      "size": 3069
+    },
+    {
+      "path": ".github/workflows/arm-ci-extended-cpp.yml",
+      "size": 2562
+    },
+    {
+      "path": ".github/workflows/arm-ci-extended.yml",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/arm-ci.yml",
+      "size": 2219
+    },
+    {
+      "path": ".github/workflows/build-reusable.yml",
+      "size": 2604
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/create_issue.js",
+      "size": 2857
+    },
+    {
+      "path": ".github/workflows/issue-on-pr-rollback.yml",
+      "size": 1571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "fork": false,
+    "full_name": "tensorflow/tensorflow",
+    "html_url": "https://github.com/tensorflow/tensorflow",
+    "language": "C++",
+    "pushed_at": "2026-04-23T18:45:59Z",
+    "stargazers_count": 194843,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-23T18:37:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/tensorboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ARM CD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-cd.yml",
+      "term": "ARM CD"
+    },
+    {
+      "context_snippet": "ARM CI Extended C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci-extended-cpp.yml",
+      "term": "ARM CI Extended C++"
+    },
+    {
+      "context_snippet": "ARM CI Extended",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci-extended.yml",
+      "term": "ARM CI Extended"
+    },
+    {
+      "context_snippet": "ARM CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-ci.yml",
+      "term": "ARM CI"
+    },
+    {
+      "context_snippet": "Reusable Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "term": "Reusable Build"
+    },
+    {
+      "context_snippet": "cffconvert",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "term": "cffconvert"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

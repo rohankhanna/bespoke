@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "Publish release to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "paritytech/parity-scale-codec",
+      "target": "s3krit/matrix-message-action@70ad3fb812ee0e45ff8999d6af11cafad11a6ecf",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "paritytech/parity-scale-codec"
+}

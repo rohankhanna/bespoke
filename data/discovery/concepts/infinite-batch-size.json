@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "infinite-batch-size"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "[CVPR 2025 Highlight] The official CLIP training codebase of Inf-CL: \"Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss\". A super memory-efficiency CLIP training scheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "infinite-batch-size",
+  "concept_id": "infinite-batch-size",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DAMO-NLP-SG/Inf-CLIP"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infinite-batch-size",
+      "sense_id": "infinite-batch-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

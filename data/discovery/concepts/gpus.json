@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "gpus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "TornadoVM: A practical and efficient heterogeneous programming framework for managed languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate-context",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beehive-lab/TornadoVM",
+      "status": "candidate",
+      "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924558,
+      "status": "candidate",
+      "text": "nkvd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021234,
+      "status": "candidate",
+      "text": "gpusa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021233,
+      "status": "candidate",
+      "text": "gpew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021231,
+      "status": "candidate",
+      "text": "gpps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gpus",
+  "concept_id": "gpus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpus",
+      "sense_id": "gpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

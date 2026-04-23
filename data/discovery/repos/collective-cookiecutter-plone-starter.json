@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "plone/volto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "Plone Starter CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "cookiecutter-plone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "cookiecutter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "plone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collective/cookiecutter-plone-starter",
+      "target": "project-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:03.599561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8717
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 421
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cookiecutter Plone Starter is a framework for jumpstarting Plone 6 projects quickly.",
+    "fork": false,
+    "full_name": "collective/cookiecutter-plone-starter",
+    "html_url": "https://github.com/collective/cookiecutter-plone-starter",
+    "language": "Python",
+    "pushed_at": "2025-03-06T01:17:46Z",
+    "stargazers_count": 24,
+    "topics": [
+      "cookiecutter-plone",
+      "cookiecutter-template",
+      "plone",
+      "project-template",
+      "python"
+    ],
+    "updated_at": "2026-01-02T06:44:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plone/volto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plone Starter CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Plone Starter CI"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-plone"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-template"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plone"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-template"
+    }
+  ]
+}

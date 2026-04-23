@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build-related tools for TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dashboard Generator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dashboard Generator"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "fascia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "stereo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10556,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10556,
+      "status": "candidate",
+      "text": "console"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dashboard Generator",
+      "sense_id": "dashboard-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dashboard-generator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dashboard-generator",
+  "observation_id": "f1fd8e3e0a1f3d7b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Dashboard Generator",
+  "source_context_snippet": "Dashboard Generator",
+  "source_file": ".github/workflows/dashboard.yml",
+  "source_repo": "tensorflow/build",
+  "source_repo_description": "Build-related tools for TensorFlow"
+}

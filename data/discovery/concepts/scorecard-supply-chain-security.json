@@ -283,6 +283,168 @@
       "source_repo": "cortexproject/cortex",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Internationalized Domain Names for Python (IDNA 2008 and UTS #46)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "The open-source package registry for modern JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "Google HTTP Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Generate Go client and server boilerplate from OpenAPI 3 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "Multi-format archive and compression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "Go implementation of data-plane-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/goada",
+      "status": "candidate-context",
+      "text": "Fast WHATWG spec compliant URL library written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/goada",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate-context",
+      "text": "Kotlin bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Rust bindings for Ada URL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/fonts",
+      "status": "candidate-context",
+      "text": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fonts",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -421,6 +583,90 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cortexproject/cortex",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikefarah/yq",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kjd/idna",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsr-io/jsr",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeoman/yo",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-Tools",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-http-java-client",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oapi-codegen/oapi-codegen",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/controller-runtime",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/goada",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/kotlin",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ada-url/rust",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fonts",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -670,11 +916,113 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "kjd/idna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "KhronosGroup/SPIRV-Tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "googleapis/google-http-java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libarchive/libarchive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yaml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/goada"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ada-url/rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/fonts"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

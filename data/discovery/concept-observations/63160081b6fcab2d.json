@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "readme-stats",
+      "sense_id": "readme-stats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "readme-stats",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "readme-stats",
+  "observation_id": "63160081b6fcab2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "readme-stats",
+  "source_context_snippet": "github-readme-stats \u2014 Dynamically generate stats for your GitHub readme",
+  "source_file": null,
+  "source_repo": "anuraghazra/github-readme-stats",
+  "source_repo_description": ":zap: Dynamically generated stats for your github readmes"
+}

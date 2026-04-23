@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "backup"
+    "backup",
+    "Backup"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,54 @@
       "source_repo": "gobackup/gobackup",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman - Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Easy full stack backup operations on UNIX-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "Multi-format archive and compression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate-context",
+      "text": "The libarchive project develops a portable, efficient C library that"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +78,30 @@
       "source_repo": "gobackup/gobackup",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "Backup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libarchive/libarchive",
+      "status": "candidate",
+      "text": "The libarchive project develops a portable, efficient C library that"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +193,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "libarchive/libarchive"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

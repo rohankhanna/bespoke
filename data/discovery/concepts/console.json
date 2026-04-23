@@ -115,6 +115,54 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate-context",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8d Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate-context",
+      "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "\u2388\u274f Terminal and Web console for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate-context",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Moor is a pager. It's designed to just do the right thing without any configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate-context",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "ps, top and pstree for human beings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate-context",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "contour-terminal/contour",
       "status": "candidate",
       "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk/chalk",
+      "status": "candidate",
+      "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astefanutti/kubebox",
+      "status": "candidate",
+      "text": "FROM node:12.16.2-alpine3.11 as builder WORKDIR /kubebox COPY lib lib/ COPY package.json package-lock.json index.js webpack.config.js webpack.hjs.language.js webpack.node.js ./ RUN npm install RUN npm run bundle FROM alpine:3.11 ENV TERM xterm-256color ENV TERMINFO=/lib/terminfo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/moor",
+      "status": "candidate",
+      "text": "Note: :warning: [As of version 2.0.0, `moar` has been renamed to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walles/px",
+      "status": "candidate",
+      "text": "|Linux CI Status| |macOS CI Status|"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +382,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chalk/chalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "astefanutti/kubebox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/moor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "walles/px"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

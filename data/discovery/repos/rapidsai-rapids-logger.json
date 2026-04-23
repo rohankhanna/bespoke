@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/gha-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:49:20.036887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4562
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 350
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2752
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A logging interface for RAPIDS built on spdlog",
+    "fork": false,
+    "full_name": "rapidsai/rapids-logger",
+    "html_url": "https://github.com/rapidsai/rapids-logger",
+    "language": "C++",
+    "pushed_at": "2026-04-16T17:38:34Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-16T17:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidsai/gha-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    }
+  ]
+}

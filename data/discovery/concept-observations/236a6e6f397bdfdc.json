@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern Dark-Themed Portfolio Template for Developers & Designers | Built with React | Dynamic JSON-based content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "portfolio-template",
+      "sense_id": "portfolio-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "portfolio-template",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "portfolio-template",
+  "observation_id": "236a6e6f397bdfdc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "portfolio-template",
+  "source_context_snippet": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials.",
+  "source_file": null,
+  "source_repo": "AnshulGora/portfolio_template_v1",
+  "source_repo_description": "Modern Dark-Themed Portfolio Template for Developers & Designers | Built with React | Dynamic JSON-based content."
+}

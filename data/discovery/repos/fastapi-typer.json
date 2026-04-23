@@ -1,0 +1,592 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflict.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "agilepathway/label-checker@c3d16ad512e7cea5961df85ff2486bb774caf3c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml"
+    },
+    {
+      "component": "tiangolo/latest-changes@c9d329cb147f0ddf4fb631214e3f838ff17ccbbd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastapi/typer",
+      "target": "sarugaku/shellingham",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Add to Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflict.yml",
+      "source_repo": "fastapi/typer",
+      "target": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conflict.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Conflict detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "fastapi/typer",
+      "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Issue Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/typer",
+      "target": "agilepathway/label-checker@c3d16ad512e7cea5961df85ff2486bb774caf3c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "source_repo": "fastapi/typer",
+      "target": "mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "source_repo": "fastapi/typer",
+      "target": "tiangolo/latest-changes@c9d329cb147f0ddf4fb631214e3f838ff17ccbbd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "source_repo": "fastapi/typer",
+      "target": "Latest Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "click",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "typehints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/typer",
+      "target": "typer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:50:39.614703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11769
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5946
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 2693
+    },
+    {
+      "path": ".github/workflows/conflict.yml",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 3043
+    },
+    {
+      "path": ".github/workflows/issue-manager.yml",
+      "size": 1912
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/latest-changes.yml",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 3239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
+    "fork": false,
+    "full_name": "fastapi/typer",
+    "html_url": "https://github.com/fastapi/typer",
+    "language": "Python",
+    "pushed_at": "2026-04-22T17:45:19Z",
+    "stargazers_count": 19278,
+    "topics": [
+      "cli",
+      "click",
+      "python",
+      "python3",
+      "shell",
+      "terminal",
+      "typehints",
+      "typer"
+    ],
+    "updated_at": "2026-04-23T19:41:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarugaku/shellingham",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add to Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "term": "Add to Project"
+    },
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "\"Conflict detector\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conflict.yml",
+      "term": "Conflict detector"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Issue Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "term": "Issue Manager"
+    },
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "Latest Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-changes.yml",
+      "term": "Latest Changes"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "click"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typehints"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typer"
+    }
+  ]
+}

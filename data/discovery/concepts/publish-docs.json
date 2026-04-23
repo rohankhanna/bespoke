@@ -80,6 +80,30 @@
       "source_repo": "ultralytics/ultralytics",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Apache Cordova iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +140,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ultralytics/ultralytics",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/cordova-ios",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/adk-docs",
       "status": "candidate",
       "text": "Publish Docs"
     }
@@ -203,11 +239,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "ultralytics/ultralytics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "apache/cordova-ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "google/adk-docs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

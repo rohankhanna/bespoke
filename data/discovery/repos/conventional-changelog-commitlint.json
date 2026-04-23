@@ -206,7 +206,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "conventional-changelog/commitlint",
-      "target": "marionebl/svg-term-cli",
+      "target": "pnpm/pnpm",
       "target_type": "repository"
     },
     {
@@ -220,7 +220,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "conventional-changelog/commitlint",
-      "target": "gajus/conventional-changelog-lint-config-canonical",
+      "target": "nodejs/lts",
       "target_type": "repository"
     },
     {
@@ -532,7 +532,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:29:01.118188+00:00",
+  "fetched_at": "2026-04-23T21:42:44.491368+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -569,14 +569,14 @@
     "html_url": "https://github.com/conventional-changelog/commitlint",
     "language": "TypeScript",
     "pushed_at": "2026-04-22T14:24:28Z",
-    "stargazers_count": 18471,
+    "stargazers_count": 18475,
     "topics": [
       "commit",
       "conventions",
       "git",
       "lint"
     ],
-    "updated_at": "2026-04-22T23:37:42Z"
+    "updated_at": "2026-04-23T12:34:05Z"
   },
   "repo_links": [
     {
@@ -586,17 +586,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gajus/conventional-changelog-lint-config-canonical",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "jlegrone/create-semantic-module",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "marionebl/svg-term-cli",
+      "full_name": "nodejs/lts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pnpm/pnpm",
       "source_file": "README.md"
     }
   ],

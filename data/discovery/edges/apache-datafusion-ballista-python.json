@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "apache/arrow-ballista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "apache/arrow-ballista-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "apache/arrow-ballista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "apache/arrow-ballista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "potiuk/cancel-workflow-runs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "Cancel stale runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "r-lib/actions/pr-fetch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "r-lib/actions/pr-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_bot.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "Comment Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/labeler@4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "eps1lon/actions-label-merge-conflict@releases/2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_build.yml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yaml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yaml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_test.yaml",
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "dataframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "olap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "query-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "apache/datafusion-ballista-python"
+}

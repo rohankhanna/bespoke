@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v2",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-android.yaml",
       "source_repo": "JaneaSystems/nodejs-mobile-cordova"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jerrylususu/PaddleOCR-json-java-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graphicsfuzz.yml",
+      "source_repo": "google/graphicsfuzz"
     }
   ]
 }

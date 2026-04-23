@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Theme preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate-context",
+      "text": "Theme preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuraghazra/github-readme-stats",
+      "status": "candidate",
+      "text": "Theme preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11118,
+      "status": "candidate",
+      "text": "introductory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "centre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "lemma"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Theme preview",
+  "concept_id": "theme-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/preview-theme.yml",
+      "source_repo": "anuraghazra/github-readme-stats"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Theme preview",
+      "sense_id": "theme-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

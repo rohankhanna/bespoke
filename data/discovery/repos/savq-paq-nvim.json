@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "savq/paq-nvim",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:01:31.024483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf1a  Neovim package manager",
+    "fork": false,
+    "full_name": "savq/paq-nvim",
+    "html_url": "https://github.com/savq/paq-nvim",
+    "language": "Lua",
+    "pushed_at": "2025-03-30T18:56:24Z",
+    "stargazers_count": 717,
+    "topics": [
+      "lua",
+      "neovim",
+      "nvim",
+      "package-manager"
+    ],
+    "updated_at": "2026-04-16T05:20:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Paq is a Neovim package manager written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Paq is a Neovim package manager written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Paq is a Neovim package manager written in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    }
+  ]
+}

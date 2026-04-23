@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Changaco/python-libarchive-c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Changaco/python-libarchive-c",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Changaco/python-libarchive-c",
+      "target": "ctypes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Changaco/python-libarchive-c",
+      "target": "libarchive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:41:57.582316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5308
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python interface to libarchive",
+    "fork": false,
+    "full_name": "Changaco/python-libarchive-c",
+    "html_url": "https://github.com/Changaco/python-libarchive-c",
+    "language": "Python",
+    "pushed_at": "2025-05-22T07:57:58Z",
+    "stargazers_count": 81,
+    "topics": [
+      "ctypes",
+      "libarchive",
+      "python"
+    ],
+    "updated_at": "2026-03-11T05:44:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Python interface to libarchive. It uses the standard ctypes_ module to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctypes"
+    },
+    {
+      "context_snippet": "A Python interface to libarchive. It uses the standard ctypes_ module to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libarchive"
+    }
+  ]
+}

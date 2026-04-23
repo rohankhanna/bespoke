@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "aws-serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "serverless-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf-playground",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:05:07.436921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "serverless.tf playground for examples and experiments",
+    "fork": false,
+    "full_name": "antonbabenko/serverless.tf-playground",
+    "html_url": "https://github.com/antonbabenko/serverless.tf-playground",
+    "language": "HCL",
+    "pushed_at": "2026-02-05T19:57:21Z",
+    "stargazers_count": 41,
+    "topics": [
+      "aws-serverless",
+      "serverless",
+      "serverless-examples",
+      "serverless-terraform",
+      "terraform"
+    ],
+    "updated_at": "2026-02-05T19:57:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-serverless"
+    },
+    {
+      "context_snippet": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-examples"
+    },
+    {
+      "context_snippet": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-terraform"
+    },
+    {
+      "context_snippet": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

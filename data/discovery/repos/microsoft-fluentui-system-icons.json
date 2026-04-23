@@ -1,0 +1,896 @@
+{
+  "components": [
+    {
+      "component": "@griffel/webpack-extraction-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@griffel/webpack-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/jest-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-diff",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mini-css-extract-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "monosize",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "monosize-bundler-webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nano-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-window",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "storybook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-summary-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "k-paxian/dart-package-publisher@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "nrwl/nx-set-shas@afb73a62d26e41464e9254689e1fd6122ee683c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-prerelease.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-prerelease.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@griffel/webpack-extraction-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@griffel/webpack-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@nx/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@testing-library/dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "jest-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "mini-css-extract-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "monosize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "monosize-bundler-webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "nano-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "nx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "react-window",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "storybook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Bump version number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Bundle Size Baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods-publish.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods-publish.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Cocoapods publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Deploy docsite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-summary-comment.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-summary-comment.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "PR summary comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "eskatos/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "k-paxian/dart-package-publisher@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "nrwl/nx-set-shas@afb73a62d26e41464e9254689e1fd6122ee683c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Pull request validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-prerelease.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-prerelease.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-prerelease.yml",
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "Publish Prerelease NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "fluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-system-icons",
+      "target": "react",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:39:44.471914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3863
+    },
+    {
+      "path": "package.json",
+      "size": 1630
+    },
+    {
+      "path": ".github/workflows/bump-version.yml",
+      "size": 3378
+    },
+    {
+      "path": ".github/workflows/bundle-size.baseline.yml",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/cocoapods-publish.yml",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/deploy-docsite.yml",
+      "size": 1839
+    },
+    {
+      "path": ".github/workflows/pr-summary-comment.yml",
+      "size": 3680
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 6003
+    },
+    {
+      "path": ".github/workflows/publish-prerelease.yml",
+      "size": 4972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
+    "fork": false,
+    "full_name": "microsoft/fluentui-system-icons",
+    "html_url": "https://github.com/microsoft/fluentui-system-icons",
+    "language": "HTML",
+    "pushed_at": "2026-04-22T17:39:13Z",
+    "stargazers_count": 10513,
+    "topics": [
+      "android",
+      "design",
+      "fluent",
+      "flutter",
+      "icons",
+      "ios",
+      "react"
+    ],
+    "updated_at": "2026-04-23T16:24:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bump version number",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yml",
+      "term": "Bump version number"
+    },
+    {
+      "context_snippet": "Bundle Size Baseline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-size.baseline.yml",
+      "term": "Bundle Size Baseline"
+    },
+    {
+      "context_snippet": "Cocoapods publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods-publish.yml",
+      "term": "Cocoapods publish"
+    },
+    {
+      "context_snippet": "'Copilot Setup Steps'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Deploy docsite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "term": "Deploy docsite"
+    },
+    {
+      "context_snippet": "PR summary comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-summary-comment.yml",
+      "term": "PR summary comment"
+    },
+    {
+      "context_snippet": "Pull request validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Pull request validation"
+    },
+    {
+      "context_snippet": "Publish Prerelease NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-prerelease.yml",
+      "term": "Publish Prerelease NPM"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "![Pull request validation](https://github.com/microsoft/fluentui-system-icons/actions/workflows/pr.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Linux Wheels (AArch64)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "PyTorch native quantization and sparsity for training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate-context",
+      "text": "Build Linux Wheels (AArch64)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ao",
+      "status": "candidate",
+      "text": "Build Linux Wheels (AArch64)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21274,
+      "status": "candidate",
+      "text": "cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18196,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15077,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15077,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14792,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Linux Wheels (AArch64)",
+  "concept_id": "build-linux-wheels-aarch64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "pytorch/ao"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Linux Wheels (AArch64)",
+      "sense_id": "build-linux-wheels-aarch64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

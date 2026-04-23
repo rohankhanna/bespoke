@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MacOS tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate-context",
+      "text": "MacOS tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate",
+      "text": "MacOS tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "active placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "alpha test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MacOS tests",
+  "concept_id": "macos-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/macos-test.yml",
+      "source_repo": "Farama-Foundation/PettingZoo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MacOS tests",
+      "sense_id": "macos-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

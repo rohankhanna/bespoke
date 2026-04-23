@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/approve-dependabot.yml",
       "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-autoapprove.yml",
+      "source_repo": "aws-actions/configure-aws-credentials"
     }
   ],
   "term": "Dependabot auto-approve"

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969671,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986611,
+      "status": "candidate",
+      "text": "matrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985366,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982426,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980788,
+      "status": "candidate",
+      "text": "plan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "schema",
+      "sense_id": "schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28041,
+      "status": "candidate",
+      "text": "outline"
+    }
+  ],
+  "concept_id": "schema",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "schema",
+  "observation_id": "cf4800b145ba94a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "schema",
+  "source_context_snippet": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)",
+  "source_file": null,
+  "source_repo": "graphile/crystal",
+  "source_repo_description": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+}

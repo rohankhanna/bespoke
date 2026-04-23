@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rails-bot: More Info Needed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate-context",
+      "text": "\"rails-bot: More Info Needed\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rails/rails",
+      "status": "candidate",
+      "text": "\"rails-bot: More Info Needed\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37446,
+      "status": "candidate",
+      "text": "faq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36718,
+      "status": "candidate",
+      "text": "details"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36280,
+      "status": "candidate",
+      "text": "alcohol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35921,
+      "status": "candidate",
+      "text": "redundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29143,
+      "status": "candidate",
+      "text": "surplus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rails-bot: More Info Needed",
+  "concept_id": "rails-bot-more-info-needed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/more-info-needed.yml",
+      "source_repo": "rails/rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rails-bot: More Info Needed",
+      "sense_id": "rails-bot-more-info-needed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate-context",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "![The Buf logo](./.github/buf-logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CodeBoarding/CodeBoarding",
       "status": "candidate",
       "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate",
+      "text": "![The Buf logo](./.github/buf-logo.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

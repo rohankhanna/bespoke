@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/cache-cargo-install-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_packages_reindex.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_packages_reindex.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml"
+    },
+    {
+      "component": "step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-license-data.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-license-data.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/deno_std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/deno_doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "dsherret/rust-toolchain-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "taiki-e/cache-cargo-install-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_packages_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_packages_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orama_packages_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Orama Package Reindex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Orama Symbols Reindex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-license-data.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-license-data.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-license-data.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Sync SPDX License Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-types.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-types.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Sync Deno & web types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "jsr-io/jsr",
+      "target": "Lint PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsr-io/jsr",
+      "target": "registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:51:05.185783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8455
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 59
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12204
+    },
+    {
+      "path": ".github/workflows/orama_packages_reindex.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/orama_symbols_reindex.yml",
+      "size": 800
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2113
+    },
+    {
+      "path": ".github/workflows/sync-license-data.yml",
+      "size": 2199
+    },
+    {
+      "path": ".github/workflows/sync-types.yml",
+      "size": 1654
+    },
+    {
+      "path": ".github/workflows/title.yml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The open-source package registry for modern JavaScript and TypeScript",
+    "fork": false,
+    "full_name": "jsr-io/jsr",
+    "html_url": "https://github.com/jsr-io/jsr",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T00:10:18Z",
+    "stargazers_count": 2932,
+    "topics": [
+      "javascript",
+      "registry",
+      "typescript"
+    ],
+    "updated_at": "2026-04-19T21:25:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "denoland/deno_doc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "denoland/deno_std",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Orama Package Reindex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orama_packages_reindex.yml",
+      "term": "Orama Package Reindex"
+    },
+    {
+      "context_snippet": "Orama Symbols Reindex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/orama_symbols_reindex.yml",
+      "term": "Orama Symbols Reindex"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Sync SPDX License Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-license-data.yml",
+      "term": "Sync SPDX License Data"
+    },
+    {
+      "context_snippet": "Sync Deno & web types",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-types.yml",
+      "term": "Sync Deno & web types"
+    },
+    {
+      "context_snippet": "\"Lint PR title\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title.yml",
+      "term": "Lint PR title"
+    },
+    {
+      "context_snippet": "<img src=\"./frontend/static/logo.png\" width=\"200\" align=\"right\" alt=\"the jsr logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registry"
+    }
+  ]
+}

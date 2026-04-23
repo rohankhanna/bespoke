@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042649,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042621,
+      "status": "candidate",
+      "text": "motorcycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042549,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040717,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033343,
+      "status": "candidate",
+      "text": "wheel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bike",
+      "sense_id": "bike#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11076,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1068,
+      "status": "candidate",
+      "text": "wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "motorcycle"
+    }
+  ],
+  "concept_id": "bike",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bike",
+  "observation_id": "53a356534ecbbb90",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "bike",
+  "source_context_snippet": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)",
+  "source_file": null,
+  "source_repo": "awslabs/bike-kem",
+  "source_repo_description": "Additional implementation of BIKE (Bit Flipping Key Encapsulation)"
+}

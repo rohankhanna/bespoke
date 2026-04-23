@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036193,
+      "status": "candidate",
+      "text": "outturn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027677,
+      "status": "candidate",
+      "text": "end product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020315,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006753,
+      "status": "candidate",
+      "text": "turnout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036316,
+      "status": "candidate",
+      "text": "output signal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "output",
+      "sense_id": "output#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72086,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "turnout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "end product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "outturn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "output signal"
+    }
+  ],
+  "concept_id": "output",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "output",
+  "observation_id": "127a1ca0e748a2bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "output",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "clayrisser/sphinx-markdown-builder",
+  "source_repo_description": " DISCONTINUED: sphinx builder that outputs markdown files. The active version of this project is now being maintained at liran-funaro/sphinx-markdown-builder."
+}

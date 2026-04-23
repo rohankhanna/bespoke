@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions-rust-lang/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "bitcoindevkit/bdk_wallet",
+      "target": "Zizmor Actions Analysis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "bitcoindevkit/bdk_wallet"
+}

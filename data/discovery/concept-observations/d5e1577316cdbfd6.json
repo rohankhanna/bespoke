@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check EIP Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check EIP Versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "stepping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14428,
+      "status": "candidate",
+      "text": "brake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "bonnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "boom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "bootjack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check EIP Versions",
+      "sense_id": "check-eip-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-eip-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-eip-versions",
+  "observation_id": "d5e1577316cdbfd6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Check EIP Versions",
+  "source_context_snippet": "Check EIP Versions",
+  "source_file": ".github/workflows/check_eip_versions.yaml",
+  "source_repo": "ethereum/execution-spec-tests",
+  "source_repo_description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients"
+}

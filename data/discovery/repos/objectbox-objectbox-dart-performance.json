@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "hive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "objectbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart-performance",
+      "target": "sqflite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:06.583075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flutter App benchmarking the performance of ObjectBox against others (e.g. sqflite, Hive).",
+    "fork": false,
+    "full_name": "objectbox/objectbox-dart-performance",
+    "html_url": "https://github.com/objectbox/objectbox-dart-performance",
+    "language": "Dart",
+    "pushed_at": "2024-05-22T06:23:00Z",
+    "stargazers_count": 16,
+    "topics": [
+      "android",
+      "benchmarking",
+      "dart",
+      "flutter",
+      "hive",
+      "objectbox",
+      "performance",
+      "sqflite"
+    ],
+    "updated_at": "2025-10-10T17:51:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hive"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectbox"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "As usual run `flutter pub get`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqflite"
+    }
+  ]
+}

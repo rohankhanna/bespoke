@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Loom"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate-context",
+      "text": "Loom"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tokio",
+      "status": "candidate",
+      "text": "Loom"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022367,
+      "status": "candidate",
+      "text": "hover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997452,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973743,
+      "status": "candidate",
+      "text": "tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971539,
+      "status": "candidate",
+      "text": "bulk large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852780,
+      "status": "candidate",
+      "text": "brood"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41043,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22036,
+      "status": "candidate",
+      "text": "hover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15052,
+      "status": "candidate",
+      "text": "tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11037,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "bulk large"
+    }
+  ],
+  "canonical_name": "Loom",
+  "concept_id": "loom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/loom.yml",
+      "source_repo": "tokio-rs/tokio"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Loom",
+      "sense_id": "loom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

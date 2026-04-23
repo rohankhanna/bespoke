@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Verify testdouble stubs with QUnit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009769,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018265,
+      "status": "candidate",
+      "text": "verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018192,
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018057,
+      "status": "candidate",
+      "text": "corroborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017900,
+      "status": "candidate",
+      "text": "substantiate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "verify",
+      "sense_id": "verify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    }
+  ],
+  "concept_id": "verify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify",
+  "observation_id": "91b176bed74e7214",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "verify",
+  "source_context_snippet": "[![CI](https://github.com/alexlafroscia/testdouble-qunit/workflows/CI/badge.svg)](https://github.com/alexlafroscia/testdouble-qunit/actions?query=workflow%3ACI)",
+  "source_file": null,
+  "source_repo": "alexlafroscia/testdouble-qunit",
+  "source_repo_description": "Verify testdouble stubs with QUnit"
+}

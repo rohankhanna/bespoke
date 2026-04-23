@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "halo-platform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/compileflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "halo-platform",
+  "concept_id": "halo-platform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/compileflow"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "halo-platform",
+      "sense_id": "halo-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

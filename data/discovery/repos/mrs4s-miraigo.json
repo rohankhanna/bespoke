@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "logiase/miraigo-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goimports.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goimports.yml",
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "Goimports Style Fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "mirai-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "qq-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "qq-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "qqbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mrs4s/MiraiGo",
+      "target": "qqrobot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:09:23.303766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1385
+    },
+    {
+      "path": "go.mod",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2323
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/goimports.yml",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "qq\u534f\u8bae\u7684golang\u5b9e\u73b0, \u79fb\u690d\u4e8emirai",
+    "fork": false,
+    "full_name": "Mrs4s/MiraiGo",
+    "html_url": "https://github.com/Mrs4s/MiraiGo",
+    "language": "Go",
+    "pushed_at": "2024-02-29T15:12:26Z",
+    "stargazers_count": 1212,
+    "topics": [
+      "mirai",
+      "mirai-bot",
+      "protocol",
+      "qq",
+      "qq-bot",
+      "qq-protocol",
+      "qqbot",
+      "qqrobot"
+    ],
+    "updated_at": "2026-04-23T13:16:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logiase/miraigo-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Goimports Style Fix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goimports.yml",
+      "term": "Goimports Style Fix"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-bot"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qq-bot"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qq-protocol"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    },
+    {
+      "context_snippet": "qq-android \u534f\u8bae\u7684golang\u5b9e\u73b0 \u79fb\u690d\u4e8e [mirai](https://github.com/mamoe/mirai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqrobot"
+    }
+  ]
+}

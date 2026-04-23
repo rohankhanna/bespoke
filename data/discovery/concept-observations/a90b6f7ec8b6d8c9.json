@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for prototyping and experimenting with quantum-resistant cryptography"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code coverage tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code coverage tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26239,
+      "status": "candidate",
+      "text": "assert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26239,
+      "status": "candidate",
+      "text": "assertively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18134,
+      "status": "candidate",
+      "text": "baud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18005,
+      "status": "candidate",
+      "text": "charge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code coverage tests",
+      "sense_id": "code-coverage-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-coverage-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-coverage-tests",
+  "observation_id": "a90b6f7ec8b6d8c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Code coverage tests",
+  "source_context_snippet": "Code coverage tests",
+  "source_file": ".github/workflows/code-coverage.yml",
+  "source_repo": "open-quantum-safe/liboqs",
+  "source_repo_description": "C library for prototyping and experimenting with quantum-resistant cryptography"
+}

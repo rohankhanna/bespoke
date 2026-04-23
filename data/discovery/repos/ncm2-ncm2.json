@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ncm2/ncm2",
+      "target": "roxma/nvim-yarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ncm2/ncm2",
+      "target": "jacobsimpson/nvim-example-python-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ncm2/ncm2",
+      "target": "ncm2/ncm2-bufword",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2",
+      "target": "ncm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2",
+      "target": "ncm2-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ncm2/ncm2",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:22.016960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":heart: Slim, Fast and Hackable Completion Framework for Neovim",
+    "fork": false,
+    "full_name": "ncm2/ncm2",
+    "html_url": "https://github.com/ncm2/ncm2",
+    "language": "Python",
+    "pushed_at": "2025-06-07T09:03:37Z",
+    "stargazers_count": 1337,
+    "topics": [
+      "completion",
+      "ncm2",
+      "ncm2-plugin",
+      "neovim",
+      "vim"
+    ],
+    "updated_at": "2026-04-18T04:42:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jacobsimpson/nvim-example-python-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ncm2/ncm2-bufword",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roxma/nvim-yarp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ncm2 is a slim, async and hackable completion framework for neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "Ncm2 is a slim, async and hackable completion framework for neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncm2"
+    },
+    {
+      "context_snippet": "Ncm2 is a slim, async and hackable completion framework for neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncm2-plugin"
+    },
+    {
+      "context_snippet": "Ncm2 is a slim, async and hackable completion framework for neovim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

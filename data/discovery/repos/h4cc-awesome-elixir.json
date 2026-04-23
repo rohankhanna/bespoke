@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "a115/exmatrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "abitdodgy/gibran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "81dr/ex_changerate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "0xax/erlang-bookmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h4cc/awesome-elixir",
+      "target": "Awesome CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:00:21.809921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 196266
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:",
+    "fork": false,
+    "full_name": "h4cc/awesome-elixir",
+    "html_url": "https://github.com/h4cc/awesome-elixir",
+    "language": "Elixir",
+    "pushed_at": "2025-10-12T18:06:13Z",
+    "stargazers_count": 13122,
+    "topics": [],
+    "updated_at": "2026-04-23T14:58:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xax/erlang-bookmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "81dr/ex_changerate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a115/exmatrix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abitdodgy/gibran",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Awesome CI"
+    }
+  ]
+}

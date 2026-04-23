@@ -1,0 +1,320 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "confettifx/the-forge-media",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "confettifx/custom-middleware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "byumjin/jin-engine-2.1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "deanoc/tiny_imageformat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "directx12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "linux-ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "multi-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "multi-threading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "ray-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "shader-translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "visibility-buffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "vulkan-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConfettiFX/The-Forge",
+      "target": "xbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:21:45.540683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 113468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2",
+    "fork": false,
+    "full_name": "ConfettiFX/The-Forge",
+    "html_url": "https://github.com/ConfettiFX/The-Forge",
+    "language": "C++",
+    "pushed_at": "2025-07-03T23:20:30Z",
+    "stargazers_count": 5517,
+    "topics": [
+      "android",
+      "directx",
+      "directx12",
+      "ios",
+      "linux",
+      "linux-ubuntu",
+      "macos",
+      "metal",
+      "multi-gpu",
+      "multi-threading",
+      "ps4",
+      "ps5",
+      "ray-tracing",
+      "shader-translator",
+      "shaders",
+      "visibility-buffer",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-sdk",
+      "xbox"
+    ],
+    "updated_at": "2026-04-23T18:13:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byumjin/jin-engine-2.1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confettifx/custom-middleware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confettifx/the-forge-media",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deanoc/tiny_imageformat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx12"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-ubuntu"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-gpu"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-threading"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ray-tracing"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shader-translator"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visibility-buffer"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-sdk"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbox"
+    }
+  ]
+}

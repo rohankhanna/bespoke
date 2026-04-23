@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copyright_check.yml",
+      "source_repo": "GaloisInc/cryptol-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner"
+    }
+  ],
+  "term": "Copyright check"
+}

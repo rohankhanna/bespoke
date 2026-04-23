@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/InfLLM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/InfLLM",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/InfLLM",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:49.428921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5726
+    },
+    {
+      "path": "requirements.txt",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\"",
+    "fork": false,
+    "full_name": "thunlp/InfLLM",
+    "html_url": "https://github.com/thunlp/InfLLM",
+    "language": "Python",
+    "pushed_at": "2024-04-20T06:34:12Z",
+    "stargazers_count": 402,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "long-context",
+      "training-free"
+    ],
+    "updated_at": "2026-04-18T11:21:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\" [[pdf]](https://arxiv.org/pdf/2402.04617.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\" [[pdf]](https://arxiv.org/pdf/2402.04617.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "The code of our paper \"InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\" [[pdf]](https://arxiv.org/pdf/2402.04617.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spectrum Web Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Coveralls Code Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Coveralls Code Coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22569,
+      "status": "candidate",
+      "text": "arsenic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22569,
+      "status": "candidate",
+      "text": "bib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22569,
+      "status": "candidate",
+      "text": "clay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22569,
+      "status": "candidate",
+      "text": "egg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22569,
+      "status": "candidate",
+      "text": "garble"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coveralls Code Coverage",
+      "sense_id": "coveralls-code-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "coveralls-code-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coveralls-code-coverage",
+  "observation_id": "afbbdf759b0bb6fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Coveralls Code Coverage",
+  "source_context_snippet": "Coveralls Code Coverage",
+  "source_file": ".github/workflows/coveralls.yml",
+  "source_repo": "adobe/spectrum-web-components",
+  "source_repo_description": "Spectrum Web Components"
+}

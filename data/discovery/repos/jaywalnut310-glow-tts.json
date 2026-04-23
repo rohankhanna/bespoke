@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaywalnut310/glow-tts",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:17:33.583121+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+    "fork": false,
+    "full_name": "jaywalnut310/glow-tts",
+    "html_url": "https://github.com/jaywalnut310/glow-tts",
+    "language": "Python",
+    "pushed_at": "2022-07-12T07:12:57Z",
+    "stargazers_count": 708,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-04-14T18:28:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "A Generative Flow for Text-to-Speech via Monotonic Alignment Search",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

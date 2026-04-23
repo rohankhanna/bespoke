@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T19:48:54.934149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1629
+    },
+    {
+      "path": "Dockerfile",
+      "size": 982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Website infrastructure and content for mirage.io",
+    "fork": false,
+    "full_name": "mirage/mirage-www",
+    "html_url": "https://github.com/mirage/mirage-www",
+    "language": "HTML",
+    "pushed_at": "2026-03-28T16:02:37Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-03-28T16:02:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

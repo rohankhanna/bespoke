@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tpm",
+      "target": "tmux-plugins/list",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:27.219703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tmux Plugin Manager",
+    "fork": false,
+    "full_name": "tmux-plugins/tpm",
+    "html_url": "https://github.com/tmux-plugins/tpm",
+    "language": "Shell",
+    "pushed_at": "2024-08-05T08:25:43Z",
+    "stargazers_count": 14563,
+    "topics": [],
+    "updated_at": "2026-04-23T19:38:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/list",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

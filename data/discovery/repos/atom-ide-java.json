@@ -72,13 +72,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "atom/ide-java",
-      "target": "atom/atom",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "atom/ide-java",
@@ -177,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:47:10.688242+00:00",
+  "fetched_at": "2026-04-23T20:07:06.672992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -211,11 +204,6 @@
     "updated_at": "2026-04-03T12:05:21Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "atom/atom",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "atom/languageserver-java",

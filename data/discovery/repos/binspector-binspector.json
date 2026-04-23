@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:44:41.440778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A binary format analysis tool",
+    "fork": false,
+    "full_name": "binspector/binspector",
+    "html_url": "https://github.com/binspector/binspector",
+    "language": "C++",
+    "pushed_at": "2021-05-10T17:45:53Z",
+    "stargazers_count": 245,
+    "topics": [],
+    "updated_at": "2026-04-09T14:23:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "emacs-lsp/lsp-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "company-mode/company-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "alexander-miller/treemacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "emacs-lsp/lsp-treemacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "emacs-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "jdt-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "lsp-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-java",
+      "target": "spring-initializr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:07:29.978071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20465
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lsp-mode :heart: java",
+    "fork": false,
+    "full_name": "emacs-lsp/lsp-java",
+    "html_url": "https://github.com/emacs-lsp/lsp-java",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-11-21T04:46:02Z",
+    "stargazers_count": 692,
+    "topics": [
+      "emacs",
+      "emacs-lsp",
+      "java",
+      "jdt-server",
+      "lsp",
+      "lsp-java",
+      "spring-boot",
+      "spring-initializr"
+    ],
+    "updated_at": "2026-04-06T00:36:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexander-miller/treemacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "company-mode/company-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-lsp/lsp-treemacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-lsp/lsp-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lsp"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdt-server"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-java"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/lsp-java-badge.svg)](https://melpa.org/#/lsp-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-initializr"
+    }
+  ]
+}

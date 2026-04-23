@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "flake8-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "flake8-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "linter-flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "linter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "naming-conventions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/pep8-naming",
+      "target": "pep8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:46:14.850077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5856
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Naming Convention checker for Python",
+    "fork": false,
+    "full_name": "PyCQA/pep8-naming",
+    "html_url": "https://github.com/PyCQA/pep8-naming",
+    "language": "Python",
+    "pushed_at": "2025-05-06T21:53:54Z",
+    "stargazers_count": 531,
+    "topics": [
+      "flake8",
+      "flake8-extensions",
+      "flake8-plugin",
+      "linter-flake8",
+      "linter-plugin",
+      "naming-conventions",
+      "pep8",
+      "python"
+    ],
+    "updated_at": "2026-04-23T11:46:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-extensions"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-plugin"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-flake8"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-plugin"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "naming-conventions"
+    },
+    {
+      "context_snippet": "PEP 8 Naming Conventions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pep8"
+    }
+  ]
+}

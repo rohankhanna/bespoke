@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build TR Document"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/core-aam",
+      "status": "candidate-context",
+      "text": "Core Accessibility API Mappings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/core-aam",
+      "status": "candidate-context",
+      "text": "Build TR Document"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/core-aam",
+      "status": "candidate",
+      "text": "Build TR Document"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34337,
+      "status": "candidate",
+      "text": "jerry-build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26319,
+      "status": "candidate",
+      "text": "overbuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26319,
+      "status": "candidate",
+      "text": "upbuild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25802,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18776,
+      "status": "candidate",
+      "text": "permit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build TR Document",
+  "concept_id": "build-tr-document",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tr-publication.yml",
+      "source_repo": "w3c/core-aam"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build TR Document",
+      "sense_id": "build-tr-document#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

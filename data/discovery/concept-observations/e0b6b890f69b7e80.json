@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The debug server implementation for Java. It conforms to the debug protocol of Visual Studio Code (DAP, Debugger Adapter Protocol)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI Triage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI Triage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "interval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "gel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Triage",
+      "sense_id": "ai-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-triage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-triage",
+  "observation_id": "e0b6b890f69b7e80",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "AI Triage",
+  "source_context_snippet": "AI Triage",
+  "source_file": ".github/workflows/triage-agent.yml",
+  "source_repo": "microsoft/java-debug",
+  "source_repo_description": "The debug server implementation for Java. It conforms to the debug protocol of Visual Studio Code (DAP, Debugger Adapter Protocol)."
+}

@@ -31,6 +31,30 @@
       "source_repo": "Novum/vkQuake",
       "status": "candidate-context",
       "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "Bindings to wgpu-native for the Crystal programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate-context",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "Vulkan DOOM 3 port based on DOOM 3 BFG Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate-context",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Novum/vkQuake",
       "status": "candidate",
       "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chances/wgpu-crystal",
+      "status": "candidate",
+      "text": "[![wgpu.cr v0.9.2](https://img.shields.io/badge/shards-v0.9.2-important)](https://shards.info/github/chances/wgpu-crystal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DustinHLand/vkDOOM3",
+      "status": "candidate",
+      "text": "I have not had the time to maintain this to keep pace as a learning tool for Vulkan. There are still some good nuggets in here for beginners and it's a sizable chunk of code utilizing the API. However, it's years behind the API updates so it's not going to inform you on recent b\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Novum/vkQuake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chances/wgpu-crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DustinHLand/vkDOOM3"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

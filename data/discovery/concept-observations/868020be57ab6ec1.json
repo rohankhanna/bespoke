@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library to create small, reusable CSS that scales as your website grows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io))."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984898,
+      "status": "candidate",
+      "text": "atomiser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978482,
+      "status": "candidate",
+      "text": "spray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972367,
+      "status": "candidate",
+      "text": "sprayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973163,
+      "status": "candidate",
+      "text": "electrothermal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008975,
+      "status": "candidate",
+      "text": "vaporizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atomizer",
+      "sense_id": "atomizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "spray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "sprayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "atomiser"
+    }
+  ],
+  "concept_id": "atomizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "atomizer",
+  "observation_id": "868020be57ab6ec1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "atomizer",
+  "source_context_snippet": "Atomizer is a tool that helps you create Atomic CSS rules ([acss.io](http://acss.io)).",
+  "source_file": null,
+  "source_repo": "acss-io/atomizer",
+  "source_repo_description": "A library to create small, reusable CSS that scales as your website grows."
+}

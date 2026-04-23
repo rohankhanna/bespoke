@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "align versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "align versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "aline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "root"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "align versions",
+      "sense_id": "align-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "align-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "align-versions",
+  "observation_id": "ce5636c515d615c7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "align versions",
+  "source_context_snippet": "align versions",
+  "source_file": ".github/workflows/align-versions.yml",
+  "source_repo": "cookiecutter/cookiecutter-django",
+  "source_repo_description": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+}

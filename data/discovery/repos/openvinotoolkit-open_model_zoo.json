@@ -1,0 +1,429 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/accuracy_checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/accuracy_checker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "actions/cache/restore@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_api.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_api.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "openvisualcloud/ad-insertion-sample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "incluit/openvino-for-smartcity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "incluit/openvino-driver-behaviour",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "hendrikmuhs/ccache-action@v1.2.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_api.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_api.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "caffemodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "cnn-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "deep-learning-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "model-zoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "onnx-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "openvino-model-zoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "openvino-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "openvino-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "pytorch-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo",
+      "target": "tensorflow-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:08:04.066298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4077
+    },
+    {
+      "path": ".github/workflows/accuracy_checker.yml",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/cpp_gapi-demos.yml",
+      "size": 4948
+    },
+    {
+      "path": ".github/workflows/model_api.yml",
+      "size": 667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pre-trained Deep Learning models and demos (high quality and extremely fast)",
+    "fork": false,
+    "full_name": "openvinotoolkit/open_model_zoo",
+    "html_url": "https://github.com/openvinotoolkit/open_model_zoo",
+    "language": "Python",
+    "pushed_at": "2026-04-10T11:38:18Z",
+    "stargazers_count": 4384,
+    "topics": [
+      "caffemodel",
+      "cnn-model",
+      "deep-learning-models",
+      "demo",
+      "inference",
+      "model",
+      "model-zoo",
+      "models",
+      "onnx-models",
+      "openvino",
+      "openvino-model-zoo",
+      "openvino-models",
+      "openvino-toolkit",
+      "pytorch-models",
+      "tensorflow-models"
+    ],
+    "updated_at": "2026-04-21T18:52:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "incluit/openvino-driver-behaviour",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "incluit/openvino-for-smartcity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvisualcloud/ad-insertion-sample",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "github-actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "github-actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffemodel"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cnn-model"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-models"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-zoo"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "models"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-models"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino-model-zoo"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino-models"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino-toolkit"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-models"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-models"
+    }
+  ]
+}

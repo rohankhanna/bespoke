@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "csa check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate-context",
+      "text": "csa check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/bdwgc",
+      "status": "candidate",
+      "text": "csa check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14156,
+      "status": "candidate",
+      "text": "cca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14156,
+      "status": "candidate",
+      "text": "cida"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "cad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "csa check",
+  "concept_id": "csa-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/csa-check.yml",
+      "source_repo": "bdwgc/bdwgc"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "csa check",
+      "sense_id": "csa-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

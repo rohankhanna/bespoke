@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python 3 embeddable for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3",
+      "sense_id": "python3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python3",
+  "observation_id": "eb668c2df210277b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "python3",
+  "source_context_snippet": "Python 3 embeddables for Windows, Linux, MacOS and Android",
+  "source_file": null,
+  "source_repo": "lmbelo/python3-embeddable",
+  "source_repo_description": "Python 3 embeddable for Windows, Linux, MacOS and Android"
+}

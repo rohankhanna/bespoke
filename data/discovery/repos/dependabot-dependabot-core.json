@@ -1,0 +1,689 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml"
+    },
+    {
+      "component": "rubygems/configure-rubygems-credentials@bc6dd217f8a4f919d6835fcfefd470ef821f5c44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "dependabot/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "dependabot/example-cli-usage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "gocardless/bump",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "gocardless/bump-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Sorbet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-arm64.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-arm64.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ARM64 Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "github/codeql-action/autobuild@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "github/codeql-action/analyze@0d579ffd059c29b07949a3cce3983f0780820c98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Gems - Bump Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "rubygems/configure-rubygems-credentials@bc6dd217f8a4f919d6835fcfefd470ef821f5c44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "source_repo": "dependabot/dependabot-core",
+      "target": "Gems - Release to RubyGems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "pnpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "rubygems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:58:06.767678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29328
+    },
+    {
+      "path": ".github/workflows/check-sorbet-typing-mode.yml",
+      "size": 2747
+    },
+    {
+      "path": ".github/workflows/ci-arm64.yml",
+      "size": 694
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6662
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3092
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 3948
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/gems-bump-version.yml",
+      "size": 4932
+    },
+    {
+      "path": ".github/workflows/gems-release-to-rubygems.yml",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 Dependabot's core logic for creating update PRs.",
+    "fork": false,
+    "full_name": "dependabot/dependabot-core",
+    "html_url": "https://github.com/dependabot/dependabot-core",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T19:49:31Z",
+    "stargazers_count": 5548,
+    "topics": [
+      "dependencies",
+      "docker",
+      "dotnet",
+      "elixir",
+      "elm",
+      "go",
+      "java",
+      "javascript",
+      "php",
+      "pnpm",
+      "python",
+      "ruby",
+      "rubygems",
+      "rust",
+      "terraform"
+    ],
+    "updated_at": "2026-04-23T18:51:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dependabot/cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dependabot/example-cli-usage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gocardless/bump",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gocardless/bump-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sorbet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sorbet-typing-mode.yml",
+      "term": "Sorbet"
+    },
+    {
+      "context_snippet": "ARM64 Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-arm64.yml",
+      "term": "ARM64 Build"
+    },
+    {
+      "context_snippet": "Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Specs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Dependency Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Gems - Bump Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gems-bump-version.yml",
+      "term": "Gems - Bump Version"
+    },
+    {
+      "context_snippet": "Gems - Release to RubyGems",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gems-release-to-rubygems.yml",
+      "term": "Gems - Release to RubyGems"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependencies"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pnpm"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubygems"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "python-lsp/python-lsp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "reditorsupport/languageserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "wylieconlon/lsp-editor-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "bash-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "dictionary-en",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "dockerfile-language-server-nodejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "precise-commits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "pyright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "source-map-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "sql-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "typescript-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "unified-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "vscode-css-languageserver-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "vscode-html-languageserver-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "vscode-json-languageserver-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "vscode-json-languageservice",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "yaml-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "yarn-berry-deduplicate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binder-badge.yaml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binder-badge.yaml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "Binder Badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "cschleiden/replace-tokens@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "autocompletion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "jupyter-lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "jupyterlab-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "target": "notebook-jupyter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "jupyter-lsp/jupyterlab-lsp"
+}

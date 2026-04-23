@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022856,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022775,
+      "status": "candidate",
+      "text": "reappraisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022538,
+      "status": "candidate",
+      "text": "reexamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022380,
+      "status": "candidate",
+      "text": "reexamination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022005,
+      "status": "candidate",
+      "text": "survey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "review",
+      "sense_id": "review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18057,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "critique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9048,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "retrospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6031,
+      "status": "candidate",
+      "text": "recap"
+    }
+  ],
+  "concept_id": "review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "review",
+  "observation_id": "5d69fd5964a86ef5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "review",
+  "source_context_snippet": "review",
+  "source_file": ".github/workflows/review.yml",
+  "source_repo": "authorizer-tech/access-controller",
+  "source_repo_description": "A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-\"Google\u2019s Consistent, Global Authorization System\""
+}

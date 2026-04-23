@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010349,
+      "status": "candidate",
+      "text": "transportable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010198,
+      "status": "candidate",
+      "text": "movable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008938,
+      "status": "candidate",
+      "text": "moveable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008437,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008012,
+      "status": "candidate",
+      "text": "raiseable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile",
+      "sense_id": "mobile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27037,
+      "status": "candidate",
+      "text": "versatile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "ambulatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19028,
+      "status": "candidate",
+      "text": "rangy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18031,
+      "status": "candidate",
+      "text": "unsettled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17042,
+      "status": "candidate",
+      "text": "moving"
+    }
+  ],
+  "concept_id": "mobile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mobile",
+  "observation_id": "89e6b767a6dc7e09",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "mobile",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "huawei-noah/bolt",
+  "source_repo_description": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "paddle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate-context",
+      "text": "A simple wrapper for hiroi-sora/PaddleOCR-json implemented in Go language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate-context",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doraemonkeys/paddleocr",
+      "status": "candidate",
+      "text": "English|[\u4e2d\u6587](/README-ZH.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39696673,
+      "status": "candidate",
+      "text": "spank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39685140,
+      "status": "candidate",
+      "text": "dabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672274,
+      "status": "candidate",
+      "text": "larrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39612986,
+      "status": "candidate",
+      "text": "waddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39608556,
+      "status": "candidate",
+      "text": "toddle"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "totter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "toddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "coggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "dodder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7024,
+      "status": "candidate",
+      "text": "larrup"
+    }
+  ],
+  "canonical_name": "paddle",
+  "concept_id": "paddle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "doraemonkeys/paddleocr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paddle",
+      "sense_id": "paddle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

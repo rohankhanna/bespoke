@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch implementation of Pointnet2/Pointnet++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pointnet2/Pointnet++ PyTorch"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959481,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964403,
+      "status": "candidate",
+      "text": "lernean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29680248,
+      "status": "candidate",
+      "text": "multiheaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669307,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29522112,
+      "status": "candidate",
+      "text": "headed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hydra",
+      "sense_id": "hydra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "snake"
+    }
+  ],
+  "concept_id": "hydra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hydra",
+  "observation_id": "15eea365e5e4aa0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "hydra",
+  "source_context_snippet": "Pointnet2/Pointnet++ PyTorch",
+  "source_file": null,
+  "source_repo": "erikwijmans/Pointnet2_PyTorch",
+  "source_repo_description": "PyTorch implementation of Pointnet2/Pointnet++"
+}

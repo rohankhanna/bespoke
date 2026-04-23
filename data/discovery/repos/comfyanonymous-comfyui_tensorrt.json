@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comfyanonymous/ComfyUI_TensorRT",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "comfyanonymous/ComfyUI_TensorRT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "comfyanonymous/ComfyUI_TensorRT",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "comfyanonymous/ComfyUI_TensorRT",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:43:53.919214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4931
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 457
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "comfyanonymous/ComfyUI_TensorRT",
+    "html_url": "https://github.com/comfyanonymous/ComfyUI_TensorRT",
+    "language": "Python",
+    "pushed_at": "2024-10-10T00:23:55Z",
+    "stargazers_count": 698,
+    "topics": [],
+    "updated_at": "2026-04-17T14:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

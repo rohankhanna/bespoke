@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nv-accelerate-v100"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nv-accelerate-v100"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nv-accelerate-v100",
+      "sense_id": "nv-accelerate-v100#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nv-accelerate-v100",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nv-accelerate-v100",
+  "observation_id": "d4abf0eca4520b24",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "nv-accelerate-v100",
+  "source_context_snippet": "nv-accelerate-v100",
+  "source_file": ".github/workflows/nv-accelerate-v100.yml",
+  "source_repo": "HabanaAI/DeepSpeed",
+  "source_repo_description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+}

@@ -19,6 +19,18 @@
       "source_repo": "ChainSafe/forest",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/blst",
+      "status": "candidate-context",
+      "text": "Multilingual BLS12-381 signature library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/blst",
+      "status": "candidate-context",
+      "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ChainSafe/forest",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/blst",
+      "status": "candidate",
+      "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "supranational/blst"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

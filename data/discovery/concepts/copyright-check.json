@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Copyright check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Specifications of cryptographic algorithms in Cryptol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate-context",
+      "text": "Copyright check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "Scalable toolkit for efficient model alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate-context",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaloisInc/cryptol-specs",
+      "status": "candidate",
+      "text": "Copyright check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/NeMo-Aligner",
+      "status": "candidate",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12514,
+      "status": "candidate",
+      "text": "embargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "bootleg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Copyright check",
+  "concept_id": "copyright-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copyright_check.yml",
+      "source_repo": "GaloisInc/cryptol-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA/NeMo-Aligner"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copyright check",
+      "sense_id": "copyright-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

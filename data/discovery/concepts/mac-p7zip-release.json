@@ -19,12 +19,30 @@
       "source_repo": "p7zip-project/p7zip",
       "status": "candidate-context",
       "text": "mac-p7zip-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jinfeihan57/p7zip",
+      "status": "candidate-context",
+      "text": "A new p7zip fork with additional codecs and improvements (forked from https://sourceforge.net/projects/sevenzip/ AND https://sourceforge.net/projects/p7zip/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinfeihan57/p7zip",
+      "status": "candidate-context",
+      "text": "mac-p7zip-release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "p7zip-project/p7zip",
+      "status": "candidate",
+      "text": "mac-p7zip-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinfeihan57/p7zip",
       "status": "candidate",
       "text": "mac-p7zip-release"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release_mac.yml",
       "source_repo": "p7zip-project/p7zip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "jinfeihan57/p7zip"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

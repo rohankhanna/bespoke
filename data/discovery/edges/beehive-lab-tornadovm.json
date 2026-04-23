@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/docker-tornado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/gpullama3.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "beehive-lab/kfusion-tornadovm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "vinhixus/tornadovm-ray-tracer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/1-prepare-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/2-finalize-release-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-jdk25.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-graalvm-and-polyglot.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-with-jdks21.yml",
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "gpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "levelzero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "multi-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "parallel-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM",
+      "target": "spirv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "beehive-lab/TornadoVM"
+}

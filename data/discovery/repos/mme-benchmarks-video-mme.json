@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "bradyfu/video-mme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "look4u-ok/video-slicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "thanku-all/parse_answer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "large-vision-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME",
+      "target": "video-mme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:41:02.665670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2728\u2728[CVPR 2025] Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+    "fork": false,
+    "full_name": "MME-Benchmarks/Video-MME",
+    "html_url": "https://github.com/MME-Benchmarks/Video-MME",
+    "language": null,
+    "pushed_at": "2025-12-08T06:31:55Z",
+    "stargazers_count": 758,
+    "topics": [
+      "large-language-models",
+      "large-vision-language-models",
+      "mme",
+      "multimodal-large-language-models",
+      "video",
+      "video-mme"
+    ],
+    "updated_at": "2026-04-22T05:40:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradyfu/video-mme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "look4u-ok/video-slicer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thanku-all/parse_answer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-vision-language-models"
+    },
+    {
+      "context_snippet": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-mme"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "Actions-R-Us/actions-tagger@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-versions.yml"
+    },
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "tinted-theming/home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-versions.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "Actions-R-Us/actions-tagger@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action-versions.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "Keep published action versions up-to-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "base16-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-builder-go",
+      "target": "base24",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:48:18.656459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1117
+    },
+    {
+      "path": "Dockerfile",
+      "size": 198
+    },
+    {
+      "path": "go.mod",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/action-versions.yml",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A base16 builder written in go, focused on convenience for template maintainers.",
+    "fork": false,
+    "full_name": "tinted-theming/base16-builder-go",
+    "html_url": "https://github.com/tinted-theming/base16-builder-go",
+    "language": "Go",
+    "pushed_at": "2024-09-06T13:51:27Z",
+    "stargazers_count": 51,
+    "topics": [
+      "base16",
+      "base16-builder",
+      "base24"
+    ],
+    "updated_at": "2026-01-17T14:14:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/home",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Keep published action versions up-to-date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action-versions.yml",
+      "term": "Keep published action versions up-to-date"
+    },
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "A simple builder for base16 templates and schemes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "A simple builder for base16 templates and schemes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16-builder"
+    },
+    {
+      "context_snippet": "A simple builder for base16 templates and schemes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24"
+    }
+  ]
+}

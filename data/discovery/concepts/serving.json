@@ -19,6 +19,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/LitServe",
+      "status": "candidate",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/LitServe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

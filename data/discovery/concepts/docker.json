@@ -1102,6 +1102,318 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "act as self-hosted runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate-context",
+      "text": "Scripts and configurations to leverage lsp-mode in docker environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "A lightweight, self-hosted friendly RSS reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "Yet another WebUI for Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "\ud83d\udc30 Bencher - Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Dependabot's core logic for creating update PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "Build a private P2P device network for capability-first services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "A Kurtosis package that deploys a private, portable, and modular Ethereum devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate-context",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate-context",
+      "text": "Cross-platform emulator collection distributed with Docker images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate-context",
+      "text": "Dockerfile cross-compilation helpers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/mquery",
+      "status": "candidate-context",
+      "text": "Multi-platform (manifest list/OCI index) registry image query utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/mquery",
+      "status": "candidate-context",
+      "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "Modern Bazel rules for building OCI container images with advanced performance optimizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "A minimal init system for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "Declarative Continuous Deployment for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate-context",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate-context",
+      "text": "Build and run Docker containers leveraging NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate-context",
+      "text": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "Run Helia NodeJS in a Docker Container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "QD [v20240210] \u2014\u2014 HTTP\u8bf7\u6c42\u5b9a\u65f6\u4efb\u52a1\u81ea\u52a8\u6267\u884c\u6846\u67b6 base on HAR Editor and Tornado Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alisen39/TrWebOCR",
+      "status": "candidate-context",
+      "text": "\u5f00\u6e90\u6613\u7528\u7684\u4e2d\u6587\u79bb\u7ebfOCR\uff0c\u8bc6\u522b\u7387\u5ab2\u7f8e\u5927\u5382\uff0c\u5e76\u4e14\u63d0\u4f9b\u4e86\u6613\u7528\u7684web\u9875\u9762\u53caweb\u7684\u63a5\u53e3\uff0c\u65b9\u4fbf\u4eba\u7c7b\u65e5\u5e38\u5de5\u4f5c\u4f7f\u7528\u6216\u8005\u5176\u4ed6\u7a0b\u5e8f\u6765\u8c03\u7528~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alisen39/TrWebOCR",
+      "status": "candidate-context",
+      "text": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Generate files from docker container meta-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/nginx-proxy/docker-gen/actions/workflows/tests.yml/badge.svg)](https://github.com/nginx-proxy/docker-gen/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
     }
   ],
   "candidate_glosses": [
@@ -1656,6 +1968,162 @@
       "source_repo": "intentee/paddler",
       "status": "candidate",
       "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChristopherHX/github-act-runner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/github-act-runner/actions/workflows/build.yml) [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-docker",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xJacky/nginx-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/nginx-proxy/nginx-proxy/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencherdev/bencher",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/dependabot-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-package",
+      "status": "candidate",
+      "text": "![Run of the Ethereum Network Package](run.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/binfmt",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/binfmt.svg?style=flat-square)](https://github.com/tonistiigi/binfmt/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonistiigi/xx",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/mquery",
+      "status": "candidate",
+      "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-buildx-action.svg?style=flat-square)](https://github.com/docker/setup-buildx-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_img",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate",
+      "text": "dumb-init"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-cd",
+      "status": "candidate",
+      "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvidia-docker",
+      "status": "candidate",
+      "text": "This project has been superseded by the [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qd-today/qd",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alisen39/TrWebOCR",
+      "status": "candidate",
+      "text": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/nginx-proxy/docker-gen/actions/workflows/tests.yml/badge.svg)](https://github.com/nginx-proxy/docker-gen/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
     }
   ],
   "candidate_related_terms": [
@@ -2431,11 +2899,227 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "0x2E/fusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "0xJacky/nginx-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dependabot/dependabot-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tonistiigi/binfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tonistiigi/xx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "estesp/mquery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvidia-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/helia-http-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alisen39/TrWebOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aerokube/selenoid"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "kill-port",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "ahujasid/blender-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "openbmb/agentverse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "openbmb/repoagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "openbmb/appcopilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "kill-port",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:49:51.190686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23320
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1869
+    },
+    {
+      "path": "package.json",
+      "size": 57
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1437
+    },
+    {
+      "path": "requirements.txt",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/validate-yamls.yml",
+      "size": 1699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+    "fork": false,
+    "full_name": "OpenBMB/ChatDev",
+    "html_url": "https://github.com/OpenBMB/ChatDev",
+    "language": "Python",
+    "pushed_at": "2026-04-07T05:37:11Z",
+    "stargazers_count": 32839,
+    "topics": [],
+    "updated_at": "2026-04-23T18:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahujasid/blender-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/agentverse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/appcopilot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/repoagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

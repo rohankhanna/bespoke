@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "google-deepmind/code_contests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "amazon-science/mxeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "facebookresearch/cruxeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/SandboxFusion",
+      "target": "deepseek-ai/deepseek-coder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:45:47.253884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7314
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bytedance/SandboxFusion",
+    "html_url": "https://github.com/bytedance/SandboxFusion",
+    "language": "Python",
+    "pushed_at": "2025-12-11T05:12:59Z",
+    "stargazers_count": 995,
+    "topics": [],
+    "updated_at": "2026-04-23T06:15:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazon-science/mxeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepseek-ai/deepseek-coder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/cruxeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/code_contests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

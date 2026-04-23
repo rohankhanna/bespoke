@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Ai00-X/ai00_server",
-      "target": "cryscan/web-rwkv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Ai00-X/ai00_server",
       "target": "cgisky1980/ai00_rwkv_server",
       "target_type": "repository"
     },
@@ -19,13 +12,6 @@
       "source_file": "Cargo.toml",
       "source_repo": "Ai00-X/ai00_server",
       "target": "cgisky1980/ai00_rwkv_server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "Ai00-X/ai00_server",
-      "target": "cgisky1980/hf-hub",
       "target_type": "repository"
     },
     {
@@ -218,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "Ai00-X/ai00_server"
 }

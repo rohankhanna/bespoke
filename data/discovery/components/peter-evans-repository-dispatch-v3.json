@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/repository-dispatch@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/render.yml",
       "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-docs.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
     }
   ]
 }

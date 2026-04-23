@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "blenderneko/comfyui_tiledksampler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "blenderneko/comfyui_noise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "bing-su/dddetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "biegert/comfyui-clipseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ltdrdata/ComfyUI-Impact-Pack",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "ltdrdata/ComfyUI-Impact-Pack"
+}

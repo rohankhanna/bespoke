@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Ready Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate-context",
+      "text": "Check Ready Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/llm-compressor",
+      "status": "candidate",
+      "text": "Check Ready Label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26064,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18884,
+      "status": "candidate",
+      "text": "made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18252,
+      "status": "candidate",
+      "text": "branding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18252,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18149,
+      "status": "candidate",
+      "text": "irs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Ready Label",
+  "concept_id": "check-ready-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ready-label-check.yaml",
+      "source_repo": "vllm-project/llm-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Ready Label",
+      "sense_id": "check-ready-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

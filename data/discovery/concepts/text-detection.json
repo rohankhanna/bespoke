@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "text-detection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "CnSTD: \u57fa\u4e8e PyTorch/MXNet \u7684 \u4e2d\u6587/\u82f1\u6587 \u573a\u666f\u6587\u5b57\u68c0\u6d4b\uff08Scene Text Detection\uff09\u3001\u6570\u5b66\u516c\u5f0f\u68c0\u6d4b\uff08Mathematical Formula Detection, MFD\uff09\u3001\u7bc7\u7ae0\u5206\u6790\uff08Layout Analysis\uff09\u7684Python3 \u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "OpenMMLab Text Detection, Recognition and Understanding Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "breezedeus/CnSTD",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmocr",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "text-detection",
+  "concept_id": "text-detection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "breezedeus/CnSTD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmocr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-detection",
+      "sense_id": "text-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

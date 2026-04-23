@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "embarcadero/p4d-data-sciences",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "BetaHuhn/do-spaces-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "Build Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "delphi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "embed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python3-embeddable",
+      "target": "python4delphi",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "lmbelo/python3-embeddable"
+}

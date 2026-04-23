@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:10:48.174260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "llama.cpp bindings and utilities for zig",
+    "fork": false,
+    "full_name": "Deins/llama.cpp.zig",
+    "html_url": "https://github.com/Deins/llama.cpp.zig",
+    "language": "Zig",
+    "pushed_at": "2025-04-14T18:34:53Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-22T18:28:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

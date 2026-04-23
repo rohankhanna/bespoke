@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An implementation of the Debug Adapter Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-label when user responds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-label when user responds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28644,
+      "status": "candidate",
+      "text": "interactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12305,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11183,
+      "status": "candidate",
+      "text": "answerer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11183,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11183,
+      "status": "candidate",
+      "text": "reactor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-label when user responds",
+      "sense_id": "auto-label-when-user-responds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-label-when-user-responds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-label-when-user-responds",
+  "observation_id": "3b1a8a803adb3de5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Auto-label when user responds",
+  "source_context_snippet": "Auto-label when user responds",
+  "source_file": ".github/workflows/auto-label.yml",
+  "source_repo": "microsoft/debugpy",
+  "source_repo_description": "An implementation of the Debug Adapter Protocol for Python"
+}

@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "searxng/searx-instances",
+      "target": "searxng/searx-space",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "searxng/searx-instances",
+      "target": "searxng/searx-instances-uptime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "searx-instances",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "source_repo": "searxng/searx-instances",
+      "target": "Detect instances previously submitted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "searxng/searx-instances",
+      "target": "searx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "searxng/searx-instances",
+      "target": "searx-instances",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:02:04.957460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3635
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/detect-previous-instance.yml",
+      "size": 3044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SearXNG instances list ",
+    "fork": false,
+    "full_name": "searxng/searx-instances",
+    "html_url": "https://github.com/searxng/searx-instances",
+    "language": "Python",
+    "pushed_at": "2026-04-23T06:47:23Z",
+    "stargazers_count": 184,
+    "topics": [
+      "searx",
+      "searx-instances"
+    ],
+    "updated_at": "2026-04-23T06:47:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "searxng/searx-instances-uptime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "searxng/searx-space",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "searx-instances",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "searx-instances"
+    },
+    {
+      "context_snippet": "Detect instances previously submitted",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-previous-instance.yml",
+      "term": "Detect instances previously submitted"
+    },
+    {
+      "context_snippet": "Create a new issue here: https://github.com/searxng/searx-instances/issues/new/choose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "searx"
+    },
+    {
+      "context_snippet": "Create a new issue here: https://github.com/searxng/searx-instances/issues/new/choose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "searx-instances"
+    }
+  ]
+}

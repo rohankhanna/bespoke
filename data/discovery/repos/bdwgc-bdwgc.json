@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml"
+    },
+    {
+      "component": "tecolicom/actions-use-homebrew-tools@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build-extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-cosmo.yml"
+    },
+    {
+      "component": "bjia56/setup-cosmocc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-cosmo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csa-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-direct-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-direct-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "bdwgc/libatomic_ops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "tecolicom/actions-use-homebrew-tools@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "awalsh128/cache-apt-pkgs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "autotools build extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "clang-format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build-extra.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cmake build extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cmake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-cosmo.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-cosmo.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "bjia56/setup-cosmocc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-cosmo.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cmake cosmo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cppcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csa-check.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csa-check.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "csa check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-direct-build.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-direct-build.yml",
+      "source_repo": "bdwgc/bdwgc",
+      "target": "make direct build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "garbage-collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "garbage-collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "leak-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "memory-allocation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "memory-leak-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "memory-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/bdwgc",
+      "target": "portable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:16.741091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34096
+    },
+    {
+      "path": ".github/workflows/CodeQL.yml",
+      "size": 702
+    },
+    {
+      "path": ".github/workflows/autotools-build-extra.yml",
+      "size": 18310
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/cmake-build-extra.yml",
+      "size": 2849
+    },
+    {
+      "path": ".github/workflows/cmake-build.yml",
+      "size": 4638
+    },
+    {
+      "path": ".github/workflows/cmake-cosmo.yml",
+      "size": 1999
+    },
+    {
+      "path": ".github/workflows/cppcheck.yml",
+      "size": 2612
+    },
+    {
+      "path": ".github/workflows/csa-check.yml",
+      "size": 1253
+    },
+    {
+      "path": ".github/workflows/make-direct-build.yml",
+      "size": 1818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)",
+    "fork": false,
+    "full_name": "bdwgc/bdwgc",
+    "html_url": "https://github.com/bdwgc/bdwgc",
+    "language": "C",
+    "pushed_at": "2026-04-23T19:57:51Z",
+    "stargazers_count": 3448,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "cplusplus",
+      "cpp",
+      "cross-platform",
+      "garbage-collection",
+      "garbage-collector",
+      "gc",
+      "leak-detection",
+      "library",
+      "memory-allocation",
+      "memory-leak-detection",
+      "memory-management",
+      "portable"
+    ],
+    "updated_at": "2026-04-23T15:08:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdwgc/libatomic_ops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CodeQL.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "autotools build extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-build-extra.yml",
+      "term": "autotools build extra"
+    },
+    {
+      "context_snippet": "clang-format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "clang-format check"
+    },
+    {
+      "context_snippet": "cmake build extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build-extra.yml",
+      "term": "cmake build extra"
+    },
+    {
+      "context_snippet": "cmake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "term": "cmake build"
+    },
+    {
+      "context_snippet": "cmake cosmo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-cosmo.yml",
+      "term": "cmake cosmo"
+    },
+    {
+      "context_snippet": "cppcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "term": "cppcheck"
+    },
+    {
+      "context_snippet": "csa check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csa-check.yml",
+      "term": "csa check"
+    },
+    {
+      "context_snippet": "make direct build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-direct-build.yml",
+      "term": "make direct build"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "garbage-collection"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "garbage-collector"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leak-detection"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-allocation"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-leak-detection"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-management"
+    },
+    {
+      "context_snippet": "[![Travis-CI build status](https://app.travis-ci.com/bdwgc/bdwgc.svg?branch=master)](https://app.travis-ci.com/github/bdwgc/bdwgc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portable"
+    }
+  ]
+}

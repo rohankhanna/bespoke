@@ -31,6 +31,18 @@
       "source_repo": "dotnet/dotnet-api-docs",
       "status": "candidate-context",
       "text": "\"Labeler: Cache Retention\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
+      "status": "candidate-context",
+      "text": "\"Labeler: Cache Retention\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate",
+      "text": "\"Labeler: Cache Retention\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/roslyn",
       "status": "candidate",
       "text": "\"Labeler: Cache Retention\""
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/labeler-cache-retention.yml",
       "source_repo": "dotnet/dotnet-api-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/roslyn"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

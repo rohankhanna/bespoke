@@ -1,0 +1,556 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog_bot.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sunos.yml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sunos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "giampaolo/psutil",
+      "target": "getsentry/sentry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "giampaolo/psutil",
+      "target": "celery/celery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "giampaolo/psutil",
+      "target": "aristocratos/bpytop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "giampaolo/psutil",
+      "target": "ajenti/ajenti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "bsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "pypa/cibuildwheel@v3.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog_bot.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog_bot.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "changelog-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sunos.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sunos.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "vmactions/solaris-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sunos.yml",
+      "source_repo": "giampaolo/psutil",
+      "target": "sunos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "disk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "netbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "psutil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "sensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "system-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giampaolo/psutil",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:01:22.572564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12890
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9335
+    },
+    {
+      "path": ".github/workflows/bsd.yml",
+      "size": 1692
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2888
+    },
+    {
+      "path": ".github/workflows/changelog_bot.py",
+      "size": 15158
+    },
+    {
+      "path": ".github/workflows/changelog_bot.yml",
+      "size": 2908
+    },
+    {
+      "path": ".github/workflows/issues.py",
+      "size": 9532
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/sunos.yml",
+      "size": 1226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform lib for process and system monitoring in Python",
+    "fork": false,
+    "full_name": "giampaolo/psutil",
+    "html_url": "https://github.com/giampaolo/psutil",
+    "language": "Python",
+    "pushed_at": "2026-04-23T19:30:06Z",
+    "stargazers_count": 11147,
+    "topics": [
+      "cpu",
+      "disk",
+      "freebsd",
+      "linux",
+      "memory",
+      "monitoring",
+      "netbsd",
+      "openbsd",
+      "osx",
+      "ps",
+      "psutil",
+      "python",
+      "sensors",
+      "system-monitoring",
+      "top",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T19:30:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajenti/ajenti",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aristocratos/bpytop",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celery/celery",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getsentry/sentry",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bsd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yml",
+      "term": "bsd"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "changelog-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog_bot.yml",
+      "term": "changelog-bot"
+    },
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "issues"
+    },
+    {
+      "context_snippet": "sunos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sunos.yml",
+      "term": "sunos"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netbsd"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psutil"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensors"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-monitoring"
+    },
+    {
+      "context_snippet": ".. <PYPI-EXCLUDE>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

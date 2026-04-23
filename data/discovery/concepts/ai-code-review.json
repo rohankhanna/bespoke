@@ -19,12 +19,30 @@
       "source_repo": "coder/coder",
       "status": "candidate-context",
       "text": "AI Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "AI Code Review"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "coder/coder",
+      "status": "candidate",
+      "text": "AI Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
       "status": "candidate",
       "text": "AI Code Review"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/code-review.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ai-code-review.yml",
+      "source_repo": "aws/aws-sam-cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

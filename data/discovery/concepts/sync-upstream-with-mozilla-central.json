@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "Sync upstream with mozilla-central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/stylo",
+      "status": "candidate-context",
+      "text": "CSS engine that powers Servo and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/stylo",
+      "status": "candidate-context",
+      "text": "Sync upstream with mozilla-central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/stylo",
+      "status": "candidate",
+      "text": "Sync upstream with mozilla-central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10545,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10545,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "off"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync upstream with mozilla-central",
+  "concept_id": "sync-upstream-with-mozilla-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/sync-upstream.yml",
+      "source_repo": "servo/stylo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync upstream with mozilla-central",
+      "sense_id": "sync-upstream-with-mozilla-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

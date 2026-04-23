@@ -71,28 +71,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rllm-org/rllm",
-      "target": "alibaba-nlp/deepresearch",
+      "target": "pettingllms-ai/pettingllms",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rllm-org/rllm",
-      "target": "danau5tin/terminal-bench-rl",
+      "target": "osilly/vision-deepresearch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "rllm-org/rllm",
-      "target": "camel-ai/seta",
+      "target": "volcengine/verl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "rllm-org/rllm",
-      "target": "llm-in-sandbox/llm-in-sandbox",
+      "target": "thinking-machines-lab/tinker-cookbook",
       "target_type": "repository"
     },
     {
@@ -320,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:19:31.849851+00:00",
+  "fetched_at": "2026-04-23T18:46:20.114990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -364,8 +364,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-04-22T22:07:03Z",
-    "stargazers_count": 5445,
+    "pushed_at": "2026-04-23T18:41:27Z",
+    "stargazers_count": 5447,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -382,28 +382,28 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-04-22T15:10:55Z"
+    "updated_at": "2026-04-23T16:11:46Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alibaba-nlp/deepresearch",
+      "full_name": "osilly/vision-deepresearch",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "camel-ai/seta",
+      "full_name": "pettingllms-ai/pettingllms",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danau5tin/terminal-bench-rl",
-      "source_file": "README.md"
+      "full_name": "volcengine/verl",
+      "source_file": "Dockerfile"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "llm-in-sandbox/llm-in-sandbox",
-      "source_file": "README.md"
+      "full_name": "thinking-machines-lab/tinker-cookbook",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

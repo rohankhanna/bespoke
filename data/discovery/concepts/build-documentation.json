@@ -188,6 +188,66 @@
       "source_repo": "gligen/diffusers",
       "status": "candidate-context",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Accessible large language models via k-bit quantization for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Easy and lightning fast training of \ud83e\udd17 Transformers on Habana Gaudi processor (HPU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum Intel: Accelerate inference with Intel optimization tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -278,6 +338,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gligen/diffusers",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-habana",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-intel",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datasets",
       "status": "candidate",
       "text": "Build documentation"
     }
@@ -431,11 +521,53 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "gligen/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-habana"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-intel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "PanQiWei/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/datasets"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build release documentation website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build release documentation website"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28441,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "encyclopedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "intercom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28169,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28100,
+      "status": "candidate",
+      "text": "locate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build release documentation website",
+      "sense_id": "build-release-documentation-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-release-documentation-website",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-release-documentation-website",
+  "observation_id": "f4b25002bb0316e6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Build release documentation website",
+  "source_context_snippet": "Build release documentation website",
+  "source_file": ".github/workflows/docs-build-release.yml",
+  "source_repo": "Farama-Foundation/Gymnasium",
+  "source_repo_description": "An API standard for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
+}

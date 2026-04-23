@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "DataDog/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint-gha-workflows.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    }
+  ],
+  "term": "Lint GitHub Actions Workflows"
+}

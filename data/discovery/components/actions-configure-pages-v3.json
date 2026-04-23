@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v3",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/auto-gpt-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "AlibabaResearch/DAMO-ConvAI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc-site.yml",
+      "source_repo": "WebAV-Tech/WebAV"
     }
   ]
 }

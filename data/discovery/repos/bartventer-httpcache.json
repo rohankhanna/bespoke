@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartventer/httpcache",
+      "target": "gregjones/httpcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bartventer/httpcache",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "http-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "rfc9111",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartventer/httpcache",
+      "target": "roundtripper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:58:19.941993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21922
+    },
+    {
+      "path": "go.mod",
+      "size": 68
+    },
+    {
+      "path": ".github/workflows/default.yml",
+      "size": 1140
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standards-compliant HTTP caching transport for Go clients (RFC 9111).",
+    "fork": false,
+    "full_name": "bartventer/httpcache",
+    "html_url": "https://github.com/bartventer/httpcache",
+    "language": "Go",
+    "pushed_at": "2026-03-14T11:04:27Z",
+    "stargazers_count": 45,
+    "topics": [
+      "caching",
+      "go",
+      "golang",
+      "http",
+      "http-cache",
+      "rfc9111",
+      "roundtripper"
+    ],
+    "updated_at": "2026-04-21T20:55:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gregjones/httpcache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-cache"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc9111"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/bartventer/httpcache.svg)](https://pkg.go.dev/github.com/bartventer/httpcache)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roundtripper"
+    }
+  ]
+}

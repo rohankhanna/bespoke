@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "cornelk/llama-go",
+      "target": "go-skynet/localai",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "antimatter15/alpaca.cpp",
+      "target": "mudler/localai-examples",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "edvince/stable-diffusion-ncnn",
+      "target": "ggerganov/llama.cpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "exo-explore/exo",
+      "target": "ggerganov/whisper.cpp",
       "target_type": "repository"
     },
     {
@@ -531,11 +531,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:29:16.956318+00:00",
+  "fetched_at": "2026-04-23T22:10:50.776482+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13072
+      "size": 14091
     },
     {
       "path": "Dockerfile",
@@ -547,11 +547,11 @@
     },
     {
       "path": ".github/workflows/backend.yml",
-      "size": 115710
+      "size": 116773
     },
     {
       "path": ".github/workflows/backend_build.yml",
-      "size": 9148
+      "size": 9189
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
@@ -583,8 +583,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-04-23T00:57:59Z",
-    "stargazers_count": 45720,
+    "pushed_at": "2026-04-23T21:26:50Z",
+    "stargazers_count": 45748,
     "topics": [
       "agents",
       "ai",
@@ -605,27 +605,27 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-04-23T07:23:27Z"
+    "updated_at": "2026-04-23T21:26:56Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antimatter15/alpaca.cpp",
+      "full_name": "ggerganov/llama.cpp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cornelk/llama-go",
+      "full_name": "ggerganov/whisper.cpp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "edvince/stable-diffusion-ncnn",
+      "full_name": "go-skynet/localai",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "exo-explore/exo",
+      "full_name": "mudler/localai-examples",
       "source_file": "README.md"
     }
   ],

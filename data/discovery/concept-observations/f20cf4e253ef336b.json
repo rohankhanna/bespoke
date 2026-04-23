@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Style"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Style"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "expression"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Style",
+      "sense_id": "code-style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-style",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-style",
+  "observation_id": "f20cf4e253ef336b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Code Style",
+  "source_context_snippet": "Code Style",
+  "source_file": ".github/workflows/knative-style.yaml",
+  "source_repo": "knative/eventing",
+  "source_repo_description": "Event-driven application platform for Kubernetes"
+}

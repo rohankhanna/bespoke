@@ -125,13 +125,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Ascend/Ascend-CI",
-      "target": "microsoft/onnxruntime",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_ascend_npu_build_torch.yml",
       "source_repo": "Ascend/Ascend-CI",
@@ -244,7 +237,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:33:53.979779+00:00",
+  "fetched_at": "2026-04-23T21:50:49.191840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -305,11 +298,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ascend/onnxruntime",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/onnxruntime",
       "source_file": "README.md"
     }
   ],

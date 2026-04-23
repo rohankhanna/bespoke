@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "prettify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": ":mega: Help Wanted - Looking for Maintainer: https://github.com/Glavin001/atom-beautify/issues/2572 | :lipstick: Universal beautification package for Atom editor (:warning: Currently migrating to https://github.com/Unibeautify/ and have very limited bandwidth for Atom-Beautify Issues. Thank you for your patience and understanding :heart: )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate-context",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Glavin001/atom-beautify",
+      "status": "candidate",
+      "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971586,
+      "status": "candidate",
+      "text": "beautify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953733,
+      "status": "candidate",
+      "text": "embellish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957182,
+      "status": "candidate",
+      "text": "glorify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886949,
+      "status": "candidate",
+      "text": "preen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865389,
+      "status": "candidate",
+      "text": "whitewash"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24034,
+      "status": "candidate",
+      "text": "embellish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "beautify"
+    }
+  ],
+  "canonical_name": "prettify",
+  "concept_id": "prettify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Glavin001/atom-beautify"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prettify",
+      "sense_id": "prettify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

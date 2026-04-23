@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test & Check Code Quality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/datatrove",
+      "status": "candidate-context",
+      "text": "Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datatrove",
+      "status": "candidate-context",
+      "text": "Test & Check Code Quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/datatrove",
+      "status": "candidate",
+      "text": "Test & Check Code Quality"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47866,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46253,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45161,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44287,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44259,
+      "status": "candidate",
+      "text": "control"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test & Check Code Quality",
+  "concept_id": "test-check-code-quality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "huggingface/datatrove"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test & Check Code Quality",
+      "sense_id": "test-check-code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

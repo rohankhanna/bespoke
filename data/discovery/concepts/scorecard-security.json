@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Scorecard Security"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "External DNS webhook provider for Adguard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate-context",
+      "text": "Scorecard Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhlba91/external-dns-provider-adguard",
+      "status": "candidate",
+      "text": "Scorecard Security"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14767,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "bogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "lineup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13747,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scorecard Security",
+  "concept_id": "scorecard-security",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scorecard Security",
+      "sense_id": "scorecard-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "google/go-github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "bradleyfalzon/ghinstallation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "kubernetes-sigs/controller-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-sample.yml",
+      "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/adk-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet"
     }
   ]
 }

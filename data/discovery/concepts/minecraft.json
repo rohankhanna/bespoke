@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "minecraft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComunidadAylas/PackSquash",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019050,
+      "status": "candidate",
+      "text": "minecraftian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019049,
+      "status": "candidate",
+      "text": "minecrafter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019047,
+      "status": "candidate",
+      "text": "mod pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019046,
+      "status": "candidate",
+      "text": "masocore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019045,
+      "status": "candidate",
+      "text": "machinema"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "minecraft",
+  "concept_id": "minecraft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ComunidadAylas/PackSquash"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minecraft",
+      "sense_id": "minecraft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

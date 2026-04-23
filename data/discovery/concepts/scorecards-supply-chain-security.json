@@ -91,6 +91,54 @@
       "source_repo": "emscripten-core/emscripten",
       "status": "candidate-context",
       "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Haskell pretty printer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "The source for the Dart website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate-context",
+      "text": "Docker images for compiling static Rust binaries using musl-cross"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/build",
+      "status": "candidate-context",
+      "text": "Build-related tools for TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/build",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +181,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "emscripten-core/emscripten",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaimaruseac/hindent",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/rust-musl-cross",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/build",
       "status": "candidate",
       "text": "Scorecards supply-chain security"
     }
@@ -220,11 +292,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

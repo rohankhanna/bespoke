@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "compose-ui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "ConnectBot's terminal emulator Android Compose component using libvterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate-context",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/termlib",
+      "status": "candidate",
+      "text": "This is the ConnectBot Terminal, a Jetpack Compose component that displays a"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "compose-ui",
+  "concept_id": "compose-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectbot/termlib"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compose-ui",
+      "sense_id": "compose-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

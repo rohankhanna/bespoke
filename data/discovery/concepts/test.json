@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Test",
-    "test"
+    "test",
+    "\ud83e\uddea Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -2146,6 +2147,870 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Event-driven application platform for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Kubernetes-based, scale-to-zero, request-driven compute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "cuML - RAPIDS Machine Learning Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": ":ship:  semantic-release plugin to publish a npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate-context",
+      "text": "A smaller version of caniuse-db, with only the essentials!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "converts nroff man pages to HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "The source for the Dart website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "A lightweight, self-hosted friendly RSS reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Atlassian Python REST API wrapper. The atlassian-python-api library provides a simple and convenient way to interact with Atlassian products (such as Jira Service management, Jira Software, Confluence, Bitbucket and apps Insight, X-Ray) using Python. It is based on the official REST APIs of these products and by community for Atlassian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate-context",
+      "text": "Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate-context",
+      "text": "Graphical user interface for Selenoid project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0f A developer friendly package manager for Swift; 100% compatible with Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "x-motemen/ghq",
+      "status": "candidate-context",
+      "text": "Remote repository management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "x-motemen/ghq",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate-context",
+      "text": "A library to manipulate font files from Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate-context",
+      "text": "Superfast on-device object & vector database for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "A nodenv plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "Installer and doctor scripts for nodenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "status": "candidate-context",
+      "text": "Never run `nodenv rehash` again"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Packages for Typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cohama/lexima.vim",
+      "status": "candidate-context",
+      "text": "Auto close parentheses and repeat by dot dot dot..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cohama/lexima.vim",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actboy168/bee.lua",
+      "status": "candidate-context",
+      "text": "Lua runtime and toolset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/bee.lua",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "A Rust port of FlameGraph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "A collection of RBS for gems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "A HTTP Filter checking for OIDC Authentication, made for Envoy Plugins, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "spam EVM execution nodes over JSON-RPC & run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c  An ecosystem of Vim/Neovim which allows developers to write cross-platform plugins in Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "A TypeScript ESLint config that loves you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/semistandard",
+      "status": "candidate-context",
+      "text": ":icecream: All the goodness of `standard/standard` with semicolons sprinkled on top."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/semistandard",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f TypeScript Execute | The easiest way to run TypeScript in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Cross platform input simulation in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "Global hotkeys for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "Simplified distributed locking implementation using Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Standards-compliant HTTP caching transport for Go clients (RFC 9111)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-cmp",
+      "status": "candidate-context",
+      "text": "Package for comparing Go values in tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-cmp",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/cadvisor",
+      "status": "candidate-context",
+      "text": "Analyzes resource usage and performance characteristics of running containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/cadvisor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shesek/electrumd",
+      "status": "candidate-context",
+      "text": " Utility to run a regtest Electrum wallet daemon, useful in integration testing environment "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shesek/electrumd",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "psutil for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mimalloc",
+      "status": "candidate-context",
+      "text": "mimalloc is a compact general purpose allocator with excellent performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mimalloc",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "An interactive kubernetes client featuring auto-complete."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up Docker Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "Bazel rules for apko"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to send arbitrary requests to GitHub's REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "Go Memcached client library #golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/cadvisor",
+      "status": "candidate-context",
+      "text": "Analyzes resource usage and performance characteristics of running containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cadvisor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/browser-level",
+      "status": "candidate-context",
+      "text": "An abstract-level database for browsers, backed by IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browser-level",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Web Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. An abstract-leveldown implementation that wraps another store to encode keys and values."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. In-memory abstract-leveldown store for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "\u276f Lightweight, beautiful and user-friendly interactive prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aklomp/base64",
+      "status": "candidate-context",
+      "text": "Fast Base64 stream encoder/decoder in C99, with SIMD acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aklomp/base64",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Binding for Pango, to use with Manim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "status": "candidate-context",
+      "text": "Our library for RL environments + evals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Python Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": ":octocat:  semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "Fast website link checker in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma-coverage",
+      "status": "candidate-context",
+      "text": "A Karma plugin. Generate code coverage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-coverage",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Resend, Scaleway TEM, SendGrid, SparkPost, Unisender Go and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "How to use our public wav2vec2 dimensional emotion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "lightweight, idiomatic and composable router for building Go HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate-context",
+      "text": "The Graph library for building GraphQL-based dapps in a decentralized way.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -3222,6 +4087,444 @@
       "source_repo": "intentee/paddler",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuvs",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/eventing",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/serving",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cuml",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/npm",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/caniuse-lite",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagder/roffit",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-www",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2E/fusion",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian-api/atlassian-python-api",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid-ui",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/Ice",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "x-motemen/ghq",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fonttools",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-python",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-default-packages",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-package-rehash",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/packages",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cohama/lexima.vim",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/bee.lua",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/inferno",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/gem_rbs_collection",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/contender",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops.vim",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mightyiam/eslint-config-love",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/semistandard",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/tsx",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enigo-rs/enigo",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/global-hotkey",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsm/redislock",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "centrifugal/centrifugo",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartventer/httpcache",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-cmp",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/cadvisor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shesek/electrumd",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shirou/gopsutil",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mimalloc",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/kube-prompt",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/download-artifact",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-buildx-action",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/rules_apko",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradfitz/gomemcache",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/cadvisor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/browser-level",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/web-stream",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/encoding-down",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memdown",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terkelg/prompts",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aklomp/base64",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManimCommunity/ManimPango",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "\ud83e\uddea Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-python",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/ucxx",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/github",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raviqqe/muffet",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-coverage",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anymail/django-anymail",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audeering/w2v2-how-to",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-chi/chi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerokube/selenoid",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphile/crystal",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphprotocol/graph-client",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -3259,6 +4562,41 @@
       "score": 40034614,
       "status": "candidate",
       "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
     }
   ],
   "candidate_synonyms": [
@@ -4501,11 +5839,485 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/cuvs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/eventing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/serving"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "semantic-release/npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bagder/roffit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dart-lang/site-www"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x2E/fusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "atlassian-api/atlassian-python-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/Ice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fonttools/fonttools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "objectbox/objectbox-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-default-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-package-rehash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "typst/packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cohama/lexima.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actboy168/bee.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/inferno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flashbots/contender"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standard/semistandard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "privatenumber/tsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "enigo-rs/enigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tauri-apps/global-hotkey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bsm/redislock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "centrifugal/centrifugo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "bartventer/httpcache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/go-cmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "grafana/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shesek/electrumd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shirou/gopsutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "microsoft/mimalloc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "c-bata/kube-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actions/download-artifact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "docker/setup-buildx-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/request-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bradfitz/gomemcache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/cadvisor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/browser-level"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/web-stream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/encoding-down"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terkelg/prompts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aklomp/base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ManimCommunity/ManimPango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/ucxx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "karma-runner/karma-coverage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "anymail/django-anymail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "audeering/w2v2-how-to"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-chi/chi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "enisdenjo/graphql-ws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "graphprotocol/graph-client"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

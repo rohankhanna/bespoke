@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "codfish/semantic-release-action@v1.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "moul/gotty-client",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "moul/gotty-client",
+      "target": "codfish/semantic-release-action@v1.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "moul/gotty-client",
+      "target": "Semantic Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moul/gotty-client",
+      "target": "gotty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moul/gotty-client",
+      "target": "gotty-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moul/gotty-client",
+      "target": "hack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moul/gotty-client",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moul/gotty-client",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:03.733358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4312
+    },
+    {
+      "path": "Dockerfile",
+      "size": 417
+    },
+    {
+      "path": "go.mod",
+      "size": 486
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":wrench: terminal client for GoTTY",
+    "fork": false,
+    "full_name": "moul/gotty-client",
+    "html_url": "https://github.com/moul/gotty-client",
+    "language": "Go",
+    "pushed_at": "2026-04-23T14:48:53Z",
+    "stargazers_count": 324,
+    "topics": [
+      "cli",
+      "gotty",
+      "gotty-client",
+      "hack",
+      "proxy",
+      "terminal"
+    ],
+    "updated_at": "2026-03-18T17:27:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Semantic Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Semantic Release"
+    },
+    {
+      "context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gotty"
+    },
+    {
+      "context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gotty-client"
+    },
+    {
+      "context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hack"
+    },
+    {
+      "context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

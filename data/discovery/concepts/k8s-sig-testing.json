@@ -43,6 +43,42 @@
       "source_repo": "kubernetes/test-infra",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/k8s.io/test-infra?status.svg)](https://godoc.org/k8s.io/test-infra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/boskos",
+      "status": "candidate-context",
+      "text": "Boskos is a resource management service that provides reservation and lifecycle management of a variety of different kinds of resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/boskos",
+      "status": "candidate-context",
+      "text": "[\u03b2\u03bf\u03c3\u03ba\u03cc\u03c2](https://en.wiktionary.org/wiki/%CE%B2%CE%BF%CF%83%CE%BA%CF%8C%CF%82) - shepherd in greek!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "status": "candidate-context",
+      "text": "Kubetest2 is the framework for launching and running end-to-end tests on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "status": "candidate-context",
+      "text": "Kubetest2 is a framework for deploying Kubernetes clusters and running end-to-end tests against them."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/prow",
+      "status": "candidate-context",
+      "text": "Prow is a Kubernetes based CI/CD system developed to serve the Kubernetes community. This repository contains Prow source code and Hugo sources for Prow documentation site. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/prow",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/sigs.k8s.io/prow.svg)](https://pkg.go.dev/sigs.k8s.io/prow)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "kubernetes/test-infra",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/k8s.io/test-infra?status.svg)](https://godoc.org/k8s.io/test-infra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/boskos",
+      "status": "candidate",
+      "text": "[\u03b2\u03bf\u03c3\u03ba\u03cc\u03c2](https://en.wiktionary.org/wiki/%CE%B2%CE%BF%CF%83%CE%BA%CF%8C%CF%82) - shepherd in greek!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubetest2",
+      "status": "candidate",
+      "text": "Kubetest2 is a framework for deploying Kubernetes clusters and running end-to-end tests against them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/prow",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/sigs.k8s.io/prow.svg)](https://pkg.go.dev/sigs.k8s.io/prow)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes/test-infra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/boskos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubetest2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/prow"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

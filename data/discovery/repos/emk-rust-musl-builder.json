@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "japaric/rust-cross",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "faradayio/cage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "messense/rust-musl-cross",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "golddranks/rust_musl_docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emk/rust-musl-builder",
+      "target": "Test and publish image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:02:07.236017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9972
+    },
+    {
+      "path": "Dockerfile",
+      "size": 10069
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker images for compiling static Rust binaries using musl-libc and musl-gcc, with static versions of useful C libraries. Supports openssl and diesel crates.",
+    "fork": false,
+    "full_name": "emk/rust-musl-builder",
+    "html_url": "https://github.com/emk/rust-musl-builder",
+    "language": "Dockerfile",
+    "pushed_at": "2024-05-04T20:43:43Z",
+    "stargazers_count": 1591,
+    "topics": [],
+    "updated_at": "2026-04-09T23:44:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "faradayio/cage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golddranks/rust_musl_docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric/rust-cross",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "messense/rust-musl-cross",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and publish image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test and publish image"
+    }
+  ]
+}

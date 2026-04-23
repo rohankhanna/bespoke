@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliabieri/blnscpp",
+      "target": "blns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliabieri/blnscpp",
+      "target": "cmake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:53:51.393338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ API for the Big List of Naughty Strings",
+    "fork": false,
+    "full_name": "eliabieri/blnscpp",
+    "html_url": "https://github.com/eliabieri/blnscpp",
+    "language": "C++",
+    "pushed_at": "2023-04-05T15:32:33Z",
+    "stargazers_count": 37,
+    "topics": [
+      "blns",
+      "cmake",
+      "cpp"
+    ],
+    "updated_at": "2026-03-14T05:45:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[](mdtoc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blns"
+    },
+    {
+      "context_snippet": "[](mdtoc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    }
+  ]
+}

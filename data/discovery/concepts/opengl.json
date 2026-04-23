@@ -115,6 +115,42 @@
       "source_repo": "RPCS3/rpcs3",
       "status": "candidate-context",
       "text": "RPCS3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "Thin multiplatform wrappers for graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "A testing framework for automatically finding and simplifying bugs in graphics shader compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "RPCS3/rpcs3",
       "status": "candidate",
       "text": "RPCS3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kgl",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/graphicsfuzz",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkaradzic/bgfx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +322,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "RPCS3/rpcs3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "google/graphicsfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bkaradzic/bgfx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

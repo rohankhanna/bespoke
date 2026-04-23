@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkust-nlp/simpleRL-reason",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkust-nlp/simpleRL-reason",
+      "target": "qwenlm/qwen2.5-math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hkust-nlp/simpleRL-reason",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:46:32.251731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15152
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2366
+    },
+    {
+      "path": "requirements.txt",
+      "size": 219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1",
+    "description": "Simple RL training for reasoning",
+    "fork": false,
+    "full_name": "hkust-nlp/simpleRL-reason",
+    "html_url": "https://github.com/hkust-nlp/simpleRL-reason",
+    "language": "Python",
+    "pushed_at": "2025-12-23T13:44:52Z",
+    "stargazers_count": 3849,
+    "topics": [],
+    "updated_at": "2026-04-23T06:17:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5-math",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

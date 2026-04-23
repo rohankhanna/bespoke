@@ -43,6 +43,66 @@
       "source_repo": "dathere/qsv-easy-windows-installer",
       "status": "candidate-context",
       "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "A package manager that installs and runs executable Swift packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate-context",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "A command-line installer for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "Installer and doctor scripts for nodenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "Install Nix and flakes with the fast and reliable Determinate Nix Installer, with over 7 million installs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "gah is an GitHub Releases app installer, that does not require sudo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate-context",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "dathere/qsv-easy-windows-installer",
       "status": "candidate",
       "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Mint",
+      "status": "candidate",
+      "text": "[![Swift Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fyonaskolb%2FMint%2Fbadge%3Ftype%3Dswift-versions&style=for-the-badge)](https://swiftpackageindex.com/yonaskolb/Mint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Scoop",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Scoop</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-installer",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/nix-installer)](https://crates.io/crates/nix-installer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "get-gah/gah",
+      "status": "candidate",
+      "text": "![gah! logo](./_static/logo-256x128.png)"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +220,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dathere/qsv-easy-windows-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "get-gah/gah"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

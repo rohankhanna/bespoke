@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "godofredoc/no-response@0ce2dc0e63e1c7d2b87752ceed091f6d32c9df09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yaml",
+      "source_repo": "dart-lang/site-www",
+      "target": "godofredoc/no-response@0ce2dc0e63e1c7d2b87752ceed091f6d32c9df09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yaml",
+      "source_repo": "dart-lang/site-www",
+      "target": "No response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dart-lang/site-www",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/site-www",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/site-www",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-lang/site-www",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:59:56.795400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5859
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2094
+    },
+    {
+      "path": ".github/workflows/no-response.yaml",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/scorecards-analysis.yml",
+      "size": 1851
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The source for the Dart website.",
+    "fork": false,
+    "full_name": "dart-lang/site-www",
+    "html_url": "https://github.com/dart-lang/site-www",
+    "language": "Dart",
+    "pushed_at": "2026-04-21T21:13:48Z",
+    "stargazers_count": 1028,
+    "topics": [
+      "dart",
+      "language",
+      "website"
+    ],
+    "updated_at": "2026-04-23T12:11:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "No response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yaml",
+      "term": "No response"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![Build Status SVG][]][Repo on GitHub Actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![Build Status SVG][]][Repo on GitHub Actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[![Build Status SVG][]][Repo on GitHub Actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

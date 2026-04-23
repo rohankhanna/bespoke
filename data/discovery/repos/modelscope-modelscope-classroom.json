@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "modelscope/modelscope-classroom",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:44:38.609588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2971
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "modelscope/modelscope-classroom",
+    "html_url": "https://github.com/modelscope/modelscope-classroom",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-21T08:26:37Z",
+    "stargazers_count": 1374,
+    "topics": [],
+    "updated_at": "2026-04-22T13:33:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy to GitHub Pages"
+    }
+  ]
+}

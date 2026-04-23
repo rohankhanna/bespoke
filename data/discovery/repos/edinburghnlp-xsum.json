@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EdinburghNLP/XSum",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum",
+      "target": "abstractive-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum",
+      "target": "extreme-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdinburghNLP/XSum",
+      "target": "topic-aware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:51:29.282829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+    "fork": false,
+    "full_name": "EdinburghNLP/XSum",
+    "html_url": "https://github.com/EdinburghNLP/XSum",
+    "language": "Python",
+    "pushed_at": "2023-06-20T05:34:06Z",
+    "stargazers_count": 376,
+    "topics": [
+      "abstractive-summarization",
+      "convolutional-neural-networks",
+      "extreme-summarization",
+      "topic-aware"
+    ],
+    "updated_at": "2026-01-16T02:19:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstractive-summarization"
+    },
+    {
+      "context_snippet": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extreme-summarization"
+    },
+    {
+      "context_snippet": "This repository contains data and code for our EMNLP 2018 paper \"[Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)\". Please contact me at shashi.narayan@gmail.com for any question.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topic-aware"
+    }
+  ]
+}

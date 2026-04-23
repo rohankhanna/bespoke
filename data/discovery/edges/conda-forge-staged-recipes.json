@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "conda-forge/admin-requests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "conda-incubator/grayskull",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "mamba-org/setup-micromamba@06375d89d211a1232ef63355742e9e2e564bc7f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "staged-recipes linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter_issue_comment.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter_issue_comment.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "mamba-org/setup-micromamba@06375d89d211a1232ef63355742e9e2e564bc7f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter_issue_comment.yml",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "rerun staged-recipes linter on issue comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tokens.yml.notused",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tokens.yml.notused",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tokens.yml.notused",
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "conda-forge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda-forge/staged-recipes",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "conda-forge/staged-recipes"
+}

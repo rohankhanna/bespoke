@@ -19,6 +19,18 @@
       "source_repo": "salesforce/BLIP",
       "status": "candidate-context",
       "text": "<img src=\"BLIP.gif\" width=\"700\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate-context",
+      "text": "[ICLR 2026]\ud83d\ude80ReVisual-R1 is a 7B open-source multimodal language model that follows a three-stage curriculum\u2014cold-start pre-training, multimodal reinforcement learning, and text-only reinforcement learning\u2014to achieve faithful, concise, and self-reflective state-of-the-art performance in visual and textual reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "salesforce/BLIP",
       "status": "candidate",
       "text": "<img src=\"BLIP.gif\" width=\"700\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSfufu/Revisual-R1",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "salesforce/BLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "CSfufu/Revisual-R1"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

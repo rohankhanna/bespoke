@@ -70,6 +70,66 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "status": "candidate-context",
+      "text": "Example models using DeepSpeed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "Fourmolu GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Rust rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "status": "candidate-context",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "status": "candidate-context",
+      "text": "Formatting"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +162,36 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeedExamples",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/run-fourmolu",
+      "status": "candidate",
+      "text": "![CI](https://github.com/haskell-actions/run-fourmolu/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_rust",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed-MII",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/DeepSpeed",
+      "status": "candidate",
+      "text": "Formatting"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +287,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeedExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/run-fourmolu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazelbuild/rules_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed-MII"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "HabanaAI/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

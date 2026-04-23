@@ -1,7 +1,7 @@
 {
   "component": "@tauri-apps/plugin-fs",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -22,6 +22,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cjpais/Handy"
     }
   ]
 }

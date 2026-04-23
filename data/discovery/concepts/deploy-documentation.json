@@ -188,6 +188,54 @@
       "source_repo": "awslabs/amazon-eks-ami",
       "status": "candidate-context",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "Benchmarking Goal-Oriented Software Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "\u26a1 A Git hook manager written in Rust, designed as a drop-in alternative to pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 HTTPie CLI  \u2014 modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd17\ud83e\udd16 Build multi-tenant AI agents that execute secure blockchain operations across Solana and EVM networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -280,6 +328,30 @@
       "source_repo": "awslabs/amazon-eks-ami",
       "status": "candidate",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeClash-ai/CodeClash",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j178/prek",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httpie/cli",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit",
+      "status": "candidate",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -455,11 +527,41 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deploy-docs.yaml",
       "source_repo": "awslabs/amazon-eks-ami"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "CodeClash-ai/CodeClash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "j178/prek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "0xPlaygrounds/rig-onchain-kit"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

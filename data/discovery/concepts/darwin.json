@@ -19,6 +19,18 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate-context",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate-context",
+      "text": "Pre-built ARM/Linux C cross-compilers for MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate-context",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains",
+      "status": "candidate",
+      "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "jart/cosmopolitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

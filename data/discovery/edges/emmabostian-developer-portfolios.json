@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "anamuddinahmad/portfolio_1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "anshulgora/portfolio_template_v1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "bdallard/ai-resume-portfolio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "1hanzla100/developer-portfolio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "lycheeverse/lychee-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "emmabostian/developer-portfolios",
+      "target": "peter-evans/create-issue-from-file@v6",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "emmabostian/developer-portfolios"
+}

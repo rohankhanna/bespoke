@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "horennel/latex-ocr_for_macos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "asweigart/pyperclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "jaredks/rumps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "breezedeus/Pix2Text-Mac",
+      "target": "ronaldoussoren/py2app",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:12:59.935936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8738
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pix2Text MacOS App: A Mac Desktop App for Mathematical Formula Recognition and Text Recognition. Mac \u672c\u5730\u6570\u5b66\u516c\u5f0f\u8bc6\u522b\u548c\u6587\u672c\u8bc6\u522b\u5de5\u5177",
+    "fork": false,
+    "full_name": "breezedeus/Pix2Text-Mac",
+    "html_url": "https://github.com/breezedeus/Pix2Text-Mac",
+    "language": "Python",
+    "pushed_at": "2024-06-19T03:31:45Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-11T05:05:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asweigart/pyperclip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horennel/latex-ocr_for_macos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaredks/rumps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ronaldoussoren/py2app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

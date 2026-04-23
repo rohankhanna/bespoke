@@ -136,6 +136,138 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate-context",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate-context",
+      "text": "PROST! a Protocol Buffers implementation for the Rust Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate-context",
+      "text": "[![maintenance-status: passively-maintained](https://img.shields.io/badge/maintenance--status-passively--maintained-forestgreen)](https://gist.github.com/rusty-snake/574a91f1df9f97ec77ca308d6d731e29)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffers for ECMAScript. The only JavaScript Protobuf library that is fully-compliant with Protobuf conformance tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate-context",
+      "text": "![The Buf logo](./.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "Conformance test suite for Connect, gRPC, and gRPC-Web implementations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "The Go implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate-context",
+      "text": "Connect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/rust-protobuf",
+      "status": "candidate-context",
+      "text": "Rust implementation of Google protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-protobuf",
+      "status": "candidate-context",
+      "text": "<!-- https://travis-ci.org/stepancheg/rust-protobuf.png -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tafia/quick-protobuf",
+      "status": "candidate-context",
+      "text": "A rust implementation of protobuf parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tafia/quick-protobuf",
+      "status": "candidate-context",
+      "text": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate-context",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for ECMAScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate-context",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate-context",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "Reflection (Rich Descriptors) for Go Protocol Buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": ":computer: pbgo is a mini RPC/REST/Grpc-Gateway framework based on Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate-context",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +324,72 @@
       "source_repo": "bufbuild/protovalidate",
       "status": "candidate",
       "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/prost",
+      "status": "candidate",
+      "text": "[![maintenance-status: passively-maintained](https://img.shields.io/badge/maintenance--status-passively--maintained-forestgreen)](https://gist.github.com/rusty-snake/574a91f1df9f97ec77ca308d6d731e29)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-es",
+      "status": "candidate",
+      "text": "![The Buf logo](./.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/conformance",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/connectrpc/conformance?color=blue)][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-go",
+      "status": "candidate",
+      "text": "Connect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/rust-protobuf",
+      "status": "candidate",
+      "text": "<!-- https://travis-ci.org/stepancheg/rust-protobuf.png -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tafia/quick-protobuf",
+      "status": "candidate",
+      "text": "A pure Rust library to serialize/deserialize [protobuf](https://developers.google.com/protocol-buffers) files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-es",
+      "status": "candidate",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-go",
+      "status": "candidate",
+      "text": "[![The Buf logo](.github/buf-logo.svg)][buf]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhump/protoreflect",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chai2010/pbgo",
+      "status": "candidate",
+      "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
     }
   ],
   "candidate_related_terms": [],
@@ -307,11 +505,89 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/prost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "stepancheg/rust-protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "tafia/quick-protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jhump/protoreflect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chai2010/pbgo"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

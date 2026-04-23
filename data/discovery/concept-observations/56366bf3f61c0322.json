@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5f00\u6e90\u6613\u7528\u7684\u4e2d\u6587\u79bb\u7ebfOCR\uff0c\u8bc6\u522b\u7387\u5ab2\u7f8e\u5927\u5382\uff0c\u5e76\u4e14\u63d0\u4f9b\u4e86\u6613\u7528\u7684web\u9875\u9762\u53caweb\u7684\u63a5\u53e3\uff0c\u65b9\u4fbf\u4eba\u7c7b\u65e5\u5e38\u5de5\u4f5c\u4f7f\u7528\u6216\u8005\u5176\u4ed6\u7a0b\u5e8f\u6765\u8c03\u7528~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3",
+      "sense_id": "python3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python3",
+  "observation_id": "56366bf3f61c0322",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "python3",
+  "source_context_snippet": "TrWebOCR\uff0c\u57fa\u4e8e\u5f00\u6e90\u9879\u76ee [Tr](https://github.com/myhub/tr) \u6784\u5efa\u3002",
+  "source_file": null,
+  "source_repo": "alisen39/TrWebOCR",
+  "source_repo_description": "\u5f00\u6e90\u6613\u7528\u7684\u4e2d\u6587\u79bb\u7ebfOCR\uff0c\u8bc6\u522b\u7387\u5ab2\u7f8e\u5927\u5382\uff0c\u5e76\u4e14\u63d0\u4f9b\u4e86\u6613\u7528\u7684web\u9875\u9762\u53caweb\u7684\u63a5\u53e3\uff0c\u65b9\u4fbf\u4eba\u7c7b\u65e5\u5e38\u5de5\u4f5c\u4f7f\u7528\u6216\u8005\u5176\u4ed6\u7a0b\u5e8f\u6765\u8c03\u7528~"
+}

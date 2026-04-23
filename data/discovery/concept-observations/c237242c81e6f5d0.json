@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache OpenDAL: One Layer, All Storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bindings D CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bindings D CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4449,
+      "status": "candidate",
+      "text": "bookworm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4449,
+      "status": "candidate",
+      "text": "cords"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4449,
+      "status": "candidate",
+      "text": "unbind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4385,
+      "status": "candidate",
+      "text": "pallet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bindings D CI",
+      "sense_id": "bindings-d-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bindings-d-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bindings-d-ci",
+  "observation_id": "c237242c81e6f5d0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Bindings D CI",
+  "source_context_snippet": "Bindings D CI",
+  "source_file": ".github/workflows/ci_bindings_d.yml",
+  "source_repo": "apache/opendal",
+  "source_repo_description": "Apache OpenDAL: One Layer, All Storage."
+}

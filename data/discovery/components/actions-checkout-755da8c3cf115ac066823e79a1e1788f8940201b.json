@@ -1,0 +1,17 @@
+{
+  "component": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "tensorflow/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "tensorflow/build"
+    }
+  ]
+}

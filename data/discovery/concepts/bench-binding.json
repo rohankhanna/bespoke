@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bench Binding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate-context",
+      "text": "Bench Binding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspack",
+      "status": "candidate",
+      "text": "Bench Binding"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11658,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "clamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "auditory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bench Binding",
+  "concept_id": "bench-binding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/bench-binding.yml",
+      "source_repo": "web-infra-dev/rspack"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bench Binding",
+      "sense_id": "bench-binding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

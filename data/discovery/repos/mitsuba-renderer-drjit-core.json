@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mitsuba-renderer/drjit-core",
+      "target": "tessil/robin-map",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mitsuba-renderer/drjit-core",
+      "target": "mitsuba-renderer/nanothread",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mitsuba-renderer/drjit-core",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mitsuba-renderer/drjit-core",
+      "target": "llvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:15:16.191773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dr.Jit \u2014 A Just-In-Time-Compiler for Differentiable Rendering (core library)",
+    "fork": false,
+    "full_name": "mitsuba-renderer/drjit-core",
+    "html_url": "https://github.com/mitsuba-renderer/drjit-core",
+    "language": "C++",
+    "pushed_at": "2026-04-18T07:51:49Z",
+    "stargazers_count": 121,
+    "topics": [
+      "cuda",
+      "jit",
+      "llvm"
+    ],
+    "updated_at": "2026-04-19T13:08:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mitsuba-renderer/nanothread",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tessil/robin-map",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    }
+  ]
+}

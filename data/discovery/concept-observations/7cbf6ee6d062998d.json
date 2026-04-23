@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ADK Answering Agent for Discussions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ADK Answering Agent for Discussions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18974,
+      "status": "candidate",
+      "text": "enough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18974,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18974,
+      "status": "candidate",
+      "text": "respondent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18814,
+      "status": "candidate",
+      "text": "argue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18814,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ADK Answering Agent for Discussions",
+      "sense_id": "adk-answering-agent-for-discussions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adk-answering-agent-for-discussions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adk-answering-agent-for-discussions",
+  "observation_id": "7cbf6ee6d062998d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "ADK Answering Agent for Discussions",
+  "source_context_snippet": "ADK Answering Agent for Discussions",
+  "source_file": ".github/workflows/discussion_answering.yml",
+  "source_repo": "google/adk-python",
+  "source_repo_description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+}

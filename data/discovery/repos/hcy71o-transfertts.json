@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hcy71o/TransferTTS",
+      "target": "hcy71o/sc-vits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/TransferTTS",
+      "target": "transfertts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/TransferTTS",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/TransferTTS",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:32:53.747642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2096
+    },
+    {
+      "path": "requirements.txt",
+      "size": 162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TransferTTS (Zero-Shot learning of VITS)",
+    "fork": false,
+    "full_name": "hcy71o/TransferTTS",
+    "html_url": "https://github.com/hcy71o/TransferTTS",
+    "language": "Python",
+    "pushed_at": "2022-09-23T12:11:27Z",
+    "stargazers_count": 101,
+    "topics": [
+      "transfertts",
+      "vits",
+      "zero-shot"
+    ],
+    "updated_at": "2026-03-02T10:00:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hcy71o/sc-vits",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfertts"
+    },
+    {
+      "context_snippet": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "In current, this is just a implementation of zero-shot system; Not the implementation of the first contribution of the paper: Transfer learning framework using wav2vec2.0.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

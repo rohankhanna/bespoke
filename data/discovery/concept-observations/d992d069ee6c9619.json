@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use zgenom and gh to download releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "You need to install [gh](https://cli.github.com) and use it with"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-release",
+      "sense_id": "github-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-release",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-release",
+  "observation_id": "d992d069ee6c9619",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "github-release",
+  "source_context_snippet": "You need to install [gh](https://cli.github.com) and use it with",
+  "source_file": null,
+  "source_repo": "jandamm/zgenom-ext-release",
+  "source_repo_description": "Use zgenom and gh to download releases."
+}

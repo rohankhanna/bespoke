@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/sample-apiserver",
+      "target": "kubernetes-incubator/apiserver-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sample-apiserver",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:07:45.320617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8142
+    },
+    {
+      "path": "go.mod",
+      "size": 5373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementation of an apiserver for a custom Kubernetes API.",
+    "fork": false,
+    "full_name": "kubernetes/sample-apiserver",
+    "html_url": "https://github.com/kubernetes/sample-apiserver",
+    "language": "Go",
+    "pushed_at": "2026-04-23T11:46:16Z",
+    "stargazers_count": 599,
+    "topics": [
+      "k8s-staging"
+    ],
+    "updated_at": "2026-04-23T11:46:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-incubator/apiserver-builder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

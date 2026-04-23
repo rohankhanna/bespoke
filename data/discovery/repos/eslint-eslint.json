@@ -683,20 +683,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eslint/eslint",
-      "target": "eslint/js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eslint/eslint",
-      "target": "eslint/.github",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "eslint/eslint",
@@ -1537,7 +1523,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:52:24.939730+00:00",
+  "fetched_at": "2026-04-23T19:50:27.671884+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1589,8 +1575,8 @@
     "full_name": "eslint/eslint",
     "html_url": "https://github.com/eslint/eslint",
     "language": "JavaScript",
-    "pushed_at": "2026-04-21T07:21:25Z",
-    "stargazers_count": 27200,
+    "pushed_at": "2026-04-22T14:01:27Z",
+    "stargazers_count": 27212,
     "topics": [
       "ecmascript",
       "eslint",
@@ -1598,20 +1584,9 @@
       "linter",
       "static-code-analysis"
     ],
-    "updated_at": "2026-04-21T13:37:53Z"
+    "updated_at": "2026-04-23T13:06:00Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eslint/.github",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eslint/js",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

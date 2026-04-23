@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "devcontainers/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/template-starter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/template-starter",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/template-starter",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/template-starter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/template-starter",
+      "target": "CI - Test Templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:39:56.715990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6651
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1493
+    },
+    {
+      "path": ".github/workflows/test-pr.yaml",
+      "size": 755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A template explaining how to author custom dev container Templates",
+    "fork": false,
+    "full_name": "devcontainers/template-starter",
+    "html_url": "https://github.com/devcontainers/template-starter",
+    "language": "Shell",
+    "pushed_at": "2025-08-01T09:07:52Z",
+    "stargazers_count": 253,
+    "topics": [],
+    "updated_at": "2026-04-18T23:21:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CI - Test Templates\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "term": "CI - Test Templates"
+    }
+  ]
+}

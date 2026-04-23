@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "recovery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman - Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate-context",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EnterpriseDB/barman",
+      "status": "candidate",
+      "text": "Barman, Backup and Recovery Manager for PostgreSQL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040211,
+      "status": "candidate",
+      "text": "recuperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040183,
+      "status": "candidate",
+      "text": "convalescence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039963,
+      "status": "candidate",
+      "text": "retrieval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040383,
+      "status": "candidate",
+      "text": "regaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040372,
+      "status": "candidate",
+      "text": "retrieve"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "convalescence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6033,
+      "status": "candidate",
+      "text": "retrieval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "recuperation"
+    }
+  ],
+  "canonical_name": "recovery",
+  "concept_id": "recovery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "EnterpriseDB/barman"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recovery",
+      "sense_id": "recovery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

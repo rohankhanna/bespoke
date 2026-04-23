@@ -13,10 +13,65 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "The Ethereum Improvement Proposal repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate-context",
+      "text": "Deploy Jekyll site to Pages"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/EIPs",
+      "status": "candidate",
+      "text": "Deploy Jekyll site to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22168,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22146,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22124,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22124,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22124,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Deploy Jekyll site to Pages",
   "concept_id": "deploy-jekyll-site-to-pages",
@@ -33,12 +88,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/jekyll.yml",
+      "source_repo": "ethereum/EIPs"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

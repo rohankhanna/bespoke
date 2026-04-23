@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Collect Activity Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "status": "candidate-context",
+      "text": "This repository contains the my profile. I'm always open to feedback and suggestions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "status": "candidate-context",
+      "text": "Collect Activity Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari",
+      "status": "candidate",
+      "text": "Collect Activity Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34706,
+      "status": "candidate",
+      "text": "buffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34706,
+      "status": "candidate",
+      "text": "buffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34667,
+      "status": "candidate",
+      "text": "again"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34585,
+      "status": "candidate",
+      "text": "spade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34585,
+      "status": "candidate",
+      "text": "spades"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Collect Activity Data",
+  "concept_id": "collect-activity-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/profile.yml",
+      "source_repo": "BhagawatAdhikari/bhagawatadhikari"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Collect Activity Data",
+      "sense_id": "collect-activity-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

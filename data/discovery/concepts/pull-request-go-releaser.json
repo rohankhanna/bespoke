@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Go Releaser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "External-DNS Webhook to manage IONOS DNS Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate-context",
+      "text": "Pull Request Go Releaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook",
+      "status": "candidate",
+      "text": "Pull Request Go Releaser"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33698,
+      "status": "candidate",
+      "text": "approach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33184,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25959,
+      "status": "candidate",
+      "text": "sevens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "medium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17730,
+      "status": "candidate",
+      "text": "defect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Go Releaser",
+  "concept_id": "pull-request-go-releaser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ionos-cloud/external-dns-ionos-webhook"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Go Releaser",
+      "sense_id": "pull-request-go-releaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

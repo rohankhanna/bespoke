@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Data Streaming Library for Efficient Neural Network Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Installation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Installation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005813,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003156,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986839,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964900,
+      "status": "candidate",
+      "text": "facility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011004,
+      "status": "candidate",
+      "text": "installing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Installation",
+      "sense_id": "installation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19071,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16044,
+      "status": "candidate",
+      "text": "facility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "installing"
+    }
+  ],
+  "concept_id": "installation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "installation",
+  "observation_id": "5b94c7773c5c2077",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Installation",
+  "source_context_snippet": "Installation",
+  "source_file": ".github/workflows/install.yaml",
+  "source_repo": "mosaicml/streaming",
+  "source_repo_description": "A Data Streaming Library for Efficient Neural Network Training"
+}

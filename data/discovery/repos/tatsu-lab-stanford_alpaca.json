@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "target": "yizhongw/self-instruct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "target": "instruction-following",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/stanford_alpaca",
+      "target": "language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T18:31:42.071318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14461
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and documentation to train Stanford's Alpaca models, and generate the data.",
+    "fork": false,
+    "full_name": "tatsu-lab/stanford_alpaca",
+    "html_url": "https://github.com/tatsu-lab/stanford_alpaca",
+    "language": "Python",
+    "pushed_at": "2024-07-17T09:43:05Z",
+    "stargazers_count": 30260,
+    "topics": [
+      "deep-learning",
+      "instruction-following",
+      "language-model"
+    ],
+    "updated_at": "2026-04-23T12:36:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yizhongw/self-instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-following"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    }
+  ]
+}

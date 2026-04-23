@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gemini-automated-issue-triage.yml",
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-automated-triage.yml",
+      "source_repo": "google/adk-samples"
+    }
+  ],
+  "term": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage"
+}

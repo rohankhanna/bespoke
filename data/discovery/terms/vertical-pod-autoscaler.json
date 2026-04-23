@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/vpa-golangci-lint.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/vpa-test.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/vpa-verify.yaml",
+      "source_repo": "kubernetes/autoscaler"
+    }
+  ],
+  "term": "Vertical Pod Autoscaler"
+}

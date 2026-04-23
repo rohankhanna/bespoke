@@ -120,7 +120,7 @@
   "normalized_form": "raft",
   "observation_id": "fb243a436b64e58b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
   "observed_text": "raft",
   "source_context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
   "source_file": null,

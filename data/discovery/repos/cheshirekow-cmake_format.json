@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheshirekow/cmake_format",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheshirekow/cmake_format",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheshirekow/cmake_format",
+      "target": "formatters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:05:35.850134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 22310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code formatter for cmake listfiles.",
+    "fork": false,
+    "full_name": "cheshirekow/cmake_format",
+    "html_url": "https://github.com/cheshirekow/cmake_format",
+    "language": "Python",
+    "pushed_at": "2024-05-01T11:58:27Z",
+    "stargazers_count": 1060,
+    "topics": [
+      "cmake",
+      "devtools",
+      "formatters"
+    ],
+    "updated_at": "2026-04-20T04:44:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatters"
+    }
+  ]
+}

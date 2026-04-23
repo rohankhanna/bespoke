@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035165,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034127,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028449,
+      "status": "candidate",
+      "text": "amass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026229,
+      "status": "candidate",
+      "text": "accumulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025942,
+      "status": "candidate",
+      "text": "hoard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compile",
+      "sense_id": "compile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32041,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12035,
+      "status": "candidate",
+      "text": "amass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "accumulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2026,
+      "status": "candidate",
+      "text": "pile up"
+    }
+  ],
+  "concept_id": "compile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compile",
+  "observation_id": "a97406705e22bb47",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "compile",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "alibaba/compileflow",
+  "source_repo_description": "\ud83c\udfa8 core business process engine of Alibaba Halo platform, best process engine for trade scenes. | \u4e00\u4e2a\u9ad8\u6027\u80fd\u6d41\u7a0b\u7f16\u6392\u5f15\u64ce"
+}

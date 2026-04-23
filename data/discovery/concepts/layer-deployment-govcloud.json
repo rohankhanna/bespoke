@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Layer Deployment (GovCloud)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "A developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate-context",
+      "text": "Layer Deployment (GovCloud)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-python",
+      "status": "candidate",
+      "text": "Layer Deployment (GovCloud)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12407,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12407,
+      "status": "candidate",
+      "text": "spreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11285,
+      "status": "candidate",
+      "text": "placement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Layer Deployment (GovCloud)",
+  "concept_id": "layer-deployment-govcloud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/layer_govcloud.yml",
+      "source_repo": "aws-powertools/powertools-lambda-python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Layer Deployment (GovCloud)",
+      "sense_id": "layer-deployment-govcloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

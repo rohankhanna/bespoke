@@ -1,0 +1,22 @@
+{
+  "component": "andstor/file-existence-action@558493d6c74bf472d87c84eab196434afc2fa029",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bearer.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ben-manes/caffeine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "ben-manes/caffeine"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UN-GCPDS/qt-material",
+      "target": "pyside6",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "UN-GCPDS/qt-material"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust full node implementation of the Fuel v2 protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete Ephemeral Test Environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete Ephemeral Test Environment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29598,
+      "status": "candidate",
+      "text": "lapse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29531,
+      "status": "candidate",
+      "text": "headway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29531,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29531,
+      "status": "candidate",
+      "text": "stub"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Ephemeral Test Environment",
+      "sense_id": "delete-ephemeral-test-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-ephemeral-test-environment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-ephemeral-test-environment",
+  "observation_id": "2d62930300d31721",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Delete Ephemeral Test Environment",
+  "source_context_snippet": "Delete Ephemeral Test Environment",
+  "source_file": ".github/workflows/delete-test-env.yml",
+  "source_repo": "FuelLabs/fuel-core",
+  "source_repo_description": "Rust full node implementation of the Fuel v2 protocol."
+}

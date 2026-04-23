@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/upptime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-removed-issues.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-removed-issues.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Close issues for removed instances",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graphs.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Graphs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/response-time.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Response Time CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "benc-uk/workflow-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Setup CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Static Site CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@v1.41.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/summary.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Summary CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sites.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sites.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Update sites list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/uptime-monitor@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-template.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Update Template CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime/updates@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updates.yml",
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "Updates CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "status-page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "upptime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "searxng/searx-instances-uptime",
+      "target": "uptime-monitor",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "searxng/searx-instances-uptime"
+}

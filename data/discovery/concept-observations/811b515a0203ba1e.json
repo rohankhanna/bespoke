@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SkyRL: A Modular Full-stack RL Library for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SkyRL-GPU-E2E-CI-Fully-Async"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SkyRL-GPU-E2E-CI-Fully-Async"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SkyRL-GPU-E2E-CI-Fully-Async",
+      "sense_id": "skyrl-gpu-e2e-ci-fully-async#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "skyrl-gpu-e2e-ci-fully-async",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skyrl-gpu-e2e-ci-fully-async",
+  "observation_id": "811b515a0203ba1e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "SkyRL-GPU-E2E-CI-Fully-Async",
+  "source_context_snippet": "SkyRL-GPU-E2E-CI-Fully-Async",
+  "source_file": ".github/workflows/gpu_e2e_ci_fully_async.yaml",
+  "source_repo": "NovaSky-AI/SkyRL",
+  "source_repo_description": "SkyRL: A Modular Full-stack RL Library for LLMs"
+}

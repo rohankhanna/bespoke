@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "telescope-extension"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "\u23ea Telescope & Snacks pickers for resession.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate-context",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scottmckendry/pick-resession.nvim",
+      "status": "candidate",
+      "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "telescope-extension",
+  "concept_id": "telescope-extension",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "scottmckendry/pick-resession.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telescope-extension",
+      "sense_id": "telescope-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

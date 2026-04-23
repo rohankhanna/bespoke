@@ -1,0 +1,738 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "docker://ghcr.io/yannh/kubeconform:v0.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "defilantech/LLMKube",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "DCO Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "azure/setup-helm@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "docker://ghcr.io/yannh/kubeconform:v0.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "Helm Chart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "azure/setup-helm@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "helm/chart-releaser-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "defilantech/LLMKube",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "ai-infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "apple-silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "autoscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "edge-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "homelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "kubernetes-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "llama-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "local-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "multi-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:10:37.257879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14376
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1232
+    },
+    {
+      "path": "go.mod",
+      "size": 4758
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3439
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "size": 1304
+    },
+    {
+      "path": ".github/workflows/helm-chart.yml",
+      "size": 20273
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 2637
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/test-e2e.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready",
+    "fork": false,
+    "full_name": "defilantech/LLMKube",
+    "html_url": "https://github.com/defilantech/LLMKube",
+    "language": "Go",
+    "pushed_at": "2026-04-21T20:34:12Z",
+    "stargazers_count": 56,
+    "topics": [
+      "ai",
+      "ai-infrastructure",
+      "apple-silicon",
+      "autoscaling",
+      "edge-computing",
+      "gguf",
+      "gpu",
+      "homelab",
+      "inference",
+      "kubernetes",
+      "kubernetes-operator",
+      "llama-cpp",
+      "llm",
+      "local-llm",
+      "metal",
+      "mlops",
+      "multi-gpu",
+      "nvidia",
+      "self-hosted",
+      "vllm"
+    ],
+    "updated_at": "2026-04-22T11:48:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DCO Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "term": "DCO Check"
+    },
+    {
+      "context_snippet": "Helm Chart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-chart.yml",
+      "term": "Helm Chart CI"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "term": "E2E Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-infrastructure"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-silicon"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoscaling"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-computing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homelab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-cpp"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-llm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-gpu"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

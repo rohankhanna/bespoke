@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "dirichlet-distributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "evidential-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "mnist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "mnist-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "torchvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "uncertainty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dougbrion/pytorch-classification-uncertainty",
+      "target": "uncertainty-neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "source_repo": "dougbrion/pytorch-classification-uncertainty"
+}

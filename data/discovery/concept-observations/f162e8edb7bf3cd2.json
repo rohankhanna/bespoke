@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ implementation of the Ethereum protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "QA - RPC Fuzzer Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "QA - RPC Fuzzer Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "acceptability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "agitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "budget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "choreograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "flagpole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QA - RPC Fuzzer Tests",
+      "sense_id": "qa---rpc-fuzzer-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qa---rpc-fuzzer-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qa---rpc-fuzzer-tests",
+  "observation_id": "f162e8edb7bf3cd2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "QA - RPC Fuzzer Tests",
+  "source_context_snippet": "QA - RPC Fuzzer Tests",
+  "source_file": ".github/workflows/rpc-fuzzer-tests.yml",
+  "source_repo": "erigontech/silkworm",
+  "source_repo_description": "C++ implementation of the Ethereum protocol"
+}

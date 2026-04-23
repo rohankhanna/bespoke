@@ -7,10 +7,102 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate-context",
+      "text": "Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "Cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022346,
+      "status": "candidate",
+      "text": "cleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009665,
+      "status": "candidate",
+      "text": "killing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980609,
+      "status": "candidate",
+      "text": "cleansing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022616,
+      "status": "candidate",
+      "text": "cleanup position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022616,
+      "status": "candidate",
+      "text": "cleanup spot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4041,
+      "status": "candidate",
+      "text": "killing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4039,
+      "status": "candidate",
+      "text": "cleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "cleansing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "cleanup position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "cleanup spot"
+    }
+  ],
   "canonical_name": "Cleanup",
   "concept_id": "cleanup",
   "definition_status": "unresolved",
@@ -20,12 +112,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/cleanup.yaml",
       "source_repo": "databus23/helm-diff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/releasecache-cleanup.yml",
+      "source_repo": "dani-garcia/vaultwarden"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,12 @@
+{
+  "component": "dessant/label-actions@9e5fd757ffe1e065abf55e9f74d899dbe012922a",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-actions.yml",
+      "source_repo": "oapi-codegen/oapi-codegen"
+    }
+  ]
+}

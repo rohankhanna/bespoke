@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely Fast Compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compiler Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compiler Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "collator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "diderot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "statistician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10669,
+      "status": "candidate",
+      "text": "redactor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10669,
+      "status": "candidate",
+      "text": "system program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compiler Tests",
+      "sense_id": "compiler-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compiler-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compiler-tests",
+  "observation_id": "db5a7cf747eb623f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Compiler Tests",
+  "source_context_snippet": "Compiler Tests",
+  "source_file": ".github/workflows/compilers.yml",
+  "source_repo": "lz4/lz4",
+  "source_repo_description": "Extremely Fast Compression algorithm"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Soot - A Java optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39710602,
+      "status": "candidate",
+      "text": "lampblack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39671244,
+      "status": "candidate",
+      "text": "carbon black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39657537,
+      "status": "candidate",
+      "text": "smut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702687,
+      "status": "candidate",
+      "text": "ashes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29694788,
+      "status": "candidate",
+      "text": "ash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "soot",
+      "sense_id": "soot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "smut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "lampblack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "carbon black"
+    }
+  ],
+  "concept_id": "soot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "soot",
+  "observation_id": "23657916787e7265",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "soot",
+  "source_context_snippet": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)",
+  "source_file": null,
+  "source_repo": "soot-oss/soot",
+  "source_repo_description": "Soot - A Java optimization framework"
+}

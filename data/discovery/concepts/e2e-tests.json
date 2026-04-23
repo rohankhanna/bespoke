@@ -118,6 +118,54 @@
       "source_repo": "aws/amazon-vpc-cni-plugins",
       "status": "candidate-context",
       "text": "e2e tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate-context",
+      "text": "MSIX packager for Electron Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "InternEvo is an open-sourced lightweight training framework aims to support model pre-training without the need for extensive dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate-context",
+      "text": "e2e-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate-context",
+      "text": "E2E Tests"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +222,30 @@
       "source_repo": "aws/amazon-vpc-cni-plugins",
       "status": "candidate",
       "text": "e2e tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "e2e-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nearai/ironclaw",
+      "status": "candidate",
+      "text": "E2E Tests"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +367,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "aws/amazon-vpc-cni-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "defilantech/LLMKube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e_test.yaml",
+      "source_repo": "InternLM/InternEvo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "nearai/ironclaw"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

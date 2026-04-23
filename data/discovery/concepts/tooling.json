@@ -43,6 +43,18 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate-context",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to send arbitrary requests to GitHub's REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate-context",
+      "text": "> A GitHub Action to send arbitrary requests to GitHub's REST API"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request-action",
+      "status": "candidate",
+      "text": "> A GitHub Action to send arbitrary requests to GitHub's REST API"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "octokit/request-action"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

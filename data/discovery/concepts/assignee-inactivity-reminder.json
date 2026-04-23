@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assignee inactivity reminder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "no_std Hardware Abstraction Layers for ESP32 microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate-context",
+      "text": "Assignee inactivity reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-hal",
+      "status": "candidate",
+      "text": "Assignee inactivity reminder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "assign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "assigned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18134,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "rested"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assignee inactivity reminder",
+  "concept_id": "assignee-inactivity-reminder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/assignee-reminder.yml",
+      "source_repo": "esp-rs/esp-hal"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assignee inactivity reminder",
+      "sense_id": "assignee-inactivity-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

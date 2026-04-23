@@ -211,6 +211,66 @@
       "source_repo": "eclipse-lsp4j/lsp4j",
       "status": "candidate-context",
       "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "A vim plugin for communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate-context",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation for Typescript via tsserver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate-context",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "Coding assistance for JupyterLab (code navigation + hover suggestions + linters + autocompletion + rename) using Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml/badge.svg)](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate-context",
+      "text": "C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate-context",
+      "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +375,36 @@
       "source_repo": "eclipse-lsp4j/lsp4j",
       "status": "candidate",
       "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natebosch/vim-lsc",
+      "status": "candidate",
+      "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/typescript-language-server",
+      "status": "candidate",
+      "text": "[Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for Typescript via tsserver.cmd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml/badge.svg)](https://github.com/jupyter-lsp/jupyterlab-lsp/actions/workflows/job.test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/languageserver",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml/badge.svg)](https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaskRay/ccls",
+      "status": "candidate",
+      "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +526,71 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "MaskRay/ccls"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

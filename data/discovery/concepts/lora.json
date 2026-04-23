@@ -79,6 +79,54 @@
       "source_repo": "Akegarasu/lora-scripts",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "Large-scale LLM inference engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate-context",
+      "text": "Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "stable diffusion webui colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate-context",
+      "text": "Gradio wrapper for sd-scripts by kohya"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "Akegarasu/lora-scripts",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LongLoRA",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/stable-diffusion-webui-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddPn08/kohya-sd-scripts-webui",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/ddPn08/kohya-sd-scripts-webui/blob/main/kohya-sd-scripts-webui-colab.ipynb)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +268,47 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Akegarasu/lora-scripts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/stable-diffusion-webui-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ddPn08/kohya-sd-scripts-webui"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

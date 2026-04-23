@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Animation oriented nodes pack for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udce6 Building wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udce6 Building wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28214,
+      "status": "candidate",
+      "text": "turret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11877,
+      "status": "candidate",
+      "text": "chock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11814,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11814,
+      "status": "candidate",
+      "text": "wing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11630,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udce6 Building wheels",
+      "sense_id": "building-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "building-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "building-wheels",
+  "observation_id": "1b8418bd043372e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "\ud83d\udce6 Building wheels",
+  "source_context_snippet": "\ud83d\udce6 Building wheels",
+  "source_file": ".github/workflows/package_wheels.yml",
+  "source_repo": "melMass/comfy_mtb",
+  "source_repo_description": "Animation oriented nodes pack for ComfyUI"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "storyboard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "Localization/I18n: Incrementally update/translate your Strings files from .swift, .h, .m(m), .storyboard or .xib files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlineDev/BartyCrouch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941325,
+      "status": "candidate",
+      "text": "dummies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941325,
+      "status": "candidate",
+      "text": "layouts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941325,
+      "status": "candidate",
+      "text": "mechanicals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941325,
+      "status": "candidate",
+      "text": "mock-ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941325,
+      "status": "candidate",
+      "text": "models"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "storyboard",
+  "concept_id": "storyboard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "FlineDev/BartyCrouch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "storyboard",
+      "sense_id": "storyboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

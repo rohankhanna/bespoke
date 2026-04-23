@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:14:18.595664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4005
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official DeiT repository",
+    "fork": false,
+    "full_name": "facebookresearch/deit",
+    "html_url": "https://github.com/facebookresearch/deit",
+    "language": "Python",
+    "pushed_at": "2024-03-15T13:20:37Z",
+    "stargazers_count": 4339,
+    "topics": [],
+    "updated_at": "2026-04-21T06:48:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

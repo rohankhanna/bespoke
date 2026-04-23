@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A python package containing functions that help interacting with various versions of Ansible"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tox"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tox"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010903,
+      "status": "candidate",
+      "text": "toxicological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004890,
+      "status": "candidate",
+      "text": "toxicology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001209,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29767541,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707023,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tox",
+      "sense_id": "tox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tox",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tox",
+  "observation_id": "10d2d6c23de3e3c9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "tox",
+  "source_context_snippet": "tox",
+  "source_file": ".github/workflows/tox.yml",
+  "source_repo": "ansible/ansible-compat",
+  "source_repo_description": "A python package containing functions that help interacting with various versions of Ansible"
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/cccl-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/cccl-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:56:17.317763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7617
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 4189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for cccl.",
+    "fork": false,
+    "full_name": "conda-forge/cccl-feedstock",
+    "html_url": "https://github.com/conda-forge/cccl-feedstock",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-23T05:17:57Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T05:18:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

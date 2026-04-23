@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/camping.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/camping.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/camping.yml",
+      "source_repo": "camping/camping",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/camping.yml",
+      "source_repo": "camping/camping",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/camping.yml",
+      "source_repo": "camping/camping",
+      "target": "Camping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "camping/camping",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "camping/camping",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "camping/camping",
+      "target": "Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:52:36.458769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4820
+    },
+    {
+      "path": ".github/workflows/camping.yml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the 5k pocket full-of-gags web microframework",
+    "fork": false,
+    "full_name": "camping/camping",
+    "html_url": "https://github.com/camping/camping",
+    "language": "Ruby",
+    "pushed_at": "2025-05-08T15:06:21Z",
+    "stargazers_count": 982,
+    "topics": [],
+    "updated_at": "2026-04-23T07:21:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Camping",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/camping.yml",
+      "term": "Camping"
+    },
+    {
+      "context_snippet": "Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration"
+    }
+  ]
+}

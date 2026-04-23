@@ -1439,6 +1439,624 @@
       "source_repo": "BrianPugh/micropython-libs",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular/domino",
+      "status": "candidate-context",
+      "text": "Angular's fork of Domino for server-side rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/domino",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienverge/PhotoCollage",
+      "status": "candidate-context",
+      "text": "Graphical tool to make photo collage posters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/PhotoCollage",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/executing",
+      "status": "candidate-context",
+      "text": "Get information about what a Python frame is currently doing, particularly the AST node being executed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/executing",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/pure_eval",
+      "status": "candidate-context",
+      "text": "Safely evaluate AST nodes without side effects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/pure_eval",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Deep Learning for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "The no-magic web API and microservices framework for Python developers, with a focus on reliability and performance at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "A tiny, single-header <canvas>-like 2D rasterizer for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Automated nginx proxy for Docker containers using docker-gen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "Easy full stack backup operations on UNIX-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Python packaging and dependency management made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "The code linting framework for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "The AWS Serverless Application Model (AWS SAM) transform is a AWS CloudFormation macro that transforms SAM templates into CloudFormation templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  \u26a1\ud83d\udd25\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Create powerful Hydra applications without the yaml files and boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "Find, Filter, Preview, Pick. All lua, all the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "An interactive and powerful Git interface for Neovim, inspired by Magit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "A task runner and job management plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "Build a private P2P device network for capability-first services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Ruby/RubyMotion version of Markdown-it (CommonMark compliant parser and extendable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate-context",
+      "text": "Statistics-driven benchmarking library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "A Ruby/Rack web server built for parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "\ud83e\udddf The modern PHP app server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "status": "candidate-context",
+      "text": "A Golang http.RoundTripper optimized for caching responses from GitHub's REST API via conditional requests (ETag)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akheron/jansson",
+      "status": "candidate-context",
+      "text": "C library for encoding, decoding and manipulating JSON data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akheron/jansson",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "Home of the ABS programming language: the joy of shell scripting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feross/buffer",
+      "status": "candidate-context",
+      "text": "The buffer module from node.js, for the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/buffer",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/extension-cpp",
+      "status": "candidate-context",
+      "text": "C++ extensions in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/extension-cpp",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/snoop",
+      "status": "candidate-context",
+      "text": "A powerful set of Python debugging tools, based on PySnooper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/snoop",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate-context",
+      "text": "Dark magic delights in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swansonk14/admet_ai",
+      "status": "candidate-context",
+      "text": "Training and prediction scripts for Chemprop models trained on ADMET datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swansonk14/admet_ai",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "PyTensor allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "A learning environment for man-made Interactive Fiction games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate-context",
+      "text": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appletea233/Temporal-R1",
+      "status": "candidate-context",
+      "text": "Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appletea233/Temporal-R1",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "Reverse engineered API of Microsoft's Bing Chat AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "Compute Node of Dria Knowledge Network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "A markdown parser and compiler. Built for speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "nanobind: tiny and efficient C++/Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cldf/segments",
+      "status": "candidate-context",
+      "text": "Unicode Standard tokenization routines and orthography profile segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cldf/segments",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI UX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "Optax is a gradient processing and optimization library for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Generate files from docker container meta-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andriykohut/pdm-readiness",
+      "status": "candidate-context",
+      "text": "A pdm plugin to check if your project dependencies support specific Python version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andriykohut/pdm-readiness",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate-context",
+      "text": "Cleo allows you to create beautiful and testable command-line interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate-context",
+      "text": "Poetry PEP 517 Build Backend & Core Utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate-context",
+      "text": "Poetry plugin to bundle projects into various formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -2161,6 +2779,318 @@
       "source_repo": "BrianPugh/micropython-libs",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/domino",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/PhotoCollage",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/executing",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/pure_eval",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/EasyR1",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-thought/reasoning-gym",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falconry/falcon",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-e-k/canvas_ity",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/nginx-proxy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backup/backup",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/serverless-application-model",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeogitOrg/neogit",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/overseer.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enbop/fungi",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalmoksha/motion-markdown-it",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bheisler/criterion.rs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remy/nodemon",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puma/puma",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bored-engineer/github-conditional-http-transport",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akheron/jansson",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abs-lang/abs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dequelabs/axe-core-npm",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/buffer",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/extension-cpp",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/snoop",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/sorcery",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swansonk14/admet_ai",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymc-devs/pytensor",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/jericho",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-quickstarts",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appletea233/Temporal-R1",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheong08/EdgeGPT",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanQiWei/peft",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstbatchxyz/dkn-compute-node",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markedjs/marked",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjakob/nanobind",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cldf/segments",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/optax",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andriykohut/pdm-readiness",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/cleo",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-core",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-poetry/poetry-plugin-bundle",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -3049,11 +3979,365 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "BrianPugh/micropython-libs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "angular/domino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "adrienverge/PhotoCollage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alexmojaki/executing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/pure_eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/EasyR1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "open-thought/reasoning-gym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nginx-proxy/nginx-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "backup/backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SublimeLinter/SublimeLinter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tox_run.yml",
+      "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalmoksha/motion-markdown-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "remy/nodemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bored-engineer/github-conditional-http-transport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "akheron/jansson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "dequelabs/axe-core-npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "feross/buffer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pytorch/extension-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/snoop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/sorcery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "swansonk14/admet_ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/jericho"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "anthropics/claude-quickstarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appletea233/Temporal-R1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "acheong08/EdgeGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PanQiWei/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "markedjs/marked"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/nvcc-win.yml",
+      "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cldf/segments"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andriykohut/pdm-readiness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/cleo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "python-poetry/poetry-plugin-bundle"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T21:41:18.518062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chaoyuaw/lvu",
+    "html_url": "https://github.com/chaoyuaw/lvu",
+    "language": "Python",
+    "pushed_at": "2024-03-04T16:07:50Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-01-01T13:45:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

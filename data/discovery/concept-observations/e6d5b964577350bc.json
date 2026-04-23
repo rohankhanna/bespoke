@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cargo Deny"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cargo Deny"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11703,
+      "status": "candidate",
+      "text": "refuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "abandonment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "discharging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cargo Deny",
+      "sense_id": "cargo-deny#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cargo-deny",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cargo-deny",
+  "observation_id": "e6d5b964577350bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Cargo Deny",
+  "source_context_snippet": "Cargo Deny",
+  "source_file": ".github/workflows/deny.yml",
+  "source_repo": "mosecorg/mosec",
+  "source_repo_description": "A high-performance ML model serving framework, offers dynamic batching and CPU/GPU pipelines to fully exploit your compute machine"
+}

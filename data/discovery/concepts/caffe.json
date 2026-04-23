@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "caffe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "Bolt is a deep learning library with high performance and heterogeneous flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate-context",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "status": "candidate-context",
+      "text": "Caffe implementation of Google MobileNet SSD detection network, with pretrained weights on VOC0712 and mAP=0.727."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "status": "candidate-context",
+      "text": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/bolt",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/ncnn",
+      "status": "candidate",
+      "text": "![ncnn](https://raw.githubusercontent.com/Tencent/ncnn/master/images/256-ncnn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chuanqi305/MobileNet-SSD",
+      "status": "candidate",
+      "text": "A caffe implementation of MobileNet-SSD detection network, with pretrained weights on VOC0712 and mAP=0.727."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048481,
+      "status": "candidate",
+      "text": "caffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048480,
+      "status": "candidate",
+      "text": "cappuccino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048479,
+      "status": "candidate",
+      "text": "cafe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048478,
+      "status": "candidate",
+      "text": "cofe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048477,
+      "status": "candidate",
+      "text": "espresso"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "caffe",
+  "concept_id": "caffe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "chuanqi305/MobileNet-SSD"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caffe",
+      "sense_id": "caffe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

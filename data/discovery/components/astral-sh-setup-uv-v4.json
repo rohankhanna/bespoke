@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "GoogleCloudPlatform/agent-starter-pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/help-in-readme.yml",
+      "source_repo": "akaihola/darker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "akaihola/darker"
     }
   ]
 }

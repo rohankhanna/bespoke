@@ -6,29 +6,8 @@
       "source_repo": "CASIA-LMC-Lab/FastSAM",
       "target": "casia-iva-lab/fastsam",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "ultralytics/ultralytics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "kbh00/semantic-fast-sam",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CASIA-LMC-Lab/FastSAM",
-      "target": "churuanh0/fastsam_awsome_tensorrt",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "CASIA-LMC-Lab/FastSAM"
 }

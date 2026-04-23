@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-base-action@e8132bc5e637a42c27763fc757faa37e1ee43b34",
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebookincubator/velox"
+    }
+  ]
+}

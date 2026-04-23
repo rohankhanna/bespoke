@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051174,
+      "status": "candidate",
+      "text": "routing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014248,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974174,
+      "status": "candidate",
+      "text": "route"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19962726,
+      "status": "candidate",
+      "text": "adapter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948036,
+      "status": "candidate",
+      "text": "hub"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "router",
+      "sense_id": "router#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "router",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "router",
+  "observation_id": "136be31e0b1935c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "router",
+  "source_context_snippet": "<img align=\"right\" width=\"159px\" src=\"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png\">",
+  "source_file": null,
+  "source_repo": "gin-gonic/gin",
+  "source_repo_description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices."
+}

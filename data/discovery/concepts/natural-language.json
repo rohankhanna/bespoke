@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "natural-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "The core software distribution for the Inform 7 programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate-context",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganelson/inform",
+      "status": "candidate",
+      "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "natural-language",
+  "concept_id": "natural-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "ganelson/inform"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "natural-language",
+      "sense_id": "natural-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

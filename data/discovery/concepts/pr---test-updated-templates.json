@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR - Test Updated Templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "Repository for Dev Container Templates that are managed by Dev Container spec maintainers. See https://github.com/devcontainers/template-starter to create your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate-context",
+      "text": "\"PR - Test Updated Templates\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/templates",
+      "status": "candidate",
+      "text": "\"PR - Test Updated Templates\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21797,
+      "status": "candidate",
+      "text": "test pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21225,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21203,
+      "status": "candidate",
+      "text": "adduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18150,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18150,
+      "status": "candidate",
+      "text": "present"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR - Test Updated Templates",
+  "concept_id": "pr---test-updated-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/templates"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR - Test Updated Templates",
+      "sense_id": "pr---test-updated-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

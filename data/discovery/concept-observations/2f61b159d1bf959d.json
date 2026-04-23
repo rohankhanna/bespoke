@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On-prem GitHub Actions runners, backed by Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload tool cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload tool cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25721,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25721,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25721,
+      "status": "candidate",
+      "text": "stow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24795,
+      "status": "candidate",
+      "text": "ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24795,
+      "status": "candidate",
+      "text": "rammer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload tool cache",
+      "sense_id": "upload-tool-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-tool-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-tool-cache",
+  "observation_id": "2f61b159d1bf959d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Upload tool cache",
+  "source_context_snippet": "Upload tool cache",
+  "source_file": ".github/workflows/make-tool-cache.yml",
+  "source_repo": "boozallen/goobernetes",
+  "source_repo_description": "On-prem GitHub Actions runners, backed by Kubernetes"
+}

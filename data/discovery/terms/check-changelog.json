@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "heroku/heroku-buildpack-pgbouncer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "DataDog/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-ruby"
     }
   ],
   "term": "Check Changelog"

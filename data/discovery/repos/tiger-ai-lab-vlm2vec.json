@@ -1,0 +1,162 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "mmeb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TIGER-AI-Lab/VLM2Vec",
+      "target": "visual-document-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:48:13.426439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9886
+    },
+    {
+      "path": "requirements.txt",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains the code for \"VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\" [ICLR 2025]",
+    "fork": false,
+    "full_name": "TIGER-AI-Lab/VLM2Vec",
+    "html_url": "https://github.com/TIGER-AI-Lab/VLM2Vec",
+    "language": "Python",
+    "pushed_at": "2026-04-20T08:21:19Z",
+    "stargazers_count": 627,
+    "topics": [
+      "benchmark",
+      "contrastive-learning",
+      "embedding",
+      "image-retrieval",
+      "mmeb",
+      "multimodal",
+      "rag",
+      "representation-learning",
+      "video-retrieval",
+      "visual-document-retrieval",
+      "vlm"
+    ],
+    "updated_at": "2026-04-22T14:04:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmeb"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    },
+    {
+      "context_snippet": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-document-retrieval"
+    }
+  ]
+}

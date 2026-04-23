@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 3D computer vision development toolkit based on PaddlePaddle. It supports point-cloud object detection, segmentation, and monocular 3D object detection models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Paddle3D\u662f\u98de\u6868\u5b98\u65b9\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u6df1\u5ea6\u5b66\u4e603D\u611f\u77e5\u5957\u4ef6\uff0c\u6db5\u76d6\u4e86\u8bb8\u591a\u524d\u6cbf\u548c\u7ecf\u5178\u76843D\u611f\u77e5\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6a21\u6001\u548c\u591a\u79cd\u4efb\u52a1\uff0c\u53ef\u4ee5\u52a9\u529b\u5f00\u53d1\u8005\u4fbf\u6377\u5730\u5b8c\u6210 **\u300e\u81ea\u52a8\u9a7e\u9a76\u300f** \u9886\u57df\u6a21\u578b \u4ece\u8bad\u7ec3\u5230\u90e8\u7f72\u7684\u5168\u6d41\u7a0b\u5e94\u7528\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Paddle3D\u662f\u98de\u6868\u5b98\u65b9\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u6df1\u5ea6\u5b66\u4e603D\u611f\u77e5\u5957\u4ef6\uff0c\u6db5\u76d6\u4e86\u8bb8\u591a\u524d\u6cbf\u548c\u7ecf\u5178\u76843D\u611f\u77e5\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6a21\u6001\u548c\u591a\u79cd\u4efb\u52a1\uff0c\u53ef\u4ee5\u52a9\u529b\u5f00\u53d1\u8005\u4fbf\u6377\u5730\u5b8c\u6210 **\u300e\u81ea\u52a8\u9a7e\u9a76\u300f** \u9886\u57df\u6a21\u578b \u4ece\u8bad\u7ec3\u5230\u90e8\u7f72\u7684\u5168\u6d41\u7a0b\u5e94\u7528\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036532,
+      "status": "candidate",
+      "text": "phoebus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39538247,
+      "status": "candidate",
+      "text": "phoebus apollo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037747,
+      "status": "candidate",
+      "text": "adonis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036584,
+      "status": "candidate",
+      "text": "helios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894401,
+      "status": "candidate",
+      "text": "champ"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apollo",
+      "sense_id": "apollo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phoebus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phoebus apollo"
+    }
+  ],
+  "concept_id": "apollo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apollo",
+  "observation_id": "8ec37a46c1023453",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "apollo",
+  "source_context_snippet": "Paddle3D\u662f\u98de\u6868\u5b98\u65b9\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u6df1\u5ea6\u5b66\u4e603D\u611f\u77e5\u5957\u4ef6\uff0c\u6db5\u76d6\u4e86\u8bb8\u591a\u524d\u6cbf\u548c\u7ecf\u5178\u76843D\u611f\u77e5\u6a21\u578b\uff0c\u652f\u6301\u591a\u79cd\u6a21\u6001\u548c\u591a\u79cd\u4efb\u52a1\uff0c\u53ef\u4ee5\u52a9\u529b\u5f00\u53d1\u8005\u4fbf\u6377\u5730\u5b8c\u6210 **\u300e\u81ea\u52a8\u9a7e\u9a76\u300f** \u9886\u57df\u6a21\u578b \u4ece\u8bad\u7ec3\u5230\u90e8\u7f72\u7684\u5168\u6d41\u7a0b\u5e94\u7528\u3002",
+  "source_file": null,
+  "source_repo": "PaddlePaddle/Paddle3D",
+  "source_repo_description": "A 3D computer vision development toolkit based on PaddlePaddle. It supports point-cloud object detection, segmentation, and monocular 3D object detection models."
+}

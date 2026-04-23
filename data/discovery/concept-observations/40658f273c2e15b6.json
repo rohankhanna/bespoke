@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Workflow Engine for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27109342,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27016220,
+      "status": "candidate",
+      "text": "listen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26685053,
+      "status": "candidate",
+      "text": "elisa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26681838,
+      "status": "candidate",
+      "text": "eisa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18210901,
+      "status": "candidate",
+      "text": "trabajo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elsa",
+      "sense_id": "elsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elsa",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elsa",
+  "observation_id": "40658f273c2e15b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "elsa",
+  "source_context_snippet": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)",
+  "source_file": null,
+  "source_repo": "elsa-workflows/elsa-core",
+  "source_repo_description": "The Workflow Engine for .NET"
+}

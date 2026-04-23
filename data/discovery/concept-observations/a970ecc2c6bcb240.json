@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gitalk is a modern comment component based on Github Issue and Preact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gitalk \u2014 A comment plugin base on GitHub issues"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048771,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048444,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037772,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029759,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004881,
+      "status": "candidate",
+      "text": "gossip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comment",
+      "sense_id": "comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15035,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13022,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "scuttlebutt"
+    }
+  ],
+  "concept_id": "comment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comment",
+  "observation_id": "a970ecc2c6bcb240",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "comment",
+  "source_context_snippet": "gitalk \u2014 A comment plugin base on GitHub issues",
+  "source_file": null,
+  "source_repo": "gitalk/gitalk",
+  "source_repo_description": "Gitalk is a modern comment component based on Github Issue and Preact."
+}

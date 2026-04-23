@@ -43,6 +43,18 @@
       "source_repo": "op-rs/kona",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "Transports, Middleware, and Networks for the OP Stack built on Alloy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "op-rs/kona",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/op-alloy",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml\"><img src=\"https://github.com/alloy-rs/op-alloy/actions/workflows/ci.yml/badge.svg?label=ci\" alt=\"CI\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "op-rs/kona"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/op-alloy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

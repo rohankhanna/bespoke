@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1272,6 +1272,456 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/workflow.yml",
       "source_repo": "facebookresearch/detectron2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "EnterpriseDB/barman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/java-debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ChristopherHX/github-act-runner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildAndTestBazel.yml",
+      "source_repo": "openxla/stablehlo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/rapids-logger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare-results.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/development.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-2ndgen-docs.yml",
+      "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jewel-checks.yml",
+      "source_repo": "JetBrains/intellij-community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "decaporg/decap-cms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-dht"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/cid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-elixir"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "untitaker/hyperlink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-miniscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "PaddlePaddle/PaddleX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tensorflow/tensorboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static_code_analysis.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yaml",
+      "source_repo": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-go-pixiu-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "dubbo-go-pixiu/dubbo-go-pixiu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-playwright-es"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "objectbox/objectbox-generator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR.yml",
+      "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-failures.yml",
+      "source_repo": "bioconda/bioconda-recipes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rav1e.yml",
+      "source_repo": "xiph/rav1e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-sys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job.test.yml",
+      "source_repo": "jupyter-lsp/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stepancheg/rust-protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chaos-test.yml",
+      "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/groth16"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "digitalocean/godo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "jupyter/governance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "civitai/civitai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cjpais/Handy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-yamls.yml",
+      "source_repo": "OpenBMB/ChatDev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "redis/go-redis-entraid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jhump/protoreflect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzzers.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/snmalloc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bblanchon/ArduinoJson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snapshot.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/k8s-node-collector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "mybigday/whisper.node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/promote.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "actions-oss/act-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-dynamo/modelexpress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ada-url/kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ada-url/kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-ada.yml",
+      "source_repo": "ada-url/kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/auth_plug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ceramicnetwork/js-dag-jose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "servo/servo.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "servo/servo.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-reusable.yml",
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-autogpt-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-benchmark-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-forge-ci.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/classic-python-checks.yml",
+      "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "corporateshark/lightweightvk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binary-size.yml",
+      "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "walles/px"
     }
   ]
 }

@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganelson/inform",
+      "target": "davidkinder/windows-inform7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganelson/inform",
+      "target": "curiousdannii/parchment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganelson/inform",
+      "target": "davidkinder/inform6",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganelson/inform",
+      "target": "erkyrath/cheapglk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inform",
+      "target": "interactive-fiction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inform",
+      "target": "natural-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inform",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:47:54.763121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The core software distribution for the Inform 7 programming language.",
+    "fork": false,
+    "full_name": "ganelson/inform",
+    "html_url": "https://github.com/ganelson/inform",
+    "language": "C",
+    "pushed_at": "2026-04-23T09:13:42Z",
+    "stargazers_count": 1584,
+    "topics": [
+      "interactive-fiction",
+      "natural-language",
+      "programming-language"
+    ],
+    "updated_at": "2026-04-23T09:13:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "curiousdannii/parchment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/inform6",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkinder/windows-inform7",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erkyrath/cheapglk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-fiction"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "huggingface/huggingface_hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "huggingface/hf-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "huggingface/huggingface_hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cgisky1980/hf-hub",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:11:06.012942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1536
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1872
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust client for the huggingface hub aiming for minimal subset of features over `huggingface-hub` python package",
+    "fork": true,
+    "full_name": "cgisky1980/hf-hub",
+    "html_url": "https://github.com/cgisky1980/hf-hub",
+    "language": "Rust",
+    "pushed_at": "2024-06-28T00:11:52Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-06-28T00:11:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/huggingface_hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/hf-hub",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/huggingface_hub",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

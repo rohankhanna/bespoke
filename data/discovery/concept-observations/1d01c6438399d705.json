@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "csa check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "csa check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14156,
+      "status": "candidate",
+      "text": "cca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14156,
+      "status": "candidate",
+      "text": "cida"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "association"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14115,
+      "status": "candidate",
+      "text": "cad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "csa check",
+      "sense_id": "csa-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "csa-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "csa-check",
+  "observation_id": "1d01c6438399d705",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "csa check",
+  "source_context_snippet": "csa check",
+  "source_file": ".github/workflows/csa-check.yml",
+  "source_repo": "bdwgc/bdwgc",
+  "source_repo_description": "The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)"
+}

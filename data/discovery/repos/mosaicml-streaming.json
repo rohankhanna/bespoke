@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/streaming",
+      "target": "mosaicml/diffusion-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mosaicml/streaming",
+      "target": "mosaicml/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "Installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "Publish mosaicml-streaming to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "mosaicml/streaming",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mosaicml/streaming",
+      "target": "streaming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:42:11.765416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15951
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 16114
+    },
+    {
+      "path": ".github/workflows/install.yaml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/linting.yaml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/pypi-release.yaml",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 1891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Data Streaming Library for Efficient Neural Network Training",
+    "fork": false,
+    "full_name": "mosaicml/streaming",
+    "html_url": "https://github.com/mosaicml/streaming",
+    "language": "Python",
+    "pushed_at": "2026-02-02T10:49:55Z",
+    "stargazers_count": 1497,
+    "topics": [
+      "dataset",
+      "deep-learning",
+      "machine-learning",
+      "neural-network",
+      "pytorch",
+      "streaming"
+    ],
+    "updated_at": "2026-04-23T19:36:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/diffusion-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosaicml/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Installation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yaml",
+      "term": "Installation"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Publish mosaicml-streaming to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-release.yaml",
+      "term": "Publish mosaicml-streaming to PyPI"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    }
+  ]
+}

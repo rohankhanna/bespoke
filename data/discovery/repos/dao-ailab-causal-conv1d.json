@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "Build wheels in a container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Dao-AILab/causal-conv1d",
+      "target": "Build wheels and deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:10.021441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1086
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 99
+    },
+    {
+      "path": ".github/workflows/_build.yml",
+      "size": 8518
+    },
+    {
+      "path": ".github/workflows/_build_in_container.yml",
+      "size": 5254
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1467
+    },
+    {
+      "path": ".github/workflows/build_in_container.yml",
+      "size": 2213
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 5302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Causal depthwise conv1d in CUDA, with a PyTorch interface",
+    "fork": false,
+    "full_name": "Dao-AILab/causal-conv1d",
+    "html_url": "https://github.com/Dao-AILab/causal-conv1d",
+    "language": "Cuda",
+    "pushed_at": "2026-03-10T08:23:24Z",
+    "stargazers_count": 846,
+    "topics": [],
+    "updated_at": "2026-04-23T20:02:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Build wheels in a container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "term": "Build wheels in a container"
+    },
+    {
+      "context_snippet": "Build wheels and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Build wheels and deploy"
+    }
+  ]
+}

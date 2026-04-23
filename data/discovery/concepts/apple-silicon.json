@@ -19,6 +19,42 @@
       "source_repo": "scasella/nanochat-mlx",
       "status": "candidate-context",
       "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80\ud83c\udf21\ufe0f Real-time system monitor for Apple Silicon Macs (M1\u2013M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate-context",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for local LLM inference with llama.cpp, vLLM, and TGI - multi-GPU, autoscaling, air-gapped, production-ready"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "scasella/nanochat-mlx",
       "status": "candidate",
       "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/macmon",
+      "status": "candidate",
+      "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLTcollab/sse2neon",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "defilantech/LLMKube",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "scasella/nanochat-mlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "vladkens/macmon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "defilantech/LLMKube"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "lexical_providers": [
     "datamuse"
   ],

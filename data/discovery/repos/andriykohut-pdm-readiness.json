@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies.yml"
+    },
+    {
+      "component": "pdm-project/update-deps-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "pdm-project/setup-pdm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "pdm-project/setup-pdm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "pdm-project/update-deps-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "Update dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andriykohut/pdm-readiness",
+      "target": "pdm-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:24:00.191654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1512
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1084
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/update-dependencies.yml",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pdm plugin to check if your project dependencies support specific Python version.",
+    "fork": false,
+    "full_name": "andriykohut/pdm-readiness",
+    "html_url": "https://github.com/andriykohut/pdm-readiness",
+    "language": "Python",
+    "pushed_at": "2026-04-22T03:23:52Z",
+    "stargazers_count": 6,
+    "topics": [
+      "pdm",
+      "pdm-plugin",
+      "python"
+    ],
+    "updated_at": "2025-10-26T07:01:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "term": "Update dependencies"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/pdm-readiness.svg)](https://pypi.org/project/pdm-readiness/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdm-plugin"
+    }
+  ]
+}

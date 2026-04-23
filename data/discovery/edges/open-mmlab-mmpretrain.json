@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmengine",
+      "target": "open-mmlab/mmocr",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmeval",
+      "target": "open-mmlab/mmpose",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmdetection",
+      "target": "open-mmlab/mmhuman3d",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmdetection3d",
+      "target": "open-mmlab/mmrazor",
       "target_type": "repository"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-23T18:30:35.670459+00:00",
   "source_repo": "open-mmlab/mmpretrain"
 }

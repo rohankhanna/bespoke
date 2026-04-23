@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "containers/libpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "giuseppe/become-root",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "openeuler-mirror/isulad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "rootless-containers/usernetes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/rootlesskit",
+      "target": "rootless-containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:06:45.437201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14199
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5138
+    },
+    {
+      "path": "go.mod",
+      "size": 1579
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 18764
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux-native \"fake root\" for implementing rootless containers",
+    "fork": false,
+    "full_name": "rootless-containers/rootlesskit",
+    "html_url": "https://github.com/rootless-containers/rootlesskit",
+    "language": "Go",
+    "pushed_at": "2026-04-09T19:02:03Z",
+    "stargazers_count": 1252,
+    "topics": [
+      "rootless-containers"
+    ],
+    "updated_at": "2026-04-23T18:18:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/libpod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "giuseppe/become-root",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openeuler-mirror/isulad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rootless-containers/usernetes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "RootlessKit is a Linux-native implementation of \"fake root\" using [`user_namespaces(7)`](http://man7.org/linux/man-pages/man7/user_namespaces.7.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rootless-containers"
+    }
+  ]
+}

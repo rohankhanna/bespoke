@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "cff2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "Source Han Sans | \u601d\u6e90\u9ed1\u4f53 | \u601d\u6e90\u9ed1\u9ad4 | \u601d\u6e90\u9ed1\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u89d2\u30b4\u30b7\u30c3\u30af | \ubcf8\uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "Source Han Serif | \u601d\u6e90\u5b8b\u4f53 | \u601d\u6e90\u5b8b\u9ad4 | \u601d\u6e90\u5b8b\u9ad4 \u9999\u6e2f | \u6e90\u30ce\u660e\u671d | \ubcf8\uba85\uc870"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-sans",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-sans/) [\u7b80\u4f53\u4e2d\u6587](README-CN.md) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md) [\u65e5\u672c\u8a9e](README-JP.md) [\ud55c\uad6d\uc5b4](README-KR.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-fonts/source-han-serif",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [\u7b80\u4f53\u4e2d\u6587](README-CN.md#\u601d\u6e90\u5b8b\u4f53) [\u7e41\u9ad4\u4e2d\u6587](README-TW.md#\u601d\u6e90\u5b8b\u9ad4) [\u65e5\u672c\u8a9e](README-JP.md#\u6e90\u30ce\u660e\u671d\u3052\u3093\u306e\u307f\u3093\u3061\u3087\u3046) [\ud55c\uad6d\uc5b4](README-KR.md#\ubcf8\uba85\uc870)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cff2",
+  "concept_id": "cff2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "adobe-fonts/source-han-serif"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff2",
+      "sense_id": "cff2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

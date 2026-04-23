@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "nebelgrau77/airsniffer-esp32c6",
+      "target": "esp-rs/esp-hal",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:38:58.207079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1543
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nebelgrau77/airsniffer-esp32c6",
+    "html_url": "https://github.com/nebelgrau77/airsniffer-esp32c6",
+    "language": "Rust",
+    "pushed_at": "2026-02-23T13:29:33Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-14T22:05:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esp-rs/esp-hal",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

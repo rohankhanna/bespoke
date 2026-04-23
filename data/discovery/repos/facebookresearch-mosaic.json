@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "facebookresearch/mosaic",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:12:00.260734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6344
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 85
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Post processing library used to analyze memory snapshots",
+    "fork": false,
+    "full_name": "facebookresearch/mosaic",
+    "html_url": "https://github.com/facebookresearch/mosaic",
+    "language": "Python",
+    "pushed_at": "2026-04-08T02:06:41Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-04-16T06:05:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Linting.yml",
+      "source_repo": "rust-embedded/awesome-embedded-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NeogitOrg/neogit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphile/crystal"
     }
   ],
   "term": "linting"

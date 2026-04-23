@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "rocm/mori",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "uccl-project/uccl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "infrawaves/deepep_ibrc_dual-ports_multiqp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "antgroup/deepxtrace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "deepseek-ai/DeepEP",
+      "target": "Code Format Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:52:13.759221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21309
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepEP: an efficient expert-parallel communication library",
+    "fork": false,
+    "full_name": "deepseek-ai/DeepEP",
+    "html_url": "https://github.com/deepseek-ai/DeepEP",
+    "language": "Cuda",
+    "pushed_at": "2026-04-23T08:10:14Z",
+    "stargazers_count": 9181,
+    "topics": [],
+    "updated_at": "2026-04-23T19:57:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antgroup/deepxtrace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "infrawaves/deepep_ibrc_dual-ports_multiqp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/mori",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uccl-project/uccl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Code Format Check"
+    }
+  ]
+}

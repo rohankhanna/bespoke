@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T20:05:12.248740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C library that may be linked into a C/C++ program to produce symbolic backtraces",
+    "fork": false,
+    "full_name": "ianlancetaylor/libbacktrace",
+    "html_url": "https://github.com/ianlancetaylor/libbacktrace",
+    "language": "C",
+    "pushed_at": "2025-11-06T21:02:50Z",
+    "stargazers_count": 1174,
+    "topics": [],
+    "updated_at": "2026-04-23T09:00:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

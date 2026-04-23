@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T22:05:23.430418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GNAT Components Collection \u2013 Bindings to C libraries",
+    "fork": false,
+    "full_name": "AdaCore/gnatcoll-bindings",
+    "html_url": "https://github.com/AdaCore/gnatcoll-bindings",
+    "language": "Ada",
+    "pushed_at": "2026-02-11T16:16:41Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-13T17:39:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

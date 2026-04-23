@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "target": "logankilpatrick/gemini-api-quickstart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-api-quickstart",
+      "target": "gemini-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:57:36.121527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2142
+    },
+    {
+      "path": "requirements.txt",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get up and running with the Gemini API in under 5 minutes (with Python)",
+    "fork": false,
+    "full_name": "google-gemini/gemini-api-quickstart",
+    "html_url": "https://github.com/google-gemini/gemini-api-quickstart",
+    "language": "CSS",
+    "pushed_at": "2026-04-21T19:22:40Z",
+    "stargazers_count": 474,
+    "topics": [
+      "gemini",
+      "gemini-api"
+    ],
+    "updated_at": "2026-04-21T09:24:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logankilpatrick/gemini-api-quickstart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "This repository contains a simple Python Flask App running with the Google AI Gemini API, designed to get you started building with Gemini's multi-modal capabilities. The app comes with a basic UI and a Flask backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    }
+  ]
+}

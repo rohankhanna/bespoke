@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "multimodality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "vision-language-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIDC-AI/Ovis",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:40:55.301265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11471
+    },
+    {
+      "path": "requirements.txt",
+      "size": 414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A novel Multimodal Large Language Model (MLLM) architecture, designed to structurally align visual and textual embeddings.",
+    "fork": false,
+    "full_name": "AIDC-AI/Ovis",
+    "html_url": "https://github.com/AIDC-AI/Ovis",
+    "language": "Python",
+    "pushed_at": "2026-02-11T09:17:03Z",
+    "stargazers_count": 1447,
+    "topics": [
+      "chatbot",
+      "llama3",
+      "multimodal",
+      "multimodal-large-language-models",
+      "multimodality",
+      "qwen",
+      "vision-language-learning",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-23T06:08:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodality"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

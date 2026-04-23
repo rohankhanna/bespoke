@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "webiny/action-conventional-commits@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tanvirtin/vgit.nvim",
+      "target": "webiny/action-conventional-commits@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tanvirtin/vgit.nvim",
+      "target": "git-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tanvirtin/vgit.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:02:37.906877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16146
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Visual git plugin for Neovim",
+    "fork": false,
+    "full_name": "tanvirtin/vgit.nvim",
+    "html_url": "https://github.com/tanvirtin/vgit.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-28T19:43:40Z",
+    "stargazers_count": 844,
+    "topics": [
+      "git",
+      "git-integration",
+      "lua",
+      "neovim",
+      "scm"
+    ],
+    "updated_at": "2026-04-22T21:36:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-integration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

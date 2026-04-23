@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "target": "ymoslem/adaptive-mt-llm-fine-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "target": "adaptive-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymoslem/Adaptive-MT-LLM",
+      "target": "machine-translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T22:16:17.305055+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Adaptive Machine Translation with Large Language Models",
+    "fork": false,
+    "full_name": "ymoslem/Adaptive-MT-LLM",
+    "html_url": "https://github.com/ymoslem/Adaptive-MT-LLM",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-04T07:49:35Z",
+    "stargazers_count": 31,
+    "topics": [
+      "adaptive-machine-translation",
+      "domain-adaptation",
+      "large-language-models",
+      "machine-translation"
+    ],
+    "updated_at": "2026-04-08T19:28:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymoslem/adaptive-mt-llm-fine-tuning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-machine-translation"
+    },
+    {
+      "context_snippet": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Code for the paper \"[Adaptive Machine Translation with Large Language Models](https://aclanthology.org/2023.eamt-1.22/)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    }
+  ]
+}

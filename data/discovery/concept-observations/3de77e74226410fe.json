@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label New Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label New Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "merchant bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label New Issues",
+      "sense_id": "label-new-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-new-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-new-issues",
+  "observation_id": "3de77e74226410fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_text": "Label New Issues",
+  "source_context_snippet": "Label New Issues",
+  "source_file": ".github/workflows/label_issue.yml",
+  "source_repo": "NVIDIA/TensorRT",
+  "source_repo_description": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT."
+}

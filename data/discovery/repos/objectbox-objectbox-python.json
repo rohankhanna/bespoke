@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "objectbox/objectbox-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "objectbox/objectbox-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "objectbox/objectbox-python",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-python",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-python",
+      "target": "database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:50:04.695178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4434
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Superfast on-device object & vector database for Python",
+    "fork": false,
+    "full_name": "objectbox/objectbox-python",
+    "html_url": "https://github.com/objectbox/objectbox-python",
+    "language": "Python",
+    "pushed_at": "2026-03-22T08:25:02Z",
+    "stargazers_count": 182,
+    "topics": [
+      "cross-platform",
+      "database",
+      "python"
+    ],
+    "updated_at": "2026-04-12T05:47:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "ObjectBox Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "ObjectBox Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    }
+  ]
+}

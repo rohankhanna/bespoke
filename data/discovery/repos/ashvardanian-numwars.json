@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/NumWars",
+      "target": "dimforge/nalgebra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/NumWars",
+      "target": "bluss/matrixmultiply",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/NumWars",
+      "target": "georust/geo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/NumWars",
+      "target": "ashvardanian/stringwars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "matrix-multiplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumWars",
+      "target": "simd-instructions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:03:54.306711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20175
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3418
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mixed-precision numerics benchmarks in Rust and Python - covering GEMMs, SYRKs, DOTs, and higher-level BLAS and LAPACK-style functionality",
+    "fork": false,
+    "full_name": "ashvardanian/NumWars",
+    "html_url": "https://github.com/ashvardanian/NumWars",
+    "language": "Rust",
+    "pushed_at": "2026-04-09T11:37:17Z",
+    "stargazers_count": 31,
+    "topics": [
+      "analytics",
+      "benchmark",
+      "blas",
+      "linear-algebra",
+      "matrix-multiplication",
+      "simd",
+      "simd-instructions"
+    ],
+    "updated_at": "2026-04-15T09:59:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/stringwars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluss/matrixmultiply",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimforge/nalgebra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "georust/geo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-multiplication"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "![NumWars banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/NumWars-v1.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-instructions"
+    }
+  ]
+}

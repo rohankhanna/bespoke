@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Albatross"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "Albatross: orchestrate and manage MirageOS unikernels with Solo5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate-context",
+      "text": "Albatross"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robur-coop/albatross",
+      "status": "candidate",
+      "text": "Albatross"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29798942,
+      "status": "candidate",
+      "text": "millstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878839,
+      "status": "candidate",
+      "text": "browed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838393,
+      "status": "candidate",
+      "text": "mantled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19630866,
+      "status": "candidate",
+      "text": "burden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484008,
+      "status": "candidate",
+      "text": "boulet"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "millstone"
+    }
+  ],
+  "canonical_name": "Albatross",
+  "concept_id": "albatross",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robur-coop/albatross"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Albatross",
+      "sense_id": "albatross#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

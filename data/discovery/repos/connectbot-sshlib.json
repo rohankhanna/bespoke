@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "qltysh/qlty-action/coverage@a19242102d17e497f437d7466aa01b528537e899",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectbot/sshlib",
+      "target": "openssh/openssh-portable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib",
+      "target": "qltysh/qlty-action/coverage@a19242102d17e497f437d7466aa01b528537e899",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/sshlib",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/sshlib",
+      "target": "connectbot-ssh-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/sshlib",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/sshlib",
+      "target": "ssh-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectbot/sshlib",
+      "target": "ssh2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T20:00:12.386170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3796
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ConnectBot's SSH library",
+    "fork": false,
+    "full_name": "connectbot/sshlib",
+    "html_url": "https://github.com/connectbot/sshlib",
+    "language": "Java",
+    "pushed_at": "2026-04-23T02:34:24Z",
+    "stargazers_count": 120,
+    "topics": [
+      "connectbot-ssh-library",
+      "java",
+      "ssh",
+      "ssh-library",
+      "ssh2"
+    ],
+    "updated_at": "2026-04-23T02:34:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openssh/openssh-portable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectbot-ssh-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssh-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/connectbot/sshlib/actions/workflows/ci.yml/badge.svg)](https://github.com/connectbot/sshlib/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssh2"
+    }
+  ]
+}

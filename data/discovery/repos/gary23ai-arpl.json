@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gary23ai/ARPL",
+      "target": "icgy96/arpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL",
+      "target": "open-set-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL",
+      "target": "openset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL",
+      "target": "openset-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL",
+      "target": "openset-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gary23ai/ARPL",
+      "target": "out-of-distribution-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T21:45:50.524598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[TPAMI 2022] Adversarial Reciprocal Points Learning for Open Set Recognition",
+    "fork": false,
+    "full_name": "gary23ai/ARPL",
+    "html_url": "https://github.com/gary23ai/ARPL",
+    "language": "Python",
+    "pushed_at": "2023-06-30T11:01:38Z",
+    "stargazers_count": 195,
+    "topics": [
+      "open-set-recognition",
+      "openset",
+      "openset-classification",
+      "openset-recognition",
+      "out-of-distribution-detection"
+    ],
+    "updated_at": "2026-04-13T07:10:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icgy96/arpl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set-recognition"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openset"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openset-classification"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openset-recognition"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [\"**Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)**\"](https://ieeexplore.ieee.org/document/9521769), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.goo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "out-of-distribution-detection"
+    }
+  ]
+}

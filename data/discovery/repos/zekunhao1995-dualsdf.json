@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zekunhao1995/DualSDF",
+      "target": "facebookresearch/deepsdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zekunhao1995/DualSDF",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zekunhao1995/DualSDF",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T19:10:33.794317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DualSDF: Semantic Shape Manipulation using a Two-Level Representation. CVPR'20",
+    "fork": false,
+    "full_name": "zekunhao1995/DualSDF",
+    "html_url": "https://github.com/zekunhao1995/DualSDF",
+    "language": "Python",
+    "pushed_at": "2023-06-02T17:18:01Z",
+    "stargazers_count": 141,
+    "topics": [
+      "computer-vision",
+      "machine-learning"
+    ],
+    "updated_at": "2026-03-23T09:22:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/deepsdf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains an implementation of the CVPR 2020 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repo contains an implementation of the CVPR 2020 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

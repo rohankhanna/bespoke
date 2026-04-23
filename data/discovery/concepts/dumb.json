@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "dumb"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "A minimal init system for Linux containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate-context",
+      "text": "dumb-init"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yelp/dumb-init",
+      "status": "candidate",
+      "text": "dumb-init"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007490,
+      "status": "candidate",
+      "text": "speechless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006901,
+      "status": "candidate",
+      "text": "mute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006481,
+      "status": "candidate",
+      "text": "dull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002905,
+      "status": "candidate",
+      "text": "inarticulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002837,
+      "status": "candidate",
+      "text": "silent"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56050,
+      "status": "candidate",
+      "text": "dull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45049,
+      "status": "candidate",
+      "text": "obtuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33049,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29037,
+      "status": "candidate",
+      "text": "dense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27041,
+      "status": "candidate",
+      "text": "stupid"
+    }
+  ],
+  "canonical_name": "dumb",
+  "concept_id": "dumb",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": null,
+      "source_repo": "Yelp/dumb-init"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dumb",
+      "sense_id": "dumb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

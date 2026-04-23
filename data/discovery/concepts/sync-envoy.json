@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Envoy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "Go implementation of data-plane-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate-context",
+      "text": "Sync Envoy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate",
+      "text": "Sync Envoy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10799,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10623,
+      "status": "candidate",
+      "text": "beamforming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10623,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10623,
+      "status": "candidate",
+      "text": "field"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Envoy",
+  "concept_id": "sync-envoy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T18:30:35.670459+00:00",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/go-control-plane"
+    }
+  ],
+  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Envoy",
+      "sense_id": "sync-envoy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}
